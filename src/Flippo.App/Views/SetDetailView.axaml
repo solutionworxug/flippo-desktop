@@ -76,6 +76,13 @@
                       IsReadOnly="True" GridLinesVisibility="Horizontal"
                       CanUserResizeColumns="True" CanUserSortColumns="True"
                       KeyDown="OnGridKeyDown" DoubleTapped="OnRowDoubleTapped">
+                <DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="{loc:T Ctx_Edit}" Command="{Binding EditSelectedCommand}"/>
+                        <Separator/>
+                        <MenuItem Header="{loc:T Ctx_Delete}" Command="{Binding DeleteSelectedCommand}"/>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="{loc:T Detail_ColSource}" Binding="{Binding SourceText}" Width="*"/>
                     <DataGridTextColumn Header="{loc:T Detail_ColTarget}" Binding="{Binding TargetText}" Width="*"/>

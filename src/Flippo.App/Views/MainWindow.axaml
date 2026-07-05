@@ -8,50 +8,123 @@
         x:Class="Flippo.App.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Width="1000" Height="680" MinWidth="720" MinHeight="480"
+        Background="{DynamicResource Brush.Bg.App}"
         Title="{Binding Title}">
 
-    <LayoutTransformControl>
-        <LayoutTransformControl.LayoutTransform>
-            <ScaleTransform ScaleX="{Binding UiScale}" ScaleY="{Binding UiScale}"/>
-        </LayoutTransformControl.LayoutTransform>
-    <Grid ColumnDefinitions="200,*">
-        <!-- Sidebar -->
-        <Border Grid.Column="0" Background="{DynamicResource SystemControlBackgroundListLowBrush}" Padding="14">
-            <DockPanel>
-                <TextBlock DockPanel.Dock="Top" Text="FLIPPO" FontSize="24" FontWeight="Bold" Margin="4,2,4,4"/>
-                <TextBlock DockPanel.Dock="Top" Text="{loc:T App_Subtitle}" FontSize="12" Opacity="0.6" Margin="4,0,4,18"/>
+    <!-- Globale Kürzel: einzige autoritative Ausführung (Menü zeigt sie nur via Gesture an). -->
+    <Window.KeyBindings>
+        <KeyBinding Gesture="Ctrl+Shift+N" Command="{Binding NewSetCommand}"/>
+        <KeyBinding Gesture="Ctrl+I" Command="{Binding ImportFileCommand}"/>
+        <KeyBinding Gesture="Ctrl+Shift+I" Command="{Binding ImportBackupCommand}"/>
+        <KeyBinding Gesture="Ctrl+E" Command="{Binding ExportBackupCommand}"/>
+        <KeyBinding Gesture="Ctrl+Q" Command="{Binding QuitCommand}"/>
+        <KeyBinding Gesture="F5" Command="{Binding RefreshCommand}"/>
+        <KeyBinding Gesture="Ctrl+L" Command="{Binding LearnAllDueCommand}" CommandParameter="Flashcard"/>
+        <KeyBinding Gesture="Alt+Left" Command="{Binding GoBackCommand}"/>
+    </Window.KeyBindings>
 
-                <Button DockPanel.Dock="Top" Content="{loc:T Nav_Back}"
-                        Command="{Binding GoBackCommand}"
-                        IsVisible="{Binding CanGoBack}"
-                        HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"
-                        Margin="0,0,0,12"/>
+    <!-- Ein Menümodell, plattformadaptiv: macOS exportiert nativ, Windows/Linux zeigen die NativeMenuBar. -->
+    <NativeMenu.Menu>
+        <NativeMenu>
+            <NativeMenuItem Header="{loc:T Menu_File}">
+                <NativeMenuItem.Menu>
+                    <NativeMenu>
+                        <NativeMenuItem Header="{loc:T Menu_NewSet}" Command="{Binding NewSetCommand}" Gesture="Ctrl+Shift+N"/>
+                        <NativeMenuItemSeparator/>
+                        <NativeMenuItem Header="{loc:T Menu_ImportFile}" Command="{Binding ImportFileCommand}" Gesture="Ctrl+I"/>
+                        <NativeMenuItem Header="{loc:T Menu_ImportBackup}" Command="{Binding ImportBackupCommand}" Gesture="Ctrl+Shift+I"/>
+                        <NativeMenuItem Header="{loc:T Menu_ExportBackup}" Command="{Binding ExportBackupCommand}" Gesture="Ctrl+E"/>
+                        <NativeMenuItemSeparator/>
+                        <NativeMenuItem Header="{loc:T Menu_Quit}" Command="{Binding QuitCommand}" Gesture="Ctrl+Q"/>
+                    </NativeMenu>
+                </NativeMenuItem.Menu>
+            </NativeMenuItem>
 
-                <Button DockPanel.Dock="Top" Content="{loc:T Nav_Sets}"
-                        Command="{Binding ShowSetsCommand}"
-                        HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"
-                        Margin="0,0,0,6"/>
-                <Button DockPanel.Dock="Top" Content="{loc:T Nav_Settings}"
-                        Command="{Binding ShowSettingsCommand}"
-                        HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"/>
+            <NativeMenuItem Header="{loc:T Menu_View}">
+                <NativeMenuItem.Menu>
+                    <NativeMenu>
+                        <NativeMenuItem Header="{loc:T Nav_Sets}" Command="{Binding ShowSetsCommand}"/>
+                        <NativeMenuItem Header="{loc:T Nav_Statistics}" Command="{Binding ShowStatisticsCommand}"/>
+                        <NativeMenuItem Header="{loc:T Nav_Settings}" Command="{Binding ShowSettingsCommand}"/>
+                        <NativeMenuItemSeparator/>
+                        <NativeMenuItem Header="{loc:T Nav_Back}" Command="{Binding GoBackCommand}" Gesture="Alt+Left"/>
+                        <NativeMenuItem Header="{loc:T Menu_Refresh}" Command="{Binding RefreshCommand}" Gesture="F5"/>
+                    </NativeMenu>
+                </NativeMenuItem.Menu>
+            </NativeMenuItem>
 
-                <TextBlock DockPanel.Dock="Bottom" Text="{Binding AppVersion}" FontSize="11" Opacity="0.5"/>
-                <Panel/>
-            </DockPanel>
-        </Border>
+            <NativeMenuItem Header="{loc:T Menu_Learn}">
+                <NativeMenuItem.Menu>
+                    <NativeMenu>
+                        <NativeMenuItem Header="{loc:T Sets_ModeFlashcard}" Command="{Binding LearnAllDueCommand}" CommandParameter="Flashcard" Gesture="Ctrl+L"/>
+                        <NativeMenuItem Header="{loc:T Sets_ModeFreeText}" Command="{Binding LearnAllDueCommand}" CommandParameter="FreeText"/>
+                        <NativeMenuItem Header="{loc:T Sets_ModeMultipleChoice}" Command="{Binding LearnAllDueCommand}" CommandParameter="MultipleChoice"/>
+                    </NativeMenu>
+                </NativeMenuItem.Menu>
+            </NativeMenuItem>
 
-        <!-- Seiteninhalt (ViewLocator löst CurrentPage-VM → View auf) -->
-        <DockPanel Grid.Column="1">
-            <!-- Update-Banner: nur sichtbar, wenn ein Update heruntergeladen wurde (nicht-blockierend) -->
-            <Border DockPanel.Dock="Top" IsVisible="{Binding UpdateReady}"
-                    Background="{DynamicResource SystemAccentColor}" Padding="14,8">
-                <StackPanel Orientation="Horizontal" Spacing="14" HorizontalAlignment="Center">
-                    <TextBlock Text="{loc:T Update_Available}" VerticalAlignment="Center" Foreground="White"/>
-                    <Button Content="{loc:T Update_Restart}" Command="{Binding ApplyUpdateCommand}"/>
-                </StackPanel>
-            </Border>
-            <ContentControl Content="{Binding CurrentPage}"/>
-        </DockPanel>
-    </Grid>
-    </LayoutTransformControl>
+            <NativeMenuItem Header="{loc:T Menu_Help}">
+                <NativeMenuItem.Menu>
+                    <NativeMenu>
+                        <NativeMenuItem Header="{loc:T Menu_Shortcuts}" Command="{Binding ShortcutsCommand}"/>
+                        <NativeMenuItemSeparator/>
+                        <NativeMenuItem Header="{loc:T Menu_GitHub}" Command="{Binding OpenGitHubCommand}"/>
+                        <NativeMenuItem Header="{loc:T Menu_CheckUpdates}" Command="{Binding CheckUpdatesCommand}"/>
+                        <NativeMenuItemSeparator/>
+                        <NativeMenuItem Header="{loc:T Menu_About}" Command="{Binding AboutCommand}"/>
+                    </NativeMenu>
+                </NativeMenuItem.Menu>
+            </NativeMenuItem>
+        </NativeMenu>
+    </NativeMenu.Menu>
+
+    <DockPanel>
+        <!-- In-Window-Menüleiste (Windows/Linux); versteckt sich, wenn macOS nativ exportiert. Nicht mitskaliert. -->
+        <NativeMenuBar DockPanel.Dock="Top"/>
+
+        <LayoutTransformControl>
+            <LayoutTransformControl.LayoutTransform>
+                <ScaleTransform ScaleX="{Binding UiScale}" ScaleY="{Binding UiScale}"/>
+            </LayoutTransformControl.LayoutTransform>
+            <Grid ColumnDefinitions="212,*">
+                <!-- Sidebar -->
+                <Border Grid.Column="0" Background="{DynamicResource Brush.Surface.Card}"
+                        BorderBrush="{DynamicResource Brush.Border.Subtle}" BorderThickness="0,0,1,0" Padding="16">
+                    <DockPanel>
+                        <TextBlock DockPanel.Dock="Top" Text="FLIPPO" FontSize="{DynamicResource Font.Title}"
+                                   FontWeight="Bold" Foreground="{DynamicResource Brush.Text.Primary}" Margin="4,2,4,2"/>
+                        <TextBlock DockPanel.Dock="Top" Classes="caption" Text="{loc:T App_Subtitle}" Margin="4,0,4,20"/>
+
+                        <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Back}"
+                                Command="{Binding GoBackCommand}"
+                                IsVisible="{Binding CanGoBack}"
+                                Margin="0,0,0,12"/>
+
+                        <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Sets}"
+                                Command="{Binding ShowSetsCommand}" Margin="0,0,0,4"/>
+                        <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Statistics}"
+                                Command="{Binding ShowStatisticsCommand}" Margin="0,0,0,4"/>
+                        <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Settings}"
+                                Command="{Binding ShowSettingsCommand}"/>
+
+                        <TextBlock DockPanel.Dock="Bottom" Classes="caption" Text="{Binding AppVersion}" Opacity="0.7"/>
+                        <Panel/>
+                    </DockPanel>
+                </Border>
+
+                <!-- Seiteninhalt (ViewLocator löst CurrentPage-VM → View auf) -->
+                <DockPanel Grid.Column="1">
+                    <!-- Update-Banner: nur sichtbar, wenn ein Update heruntergeladen wurde (nicht-blockierend) -->
+                    <Border DockPanel.Dock="Top" IsVisible="{Binding UpdateReady}"
+                            Background="{DynamicResource Brush.Accent}" Padding="16,10">
+                        <StackPanel Orientation="Horizontal" Spacing="14" HorizontalAlignment="Center">
+                            <TextBlock Text="{loc:T Update_Available}" VerticalAlignment="Center" Foreground="White"/>
+                            <Button Content="{loc:T Update_Restart}" Command="{Binding ApplyUpdateCommand}"/>
+                        </StackPanel>
+                    </Border>
+                    <ContentControl Content="{Binding CurrentPage}"/>
+                </DockPanel>
+            </Grid>
+        </LayoutTransformControl>
+    </DockPanel>
 </Window>

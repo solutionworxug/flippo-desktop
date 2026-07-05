@@ -42,6 +42,16 @@
                                     CommandParameter="{Binding}"
                                     HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"
                                     Padding="16" Margin="0,0,0,10">
+                                <Button.ContextFlyout>
+                                    <MenuFlyout>
+                                        <MenuItem Header="{loc:T Ctx_Open}"
+                                                  Command="{Binding $parent[ItemsControl].((vm:SetsOverviewViewModel)DataContext).OpenSetCommand}"
+                                                  CommandParameter="{Binding}"/>
+                                        <MenuItem Header="{loc:T Ctx_Learn}"
+                                                  Command="{Binding $parent[ItemsControl].((vm:SetsOverviewViewModel)DataContext).LearnSetCommand}"
+                                                  CommandParameter="{Binding}"/>
+                                    </MenuFlyout>
+                                </Button.ContextFlyout>
                                 <Grid ColumnDefinitions="*,Auto">
                                     <StackPanel Grid.Column="0" Spacing="2">
                                         <TextBlock Text="{Binding Title}" FontSize="17" FontWeight="SemiBold"/>

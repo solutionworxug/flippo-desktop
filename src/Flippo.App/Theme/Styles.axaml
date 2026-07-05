@@ -1,0 +1,87 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--
+      FLIPPO Style-Klassen auf Basis von Tokens.axaml. Ruhig-professionell: Karten definieren sich
+      über einen dezenten Rand (kaum Schatten), klare Typo-Hierarchie, viel Weißraum.
+      Anwendung via Classes="app-card" / "page-title" / "section" / "metric" usw.
+    -->
+
+    <!-- Karten-Oberfläche -->
+    <Style Selector="Border.app-card">
+        <Setter Property="Background" Value="{DynamicResource Brush.Surface.Card}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource Brush.Border.Subtle}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="{DynamicResource Radius.Card}" />
+        <Setter Property="Padding" Value="{DynamicResource Inset.Card}" />
+    </Style>
+
+    <!-- Seiten-Überschrift (H1) -->
+    <Style Selector="TextBlock.page-title">
+        <Setter Property="FontSize" Value="{DynamicResource Font.Title}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
+    </Style>
+
+    <!-- Kleines Label über Werten (Eyebrow) -->
+    <Style Selector="TextBlock.eyebrow">
+        <Setter Property="FontSize" Value="{DynamicResource Font.Caption}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Secondary}" />
+        <Setter Property="LetterSpacing" Value="0.4" />
+    </Style>
+
+    <!-- Sektions-Überschrift innerhalb einer Karte -->
+    <Style Selector="TextBlock.section">
+        <Setter Property="FontSize" Value="{DynamicResource Font.Section}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
+    </Style>
+
+    <!-- Fließtext -->
+    <Style Selector="TextBlock.body">
+        <Setter Property="FontSize" Value="{DynamicResource Font.Body}" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
+    </Style>
+
+    <!-- Sekundärer Kleintext -->
+    <Style Selector="TextBlock.caption">
+        <Setter Property="FontSize" Value="{DynamicResource Font.Caption}" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Secondary}" />
+    </Style>
+
+    <!-- Große Kennzahl -->
+    <Style Selector="TextBlock.metric">
+        <Setter Property="FontSize" Value="{DynamicResource Font.Metric}" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
+    </Style>
+
+    <!-- Sehr große Kennzahl (Hero-Wert) -->
+    <Style Selector="TextBlock.metric-lg">
+        <Setter Property="FontSize" Value="{DynamicResource Font.Display}" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
+    </Style>
+
+    <!-- Label unter einer Kennzahl -->
+    <Style Selector="TextBlock.metric-label">
+        <Setter Property="FontSize" Value="{DynamicResource Font.Caption}" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Secondary}" />
+    </Style>
+
+    <!-- Sidebar-Navigationseintrag: flach, linksbündig, dezenter Hover -->
+    <Style Selector="Button.nav">
+        <Setter Property="HorizontalAlignment" Value="Stretch" />
+        <Setter Property="HorizontalContentAlignment" Value="Left" />
+        <Setter Property="Padding" Value="10,9" />
+        <Setter Property="CornerRadius" Value="{DynamicResource Radius.Control}" />
+        <Setter Property="FontSize" Value="{DynamicResource Font.Body}" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
+    </Style>
+    <Style Selector="Button.nav /template/ ContentPresenter">
+        <Setter Property="Background" Value="Transparent" />
+    </Style>
+    <Style Selector="Button.nav:pointerover /template/ ContentPresenter">
+        <Setter Property="Background" Value="{DynamicResource Brush.Surface.Subtle}" />
+    </Style>
+</Styles>

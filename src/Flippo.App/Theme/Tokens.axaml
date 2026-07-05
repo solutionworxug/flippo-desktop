@@ -1,0 +1,82 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--
+      FLIPPO Design-Tokens (Plan P10-Design). Drei Ebenen: Primitive (rohe Werte) → Semantic
+      (Brush.*/Color.* nach Absicht) → Anwendung in Styles.axaml. Ruhig-professionell:
+      kühle Neutraltöne, EIN gedämpfter Akzent, Ränder statt schwerer Schatten (dense productivity).
+      Light/Dark ausschließlich über ThemeDictionaries.
+    -->
+
+    <!-- ── Primitive: Spacing ── -->
+    <x:Double x:Key="Space.50">2</x:Double>
+    <x:Double x:Key="Space.100">4</x:Double>
+    <x:Double x:Key="Space.150">6</x:Double>
+    <x:Double x:Key="Space.200">8</x:Double>
+    <x:Double x:Key="Space.300">12</x:Double>
+    <x:Double x:Key="Space.400">16</x:Double>
+    <x:Double x:Key="Space.500">20</x:Double>
+    <x:Double x:Key="Space.600">24</x:Double>
+    <x:Double x:Key="Space.800">32</x:Double>
+    <Thickness x:Key="Inset.Card">20</Thickness>
+    <Thickness x:Key="Inset.Page">24</Thickness>
+
+    <!-- ── Primitive: Radius ── -->
+    <CornerRadius x:Key="Radius.Control">8</CornerRadius>
+    <CornerRadius x:Key="Radius.Card">12</CornerRadius>
+    <CornerRadius x:Key="Radius.Bar">3</CornerRadius>
+
+    <!-- ── Primitive: Typografie-Größen ── -->
+    <x:Double x:Key="Font.Caption">12</x:Double>
+    <x:Double x:Key="Font.Body">13</x:Double>
+    <x:Double x:Key="Font.BodyLarge">15</x:Double>
+    <x:Double x:Key="Font.Section">15</x:Double>
+    <x:Double x:Key="Font.Title">20</x:Double>
+    <x:Double x:Key="Font.Metric">28</x:Double>
+    <x:Double x:Key="Font.Display">30</x:Double>
+
+    <!-- ── Semantic: Farben nach Theme-Variante ── -->
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Light">
+            <Color x:Key="Color.Bg.App">#FFF5F6F8</Color>
+            <Color x:Key="Color.Surface.Card">#FFFFFFFF</Color>
+            <Color x:Key="Color.Surface.Subtle">#FFEDEFF3</Color>
+            <Color x:Key="Color.Border.Subtle">#FFE1E4EA</Color>
+            <Color x:Key="Color.Text.Primary">#FF1A1D23</Color>
+            <Color x:Key="Color.Text.Secondary">#FF646C79</Color>
+            <Color x:Key="Color.Accent">#FF3B6FB0</Color>
+            <Color x:Key="Color.Accent.Soft">#223B6FB0</Color>
+            <Color x:Key="Color.Success">#FF2F8F5B</Color>
+            <Color x:Key="Color.Warning">#FFB07A1E</Color>
+            <Color x:Key="Color.Danger">#FFB4453C</Color>
+            <!-- Fluent-Akzent (Buttons, Fokus) an den ruhigen Ton angleichen -->
+            <Color x:Key="SystemAccentColor">#FF3B6FB0</Color>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="Dark">
+            <Color x:Key="Color.Bg.App">#FF14161A</Color>
+            <Color x:Key="Color.Surface.Card">#FF1B1E24</Color>
+            <Color x:Key="Color.Surface.Subtle">#FF23272F</Color>
+            <Color x:Key="Color.Border.Subtle">#FF2E333C</Color>
+            <Color x:Key="Color.Text.Primary">#FFF2F4F7</Color>
+            <Color x:Key="Color.Text.Secondary">#FF9AA2AF</Color>
+            <Color x:Key="Color.Accent">#FF6BA0DA</Color>
+            <Color x:Key="Color.Accent.Soft">#336BA0DA</Color>
+            <Color x:Key="Color.Success">#FF57B583</Color>
+            <Color x:Key="Color.Warning">#FFD8A24B</Color>
+            <Color x:Key="Color.Danger">#FFD8756B</Color>
+            <Color x:Key="SystemAccentColor">#FF6BA0DA</Color>
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+
+    <!-- ── Semantic: Brushes (reagieren auf Theme via DynamicResource) ── -->
+    <SolidColorBrush x:Key="Brush.Bg.App" Color="{DynamicResource Color.Bg.App}" />
+    <SolidColorBrush x:Key="Brush.Surface.Card" Color="{DynamicResource Color.Surface.Card}" />
+    <SolidColorBrush x:Key="Brush.Surface.Subtle" Color="{DynamicResource Color.Surface.Subtle}" />
+    <SolidColorBrush x:Key="Brush.Border.Subtle" Color="{DynamicResource Color.Border.Subtle}" />
+    <SolidColorBrush x:Key="Brush.Text.Primary" Color="{DynamicResource Color.Text.Primary}" />
+    <SolidColorBrush x:Key="Brush.Text.Secondary" Color="{DynamicResource Color.Text.Secondary}" />
+    <SolidColorBrush x:Key="Brush.Accent" Color="{DynamicResource Color.Accent}" />
+    <SolidColorBrush x:Key="Brush.Accent.Soft" Color="{DynamicResource Color.Accent.Soft}" />
+    <SolidColorBrush x:Key="Brush.Success" Color="{DynamicResource Color.Success}" />
+    <SolidColorBrush x:Key="Brush.Warning" Color="{DynamicResource Color.Warning}" />
+    <SolidColorBrush x:Key="Brush.Danger" Color="{DynamicResource Color.Danger}" />
+</ResourceDictionary>

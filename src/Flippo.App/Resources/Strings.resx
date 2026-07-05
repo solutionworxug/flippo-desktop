@@ -190,4 +190,72 @@
   <data name="FileImport_ColumnN" xml:space="preserve"><value>Column {0}</value></data>
   <data name="FileImport_ColumnNone" xml:space="preserve"><value>—</value></data>
   <data name="FileImport_DefaultSetName" xml:space="preserve"><value>Import</value></data>
+  <data name="Nav_Statistics" xml:space="preserve"><value>Statistics</value></data>
+  <data name="Stats_Title" xml:space="preserve"><value>Statistics</value></data>
+  <data name="Stats_Leeches" xml:space="preserve"><value>Leeches</value></data>
+  <data name="Stats_SuccessRate" xml:space="preserve"><value>Success rate</value></data>
+  <data name="Stats_ReviewsFormat" xml:space="preserve"><value>{0} correct · {1} wrong</value></data>
+  <data name="Stats_Sessions" xml:space="preserve"><value>Sessions</value></data>
+  <data name="Stats_Boxes" xml:space="preserve"><value>Boxes</value></data>
+  <data name="Stats_BoxLabel" xml:space="preserve"><value>Box {0}</value></data>
+  <data name="Stats_AvgSessionFormat" xml:space="preserve"><value>ø {0:0.#} cards · {1}</value></data>
+  <data name="Stats_StreakFormat" xml:space="preserve"><value>{0} days (best: {1})</value></data>
+  <data name="Stats_Activity30" xml:space="preserve"><value>Activity (30 days)</value></data>
+  <data name="Stats_Weekday" xml:space="preserve"><value>Weekday</value></data>
+  <data name="Stats_Hourly" xml:space="preserve"><value>Time of day</value></data>
+  <data name="Stats_ByMode" xml:space="preserve"><value>By mode</value></data>
+  <data name="Stats_HardestCards" xml:space="preserve"><value>Hardest cards</value></data>
+  <data name="Stats_Empty" xml:space="preserve"><value>No learning data yet</value></data>
+  <data name="Menu_File" xml:space="preserve"><value>File</value></data>
+  <data name="Menu_View" xml:space="preserve"><value>View</value></data>
+  <data name="Menu_Learn" xml:space="preserve"><value>Learn</value></data>
+  <data name="Menu_Help" xml:space="preserve"><value>Help</value></data>
+  <data name="Menu_NewSet" xml:space="preserve"><value>New set…</value></data>
+  <data name="Menu_ImportFile" xml:space="preserve"><value>Import file…</value></data>
+  <data name="Menu_ImportBackup" xml:space="preserve"><value>Import backup…</value></data>
+  <data name="Menu_ExportBackup" xml:space="preserve"><value>Export backup…</value></data>
+  <data name="Menu_Quit" xml:space="preserve"><value>Quit</value></data>
+  <data name="Menu_Refresh" xml:space="preserve"><value>Refresh</value></data>
+  <data name="Menu_Shortcuts" xml:space="preserve"><value>Keyboard shortcuts…</value></data>
+  <data name="Menu_GitHub" xml:space="preserve"><value>FLIPPO on GitHub</value></data>
+  <data name="Menu_CheckUpdates" xml:space="preserve"><value>Check for updates</value></data>
+  <data name="Menu_About" xml:space="preserve"><value>About FLIPPO…</value></data>
+  <data name="Menu_AboutTitle" xml:space="preserve"><value>About FLIPPO</value></data>
+  <data name="Menu_AboutBody" xml:space="preserve"><value>FLIPPO Desktop {0}
+
+Vocabulary trainer for the desktop.
+Offline-first · free · open source (MIT).
+
+solutionworx</value></data>
+  <data name="Menu_NoUpdateTitle" xml:space="preserve"><value>No update</value></data>
+  <data name="Menu_NoUpdateBody" xml:space="preserve"><value>You already have the latest version.</value></data>
+  <data name="Menu_ShortcutsTitle" xml:space="preserve"><value>Keyboard shortcuts</value></data>
+  <data name="Menu_ShortcutsBody" xml:space="preserve"><value>Sets overview
+  New set — Ctrl+Shift+N
+  Import file — Ctrl+I
+  Import backup — Ctrl+Shift+I
+  Export backup — Ctrl+E
+  Learn all due — Ctrl+L
+  Refresh — F5
+  Quit — Ctrl+Q
+
+Editing cards
+  New card — Ctrl+N
+  Edit — F2
+  Save &amp; next — Ctrl+Enter
+  Save — Ctrl+S
+  Cancel — Esc
+  Delete — Del
+
+Learn session
+  Flip — Space
+  Next — Enter
+  Don't know — F1
+  Grade — 1–4
+  Undo — Ctrl+Z
+  End — Esc</value></data>
+  <data name="Ctx_Open" xml:space="preserve"><value>Open</value></data>
+  <data name="Ctx_Learn" xml:space="preserve"><value>Learn</value></data>
+  <data name="Ctx_Edit" xml:space="preserve"><value>Edit</value></data>
+  <data name="Ctx_Delete" xml:space="preserve"><value>Delete</value></data>
 </root>

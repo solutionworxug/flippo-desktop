@@ -190,4 +190,72 @@
   <data name="FileImport_ColumnN" xml:space="preserve"><value>Spalte {0}</value></data>
   <data name="FileImport_ColumnNone" xml:space="preserve"><value>—</value></data>
   <data name="FileImport_DefaultSetName" xml:space="preserve"><value>Import</value></data>
+  <data name="Nav_Statistics" xml:space="preserve"><value>Statistik</value></data>
+  <data name="Stats_Title" xml:space="preserve"><value>Statistik</value></data>
+  <data name="Stats_Leeches" xml:space="preserve"><value>Leeches</value></data>
+  <data name="Stats_SuccessRate" xml:space="preserve"><value>Erfolgsquote</value></data>
+  <data name="Stats_ReviewsFormat" xml:space="preserve"><value>{0} richtig · {1} falsch</value></data>
+  <data name="Stats_Sessions" xml:space="preserve"><value>Sessions</value></data>
+  <data name="Stats_Boxes" xml:space="preserve"><value>Karteikasten</value></data>
+  <data name="Stats_BoxLabel" xml:space="preserve"><value>Fach {0}</value></data>
+  <data name="Stats_AvgSessionFormat" xml:space="preserve"><value>ø {0:0.#} Karten · {1}</value></data>
+  <data name="Stats_StreakFormat" xml:space="preserve"><value>{0} Tage (Best: {1})</value></data>
+  <data name="Stats_Activity30" xml:space="preserve"><value>Aktivität (30 Tage)</value></data>
+  <data name="Stats_Weekday" xml:space="preserve"><value>Wochentag</value></data>
+  <data name="Stats_Hourly" xml:space="preserve"><value>Tageszeit</value></data>
+  <data name="Stats_ByMode" xml:space="preserve"><value>Nach Modus</value></data>
+  <data name="Stats_HardestCards" xml:space="preserve"><value>Schwerste Karten</value></data>
+  <data name="Stats_Empty" xml:space="preserve"><value>Noch keine Lerndaten</value></data>
+  <data name="Menu_File" xml:space="preserve"><value>Datei</value></data>
+  <data name="Menu_View" xml:space="preserve"><value>Ansicht</value></data>
+  <data name="Menu_Learn" xml:space="preserve"><value>Lernen</value></data>
+  <data name="Menu_Help" xml:space="preserve"><value>Hilfe</value></data>
+  <data name="Menu_NewSet" xml:space="preserve"><value>Neue Kartei…</value></data>
+  <data name="Menu_ImportFile" xml:space="preserve"><value>Datei importieren…</value></data>
+  <data name="Menu_ImportBackup" xml:space="preserve"><value>Backup importieren…</value></data>
+  <data name="Menu_ExportBackup" xml:space="preserve"><value>Backup exportieren…</value></data>
+  <data name="Menu_Quit" xml:space="preserve"><value>Beenden</value></data>
+  <data name="Menu_Refresh" xml:space="preserve"><value>Aktualisieren</value></data>
+  <data name="Menu_Shortcuts" xml:space="preserve"><value>Tastenkürzel…</value></data>
+  <data name="Menu_GitHub" xml:space="preserve"><value>FLIPPO auf GitHub</value></data>
+  <data name="Menu_CheckUpdates" xml:space="preserve"><value>Nach Updates suchen</value></data>
+  <data name="Menu_About" xml:space="preserve"><value>Über FLIPPO…</value></data>
+  <data name="Menu_AboutTitle" xml:space="preserve"><value>Über FLIPPO</value></data>
+  <data name="Menu_AboutBody" xml:space="preserve"><value>FLIPPO Desktop {0}
+
+Vokabeltrainer für den Desktop.
+Offline-first · kostenlos · Open Source (MIT).
+
+solutionworx</value></data>
+  <data name="Menu_NoUpdateTitle" xml:space="preserve"><value>Kein Update</value></data>
+  <data name="Menu_NoUpdateBody" xml:space="preserve"><value>Du hast bereits die neueste Version.</value></data>
+  <data name="Menu_ShortcutsTitle" xml:space="preserve"><value>Tastenkürzel</value></data>
+  <data name="Menu_ShortcutsBody" xml:space="preserve"><value>Karteien-Übersicht
+  Neue Kartei — Strg+Umschalt+N
+  Datei importieren — Strg+I
+  Backup importieren — Strg+Umschalt+I
+  Backup exportieren — Strg+E
+  Alle fälligen lernen — Strg+L
+  Aktualisieren — F5
+  Beenden — Strg+Q
+
+Karten bearbeiten
+  Neue Karte — Strg+N
+  Bearbeiten — F2
+  Speichern &amp; Nächste — Strg+Eingabe
+  Speichern — Strg+S
+  Abbrechen — Esc
+  Löschen — Entf
+
+Lern-Session
+  Umdrehen — Leertaste
+  Weiter — Eingabe
+  Weiß nicht — F1
+  Bewerten — 1–4
+  Rückgängig — Strg+Z
+  Beenden — Esc</value></data>
+  <data name="Ctx_Open" xml:space="preserve"><value>Öffnen</value></data>
+  <data name="Ctx_Learn" xml:space="preserve"><value>Lernen</value></data>
+  <data name="Ctx_Edit" xml:space="preserve"><value>Bearbeiten</value></data>
+  <data name="Ctx_Delete" xml:space="preserve"><value>Löschen</value></data>
 </root>

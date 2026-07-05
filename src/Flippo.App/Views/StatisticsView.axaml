@@ -1,0 +1,208 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:Flippo.App.ViewModels"
+             xmlns:stats="using:Flippo.Core.Statistics"
+             xmlns:loc="using:Flippo.App.Localization"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="820" d:DesignHeight="900"
+             x:Class="Flippo.App.Views.StatisticsView"
+             x:DataType="vm:StatisticsViewModel">
+
+    <Grid RowDefinitions="Auto,*" Margin="24">
+        <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,20">
+            <TextBlock Grid.Column="0" Classes="page-title" Text="{loc:T Stats_Title}" VerticalAlignment="Center"/>
+            <Button Grid.Column="1" Classes="nav" Content="↻" Command="{Binding LoadCommand}"
+                    ToolTip.Tip="{loc:T Sets_Refresh}" Padding="10,6" HorizontalAlignment="Right"/>
+        </Grid>
+
+        <!-- Leerzustand -->
+        <StackPanel Grid.Row="1" IsVisible="{Binding IsEmpty}" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="8">
+            <TextBlock Classes="page-title" Text="{loc:T Stats_Empty}" Opacity="0.7" HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="1" IsVisible="{Binding !IsEmpty}">
+            <StackPanel Spacing="16">
+
+                <!-- Kennzahl-Kacheln -->
+                <UniformGrid Columns="4">
+                    <Border Classes="app-card" Margin="0,0,8,0">
+                        <StackPanel HorizontalAlignment="Center" Spacing="4">
+                            <TextBlock Classes="metric" Text="{Binding Stats.TotalCards}" HorizontalAlignment="Center"/>
+                            <TextBlock Classes="metric-label" Text="{loc:T Sets_Total}" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Border>
+                    <Border Classes="app-card" Margin="0,0,8,0">
+                        <StackPanel HorizontalAlignment="Center" Spacing="4">
+                            <TextBlock Classes="metric" Text="{Binding Stats.DueToday}"
+                                       Foreground="{DynamicResource Brush.Warning}" HorizontalAlignment="Center"/>
+                            <TextBlock Classes="metric-label" Text="{loc:T Sets_Due}" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Border>
+                    <Border Classes="app-card" Margin="0,0,8,0">
+                        <StackPanel HorizontalAlignment="Center" Spacing="4">
+                            <TextBlock Classes="metric" Text="{Binding Stats.NewCards}"
+                                       Foreground="{DynamicResource Brush.Success}" HorizontalAlignment="Center"/>
+                            <TextBlock Classes="metric-label" Text="{loc:T Sets_New}" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Border>
+                    <Border Classes="app-card">
+                        <StackPanel HorizontalAlignment="Center" Spacing="4">
+                            <TextBlock Classes="metric" Text="{Binding Stats.LeechCards}"
+                                       Foreground="{DynamicResource Brush.Danger}" HorizontalAlignment="Center"/>
+                            <TextBlock Classes="metric-label" Text="{loc:T Stats_Leeches}" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Border>
+                </UniformGrid>
+
+                <!-- Erfolgsquote + Sessions -->
+                <Grid ColumnDefinitions="*,*">
+                    <Border Classes="app-card" Margin="0,0,8,0">
+                        <StackPanel Spacing="6">
+                            <TextBlock Classes="eyebrow" Text="{loc:T Stats_SuccessRate}"/>
+                            <TextBlock Classes="metric-lg" Text="{Binding SuccessRateText}"/>
+                            <TextBlock Classes="caption" Text="{Binding ReviewsText}"/>
+                        </StackPanel>
+                    </Border>
+                    <Border Classes="app-card">
+                        <StackPanel Spacing="8">
+                            <TextBlock Classes="eyebrow" Text="{loc:T Stats_Sessions}"/>
+                            <Grid ColumnDefinitions="Auto,*">
+                                <TextBlock Grid.Column="0" Classes="metric" Text="{Binding Stats.SessionCount}" VerticalAlignment="Center"/>
+                                <StackPanel Grid.Column="1" Margin="16,0,0,0" VerticalAlignment="Center" Spacing="2">
+                                    <TextBlock Classes="body" Text="{Binding LearningTimeText}"/>
+                                    <TextBlock Classes="caption" Text="{Binding AvgSessionText}"/>
+                                    <TextBlock Classes="caption" Text="{Binding StreakText}"/>
+                                </StackPanel>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+
+                <!-- Karteikasten -->
+                <Border Classes="app-card">
+                    <StackPanel Spacing="10">
+                        <TextBlock Classes="section" Text="{loc:T Stats_Boxes}"/>
+                        <ItemsControl ItemsSource="{Binding BoxBars}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate x:DataType="vm:Bar">
+                                    <Grid ColumnDefinitions="64,210,Auto" Margin="0,3">
+                                        <TextBlock Grid.Column="0" Classes="caption" Text="{Binding Label}" VerticalAlignment="Center"/>
+                                        <Border Grid.Column="1" Height="16" Width="{Binding Size}" HorizontalAlignment="Left"
+                                                Background="{DynamicResource Brush.Accent}" CornerRadius="{DynamicResource Radius.Bar}"/>
+                                        <TextBlock Grid.Column="2" Classes="caption" Text="{Binding Value}" VerticalAlignment="Center" Margin="10,0,0,0"
+                                                   Foreground="{DynamicResource Brush.Text.Primary}"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </StackPanel>
+                </Border>
+
+                <!-- 30-Tage-Aktivität (vertikale Balken) -->
+                <Border Classes="app-card">
+                    <StackPanel Spacing="10">
+                        <TextBlock Classes="section" Text="{loc:T Stats_Activity30}"/>
+                        <ItemsControl ItemsSource="{Binding ActivityBars}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate><StackPanel Orientation="Horizontal" Spacing="3"/></ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate x:DataType="vm:Bar">
+                                    <StackPanel Width="12">
+                                        <Grid Height="120">
+                                            <Border Height="{Binding Size}" VerticalAlignment="Bottom" ToolTip.Tip="{Binding Value}"
+                                                    Background="{DynamicResource Brush.Accent}" CornerRadius="{DynamicResource Radius.Bar}"/>
+                                        </Grid>
+                                        <TextBlock Classes="caption" Text="{Binding Label}" FontSize="9" HorizontalAlignment="Center" Margin="0,4,0,0"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </StackPanel>
+                </Border>
+
+                <!-- Wochentag + Tageszeit -->
+                <Grid ColumnDefinitions="*,*">
+                    <Border Classes="app-card" Margin="0,0,8,0">
+                        <StackPanel Spacing="10">
+                            <TextBlock Classes="section" Text="{loc:T Stats_Weekday}"/>
+                            <ItemsControl ItemsSource="{Binding WeekdayBars}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="vm:Bar">
+                                        <Grid ColumnDefinitions="40,*,Auto" Margin="0,3">
+                                            <TextBlock Grid.Column="0" Classes="caption" Text="{Binding Label}" VerticalAlignment="Center"/>
+                                            <Border Grid.Column="1" Height="14" Width="{Binding Size}" HorizontalAlignment="Left"
+                                                    Background="{DynamicResource Brush.Accent}" CornerRadius="{DynamicResource Radius.Bar}"/>
+                                            <TextBlock Grid.Column="2" Classes="caption" Text="{Binding Value}" VerticalAlignment="Center" Margin="8,0,0,0"/>
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </Border>
+                    <Border Classes="app-card">
+                        <StackPanel Spacing="10">
+                            <TextBlock Classes="section" Text="{loc:T Stats_Hourly}"/>
+                            <ItemsControl ItemsSource="{Binding HourBars}">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate><StackPanel Orientation="Horizontal" Spacing="2"/></ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="vm:Bar">
+                                        <StackPanel Width="12">
+                                            <Grid Height="90">
+                                                <Border Height="{Binding Size}" VerticalAlignment="Bottom" ToolTip.Tip="{Binding Value}"
+                                                        Background="{DynamicResource Brush.Accent}" CornerRadius="{DynamicResource Radius.Bar}"/>
+                                            </Grid>
+                                            <TextBlock Classes="caption" Text="{Binding Label}" FontSize="9" HorizontalAlignment="Center" Margin="0,4,0,0"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+
+                <!-- Modus-Statistik -->
+                <Border Classes="app-card" IsVisible="{Binding HasModeStats}">
+                    <StackPanel Spacing="8">
+                        <TextBlock Classes="section" Text="{loc:T Stats_ByMode}"/>
+                        <ItemsControl ItemsSource="{Binding ModeStats}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate x:DataType="vm:ModeStatDisplay">
+                                    <Grid ColumnDefinitions="*,Auto,Auto" Margin="0,3">
+                                        <TextBlock Grid.Column="0" Classes="body" Text="{Binding ModeName}"/>
+                                        <TextBlock Grid.Column="1" Classes="caption" Text="{Binding SessionCount}" Margin="0,0,16,0" VerticalAlignment="Center"/>
+                                        <TextBlock Grid.Column="2" Classes="body" FontWeight="SemiBold" Text="{Binding SuccessText}"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </StackPanel>
+                </Border>
+
+                <!-- Schwerste Karten -->
+                <Border Classes="app-card" IsVisible="{Binding HasHardestCards}">
+                    <StackPanel Spacing="8">
+                        <TextBlock Classes="section" Text="{loc:T Stats_HardestCards}"/>
+                        <ItemsControl ItemsSource="{Binding HardestCards}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate x:DataType="stats:HardCard">
+                                    <Grid ColumnDefinitions="*,Auto" Margin="0,3">
+                                        <TextBlock Grid.Column="0" Classes="body">
+                                            <Run Text="{Binding SourceText}"/><Run Text="  →  "/><Run Text="{Binding TargetText}"/>
+                                        </TextBlock>
+                                        <TextBlock Grid.Column="1" Classes="caption" Foreground="{DynamicResource Brush.Danger}"
+                                                   Text="{Binding WrongCount, StringFormat='{}{0}× ✗'}"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </StackPanel>
+                </Border>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

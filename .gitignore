@@ -499,3 +499,6 @@ tests/Flippo.Tests/Fixtures/*.json
 
 # Velopack-Ausgabe (P8)
 releases/
+
+# Lokale Claude-Code-Einstellungen (nicht ins Repo)
+.claude/

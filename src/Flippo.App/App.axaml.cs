@@ -58,11 +58,13 @@ public partial class App : Application
             (Current?.ApplicationLifetime as IClassicDesktopStyleApplicationLifetime)?.MainWindow);
         services.AddSingleton<IFilePickerService, FilePickerService>();
         services.AddSingleton<IDialogService, DialogService>();
+        services.AddSingleton<SetActionsService>();
 
         services.AddSingleton<UpdateService>();
         services.AddSingleton<NavigationService>();
         services.AddSingleton<MainWindowViewModel>();
         services.AddTransient<SetsOverviewViewModel>();
+        services.AddTransient<StatisticsViewModel>();
         services.AddTransient<SetDetailViewModel>();
         services.AddTransient<LearnSessionViewModel>();
         services.AddTransient<SessionSummaryViewModel>();
