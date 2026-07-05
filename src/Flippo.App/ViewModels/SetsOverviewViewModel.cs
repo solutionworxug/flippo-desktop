@@ -67,6 +67,15 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
     }
 
     [RelayCommand]
+    private async Task NewSet()
+    {
+        var set = await _dialogs.ShowSetEditorAsync(null);
+        if (set is null) return;
+        await _store.AddSetAsync(set);
+        await LoadAsync();
+    }
+
+    [RelayCommand]
     private async Task Import()
     {
         var stream = await _filePicker.OpenReadStreamAsync("Backup importieren");

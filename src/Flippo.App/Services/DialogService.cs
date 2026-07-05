@@ -2,6 +2,7 @@ using Avalonia.Controls;
 using Flippo.App.ViewModels;
 using Flippo.App.Views;
 using Flippo.Core.Backup;
+using Flippo.Core.Domain;
 
 namespace Flippo.App.Services;
 
@@ -12,6 +13,8 @@ public interface IDialogService
 {
     Task<ImportConfirmation?> ShowImportPreviewAsync(BackupParseResult parsed);
     Task ShowMessageAsync(string title, string message);
+    Task<bool> ConfirmAsync(string title, string message, string confirmLabel = "OK");
+    Task<VocabularySet?> ShowSetEditorAsync(VocabularySet? existing);
 }
 
 public sealed class DialogService : IDialogService
@@ -36,5 +39,23 @@ public sealed class DialogService : IDialogService
 
         var window = new MessageWindow(title, message);
         await window.ShowDialog(owner);
+    }
+
+    public async Task<bool> ConfirmAsync(string title, string message, string confirmLabel = "OK")
+    {
+        var owner = _owner();
+        if (owner is null) return false;
+
+        var window = new ConfirmWindow(title, message, confirmLabel);
+        return await window.ShowDialog<bool>(owner);
+    }
+
+    public async Task<VocabularySet?> ShowSetEditorAsync(VocabularySet? existing)
+    {
+        var owner = _owner();
+        if (owner is null) return null;
+
+        var window = new SetEditorWindow { DataContext = new SetEditorViewModel(existing) };
+        return await window.ShowDialog<VocabularySet?>(owner);
     }
 }

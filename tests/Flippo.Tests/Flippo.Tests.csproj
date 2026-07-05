@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\Flippo.Core\Flippo.Core.csproj" />
     <ProjectReference Include="..\..\src\Flippo.Data\Flippo.Data.csproj" />
+    <ProjectReference Include="..\..\src\Flippo.App\Flippo.App.csproj" />
   </ItemGroup>
 
   <!-- Backup-Fixtures (z.B. echtes Android-Backup) ins Test-Output kopieren -->

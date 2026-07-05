@@ -3,11 +3,20 @@
              xmlns:vm="using:Flippo.App.ViewModels"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+             mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="600"
              x:Class="Flippo.App.Views.SetDetailView"
              x:DataType="vm:SetDetailViewModel">
 
+    <UserControl.KeyBindings>
+        <KeyBinding Gesture="Ctrl+N" Command="{Binding NewCardCommand}"/>
+        <KeyBinding Gesture="F2" Command="{Binding EditSelectedCommand}"/>
+        <KeyBinding Gesture="Ctrl+Enter" Command="{Binding SaveAndNextCommand}"/>
+        <KeyBinding Gesture="Ctrl+S" Command="{Binding SaveAndCloseCommand}"/>
+        <KeyBinding Gesture="Escape" Command="{Binding CancelEditCommand}"/>
+    </UserControl.KeyBindings>
+
     <Grid RowDefinitions="Auto,*" Margin="24">
+        <!-- Kopf -->
         <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,16">
             <StackPanel Grid.Column="0" Spacing="2" VerticalAlignment="Center">
                 <TextBlock Text="{Binding Title}" FontSize="26" FontWeight="SemiBold"/>
@@ -15,21 +24,116 @@
                     <Run Text="{Binding Entries.Count}"/><Run Text=" Karten"/>
                 </TextBlock>
             </StackPanel>
-            <TextBox Grid.Column="1" Width="240" PlaceholderText="Suchen…"
-                     Text="{Binding SearchText}" VerticalAlignment="Center"/>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
+                <TextBox Width="200" PlaceholderText="Suchen…" Text="{Binding SearchText}"/>
+                <Button Content="Neue Karte" Command="{Binding NewCardCommand}" Classes="accent"
+                        ToolTip.Tip="Strg+N"/>
+                <Button Content="⋯" ToolTip.Tip="Kartei-Aktionen">
+                    <Button.Flyout>
+                        <MenuFlyout>
+                            <MenuItem Header="Kartei bearbeiten…" Command="{Binding EditSetCommand}"/>
+                            <MenuItem Header="Kartei löschen…" Command="{Binding DeleteSetCommand}"/>
+                        </MenuFlyout>
+                    </Button.Flyout>
+                </Button>
+            </StackPanel>
         </Grid>
 
-        <DataGrid Grid.Row="1" ItemsSource="{Binding Entries}" IsReadOnly="True"
-                  GridLinesVisibility="Horizontal"
-                  CanUserResizeColumns="True" CanUserSortColumns="True">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Quelle" Binding="{Binding SourceText}" Width="*"/>
-                <DataGridTextColumn Header="Ziel" Binding="{Binding TargetText}" Width="*"/>
-                <DataGridTextColumn Header="Fach" Binding="{Binding BoxLevel}" Width="60"/>
-                <DataGridTextColumn Header="fällig am" Binding="{Binding DueDisplay}" Width="110"/>
-                <DataGridCheckBoxColumn Header="Leech" Binding="{Binding IsLeech}" Width="70"/>
-                <DataGridTextColumn Header="Tags" Binding="{Binding TagsDisplay}" Width="180"/>
-            </DataGrid.Columns>
-        </DataGrid>
+        <!-- Body: DataGrid + Editor-Panel -->
+        <Grid Grid.Row="1" ColumnDefinitions="*,Auto">
+            <DataGrid Grid.Column="0" x:Name="EntryGrid"
+                      ItemsSource="{Binding Entries}"
+                      SelectedItem="{Binding SelectedRow}"
+                      IsReadOnly="True" GridLinesVisibility="Horizontal"
+                      CanUserResizeColumns="True" CanUserSortColumns="True"
+                      KeyDown="OnGridKeyDown" DoubleTapped="OnRowDoubleTapped">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Quelle" Binding="{Binding SourceText}" Width="*"/>
+                    <DataGridTextColumn Header="Ziel" Binding="{Binding TargetText}" Width="*"/>
+                    <DataGridTextColumn Header="Fach" Binding="{Binding BoxLevel}" Width="55"/>
+                    <DataGridTextColumn Header="fällig am" Binding="{Binding DueDisplay}" Width="105"/>
+                    <DataGridCheckBoxColumn Header="Leech" Binding="{Binding IsLeech}" Width="65"/>
+                    <DataGridTextColumn Header="Tags" Binding="{Binding TagsDisplay}" Width="160"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- Andock-Panel rechts (kein Modal) -->
+            <Border Grid.Column="1" IsVisible="{Binding IsEditorOpen}"
+                    Width="360" Margin="16,0,0,0" Padding="16"
+                    Background="{DynamicResource SystemControlBackgroundListLowBrush}" CornerRadius="8">
+                <ScrollViewer>
+                    <StackPanel Spacing="10" DataContext="{Binding Editor}" x:DataType="vm:CardEditorViewModel">
+                        <TextBlock Text="{Binding HeaderText}" FontSize="18" FontWeight="SemiBold"/>
+
+                        <StackPanel Spacing="3">
+                            <TextBlock Text="Quelle *" FontSize="12" Opacity="0.7"/>
+                            <TextBox x:Name="SourceBox" Text="{Binding SourceText}" TabIndex="0"/>
+                        </StackPanel>
+                        <StackPanel Spacing="3">
+                            <TextBlock Text="Ziel *" FontSize="12" Opacity="0.7"/>
+                            <TextBox Text="{Binding TargetText}" TabIndex="1"/>
+                        </StackPanel>
+                        <StackPanel Spacing="3">
+                            <TextBlock Text="Akzeptierte Antworten (mit ; trennen)" FontSize="12" Opacity="0.7"/>
+                            <TextBox Text="{Binding AcceptedAnswers}" TabIndex="2"/>
+                        </StackPanel>
+                        <StackPanel Spacing="3">
+                            <TextBlock Text="Beispielsatz" FontSize="12" Opacity="0.7"/>
+                            <TextBox Text="{Binding ExampleSentence}" TabIndex="3"/>
+                        </StackPanel>
+                        <StackPanel Spacing="3">
+                            <TextBlock Text="Notizen" FontSize="12" Opacity="0.7"/>
+                            <TextBox Text="{Binding Notes}" TabIndex="4"/>
+                        </StackPanel>
+
+                        <Expander Header="Mehr">
+                            <StackPanel Spacing="10" Margin="0,8,0,0">
+                                <StackPanel Spacing="3">
+                                    <TextBlock Text="Wortart" FontSize="12" Opacity="0.7"/>
+                                    <TextBox Text="{Binding PartOfSpeech}"/>
+                                </StackPanel>
+                                <StackPanel Spacing="3">
+                                    <TextBlock Text="Genus" FontSize="12" Opacity="0.7"/>
+                                    <TextBox Text="{Binding Gender}"/>
+                                </StackPanel>
+                                <StackPanel Spacing="3">
+                                    <TextBlock Text="Pluralform" FontSize="12" Opacity="0.7"/>
+                                    <TextBox Text="{Binding PluralForm}"/>
+                                </StackPanel>
+                                <StackPanel Spacing="3">
+                                    <TextBlock Text="Verbformen" FontSize="12" Opacity="0.7"/>
+                                    <TextBox Text="{Binding VerbForms}"/>
+                                </StackPanel>
+                                <StackPanel Spacing="3">
+                                    <TextBlock Text="Aussprache" FontSize="12" Opacity="0.7"/>
+                                    <TextBox Text="{Binding Pronunciation}"/>
+                                </StackPanel>
+                                <StackPanel Spacing="3">
+                                    <TextBlock Text="Tags (mit ; trennen)" FontSize="12" Opacity="0.7"/>
+                                    <TextBox Text="{Binding Tags}"/>
+                                </StackPanel>
+                                <StackPanel Spacing="3">
+                                    <TextBlock Text="Eselsbrücke" FontSize="12" Opacity="0.7"/>
+                                    <TextBox Text="{Binding Mnemonic}"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Expander>
+
+                        <StackPanel Spacing="6" Margin="0,6,0,0"
+                                    DataContext="{Binding $parent[UserControl].DataContext}"
+                                    x:DataType="vm:SetDetailViewModel">
+                            <Button Content="Speichern &amp; Nächste" Command="{Binding SaveAndNextCommand}"
+                                    HorizontalAlignment="Stretch" Classes="accent" ToolTip.Tip="Strg+Enter"/>
+                            <Grid ColumnDefinitions="*,6,*">
+                                <Button Grid.Column="0" Content="Speichern" Command="{Binding SaveAndCloseCommand}"
+                                        HorizontalAlignment="Stretch" ToolTip.Tip="Strg+S"/>
+                                <Button Grid.Column="2" Content="Abbrechen" Command="{Binding CancelEditCommand}"
+                                        HorizontalAlignment="Stretch" ToolTip.Tip="Esc"/>
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+            </Border>
+        </Grid>
     </Grid>
 </UserControl>
