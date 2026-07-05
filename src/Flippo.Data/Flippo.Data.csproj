@@ -3,6 +3,8 @@
     <ProjectReference Include="..\Flippo.Core\Flippo.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <!-- XLSX-Import (P9). MIT-Lizenz; hier statt in Flippo.Core, da Core BCL-only bleibt. -->
+    <PackageReference Include="ClosedXML" Version="0.105.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.9">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>

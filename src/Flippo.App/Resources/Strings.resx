@@ -167,7 +167,7 @@
   <data name="Update_Restart" xml:space="preserve"><value>Restart now</value></data>
   <data name="Sets_ImportFile" xml:space="preserve"><value>Import file</value></data>
   <data name="SetsVm_FileImportPickerTitle" xml:space="preserve"><value>Choose file to import</value></data>
-  <data name="SetsVm_FileImportFilter" xml:space="preserve"><value>Tables (CSV/TSV/TXT)</value></data>
+  <data name="SetsVm_FileImportFilter" xml:space="preserve"><value>Tables (CSV/TSV/TXT/XLSX)</value></data>
   <data name="SetsVm_FileImportEmpty" xml:space="preserve"><value>The file contains no readable rows.</value></data>
   <data name="SetsVm_FileImportDoneTitle" xml:space="preserve"><value>Import complete</value></data>
   <data name="SetsVm_FileImportSummary" xml:space="preserve"><value>{0} cards imported · {1} duplicates · {2} skipped</value></data>

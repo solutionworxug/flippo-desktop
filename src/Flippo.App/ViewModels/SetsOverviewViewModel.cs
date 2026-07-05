@@ -137,15 +137,28 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
     private async Task ImportFile()
     {
         var picked = await _filePicker.OpenReadFileAsync(
-            L.T("SetsVm_FileImportPickerTitle"), L.T("SetsVm_FileImportFilter"), "*.csv", "*.tsv", "*.txt");
+            L.T("SetsVm_FileImportPickerTitle"), L.T("SetsVm_FileImportFilter"), "*.csv", "*.tsv", "*.txt", "*.xlsx");
         if (picked is null) return;
 
-        string content;
+        IReadOnlyList<IReadOnlyList<string>> rows;
         await using (picked.Stream)
-        using (var reader = new StreamReader(picked.Stream))
-            content = await reader.ReadToEndAsync();
+        {
+            if (picked.Name.EndsWith(".xlsx", StringComparison.OrdinalIgnoreCase))
+            {
+                // ClosedXML braucht einen seekbaren Stream → in den Speicher kopieren.
+                using var mem = new MemoryStream();
+                await picked.Stream.CopyToAsync(mem);
+                mem.Position = 0;
+                rows = XlsxReader.Read(mem);
+            }
+            else
+            {
+                using var reader = new StreamReader(picked.Stream);
+                var content = await reader.ReadToEndAsync();
+                rows = ImportEngine.ParseDelimited(content, DetectDelimiter(picked.Name, content));
+            }
+        }
 
-        var rows = ImportEngine.ParseDelimited(content, DetectDelimiter(picked.Name, content));
         if (rows.Count == 0)
         {
             await _dialogs.ShowMessageAsync(L.T("SetsVm_FileImportDoneTitle"), L.T("SetsVm_FileImportEmpty"));

@@ -167,7 +167,7 @@
   <data name="Update_Restart" xml:space="preserve"><value>Jetzt neu starten</value></data>
   <data name="Sets_ImportFile" xml:space="preserve"><value>Datei importieren</value></data>
   <data name="SetsVm_FileImportPickerTitle" xml:space="preserve"><value>Datei zum Importieren wählen</value></data>
-  <data name="SetsVm_FileImportFilter" xml:space="preserve"><value>Tabellen (CSV/TSV/TXT)</value></data>
+  <data name="SetsVm_FileImportFilter" xml:space="preserve"><value>Tabellen (CSV/TSV/TXT/XLSX)</value></data>
   <data name="SetsVm_FileImportEmpty" xml:space="preserve"><value>Die Datei enthält keine lesbaren Zeilen.</value></data>
   <data name="SetsVm_FileImportDoneTitle" xml:space="preserve"><value>Import abgeschlossen</value></data>
   <data name="SetsVm_FileImportSummary" xml:space="preserve"><value>{0} Karten importiert · {1} Duplikate · {2} übersprungen</value></data>
