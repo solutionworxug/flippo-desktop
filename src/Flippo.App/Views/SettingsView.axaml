@@ -1,0 +1,13 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:Flippo.App.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+             x:Class="Flippo.App.Views.SettingsView"
+             x:DataType="vm:SettingsViewModel">
+    <StackPanel Margin="24" Spacing="12">
+        <TextBlock Text="Einstellungen" FontSize="26" FontWeight="SemiBold"/>
+        <TextBlock Text="{Binding Placeholder}" Opacity="0.7"/>
+    </StackPanel>
+</UserControl>

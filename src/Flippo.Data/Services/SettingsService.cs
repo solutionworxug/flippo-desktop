@@ -58,6 +58,24 @@ public sealed class SettingsService
         MaxNewCardsPerDay = s.MaxNewCardsPerDay
     };
 
+    /// <summary>Übernimmt SRS-Felder (z.B. aus einem Backup) in bestehende Settings; UI-Felder bleiben.</summary>
+    public static AppSettings WithSrs(AppSettings current, SrsSettings srs) => current with
+    {
+        SrsMode = srs.Mode == SrsMode.FlashcardBox ? "FLASHCARD_BOX" : "ADAPTIVE",
+        BoxIntervals = srs.BoxIntervals.ToList(),
+        StrictAccents = srs.StrictAccents,
+        TypoToleranceEnabled = srs.TypoToleranceEnabled,
+        LeechThreshold = srs.LeechThreshold,
+        LearningDirection = srs.LearningDirection switch
+        {
+            LearningDirection.TargetToSource => "TARGET_TO_SOURCE",
+            LearningDirection.Mixed => "MIXED",
+            _ => "SOURCE_TO_TARGET"
+        },
+        MaxCardsPerSession = srs.MaxCardsPerSession,
+        MaxNewCardsPerDay = srs.MaxNewCardsPerDay
+    };
+
     private static SrsMode ParseSrsMode(string v) => v switch
     {
         "FLASHCARD_BOX" => SrsMode.FlashcardBox,

@@ -1,12 +1,36 @@
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using Flippo.App.Services;
+
 namespace Flippo.App.ViewModels;
 
 /// <summary>
-/// Shell-ViewModel. Ab P4 hält es CurrentPage + Back-Stack (INavigationService).
-/// In P0 nur ein Platzhalter-Inhalt, um Bootstrap/DI/ViewLocator zu verifizieren.
+/// Shell/Navigations-Host. Spiegelt <see cref="NavigationService.Current"/> in eine bindbare
+/// Property und stellt die Sidebar-Kommandos (Karteien | Einstellungen) + Zurück bereit.
 /// </summary>
-public sealed class MainWindowViewModel : ViewModelBase
+public sealed partial class MainWindowViewModel : ViewModelBase
 {
+    private readonly NavigationService _nav;
+
+    [ObservableProperty] private ViewModelBase? _currentPage;
+    [ObservableProperty] private bool _canGoBack;
+
+    public MainWindowViewModel(NavigationService nav)
+    {
+        _nav = nav;
+        _nav.Navigated += OnNavigated;
+        _nav.NavigateTo<SetsOverviewViewModel>(clearStack: true);
+    }
+
     public string Title => "FLIPPO Desktop";
 
-    public string Greeting => "FLIPPO Desktop — Gerüst steht (P0).";
+    private void OnNavigated()
+    {
+        CurrentPage = _nav.Current;
+        CanGoBack = _nav.CanGoBack;
+    }
+
+    [RelayCommand] private void GoBack() => _nav.GoBack();
+    [RelayCommand] private void ShowSets() => _nav.NavigateTo<SetsOverviewViewModel>(clearStack: true);
+    [RelayCommand] private void ShowSettings() => _nav.NavigateTo<SettingsViewModel>(clearStack: true);
 }

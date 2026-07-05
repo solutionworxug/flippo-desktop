@@ -1,0 +1,67 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:Flippo.App.ViewModels"
+             xmlns:domain="using:Flippo.Core.Domain"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+             x:Class="Flippo.App.Views.SetsOverviewView"
+             x:DataType="vm:SetsOverviewViewModel">
+
+    <Grid RowDefinitions="Auto,*" Margin="24">
+        <!-- Kopf + Toolbar -->
+        <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,16">
+            <TextBlock Grid.Column="0" Text="Karteien" FontSize="26" FontWeight="SemiBold" VerticalAlignment="Center"/>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8">
+                <Button Content="Backup importieren…" Command="{Binding ImportCommand}"/>
+                <Button Content="Backup exportieren…" Command="{Binding ExportCommand}"/>
+                <Button Content="↻" Command="{Binding LoadCommand}" ToolTip.Tip="Aktualisieren"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Set-Liste -->
+        <ScrollViewer Grid.Row="1">
+            <Panel>
+                <ItemsControl ItemsSource="{Binding Sets}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="domain:VocabularySet">
+                            <Button Command="{Binding $parent[ItemsControl].((vm:SetsOverviewViewModel)DataContext).OpenSetCommand}"
+                                    CommandParameter="{Binding}"
+                                    HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"
+                                    Padding="16" Margin="0,0,0,10">
+                                <Grid ColumnDefinitions="*,Auto">
+                                    <StackPanel Grid.Column="0" Spacing="2">
+                                        <TextBlock Text="{Binding Title}" FontSize="17" FontWeight="SemiBold"/>
+                                        <TextBlock FontSize="12" Opacity="0.6">
+                                            <Run Text="{Binding SourceLanguage}"/><Run Text=" → "/><Run Text="{Binding TargetLanguage}"/>
+                                        </TextBlock>
+                                    </StackPanel>
+                                    <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="18" VerticalAlignment="Center">
+                                        <StackPanel Spacing="1">
+                                            <TextBlock Text="{Binding TotalCards}" FontSize="18" FontWeight="SemiBold" HorizontalAlignment="Center"/>
+                                            <TextBlock Text="gesamt" FontSize="10" Opacity="0.6"/>
+                                        </StackPanel>
+                                        <StackPanel Spacing="1">
+                                            <TextBlock Text="{Binding DueCards}" FontSize="18" FontWeight="SemiBold" Foreground="#E67700" HorizontalAlignment="Center"/>
+                                            <TextBlock Text="fällig" FontSize="10" Opacity="0.6"/>
+                                        </StackPanel>
+                                        <StackPanel Spacing="1">
+                                            <TextBlock Text="{Binding NewCards}" FontSize="18" FontWeight="SemiBold" Foreground="#2B8A3E" HorizontalAlignment="Center"/>
+                                            <TextBlock Text="neu" FontSize="10" Opacity="0.6"/>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Grid>
+                            </Button>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+                <!-- Leerzustand -->
+                <StackPanel IsVisible="{Binding IsEmpty}" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="8" Margin="0,60">
+                    <TextBlock Text="Noch keine Karteien" FontSize="18" Opacity="0.7" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Importiere ein Backup aus der Android-App, um loszulegen." Opacity="0.5" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Panel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

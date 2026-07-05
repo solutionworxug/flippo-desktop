@@ -1,4 +1,6 @@
 using Flippo.Core.Backup;
+using Flippo.Data.Services;
+using Flippo.Tests.Data;
 
 namespace Flippo.Tests.Backup;
 
@@ -39,5 +41,33 @@ public class AndroidFixtureTests
         Assert.Equal(parsed1.Content.Sets.Count, parsed2.Content.Sets.Count);
         Assert.Equal(parsed1.Content.Entries.Count, parsed2.Content.Entries.Count);
         Assert.Equal(parsed1.Content.Sessions.Count, parsed2.Content.Sessions.Count);
+    }
+
+    [Fact]
+    public async Task RealAndroidBackup_ImportsIntoDatabase_WithCorrectCounts()
+    {
+        if (!File.Exists(FixturePath)) return;
+
+        using var db = new SqliteTestDatabase();
+        var backupDir = Path.Combine(Path.GetTempPath(), $"flippo-fixture-{Guid.NewGuid():N}");
+        var backup = new BackupService(db.Factory, backupDir);
+        var store = new VocabularyStore(db.Factory);
+
+        BackupParseResult parsed;
+        await using (var fs = File.OpenRead(FixturePath))
+            parsed = await backup.ParseAsync(fs);
+
+        var result = await backup.ImportAsync(parsed.Content, writeSafetyExport: false, nowMs: 0);
+
+        // Alle Karten haben ein gültiges Set → nichts übersprungen
+        Assert.Equal(parsed.Content.Sets.Count, result.SetsImported);
+        Assert.Equal(parsed.Content.Entries.Count, result.EntriesImported);
+        Assert.Equal(0, result.EntriesSkipped);
+
+        // Daten tatsächlich in der DB (End-to-End des P4-Daten-Pfades)
+        var now = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
+        var sets = await store.GetSetsWithCountsAsync(now);
+        Assert.Equal(parsed.Content.Sets.Count, sets.Count);
+        Assert.Equal(parsed.Content.Entries.Count, sets.Sum(s => s.TotalCards));
     }
 }

@@ -1,0 +1,42 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Flippo.App.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        x:Class="Flippo.App.Views.ImportPreviewWindow"
+        x:DataType="vm:ImportPreviewViewModel"
+        Title="Backup importieren"
+        Width="460" SizeToContent="Height"
+        WindowStartupLocation="CenterOwner"
+        CanResize="False">
+
+    <StackPanel Margin="24" Spacing="16">
+        <TextBlock Text="Backup importieren" FontSize="20" FontWeight="SemiBold"/>
+
+        <Border Background="#33E67700" CornerRadius="6" Padding="12">
+            <StackPanel Spacing="4">
+                <TextBlock Text="⚠ Ersetzt ALLE lokalen Daten" FontWeight="SemiBold"/>
+                <TextBlock Text="{Binding Summary}" Opacity="0.85"/>
+                <TextBlock Text="Vor dem Import wird automatisch eine Sicherung deiner aktuellen Daten angelegt."
+                           FontSize="12" Opacity="0.7" TextWrapping="Wrap"/>
+            </StackPanel>
+        </Border>
+
+        <CheckBox Content="SRS-Einstellungen aus dem Backup übernehmen"
+                  IsChecked="{Binding ApplySettings}"
+                  IsVisible="{Binding HasSettings}"/>
+
+        <Border IsVisible="{Binding HasWarnings}" Background="#33D32F2F" CornerRadius="6" Padding="12">
+            <StackPanel Spacing="4">
+                <TextBlock Text="Hinweise" FontWeight="SemiBold"/>
+                <TextBlock Text="{Binding WarningsText}" TextWrapping="Wrap" FontSize="12"/>
+            </StackPanel>
+        </Border>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8">
+            <Button Content="Abbrechen" Click="OnCancel" MinWidth="90"/>
+            <Button Content="Importieren" Click="OnConfirm" MinWidth="90" Classes="accent"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
