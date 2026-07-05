@@ -5,6 +5,7 @@ using Flippo.App.Localization;
 using Flippo.App.Services;
 using Flippo.Core.Backup;
 using Flippo.Core.Domain;
+using Flippo.Core.Import;
 using Flippo.Core.Session;
 using Flippo.Data.Services;
 
@@ -18,6 +19,7 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
     private readonly IFilePickerService _filePicker;
     private readonly IDialogService _dialogs;
     private readonly BackupService _backup;
+    private readonly FileImportService _fileImport;
     private readonly SettingsService _settings;
 
     public ObservableCollection<VocabularySet> Sets { get; } = new();
@@ -31,6 +33,7 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
         IFilePickerService filePicker,
         IDialogService dialogs,
         BackupService backup,
+        FileImportService fileImport,
         SettingsService settings)
     {
         _store = store;
@@ -38,6 +41,7 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
         _filePicker = filePicker;
         _dialogs = dialogs;
         _backup = backup;
+        _fileImport = fileImport;
         _settings = settings;
     }
 
@@ -126,6 +130,49 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
         if (result.EntriesSkipped > 0)
             message += "\n" + string.Format(L.T("SetsVm_ImportSkipped"), result.EntriesSkipped);
         await _dialogs.ShowMessageAsync(L.T("SetsVm_ImportDoneTitle"), message);
+    }
+
+    /// <summary>CSV/TSV/TXT in eine (neue oder bestehende) Kartei importieren — Dialog mit Spalten-Mapping.</summary>
+    [RelayCommand]
+    private async Task ImportFile()
+    {
+        var picked = await _filePicker.OpenReadFileAsync(
+            L.T("SetsVm_FileImportPickerTitle"), L.T("SetsVm_FileImportFilter"), "*.csv", "*.tsv", "*.txt");
+        if (picked is null) return;
+
+        string content;
+        await using (picked.Stream)
+        using (var reader = new StreamReader(picked.Stream))
+            content = await reader.ReadToEndAsync();
+
+        var rows = ImportEngine.ParseDelimited(content, DetectDelimiter(picked.Name, content));
+        if (rows.Count == 0)
+        {
+            await _dialogs.ShowMessageAsync(L.T("SetsVm_FileImportDoneTitle"), L.T("SetsVm_FileImportEmpty"));
+            return;
+        }
+
+        var existingSets = await _store.GetSetsWithCountsAsync(DateTimeOffset.UtcNow.ToUnixTimeMilliseconds());
+        var request = await _dialogs.ShowFileImportAsync(picked.Name, rows, existingSets);
+        if (request is null) return;   // abgebrochen
+
+        var now = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
+        long setId = request.ExistingSetId
+            ?? await _store.AddSetAsync(new VocabularySet { Title = request.NewSetName, CreatedAt = now, UpdatedAt = now });
+
+        var result = await _fileImport.ImportRowsAsync(rows, setId, request.Mapping, now, request.FirstRowIsHeader);
+        await LoadAsync();
+
+        var message = string.Format(L.T("SetsVm_FileImportSummary"), result.Imported, result.Duplicates, result.Skipped);
+        await _dialogs.ShowMessageAsync(L.T("SetsVm_FileImportDoneTitle"), message);
+    }
+
+    /// <summary>.tsv → Tab; sonst per Heuristik der ersten Datenzeile (mehr Tabs als Kommas → Tab).</summary>
+    private static char DetectDelimiter(string fileName, string content)
+    {
+        if (fileName.EndsWith(".tsv", StringComparison.OrdinalIgnoreCase)) return '\t';
+        var firstLine = content.ReplaceLineEndings("\n").Split('\n').FirstOrDefault(l => !string.IsNullOrWhiteSpace(l)) ?? "";
+        return firstLine.Count(c => c == '\t') > firstLine.Count(c => c == ',') ? '\t' : ',';
     }
 
     [RelayCommand]

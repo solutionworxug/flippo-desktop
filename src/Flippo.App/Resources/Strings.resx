@@ -165,4 +165,29 @@
   <data name="DetailVm_DeleteSetMsg" xml:space="preserve"><value>Permanently delete “{0}” and all its cards?</value></data>
   <data name="Update_Available" xml:space="preserve"><value>An update is ready to install.</value></data>
   <data name="Update_Restart" xml:space="preserve"><value>Restart now</value></data>
+  <data name="Sets_ImportFile" xml:space="preserve"><value>Import file</value></data>
+  <data name="SetsVm_FileImportPickerTitle" xml:space="preserve"><value>Choose file to import</value></data>
+  <data name="SetsVm_FileImportFilter" xml:space="preserve"><value>Tables (CSV/TSV/TXT)</value></data>
+  <data name="SetsVm_FileImportEmpty" xml:space="preserve"><value>The file contains no readable rows.</value></data>
+  <data name="SetsVm_FileImportDoneTitle" xml:space="preserve"><value>Import complete</value></data>
+  <data name="SetsVm_FileImportSummary" xml:space="preserve"><value>{0} cards imported · {1} duplicates · {2} skipped</value></data>
+  <data name="FileImport_Title" xml:space="preserve"><value>Import file</value></data>
+  <data name="FileImport_Heading" xml:space="preserve"><value>Import vocabulary</value></data>
+  <data name="FileImport_FileSummary" xml:space="preserve"><value>{0} — {1} rows</value></data>
+  <data name="FileImport_TargetNew" xml:space="preserve"><value>New set</value></data>
+  <data name="FileImport_TargetExisting" xml:space="preserve"><value>Existing set</value></data>
+  <data name="FileImport_Mapping" xml:space="preserve"><value>Column mapping</value></data>
+  <data name="FileImport_ColSource" xml:space="preserve"><value>Source</value></data>
+  <data name="FileImport_ColTarget" xml:space="preserve"><value>Target</value></data>
+  <data name="FileImport_ColExample" xml:space="preserve"><value>Example</value></data>
+  <data name="FileImport_ColNotes" xml:space="preserve"><value>Notes</value></data>
+  <data name="FileImport_ColTags" xml:space="preserve"><value>Tags</value></data>
+  <data name="FileImport_FirstRowHeader" xml:space="preserve"><value>First row is a header</value></data>
+  <data name="FileImport_SplitAlternatives" xml:space="preserve"><value>Split " / " into alternatives</value></data>
+  <data name="FileImport_Preview" xml:space="preserve"><value>Preview</value></data>
+  <data name="FileImport_Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="FileImport_Import" xml:space="preserve"><value>Import</value></data>
+  <data name="FileImport_ColumnN" xml:space="preserve"><value>Column {0}</value></data>
+  <data name="FileImport_ColumnNone" xml:space="preserve"><value>—</value></data>
+  <data name="FileImport_DefaultSetName" xml:space="preserve"><value>Import</value></data>
 </root>

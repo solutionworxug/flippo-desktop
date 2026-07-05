@@ -121,6 +121,20 @@ public sealed class VocabularyStore
         return e.Id;
     }
 
+    /// <summary>Fügt mehrere Karten in EINER Transaktion ein (Datei-Import, P9).</summary>
+    public async Task AddEntriesAsync(IReadOnlyCollection<VocabularyEntry> entries, CancellationToken ct = default)
+    {
+        if (entries.Count == 0) return;
+        await using var db = await _factory.CreateDbContextAsync(ct);
+        foreach (var entry in entries)
+        {
+            var e = entry.ToEntity();
+            e.Id = 0;
+            db.Entries.Add(e);
+        }
+        await db.SaveChangesAsync(ct);
+    }
+
     public async Task UpdateEntryAsync(VocabularyEntry entry, CancellationToken ct = default)
     {
         await using var db = await _factory.CreateDbContextAsync(ct);

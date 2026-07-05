@@ -165,4 +165,29 @@
   <data name="DetailVm_DeleteSetMsg" xml:space="preserve"><value>„{0}“ mit allen Karten unwiderruflich löschen?</value></data>
   <data name="Update_Available" xml:space="preserve"><value>Ein Update ist installationsbereit.</value></data>
   <data name="Update_Restart" xml:space="preserve"><value>Jetzt neu starten</value></data>
+  <data name="Sets_ImportFile" xml:space="preserve"><value>Datei importieren</value></data>
+  <data name="SetsVm_FileImportPickerTitle" xml:space="preserve"><value>Datei zum Importieren wählen</value></data>
+  <data name="SetsVm_FileImportFilter" xml:space="preserve"><value>Tabellen (CSV/TSV/TXT)</value></data>
+  <data name="SetsVm_FileImportEmpty" xml:space="preserve"><value>Die Datei enthält keine lesbaren Zeilen.</value></data>
+  <data name="SetsVm_FileImportDoneTitle" xml:space="preserve"><value>Import abgeschlossen</value></data>
+  <data name="SetsVm_FileImportSummary" xml:space="preserve"><value>{0} Karten importiert · {1} Duplikate · {2} übersprungen</value></data>
+  <data name="FileImport_Title" xml:space="preserve"><value>Datei importieren</value></data>
+  <data name="FileImport_Heading" xml:space="preserve"><value>Vokabeln importieren</value></data>
+  <data name="FileImport_FileSummary" xml:space="preserve"><value>{0} — {1} Zeilen</value></data>
+  <data name="FileImport_TargetNew" xml:space="preserve"><value>Neue Kartei</value></data>
+  <data name="FileImport_TargetExisting" xml:space="preserve"><value>Bestehende Kartei</value></data>
+  <data name="FileImport_Mapping" xml:space="preserve"><value>Spalten-Zuordnung</value></data>
+  <data name="FileImport_ColSource" xml:space="preserve"><value>Quelle</value></data>
+  <data name="FileImport_ColTarget" xml:space="preserve"><value>Ziel</value></data>
+  <data name="FileImport_ColExample" xml:space="preserve"><value>Beispiel</value></data>
+  <data name="FileImport_ColNotes" xml:space="preserve"><value>Notizen</value></data>
+  <data name="FileImport_ColTags" xml:space="preserve"><value>Tags</value></data>
+  <data name="FileImport_FirstRowHeader" xml:space="preserve"><value>Erste Zeile ist Kopfzeile</value></data>
+  <data name="FileImport_SplitAlternatives" xml:space="preserve"><value>„ / “ als Alternativen trennen</value></data>
+  <data name="FileImport_Preview" xml:space="preserve"><value>Vorschau</value></data>
+  <data name="FileImport_Cancel" xml:space="preserve"><value>Abbrechen</value></data>
+  <data name="FileImport_Import" xml:space="preserve"><value>Importieren</value></data>
+  <data name="FileImport_ColumnN" xml:space="preserve"><value>Spalte {0}</value></data>
+  <data name="FileImport_ColumnNone" xml:space="preserve"><value>—</value></data>
+  <data name="FileImport_DefaultSetName" xml:space="preserve"><value>Import</value></data>
 </root>

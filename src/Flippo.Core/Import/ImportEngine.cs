@@ -65,15 +65,18 @@ public static class ImportEngine
 
     /// <summary>
     /// Mappt geparste Zeilen auf <see cref="VocabularyEntry"/> nach <see cref="ColumnMapping"/>.
-    /// Überspringt die Kopfzeile bei typischen Header-Namen. Zeitstempel per injiziertem <paramref name="nowMs"/>
-    /// (pure Core: kein <c>System.currentTimeMillis()</c>). Rückgabe = (Einträge, Anzahl übersprungen).
+    /// Zeitstempel per injiziertem <paramref name="nowMs"/> (pure Core: kein <c>System.currentTimeMillis()</c>).
+    /// <paramref name="treatFirstRowAsHeader"/>: <c>null</c> = Auto-Erkennung via typische Header-Namen
+    /// (Android-Verhalten), <c>true</c>/<c>false</c> = expliziter UI-Toggle. Rückgabe = (Einträge, übersprungen).
     /// </summary>
     public static (IReadOnlyList<VocabularyEntry> Entries, int Skipped) MapToEntries(
-        IReadOnlyList<IReadOnlyList<string>> rows, long setId, ColumnMapping mapping, long nowMs)
+        IReadOnlyList<IReadOnlyList<string>> rows, long setId, ColumnMapping mapping, long nowMs,
+        bool? treatFirstRowAsHeader = null)
     {
         if (rows.Count == 0) return ([], 0);
 
-        int startIndex = IsHeaderRow(rows[0]) ? 1 : 0;
+        bool skipHeader = treatFirstRowAsHeader ?? IsHeaderRow(rows[0]);
+        int startIndex = skipHeader ? 1 : 0;
         int skipped = 0;
         var result = new List<VocabularyEntry>();
 
@@ -133,7 +136,8 @@ public static class ImportEngine
         "übersetzung", "deutsch", "englisch", "spanisch", "french"
     };
 
-    private static bool IsHeaderRow(IReadOnlyList<string> row) =>
+    /// <summary>Heuristik: enthält die Zeile typische Kopfzeilen-Begriffe? (Vorbelegung des UI-Toggles.)</summary>
+    public static bool IsHeaderRow(IReadOnlyList<string> row) =>
         row.Any(field => HeaderKeywords.Any(keyword => field.ToLowerInvariant().Contains(keyword)));
 
     private static IReadOnlyList<string> SplitTags(string? raw)

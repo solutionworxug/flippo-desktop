@@ -14,6 +14,7 @@ public static class DependencyInjection
         services.AddSingleton<SessionStore>();
         services.AddSingleton<SettingsService>();
         services.AddSingleton<BackupService>();
+        services.AddSingleton<FileImportService>();
         return services;
     }
 }
