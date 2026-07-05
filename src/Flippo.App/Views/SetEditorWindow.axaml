@@ -1,6 +1,7 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="using:Flippo.App.ViewModels"
+        xmlns:loc="using:Flippo.App.Localization"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
@@ -14,27 +15,27 @@
         <TextBlock Text="{Binding HeaderText}" FontSize="20" FontWeight="SemiBold"/>
 
         <StackPanel Spacing="4">
-            <TextBlock Text="Titel" FontSize="12" Opacity="0.7"/>
-            <TextBox Text="{Binding Title}" PlaceholderText="z.B. Spanisch A1"/>
+            <TextBlock Text="{loc:T SetEditor_TitleLabel}" FontSize="12" Opacity="0.7"/>
+            <TextBox Text="{Binding Title}" PlaceholderText="{loc:T SetEditor_TitlePlaceholder}"/>
         </StackPanel>
         <StackPanel Spacing="4">
-            <TextBlock Text="Beschreibung" FontSize="12" Opacity="0.7"/>
+            <TextBlock Text="{loc:T SetEditor_DescriptionLabel}" FontSize="12" Opacity="0.7"/>
             <TextBox Text="{Binding Description}"/>
         </StackPanel>
         <Grid ColumnDefinitions="*,12,*">
             <StackPanel Grid.Column="0" Spacing="4">
-                <TextBlock Text="Quellsprache" FontSize="12" Opacity="0.7"/>
-                <TextBox Text="{Binding SourceLanguage}" PlaceholderText="de"/>
+                <TextBlock Text="{loc:T SetEditor_SourceLanguageLabel}" FontSize="12" Opacity="0.7"/>
+                <TextBox Text="{Binding SourceLanguage}" PlaceholderText="{loc:T SetEditor_SourceLanguagePlaceholder}"/>
             </StackPanel>
             <StackPanel Grid.Column="2" Spacing="4">
-                <TextBlock Text="Zielsprache" FontSize="12" Opacity="0.7"/>
-                <TextBox Text="{Binding TargetLanguage}" PlaceholderText="es"/>
+                <TextBlock Text="{loc:T SetEditor_TargetLanguageLabel}" FontSize="12" Opacity="0.7"/>
+                <TextBox Text="{Binding TargetLanguage}" PlaceholderText="{loc:T SetEditor_TargetLanguagePlaceholder}"/>
             </StackPanel>
         </Grid>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8" Margin="0,8,0,0">
-            <Button Content="Abbrechen" Click="OnCancel" MinWidth="90"/>
-            <Button Content="Speichern" Click="OnSave" MinWidth="90" Classes="accent"
+            <Button Content="{loc:T SetEditor_Cancel}" Click="OnCancel" MinWidth="90"/>
+            <Button Content="{loc:T SetEditor_Save}" Click="OnSave" MinWidth="90" Classes="accent"
                     IsEnabled="{Binding CanSave}"/>
         </StackPanel>
     </StackPanel>

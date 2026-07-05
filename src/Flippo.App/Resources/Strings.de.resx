@@ -1,27 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="App_Subtitle" xml:space="preserve">
-    <value>Desktop</value>
-  </data>
-  <data name="Nav_Back" xml:space="preserve">
-    <value>◀  Zurück</value>
-  </data>
-  <data name="Nav_Sets" xml:space="preserve">
-    <value>Karteien</value>
-  </data>
-  <data name="Nav_Settings" xml:space="preserve">
-    <value>Einstellungen</value>
-  </data>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Sets_Title" xml:space="preserve"><value>Karteien</value></data>
+  <data name="Sets_LearnAllDue" xml:space="preserve"><value>Alle fälligen lernen</value></data>
+  <data name="Sets_LearnAllDueTooltip" xml:space="preserve"><value>Fällige als Karteikarten (Dropdown für Modus)</value></data>
+  <data name="Sets_ModeFlashcard" xml:space="preserve"><value>Karteikarten</value></data>
+  <data name="Sets_ModeFreeText" xml:space="preserve"><value>Freitext</value></data>
+  <data name="Sets_ModeMultipleChoice" xml:space="preserve"><value>Multiple Choice</value></data>
+  <data name="Sets_NewSet" xml:space="preserve"><value>Neue Kartei</value></data>
+  <data name="Sets_ImportBackup" xml:space="preserve"><value>Backup importieren…</value></data>
+  <data name="Sets_ExportBackup" xml:space="preserve"><value>Backup exportieren…</value></data>
+  <data name="Sets_Refresh" xml:space="preserve"><value>Aktualisieren</value></data>
+  <data name="Sets_Total" xml:space="preserve"><value>gesamt</value></data>
+  <data name="Sets_Due" xml:space="preserve"><value>fällig</value></data>
+  <data name="Sets_New" xml:space="preserve"><value>neu</value></data>
+  <data name="Sets_EmptyTitle" xml:space="preserve"><value>Noch keine Karteien</value></data>
+  <data name="Sets_EmptyHint" xml:space="preserve"><value>Importiere ein Backup aus der Android-App, um loszulegen.</value></data>
+  <data name="Learn_EmptyTitle" xml:space="preserve"><value>Nichts zu lernen</value></data>
+  <data name="Learn_EmptyHint" xml:space="preserve"><value>Für diese Auswahl sind gerade keine Karten fällig.</value></data>
+  <data name="Learn_BackToSets" xml:space="preserve"><value>Zurück zu den Karteien</value></data>
+  <data name="Learn_Undo" xml:space="preserve"><value>Rückgängig (Strg+Z)</value></data>
+  <data name="Learn_Exit" xml:space="preserve"><value>Beenden (Esc)</value></data>
+  <data name="Learn_Flip" xml:space="preserve"><value>Umdrehen (Leertaste)</value></data>
+  <data name="Learn_Wrong" xml:space="preserve"><value>Falsch (1)</value></data>
+  <data name="Learn_Right" xml:space="preserve"><value>Richtig (2)</value></data>
+  <data name="Learn_Again" xml:space="preserve"><value>Nochmal (1)</value></data>
+  <data name="Learn_Hard" xml:space="preserve"><value>Schwer (2)</value></data>
+  <data name="Learn_Good" xml:space="preserve"><value>Gut (3)</value></data>
+  <data name="Learn_Easy" xml:space="preserve"><value>Einfach (4)</value></data>
+  <data name="Learn_FreeTextHint" xml:space="preserve"><value>Enter prüft · F1 „Weiß nicht“</value></data>
+  <data name="Learn_Next" xml:space="preserve"><value>Weiter (Enter)</value></data>
+  <data name="Learn_McHint" xml:space="preserve"><value>1–4 oder Klick zum Wählen</value></data>
+  <data name="Settings_Title" xml:space="preserve"><value>Einstellungen</value></data>
+  <data name="Settings_LearningSection" xml:space="preserve"><value>Lernen (SRS)</value></data>
+  <data name="Settings_Mode" xml:space="preserve"><value>Modus</value></data>
+  <data name="Settings_BoxIntervals" xml:space="preserve"><value>Karteikasten-Intervalle in Tagen (6 Werte, mit Komma)</value></data>
+  <data name="Settings_Direction" xml:space="preserve"><value>Abfragerichtung</value></data>
+  <data name="Settings_StrictAccents" xml:space="preserve"><value>Akzente streng prüfen (café ≠ cafe)</value></data>
+  <data name="Settings_TypoTolerance" xml:space="preserve"><value>Tippfehler-Toleranz</value></data>
+  <data name="Settings_LeechThreshold" xml:space="preserve"><value>Leech-Schwelle</value></data>
+  <data name="Settings_MaxCardsPerSession" xml:space="preserve"><value>Karten/Session (0 = alle)</value></data>
+  <data name="Settings_MaxNewPerSession" xml:space="preserve"><value>Neue/Session (0 = alle)</value></data>
+  <data name="Settings_AppearanceSection" xml:space="preserve"><value>Darstellung</value></data>
+  <data name="Settings_Theme" xml:space="preserve"><value>Design</value></data>
+  <data name="Settings_FontSize" xml:space="preserve"><value>Schriftgröße</value></data>
+  <data name="Settings_Language" xml:space="preserve"><value>Sprache</value></data>
+  <data name="Settings_RestartHint" xml:space="preserve"><value>Schriftgröße und Sprache wirken nach einem Neustart, das Design sofort.</value></data>
+  <data name="Settings_Save" xml:space="preserve"><value>Speichern</value></data>
+  <data name="Settings_Saved" xml:space="preserve"><value>✓ Gespeichert</value></data>
+  <data name="Summary_Correct" xml:space="preserve"><value>richtig</value></data>
+  <data name="Summary_Wrong" xml:space="preserve"><value>falsch</value></data>
+  <data name="Summary_RepeatWrong" xml:space="preserve"><value>Falsche wiederholen (R)</value></data>
+  <data name="Summary_Done" xml:space="preserve"><value>Fertig (Enter)</value></data>
+  <data name="Detail_CardsSuffix" xml:space="preserve"><value> Karten</value></data>
+  <data name="Detail_Learn" xml:space="preserve"><value>Lernen</value></data>
+  <data name="Detail_LearnTooltip" xml:space="preserve"><value>Fällige als Karteikarten (Dropdown für Filter + Modus)</value></data>
+  <data name="Detail_Due" xml:space="preserve"><value>Fällige</value></data>
+  <data name="Detail_All" xml:space="preserve"><value>Alle</value></data>
+  <data name="Detail_New" xml:space="preserve"><value>Neue</value></data>
+  <data name="Detail_Leeches" xml:space="preserve"><value>Leeches</value></data>
+  <data name="Detail_Flashcards" xml:space="preserve"><value>Karteikarten</value></data>
+  <data name="Detail_FreeText" xml:space="preserve"><value>Freitext</value></data>
+  <data name="Detail_MultipleChoice" xml:space="preserve"><value>Multiple Choice</value></data>
+  <data name="Detail_SearchPlaceholder" xml:space="preserve"><value>Suchen…</value></data>
+  <data name="Detail_NewCard" xml:space="preserve"><value>Neue Karte</value></data>
+  <data name="Detail_NewCardTooltip" xml:space="preserve"><value>Strg+N</value></data>
+  <data name="Detail_SetActions" xml:space="preserve"><value>Kartei-Aktionen</value></data>
+  <data name="Detail_EditSet" xml:space="preserve"><value>Kartei bearbeiten…</value></data>
+  <data name="Detail_DeleteSet" xml:space="preserve"><value>Kartei löschen…</value></data>
+  <data name="Detail_ColSource" xml:space="preserve"><value>Quelle</value></data>
+  <data name="Detail_ColTarget" xml:space="preserve"><value>Ziel</value></data>
+  <data name="Detail_ColBox" xml:space="preserve"><value>Fach</value></data>
+  <data name="Detail_ColDue" xml:space="preserve"><value>fällig am</value></data>
+  <data name="Detail_ColLeech" xml:space="preserve"><value>Leech</value></data>
+  <data name="Detail_ColTags" xml:space="preserve"><value>Tags</value></data>
+  <data name="Detail_FieldSource" xml:space="preserve"><value>Quelle *</value></data>
+  <data name="Detail_FieldTarget" xml:space="preserve"><value>Ziel *</value></data>
+  <data name="Detail_FieldAcceptedAnswers" xml:space="preserve"><value>Akzeptierte Antworten (mit ; trennen)</value></data>
+  <data name="Detail_FieldExampleSentence" xml:space="preserve"><value>Beispielsatz</value></data>
+  <data name="Detail_FieldNotes" xml:space="preserve"><value>Notizen</value></data>
+  <data name="Detail_More" xml:space="preserve"><value>Mehr</value></data>
+  <data name="Detail_FieldPartOfSpeech" xml:space="preserve"><value>Wortart</value></data>
+  <data name="Detail_FieldGender" xml:space="preserve"><value>Genus</value></data>
+  <data name="Detail_FieldPluralForm" xml:space="preserve"><value>Pluralform</value></data>
+  <data name="Detail_FieldVerbForms" xml:space="preserve"><value>Verbformen</value></data>
+  <data name="Detail_FieldPronunciation" xml:space="preserve"><value>Aussprache</value></data>
+  <data name="Detail_FieldTags" xml:space="preserve"><value>Tags (mit ; trennen)</value></data>
+  <data name="Detail_FieldMnemonic" xml:space="preserve"><value>Eselsbrücke</value></data>
+  <data name="Detail_SaveAndNext" xml:space="preserve"><value>Speichern &amp; Nächste</value></data>
+  <data name="Detail_SaveAndNextTooltip" xml:space="preserve"><value>Strg+Enter</value></data>
+  <data name="Detail_Save" xml:space="preserve"><value>Speichern</value></data>
+  <data name="Detail_SaveTooltip" xml:space="preserve"><value>Strg+S</value></data>
+  <data name="Detail_Cancel" xml:space="preserve"><value>Abbrechen</value></data>
+  <data name="Detail_CancelTooltip" xml:space="preserve"><value>Esc</value></data>
+  <data name="Import_Heading" xml:space="preserve"><value>Backup importieren</value></data>
+  <data name="Import_ReplacesAllWarning" xml:space="preserve"><value>⚠ Ersetzt ALLE lokalen Daten</value></data>
+  <data name="Import_AutoBackupHint" xml:space="preserve"><value>Vor dem Import wird automatisch eine Sicherung deiner aktuellen Daten angelegt.</value></data>
+  <data name="Import_ApplySettings" xml:space="preserve"><value>SRS-Einstellungen aus dem Backup übernehmen</value></data>
+  <data name="Import_WarningsHeader" xml:space="preserve"><value>Hinweise</value></data>
+  <data name="Import_Cancel" xml:space="preserve"><value>Abbrechen</value></data>
+  <data name="Import_Import" xml:space="preserve"><value>Importieren</value></data>
+  <data name="SetEditor_TitleLabel" xml:space="preserve"><value>Titel</value></data>
+  <data name="SetEditor_TitlePlaceholder" xml:space="preserve"><value>z.B. Spanisch A1</value></data>
+  <data name="SetEditor_DescriptionLabel" xml:space="preserve"><value>Beschreibung</value></data>
+  <data name="SetEditor_SourceLanguageLabel" xml:space="preserve"><value>Quellsprache</value></data>
+  <data name="SetEditor_SourceLanguagePlaceholder" xml:space="preserve"><value>de</value></data>
+  <data name="SetEditor_TargetLanguageLabel" xml:space="preserve"><value>Zielsprache</value></data>
+  <data name="SetEditor_TargetLanguagePlaceholder" xml:space="preserve"><value>es</value></data>
+  <data name="SetEditor_Cancel" xml:space="preserve"><value>Abbrechen</value></data>
+  <data name="SetEditor_Save" xml:space="preserve"><value>Speichern</value></data>
+  <data name="Confirm_Cancel" xml:space="preserve"><value>Abbrechen</value></data>
+  <data name="Confirm_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="Message_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="App_Subtitle" xml:space="preserve"><value>Desktop</value></data>
+  <data name="Nav_Back" xml:space="preserve"><value>◀  Zurück</value></data>
+  <data name="Nav_Sets" xml:space="preserve"><value>Karteien</value></data>
+  <data name="Nav_Settings" xml:space="preserve"><value>Einstellungen</value></data>
 </root>

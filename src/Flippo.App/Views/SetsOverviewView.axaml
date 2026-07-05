@@ -1,6 +1,7 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:vm="using:Flippo.App.ViewModels"
+             xmlns:loc="using:Flippo.App.Localization"
              xmlns:domain="using:Flippo.Core.Domain"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -11,22 +12,22 @@
     <Grid RowDefinitions="Auto,*" Margin="24">
         <!-- Kopf + Toolbar -->
         <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,16">
-            <TextBlock Grid.Column="0" Text="Karteien" FontSize="26" FontWeight="SemiBold" VerticalAlignment="Center"/>
+            <TextBlock Grid.Column="0" Text="{loc:T Sets_Title}" FontSize="26" FontWeight="SemiBold" VerticalAlignment="Center"/>
             <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8">
-                <SplitButton Content="Alle fälligen lernen" Command="{Binding LearnAllDueCommand}"
-                             ToolTip.Tip="Fällige als Karteikarten (Dropdown für Modus)">
+                <SplitButton Content="{loc:T Sets_LearnAllDue}" Command="{Binding LearnAllDueCommand}"
+                             ToolTip.Tip="{loc:T Sets_LearnAllDueTooltip}">
                     <SplitButton.Flyout>
                         <MenuFlyout>
-                            <MenuItem Header="Karteikarten" Command="{Binding LearnAllDueCommand}" CommandParameter="Flashcard"/>
-                            <MenuItem Header="Freitext" Command="{Binding LearnAllDueCommand}" CommandParameter="FreeText"/>
-                            <MenuItem Header="Multiple Choice" Command="{Binding LearnAllDueCommand}" CommandParameter="MultipleChoice"/>
+                            <MenuItem Header="{loc:T Sets_ModeFlashcard}" Command="{Binding LearnAllDueCommand}" CommandParameter="Flashcard"/>
+                            <MenuItem Header="{loc:T Sets_ModeFreeText}" Command="{Binding LearnAllDueCommand}" CommandParameter="FreeText"/>
+                            <MenuItem Header="{loc:T Sets_ModeMultipleChoice}" Command="{Binding LearnAllDueCommand}" CommandParameter="MultipleChoice"/>
                         </MenuFlyout>
                     </SplitButton.Flyout>
                 </SplitButton>
-                <Button Content="Neue Kartei" Command="{Binding NewSetCommand}"/>
-                <Button Content="Backup importieren…" Command="{Binding ImportCommand}"/>
-                <Button Content="Backup exportieren…" Command="{Binding ExportCommand}"/>
-                <Button Content="↻" Command="{Binding LoadCommand}" ToolTip.Tip="Aktualisieren"/>
+                <Button Content="{loc:T Sets_NewSet}" Command="{Binding NewSetCommand}"/>
+                <Button Content="{loc:T Sets_ImportBackup}" Command="{Binding ImportCommand}"/>
+                <Button Content="{loc:T Sets_ExportBackup}" Command="{Binding ExportCommand}"/>
+                <Button Content="↻" Command="{Binding LoadCommand}" ToolTip.Tip="{loc:T Sets_Refresh}"/>
             </StackPanel>
         </Grid>
 
@@ -50,15 +51,15 @@
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="18" VerticalAlignment="Center">
                                         <StackPanel Spacing="1">
                                             <TextBlock Text="{Binding TotalCards}" FontSize="18" FontWeight="SemiBold" HorizontalAlignment="Center"/>
-                                            <TextBlock Text="gesamt" FontSize="10" Opacity="0.6"/>
+                                            <TextBlock Text="{loc:T Sets_Total}" FontSize="10" Opacity="0.6"/>
                                         </StackPanel>
                                         <StackPanel Spacing="1">
                                             <TextBlock Text="{Binding DueCards}" FontSize="18" FontWeight="SemiBold" Foreground="#E67700" HorizontalAlignment="Center"/>
-                                            <TextBlock Text="fällig" FontSize="10" Opacity="0.6"/>
+                                            <TextBlock Text="{loc:T Sets_Due}" FontSize="10" Opacity="0.6"/>
                                         </StackPanel>
                                         <StackPanel Spacing="1">
                                             <TextBlock Text="{Binding NewCards}" FontSize="18" FontWeight="SemiBold" Foreground="#2B8A3E" HorizontalAlignment="Center"/>
-                                            <TextBlock Text="neu" FontSize="10" Opacity="0.6"/>
+                                            <TextBlock Text="{loc:T Sets_New}" FontSize="10" Opacity="0.6"/>
                                         </StackPanel>
                                     </StackPanel>
                                 </Grid>
@@ -69,8 +70,8 @@
 
                 <!-- Leerzustand -->
                 <StackPanel IsVisible="{Binding IsEmpty}" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="8" Margin="0,60">
-                    <TextBlock Text="Noch keine Karteien" FontSize="18" Opacity="0.7" HorizontalAlignment="Center"/>
-                    <TextBlock Text="Importiere ein Backup aus der Android-App, um loszulegen." Opacity="0.5" HorizontalAlignment="Center"/>
+                    <TextBlock Text="{loc:T Sets_EmptyTitle}" FontSize="18" Opacity="0.7" HorizontalAlignment="Center"/>
+                    <TextBlock Text="{loc:T Sets_EmptyHint}" Opacity="0.5" HorizontalAlignment="Center"/>
                 </StackPanel>
             </Panel>
         </ScrollViewer>

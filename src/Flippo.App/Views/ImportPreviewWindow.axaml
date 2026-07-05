@@ -1,6 +1,7 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="using:Flippo.App.ViewModels"
+        xmlns:loc="using:Flippo.App.Localization"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
@@ -12,31 +13,31 @@
         CanResize="False">
 
     <StackPanel Margin="24" Spacing="16">
-        <TextBlock Text="Backup importieren" FontSize="20" FontWeight="SemiBold"/>
+        <TextBlock Text="{loc:T Import_Heading}" FontSize="20" FontWeight="SemiBold"/>
 
         <Border Background="#33E67700" CornerRadius="6" Padding="12">
             <StackPanel Spacing="4">
-                <TextBlock Text="⚠ Ersetzt ALLE lokalen Daten" FontWeight="SemiBold"/>
+                <TextBlock Text="{loc:T Import_ReplacesAllWarning}" FontWeight="SemiBold"/>
                 <TextBlock Text="{Binding Summary}" Opacity="0.85"/>
-                <TextBlock Text="Vor dem Import wird automatisch eine Sicherung deiner aktuellen Daten angelegt."
+                <TextBlock Text="{loc:T Import_AutoBackupHint}"
                            FontSize="12" Opacity="0.7" TextWrapping="Wrap"/>
             </StackPanel>
         </Border>
 
-        <CheckBox Content="SRS-Einstellungen aus dem Backup übernehmen"
+        <CheckBox Content="{loc:T Import_ApplySettings}"
                   IsChecked="{Binding ApplySettings}"
                   IsVisible="{Binding HasSettings}"/>
 
         <Border IsVisible="{Binding HasWarnings}" Background="#33D32F2F" CornerRadius="6" Padding="12">
             <StackPanel Spacing="4">
-                <TextBlock Text="Hinweise" FontWeight="SemiBold"/>
+                <TextBlock Text="{loc:T Import_WarningsHeader}" FontWeight="SemiBold"/>
                 <TextBlock Text="{Binding WarningsText}" TextWrapping="Wrap" FontSize="12"/>
             </StackPanel>
         </Border>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8">
-            <Button Content="Abbrechen" Click="OnCancel" MinWidth="90"/>
-            <Button Content="Importieren" Click="OnConfirm" MinWidth="90" Classes="accent"/>
+            <Button Content="{loc:T Import_Cancel}" Click="OnCancel" MinWidth="90"/>
+            <Button Content="{loc:T Import_Import}" Click="OnConfirm" MinWidth="90" Classes="accent"/>
         </StackPanel>
     </StackPanel>
 </Window>

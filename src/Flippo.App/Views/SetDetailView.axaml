@@ -1,6 +1,7 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:vm="using:Flippo.App.ViewModels"
+             xmlns:loc="using:Flippo.App.Localization"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="600"
@@ -22,45 +23,45 @@
             <StackPanel Grid.Column="0" Spacing="2" VerticalAlignment="Center">
                 <TextBlock Text="{Binding Title}" FontSize="26" FontWeight="SemiBold"/>
                 <TextBlock FontSize="12" Opacity="0.6">
-                    <Run Text="{Binding Entries.Count}"/><Run Text=" Karten"/>
+                    <Run Text="{Binding Entries.Count}"/><Run Text="{loc:T Detail_CardsSuffix}"/>
                 </TextBlock>
             </StackPanel>
             <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
-                <SplitButton Content="Lernen" Command="{Binding LearnCommand}" CommandParameter="Due"
-                             ToolTip.Tip="Fällige als Karteikarten (Dropdown für Filter + Modus)">
+                <SplitButton Content="{loc:T Detail_Learn}" Command="{Binding LearnCommand}" CommandParameter="Due"
+                             ToolTip.Tip="{loc:T Detail_LearnTooltip}">
                     <SplitButton.Flyout>
                         <MenuFlyout>
-                            <MenuItem Header="Fällige">
-                                <MenuItem Header="Karteikarten" Command="{Binding LearnCommand}" CommandParameter="Due|Flashcard"/>
-                                <MenuItem Header="Freitext" Command="{Binding LearnCommand}" CommandParameter="Due|FreeText"/>
-                                <MenuItem Header="Multiple Choice" Command="{Binding LearnCommand}" CommandParameter="Due|MultipleChoice"/>
+                            <MenuItem Header="{loc:T Detail_Due}">
+                                <MenuItem Header="{loc:T Detail_Flashcards}" Command="{Binding LearnCommand}" CommandParameter="Due|Flashcard"/>
+                                <MenuItem Header="{loc:T Detail_FreeText}" Command="{Binding LearnCommand}" CommandParameter="Due|FreeText"/>
+                                <MenuItem Header="{loc:T Detail_MultipleChoice}" Command="{Binding LearnCommand}" CommandParameter="Due|MultipleChoice"/>
                             </MenuItem>
-                            <MenuItem Header="Alle">
-                                <MenuItem Header="Karteikarten" Command="{Binding LearnCommand}" CommandParameter="All|Flashcard"/>
-                                <MenuItem Header="Freitext" Command="{Binding LearnCommand}" CommandParameter="All|FreeText"/>
-                                <MenuItem Header="Multiple Choice" Command="{Binding LearnCommand}" CommandParameter="All|MultipleChoice"/>
+                            <MenuItem Header="{loc:T Detail_All}">
+                                <MenuItem Header="{loc:T Detail_Flashcards}" Command="{Binding LearnCommand}" CommandParameter="All|Flashcard"/>
+                                <MenuItem Header="{loc:T Detail_FreeText}" Command="{Binding LearnCommand}" CommandParameter="All|FreeText"/>
+                                <MenuItem Header="{loc:T Detail_MultipleChoice}" Command="{Binding LearnCommand}" CommandParameter="All|MultipleChoice"/>
                             </MenuItem>
-                            <MenuItem Header="Neue">
-                                <MenuItem Header="Karteikarten" Command="{Binding LearnCommand}" CommandParameter="New|Flashcard"/>
-                                <MenuItem Header="Freitext" Command="{Binding LearnCommand}" CommandParameter="New|FreeText"/>
-                                <MenuItem Header="Multiple Choice" Command="{Binding LearnCommand}" CommandParameter="New|MultipleChoice"/>
+                            <MenuItem Header="{loc:T Detail_New}">
+                                <MenuItem Header="{loc:T Detail_Flashcards}" Command="{Binding LearnCommand}" CommandParameter="New|Flashcard"/>
+                                <MenuItem Header="{loc:T Detail_FreeText}" Command="{Binding LearnCommand}" CommandParameter="New|FreeText"/>
+                                <MenuItem Header="{loc:T Detail_MultipleChoice}" Command="{Binding LearnCommand}" CommandParameter="New|MultipleChoice"/>
                             </MenuItem>
-                            <MenuItem Header="Leeches">
-                                <MenuItem Header="Karteikarten" Command="{Binding LearnCommand}" CommandParameter="Leech|Flashcard"/>
-                                <MenuItem Header="Freitext" Command="{Binding LearnCommand}" CommandParameter="Leech|FreeText"/>
-                                <MenuItem Header="Multiple Choice" Command="{Binding LearnCommand}" CommandParameter="Leech|MultipleChoice"/>
+                            <MenuItem Header="{loc:T Detail_Leeches}">
+                                <MenuItem Header="{loc:T Detail_Flashcards}" Command="{Binding LearnCommand}" CommandParameter="Leech|Flashcard"/>
+                                <MenuItem Header="{loc:T Detail_FreeText}" Command="{Binding LearnCommand}" CommandParameter="Leech|FreeText"/>
+                                <MenuItem Header="{loc:T Detail_MultipleChoice}" Command="{Binding LearnCommand}" CommandParameter="Leech|MultipleChoice"/>
                             </MenuItem>
                         </MenuFlyout>
                     </SplitButton.Flyout>
                 </SplitButton>
-                <TextBox Width="200" PlaceholderText="Suchen…" Text="{Binding SearchText}"/>
-                <Button Content="Neue Karte" Command="{Binding NewCardCommand}" Classes="accent"
-                        ToolTip.Tip="Strg+N"/>
-                <Button Content="⋯" ToolTip.Tip="Kartei-Aktionen">
+                <TextBox Width="200" PlaceholderText="{loc:T Detail_SearchPlaceholder}" Text="{Binding SearchText}"/>
+                <Button Content="{loc:T Detail_NewCard}" Command="{Binding NewCardCommand}" Classes="accent"
+                        ToolTip.Tip="{loc:T Detail_NewCardTooltip}"/>
+                <Button Content="⋯" ToolTip.Tip="{loc:T Detail_SetActions}">
                     <Button.Flyout>
                         <MenuFlyout>
-                            <MenuItem Header="Kartei bearbeiten…" Command="{Binding EditSetCommand}"/>
-                            <MenuItem Header="Kartei löschen…" Command="{Binding DeleteSetCommand}"/>
+                            <MenuItem Header="{loc:T Detail_EditSet}" Command="{Binding EditSetCommand}"/>
+                            <MenuItem Header="{loc:T Detail_DeleteSet}" Command="{Binding DeleteSetCommand}"/>
                         </MenuFlyout>
                     </Button.Flyout>
                 </Button>
@@ -76,12 +77,12 @@
                       CanUserResizeColumns="True" CanUserSortColumns="True"
                       KeyDown="OnGridKeyDown" DoubleTapped="OnRowDoubleTapped">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Quelle" Binding="{Binding SourceText}" Width="*"/>
-                    <DataGridTextColumn Header="Ziel" Binding="{Binding TargetText}" Width="*"/>
-                    <DataGridTextColumn Header="Fach" Binding="{Binding BoxLevel}" Width="55"/>
-                    <DataGridTextColumn Header="fällig am" Binding="{Binding DueDisplay}" Width="105"/>
-                    <DataGridCheckBoxColumn Header="Leech" Binding="{Binding IsLeech}" Width="65"/>
-                    <DataGridTextColumn Header="Tags" Binding="{Binding TagsDisplay}" Width="160"/>
+                    <DataGridTextColumn Header="{loc:T Detail_ColSource}" Binding="{Binding SourceText}" Width="*"/>
+                    <DataGridTextColumn Header="{loc:T Detail_ColTarget}" Binding="{Binding TargetText}" Width="*"/>
+                    <DataGridTextColumn Header="{loc:T Detail_ColBox}" Binding="{Binding BoxLevel}" Width="55"/>
+                    <DataGridTextColumn Header="{loc:T Detail_ColDue}" Binding="{Binding DueDisplay}" Width="105"/>
+                    <DataGridCheckBoxColumn Header="{loc:T Detail_ColLeech}" Binding="{Binding IsLeech}" Width="65"/>
+                    <DataGridTextColumn Header="{loc:T Detail_ColTags}" Binding="{Binding TagsDisplay}" Width="160"/>
                 </DataGrid.Columns>
             </DataGrid>
 
@@ -94,54 +95,54 @@
                         <TextBlock Text="{Binding HeaderText}" FontSize="18" FontWeight="SemiBold"/>
 
                         <StackPanel Spacing="3">
-                            <TextBlock Text="Quelle *" FontSize="12" Opacity="0.7"/>
+                            <TextBlock Text="{loc:T Detail_FieldSource}" FontSize="12" Opacity="0.7"/>
                             <TextBox x:Name="SourceBox" Text="{Binding SourceText}" TabIndex="0"/>
                         </StackPanel>
                         <StackPanel Spacing="3">
-                            <TextBlock Text="Ziel *" FontSize="12" Opacity="0.7"/>
+                            <TextBlock Text="{loc:T Detail_FieldTarget}" FontSize="12" Opacity="0.7"/>
                             <TextBox Text="{Binding TargetText}" TabIndex="1"/>
                         </StackPanel>
                         <StackPanel Spacing="3">
-                            <TextBlock Text="Akzeptierte Antworten (mit ; trennen)" FontSize="12" Opacity="0.7"/>
+                            <TextBlock Text="{loc:T Detail_FieldAcceptedAnswers}" FontSize="12" Opacity="0.7"/>
                             <TextBox Text="{Binding AcceptedAnswers}" TabIndex="2"/>
                         </StackPanel>
                         <StackPanel Spacing="3">
-                            <TextBlock Text="Beispielsatz" FontSize="12" Opacity="0.7"/>
+                            <TextBlock Text="{loc:T Detail_FieldExampleSentence}" FontSize="12" Opacity="0.7"/>
                             <TextBox Text="{Binding ExampleSentence}" TabIndex="3"/>
                         </StackPanel>
                         <StackPanel Spacing="3">
-                            <TextBlock Text="Notizen" FontSize="12" Opacity="0.7"/>
+                            <TextBlock Text="{loc:T Detail_FieldNotes}" FontSize="12" Opacity="0.7"/>
                             <TextBox Text="{Binding Notes}" TabIndex="4"/>
                         </StackPanel>
 
-                        <Expander Header="Mehr">
+                        <Expander Header="{loc:T Detail_More}">
                             <StackPanel Spacing="10" Margin="0,8,0,0">
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="Wortart" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldPartOfSpeech}" FontSize="12" Opacity="0.7"/>
                                     <TextBox Text="{Binding PartOfSpeech}"/>
                                 </StackPanel>
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="Genus" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldGender}" FontSize="12" Opacity="0.7"/>
                                     <TextBox Text="{Binding Gender}"/>
                                 </StackPanel>
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="Pluralform" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldPluralForm}" FontSize="12" Opacity="0.7"/>
                                     <TextBox Text="{Binding PluralForm}"/>
                                 </StackPanel>
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="Verbformen" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldVerbForms}" FontSize="12" Opacity="0.7"/>
                                     <TextBox Text="{Binding VerbForms}"/>
                                 </StackPanel>
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="Aussprache" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldPronunciation}" FontSize="12" Opacity="0.7"/>
                                     <TextBox Text="{Binding Pronunciation}"/>
                                 </StackPanel>
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="Tags (mit ; trennen)" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldTags}" FontSize="12" Opacity="0.7"/>
                                     <TextBox Text="{Binding Tags}"/>
                                 </StackPanel>
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="Eselsbrücke" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldMnemonic}" FontSize="12" Opacity="0.7"/>
                                     <TextBox Text="{Binding Mnemonic}"/>
                                 </StackPanel>
                             </StackPanel>
@@ -150,13 +151,13 @@
                         <StackPanel Spacing="6" Margin="0,6,0,0"
                                     DataContext="{Binding $parent[UserControl].DataContext}"
                                     x:DataType="vm:SetDetailViewModel">
-                            <Button Content="Speichern &amp; Nächste" Command="{Binding SaveAndNextCommand}"
-                                    HorizontalAlignment="Stretch" Classes="accent" ToolTip.Tip="Strg+Enter"/>
+                            <Button Content="{loc:T Detail_SaveAndNext}" Command="{Binding SaveAndNextCommand}"
+                                    HorizontalAlignment="Stretch" Classes="accent" ToolTip.Tip="{loc:T Detail_SaveAndNextTooltip}"/>
                             <Grid ColumnDefinitions="*,6,*">
-                                <Button Grid.Column="0" Content="Speichern" Command="{Binding SaveAndCloseCommand}"
-                                        HorizontalAlignment="Stretch" ToolTip.Tip="Strg+S"/>
-                                <Button Grid.Column="2" Content="Abbrechen" Command="{Binding CancelEditCommand}"
-                                        HorizontalAlignment="Stretch" ToolTip.Tip="Esc"/>
+                                <Button Grid.Column="0" Content="{loc:T Detail_Save}" Command="{Binding SaveAndCloseCommand}"
+                                        HorizontalAlignment="Stretch" ToolTip.Tip="{loc:T Detail_SaveTooltip}"/>
+                                <Button Grid.Column="2" Content="{loc:T Detail_Cancel}" Command="{Binding CancelEditCommand}"
+                                        HorizontalAlignment="Stretch" ToolTip.Tip="{loc:T Detail_CancelTooltip}"/>
                             </Grid>
                         </StackPanel>
                     </StackPanel>

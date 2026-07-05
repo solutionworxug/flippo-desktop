@@ -1,6 +1,7 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:vm="using:Flippo.App.ViewModels"
+             xmlns:loc="using:Flippo.App.Localization"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
@@ -39,9 +40,9 @@
     <Panel>
         <!-- Leerzustand -->
         <StackPanel IsVisible="{Binding IsEmpty}" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="12">
-            <TextBlock Text="Nichts zu lernen" FontSize="20" Opacity="0.7" HorizontalAlignment="Center"/>
-            <TextBlock Text="Für diese Auswahl sind gerade keine Karten fällig." Opacity="0.5" HorizontalAlignment="Center"/>
-            <Button Content="Zurück zu den Karteien" Command="{Binding BackToSetsCommand}" HorizontalAlignment="Center"/>
+            <TextBlock Text="{loc:T Learn_EmptyTitle}" FontSize="20" Opacity="0.7" HorizontalAlignment="Center"/>
+            <TextBlock Text="{loc:T Learn_EmptyHint}" Opacity="0.5" HorizontalAlignment="Center"/>
+            <Button Content="{loc:T Learn_BackToSets}" Command="{Binding BackToSetsCommand}" HorizontalAlignment="Center"/>
         </StackPanel>
 
         <!-- Session -->
@@ -60,8 +61,8 @@
                     <TextBlock Foreground="#C92A2A" VerticalAlignment="Center">
                         <Run Text="✗ "/><Run Text="{Binding WrongCount}"/>
                     </TextBlock>
-                    <Button Content="Rückgängig (Strg+Z)" Command="{Binding UndoCommand}" IsEnabled="{Binding CanUndo}"/>
-                    <Button Content="Beenden (Esc)" Command="{Binding ExitCommand}"/>
+                    <Button Content="{loc:T Learn_Undo}" Command="{Binding UndoCommand}" IsEnabled="{Binding CanUndo}"/>
+                    <Button Content="{loc:T Learn_Exit}" Command="{Binding ExitCommand}"/>
                 </StackPanel>
             </Grid>
 
@@ -123,40 +124,40 @@
 
                 <!-- Flashcard -->
                 <Panel IsVisible="{Binding IsFlashcard}">
-                    <Button IsVisible="{Binding !IsAnswerShown}" Content="Umdrehen (Leertaste)"
+                    <Button IsVisible="{Binding !IsAnswerShown}" Content="{loc:T Learn_Flip}"
                             Command="{Binding FlipCommand}" Classes="accent"
                             HorizontalAlignment="Center" Padding="28,12" FontSize="15"/>
                     <Panel IsVisible="{Binding IsAnswerShown}">
                         <StackPanel IsVisible="{Binding !IsAdaptive}" Orientation="Horizontal" Spacing="16" HorizontalAlignment="Center">
                             <Button Command="{Binding GradeWrongCommand}" Padding="28,12" MinWidth="150" Background="#C92A2A" Foreground="White">
-                                <TextBlock Text="Falsch (1)" FontSize="15" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{loc:T Learn_Wrong}" FontSize="15" HorizontalAlignment="Center"/>
                             </Button>
                             <Button Command="{Binding GradeGoodCommand}" Padding="28,12" MinWidth="150" Background="#2B8A3E" Foreground="White">
-                                <TextBlock Text="Richtig (2)" FontSize="15" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{loc:T Learn_Right}" FontSize="15" HorizontalAlignment="Center"/>
                             </Button>
                         </StackPanel>
                         <StackPanel IsVisible="{Binding IsAdaptive}" Orientation="Horizontal" Spacing="12" HorizontalAlignment="Center">
                             <Button Command="{Binding GradeWrongCommand}" Padding="18,10" MinWidth="110">
                                 <StackPanel HorizontalAlignment="Center" Spacing="2">
-                                    <TextBlock Text="Nochmal (1)" FontSize="14" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{loc:T Learn_Again}" FontSize="14" HorizontalAlignment="Center"/>
                                     <TextBlock Text="{Binding PreviewAgain}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
                                 </StackPanel>
                             </Button>
                             <Button Command="{Binding GradeHardCommand}" Padding="18,10" MinWidth="110">
                                 <StackPanel HorizontalAlignment="Center" Spacing="2">
-                                    <TextBlock Text="Schwer (2)" FontSize="14" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{loc:T Learn_Hard}" FontSize="14" HorizontalAlignment="Center"/>
                                     <TextBlock Text="{Binding PreviewHard}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
                                 </StackPanel>
                             </Button>
                             <Button Command="{Binding GradeGoodCommand}" Padding="18,10" MinWidth="110">
                                 <StackPanel HorizontalAlignment="Center" Spacing="2">
-                                    <TextBlock Text="Gut (3)" FontSize="14" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{loc:T Learn_Good}" FontSize="14" HorizontalAlignment="Center"/>
                                     <TextBlock Text="{Binding PreviewGood}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
                                 </StackPanel>
                             </Button>
                             <Button Command="{Binding GradeEasyCommand}" Padding="18,10" MinWidth="110">
                                 <StackPanel HorizontalAlignment="Center" Spacing="2">
-                                    <TextBlock Text="Einfach (4)" FontSize="14" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{loc:T Learn_Easy}" FontSize="14" HorizontalAlignment="Center"/>
                                     <TextBlock Text="{Binding PreviewEasy}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
                                 </StackPanel>
                             </Button>
@@ -167,16 +168,16 @@
                 <!-- Freitext -->
                 <StackPanel IsVisible="{Binding IsFreeText}" HorizontalAlignment="Center" Spacing="4">
                     <TextBlock IsVisible="{Binding !IsAnswerShown}" Opacity="0.6" HorizontalAlignment="Center"
-                               Text="Enter prüft · F1 „Weiß nicht“"/>
-                    <Button IsVisible="{Binding IsAnswerShown}" Content="Weiter (Enter)" Classes="accent"
+                               Text="{loc:T Learn_FreeTextHint}"/>
+                    <Button IsVisible="{Binding IsAnswerShown}" Content="{loc:T Learn_Next}" Classes="accent"
                             Command="{Binding SubmitCommand}" Padding="28,12"/>
                 </StackPanel>
 
                 <!-- Multiple Choice -->
                 <StackPanel IsVisible="{Binding IsMultipleChoice}" HorizontalAlignment="Center" Spacing="4">
                     <TextBlock IsVisible="{Binding !IsAnswerShown}" Opacity="0.6" HorizontalAlignment="Center"
-                               Text="1–4 oder Klick zum Wählen"/>
-                    <Button IsVisible="{Binding IsAnswerShown}" Content="Weiter (Enter)" Classes="accent"
+                               Text="{loc:T Learn_McHint}"/>
+                    <Button IsVisible="{Binding IsAnswerShown}" Content="{loc:T Learn_Next}" Classes="accent"
                             Command="{Binding SubmitCommand}" Padding="28,12"/>
                 </StackPanel>
             </Panel>

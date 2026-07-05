@@ -1,27 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="App_Subtitle" xml:space="preserve">
-    <value>Desktop</value>
-  </data>
-  <data name="Nav_Back" xml:space="preserve">
-    <value>◀  Back</value>
-  </data>
-  <data name="Nav_Sets" xml:space="preserve">
-    <value>Decks</value>
-  </data>
-  <data name="Nav_Settings" xml:space="preserve">
-    <value>Settings</value>
-  </data>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Sets_Title" xml:space="preserve"><value>Decks</value></data>
+  <data name="Sets_LearnAllDue" xml:space="preserve"><value>Learn all due</value></data>
+  <data name="Sets_LearnAllDueTooltip" xml:space="preserve"><value>Due cards as flashcards (dropdown for mode)</value></data>
+  <data name="Sets_ModeFlashcard" xml:space="preserve"><value>Flashcards</value></data>
+  <data name="Sets_ModeFreeText" xml:space="preserve"><value>Free text</value></data>
+  <data name="Sets_ModeMultipleChoice" xml:space="preserve"><value>Multiple choice</value></data>
+  <data name="Sets_NewSet" xml:space="preserve"><value>New deck</value></data>
+  <data name="Sets_ImportBackup" xml:space="preserve"><value>Import backup…</value></data>
+  <data name="Sets_ExportBackup" xml:space="preserve"><value>Export backup…</value></data>
+  <data name="Sets_Refresh" xml:space="preserve"><value>Refresh</value></data>
+  <data name="Sets_Total" xml:space="preserve"><value>total</value></data>
+  <data name="Sets_Due" xml:space="preserve"><value>due</value></data>
+  <data name="Sets_New" xml:space="preserve"><value>new</value></data>
+  <data name="Sets_EmptyTitle" xml:space="preserve"><value>No decks yet</value></data>
+  <data name="Sets_EmptyHint" xml:space="preserve"><value>Import a backup from the Android app to get started.</value></data>
+  <data name="Learn_EmptyTitle" xml:space="preserve"><value>Nothing to learn</value></data>
+  <data name="Learn_EmptyHint" xml:space="preserve"><value>No cards are due for this selection right now.</value></data>
+  <data name="Learn_BackToSets" xml:space="preserve"><value>Back to decks</value></data>
+  <data name="Learn_Undo" xml:space="preserve"><value>Undo (Ctrl+Z)</value></data>
+  <data name="Learn_Exit" xml:space="preserve"><value>Exit (Esc)</value></data>
+  <data name="Learn_Flip" xml:space="preserve"><value>Flip (Space)</value></data>
+  <data name="Learn_Wrong" xml:space="preserve"><value>Wrong (1)</value></data>
+  <data name="Learn_Right" xml:space="preserve"><value>Right (2)</value></data>
+  <data name="Learn_Again" xml:space="preserve"><value>Again (1)</value></data>
+  <data name="Learn_Hard" xml:space="preserve"><value>Hard (2)</value></data>
+  <data name="Learn_Good" xml:space="preserve"><value>Good (3)</value></data>
+  <data name="Learn_Easy" xml:space="preserve"><value>Easy (4)</value></data>
+  <data name="Learn_FreeTextHint" xml:space="preserve"><value>Enter checks · F1 "Don't know"</value></data>
+  <data name="Learn_Next" xml:space="preserve"><value>Next (Enter)</value></data>
+  <data name="Learn_McHint" xml:space="preserve"><value>1-4 or click to choose</value></data>
+  <data name="Settings_Title" xml:space="preserve"><value>Settings</value></data>
+  <data name="Settings_LearningSection" xml:space="preserve"><value>Learning (SRS)</value></data>
+  <data name="Settings_Mode" xml:space="preserve"><value>Mode</value></data>
+  <data name="Settings_BoxIntervals" xml:space="preserve"><value>Box intervals in days (6 values, comma-separated)</value></data>
+  <data name="Settings_Direction" xml:space="preserve"><value>Direction</value></data>
+  <data name="Settings_StrictAccents" xml:space="preserve"><value>Check accents strictly (café ≠ cafe)</value></data>
+  <data name="Settings_TypoTolerance" xml:space="preserve"><value>Typo tolerance</value></data>
+  <data name="Settings_LeechThreshold" xml:space="preserve"><value>Leech threshold</value></data>
+  <data name="Settings_MaxCardsPerSession" xml:space="preserve"><value>Cards/session (0 = all)</value></data>
+  <data name="Settings_MaxNewPerSession" xml:space="preserve"><value>New/session (0 = all)</value></data>
+  <data name="Settings_AppearanceSection" xml:space="preserve"><value>Appearance</value></data>
+  <data name="Settings_Theme" xml:space="preserve"><value>Theme</value></data>
+  <data name="Settings_FontSize" xml:space="preserve"><value>Font size</value></data>
+  <data name="Settings_Language" xml:space="preserve"><value>Language</value></data>
+  <data name="Settings_RestartHint" xml:space="preserve"><value>Font size and language take effect after a restart, the theme immediately.</value></data>
+  <data name="Settings_Save" xml:space="preserve"><value>Save</value></data>
+  <data name="Settings_Saved" xml:space="preserve"><value>✓ Saved</value></data>
+  <data name="Summary_Correct" xml:space="preserve"><value>correct</value></data>
+  <data name="Summary_Wrong" xml:space="preserve"><value>wrong</value></data>
+  <data name="Summary_RepeatWrong" xml:space="preserve"><value>Repeat wrong (R)</value></data>
+  <data name="Summary_Done" xml:space="preserve"><value>Done (Enter)</value></data>
+  <data name="Detail_CardsSuffix" xml:space="preserve"><value> cards</value></data>
+  <data name="Detail_Learn" xml:space="preserve"><value>Learn</value></data>
+  <data name="Detail_LearnTooltip" xml:space="preserve"><value>Due cards as flashcards (dropdown for filter + mode)</value></data>
+  <data name="Detail_Due" xml:space="preserve"><value>Due</value></data>
+  <data name="Detail_All" xml:space="preserve"><value>All</value></data>
+  <data name="Detail_New" xml:space="preserve"><value>New</value></data>
+  <data name="Detail_Leeches" xml:space="preserve"><value>Leeches</value></data>
+  <data name="Detail_Flashcards" xml:space="preserve"><value>Flashcards</value></data>
+  <data name="Detail_FreeText" xml:space="preserve"><value>Free text</value></data>
+  <data name="Detail_MultipleChoice" xml:space="preserve"><value>Multiple choice</value></data>
+  <data name="Detail_SearchPlaceholder" xml:space="preserve"><value>Search…</value></data>
+  <data name="Detail_NewCard" xml:space="preserve"><value>New card</value></data>
+  <data name="Detail_NewCardTooltip" xml:space="preserve"><value>Ctrl+N</value></data>
+  <data name="Detail_SetActions" xml:space="preserve"><value>Set actions</value></data>
+  <data name="Detail_EditSet" xml:space="preserve"><value>Edit set…</value></data>
+  <data name="Detail_DeleteSet" xml:space="preserve"><value>Delete set…</value></data>
+  <data name="Detail_ColSource" xml:space="preserve"><value>Source</value></data>
+  <data name="Detail_ColTarget" xml:space="preserve"><value>Target</value></data>
+  <data name="Detail_ColBox" xml:space="preserve"><value>Box</value></data>
+  <data name="Detail_ColDue" xml:space="preserve"><value>Due</value></data>
+  <data name="Detail_ColLeech" xml:space="preserve"><value>Leech</value></data>
+  <data name="Detail_ColTags" xml:space="preserve"><value>Tags</value></data>
+  <data name="Detail_FieldSource" xml:space="preserve"><value>Source *</value></data>
+  <data name="Detail_FieldTarget" xml:space="preserve"><value>Target *</value></data>
+  <data name="Detail_FieldAcceptedAnswers" xml:space="preserve"><value>Accepted answers (separate with ;)</value></data>
+  <data name="Detail_FieldExampleSentence" xml:space="preserve"><value>Example sentence</value></data>
+  <data name="Detail_FieldNotes" xml:space="preserve"><value>Notes</value></data>
+  <data name="Detail_More" xml:space="preserve"><value>More</value></data>
+  <data name="Detail_FieldPartOfSpeech" xml:space="preserve"><value>Part of speech</value></data>
+  <data name="Detail_FieldGender" xml:space="preserve"><value>Gender</value></data>
+  <data name="Detail_FieldPluralForm" xml:space="preserve"><value>Plural form</value></data>
+  <data name="Detail_FieldVerbForms" xml:space="preserve"><value>Verb forms</value></data>
+  <data name="Detail_FieldPronunciation" xml:space="preserve"><value>Pronunciation</value></data>
+  <data name="Detail_FieldTags" xml:space="preserve"><value>Tags (separate with ;)</value></data>
+  <data name="Detail_FieldMnemonic" xml:space="preserve"><value>Mnemonic</value></data>
+  <data name="Detail_SaveAndNext" xml:space="preserve"><value>Save &amp; next</value></data>
+  <data name="Detail_SaveAndNextTooltip" xml:space="preserve"><value>Ctrl+Enter</value></data>
+  <data name="Detail_Save" xml:space="preserve"><value>Save</value></data>
+  <data name="Detail_SaveTooltip" xml:space="preserve"><value>Ctrl+S</value></data>
+  <data name="Detail_Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Detail_CancelTooltip" xml:space="preserve"><value>Esc</value></data>
+  <data name="Import_Heading" xml:space="preserve"><value>Import backup</value></data>
+  <data name="Import_ReplacesAllWarning" xml:space="preserve"><value>⚠ Replaces ALL local data</value></data>
+  <data name="Import_AutoBackupHint" xml:space="preserve"><value>A backup of your current data is created automatically before importing.</value></data>
+  <data name="Import_ApplySettings" xml:space="preserve"><value>Apply SRS settings from the backup</value></data>
+  <data name="Import_WarningsHeader" xml:space="preserve"><value>Notes</value></data>
+  <data name="Import_Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Import_Import" xml:space="preserve"><value>Import</value></data>
+  <data name="SetEditor_TitleLabel" xml:space="preserve"><value>Title</value></data>
+  <data name="SetEditor_TitlePlaceholder" xml:space="preserve"><value>e.g. Spanish A1</value></data>
+  <data name="SetEditor_DescriptionLabel" xml:space="preserve"><value>Description</value></data>
+  <data name="SetEditor_SourceLanguageLabel" xml:space="preserve"><value>Source language</value></data>
+  <data name="SetEditor_SourceLanguagePlaceholder" xml:space="preserve"><value>en</value></data>
+  <data name="SetEditor_TargetLanguageLabel" xml:space="preserve"><value>Target language</value></data>
+  <data name="SetEditor_TargetLanguagePlaceholder" xml:space="preserve"><value>es</value></data>
+  <data name="SetEditor_Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="SetEditor_Save" xml:space="preserve"><value>Save</value></data>
+  <data name="Confirm_Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Confirm_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="Message_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="App_Subtitle" xml:space="preserve"><value>Desktop</value></data>
+  <data name="Nav_Back" xml:space="preserve"><value>◀  Back</value></data>
+  <data name="Nav_Sets" xml:space="preserve"><value>Decks</value></data>
+  <data name="Nav_Settings" xml:space="preserve"><value>Settings</value></data>
 </root>
