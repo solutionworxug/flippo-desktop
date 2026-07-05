@@ -1,0 +1,59 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:Flippo.App.ViewModels"
+             xmlns:loc="using:Flippo.App.Localization"
+             xmlns:domain="using:Flippo.Core.Domain"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="600"
+             x:Class="Flippo.App.Views.UserDictionaryDetailView"
+             x:DataType="vm:UserDictionaryDetailViewModel"
+             x:Name="Root">
+
+    <UserControl.KeyBindings>
+        <KeyBinding Gesture="Escape" Command="{Binding BackCommand}"/>
+    </UserControl.KeyBindings>
+
+    <Grid RowDefinitions="Auto,*" Margin="24">
+        <!-- Kopf -->
+        <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto" Margin="0,0,0,16">
+            <Button Grid.Column="0" Content="←" Command="{Binding BackCommand}" Margin="0,0,12,0"
+                    VerticalAlignment="Center" ToolTip.Tip="{loc:T Dict_Back}"/>
+            <StackPanel Grid.Column="1" Spacing="2" VerticalAlignment="Center">
+                <TextBlock Text="{Binding Title}" FontSize="26" FontWeight="SemiBold"/>
+                <TextBlock Classes="caption" Text="{Binding ResultCount}"/>
+            </StackPanel>
+            <TextBox Grid.Column="2" Width="240" VerticalAlignment="Center"
+                     PlaceholderText="{loc:T Dict_SearchPlaceholder}" Text="{Binding SearchText}"/>
+        </Grid>
+
+        <!-- Treffer -->
+        <Panel Grid.Row="1">
+            <DataGrid ItemsSource="{Binding Results}"
+                      IsReadOnly="True" GridLinesVisibility="Horizontal"
+                      CanUserResizeColumns="True" CanUserSortColumns="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="{loc:T Dict_ColSource}" Binding="{Binding SourceWord}" Width="*"/>
+                    <DataGridTextColumn Header="{loc:T Dict_ColTarget}" Binding="{Binding TargetWord}" Width="*"/>
+                    <DataGridTextColumn Header="{loc:T Dict_ColPos}" Binding="{Binding PartOfSpeech}" Width="110"/>
+                    <DataGridTextColumn Header="{loc:T Dict_ColExample}" Binding="{Binding ExampleSentence}" Width="2*"/>
+                    <DataGridTemplateColumn Header="" Width="Auto">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate x:DataType="domain:UserDictionaryEntry">
+                                <Button Content="{loc:T Dict_ToCard}" Margin="6,2"
+                                        Command="{Binding #Root.((vm:UserDictionaryDetailViewModel)DataContext).AddToSetCommand}"
+                                        CommandParameter="{Binding}"
+                                        ToolTip.Tip="{loc:T Dict_ToCardTooltip}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- Leerzustand -->
+            <StackPanel IsVisible="{Binding IsEmpty}" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="8">
+                <TextBlock Text="{loc:T Dict_NoResults}" FontSize="16" Opacity="0.6" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Panel>
+    </Grid>
+</UserControl>

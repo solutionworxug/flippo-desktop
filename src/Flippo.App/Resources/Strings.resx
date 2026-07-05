@@ -120,6 +120,7 @@
   <data name="App_Subtitle" xml:space="preserve"><value>Desktop</value></data>
   <data name="Nav_Back" xml:space="preserve"><value>◀  Back</value></data>
   <data name="Nav_Sets" xml:space="preserve"><value>Decks</value></data>
+  <data name="Nav_Dictionary" xml:space="preserve"><value>Look up</value></data>
   <data name="Nav_Settings" xml:space="preserve"><value>Settings</value></data>
   <data name="Settings_SrsModeBox" xml:space="preserve"><value>Flashcard box (Leitner)</value></data>
   <data name="Settings_SrsModeAdaptive" xml:space="preserve"><value>Adaptive (SM-2)</value></data>
@@ -331,4 +332,28 @@ Learn session
   <data name="ThemeSetTitle_stadt" xml:space="preserve"><value>City</value></data>
   <data name="ThemeSetTitle_transportmittel" xml:space="preserve"><value>Means of Transport</value></data>
   <data name="ThemeSetTitle_verkehr" xml:space="preserve"><value>Traffic</value></data>
+  <data name="Dict_Subtitle" xml:space="preserve"><value>Reference dictionaries — search words and add them as cards.</value></data>
+  <data name="Dict_Installed" xml:space="preserve"><value>Installed</value></data>
+  <data name="Dict_Available" xml:space="preserve"><value>Available</value></data>
+  <data name="Dict_Entries" xml:space="preserve"><value>entries</value></data>
+  <data name="Dict_Install" xml:space="preserve"><value>Install</value></data>
+  <data name="Dict_EmptyTitle" xml:space="preserve"><value>No dictionaries yet</value></data>
+  <data name="Dict_EmptyHint" xml:space="preserve"><value>Install a bundled dictionary to start looking up words.</value></data>
+  <data name="Dict_DeleteTitle" xml:space="preserve"><value>Delete dictionary</value></data>
+  <data name="Dict_DeleteMsg" xml:space="preserve"><value>Delete the dictionary “{0}” and all its entries?</value></data>
+  <data name="Dict_ResultCount" xml:space="preserve"><value>{0} of {1} entries</value></data>
+  <data name="Dict_SearchPlaceholder" xml:space="preserve"><value>Search word…</value></data>
+  <data name="Dict_ColSource" xml:space="preserve"><value>Word</value></data>
+  <data name="Dict_ColTarget" xml:space="preserve"><value>Translation</value></data>
+  <data name="Dict_ColPos" xml:space="preserve"><value>Type</value></data>
+  <data name="Dict_ColExample" xml:space="preserve"><value>Example</value></data>
+  <data name="Dict_ToCard" xml:space="preserve"><value>→ Deck</value></data>
+  <data name="Dict_ToCardTooltip" xml:space="preserve"><value>Add this entry as a card to a deck</value></data>
+  <data name="Dict_NoResults" xml:space="preserve"><value>No matches</value></data>
+  <data name="Dict_Back" xml:space="preserve"><value>Back to dictionaries</value></data>
+  <data name="Dict_AddToSet" xml:space="preserve"><value>Add to deck</value></data>
+  <data name="Dict_ChooseSet" xml:space="preserve"><value>Choose a target deck</value></data>
+  <data name="Dict_NoSets" xml:space="preserve"><value>No decks yet — create a deck first.</value></data>
+  <data name="Dict_AlreadyInSet" xml:space="preserve"><value>“{0}” is already in the deck “{1}”.</value></data>
+  <data name="Dict_AddedToSet" xml:space="preserve"><value>“{0}” added to the deck “{1}”.</value></data>
 </root>

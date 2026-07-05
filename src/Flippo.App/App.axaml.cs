@@ -61,12 +61,16 @@ public partial class App : Application
         services.AddSingleton<IDialogService, DialogService>();
         services.AddSingleton<IThemeSetSource, BundledThemeSetSource>();
         services.AddSingleton<ThemeSetImporter>();
+        services.AddSingleton<IBundledDictionarySource, BundledDictionarySource>();
+        services.AddSingleton<DictionaryInstaller>();
         services.AddSingleton<SetActionsService>();
 
         services.AddSingleton<UpdateService>();
         services.AddSingleton<NavigationService>();
         services.AddSingleton<MainWindowViewModel>();
         services.AddTransient<DashboardViewModel>();
+        services.AddTransient<DictionaryListViewModel>();
+        services.AddTransient<UserDictionaryDetailViewModel>();
         services.AddTransient<SetsOverviewViewModel>();
         services.AddTransient<StatisticsViewModel>();
         services.AddTransient<SetDetailViewModel>();

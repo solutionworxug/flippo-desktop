@@ -17,6 +17,8 @@ public class FlippoDbContext : DbContext
     public DbSet<VocabularySetEntity> Sets => Set<VocabularySetEntity>();
     public DbSet<VocabularyEntryEntity> Entries => Set<VocabularyEntryEntity>();
     public DbSet<SessionRecordEntity> SessionRecords => Set<SessionRecordEntity>();
+    public DbSet<UserDictionaryEntity> UserDictionaries => Set<UserDictionaryEntity>();
+    public DbSet<UserDictionaryEntryEntity> UserDictionaryEntries => Set<UserDictionaryEntryEntity>();
 
     private static readonly JsonSerializerOptions ListJsonOptions = new(JsonSerializerDefaults.General);
 
@@ -65,6 +67,31 @@ public class FlippoDbContext : DbContext
             e.HasKey(x => x.Id);
             e.Property(x => x.Id).ValueGeneratedOnAdd();
             // Bewusst KEIN FK auf Set (spiegelt Room: setId nullable, kein Cascade).
+        });
+
+        modelBuilder.Entity<UserDictionaryEntity>(e =>
+        {
+            e.ToTable("user_dictionaries");
+            e.HasKey(x => x.Id);
+            e.Property(x => x.Id).ValueGeneratedOnAdd();
+        });
+
+        modelBuilder.Entity<UserDictionaryEntryEntity>(e =>
+        {
+            e.ToTable("user_dictionary_entries");
+            e.HasKey(x => x.Id);
+            e.Property(x => x.Id).ValueGeneratedOnAdd();
+
+            e.Property(x => x.AcceptedAnswers).HasConversion(listConverter, listComparer);
+
+            e.HasOne(x => x.Dictionary)
+                .WithMany(d => d.Entries)
+                .HasForeignKey(x => x.DictionaryId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            e.HasIndex(x => x.DictionaryId);
+            e.HasIndex(x => x.SourceWord);
+            e.HasIndex(x => x.TargetWord);
         });
     }
 

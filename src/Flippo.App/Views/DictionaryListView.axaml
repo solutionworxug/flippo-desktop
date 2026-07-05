@@ -1,0 +1,97 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:Flippo.App.ViewModels"
+             xmlns:loc="using:Flippo.App.Localization"
+             xmlns:domain="using:Flippo.Core.Domain"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="820" d:DesignHeight="640"
+             x:Class="Flippo.App.Views.DictionaryListView"
+             x:DataType="vm:DictionaryListViewModel">
+
+    <Grid RowDefinitions="Auto,*" Margin="24">
+        <!-- Kopf -->
+        <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,16">
+            <StackPanel Grid.Column="0" Spacing="2">
+                <TextBlock Classes="page-title" Text="{loc:T Nav_Dictionary}"/>
+                <TextBlock Classes="caption" Text="{loc:T Dict_Subtitle}"/>
+            </StackPanel>
+            <Button Grid.Column="1" Content="↻" Command="{Binding LoadCommand}" VerticalAlignment="Top"
+                    ToolTip.Tip="{loc:T Sets_Refresh}"/>
+        </Grid>
+
+        <ScrollViewer Grid.Row="1">
+            <StackPanel Spacing="16">
+
+                <!-- Installierte Wörterbücher -->
+                <StackPanel Spacing="8" IsVisible="{Binding HasInstalled}">
+                    <TextBlock Classes="eyebrow" Text="{loc:T Dict_Installed}"/>
+                    <ItemsControl ItemsSource="{Binding Installed}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate x:DataType="domain:UserDictionary">
+                                <Button Command="{Binding $parent[ItemsControl].((vm:DictionaryListViewModel)DataContext).OpenDictCommand}"
+                                        CommandParameter="{Binding}"
+                                        HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"
+                                        Padding="16" Margin="0,0,0,8">
+                                    <Button.ContextFlyout>
+                                        <MenuFlyout>
+                                            <MenuItem Header="{loc:T Ctx_Open}"
+                                                      Command="{Binding $parent[ItemsControl].((vm:DictionaryListViewModel)DataContext).OpenDictCommand}"
+                                                      CommandParameter="{Binding}"/>
+                                            <MenuItem Header="{loc:T Ctx_Delete}"
+                                                      Command="{Binding $parent[ItemsControl].((vm:DictionaryListViewModel)DataContext).DeleteDictCommand}"
+                                                      CommandParameter="{Binding}"/>
+                                        </MenuFlyout>
+                                    </Button.ContextFlyout>
+                                    <Grid ColumnDefinitions="*,Auto">
+                                        <StackPanel Grid.Column="0" Spacing="2">
+                                            <TextBlock Text="{Binding Name}" FontSize="17" FontWeight="SemiBold"/>
+                                            <TextBlock FontSize="12" Opacity="0.6">
+                                                <Run Text="{Binding SourceLanguage}"/><Run Text=" → "/><Run Text="{Binding TargetLanguage}"/>
+                                            </TextBlock>
+                                        </StackPanel>
+                                        <StackPanel Grid.Column="1" Spacing="1" VerticalAlignment="Center">
+                                            <TextBlock Text="{Binding EntryCount}" FontSize="18" FontWeight="SemiBold" HorizontalAlignment="Center"/>
+                                            <TextBlock Text="{loc:T Dict_Entries}" FontSize="10" Opacity="0.6"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </Button>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+
+                <!-- Verfügbare gebündelte Wörterbücher -->
+                <StackPanel Spacing="8" IsVisible="{Binding HasAvailable}">
+                    <TextBlock Classes="eyebrow" Text="{loc:T Dict_Available}"/>
+                    <ItemsControl ItemsSource="{Binding Available}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate x:DataType="vm:AvailableDict">
+                                <Border Classes="app-card" Padding="16" Margin="0,0,0,8">
+                                    <Grid ColumnDefinitions="*,Auto">
+                                        <StackPanel Grid.Column="0" Spacing="2" VerticalAlignment="Center">
+                                            <TextBlock Text="{Binding DisplayName}" FontSize="16" FontWeight="SemiBold"/>
+                                            <TextBlock FontSize="12" Opacity="0.6">
+                                                <Run Text="{Binding Info.SourceLanguage}"/><Run Text=" → "/><Run Text="{Binding Info.TargetLanguage}"/>
+                                            </TextBlock>
+                                        </StackPanel>
+                                        <Button Grid.Column="1" Content="{loc:T Dict_Install}"
+                                                Command="{Binding $parent[ItemsControl].((vm:DictionaryListViewModel)DataContext).InstallBundledCommand}"
+                                                CommandParameter="{Binding}" VerticalAlignment="Center"/>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+
+                <!-- Leerzustand -->
+                <StackPanel IsVisible="{Binding IsEmpty}" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="8" Margin="0,60">
+                    <TextBlock Text="{loc:T Dict_EmptyTitle}" FontSize="18" Opacity="0.7" HorizontalAlignment="Center"/>
+                    <TextBlock Text="{loc:T Dict_EmptyHint}" Opacity="0.5" HorizontalAlignment="Center"/>
+                </StackPanel>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

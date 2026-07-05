@@ -115,4 +115,53 @@ public static class EntityMapping
         DurationMinutes = d.DurationMinutes,
         LearnMode = d.LearningMode
     };
+
+    // ── Nachschlagewerk (P13) ──
+
+    public static UserDictionary ToDomain(this UserDictionaryEntity e, int entryCount = 0) => new()
+    {
+        Id = e.Id,
+        Name = e.Name,
+        SourceLanguage = e.SourceLanguage,
+        TargetLanguage = e.TargetLanguage,
+        EntryCount = entryCount,
+        CreatedAt = e.CreatedAt
+    };
+
+    public static UserDictionaryEntity ToEntity(this UserDictionary d) => new()
+    {
+        Id = d.Id,
+        Name = d.Name,
+        SourceLanguage = d.SourceLanguage,
+        TargetLanguage = d.TargetLanguage,
+        CreatedAt = d.CreatedAt
+    };
+
+    public static UserDictionaryEntry ToDomain(this UserDictionaryEntryEntity e) => new()
+    {
+        Id = e.Id,
+        DictionaryId = e.DictionaryId,
+        SourceWord = e.SourceWord,
+        TargetWord = e.TargetWord,
+        PartOfSpeech = e.PartOfSpeech,
+        Gender = e.Gender,
+        ExampleSentence = e.ExampleSentence,
+        ExampleTranslation = e.ExampleTranslation,
+        Level = e.Level,
+        AcceptedAnswers = e.AcceptedAnswers.ToList()
+    };
+
+    public static UserDictionaryEntryEntity ToEntity(this UserDictionaryEntry d) => new()
+    {
+        Id = d.Id,
+        DictionaryId = d.DictionaryId,
+        SourceWord = d.SourceWord,
+        TargetWord = d.TargetWord,
+        PartOfSpeech = d.PartOfSpeech,
+        Gender = d.Gender,
+        ExampleSentence = d.ExampleSentence,
+        ExampleTranslation = d.ExampleTranslation,
+        Level = d.Level,
+        AcceptedAnswers = d.AcceptedAnswers.ToList()
+    };
 }

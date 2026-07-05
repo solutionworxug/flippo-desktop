@@ -46,6 +46,7 @@
                     <NativeMenu>
                         <NativeMenuItem Header="{loc:T Nav_Dashboard}" Command="{Binding ShowDashboardCommand}"/>
                         <NativeMenuItem Header="{loc:T Nav_Sets}" Command="{Binding ShowSetsCommand}"/>
+                        <NativeMenuItem Header="{loc:T Nav_Dictionary}" Command="{Binding ShowDictionariesCommand}"/>
                         <NativeMenuItem Header="{loc:T Nav_Statistics}" Command="{Binding ShowStatisticsCommand}"/>
                         <NativeMenuItem Header="{loc:T Nav_Settings}" Command="{Binding ShowSettingsCommand}"/>
                         <NativeMenuItemSeparator/>
@@ -106,6 +107,8 @@
                                 Command="{Binding ShowDashboardCommand}" Margin="0,0,0,4"/>
                         <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Sets}"
                                 Command="{Binding ShowSetsCommand}" Margin="0,0,0,4"/>
+                        <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Dictionary}"
+                                Command="{Binding ShowDictionariesCommand}" Margin="0,0,0,4"/>
                         <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Statistics}"
                                 Command="{Binding ShowStatisticsCommand}" Margin="0,0,0,4"/>
                         <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Settings}"

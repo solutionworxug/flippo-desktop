@@ -120,6 +120,7 @@
   <data name="App_Subtitle" xml:space="preserve"><value>Desktop</value></data>
   <data name="Nav_Back" xml:space="preserve"><value>◀  Zurück</value></data>
   <data name="Nav_Sets" xml:space="preserve"><value>Karteien</value></data>
+  <data name="Nav_Dictionary" xml:space="preserve"><value>Nachschlagen</value></data>
   <data name="Nav_Settings" xml:space="preserve"><value>Einstellungen</value></data>
   <data name="Settings_SrsModeBox" xml:space="preserve"><value>Karteikasten (Fächer)</value></data>
   <data name="Settings_SrsModeAdaptive" xml:space="preserve"><value>Adaptiv (SM-2)</value></data>
@@ -331,4 +332,28 @@ Lern-Session
   <data name="ThemeSetTitle_stadt" xml:space="preserve"><value>Stadt</value></data>
   <data name="ThemeSetTitle_transportmittel" xml:space="preserve"><value>Transportmittel</value></data>
   <data name="ThemeSetTitle_verkehr" xml:space="preserve"><value>Verkehr</value></data>
+  <data name="Dict_Subtitle" xml:space="preserve"><value>Nachschlagewerke — Wörter suchen und als Karten übernehmen.</value></data>
+  <data name="Dict_Installed" xml:space="preserve"><value>Installiert</value></data>
+  <data name="Dict_Available" xml:space="preserve"><value>Verfügbar</value></data>
+  <data name="Dict_Entries" xml:space="preserve"><value>Einträge</value></data>
+  <data name="Dict_Install" xml:space="preserve"><value>Installieren</value></data>
+  <data name="Dict_EmptyTitle" xml:space="preserve"><value>Noch keine Wörterbücher</value></data>
+  <data name="Dict_EmptyHint" xml:space="preserve"><value>Installiere ein mitgeliefertes Wörterbuch, um Wörter nachzuschlagen.</value></data>
+  <data name="Dict_DeleteTitle" xml:space="preserve"><value>Wörterbuch löschen</value></data>
+  <data name="Dict_DeleteMsg" xml:space="preserve"><value>Wörterbuch „{0}“ mit allen Einträgen löschen?</value></data>
+  <data name="Dict_ResultCount" xml:space="preserve"><value>{0} von {1} Einträgen</value></data>
+  <data name="Dict_SearchPlaceholder" xml:space="preserve"><value>Wort suchen…</value></data>
+  <data name="Dict_ColSource" xml:space="preserve"><value>Wort</value></data>
+  <data name="Dict_ColTarget" xml:space="preserve"><value>Übersetzung</value></data>
+  <data name="Dict_ColPos" xml:space="preserve"><value>Art</value></data>
+  <data name="Dict_ColExample" xml:space="preserve"><value>Beispiel</value></data>
+  <data name="Dict_ToCard" xml:space="preserve"><value>→ Kartei</value></data>
+  <data name="Dict_ToCardTooltip" xml:space="preserve"><value>Diesen Eintrag als Karte in eine Kartei übernehmen</value></data>
+  <data name="Dict_NoResults" xml:space="preserve"><value>Keine Treffer</value></data>
+  <data name="Dict_Back" xml:space="preserve"><value>Zurück zu den Wörterbüchern</value></data>
+  <data name="Dict_AddToSet" xml:space="preserve"><value>In Kartei übernehmen</value></data>
+  <data name="Dict_ChooseSet" xml:space="preserve"><value>Ziel-Kartei wählen</value></data>
+  <data name="Dict_NoSets" xml:space="preserve"><value>Noch keine Karteien — lege zuerst eine Kartei an.</value></data>
+  <data name="Dict_AlreadyInSet" xml:space="preserve"><value>„{0}“ ist bereits in der Kartei „{1}“.</value></data>
+  <data name="Dict_AddedToSet" xml:space="preserve"><value>„{0}“ zur Kartei „{1}“ hinzugefügt.</value></data>
 </root>

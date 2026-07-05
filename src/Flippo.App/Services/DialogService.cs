@@ -24,6 +24,9 @@ public interface IDialogService
     Task ShowMessageAsync(string title, string message);
     Task<bool> ConfirmAsync(string title, string message, string confirmLabel = "OK");
     Task<VocabularySet?> ShowSetEditorAsync(VocabularySet? existing);
+
+    /// <summary>Ziel-Kartei für „Als Karte übernehmen" (P13). Rückgabe null = abgebrochen.</summary>
+    Task<VocabularySet?> ShowSetChooserAsync(IReadOnlyList<VocabularySet> sets);
 }
 
 public sealed class DialogService : IDialogService
@@ -87,6 +90,15 @@ public sealed class DialogService : IDialogService
         if (owner is null) return null;
 
         var window = new SetEditorWindow { DataContext = new SetEditorViewModel(existing) };
+        return await window.ShowDialog<VocabularySet?>(owner);
+    }
+
+    public async Task<VocabularySet?> ShowSetChooserAsync(IReadOnlyList<VocabularySet> sets)
+    {
+        var owner = _owner();
+        if (owner is null) return null;
+
+        var window = new SetChooserWindow(sets);
         return await window.ShowDialog<VocabularySet?>(owner);
     }
 }

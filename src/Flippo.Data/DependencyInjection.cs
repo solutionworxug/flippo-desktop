@@ -15,6 +15,7 @@ public static class DependencyInjection
         services.AddSingleton<SettingsService>();
         services.AddSingleton<BackupService>();
         services.AddSingleton<FileImportService>();
+        services.AddSingleton<UserDictionaryStore>();
         return services;
     }
 }
