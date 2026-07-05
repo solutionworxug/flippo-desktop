@@ -67,11 +67,18 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
         _nav.NavigateTo<SetDetailViewModel>(vm => vm.Initialize(set));
     }
 
-    /// <summary>"Alle fälligen lernen" — Session über alle Karteien mit fälligen Karten.</summary>
+    /// <summary>"Alle fälligen lernen" — Session über alle Karteien; Parameter = Modus (Standard Karteikarten).</summary>
     [RelayCommand]
-    private void LearnAllDue()
+    private void LearnAllDue(string? mode)
         => _nav.NavigateTo<LearnSessionViewModel>(
-            vm => vm.Initialize(null, "Alle fälligen", SessionFilter.Due, LearningMode.Flashcard));
+            vm => vm.Initialize(null, "Alle fälligen", SessionFilter.Due, ParseMode(mode)));
+
+    private static LearningMode ParseMode(string? s) => s switch
+    {
+        "FreeText" => LearningMode.FreeText,
+        "MultipleChoice" => LearningMode.MultipleChoice,
+        _ => LearningMode.Flashcard
+    };
 
     [RelayCommand]
     private async Task NewSet()

@@ -182,20 +182,32 @@ public sealed partial class SetDetailViewModel : ViewModelBase, IActivatable
         _nav.GoBack();
     }
 
-    /// <summary>Lernen-Split-Button: startet eine Session mit dem gewählten Filter (Fällige/Alle/Neue/Leeches).</summary>
+    /// <summary>
+    /// Lernen-Split-Button: startet eine Session. Parameter "Filter|Modus" (z.B. "Due|FreeText");
+    /// nur "Filter" oder leer → Karteikarten. Filter: Due/All/New/Leech · Modus: Flashcard/FreeText/MultipleChoice.
+    /// </summary>
     [RelayCommand]
-    private void Learn(string? filter)
+    private void Learn(string? param)
     {
-        var sessionFilter = filter switch
+        var parts = (param ?? "Due").Split('|');
+        var sessionFilter = parts[0] switch
         {
             "All" => SessionFilter.All,
             "New" => SessionFilter.New,
             "Leech" => SessionFilter.Leech,
             _ => SessionFilter.Due
         };
+        var mode = parts.Length > 1 ? ParseMode(parts[1]) : LearningMode.Flashcard;
         _nav.NavigateTo<LearnSessionViewModel>(
-            vm => vm.Initialize(_set.Id, _set.Title, sessionFilter, LearningMode.Flashcard));
+            vm => vm.Initialize(_set.Id, _set.Title, sessionFilter, mode));
     }
+
+    private static LearningMode ParseMode(string s) => s switch
+    {
+        "FreeText" => LearningMode.FreeText,
+        "MultipleChoice" => LearningMode.MultipleChoice,
+        _ => LearningMode.Flashcard
+    };
 
     [RelayCommand] private void Back() => _nav.GoBack();
 }

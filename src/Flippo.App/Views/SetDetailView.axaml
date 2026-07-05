@@ -27,13 +27,29 @@
             </StackPanel>
             <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
                 <SplitButton Content="Lernen" Command="{Binding LearnCommand}" CommandParameter="Due"
-                             ToolTip.Tip="Fällige Karten lernen (Dropdown für mehr)">
+                             ToolTip.Tip="Fällige als Karteikarten (Dropdown für Filter + Modus)">
                     <SplitButton.Flyout>
                         <MenuFlyout>
-                            <MenuItem Header="Fällige" Command="{Binding LearnCommand}" CommandParameter="Due"/>
-                            <MenuItem Header="Alle" Command="{Binding LearnCommand}" CommandParameter="All"/>
-                            <MenuItem Header="Neue" Command="{Binding LearnCommand}" CommandParameter="New"/>
-                            <MenuItem Header="Leeches" Command="{Binding LearnCommand}" CommandParameter="Leech"/>
+                            <MenuItem Header="Fällige">
+                                <MenuItem Header="Karteikarten" Command="{Binding LearnCommand}" CommandParameter="Due|Flashcard"/>
+                                <MenuItem Header="Freitext" Command="{Binding LearnCommand}" CommandParameter="Due|FreeText"/>
+                                <MenuItem Header="Multiple Choice" Command="{Binding LearnCommand}" CommandParameter="Due|MultipleChoice"/>
+                            </MenuItem>
+                            <MenuItem Header="Alle">
+                                <MenuItem Header="Karteikarten" Command="{Binding LearnCommand}" CommandParameter="All|Flashcard"/>
+                                <MenuItem Header="Freitext" Command="{Binding LearnCommand}" CommandParameter="All|FreeText"/>
+                                <MenuItem Header="Multiple Choice" Command="{Binding LearnCommand}" CommandParameter="All|MultipleChoice"/>
+                            </MenuItem>
+                            <MenuItem Header="Neue">
+                                <MenuItem Header="Karteikarten" Command="{Binding LearnCommand}" CommandParameter="New|Flashcard"/>
+                                <MenuItem Header="Freitext" Command="{Binding LearnCommand}" CommandParameter="New|FreeText"/>
+                                <MenuItem Header="Multiple Choice" Command="{Binding LearnCommand}" CommandParameter="New|MultipleChoice"/>
+                            </MenuItem>
+                            <MenuItem Header="Leeches">
+                                <MenuItem Header="Karteikarten" Command="{Binding LearnCommand}" CommandParameter="Leech|Flashcard"/>
+                                <MenuItem Header="Freitext" Command="{Binding LearnCommand}" CommandParameter="Leech|FreeText"/>
+                                <MenuItem Header="Multiple Choice" Command="{Binding LearnCommand}" CommandParameter="Leech|MultipleChoice"/>
+                            </MenuItem>
                         </MenuFlyout>
                     </SplitButton.Flyout>
                 </SplitButton>

@@ -10,20 +10,34 @@
 
     <UserControl.KeyBindings>
         <KeyBinding Gesture="Space" Command="{Binding FlipCommand}"/>
-        <KeyBinding Gesture="D1" Command="{Binding GradeKeyCommand}" CommandParameter="1"/>
-        <KeyBinding Gesture="D2" Command="{Binding GradeKeyCommand}" CommandParameter="2"/>
-        <KeyBinding Gesture="D3" Command="{Binding GradeKeyCommand}" CommandParameter="3"/>
-        <KeyBinding Gesture="D4" Command="{Binding GradeKeyCommand}" CommandParameter="4"/>
-        <KeyBinding Gesture="NumPad1" Command="{Binding GradeKeyCommand}" CommandParameter="1"/>
-        <KeyBinding Gesture="NumPad2" Command="{Binding GradeKeyCommand}" CommandParameter="2"/>
-        <KeyBinding Gesture="NumPad3" Command="{Binding GradeKeyCommand}" CommandParameter="3"/>
-        <KeyBinding Gesture="NumPad4" Command="{Binding GradeKeyCommand}" CommandParameter="4"/>
+        <KeyBinding Gesture="Enter" Command="{Binding SubmitCommand}"/>
+        <KeyBinding Gesture="F1" Command="{Binding DontKnowCommand}"/>
+        <KeyBinding Gesture="D1" Command="{Binding NumberKeyCommand}" CommandParameter="1"/>
+        <KeyBinding Gesture="D2" Command="{Binding NumberKeyCommand}" CommandParameter="2"/>
+        <KeyBinding Gesture="D3" Command="{Binding NumberKeyCommand}" CommandParameter="3"/>
+        <KeyBinding Gesture="D4" Command="{Binding NumberKeyCommand}" CommandParameter="4"/>
+        <KeyBinding Gesture="NumPad1" Command="{Binding NumberKeyCommand}" CommandParameter="1"/>
+        <KeyBinding Gesture="NumPad2" Command="{Binding NumberKeyCommand}" CommandParameter="2"/>
+        <KeyBinding Gesture="NumPad3" Command="{Binding NumberKeyCommand}" CommandParameter="3"/>
+        <KeyBinding Gesture="NumPad4" Command="{Binding NumberKeyCommand}" CommandParameter="4"/>
         <KeyBinding Gesture="Ctrl+Z" Command="{Binding UndoCommand}"/>
         <KeyBinding Gesture="Escape" Command="{Binding ExitCommand}"/>
     </UserControl.KeyBindings>
 
+    <UserControl.Styles>
+        <!-- Multiple-Choice-Feedback nach der Wahl -->
+        <Style Selector="Button.mcopt.revealed.correct">
+            <Setter Property="Background" Value="#2B8A3E"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+        <Style Selector="Button.mcopt.revealed.chosen:not(.correct)">
+            <Setter Property="Background" Value="#C92A2A"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+    </UserControl.Styles>
+
     <Panel>
-        <!-- Leerzustand: nichts zu lernen -->
+        <!-- Leerzustand -->
         <StackPanel IsVisible="{Binding IsEmpty}" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="12">
             <TextBlock Text="Nichts zu lernen" FontSize="20" Opacity="0.7" HorizontalAlignment="Center"/>
             <TextBlock Text="Für diese Auswahl sind gerade keine Karten fällig." Opacity="0.5" HorizontalAlignment="Center"/>
@@ -33,7 +47,7 @@
         <!-- Session -->
         <Grid IsVisible="{Binding !IsEmpty}" RowDefinitions="Auto,*,Auto" Margin="24">
 
-            <!-- Kopfzeile: Titel · Fortschritt · Zähler · Beenden -->
+            <!-- Kopfzeile -->
             <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,12">
                 <StackPanel Grid.Column="0" Orientation="Horizontal" Spacing="12" VerticalAlignment="Center">
                     <TextBlock Text="{Binding Title}" FontSize="18" FontWeight="SemiBold"/>
@@ -51,74 +65,120 @@
                 </StackPanel>
             </Grid>
 
-            <!-- Karte -->
+            <!-- Kartenbereich -->
             <Border Grid.Row="1" Margin="0,8" CornerRadius="12" BorderThickness="1" BorderBrush="#22808080"
                     Background="#0A808080" Padding="32">
-                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="20">
-                    <TextBlock Text="{Binding QuestionText}" FontSize="34" FontWeight="SemiBold"
-                               TextWrapping="Wrap" TextAlignment="Center"/>
-                    <Border IsVisible="{Binding IsAnswerShown}" Height="1" Background="#33808080"
-                            HorizontalAlignment="Stretch" Margin="40,0"/>
-                    <TextBlock Text="{Binding AnswerText}" IsVisible="{Binding IsAnswerShown}"
-                               FontSize="30" Foreground="#1971C2" TextWrapping="Wrap" TextAlignment="Center"/>
-                </StackPanel>
+                <ScrollViewer>
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Stretch" Spacing="18" MaxWidth="620">
+                        <!-- Frage (alle Modi) -->
+                        <TextBlock Text="{Binding QuestionText}" FontSize="32" FontWeight="SemiBold"
+                                   TextWrapping="Wrap" TextAlignment="Center"/>
+
+                        <!-- Flashcard: Antwort nach dem Umdrehen -->
+                        <StackPanel IsVisible="{Binding IsFlashcard}" Spacing="18">
+                            <Border IsVisible="{Binding IsAnswerShown}" Height="1" Background="#33808080" Margin="40,0"/>
+                            <TextBlock Text="{Binding AnswerText}" IsVisible="{Binding IsAnswerShown}"
+                                       FontSize="28" Foreground="#1971C2" TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>
+
+                        <!-- Freitext: Eingabe + Feedback -->
+                        <StackPanel IsVisible="{Binding IsFreeText}" Spacing="12">
+                            <TextBox x:Name="InputBox" Text="{Binding UserInput}" FontSize="18"
+                                     PlaceholderText="Antwort eingeben…" HorizontalAlignment="Stretch"
+                                     IsReadOnly="{Binding IsAnswerShown}"/>
+                            <StackPanel IsVisible="{Binding IsAnswerShown}" Spacing="4">
+                                <TextBlock Text="{Binding FeedbackText}" IsVisible="{Binding FeedbackIsPositive}"
+                                           FontSize="16" Foreground="#2B8A3E" TextWrapping="Wrap"/>
+                                <TextBlock Text="{Binding FeedbackText}" IsVisible="{Binding !FeedbackIsPositive}"
+                                           FontSize="16" Foreground="#C92A2A" TextWrapping="Wrap"/>
+                            </StackPanel>
+                        </StackPanel>
+
+                        <!-- Multiple Choice: Optionen + Feedback -->
+                        <StackPanel IsVisible="{Binding IsMultipleChoice}" Spacing="8">
+                            <ItemsControl ItemsSource="{Binding Options}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="vm:McOption">
+                                        <Button Classes="mcopt"
+                                                Classes.correct="{Binding IsCorrect}"
+                                                Classes.chosen="{Binding IsChosen}"
+                                                Classes.revealed="{Binding Revealed}"
+                                                Content="{Binding Label}"
+                                                Command="{Binding $parent[ItemsControl].((vm:LearnSessionViewModel)DataContext).ChooseOptionCommand}"
+                                                CommandParameter="{Binding}"
+                                                HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"
+                                                Padding="16,12" Margin="0,0,0,8" FontSize="15"/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                            <TextBlock Text="{Binding FeedbackText}" IsVisible="{Binding IsAnswerShown}"
+                                       FontSize="16" FontWeight="SemiBold" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
             </Border>
 
             <!-- Aktionsleiste -->
             <Panel Grid.Row="2" MinHeight="76">
-                <!-- Vor dem Aufdecken -->
-                <Button IsVisible="{Binding !IsAnswerShown}" Content="Umdrehen (Leertaste)"
-                        Command="{Binding FlipCommand}" Classes="accent"
-                        HorizontalAlignment="Center" Padding="28,12" FontSize="15"/>
 
-                <!-- Nach dem Aufdecken -->
-                <Panel IsVisible="{Binding IsAnswerShown}">
-                    <!-- Karteikasten: Falsch / Richtig -->
-                    <StackPanel IsVisible="{Binding !IsAdaptive}" Orientation="Horizontal" Spacing="16"
-                                HorizontalAlignment="Center">
-                        <Button Command="{Binding GradeWrongCommand}" Padding="28,12" MinWidth="150"
-                                Background="#C92A2A" Foreground="White">
-                            <StackPanel HorizontalAlignment="Center">
+                <!-- Flashcard -->
+                <Panel IsVisible="{Binding IsFlashcard}">
+                    <Button IsVisible="{Binding !IsAnswerShown}" Content="Umdrehen (Leertaste)"
+                            Command="{Binding FlipCommand}" Classes="accent"
+                            HorizontalAlignment="Center" Padding="28,12" FontSize="15"/>
+                    <Panel IsVisible="{Binding IsAnswerShown}">
+                        <StackPanel IsVisible="{Binding !IsAdaptive}" Orientation="Horizontal" Spacing="16" HorizontalAlignment="Center">
+                            <Button Command="{Binding GradeWrongCommand}" Padding="28,12" MinWidth="150" Background="#C92A2A" Foreground="White">
                                 <TextBlock Text="Falsch (1)" FontSize="15" HorizontalAlignment="Center"/>
-                            </StackPanel>
-                        </Button>
-                        <Button Command="{Binding GradeGoodCommand}" Padding="28,12" MinWidth="150"
-                                Background="#2B8A3E" Foreground="White">
-                            <StackPanel HorizontalAlignment="Center">
+                            </Button>
+                            <Button Command="{Binding GradeGoodCommand}" Padding="28,12" MinWidth="150" Background="#2B8A3E" Foreground="White">
                                 <TextBlock Text="Richtig (2)" FontSize="15" HorizontalAlignment="Center"/>
-                            </StackPanel>
-                        </Button>
-                    </StackPanel>
-
-                    <!-- Adaptiv: Nochmal / Schwer / Gut / Einfach mit Intervall-Vorschau -->
-                    <StackPanel IsVisible="{Binding IsAdaptive}" Orientation="Horizontal" Spacing="12"
-                                HorizontalAlignment="Center">
-                        <Button Command="{Binding GradeWrongCommand}" Padding="18,10" MinWidth="110">
-                            <StackPanel HorizontalAlignment="Center" Spacing="2">
-                                <TextBlock Text="Nochmal (1)" FontSize="14" HorizontalAlignment="Center"/>
-                                <TextBlock Text="{Binding PreviewAgain}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
-                            </StackPanel>
-                        </Button>
-                        <Button Command="{Binding GradeHardCommand}" Padding="18,10" MinWidth="110">
-                            <StackPanel HorizontalAlignment="Center" Spacing="2">
-                                <TextBlock Text="Schwer (2)" FontSize="14" HorizontalAlignment="Center"/>
-                                <TextBlock Text="{Binding PreviewHard}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
-                            </StackPanel>
-                        </Button>
-                        <Button Command="{Binding GradeGoodCommand}" Padding="18,10" MinWidth="110">
-                            <StackPanel HorizontalAlignment="Center" Spacing="2">
-                                <TextBlock Text="Gut (3)" FontSize="14" HorizontalAlignment="Center"/>
-                                <TextBlock Text="{Binding PreviewGood}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
-                            </StackPanel>
-                        </Button>
-                        <Button Command="{Binding GradeEasyCommand}" Padding="18,10" MinWidth="110">
-                            <StackPanel HorizontalAlignment="Center" Spacing="2">
-                                <TextBlock Text="Einfach (4)" FontSize="14" HorizontalAlignment="Center"/>
-                                <TextBlock Text="{Binding PreviewEasy}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
-                            </StackPanel>
-                        </Button>
-                    </StackPanel>
+                            </Button>
+                        </StackPanel>
+                        <StackPanel IsVisible="{Binding IsAdaptive}" Orientation="Horizontal" Spacing="12" HorizontalAlignment="Center">
+                            <Button Command="{Binding GradeWrongCommand}" Padding="18,10" MinWidth="110">
+                                <StackPanel HorizontalAlignment="Center" Spacing="2">
+                                    <TextBlock Text="Nochmal (1)" FontSize="14" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{Binding PreviewAgain}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                            <Button Command="{Binding GradeHardCommand}" Padding="18,10" MinWidth="110">
+                                <StackPanel HorizontalAlignment="Center" Spacing="2">
+                                    <TextBlock Text="Schwer (2)" FontSize="14" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{Binding PreviewHard}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                            <Button Command="{Binding GradeGoodCommand}" Padding="18,10" MinWidth="110">
+                                <StackPanel HorizontalAlignment="Center" Spacing="2">
+                                    <TextBlock Text="Gut (3)" FontSize="14" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{Binding PreviewGood}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                            <Button Command="{Binding GradeEasyCommand}" Padding="18,10" MinWidth="110">
+                                <StackPanel HorizontalAlignment="Center" Spacing="2">
+                                    <TextBlock Text="Einfach (4)" FontSize="14" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{Binding PreviewEasy}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                    </Panel>
                 </Panel>
+
+                <!-- Freitext -->
+                <StackPanel IsVisible="{Binding IsFreeText}" HorizontalAlignment="Center" Spacing="4">
+                    <TextBlock IsVisible="{Binding !IsAnswerShown}" Opacity="0.6" HorizontalAlignment="Center"
+                               Text="Enter prüft · F1 „Weiß nicht“"/>
+                    <Button IsVisible="{Binding IsAnswerShown}" Content="Weiter (Enter)" Classes="accent"
+                            Command="{Binding SubmitCommand}" Padding="28,12"/>
+                </StackPanel>
+
+                <!-- Multiple Choice -->
+                <StackPanel IsVisible="{Binding IsMultipleChoice}" HorizontalAlignment="Center" Spacing="4">
+                    <TextBlock IsVisible="{Binding !IsAnswerShown}" Opacity="0.6" HorizontalAlignment="Center"
+                               Text="1–4 oder Klick zum Wählen"/>
+                    <Button IsVisible="{Binding IsAnswerShown}" Content="Weiter (Enter)" Classes="accent"
+                            Command="{Binding SubmitCommand}" Padding="28,12"/>
+                </StackPanel>
             </Panel>
         </Grid>
     </Panel>

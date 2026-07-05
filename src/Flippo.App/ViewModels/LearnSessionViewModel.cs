@@ -1,6 +1,8 @@
+using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Flippo.App.Services;
+using Flippo.Core.Checking;
 using Flippo.Core.Domain;
 using Flippo.Core.Session;
 using Flippo.Core.Srs;
@@ -9,10 +11,11 @@ using Flippo.Data.Services;
 namespace Flippo.App.ViewModels;
 
 /// <summary>
-/// Führt eine Lern-Session aus (P6, Vertical Slice: Flashcard-Modus). Orchestriert nur —
-/// die Zusammenstellung (<see cref="SessionComposer"/>), Richtung (<see cref="SessionDirections"/>)
-/// und Bewertung (<see cref="SrsEngine"/>) liegen als reine, getestete Logik im Core.
-/// Box-Modus zeigt 2 Bewertungsknöpfe (Falsch/Richtig), Adaptiv 4 mit Intervall-Vorschau (Dry-Run).
+/// Führt eine Lern-Session aus (P6). Drei Modi teilen sich Ablauf, Undo und Abschluss;
+/// nur Kartendarstellung und Antwort-Ermittlung unterscheiden sich:
+/// Flashcard (umdrehen, Box 1/2 · Adaptiv 1–4), Freitext (tippen, Enter prüft),
+/// Multiple Choice (1–4 wählen). Zusammenstellung/Richtung/Prüfung/Bewertung sind
+/// reine, getestete Core-Logik (<see cref="SessionComposer"/>, <see cref="FreeTextChecker"/>, <see cref="SrsEngine"/>).
 /// </summary>
 public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
 {
@@ -29,16 +32,18 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
     private SessionFilter _filter = SessionFilter.Due;
     private int _boxLevel;
     private LearningMode _mode = LearningMode.Flashcard;
-    private IReadOnlyList<long>? _repeatIds;   // gesetzt = "Falsche wiederholen" statt Filter-Einstieg
+    private IReadOnlyList<long>? _repeatIds;
 
     // Session-Zustand
     private SrsSettings _settings = new();
     private IReadOnlyList<VocabularyEntry> _cards = [];
+    private IReadOnlyList<VocabularyEntry> _allEntries = [];   // Fallback-Pool für MC-Distraktoren
     private IReadOnlyList<bool> _directions = [];
     private int _index;
     private long _startedAt;
     private readonly List<long> _wrongEntryIds = [];
     private UndoSnapshot? _undo;
+    private ReviewResult? _pendingResult;   // Freitext/MC: ermitteltes Ergebnis, angewendet beim Weiterblättern
 
     [ObservableProperty] private bool _isEmpty;
     [ObservableProperty] private string _title = "";
@@ -46,15 +51,32 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
     [ObservableProperty] private string _questionText = "";
     [ObservableProperty] private string _answerText = "";
     [ObservableProperty] private bool _isAnswerShown;
-    [ObservableProperty] private bool _isAdaptive;
     [ObservableProperty] private bool _canUndo;
     [ObservableProperty] private int _correctCount;
     [ObservableProperty] private int _wrongCount;
-    // Adaptiv-Intervall-Vorschau (Tage) für die 4 Knöpfe — SrsEngine-Dry-Run je Karte.
+
+    // Modus-Flags für die View (welches Präsentations-Panel + welche Bewertungsknöpfe)
+    [ObservableProperty] private bool _isFlashcard;
+    [ObservableProperty] private bool _isFreeText;
+    [ObservableProperty] private bool _isMultipleChoice;
+    [ObservableProperty] private bool _isAdaptive;
+
+    // Adaptiv-Intervall-Vorschau (Flashcard)
     [ObservableProperty] private string _previewAgain = "";
     [ObservableProperty] private string _previewHard = "";
     [ObservableProperty] private string _previewGood = "";
     [ObservableProperty] private string _previewEasy = "";
+
+    // Freitext
+    [ObservableProperty] private string _userInput = "";
+    [ObservableProperty] private string _feedbackText = "";
+    [ObservableProperty] private bool _feedbackIsPositive;
+
+    // Multiple Choice
+    public ObservableCollection<McOption> Options { get; } = [];
+
+    /// <summary>Bittet die View, den Fokus in das Freitext-Feld zu setzen.</summary>
+    public event Action? FocusInputRequested;
 
     public LearnSessionViewModel(
         VocabularyStore store, SessionStore sessions, SettingsService settingsService,
@@ -67,7 +89,7 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
         _dialogs = dialogs;
     }
 
-    /// <summary>Einstieg über Split-Button (Set oder "alle") mit Filter (Fällige/Alle/Neue/Leeches).</summary>
+    /// <summary>Einstieg über Split-Button (Set oder "alle") mit Filter und Modus.</summary>
     public void Initialize(long? setId, string setName, SessionFilter filter, LearningMode mode = LearningMode.Flashcard, int boxLevel = 0)
     {
         _setId = setId;
@@ -79,7 +101,7 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
         Title = setName;
     }
 
-    /// <summary>Einstieg "Falsche wiederholen" — neue Session nur mit den angegebenen Karten (aktueller Zustand).</summary>
+    /// <summary>Einstieg "Falsche wiederholen" — neue Session nur mit den angegebenen Karten.</summary>
     public void InitializeFromIds(IReadOnlyList<long> ids, string setName, LearningMode mode)
     {
         _setId = null;
@@ -93,6 +115,9 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
     {
         var now = Now();
         _settings = SettingsService.ToSrsSettings(_settingsService.Load());
+        IsFlashcard = _mode == LearningMode.Flashcard;
+        IsFreeText = _mode == LearningMode.FreeText;
+        IsMultipleChoice = _mode == LearningMode.MultipleChoice;
         IsAdaptive = _settings.Mode == SrsMode.Adaptive;
 
         IReadOnlyList<VocabularyEntry> candidates;
@@ -100,13 +125,16 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
         if (_repeatIds is not null)
         {
             candidates = await _store.GetEntriesByIdsAsync(_repeatIds);
-            filter = SessionFilter.All;   // alle wiederholen, keine Fälligkeits-Filterung
+            filter = SessionFilter.All;
         }
         else
         {
             candidates = _setId is long id ? await _store.GetEntriesAsync(id) : await _store.GetAllEntriesAsync();
             filter = _filter;
         }
+
+        // Für Multiple Choice die Gesamt-DB als Distraktor-Fallback (bei kleinen Sessions).
+        _allEntries = _mode == LearningMode.MultipleChoice ? await _store.GetAllEntriesAsync() : candidates;
 
         var plan = SessionComposer.Compose(
             candidates, new SessionComposeOptions { Filter = filter, BoxLevel = _boxLevel },
@@ -138,9 +166,16 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
         var sourceToTarget = _directions[_index];
         QuestionText = sourceToTarget ? card.SourceText : card.TargetText;
         AnswerText = sourceToTarget ? card.TargetText : card.SourceText;
+
         IsAnswerShown = false;
+        UserInput = "";
+        FeedbackText = "";
+        _pendingResult = null;
         ProgressText = $"{_index + 1} / {_cards.Count}";
-        if (IsAdaptive) UpdatePreviews(card);
+
+        if (IsFlashcard && IsAdaptive) UpdatePreviews(card);
+        if (IsMultipleChoice) BuildOptions(card, sourceToTarget);
+        if (IsFreeText) FocusInputRequested?.Invoke();
     }
 
     private void UpdatePreviews(VocabularyEntry card)
@@ -153,24 +188,126 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
         PreviewEasy = Days(ReviewResult.Easy);
     }
 
-    [RelayCommand] private void Flip() => IsAnswerShown = true;
-
-    // Tastensteuerung: Box → 1/2 (Falsch/Richtig), Adaptiv → 1–4 (Nochmal/Schwer/Gut/Einfach).
-    [RelayCommand]
-    private Task GradeKey(string key)
+    private void BuildOptions(VocabularyEntry card, bool sourceToTarget)
     {
-        if (!IsAnswerShown) return Task.CompletedTask;
-        ReviewResult? result = IsAdaptive
-            ? key switch { "1" => ReviewResult.Wrong, "2" => ReviewResult.Hard, "3" => ReviewResult.Good, "4" => ReviewResult.Easy, _ => null }
-            : key switch { "1" => ReviewResult.Wrong, "2" => ReviewResult.Good, _ => null };
-        return result is null ? Task.CompletedTask : Grade(result.Value);
+        var correct = sourceToTarget ? card.TargetText : card.SourceText;
+        var texts = MultipleChoice.BuildOptions(card, sourceToTarget, _cards, _allEntries, _rng);
+        Options.Clear();
+        var n = 1;
+        foreach (var t in texts)
+            Options.Add(new McOption(n++, t, t == correct));
     }
 
-    // Direkte Button-Kommandos (identisch zu den Tasten, für Klick).
-    [RelayCommand] private Task GradeWrong() => IsAnswerShown ? Grade(ReviewResult.Wrong) : Task.CompletedTask;
-    [RelayCommand] private Task GradeHard() => IsAnswerShown ? Grade(ReviewResult.Hard) : Task.CompletedTask;
-    [RelayCommand] private Task GradeGood() => IsAnswerShown ? Grade(ReviewResult.Good) : Task.CompletedTask;
-    [RelayCommand] private Task GradeEasy() => IsAnswerShown ? Grade(ReviewResult.Easy) : Task.CompletedTask;
+    // ---- Flashcard ----
+
+    [RelayCommand] private void Flip() => IsAnswerShown = true;
+
+    [RelayCommand] private Task GradeWrong() => IsFlashcard && IsAnswerShown ? Grade(ReviewResult.Wrong) : Task.CompletedTask;
+    [RelayCommand] private Task GradeHard() => IsFlashcard && IsAnswerShown ? Grade(ReviewResult.Hard) : Task.CompletedTask;
+    [RelayCommand] private Task GradeGood() => IsFlashcard && IsAnswerShown ? Grade(ReviewResult.Good) : Task.CompletedTask;
+    [RelayCommand] private Task GradeEasy() => IsFlashcard && IsAnswerShown ? Grade(ReviewResult.Easy) : Task.CompletedTask;
+
+    // ---- Zahlentasten 1–4: modusabhängig (Flashcard = bewerten, MC = Option wählen) ----
+
+    [RelayCommand]
+    private Task NumberKey(string key)
+    {
+        if (IsMultipleChoice)
+        {
+            if (int.TryParse(key, out var n)) ChooseOptionByIndex(n - 1);
+            return Task.CompletedTask;
+        }
+        if (IsFlashcard && IsAnswerShown)
+        {
+            ReviewResult? result = IsAdaptive
+                ? key switch { "1" => ReviewResult.Wrong, "2" => ReviewResult.Hard, "3" => ReviewResult.Good, "4" => ReviewResult.Easy, _ => null }
+                : key switch { "1" => ReviewResult.Wrong, "2" => ReviewResult.Good, _ => null };
+            if (result is not null) return Grade(result.Value);
+        }
+        return Task.CompletedTask;
+    }
+
+    // ---- Freitext ----
+
+    [RelayCommand]
+    private Task Submit()   // Enter: erst prüfen, dann weiterblättern
+    {
+        if (IsFreeText)
+        {
+            if (!IsAnswerShown) { CheckFreeText(); return Task.CompletedTask; }
+            return ApplyPendingAndAdvance();
+        }
+        if (IsMultipleChoice && IsAnswerShown)
+            return ApplyPendingAndAdvance();
+        return Task.CompletedTask;
+    }
+
+    [RelayCommand]
+    private void DontKnow()   // F1: als falsch werten
+    {
+        if (!IsFreeText || IsAnswerShown) return;
+        var card = _cards[_index];
+        _pendingResult = ReviewResult.Wrong;
+        FeedbackText = $"Weiß nicht — richtig: {AnswerText}";
+        FeedbackIsPositive = false;
+        IsAnswerShown = true;
+        _ = card;
+    }
+
+    private void CheckFreeText()
+    {
+        var card = _cards[_index];
+        var outcome = FreeTextChecker.Check(
+            UserInput, card, _settings.StrictAccents, _settings.TypoToleranceEnabled, BuildSiblings(card));
+
+        // Plan 1.2: alles außer WRONG zählt als richtig (GOOD); kein HARD/EASY im Freitext.
+        _pendingResult = outcome.Result == FreeTextChecker.CheckResult.Wrong ? ReviewResult.Wrong : ReviewResult.Good;
+        FeedbackIsPositive = _pendingResult == ReviewResult.Good;
+        FeedbackText = outcome.Result switch
+        {
+            FreeTextChecker.CheckResult.Correct => "Richtig!",
+            FreeTextChecker.CheckResult.AlmostCorrect => $"Fast — achte auf die Akzente: {outcome.CorrectAnswer}",
+            FreeTextChecker.CheckResult.Typo => $"Fast richtig (Tippfehler): {outcome.CorrectAnswer}",
+            _ => $"Falsch — richtig: {outcome.CorrectAnswer}"
+        };
+        IsAnswerShown = true;
+    }
+
+    private List<string> BuildSiblings(VocabularyEntry card)
+        => _cards
+            .Where(c => c.Id != card.Id)
+            .SelectMany(c => new[] { c.TargetText, c.SourceText }.Concat(c.AcceptedAnswers))
+            .Where(s => !string.IsNullOrWhiteSpace(s))
+            .Distinct()
+            .ToList();
+
+    // ---- Multiple Choice ----
+
+    [RelayCommand]
+    private void ChooseOption(McOption? option)
+    {
+        if (option is null || IsAnswerShown) return;
+        var index = Options.IndexOf(option);
+        if (index >= 0) ChooseOptionByIndex(index);
+    }
+
+    private void ChooseOptionByIndex(int index)
+    {
+        if (IsAnswerShown || index < 0 || index >= Options.Count) return;
+        var chosen = Options[index];
+        chosen.IsChosen = true;
+        foreach (var o in Options) o.Revealed = true;
+
+        _pendingResult = chosen.IsCorrect ? ReviewResult.Good : ReviewResult.Wrong;
+        FeedbackIsPositive = chosen.IsCorrect;
+        FeedbackText = chosen.IsCorrect ? "Richtig!" : $"Falsch — richtig: {AnswerText}";
+        IsAnswerShown = true;
+    }
+
+    // ---- Gemeinsamer Ablauf ----
+
+    private Task ApplyPendingAndAdvance()
+        => _pendingResult is { } result ? Grade(result) : Task.CompletedTask;
 
     private async Task Grade(ReviewResult result)
     {
@@ -178,7 +315,7 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
         var card = _cards[_index];
         var now = Now();
 
-        // Snapshot des Karten-Zustands VOR dem Review — ermöglicht exaktes Undo (wie Android).
+        // Snapshot VOR dem Review — exaktes Undo (kompletter Karten-Zustand, wie Android).
         _undo = new UndoSnapshot(card, _index, CorrectCount, WrongCount, _wrongEntryIds.Count);
 
         var update = SrsEngine.Schedule(card, result, _settings, now);
@@ -207,7 +344,6 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
         if (_undo is null) return;
         var snap = _undo;
 
-        // Kompletten Karten-Zustand in der DB zurücksetzen.
         await _store.ApplyReviewAsync(ToUpdate(snap.Card));
 
         _index = snap.Index;
@@ -219,7 +355,7 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
         _undo = null;
         CanUndo = false;
         ShowCurrent();
-        IsAnswerShown = true;   // Karte war beim Bewerten bereits aufgedeckt
+        if (IsFlashcard) IsAnswerShown = true;   // Antwort war beim Bewerten sichtbar; Freitext/MC neu beantworten
     }
 
     [RelayCommand]
@@ -264,4 +400,16 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
     private static long Now() => DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
 
     private sealed record UndoSnapshot(VocabularyEntry Card, int Index, int CorrectCount, int WrongCount, int WrongIdCount);
+}
+
+/// <summary>Eine Multiple-Choice-Option mit Reveal-Zustand für das Farb-Feedback nach der Wahl.</summary>
+public sealed partial class McOption(int number, string text, bool isCorrect) : ObservableObject
+{
+    public int Number { get; } = number;
+    public string Text { get; } = text;
+    public bool IsCorrect { get; } = isCorrect;
+    public string Label => $"{Number}.  {Text}";
+
+    [ObservableProperty] private bool _revealed;   // nach der Auswahl: Optionen aufgedeckt
+    [ObservableProperty] private bool _isChosen;   // vom Nutzer gewählte Option
 }

@@ -13,7 +13,16 @@
         <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,16">
             <TextBlock Grid.Column="0" Text="Karteien" FontSize="26" FontWeight="SemiBold" VerticalAlignment="Center"/>
             <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8">
-                <Button Content="Alle fälligen lernen" Command="{Binding LearnAllDueCommand}" Classes="accent"/>
+                <SplitButton Content="Alle fälligen lernen" Command="{Binding LearnAllDueCommand}"
+                             ToolTip.Tip="Fällige als Karteikarten (Dropdown für Modus)">
+                    <SplitButton.Flyout>
+                        <MenuFlyout>
+                            <MenuItem Header="Karteikarten" Command="{Binding LearnAllDueCommand}" CommandParameter="Flashcard"/>
+                            <MenuItem Header="Freitext" Command="{Binding LearnAllDueCommand}" CommandParameter="FreeText"/>
+                            <MenuItem Header="Multiple Choice" Command="{Binding LearnAllDueCommand}" CommandParameter="MultipleChoice"/>
+                        </MenuFlyout>
+                    </SplitButton.Flyout>
+                </SplitButton>
                 <Button Content="Neue Kartei" Command="{Binding NewSetCommand}"/>
                 <Button Content="Backup importieren…" Command="{Binding ImportCommand}"/>
                 <Button Content="Backup exportieren…" Command="{Binding ExportCommand}"/>
