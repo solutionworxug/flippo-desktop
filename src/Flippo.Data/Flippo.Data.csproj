@@ -2,4 +2,14 @@
   <ItemGroup>
     <ProjectReference Include="..\Flippo.Core\Flippo.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.9">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.9" />
+    <!-- Hebt die transitiv gezogene, verwundbare SQLitePCLRaw.lib.e_sqlite3 2.1.11
+         (GHSA-2m69-gcr7-jv3q) auf die gepatchte 3.0.3 an. -->
+    <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="3.0.3" />
+  </ItemGroup>
 </Project>

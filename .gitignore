@@ -480,3 +480,9 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# FLIPPO: lokale SQLite-DBs (kein Interop-Artefakt)
+*.db
+*.db-wal
+*.db-shm
+flippo-design.db
