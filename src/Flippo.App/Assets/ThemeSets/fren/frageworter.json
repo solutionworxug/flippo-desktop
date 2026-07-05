@@ -1,0 +1,249 @@
+{
+  "id": "fren-frageworter",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Fragewörter",
+  "entries": [
+    {
+      "source": "que / quoi",
+      "target": "what",
+      "example": "Que veux-tu manger ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "qui",
+      "target": "who",
+      "example": "Qui frappe à la porte ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "où",
+      "target": "where",
+      "example": "Où est la station de métro ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quand",
+      "target": "when",
+      "example": "Quand arrive le train ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "comment",
+      "target": "how",
+      "example": "Comment s'appelle ton ami ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pourquoi",
+      "target": "why",
+      "example": "Pourquoi arrives-tu en retard ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "combien",
+      "target": "how much",
+      "example": "Combien coûte ce livre ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "combien (de)",
+      "target": "how many",
+      "example": "Combien d'élèves y a-t-il dans la classe ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quel / quelle",
+      "target": "which",
+      "example": "Quel est ton film préféré ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à quoi / pourquoi",
+      "target": "what for",
+      "example": "À quoi sert cet outil ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "depuis quand",
+      "target": "since when",
+      "example": "Depuis quand vis-tu en Espagne ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "jusqu'à quand",
+      "target": "until when",
+      "example": "Jusqu'à quand restes-tu ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à quelle heure",
+      "target": "at what time",
+      "example": "À quelle heure commence la réunion ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "d'où",
+      "target": "where from",
+      "example": "D'où viens-tu ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "où (direction)",
+      "target": "where to",
+      "example": "Où vas-tu cet été ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "avec qui",
+      "target": "with whom",
+      "example": "Avec qui es-tu allé au cinéma ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "combien de temps",
+      "target": "how long",
+      "example": "Combien de temps mets-tu pour arriver ?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "parce que",
+      "target": "because",
+      "example": "Je n'y suis pas allé parce que j'étais malade.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quand",
+      "target": "when",
+      "example": "Je t'appelle quand j'arrive.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "comme",
+      "target": "like / as",
+      "example": "Il parle comme un expert.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "si",
+      "target": "if",
+      "example": "S'il pleut, nous ne sortons pas.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la question",
+      "target": "question",
+      "example": "Il a une question pour le professeur.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la réponse",
+      "target": "answer",
+      "example": "La bonne réponse est la B.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la langue",
+      "target": "language",
+      "example": "Combien de langues parles-tu ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le mot",
+      "target": "word",
+      "example": "Je n'ai pas compris ce mot.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la phrase",
+      "target": "sentence",
+      "example": "Écris une phrase avec ce mot.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "signifier",
+      "target": "to mean",
+      "example": "Que signifie ce mot ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "demander",
+      "target": "to ask",
+      "example": "N'aie pas peur de demander.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "répondre",
+      "target": "to answer",
+      "example": "Réponds à la question.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "répéter",
+      "target": "to repeat",
+      "example": "Peux-tu répéter cela plus lentement ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

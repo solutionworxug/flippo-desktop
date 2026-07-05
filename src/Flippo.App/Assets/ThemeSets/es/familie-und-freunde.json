@@ -1,0 +1,249 @@
+{
+  "id": "es-familie-und-freunde",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Familie und Freunde",
+  "entries": [
+    {
+      "source": "la familia",
+      "target": "die Familie",
+      "example": "Toda la familia se reúne en Navidad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la amistad",
+      "target": "die Freundschaft",
+      "example": "La amistad verdadera dura para siempre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el padre",
+      "target": "der Vater",
+      "example": "Mi padre trabaja en una oficina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la madre",
+      "target": "die Mutter",
+      "example": "Mi madre cocina muy bien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "los padres",
+      "target": "die Eltern",
+      "example": "Mis padres viven en el sur.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hijo",
+      "target": "der Sohn",
+      "example": "Su hijo mayor tiene veinte años.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la hija",
+      "target": "die Tochter",
+      "example": "La hija pequeña estudia medicina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hermano",
+      "target": "der Bruder",
+      "example": "Mi hermano vive en Berlín.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la hermana",
+      "target": "die Schwester",
+      "example": "Mi hermana se casó el año pasado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el abuelo",
+      "target": "der Großvater",
+      "example": "Mi abuelo me cuenta historias.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la abuela",
+      "target": "die Großmutter",
+      "example": "La abuela hornea el mejor bizcocho.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tío",
+      "target": "der Onkel",
+      "example": "Mi tío vive en Argentina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tía",
+      "target": "die Tante",
+      "example": "La tía nos trae regalos de viaje.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el primo",
+      "target": "der Cousin",
+      "example": "Mi primo y yo somos muy amigos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el amigo",
+      "target": "der Freund",
+      "example": "Mi mejor amigo vive cerca de aquí.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el marido",
+      "target": "der Ehemann",
+      "example": "Su marido trabaja en el extranjero.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mujer",
+      "target": "die Ehefrau",
+      "example": "Su mujer es profesora de inglés.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el novio",
+      "target": "der feste Freund / Verlobte",
+      "example": "Su novio le regaló flores.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el nieto",
+      "target": "der Enkel",
+      "example": "Los abuelos adoran a sus nietos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nieta",
+      "target": "die Enkelin",
+      "example": "La nieta es la alegría de los abuelos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cuñado",
+      "target": "der Schwager",
+      "example": "Mi cuñado es muy simpático.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cuñada",
+      "target": "die Schwägerin",
+      "example": "La cuñada vive en el mismo barrio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nuera",
+      "target": "die Schwiegertochter",
+      "example": "La nuera se lleva bien con la suegra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el yerno",
+      "target": "der Schwiegersohn",
+      "example": "El yerno ayuda mucho en casa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pareja",
+      "target": "das Paar / der/die Partner(in)",
+      "example": "Mi pareja y yo viajamos mucho.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el chico",
+      "target": "der Junge / der Typ",
+      "example": "El chico de la clase es muy inteligente.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la chica",
+      "target": "das Mädchen / die junge Frau",
+      "example": "La chica habla tres idiomas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la persona",
+      "target": "die Person",
+      "example": "Es una persona muy amable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gente",
+      "target": "die Leute",
+      "example": "La gente aquí es muy abierta.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hombre",
+      "target": "der Mann",
+      "example": "El hombre de la chaqueta roja es mi jefe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

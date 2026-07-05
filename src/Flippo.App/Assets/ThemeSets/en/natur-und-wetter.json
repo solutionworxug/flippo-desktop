@@ -1,0 +1,249 @@
+{
+  "id": "en-natur-und-wetter",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Natur und Wetter",
+  "entries": [
+    {
+      "source": "weather",
+      "target": "das Wetter",
+      "example": "What's the weather like today?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sun",
+      "target": "die Sonne",
+      "example": "There's a lot of sun, take your sunglasses.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rain",
+      "target": "der Regen",
+      "example": "The rain hasn't stopped since yesterday.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wind",
+      "target": "der Wind",
+      "example": "There's a lot of wind today, it's cold.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "snow",
+      "target": "der Schnee",
+      "example": "In the mountains there's a lot of snow in January.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fog",
+      "target": "der Nebel",
+      "example": "This morning there was a lot of fog on the road.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "storm",
+      "target": "das Gewitter / der Sturm",
+      "example": "A storm is coming, take your umbrella.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "thunder",
+      "target": "der Donner",
+      "example": "Thunder scares me.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lightning",
+      "target": "der Blitz",
+      "example": "Lightning lit up the sky.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cloudy",
+      "target": "bewölkt",
+      "example": "The sky is very cloudy today.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "clear",
+      "target": "wolkenlos / klar",
+      "example": "Tomorrow the sky will be clear and sunny.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to rain",
+      "target": "regnen",
+      "example": "It's pouring with rain.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to snow",
+      "target": "schneien",
+      "example": "It snowed all night in the mountains.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to be hot",
+      "target": "warm / heiß sein",
+      "example": "In August it's very hot in Spain.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to be cold",
+      "target": "kalt sein",
+      "example": "It's very cold, you need to bundle up.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "temperature",
+      "target": "die Temperatur",
+      "example": "The temperature dropped to zero degrees.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "degree",
+      "target": "der Grad",
+      "example": "Today it's thirty degrees in the shade.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tree",
+      "target": "der Baum",
+      "example": "Trees provide shade in summer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "flower",
+      "target": "die Blume",
+      "example": "The flowers in the garden smell very nice.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "river",
+      "target": "der Fluss",
+      "example": "The Ebro is the longest river in Spain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sea",
+      "target": "das Meer",
+      "example": "I love swimming in the sea.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mountain",
+      "target": "der Berg",
+      "example": "We go to the mountains in winter to ski.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "forest",
+      "target": "der Wald",
+      "example": "We walk in the forest on Sundays.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "beach",
+      "target": "der Strand",
+      "example": "The beach is full of people in August.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "countryside",
+      "target": "das Feld / das Land",
+      "example": "I like to spend the weekend in the countryside.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nature",
+      "target": "die Natur",
+      "example": "We must take care of nature.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sky",
+      "target": "der Himmel",
+      "example": "The sky is full of stars tonight.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cloud",
+      "target": "die Wolke",
+      "example": "The clouds cover the sun.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rainbow",
+      "target": "der Regenbogen",
+      "example": "After the rain a rainbow appeared.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "weather forecast",
+      "target": "die Wettervorhersage",
+      "example": "The weather forecast says it will rain tomorrow.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

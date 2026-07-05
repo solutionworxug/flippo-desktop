@@ -1,0 +1,249 @@
+{
+  "id": "fr-sport-und-freizeit",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Sport und Freizeit",
+  "entries": [
+    {
+      "source": "sportif",
+      "target": "sportlich",
+      "example": "C'est un garçon très sportif et actif.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "plonger",
+      "target": "tauchen",
+      "example": "J'adore plonger dans la mer Méditerranée.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nager",
+      "target": "schwimmen",
+      "example": "Je nage trente minutes tous les jours.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sport",
+      "target": "der Sport",
+      "example": "Faire du sport est bon pour la santé.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le football",
+      "target": "der Fußball",
+      "example": "Le football est le sport le plus populaire en Espagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le tennis",
+      "target": "das Tennis",
+      "example": "Il joue au tennis le samedi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "courir",
+      "target": "laufen / rennen",
+      "example": "Je cours cinq kilomètres chaque matin.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la salle de sport",
+      "target": "das Fitnessstudio",
+      "example": "Je vais à la salle de sport trois fois par semaine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "s'entraîner",
+      "target": "trainieren",
+      "example": "Il s'entraîne deux heures par jour.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le match",
+      "target": "das Spiel (Wettkampf)",
+      "example": "Tu as vu le match de dimanche ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'équipe",
+      "target": "die Mannschaft / das Team",
+      "example": "Son équipe favorite a gagné le championnat.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gagner",
+      "target": "gewinnen",
+      "example": "Nous avons gagné le match trois à un.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "perdre",
+      "target": "verlieren",
+      "example": "Nous avons perdu le match dans les dernières minutes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'arbitre",
+      "target": "der Schiedsrichter",
+      "example": "L'arbitre a sifflé un penalty.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la piscine",
+      "target": "das Schwimmbad",
+      "example": "En été nous allons à la piscine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le vélo",
+      "target": "das Fahrrad",
+      "example": "Nous faisons un tour à vélo le dimanche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la randonnée",
+      "target": "das Wandern",
+      "example": "Le week-end nous avons fait une randonnée en montagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le basket",
+      "target": "der Basketball",
+      "example": "Le basket est aussi très populaire en Espagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le volley",
+      "target": "der Volleyball",
+      "example": "Nous jouons au volley à la plage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le ballon",
+      "target": "der Ball",
+      "example": "Le ballon est entré dans le but.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le temps libre",
+      "target": "die Freizeit",
+      "example": "Que fais-tu pendant ton temps libre ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le passe-temps",
+      "target": "das Hobby",
+      "example": "Mon passe-temps préféré est la photographie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lire",
+      "target": "lesen",
+      "example": "Je lis une heure avant de dormir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cinéma",
+      "target": "das Kino",
+      "example": "Nous allons au cinéma vendredi soir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le théâtre",
+      "target": "das Theater",
+      "example": "Nous sommes allés au théâtre voir une comédie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le concert",
+      "target": "das Konzert",
+      "example": "J'ai acheté des billets pour le concert.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la photographie",
+      "target": "die Fotografie",
+      "example": "La photographie est ma passion depuis l'enfance.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le jeu vidéo",
+      "target": "das Videospiel",
+      "example": "Il joue aux jeux vidéo l'après-midi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "peindre",
+      "target": "malen",
+      "example": "Il aime beaucoup peindre à l'aquarelle.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "danser",
+      "target": "tanzen",
+      "example": "Nous sortons danser le samedi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "es-stadt",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Stadt",
+  "entries": [
+    {
+      "source": "el tráfico por carretera",
+      "target": "der Straßenverkehr",
+      "example": "El tráfico por carretera es intenso hoy.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Correos",
+      "target": "die Post",
+      "example": "Fui a Correos a enviar un paquete.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el punto de vista",
+      "target": "der Gesichtspunkt / der Standpunkt",
+      "example": "Desde mi punto de vista, tienes razón.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mapa de la ciudad",
+      "target": "der Stadtplan",
+      "example": "Consultamos el mapa de la ciudad para no perdernos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la comisaría",
+      "target": "die Polizeiwache",
+      "example": "Fui a la comisaría a denunciar el robo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la ciudad",
+      "target": "die Stadt",
+      "example": "Madrid es una ciudad muy animada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pueblo",
+      "target": "das Dorf",
+      "example": "Pasamos el verano en un pueblo de la costa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el barrio",
+      "target": "das Viertel",
+      "example": "Vivo en un barrio muy tranquilo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la plaza",
+      "target": "der Platz",
+      "example": "La plaza mayor está llena de turistas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la calle",
+      "target": "die Straße",
+      "example": "Esta calle es peatonal — no pueden entrar coches.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el banco",
+      "target": "die Bank",
+      "example": "Tengo que ir al banco a sacar dinero.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la farmacia",
+      "target": "die Apotheke",
+      "example": "La farmacia de guardia está abierta toda la noche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hospital",
+      "target": "das Krankenhaus",
+      "example": "El hospital nuevo abre el año que viene.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la iglesia",
+      "target": "die Kirche",
+      "example": "La iglesia del pueblo data del siglo XII.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el ayuntamiento",
+      "target": "das Rathaus",
+      "example": "El ayuntamiento organiza las fiestas del pueblo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mercado",
+      "target": "der Markt",
+      "example": "El mercado del barrio abre los sábados.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el supermercado",
+      "target": "der Supermarkt",
+      "example": "El supermercado cierra a las diez.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el restaurante",
+      "target": "das Restaurant",
+      "example": "Hay muchos restaurantes en el centro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el bar",
+      "target": "die Bar",
+      "example": "Tomamos unas tapas en el bar de la esquina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el parque",
+      "target": "der Park",
+      "example": "Los niños juegan en el parque.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la biblioteca",
+      "target": "die Bibliothek",
+      "example": "La biblioteca municipal tiene muchos libros.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el museo",
+      "target": "das Museum",
+      "example": "El museo abre de martes a domingo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el teatro",
+      "target": "das Theater",
+      "example": "El teatro nacional tiene una cartelera variada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cine",
+      "target": "das Kino",
+      "example": "El cine del barrio tiene precios muy bajos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la estación",
+      "target": "der Bahnhof / die Station",
+      "example": "La estación de tren está muy céntrica.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aeropuerto",
+      "target": "der Flughafen",
+      "example": "El aeropuerto queda a veinte minutos del centro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el semáforo",
+      "target": "die Ampel",
+      "example": "Para en el semáforo — está en rojo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la acera",
+      "target": "der Bürgersteig",
+      "example": "Camina por la acera — no por la carretera.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el paso de cebra",
+      "target": "der Zebrastreifen",
+      "example": "Cruza por el paso de cebra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el centro comercial",
+      "target": "das Einkaufszentrum",
+      "example": "El centro comercial tiene cien tiendas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

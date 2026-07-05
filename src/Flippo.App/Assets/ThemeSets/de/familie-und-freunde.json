@@ -1,0 +1,249 @@
+{
+  "id": "de-familie-und-freunde",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Familie und Freunde",
+  "entries": [
+    {
+      "source": "die Familie",
+      "target": "family",
+      "example": "An Weihnachten kommt die ganze Familie zusammen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Freundschaft",
+      "target": "friendship",
+      "example": "Eine echte Freundschaft hält für immer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Vater",
+      "target": "father",
+      "example": "Mein Vater arbeitet in einem Büro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Mutter",
+      "target": "mother",
+      "example": "Meine Mutter kocht sehr gut.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Eltern",
+      "target": "parents",
+      "example": "Meine Eltern wohnen im Süden.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Sohn",
+      "target": "son",
+      "example": "Ihr älterer Sohn ist zwanzig Jahre alt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Tochter",
+      "target": "daughter",
+      "example": "Die jüngere Tochter studiert Medizin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Bruder",
+      "target": "brother",
+      "example": "Mein Bruder wohnt in Berlin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Schwester",
+      "target": "sister",
+      "example": "Meine Schwester hat letztes Jahr geheiratet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Großvater",
+      "target": "grandfather",
+      "example": "Mein Großvater erzählt mir Geschichten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Großmutter",
+      "target": "grandmother",
+      "example": "Meine Großmutter backt den besten Kuchen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Onkel",
+      "target": "uncle",
+      "example": "Mein Onkel lebt in Argentinien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Tante",
+      "target": "aunt",
+      "example": "Meine Tante bringt uns Geschenke mit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Cousin",
+      "target": "cousin",
+      "example": "Mein Cousin und ich sind gute Freunde.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Freund",
+      "target": "friend",
+      "example": "Mein bester Freund wohnt hier in der Nähe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Ehemann",
+      "target": "husband",
+      "example": "Ihr Ehemann arbeitet im Ausland.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Ehefrau",
+      "target": "wife",
+      "example": "Seine Ehefrau ist Englischlehrerin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der feste Freund / Verlobte",
+      "target": "boyfriend / fiancé",
+      "example": "Ihr fester Freund hat ihr Blumen geschenkt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Enkel",
+      "target": "grandson",
+      "example": "Die Großeltern lieben ihren Enkel sehr.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Enkelin",
+      "target": "granddaughter",
+      "example": "Die Enkelin ist die Freude der Großeltern.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Schwager",
+      "target": "brother-in-law",
+      "example": "Mein Schwager ist sehr nett.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Schwägerin",
+      "target": "sister-in-law",
+      "example": "Meine Schwägerin wohnt im selben Viertel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Schwiegertochter",
+      "target": "daughter-in-law",
+      "example": "Die Schwiegertochter versteht sich gut mit der Familie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Schwiegersohn",
+      "target": "son-in-law",
+      "example": "Der Schwiegersohn hilft viel im Haushalt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Paar / der/die Partner(in)",
+      "target": "couple / partner",
+      "example": "Mein Partner und ich reisen viel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Junge / der Typ",
+      "target": "boy / guy",
+      "example": "Der Junge in der Klasse ist sehr intelligent.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Mädchen / die junge Frau",
+      "target": "girl / young woman",
+      "example": "Das Mädchen spricht drei Sprachen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Person",
+      "target": "person",
+      "example": "Sie ist eine sehr nette Person.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Leute",
+      "target": "people",
+      "example": "Die Leute hier sind sehr offen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Mann",
+      "target": "man",
+      "example": "Der Mann in der roten Jacke ist mein Chef.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

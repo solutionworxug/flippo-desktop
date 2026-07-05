@@ -1,0 +1,249 @@
+{
+  "id": "fr-praposition",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Präposition",
+  "entries": [
+    {
+      "source": "dans / à / sur",
+      "target": "in / an / auf",
+      "example": "Le livre est sur la table.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à",
+      "target": "nach / zu / um (Uhrzeit)",
+      "example": "Je vais à la maison à trois heures.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "de",
+      "target": "von / aus / des",
+      "example": "Je viens d'Allemagne.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "avec",
+      "target": "mit",
+      "example": "Je vais au cinéma avec mon ami.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pour",
+      "target": "für / um ... zu",
+      "example": "Ce cadeau est pour toi.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "par / pour",
+      "target": "durch / für / pro",
+      "example": "Merci pour ton aide.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sans",
+      "target": "ohne",
+      "example": "Un café sans sucre s'il vous plaît.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sur / au-dessus de",
+      "target": "über / auf",
+      "example": "Le tableau est au-dessus de la cheminée.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "jusqu'à",
+      "target": "bis",
+      "example": "Je travaille jusqu'à six heures.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "depuis",
+      "target": "seit / von",
+      "example": "Je vis ici depuis un an.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "entre",
+      "target": "zwischen",
+      "example": "La banque est entre le cinéma et la pharmacie.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "près de",
+      "target": "in der Nähe von",
+      "example": "La gare est près d'ici.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "loin de",
+      "target": "weit von",
+      "example": "L'aéroport est loin du centre.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "devant",
+      "target": "vor",
+      "example": "La voiture est devant la porte.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "derrière",
+      "target": "hinter",
+      "example": "Le jardin est derrière la maison.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sur",
+      "target": "auf / oben auf",
+      "example": "Les clés sont sur la table.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sous",
+      "target": "unter",
+      "example": "Le chat est sous le lit.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à côté de",
+      "target": "neben",
+      "example": "La pharmacie est à côté du supermarché.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à l'intérieur de / dans",
+      "target": "innerhalb von / in",
+      "example": "Les clés sont dans le sac.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à l'extérieur de",
+      "target": "außerhalb von",
+      "example": "Nous attendons à l'extérieur du bâtiment.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "avant",
+      "target": "vor (zeitlich)",
+      "example": "Appelle-moi avant dix heures.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "après",
+      "target": "nach (zeitlich)",
+      "example": "Je te vois après la réunion.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pendant",
+      "target": "während",
+      "example": "Ne parle pas pendant le film.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "selon",
+      "target": "gemäß / laut",
+      "example": "Selon la carte, nous sommes ici.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "contre",
+      "target": "gegen",
+      "example": "Je suis contre cette décision.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vers",
+      "target": "in Richtung / gegen (zeitlich)",
+      "example": "J'arriverai vers trois heures.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "au",
+      "target": "zum / zur (a + el)",
+      "example": "Je vais au marché.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "du",
+      "target": "vom / des (de + el)",
+      "example": "Je reviens du travail.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pendant que",
+      "target": "während",
+      "example": "J'écoute de la musique pendant que je cuisine.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sauf",
+      "target": "außer / ausgenommen",
+      "example": "Tout le monde est venu sauf Ana.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

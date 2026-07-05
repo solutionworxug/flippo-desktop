@@ -1,0 +1,49 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Flippo.App.ViewModels"
+        xmlns:loc="using:Flippo.App.Localization"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        x:Class="Flippo.App.Views.ThemeSetPickerWindow"
+        x:DataType="vm:ThemeSetPickerViewModel"
+        Title="{loc:T ThemeSet_PickerTitle}"
+        Width="520" Height="620"
+        Background="{DynamicResource Brush.Bg.App}"
+        WindowStartupLocation="CenterOwner">
+
+    <DockPanel Margin="24">
+        <TextBlock DockPanel.Dock="Top" Classes="page-title" Text="{loc:T ThemeSet_Heading}"/>
+        <ComboBox DockPanel.Dock="Top" ItemsSource="{Binding Languages}" SelectedItem="{Binding SelectedLanguage}"
+                  Margin="0,12,0,12" HorizontalAlignment="Left" MinWidth="200"/>
+
+        <Button DockPanel.Dock="Bottom" Content="{loc:T ThemeSet_Close}" Click="OnClose"
+                HorizontalAlignment="Right" Margin="0,12,0,0" MinWidth="90"/>
+
+        <TextBlock DockPanel.Dock="Bottom" IsVisible="{Binding IsEmpty}" Classes="caption"
+                   Text="{loc:T ThemeSet_Empty}" Margin="2,8,0,0"/>
+
+        <ScrollViewer>
+            <ItemsControl ItemsSource="{Binding Items}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate x:DataType="vm:ThemeSetItem">
+                        <Border Classes="app-card" Margin="0,0,0,8" Padding="14">
+                            <Grid ColumnDefinitions="*,Auto">
+                                <StackPanel Grid.Column="0" Spacing="2" VerticalAlignment="Center">
+                                    <TextBlock Classes="body" FontWeight="SemiBold" Text="{Binding Title}"/>
+                                    <TextBlock Classes="caption" Text="{Binding CountText}"/>
+                                </StackPanel>
+                                <Button Grid.Column="1" Content="{loc:T ThemeSet_Import}" Classes="accent" VerticalAlignment="Center"
+                                        IsVisible="{Binding !IsImported}"
+                                        Command="{Binding $parent[ItemsControl].((vm:ThemeSetPickerViewModel)DataContext).ImportCommand}"
+                                        CommandParameter="{Binding}"/>
+                                <TextBlock Grid.Column="1" Classes="caption" Text="{loc:T ThemeSet_Imported}" VerticalAlignment="Center"
+                                           Foreground="{DynamicResource Brush.Success}" IsVisible="{Binding IsImported}"/>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+    </DockPanel>
+</Window>

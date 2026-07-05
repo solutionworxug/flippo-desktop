@@ -1,0 +1,249 @@
+{
+  "id": "es-verben-bewegung",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Verben Bewegung",
+  "entries": [
+    {
+      "source": "ir",
+      "target": "gehen / fahren",
+      "example": "Voy al supermercado ahora.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "venir",
+      "target": "kommen",
+      "example": "¿Vienes a la fiesta el sábado?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "llegar",
+      "target": "ankommen",
+      "example": "El tren llega a las tres.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "salir",
+      "target": "ausgehen / abfahren",
+      "example": "El autobús sale en cinco minutos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "entrar",
+      "target": "eintreten / hineingehen",
+      "example": "Entra — la puerta está abierta.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "saltar",
+      "target": "springen",
+      "example": "Los niños saltan en el parque.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "correr",
+      "target": "laufen / rennen",
+      "example": "Corro todos los días por el parque.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "caminar",
+      "target": "gehen / laufen (gemächlich)",
+      "example": "Caminamos una hora por la ciudad.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "subir",
+      "target": "hinaufgehen / einsteigen",
+      "example": "Subimos al tercer piso a pie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bajar",
+      "target": "heruntergehen / aussteigen",
+      "example": "Baja en la próxima parada.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "volver",
+      "target": "zurückkommen",
+      "example": "Vuelvo a casa a las siete.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "regresar",
+      "target": "zurückkehren",
+      "example": "Regresamos del viaje el domingo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pasar",
+      "target": "vorbeigehen / passieren",
+      "example": "El autobús pasa cada veinte minutos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cruzar",
+      "target": "überqueren",
+      "example": "Cruza la calle por el paso de cebra.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "girar",
+      "target": "abbiegen / sich drehen",
+      "example": "Gira a la derecha en el semáforo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "seguir",
+      "target": "weitergehen / fortsetzen",
+      "example": "Sigue recto hasta el final de la calle.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "acercarse",
+      "target": "sich nähern / näherkommen",
+      "example": "Se acercó para escuchar mejor.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "alejarse",
+      "target": "sich entfernen / weggehen",
+      "example": "Se alejó sin decir nada.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pararse",
+      "target": "stehen bleiben / anhalten",
+      "example": "Para el coche aquí por favor.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sentarse",
+      "target": "sich setzen / hinsetzen",
+      "example": "Siéntate — la reunión va a empezar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "levantarse",
+      "target": "aufstehen",
+      "example": "Se levantó de la silla para saludar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tumbarse",
+      "target": "sich hinlegen",
+      "example": "Me tumbé en el sofá a descansar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "agacharse",
+      "target": "sich bücken",
+      "example": "Se agachó para recoger el bolígrafo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "empujar",
+      "target": "schieben / drücken",
+      "example": "Empuja la puerta — no tires.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tirar",
+      "target": "ziehen / werfen",
+      "example": "Tira del cordón para encender la luz.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "llevar",
+      "target": "tragen / mitnehmen",
+      "example": "Lleva el paraguas — puede llover.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "traer",
+      "target": "mitbringen / bringen",
+      "example": "Trae el documento para la reunión.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "moverse",
+      "target": "sich bewegen",
+      "example": "Muévete — estás bloqueando la salida.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "escaparse",
+      "target": "entkommen / weglaufen",
+      "example": "El gato se escapó por la ventana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dirigirse a",
+      "target": "sich begeben / zusteuern auf",
+      "example": "Se dirigió a la salida rápidamente.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

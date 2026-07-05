@@ -1,0 +1,249 @@
+{
+  "id": "fr-schule",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Schule",
+  "entries": [
+    {
+      "source": "l'école",
+      "target": "die Schule",
+      "example": "L'école commence à huit heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la salle de classe",
+      "target": "das Klassenzimmer",
+      "example": "Notre salle de classe est au premier étage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le professeur",
+      "target": "der Lehrer",
+      "example": "Le professeur explique l'exercice.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'élève",
+      "target": "der Schüler",
+      "example": "Chaque élève a son propre cahier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le directeur",
+      "target": "der Direktor",
+      "example": "Le directeur accueille les nouveaux élèves.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la classe",
+      "target": "die Klasse",
+      "example": "Il y a trente enfants dans ma classe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le tableau",
+      "target": "die Tafel",
+      "example": "Le professeur écrit le mot au tableau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la craie",
+      "target": "die Kreide",
+      "example": "La craie est presque finie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cahier",
+      "target": "das Heft",
+      "example": "Écris la réponse dans ton cahier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le manuel",
+      "target": "das Schulbuch",
+      "example": "Ouvrez le manuel à la page dix.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le stylo",
+      "target": "der Kugelschreiber",
+      "example": "Puis-je utiliser ton stylo?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le crayon",
+      "target": "der Bleistift",
+      "example": "Trace la ligne avec un crayon.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gomme",
+      "target": "der Radiergummi",
+      "example": "Peux-tu me prêter ta gomme?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la règle",
+      "target": "das Lineal",
+      "example": "Avec la règle je trace une ligne droite.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le taille-crayon",
+      "target": "der Spitzer",
+      "example": "Mon taille-crayon est dans le cartable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cartable",
+      "target": "die Schultasche",
+      "example": "Le cartable est très lourd aujourd'hui.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cour",
+      "target": "der Schulhof",
+      "example": "Pendant la récréation nous jouons dans la cour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les cours",
+      "target": "der Unterricht",
+      "example": "Les cours sont annulés aujourd'hui.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la récréation",
+      "target": "die Pause",
+      "example": "Pendant la récréation je mange mon goûter.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les devoirs",
+      "target": "die Hausaufgaben",
+      "example": "Je fais mes devoirs après le déjeuner.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la note",
+      "target": "die Note",
+      "example": "Elle a eu une bonne note.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bulletin",
+      "target": "das Zeugnis",
+      "example": "Le bulletin arrive à la fin de l'année scolaire.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'examen",
+      "target": "die Prüfung",
+      "example": "Nous avons un examen demain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la matière",
+      "target": "das Fach",
+      "example": "Quelle matière préfères-tu?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les mathématiques",
+      "target": "die Mathematik",
+      "example": "Les mathématiques ne sont pas ma matière préférée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'histoire",
+      "target": "die Geschichte",
+      "example": "En histoire nous étudions le Moyen Âge.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'emploi du temps",
+      "target": "der Stundenplan",
+      "example": "Regarde l'emploi du temps pour demain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bibliothèque",
+      "target": "die Bibliothek",
+      "example": "J'emprunte des livres à la bibliothèque.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la question",
+      "target": "die Frage",
+      "example": "As-tu une question pour le professeur?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la réponse",
+      "target": "die Antwort",
+      "example": "La bonne réponse est au tableau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

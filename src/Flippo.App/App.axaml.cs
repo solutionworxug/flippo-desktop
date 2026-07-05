@@ -6,6 +6,7 @@ using Flippo.App.Localization;
 using Flippo.App.Services;
 using Flippo.App.ViewModels;
 using Flippo.App.Views;
+using Flippo.Core.Content;
 using Flippo.Data;
 using Flippo.Data.Services;
 using Microsoft.EntityFrameworkCore;
@@ -58,6 +59,8 @@ public partial class App : Application
             (Current?.ApplicationLifetime as IClassicDesktopStyleApplicationLifetime)?.MainWindow);
         services.AddSingleton<IFilePickerService, FilePickerService>();
         services.AddSingleton<IDialogService, DialogService>();
+        services.AddSingleton<IThemeSetSource, BundledThemeSetSource>();
+        services.AddSingleton<ThemeSetImporter>();
         services.AddSingleton<SetActionsService>();
 
         services.AddSingleton<UpdateService>();

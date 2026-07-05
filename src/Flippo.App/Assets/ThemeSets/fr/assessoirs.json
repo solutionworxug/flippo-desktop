@@ -1,0 +1,249 @@
+{
+  "id": "fr-assessoirs",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Assessoirs",
+  "entries": [
+    {
+      "source": "la montre",
+      "target": "die Uhr",
+      "example": "J'ai oublié la montre à la maison.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la boucle d'oreille",
+      "target": "der Ohrring",
+      "example": "Elle porte de très belles boucles d'oreilles en or.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bijou",
+      "target": "der Schmuck",
+      "example": "Ce bijou est un cadeau de ma grand-mère.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bracelet",
+      "target": "das Armband",
+      "example": "Elle m'a offert un bracelet en argent.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bague",
+      "target": "der Ring",
+      "example": "Elle porte l'alliance à la main gauche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le collier",
+      "target": "die Halskette",
+      "example": "Le collier de perles est très élégant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la boucle d'oreille",
+      "target": "der Ohrring / Ohrstecker",
+      "example": "J'ai perdu une boucle d'oreille en boîte de nuit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sac à main",
+      "target": "die Handtasche",
+      "example": "J'ai laissé le sac à main dans le taxi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le portefeuille",
+      "target": "das Portemonnaie / die Brieftasche",
+      "example": "Je ne trouve pas le portefeuille, tu l’as vu ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la ceinture",
+      "target": "der Gürtel",
+      "example": "La ceinture en cuir va bien avec ce pantalon.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les lunettes de soleil",
+      "target": "die Sonnenbrille",
+      "example": "Je ne sors pas en été sans mes lunettes de soleil.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le parapluie",
+      "target": "der Regenschirm",
+      "example": "Prends le parapluie car il va pleuvoir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le foulard",
+      "target": "das Taschentuch / das Halstuch",
+      "example": "Elle porte un foulard en soie autour du cou.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la broche",
+      "target": "die Brosche",
+      "example": "La broche de sa grand-mère est en or.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le porte-clés",
+      "target": "der Schlüsselanhänger",
+      "example": "J'ai beaucoup de clés sur le porte-clés.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sac à dos",
+      "target": "der Rucksack",
+      "example": "Le sac à dos est plus pratique que le sac à main.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mallette",
+      "target": "die Aktentasche",
+      "example": "Il emporte la mallette au travail.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chapeau",
+      "target": "der Hut",
+      "example": "Le chapeau de paille est parfait pour la plage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'écharpe",
+      "target": "der Schal",
+      "example": "L'écharpe en laine tient très chaud en hiver.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le gant",
+      "target": "der Handschuh",
+      "example": "J'ai perdu un gant en cuir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le porte-monnaie",
+      "target": "der Münzbeutel / das Portemonnaie",
+      "example": "Paie avec le porte-monnaie, j’ai de la monnaie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sac à dos de voyage",
+      "target": "der Reiserucksack",
+      "example": "Le sac à dos de voyage est parfait pour le week-end.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la chaîne",
+      "target": "die Kette",
+      "example": "Il lui a offert une chaîne en or.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'épingle de sûreté",
+      "target": "die Sicherheitsnadel",
+      "example": "Je porte une épingle de sûreté pour le déguisement.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le badge",
+      "target": "das Abzeichen / die Anstecknadel",
+      "example": "Il porte un badge de son équipe favorite.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le pendentif",
+      "target": "der Anhänger (Schmuck)",
+      "example": "Le pendentif en forme de cœur est très joli.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'étui",
+      "target": "das Etui / die Tasche",
+      "example": "L'étui à lunettes protège les verres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la casquette",
+      "target": "die Kappe / Schirmmütze",
+      "example": "Il porte toujours une casquette pour le soleil.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la valise",
+      "target": "der Koffer",
+      "example": "J'ai fait la valise la veille du voyage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la trousse de toilette",
+      "target": "die Kulturtasche",
+      "example": "N'oublie pas la trousse de toilette avec la brosse à dents.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

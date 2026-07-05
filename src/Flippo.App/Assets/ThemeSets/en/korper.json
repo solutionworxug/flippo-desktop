@@ -1,0 +1,249 @@
+{
+  "id": "en-korper",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Körper",
+  "entries": [
+    {
+      "source": "leg",
+      "target": "das Bein",
+      "example": "My leg hurts after running.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "head",
+      "target": "der Kopf",
+      "example": "I have a headache.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hair",
+      "target": "das Haar",
+      "example": "She has long, curly hair.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "neck",
+      "target": "der Hals",
+      "example": "My neck hurts from looking at my phone.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "back",
+      "target": "der Rücken",
+      "example": "I have back pain because of work.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "foot",
+      "target": "der Fuß",
+      "example": "My foot hurts after walking.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "finger",
+      "target": "der Finger",
+      "example": "I cut my finger while cooking.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "arm",
+      "target": "der Arm",
+      "example": "His arm is in a sling.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hand",
+      "target": "die Hand",
+      "example": "Wash your hands before eating.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "stomach",
+      "target": "der Magen / der Bauch",
+      "example": "My stomach hurts after eating.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nose",
+      "target": "die Nase",
+      "example": "In winter I blow my nose all the time.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "eye",
+      "target": "das Auge",
+      "example": "She has very blue eyes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "body",
+      "target": "der Körper",
+      "example": "Exercise is good for the body.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "healthy",
+      "target": "gesund",
+      "example": "Eating vegetables is healthy.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sick",
+      "target": "krank",
+      "example": "I'm not going to work because I'm sick.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mouth",
+      "target": "der Mund",
+      "example": "Open your mouth and say ah.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "teeth",
+      "target": "die Zähne",
+      "example": "You should brush your teeth twice a day.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tongue",
+      "target": "die Zunge",
+      "example": "I bit my tongue while eating.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ear",
+      "target": "das Ohr (außen)",
+      "example": "My right ear hurts.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "shoulder",
+      "target": "die Schulter",
+      "example": "He carries the backpack on his shoulder.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "chest",
+      "target": "die Brust",
+      "example": "My chest hurts when I breathe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "knee",
+      "target": "das Knie",
+      "example": "I fell and hit my knee.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ankle",
+      "target": "der Knöchel",
+      "example": "I twisted my ankle while running.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "elbow",
+      "target": "der Ellbogen",
+      "example": "I hit my elbow.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "forehead",
+      "target": "die Stirn",
+      "example": "She has a fever, I touched her forehead.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cheek",
+      "target": "die Wange",
+      "example": "He kissed her on the cheek.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lip",
+      "target": "die Lippe",
+      "example": "He has very thin lips.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "chin",
+      "target": "das Kinn",
+      "example": "He stroked his chin while thinking.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "heart",
+      "target": "das Herz",
+      "example": "The heart beats faster when you run.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "blood",
+      "target": "das Blut",
+      "example": "Blood ran from my finger.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

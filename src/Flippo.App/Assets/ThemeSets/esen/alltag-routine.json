@@ -1,0 +1,249 @@
+{
+  "id": "esen-alltag-routine",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Alltag Routine",
+  "entries": [
+    {
+      "source": "levantarse",
+      "target": "to get up",
+      "example": "Me levanto todos los días a las siete de la mañana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "despertarse",
+      "target": "to wake up",
+      "example": "Me despierto temprano, pero me quedo en la cama.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ducharse",
+      "target": "to take a shower",
+      "example": "Me ducho con agua fría para despertarme bien.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "desayunar",
+      "target": "to have breakfast",
+      "example": "¿Qué prefieres desayunar hoy?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el desayuno",
+      "target": "breakfast",
+      "example": "El desayuno es la comida más importante del día.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lavarse los dientes",
+      "target": "to brush one's teeth",
+      "example": "Hay que lavarse los dientes después de cada comida.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vestirse",
+      "target": "to get dressed",
+      "example": "Me visto rápidamente porque voy tarde.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "salir de casa",
+      "target": "to leave home",
+      "example": "Salgo de casa a las ocho para ir a trabajar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ir al trabajo",
+      "target": "to go to work",
+      "example": "Voy al trabajo en transporte público.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacer la compra",
+      "target": "to do the grocery shopping",
+      "example": "Los sábados por la mañana hago la compra en el supermercado.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cocinar",
+      "target": "to cook",
+      "example": "Me gusta cocinar la cena para mi familia.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el almuerzo / la comida",
+      "target": "lunch",
+      "example": "Preparo el almuerzo para llevarlo a la oficina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cena",
+      "target": "dinner",
+      "example": "La cena está lista, ¡a comer!",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "irse a la cama / acostarse",
+      "target": "to go to bed",
+      "example": "Me acuesto temprano cuando estoy cansado.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dormir",
+      "target": "to sleep",
+      "example": "Necesito dormir al menos ocho horas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sacar la basura",
+      "target": "to take out the trash",
+      "example": "Te toca sacar la basura esta noche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fregar los platos",
+      "target": "to wash the dishes",
+      "example": "Siempre friego los platos después de cenar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "poner la lavadora",
+      "target": "to do the laundry",
+      "example": "Tengo que poner la lavadora porque no tengo ropa limpia.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ordenar / recoger",
+      "target": "to tidy up",
+      "example": "Tengo que ordenar mi habitación este fin de semana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "limpiar el piso / limpiar la casa",
+      "target": "to clean the house",
+      "example": "Limpiamos la casa juntos los viernes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "descansar",
+      "target": "to rest",
+      "example": "Después del trabajo me gusta descansar en el sofá.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ver la televisión",
+      "target": "to watch television",
+      "example": "Vemos la televisión un rato antes de dormir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tiempo libre",
+      "target": "free time",
+      "example": "En mi tiempo libre me gusta leer libros.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la vida cotidiana / el día a día",
+      "target": "everyday life",
+      "example": "La rutina del día a día puede ser estresante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la rutina / el hábito",
+      "target": "routine",
+      "example": "Tener una buena rutina por la mañana es importante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quedarse en casa",
+      "target": "to stay home",
+      "example": "Hoy hace mal tiempo, prefiero quedarme en casa.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quedar con amigos / reunirse con amigos",
+      "target": "to meet friends",
+      "example": "He quedado con amigos para tomar un café.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dar un paseo / pasear",
+      "target": "to take a walk",
+      "example": "Damos un paseo por el parque todas las tardes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "darse prisa",
+      "target": "to hurry",
+      "example": "¡Date prisa, el tren va a salir!",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "llegar tarde",
+      "target": "to be late",
+      "example": "Lo siento por llegar tarde, había mucho tráfico.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

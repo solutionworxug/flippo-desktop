@@ -1,0 +1,249 @@
+{
+  "id": "en-kochen-backen",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Kochen Backen",
+  "entries": [
+    {
+      "source": "to cook",
+      "target": "kochen",
+      "example": "I like to cook for my friends on weekends.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to bake",
+      "target": "backen",
+      "example": "I am going to bake an apple cake today.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to fry",
+      "target": "frittieren",
+      "example": "You have to fry the potatoes in very hot oil.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to cut in half",
+      "target": "halbieren",
+      "example": "Cut the tomatoes in half for the salad.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to mix",
+      "target": "verrühren / mischen",
+      "example": "You have to mix the eggs well with the sugar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to cut",
+      "target": "schneiden",
+      "example": "Be careful when cutting the meat with that knife.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to peel",
+      "target": "schälen",
+      "example": "Can you help me peel the potatoes?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to stir",
+      "target": "umrühren",
+      "example": "Stir the soup so it doesn't stick.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to season",
+      "target": "würzen",
+      "example": "You should season the meat with salt and pepper.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to brown / to sauté",
+      "target": "anbraten",
+      "example": "First you have to sauté the onion for a couple of minutes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to beat",
+      "target": "schlagen (z.B. Eiweiß)",
+      "example": "Beat the egg whites until stiff.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to grate",
+      "target": "reiben",
+      "example": "I am going to grate some cheese for the pasta.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to weigh",
+      "target": "wiegen",
+      "example": "It is important to weigh the ingredients precisely when baking.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to pour",
+      "target": "gießen / einschenken",
+      "example": "Pour the milk into the batter little by little.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "recipe",
+      "target": "das Rezept",
+      "example": "This cake recipe is from my grandmother.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "ingredient",
+      "target": "die Zutat",
+      "example": "Make sure you have all the ingredients before you start.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "oven",
+      "target": "der Ofen / Backofen",
+      "example": "Preheat the oven to 180 degrees.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "pan",
+      "target": "die Pfanne",
+      "example": "Put a little olive oil in the pan.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "pot",
+      "target": "der Topf",
+      "example": "The pot is full of boiling water.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "bowl",
+      "target": "die Schüssel",
+      "example": "Put the flour and yeast in a large bowl.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to boil",
+      "target": "kochen / sieden",
+      "example": "The water is starting to boil; add the pasta.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to wash",
+      "target": "waschen",
+      "example": "It is necessary to wash the vegetables before cooking them.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to measure / to weigh",
+      "target": "abwiegen",
+      "example": "Measure one hundred grams of butter.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "kitchen scale",
+      "target": "die Waage / Küchenwaage",
+      "example": "Use the kitchen scale to measure the flour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to add",
+      "target": "hinzufügen",
+      "example": "Add a pinch of salt to the sauce.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to drain",
+      "target": "abgießen",
+      "example": "Drain the spaghetti when it is ready.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to knead",
+      "target": "kneten",
+      "example": "You have to knead the bread dough for ten minutes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to melt",
+      "target": "schmelzen",
+      "example": "You have to melt the chocolate in a bain-marie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to preheat",
+      "target": "vorheizen",
+      "example": "Don't forget to preheat the oven.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "to let cool",
+      "target": "abkühlen lassen",
+      "example": "Let the cake cool before removing it from the pan.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    }
+  ]
+}

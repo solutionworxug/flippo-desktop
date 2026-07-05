@@ -1,0 +1,249 @@
+{
+  "id": "fr-reise-und-urlaub",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Reise und Urlaub",
+  "entries": [
+    {
+      "source": "le centre-ville",
+      "target": "das Stadtzentrum / der Stadtkern",
+      "example": "L'hôtel est situé dans le centre-ville.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la voiture de location",
+      "target": "der Mietwagen",
+      "example": "Nous avons réservé une voiture de location pour parcourir l'île.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les documents de voyage",
+      "target": "die Reiseunterlagen",
+      "example": "Vérifie que tu as tous les documents de voyage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le voyage en train",
+      "target": "die Zugreise",
+      "example": "Le voyage en train à travers les Alpes était spectaculaire.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'aéroport",
+      "target": "der Flughafen",
+      "example": "Il faut arriver à l'aéroport deux heures à l'avance.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la réservation",
+      "target": "die Reservierung",
+      "example": "J'ai fait une réservation à l'hôtel sur internet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "louer",
+      "target": "mieten",
+      "example": "Je veux louer une voiture à l'aéroport.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'autoroute",
+      "target": "die Autobahn",
+      "example": "L'autoroute pour Barcelone est coupée à cause de travaux.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bus",
+      "target": "der Bus",
+      "example": "Le bus pour le centre part toutes les vingt minutes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la destination",
+      "target": "das Reiseziel",
+      "example": "Quelle est ta destination préférée en Europe ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le départ",
+      "target": "die Abreise",
+      "example": "Le départ est prévu pour midi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "voyager",
+      "target": "reisen",
+      "example": "J'adore voyager en été.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le voyage",
+      "target": "die Reise",
+      "example": "Le voyage en train dure quatre heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le billet",
+      "target": "die Fahrkarte / das Ticket",
+      "example": "J'ai acheté le billet d'avion à l'avance.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le passeport",
+      "target": "der Reisepass",
+      "example": "N'oublie pas le passeport pour voyager à l'étranger.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la valise",
+      "target": "der Koffer",
+      "example": "J'ai fait la valise la veille.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le vol",
+      "target": "der Flug",
+      "example": "Le vol pour Madrid dure deux heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'arrivée",
+      "target": "die Ankunft",
+      "example": "L'arrivée est prévue pour trois heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les bagages",
+      "target": "das Gepäck",
+      "example": "J'ai perdu les bagages à l'aéroport.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carte / le plan",
+      "target": "die Landkarte / der Stadtplan",
+      "example": "J'ai téléchargé le plan de la ville.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'excursion",
+      "target": "der Ausflug",
+      "example": "Nous avons fait une excursion à la montagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le guide touristique",
+      "target": "der Reiseführer (Buch/Person)",
+      "example": "J'ai acheté un guide touristique de Barcelone.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le touriste",
+      "target": "der Tourist",
+      "example": "La ville est pleine de touristes en août.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la plage",
+      "target": "der Strand",
+      "example": "Nous avons passé une semaine à la plage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le camping",
+      "target": "der Campingplatz",
+      "example": "Nous avons dormi dans un camping près de la mer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le train",
+      "target": "der Zug",
+      "example": "Le train à grande vitesse arrive en trois heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le taxi",
+      "target": "das Taxi",
+      "example": "Nous avons pris un taxi depuis l'aéroport.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire les valises",
+      "target": "die Koffer packen",
+      "example": "Je dois faire les valises ce soir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'assurance voyage",
+      "target": "die Reiseversicherung",
+      "example": "Je souscris toujours une assurance voyage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la frontière",
+      "target": "die Grenze",
+      "example": "Nous avons traversé la frontière française le matin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

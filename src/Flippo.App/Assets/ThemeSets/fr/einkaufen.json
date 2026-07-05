@@ -1,0 +1,249 @@
+{
+  "id": "fr-einkaufen",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Einkaufen",
+  "entries": [
+    {
+      "source": "la taille",
+      "target": "die Kleidergröße",
+      "example": "Je ne sais pas quelle taille je fais.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la pointure",
+      "target": "die Schuhgröße",
+      "example": "Quelle est ta pointure ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "essayer",
+      "target": "anprobieren",
+      "example": "Je voudrais essayer ce pantalon, s'il vous plaît.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "trop serré",
+      "target": "zu eng",
+      "example": "Cette chemise est trop serrée pour moi.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "trop petit",
+      "target": "zu klein",
+      "example": "Les chaussures sont trop petites pour moi.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la vendeuse",
+      "target": "die Verkäuferin",
+      "example": "La vendeuse a été très aimable et m'a aidé.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "le vendeur",
+      "target": "der Verkäufer",
+      "example": "Le vendeur m'a montré les nouvelles offres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "le centre commercial",
+      "target": "das Einkaufszentrum",
+      "example": "Nous allons au centre commercial ce samedi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "le magasin",
+      "target": "das Geschäft / der Laden",
+      "example": "Ce magasin est ouvert jusqu'à dix heures du soir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la cabine d'essayage",
+      "target": "die Umkleidekabine",
+      "example": "Les cabines d'essayage sont au fond à droite.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "le ticket de caisse",
+      "target": "der Kassenzettel",
+      "example": "Garde le ticket de caisse au cas où tu voudrais l'échanger.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la caisse",
+      "target": "die Kasse",
+      "example": "Tu dois payer les vêtements à la caisse.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "payer",
+      "target": "zahlen / bezahlen",
+      "example": "Puis-je payer par carte de crédit ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "payer en espèces",
+      "target": "bar bezahlen",
+      "example": "Je préfère payer en espèces aujourd'hui.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la carte de crédit",
+      "target": "die Kreditkarte",
+      "example": "Je n'ai pas d'espèces, je paie par carte de crédit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la remise",
+      "target": "der Rabatt",
+      "example": "Cette veste a une remise de vingt pour cent.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "les soldes",
+      "target": "der Ausverkauf / Schlussverkauf",
+      "example": "J'achète toujours beaucoup de vêtements pendant les soldes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "coûter",
+      "target": "kosten",
+      "example": "Combien coûte cette robe élégante ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "le prix",
+      "target": "der Preis",
+      "example": "Le prix de ces chaussures est très bas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "cher",
+      "target": "teuer",
+      "example": "Ce sac de marque est trop cher.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "bon marché",
+      "target": "billig / günstig",
+      "example": "Les vêtements de ce marché sont très bon marché.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "faire du shopping",
+      "target": "einkaufen gehen / shoppen",
+      "example": "Ma sœur adore faire du shopping le vendredi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "le sac de courses",
+      "target": "die Einkaufstasche",
+      "example": "Je porte un sac de courses en tissu.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "le chariot",
+      "target": "der Einkaufswagen",
+      "example": "Mets les choses dans le chariot.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "échanger",
+      "target": "umtauschen",
+      "example": "Je veux échanger ce tee-shirt car il ne me va pas bien.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "rendre",
+      "target": "zurückgeben",
+      "example": "Peut-on rendre les vêtements si on ne les aime pas ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "les vêtements",
+      "target": "die Kleidung",
+      "example": "Je dois acheter des vêtements pour l'été.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la vitrine",
+      "target": "das Schaufenster",
+      "example": "J'ai vu une belle robe dans la vitrine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "aller bien",
+      "target": "passen",
+      "example": "Ce pantalon te va très bien.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "trop large",
+      "target": "zu weit",
+      "example": "Cette jupe est trop large pour moi.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    }
+  ]
+}

@@ -19,17 +19,27 @@ public sealed class SetActionsService
     private readonly IDialogService _dialogs;
     private readonly BackupService _backup;
     private readonly FileImportService _fileImport;
+    private readonly ThemeSetImporter _themeSets;
     private readonly SettingsService _settings;
 
     public SetActionsService(VocabularyStore store, IFilePickerService filePicker, IDialogService dialogs,
-        BackupService backup, FileImportService fileImport, SettingsService settings)
+        BackupService backup, FileImportService fileImport, ThemeSetImporter themeSets, SettingsService settings)
     {
         _store = store;
         _filePicker = filePicker;
         _dialogs = dialogs;
         _backup = backup;
         _fileImport = fileImport;
+        _themeSets = themeSets;
         _settings = settings;
+    }
+
+    /// <summary>Themenset-Picker öffnen (Zielsprache aus UI-Sprache). True, wenn etwas importiert wurde.</summary>
+    public Task<bool> ImportThemeSetAsync()
+    {
+        var uiLang = _settings.Load().UiLanguage;
+        var target = uiLang.StartsWith("en", StringComparison.OrdinalIgnoreCase) ? "Englisch" : "Deutsch";
+        return _dialogs.ShowThemeSetPickerAsync(_themeSets, target);
     }
 
     /// <summary>Set-Editor-Dialog öffnen und neue Kartei anlegen. True, wenn erstellt.</summary>

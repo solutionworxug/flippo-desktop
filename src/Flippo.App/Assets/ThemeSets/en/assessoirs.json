@@ -1,0 +1,249 @@
+{
+  "id": "en-assessoirs",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Assessoirs",
+  "entries": [
+    {
+      "source": "watch",
+      "target": "die Uhr",
+      "example": "I forgot my watch at home.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "earring",
+      "target": "der Ohrring",
+      "example": "She wears very beautiful gold earrings.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "jewellery",
+      "target": "der Schmuck",
+      "example": "This piece of jewellery is a gift from my grandmother.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bracelet",
+      "target": "das Armband",
+      "example": "She gave me a silver bracelet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ring",
+      "target": "der Ring",
+      "example": "She wears her wedding ring on her left hand.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "necklace",
+      "target": "die Halskette",
+      "example": "The pearl necklace is very elegant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "earring",
+      "target": "der Ohrring / Ohrstecker",
+      "example": "I lost an earring at the nightclub.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "handbag",
+      "target": "die Handtasche",
+      "example": "I left my handbag in the taxi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wallet",
+      "target": "das Portemonnaie / die Brieftasche",
+      "example": "I can't find my wallet, have you seen it?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "belt",
+      "target": "der Gürtel",
+      "example": "The leather belt goes well with those trousers.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sunglasses",
+      "target": "die Sonnenbrille",
+      "example": "In summer I don't go out without my sunglasses.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "umbrella",
+      "target": "der Regenschirm",
+      "example": "Take the umbrella because it's going to rain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "scarf",
+      "target": "das Taschentuch / das Halstuch",
+      "example": "She wears a silk scarf around her neck.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "brooch",
+      "target": "die Brosche",
+      "example": "Her grandmother's brooch is made of gold.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "keyring",
+      "target": "der Schlüsselanhänger",
+      "example": "I have many keys on my keyring.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "backpack",
+      "target": "der Rucksack",
+      "example": "The backpack is more practical than the handbag.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "briefcase",
+      "target": "die Aktentasche",
+      "example": "He takes his briefcase to work.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hat",
+      "target": "der Hut",
+      "example": "The straw hat is perfect for the beach.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "scarf",
+      "target": "der Schal",
+      "example": "The wool scarf keeps me very warm in winter.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "glove",
+      "target": "der Handschuh",
+      "example": "I lost a leather glove.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "coin purse",
+      "target": "der Münzbeutel / das Portemonnaie",
+      "example": "Pay with the coin purse, I have some coins.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "travel backpack",
+      "target": "der Reiserucksack",
+      "example": "The travel backpack is perfect for the weekend.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "chain",
+      "target": "die Kette",
+      "example": "He gave her a gold chain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "safety pin",
+      "target": "die Sicherheitsnadel",
+      "example": "I'm wearing a safety pin for the costume.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "badge",
+      "target": "das Abzeichen / die Anstecknadel",
+      "example": "He wears a badge of his favourite team.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pendant",
+      "target": "der Anhänger (Schmuck)",
+      "example": "The heart-shaped pendant is very pretty.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "case",
+      "target": "das Etui / die Tasche",
+      "example": "The glasses case protects the lenses.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cap",
+      "target": "die Kappe / Schirmmütze",
+      "example": "He always wears a cap for the sun.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "suitcase",
+      "target": "der Koffer",
+      "example": "I packed the suitcase the night before the trip.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "toiletry bag",
+      "target": "die Kulturtasche",
+      "example": "Don't forget the toiletry bag with the toothbrush.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

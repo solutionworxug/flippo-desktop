@@ -1,0 +1,249 @@
+{
+  "id": "en-adjektive",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Adjektive",
+  "entries": [
+    {
+      "source": "next",
+      "target": "nächster",
+      "example": "The next train leaves at three.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "clear",
+      "target": "deutlich",
+      "example": "Please speak clearly.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "only",
+      "target": "einziger",
+      "example": "It is the only restaurant open.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "short",
+      "target": "kurz",
+      "example": "The way is very short.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "long",
+      "target": "lang",
+      "example": "The river is very long.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ready",
+      "target": "bereit",
+      "example": "Are you ready to leave?",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "there",
+      "target": "dort",
+      "example": "The market is there.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "certainly",
+      "target": "sicherlich",
+      "example": "He will certainly arrive tomorrow.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "uncomfortable",
+      "target": "unbequem",
+      "example": "This chair is very uncomfortable.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "important",
+      "target": "wichtig",
+      "example": "It is important to drink water.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "outside",
+      "target": "draußen",
+      "example": "The children are playing outside.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hard",
+      "target": "hart",
+      "example": "The bread is very hard.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "favorite",
+      "target": "lieblings...",
+      "example": "Chocolate is my favorite sweet.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tired",
+      "target": "müde",
+      "example": "I am very tired after work.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "small",
+      "target": "klein",
+      "example": "The apartment is small but nice.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "good",
+      "target": "gut",
+      "example": "This coffee is very good.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dirty",
+      "target": "schmutzig",
+      "example": "The floor is dirty.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "clean",
+      "target": "sauber",
+      "example": "The kitchen is very clean.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "low",
+      "target": "niedrig",
+      "example": "The price is quite low.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tall",
+      "target": "groß",
+      "example": "My father is very tall.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "excellent",
+      "target": "ausgezeichnet",
+      "example": "The service is excellent.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "correct",
+      "target": "korrekt",
+      "example": "Your answer is correct.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wrong",
+      "target": "falsch",
+      "example": "This information is wrong.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "perfect",
+      "target": "perfekt",
+      "example": "The weather is perfect today.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fast",
+      "target": "schnell",
+      "example": "The train is very fast.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "slow",
+      "target": "langsam",
+      "example": "Please speak more slowly.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "better",
+      "target": "besser",
+      "example": "I feel better today.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bad",
+      "target": "schlecht",
+      "example": "I feel bad today.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "new",
+      "target": "neu",
+      "example": "I have a new job.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "old",
+      "target": "alt",
+      "example": "This building is very old.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

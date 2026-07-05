@@ -1,0 +1,249 @@
+{
+  "id": "es-farben",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Farben",
+  "entries": [
+    {
+      "source": "el color",
+      "target": "die Farbe",
+      "example": "¿Cuál es tu color favorito?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rojo",
+      "target": "rot",
+      "example": "El semáforo está en rojo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "azul",
+      "target": "blau",
+      "example": "El cielo está muy azul hoy.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "verde",
+      "target": "grün",
+      "example": "La hierba es verde en primavera.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "amarillo",
+      "target": "gelb",
+      "example": "El taxi es amarillo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "negro",
+      "target": "schwarz",
+      "example": "Lleva siempre ropa negra.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "blanco",
+      "target": "weiß",
+      "example": "Las paredes de la habitación son blancas.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "marrón",
+      "target": "braun",
+      "example": "El oso pardo tiene pelo marrón.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gris",
+      "target": "grau",
+      "example": "El cielo está gris y nublado.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "naranja",
+      "target": "orange",
+      "example": "La zanahoria es de color naranja.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lila",
+      "target": "lila",
+      "example": "Le regalé un ramo de flores lilas.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rosa",
+      "target": "rosa",
+      "example": "Las rosas rosas son las más populares.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "turquesa",
+      "target": "türkis",
+      "example": "El mar Caribe es de color turquesa.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "morado",
+      "target": "violett / lila",
+      "example": "Le gustan los vestidos de color morado.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "beige",
+      "target": "beige",
+      "example": "Las paredes del salón son beige.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "oscuro",
+      "target": "dunkel",
+      "example": "El azul oscuro es un color muy elegante.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "claro",
+      "target": "hell",
+      "example": "Prefiero los colores claros en verano.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "colorido",
+      "target": "farbenfroh / bunt",
+      "example": "El mercado está lleno de ropa colorida.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dorado",
+      "target": "golden / goldfarben",
+      "example": "El trofeo es de color dorado.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "plateado",
+      "target": "silbern / silberfarben",
+      "example": "Los pendientes plateados van con todo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "brillante",
+      "target": "glänzend / leuchtend",
+      "example": "El vestido es de tela brillante.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mate",
+      "target": "matt",
+      "example": "Prefiero la pintura mate para las paredes.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "claro",
+      "target": "hell / blass",
+      "example": "Tiene el pelo castaño claro.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "oscuro",
+      "target": "dunkel",
+      "example": "Lleva un traje gris oscuro.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "de rayas",
+      "target": "gestreift",
+      "example": "La camiseta de rayas es muy marinera.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "de cuadros",
+      "target": "kariert",
+      "example": "La camisa de cuadros es muy casual.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "de lunares",
+      "target": "gepunktet",
+      "example": "El vestido de lunares es muy veraniego.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "liso",
+      "target": "einfarbig / glatt",
+      "example": "El jersey liso combina con todo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "teñir",
+      "target": "färben",
+      "example": "Se tiñe el pelo de rubio.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "combinar",
+      "target": "kombinieren",
+      "example": "Este color combina bien con el azul.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

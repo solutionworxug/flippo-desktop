@@ -1,0 +1,249 @@
+{
+  "id": "fr-verben-alltag",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Verben Alltag",
+  "entries": [
+    {
+      "source": "se lever",
+      "target": "aufstehen",
+      "example": "Je me lève à sept heures chaque matin.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se doucher",
+      "target": "sich duschen",
+      "example": "Je me douche avant le petit-déjeuner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "s'habiller",
+      "target": "sich anziehen",
+      "example": "Les enfants s'habillent seuls.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "prendre le petit-déjeuner",
+      "target": "frühstücken",
+      "example": "Je prends un café au lait et des tartines au petit-déjeuner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aller au travail",
+      "target": "zur Arbeit gehen",
+      "example": "Je vais au travail en métro.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "déjeuner",
+      "target": "zu Mittag essen",
+      "example": "Nous déjeunons à la cantine de l'entreprise.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dîner",
+      "target": "zu Abend essen",
+      "example": "Nous dînons à neuf heures en famille.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se coucher",
+      "target": "sich hinlegen / schlafen gehen",
+      "example": "Je me couche à onze heures.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dormir",
+      "target": "schlafen",
+      "example": "Je dors huit heures chaque nuit.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cuisiner",
+      "target": "kochen",
+      "example": "C'est moi qui cuisine le lundi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "acheter",
+      "target": "kaufen / einkaufen",
+      "example": "J'achète le pain à la boulangerie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nettoyer",
+      "target": "putzen / reinigen",
+      "example": "Je nettoie la maison le samedi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "laver",
+      "target": "waschen",
+      "example": "Je lave le linge le dimanche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "repasser",
+      "target": "bügeln",
+      "example": "Je déteste repasser le linge.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire la vaisselle",
+      "target": "spülen / schrubben",
+      "example": "Je fais la vaisselle après le dîner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire le lit",
+      "target": "das Bett machen",
+      "example": "Je fais le lit dès que je me lève.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "promener le chien",
+      "target": "den Hund ausführen",
+      "example": "Je promène le chien trois fois par jour.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "téléphoner",
+      "target": "anrufen",
+      "example": "Je téléphone à mes parents chaque dimanche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "regarder la télé",
+      "target": "fernsehen",
+      "example": "Je regarde la télé une heure avant de dormir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire les courses",
+      "target": "einkaufen (Lebensmittel)",
+      "example": "Je fais les courses le vendredi après-midi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "payer les factures",
+      "target": "Rechnungen bezahlen",
+      "example": "Je paie les factures au début du mois.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aller chercher les enfants",
+      "target": "die Kinder abholen",
+      "example": "Je vais chercher les enfants à l'école à trois heures.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se doucher le soir",
+      "target": "abends duschen",
+      "example": "Je préfère me doucher le soir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se reposer",
+      "target": "sich ausruhen",
+      "example": "Je me repose un peu après le repas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aller se promener",
+      "target": "spazieren gehen",
+      "example": "Nous allons nous promener après le dîner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire du sport",
+      "target": "Sport treiben",
+      "example": "Je fais du sport trois fois par semaine.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "retrouver des amis",
+      "target": "sich mit Freunden treffen",
+      "example": "J'ai retrouvé mes amis samedi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "parler avec la famille",
+      "target": "mit der Familie reden",
+      "example": "Je parle avec ma famille en visioconférence.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "consulter le portable",
+      "target": "das Handy checken",
+      "example": "Je consulte le portable dès que je me réveille.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "éteindre la lumière",
+      "target": "das Licht ausschalten",
+      "example": "Éteins la lumière en sortant.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

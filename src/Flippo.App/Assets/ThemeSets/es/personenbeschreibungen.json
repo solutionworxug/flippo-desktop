@@ -1,0 +1,249 @@
+{
+  "id": "es-personenbeschreibungen",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Personenbeschreibungen",
+  "entries": [
+    {
+      "source": "alto",
+      "target": "groß (Körpergröße)",
+      "example": "Mi hermano es muy alto — mide 1,90 m.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bajo",
+      "target": "klein (Körpergröße)",
+      "example": "Es bastante bajo pero muy ágil.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "delgado",
+      "target": "dünn / schlank",
+      "example": "Ha adelgazado — está muy delgado.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gordo",
+      "target": "dick / übergewichtig",
+      "example": "El gato está gordo de tanto comer.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "guapo",
+      "target": "hübsch / gutaussehend",
+      "example": "Su novio es muy guapo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "feo",
+      "target": "hässlich",
+      "example": "No es feo — simplemente es diferente.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "joven",
+      "target": "jung",
+      "example": "Parece muy joven para su edad.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mayor",
+      "target": "älter / erwachsen",
+      "example": "Su hermano mayor tiene treinta años.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "anciano",
+      "target": "sehr alt / bejahrt",
+      "example": "El anciano camina con un bastón.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rubio",
+      "target": "blond",
+      "example": "Tiene el pelo rubio y los ojos azules.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "moreno",
+      "target": "dunkelhaarig / brünett",
+      "example": "Es moreno de ojos oscuros.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pelirrojo",
+      "target": "rothaarig",
+      "example": "Las personas pelirrojas tienen piel muy clara.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "calvo",
+      "target": "kahl / glatzkopfig",
+      "example": "Mi tío es calvo desde los treinta años.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fuerte",
+      "target": "stark / kräftig",
+      "example": "Es muy fuerte — va al gimnasio cada día.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "débil",
+      "target": "schwach",
+      "example": "Se siente débil después de la enfermedad.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "deportista",
+      "target": "sportlich",
+      "example": "Es muy deportista — practica tres deportes.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bonito",
+      "target": "schön / hübsch",
+      "example": "Tiene una sonrisa muy bonita.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "elegante",
+      "target": "elegant",
+      "example": "Va siempre muy elegante a la oficina.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sencillo",
+      "target": "schlicht / einfach",
+      "example": "Viste de forma muy sencilla.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "famoso",
+      "target": "berühmt",
+      "example": "Es un actor muy famoso en todo el mundo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "adinerado",
+      "target": "vermögend / wohlhabend",
+      "example": "Vive en un barrio muy adinerado.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pobre",
+      "target": "arm",
+      "example": "La familia es pobre pero muy unida.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "casado",
+      "target": "verheiratet",
+      "example": "Está casado desde hace diez años.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "soltero",
+      "target": "ledig / single",
+      "example": "Sigue soltero aunque tiene treinta y cinco años.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "divorciado",
+      "target": "geschieden",
+      "example": "Se divorció el año pasado.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "separado",
+      "target": "getrennt (lebend)",
+      "example": "Están separados pero no divorciados.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "estúpido",
+      "target": "dumm",
+      "example": "Fue una decisión muy estúpida.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "de mediana edad",
+      "target": "mittleren Alters",
+      "example": "Es una mujer de mediana edad muy activa.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aspecto",
+      "target": "das Aussehen / der Aspekt",
+      "example": "Cuida mucho su aspecto personal.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la complexión",
+      "target": "der Körperbau",
+      "example": "Tiene una complexión atlética.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

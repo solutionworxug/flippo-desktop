@@ -1,0 +1,249 @@
+{
+  "id": "de-alltag-routine",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Alltag Routine",
+  "entries": [
+    {
+      "source": "aufstehen",
+      "target": "to get up",
+      "example": "Ich stehe jeden Morgen um sieben auf.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aufwachen",
+      "target": "to wake up",
+      "example": "Ich wache früh auf, bleibe aber im Bett.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich duschen",
+      "target": "to shower",
+      "example": "Ich dusche mich morgens mit kaltem Wasser.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "frühstücken",
+      "target": "to have breakfast",
+      "example": "Was möchtest du heute frühstücken?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Frühstück",
+      "target": "breakfast",
+      "example": "Das Frühstück ist die wichtigste Mahlzeit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Zähne putzen",
+      "target": "to brush your teeth",
+      "example": "Du solltest nach dem Essen die Zähne putzen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich anziehen",
+      "target": "to get dressed",
+      "example": "Ich ziehe mich schnell an, weil ich spät dran bin.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Haus verlassen",
+      "target": "to leave the house",
+      "example": "Ich verlasse das Haus um acht.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zur Arbeit gehen",
+      "target": "to go to work",
+      "example": "Ich gehe mit dem Bus zur Arbeit.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "einkaufen (Lebensmittel)",
+      "target": "to do the shopping",
+      "example": "Samstags gehe ich im Supermarkt einkaufen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kochen",
+      "target": "to cook",
+      "example": "Ich koche gern für meine Familie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Mittagessen",
+      "target": "lunch",
+      "example": "Ich nehme mir das Mittagessen mit ins Büro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Abendessen",
+      "target": "dinner",
+      "example": "Das Abendessen ist fertig, kommt an den Tisch!",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ins Bett gehen",
+      "target": "to go to bed",
+      "example": "Wenn ich müde bin, gehe ich früh ins Bett.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schlafen",
+      "target": "to sleep",
+      "example": "Ich muss mindestens acht Stunden schlafen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "den Abfall wegbringen",
+      "target": "to take out the rubbish",
+      "example": "Heute Abend musst du den Abfall wegbringen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Geschirr spülen",
+      "target": "to do the dishes",
+      "example": "Nach dem Essen spüle ich immer das Geschirr.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Waschmaschine einschalten",
+      "target": "to put on the washing machine",
+      "example": "Ich muss die Waschmaschine einschalten.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aufräumen",
+      "target": "to tidy up",
+      "example": "Am Wochenende muss ich mein Zimmer aufräumen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Wohnung putzen",
+      "target": "to clean the flat",
+      "example": "Freitags putzen wir zusammen die Wohnung.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ausruhen / sich erholen",
+      "target": "to rest",
+      "example": "Nach der Arbeit will ich mich ausruhen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fernsehen",
+      "target": "to watch television",
+      "example": "Vor dem Schlafen sehen wir noch etwas fern.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Freizeit",
+      "target": "free time",
+      "example": "In meiner Freizeit lese ich gern Bücher.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Alltag",
+      "target": "everyday life",
+      "example": "Der Alltag kann manchmal ganz schön stressig sein.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Gewohnheit / die Routine",
+      "target": "habit / routine",
+      "example": "Eine gute Morgenroutine ist wichtig, sagt die Gewohnheit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zu Hause bleiben",
+      "target": "to stay at home",
+      "example": "Bei schlechtem Wetter bleibe ich zu Hause.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Freunde treffen",
+      "target": "to meet friends",
+      "example": "Ich habe mich mit Freunden auf einen Kaffee getroffen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "einen Spaziergang machen",
+      "target": "to go for a walk",
+      "example": "Jeden Nachmittag machen wir einen Spaziergang im Park.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich beeilen",
+      "target": "to hurry",
+      "example": "Beeil dich, der Zug fährt gleich!",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zu spät kommen",
+      "target": "to arrive late",
+      "example": "Tut mir leid, dass ich zu spät komme.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

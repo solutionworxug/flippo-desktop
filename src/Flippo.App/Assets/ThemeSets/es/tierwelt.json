@@ -1,0 +1,249 @@
+{
+  "id": "es-tierwelt",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Tierwelt",
+  "entries": [
+    {
+      "source": "la mariposa",
+      "target": "der Schmetterling",
+      "example": "La mariposa vuela sobre las flores.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el animal",
+      "target": "das Tier",
+      "example": "El zoo tiene muchos animales exóticos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el perro",
+      "target": "der Hund",
+      "example": "El perro es el mejor amigo del hombre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el gato",
+      "target": "die Katze",
+      "example": "El gato duerme todo el día.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pájaro",
+      "target": "der Vogel",
+      "example": "El pájaro canta en el árbol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pez",
+      "target": "der Fisch",
+      "example": "El pez nada en el acuario.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el caballo",
+      "target": "das Pferd",
+      "example": "El caballo corre muy rápido.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la vaca",
+      "target": "die Kuh",
+      "example": "La vaca da leche fresca cada día.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cerdo",
+      "target": "das Schwein",
+      "example": "El cerdo se usa para hacer jamón.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la oveja",
+      "target": "das Schaf",
+      "example": "Las ovejas pastan en el campo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gallina",
+      "target": "das Huhn",
+      "example": "La gallina pone huevos cada día.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el conejo",
+      "target": "das Kaninchen",
+      "example": "Los conejos son muy populares como mascotas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el ratón",
+      "target": "die Maus",
+      "example": "El ratón entró en la cocina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el elefante",
+      "target": "der Elefant",
+      "example": "El elefante es el animal terrestre más grande.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el león",
+      "target": "der Löwe",
+      "example": "El león es el rey de la selva.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tigre",
+      "target": "der Tiger",
+      "example": "El tigre es un felino muy poderoso.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el oso",
+      "target": "der Bär",
+      "example": "El oso pardo vive en los Pirineos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el lobo",
+      "target": "der Wolf",
+      "example": "El lobo aúlla por la noche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la serpiente",
+      "target": "die Schlange",
+      "example": "La serpiente tiene la piel escamosa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la araña",
+      "target": "die Spinne",
+      "example": "La araña teje su tela con mucha habilidad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la abeja",
+      "target": "die Biene",
+      "example": "La abeja produce miel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el abejorro",
+      "target": "die Hummel",
+      "example": "El abejorro vuela de flor en flor.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pato",
+      "target": "die Ente",
+      "example": "Los patos nadan en el lago.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el loro",
+      "target": "der Papagei",
+      "example": "El loro repite todo lo que oye.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tortuga",
+      "target": "die Schildkröte",
+      "example": "La tortuga camina muy despacio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el delfín",
+      "target": "der Delfin",
+      "example": "Los delfines son muy inteligentes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mono",
+      "target": "der Affe",
+      "example": "Los monos son muy juguetones.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mosca",
+      "target": "die Fliege",
+      "example": "La mosca vuela alrededor de la fruta.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el asno",
+      "target": "der Esel",
+      "example": "El asno lleva la carga por el camino.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mascota",
+      "target": "das Haustier",
+      "example": "Tenemos una mascota en casa — un gato.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

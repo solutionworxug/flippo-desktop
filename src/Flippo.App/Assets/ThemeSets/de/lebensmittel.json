@@ -1,0 +1,249 @@
+{
+  "id": "de-lebensmittel",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Lebensmittel",
+  "entries": [
+    {
+      "source": "die Allergie",
+      "target": "allergy",
+      "example": "Ich habe im Frühling eine Allergie gegen Pollen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Frühstück",
+      "target": "breakfast",
+      "example": "Zum Frühstück trinke ich einen Milchkaffee.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Essig",
+      "target": "vinegar",
+      "example": "Gib etwas Essig an den Salat.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Pfeffer",
+      "target": "pepper",
+      "example": "Kannst du mir den Pfeffer reichen?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Fleisch",
+      "target": "meat",
+      "example": "Montags esse ich kein Fleisch.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Torte",
+      "target": "cake",
+      "example": "Wir haben eine Torte zum Geburtstag gekauft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Menü",
+      "target": "menu",
+      "example": "Was steht heute auf dem Menü?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Eis",
+      "target": "ice cream",
+      "example": "Im Sommer esse ich viel Eis.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Durst",
+      "target": "thirst",
+      "example": "Nach dem Laufen habe ich großen Durst.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Hunger",
+      "target": "hunger",
+      "example": "Nach dem Sport habe ich großen Hunger.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Nachspeise",
+      "target": "dessert",
+      "example": "Als Nachspeise gab es einen Pudding.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Ei",
+      "target": "egg",
+      "example": "Ich brauche drei Eier für das Omelett.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Reis",
+      "target": "rice",
+      "example": "Reis mit Milch ist meine Lieblingsspeise.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Hühnchen",
+      "target": "chicken",
+      "example": "Gebratenes Hühnchen schmeckt herrlich.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Schinken",
+      "target": "ham",
+      "example": "Spanischer Schinken ist sehr berühmt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Brot",
+      "target": "bread",
+      "example": "Kauf ein Brot beim Bäcker.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Essen",
+      "target": "food",
+      "example": "Das Essen schmeckt heute besonders gut.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Zucker",
+      "target": "sugar",
+      "example": "Wie viel Zucker möchtest du im Kaffee?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Lebensmittel",
+      "target": "food / groceries",
+      "example": "Brot ist ein wichtiges Lebensmittel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Knoblauch",
+      "target": "garlic",
+      "example": "Knoblauch ist wichtig in der spanischen Küche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Wasser",
+      "target": "water",
+      "example": "Ich trinke acht Gläser Wasser am Tag.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Öl",
+      "target": "oil",
+      "example": "Ich koche mit Olivenöl.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Zwischenmahlzeit",
+      "target": "snack",
+      "example": "Die Kinder essen um fünf eine Zwischenmahlzeit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Abendessen",
+      "target": "dinner",
+      "example": "Das Abendessen ist um neun fertig.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Tapas",
+      "target": "tapas",
+      "example": "Wir essen Tapas an der Bar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Salz",
+      "target": "salt",
+      "example": "Diese Suppe braucht mehr Salz.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "essen",
+      "target": "to eat",
+      "example": "Wann isst du normalerweise zu Mittag?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lecker",
+      "target": "delicious",
+      "example": "Diese Paella ist sehr lecker.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gebraten/geröstet",
+      "target": "roasted",
+      "example": "Das gebratene Hühnchen riecht großartig.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "frittiert",
+      "target": "fried",
+      "example": "Frittierte Eier sind leicht zu machen.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

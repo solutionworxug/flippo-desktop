@@ -1,0 +1,257 @@
+{
+  "id": "en-wohnungseinrichtung",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Wohnungseinrichtung",
+  "entries": [
+    {
+      "source": "lift",
+      "target": "der Aufzug",
+      "example": "The lift is out of order, you have to walk up.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ceiling",
+      "target": "die Zimmerdecke",
+      "example": "The living room ceiling has a crack.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pillow",
+      "target": "das Kopfkissen",
+      "example": "I need a softer pillow.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bed",
+      "target": "das Bett",
+      "example": "The bed is very comfortable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sofa",
+      "target": "das Sofa",
+      "example": "I sat on the sofa to watch television.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "chair",
+      "target": "der Stuhl",
+      "example": "There are four chairs around the table.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "table",
+      "target": "der Tisch",
+      "example": "We have dinner together at the table.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wardrobe",
+      "target": "der Schrank",
+      "example": "The clothes are in the wardrobe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lamp",
+      "target": "die Lampe",
+      "example": "The living room lamp gives a very warm light.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "shelf",
+      "target": "das Regal",
+      "example": "The books are arranged on the shelf.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mirror",
+      "target": "der Spiegel",
+      "example": "I look in the mirror before going out.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "window",
+      "target": "das Fenster",
+      "example": "Open the window, we need fresh air.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "door",
+      "target": "die Tür",
+      "example": "Close the door when you leave.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "carpet",
+      "target": "der Teppich",
+      "example": "The living room carpet is very soft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "blanket",
+      "target": "die Wohndecke",
+      "example": "I cover myself with the blanket because I'm cold.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "picture",
+      "target": "das Bild",
+      "example": "The picture on the wall is by a local artist.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "floor",
+      "target": "der Boden",
+      "example": "The kitchen floor is tiled.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wall",
+      "target": "die Wand",
+      "example": "We painted the wall white.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kitchen",
+      "target": "die Küche",
+      "example": "The kitchen has just been renovated.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bathroom",
+      "target": "das Bad",
+      "example": "The bathroom has a shower and a bathtub.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bedroom",
+      "target": "das Schlafzimmer",
+      "example": "The bedroom has two windows.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "living room",
+      "target": "das Wohnzimmer",
+      "example": "The living room is the family's favourite place.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fridge",
+      "target": "der Kühlschrank",
+      "example": "The fridge is full of food.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "microwave",
+      "target": "die Mikrowelle",
+      "example": "I heated the soup in the microwave.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dishwasher",
+      "target": "die Spülmaschine",
+      "example": "The dishwasher is broken.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "washing machine",
+      "target": "die Waschmaschine",
+      "example": "I do the washing on Saturdays.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bedside table",
+      "target": "der Nachttisch",
+      "example": "The book is on the bedside table.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "desk",
+      "target": "der Schreibtisch",
+      "example": "I work at the desk in my room.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "shower",
+      "target": "die Dusche",
+      "example": "I take a shower every morning.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "armchair",
+      "target": "der Sessel",
+      "example": "My father reads the newspaper in his armchair.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "space / room",
+      "target": "der Raum / der Platz",
+      "example": "The flat is small but has good space.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

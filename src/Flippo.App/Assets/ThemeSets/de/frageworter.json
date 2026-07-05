@@ -1,0 +1,249 @@
+{
+  "id": "de-frageworter",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Fragewörter",
+  "entries": [
+    {
+      "source": "was?",
+      "target": "what?",
+      "example": "Was möchtest du essen?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wer?",
+      "target": "who?",
+      "example": "Wer klopft an der Tür?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wo?",
+      "target": "where?",
+      "example": "Wo ist die U-Bahn-Station?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wann?",
+      "target": "when?",
+      "example": "Wann kommt der Zug an?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wie?",
+      "target": "how?",
+      "example": "Wie heißt dein Freund?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "warum?",
+      "target": "why?",
+      "example": "Warum bist du zu spät?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wie viel?",
+      "target": "how much?",
+      "example": "Wie viel kostet dieses Buch?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wie viele?",
+      "target": "how many?",
+      "example": "Wie viele Schüler sind in der Klasse?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "welche(r/s)?",
+      "target": "which?",
+      "example": "Welche Farbe magst du am liebsten?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wofür / wozu?",
+      "target": "what for?",
+      "example": "Wofür braucht man dieses Werkzeug?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "seit wann?",
+      "target": "since when?",
+      "example": "Seit wann wohnst du in Spanien?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bis wann?",
+      "target": "until when?",
+      "example": "Bis wann bleibst du hier?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "um wie viel Uhr?",
+      "target": "at what time?",
+      "example": "Um wie viel Uhr beginnt das Treffen?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "woher?",
+      "target": "where from?",
+      "example": "Woher kommst du eigentlich?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wohin?",
+      "target": "where to?",
+      "example": "Wohin fährst du diesen Sommer?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mit wem?",
+      "target": "with whom?",
+      "example": "Mit wem warst du im Kino?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wie lange?",
+      "target": "how long?",
+      "example": "Wie lange dauert die Fahrt dorthin?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "weil",
+      "target": "because",
+      "example": "Ich bin nicht gekommen, weil ich krank war.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "als / wenn",
+      "target": "when",
+      "example": "Ich rufe dich an, wenn ich ankomme.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wie / als",
+      "target": "as / like",
+      "example": "Er spricht wie ein Experte.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wenn / falls",
+      "target": "if",
+      "example": "Wenn es regnet, gehen wir nicht raus.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Frage",
+      "target": "question",
+      "example": "Sie hat eine Frage an den Lehrer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Antwort",
+      "target": "answer",
+      "example": "Die richtige Antwort ist B.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Sprache",
+      "target": "language",
+      "example": "Wie viele Sprachen sprichst du?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Wort",
+      "target": "word",
+      "example": "Dieses Wort habe ich nicht verstanden.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Satz",
+      "target": "sentence",
+      "example": "Schreib einen Satz mit diesem Wort.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bedeuten",
+      "target": "to mean",
+      "example": "Was bedeutet dieses Wort?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fragen",
+      "target": "to ask",
+      "example": "Hab keine Angst zu fragen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "antworten",
+      "target": "to answer",
+      "example": "Bitte antworte auf die Frage.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wiederholen",
+      "target": "to repeat",
+      "example": "Kannst du das langsamer wiederholen?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

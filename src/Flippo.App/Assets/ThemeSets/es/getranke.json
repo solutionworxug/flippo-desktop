@@ -1,0 +1,249 @@
+{
+  "id": "es-getranke",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Getränke",
+  "entries": [
+    {
+      "source": "el agua",
+      "target": "das Wasser",
+      "example": "Bebo ocho vasos de agua al día.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la leche",
+      "target": "die Milch",
+      "example": "El café con leche es el desayuno típico español.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el zumo",
+      "target": "der Saft",
+      "example": "Exprimo naranjas para hacer zumo fresco.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el café",
+      "target": "der Kaffee",
+      "example": "Tomo un café con leche por la mañana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el té",
+      "target": "der Tee",
+      "example": "Por la tarde tomo una taza de té.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cerveza",
+      "target": "das Bier",
+      "example": "Una caña de cerveza en el bar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vino",
+      "target": "der Wein",
+      "example": "El vino tinto va bien con la carne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la sangría",
+      "target": "die Sangria",
+      "example": "La sangría es una bebida típica española.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el refresco",
+      "target": "das Erfrischungsgetränk / die Limonade",
+      "example": "Los niños piden un refresco.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cola",
+      "target": "die Cola",
+      "example": "¿Me pones una cola con limón?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la naranjada",
+      "target": "die Orangenlimonade",
+      "example": "La naranjada está muy fresca.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la limonada",
+      "target": "die Limonade",
+      "example": "Preparo limonada casera con limones frescos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cóctel",
+      "target": "der Cocktail",
+      "example": "Pidió un cóctel sin alcohol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el champán",
+      "target": "der Sekt / Champagner",
+      "example": "Brindamos con champán en Año Nuevo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el batido",
+      "target": "der Milchshake / Smoothie",
+      "example": "Me pedí un batido de fresa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la infusión",
+      "target": "der Kräutertee",
+      "example": "Tomo una infusión de manzanilla para el estómago.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el chocolate caliente",
+      "target": "der heiße Kakao / die heiße Schokolade",
+      "example": "En invierno tomo chocolate caliente.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el zumo de naranja",
+      "target": "der Orangensaft",
+      "example": "El zumo de naranja natural es delicioso.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el agua con gas",
+      "target": "das Sprudelwasser",
+      "example": "Prefiero el agua con gas a la del grifo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el agua sin gas",
+      "target": "das stille Wasser",
+      "example": "¿Con gas o sin gas?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vino blanco",
+      "target": "der Weißwein",
+      "example": "El vino blanco va bien con el pescado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vino tinto",
+      "target": "der Rotwein",
+      "example": "¿Te apetece una copa de vino tinto?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cava",
+      "target": "der Sekt (spanisch)",
+      "example": "El cava es el champán español.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la copa",
+      "target": "das Glas (Wein) / die Tasse",
+      "example": "Me tomé una copa de vino.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "beber",
+      "target": "trinken",
+      "example": "¿Qué quieres beber?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tomar",
+      "target": "nehmen / trinken / essen",
+      "example": "Tomo un café con leche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tener sed",
+      "target": "Durst haben",
+      "example": "Tengo mucha sed después de correr.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bebida",
+      "target": "das Getränk",
+      "example": "¿Qué bebida quieres con la comida?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hielo",
+      "target": "das Eis (Eiswürfel)",
+      "example": "¿Quieres el refresco con hielo?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la barra",
+      "target": "die Theke / der Tresen",
+      "example": "Desayunamos en la barra del bar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

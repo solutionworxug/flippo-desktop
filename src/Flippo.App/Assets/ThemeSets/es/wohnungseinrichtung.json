@@ -1,0 +1,257 @@
+{
+  "id": "es-wohnungseinrichtung",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Wohnungseinrichtung",
+  "entries": [
+    {
+      "source": "el ascensor",
+      "target": "der Aufzug",
+      "example": "El ascensor está averiado — hay que subir a pie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el techo",
+      "target": "die Zimmerdecke",
+      "example": "El techo del salón tiene una grieta.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la almohada",
+      "target": "das Kopfkissen",
+      "example": "Necesito una almohada más blanda.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cama",
+      "target": "das Bett",
+      "example": "La cama es muy cómoda.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sofá",
+      "target": "das Sofa",
+      "example": "Me senté en el sofá a ver la televisión.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la silla",
+      "target": "der Stuhl",
+      "example": "Hay cuatro sillas alrededor de la mesa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mesa",
+      "target": "der Tisch",
+      "example": "Cenamos todos juntos en la mesa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el armario",
+      "target": "der Schrank",
+      "example": "La ropa está en el armario.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la lámpara",
+      "target": "die Lampe",
+      "example": "La lámpara del salón da una luz muy cálida.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la estantería",
+      "target": "das Regal",
+      "example": "Los libros están ordenados en la estantería.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el espejo",
+      "target": "der Spiegel",
+      "example": "Me miro en el espejo antes de salir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la ventana",
+      "target": "das Fenster",
+      "example": "Abre la ventana — necesitamos aire fresco.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la puerta",
+      "target": "die Tür",
+      "example": "Cierra la puerta al salir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la alfombra",
+      "target": "der Teppich",
+      "example": "La alfombra del salón es muy suave.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la manta",
+      "target": "die Wohndecke",
+      "example": "Me tapo con la manta porque tengo frío.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cuadro",
+      "target": "das Bild",
+      "example": "El cuadro en la pared es de un artista local.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el suelo",
+      "target": "der Boden",
+      "example": "El suelo de la cocina es de cerámica.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pared",
+      "target": "die Wand",
+      "example": "Pintamos la pared de blanco.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cocina",
+      "target": "die Küche",
+      "example": "La cocina está recién renovada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el baño",
+      "target": "das Bad",
+      "example": "El baño tiene ducha y bañera.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el dormitorio",
+      "target": "das Schlafzimmer",
+      "example": "El dormitorio tiene dos ventanas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el salón",
+      "target": "das Wohnzimmer",
+      "example": "El salón es el lugar favorito de la familia.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nevera",
+      "target": "der Kühlschrank",
+      "example": "La nevera está llena de comida.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el microondas",
+      "target": "die Mikrowelle",
+      "example": "Calenté la sopa en el microondas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el lavavajillas",
+      "target": "die Spülmaschine",
+      "example": "El lavavajillas está roto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la lavadora",
+      "target": "die Waschmaschine",
+      "example": "Pongo la lavadora los sábados.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mesilla",
+      "target": "der Nachttisch",
+      "example": "El libro está en la mesilla de noche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el escritorio",
+      "target": "der Schreibtisch",
+      "example": "Trabajo en el escritorio de mi habitación.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la ducha",
+      "target": "die Dusche",
+      "example": "Me ducho cada mañana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sillón",
+      "target": "der Sessel",
+      "example": "Mi padre lee el periódico en su sillón.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el espacio",
+      "target": "der Raum / der Platz",
+      "example": "El piso es pequeño pero tiene buen espacio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

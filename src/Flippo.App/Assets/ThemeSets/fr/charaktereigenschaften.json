@@ -1,0 +1,249 @@
+{
+  "id": "fr-charaktereigenschaften",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Charaktereigenschaften",
+  "entries": [
+    {
+      "source": "admissible",
+      "target": "zulässig",
+      "example": "Son comportement n'est pas admissible.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "calme",
+      "target": "ruhig",
+      "example": "L'enfant est très calme.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "honnête",
+      "target": "ehrlich",
+      "example": "C'est une personne très honnête.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "impatient",
+      "target": "ungeduldig",
+      "example": "Mon frère est très impatient.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "timide",
+      "target": "schüchtern",
+      "example": "Enfant, il était très timide.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ouvert",
+      "target": "kontaktfreudig, offen",
+      "example": "Mon amie est très ouverte et sympathique.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "curieux",
+      "target": "neugierig",
+      "example": "Les enfants sont très curieux.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "intelligent",
+      "target": "intelligent",
+      "example": "C'est une élève très intelligente.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "séduisant",
+      "target": "anziehend",
+      "example": "L'acteur est très séduisant.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sympathique",
+      "target": "sympathisch",
+      "example": "Le professeur est très sympathique.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "antipathique",
+      "target": "unsympathisch",
+      "example": "Le voisin est assez antipathique.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gentil",
+      "target": "nett",
+      "example": "La réceptionniste a été très gentille.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "agréable",
+      "target": "angenehm",
+      "example": "Nous avons eu une conversation très agréable.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "joyeux",
+      "target": "fröhlich",
+      "example": "Elle est toujours joyeuse et souriante.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sérieux",
+      "target": "ernst",
+      "example": "Mon chef est très sérieux au travail.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "drôle",
+      "target": "lustig / witzig",
+      "example": "Mon ami est très drôle.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "travailleur",
+      "target": "fleißig",
+      "example": "C'est l'élève la plus travailleuse de la classe.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "paresseux",
+      "target": "faul",
+      "example": "Ne sois pas si paresseux et aide-moi.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "généreux",
+      "target": "großzügig",
+      "example": "Il est toujours très généreux avec ses amis.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "égoïste",
+      "target": "egoistisch",
+      "example": "Ne sois pas égoïste, partage avec les autres.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "courageux",
+      "target": "mutig",
+      "example": "Le pompier est très courageux.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "créatif",
+      "target": "kreativ",
+      "example": "Les enfants sont très créatifs.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "patient",
+      "target": "geduldig",
+      "example": "Il faut être patient avec les enfants.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "responsable",
+      "target": "verantwortungsbewusst",
+      "example": "C'est une personne très responsable.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "poli",
+      "target": "höflich",
+      "example": "Il dit toujours « merci », il est très poli.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "impoli",
+      "target": "unhöflich",
+      "example": "C'est très impoli d'interrompre les autres.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "optimiste",
+      "target": "optimistisch",
+      "example": "Il voit toujours le bon côté, il est très optimiste.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pessimiste",
+      "target": "pessimistisch",
+      "example": "Il attend toujours le pire, il est très pessimiste.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "silencieux",
+      "target": "ruhig / schweigsam",
+      "example": "Il est très silencieux et parle peu.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bavard",
+      "target": "redselig",
+      "example": "Ma grand-mère est très bavarde.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

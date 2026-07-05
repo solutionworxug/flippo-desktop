@@ -1,0 +1,249 @@
+{
+  "id": "de-verben-alltag",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Verben Alltag",
+  "entries": [
+    {
+      "source": "aufstehen",
+      "target": "to get up",
+      "example": "Ich stehe jeden Morgen um sieben auf.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich duschen",
+      "target": "to shower",
+      "example": "Ich dusche mich vor dem Frühstück.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich anziehen",
+      "target": "to get dressed",
+      "example": "Die Kinder ziehen sich allein an.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "frühstücken",
+      "target": "to have breakfast",
+      "example": "Wir frühstücken zusammen in der Küche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zur Arbeit gehen",
+      "target": "to go to work",
+      "example": "Ich gehe mit der U-Bahn zur Arbeit.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zu Mittag essen",
+      "target": "to have lunch",
+      "example": "Wir essen in der Kantine zu Mittag.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zu Abend essen",
+      "target": "to have dinner",
+      "example": "Wir essen um neun mit der Familie zu Abend.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich hinlegen / schlafen gehen",
+      "target": "to go to bed",
+      "example": "Ich lege mich um elf hin.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schlafen",
+      "target": "to sleep",
+      "example": "Ich schlafe jede Nacht acht Stunden.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kochen",
+      "target": "to cook",
+      "example": "Am Montag koche ich für alle.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kaufen / einkaufen",
+      "target": "to buy",
+      "example": "Ich kaufe Brot beim Bäcker.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "putzen / reinigen",
+      "target": "to clean",
+      "example": "Samstags putze ich die ganze Wohnung.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "waschen",
+      "target": "to wash",
+      "example": "Sonntags wasche ich die Kleidung.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bügeln",
+      "target": "to iron",
+      "example": "Ich hasse es, Hemden zu bügeln.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "spülen / schrubben",
+      "target": "to do the dishes",
+      "example": "Nach dem Essen spüle ich das Geschirr.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Bett machen",
+      "target": "to make the bed",
+      "example": "Ich mache das Bett gleich nach dem Aufstehen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "den Hund ausführen",
+      "target": "to walk the dog",
+      "example": "Ich führe den Hund dreimal am Tag aus.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "anrufen",
+      "target": "to phone",
+      "example": "Ich rufe meine Eltern jeden Sonntag an.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fernsehen",
+      "target": "to watch TV",
+      "example": "Abends sehe ich eine Stunde fern.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "einkaufen (Lebensmittel)",
+      "target": "to do the shopping",
+      "example": "Freitags gehe ich einkaufen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Rechnungen bezahlen",
+      "target": "to pay the bills",
+      "example": "Anfang des Monats bezahle ich die Rechnungen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kinder abholen",
+      "target": "to pick up the children",
+      "example": "Ich hole die Kinder um drei von der Schule ab.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "abends duschen",
+      "target": "to shower in the evening",
+      "example": "Ich dusche lieber abends.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich ausruhen",
+      "target": "to rest",
+      "example": "Nach dem Mittagessen ruhe ich mich kurz aus.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "spazieren gehen",
+      "target": "to go for a walk",
+      "example": "Wir gehen nach dem Essen spazieren.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Sport treiben",
+      "target": "to do sport",
+      "example": "Ich treibe dreimal pro Woche Sport.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich mit Freunden treffen",
+      "target": "to meet friends",
+      "example": "Am Samstag treffe ich mich mit Freunden.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mit der Familie reden",
+      "target": "to talk with the family",
+      "example": "Ich rede per Videoanruf mit der Familie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Handy checken",
+      "target": "to check the phone",
+      "example": "Ich checke das Handy gleich nach dem Aufwachen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Licht ausschalten",
+      "target": "to turn off the light",
+      "example": "Schalte das Licht aus, wenn du gehst.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

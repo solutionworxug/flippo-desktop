@@ -1,0 +1,249 @@
+{
+  "id": "fren-telefon-und-internet",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Telefon und Internet",
+  "entries": [
+    {
+      "source": "le téléphone",
+      "target": "telephone",
+      "example": "Je t'appelle au téléphone plus tard.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le portable",
+      "target": "mobile phone",
+      "example": "J'ai oublié le portable à la maison.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "appeler",
+      "target": "to call",
+      "example": "Je t'appelle quand j'arrive à l'aéroport.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le message / le SMS",
+      "target": "message / text message",
+      "example": "Je t'envoie un message quand je pars.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le courriel",
+      "target": "email",
+      "example": "Envoie-moi le document par courriel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "internet",
+      "target": "internet",
+      "example": "Je n'ai pas de connexion internet dans ce café.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le mot de passe",
+      "target": "password",
+      "example": "J'ai oublié le mot de passe de ma messagerie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'application",
+      "target": "app",
+      "example": "J'ai téléchargé une application pour apprendre l'espagnol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le réseau",
+      "target": "network",
+      "example": "Quel est le mot de passe du réseau wifi ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "recharger",
+      "target": "to charge",
+      "example": "Je dois recharger le portable, il n'a plus de batterie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la batterie",
+      "target": "battery",
+      "example": "La batterie du portable dure peu.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'ordinateur",
+      "target": "computer",
+      "example": "Je travaille toute la journée avec l'ordinateur.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'ordinateur portable",
+      "target": "laptop",
+      "example": "J'emporte l'ordinateur portable au travail.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'écran",
+      "target": "screen",
+      "example": "L'écran du portable s'est cassé.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le clavier",
+      "target": "keyboard",
+      "example": "Le clavier sans fil est très pratique.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la souris",
+      "target": "mouse",
+      "example": "J'ai perdu la souris de l'ordinateur.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "télécharger",
+      "target": "to download",
+      "example": "J'ai téléchargé le film pour le voir sans internet.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "téléverser",
+      "target": "to upload",
+      "example": "J'ai téléversé les photos dans le cloud.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cloud",
+      "target": "cloud",
+      "example": "Je garde tous mes documents dans le cloud.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les réseaux sociaux",
+      "target": "social media",
+      "example": "Je passe trop de temps sur les réseaux sociaux.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le profil",
+      "target": "profile",
+      "example": "J'ai mis à jour mon profil sur le réseau social.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la photo",
+      "target": "photo",
+      "example": "Il a publié une photo de ses vacances.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la vidéo",
+      "target": "video",
+      "example": "J'ai vu une vidéo très drôle sur internet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "chercher",
+      "target": "to search",
+      "example": "Cherche l'information sur internet.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le site web",
+      "target": "website",
+      "example": "Le site web de l'entreprise est très bien fait.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le navigateur",
+      "target": "browser",
+      "example": "Utilise le navigateur pour chercher des informations.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le virus",
+      "target": "virus",
+      "example": "L'ordinateur a un virus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'imprimante",
+      "target": "printer",
+      "example": "L'imprimante ne fonctionne pas, plus d'encre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le casque / les écouteurs",
+      "target": "headphones",
+      "example": "J'utilise les écouteurs pour les visioconférences.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'appel vidéo",
+      "target": "video call",
+      "example": "Nous faisons un appel vidéo avec les grands-parents le dimanche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "fren-familie-und-freunde",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Familie und Freunde",
+  "entries": [
+    {
+      "source": "la famille",
+      "target": "family",
+      "example": "Toute la famille se réunit à Noël.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'amitié",
+      "target": "friendship",
+      "example": "La vraie amitié dure pour toujours.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le père",
+      "target": "father",
+      "example": "Mon père travaille dans un bureau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mère",
+      "target": "mother",
+      "example": "Ma mère cuisine très bien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les parents",
+      "target": "parents",
+      "example": "Mes parents vivent dans le sud.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le fils",
+      "target": "son",
+      "example": "Son fils aîné a vingt ans.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fille",
+      "target": "daughter",
+      "example": "La fille cadette étudie la médecine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le frère",
+      "target": "brother",
+      "example": "Mon frère habite à Berlin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la sœur",
+      "target": "sister",
+      "example": "Ma sœur s'est mariée l'année dernière.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le grand-père",
+      "target": "grandfather",
+      "example": "Mon grand-père me raconte des histoires.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la grand-mère",
+      "target": "grandmother",
+      "example": "La grand-mère prépare le meilleur gâteau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'oncle",
+      "target": "uncle",
+      "example": "Mon oncle vit en Argentine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tante",
+      "target": "aunt",
+      "example": "La tante nous rapporte des cadeaux de voyage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cousin",
+      "target": "cousin",
+      "example": "Mon cousin et moi sommes de très bons amis.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'ami",
+      "target": "friend",
+      "example": "Mon meilleur ami habite près d'ici.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le mari",
+      "target": "husband",
+      "example": "Son mari travaille à l'étranger.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la femme",
+      "target": "wife",
+      "example": "Sa femme est professeure d'anglais.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le petit ami / le fiancé",
+      "target": "boyfriend / fiancé",
+      "example": "Son petit ami lui a offert des fleurs.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le petit-fils",
+      "target": "grandson",
+      "example": "Les grands-parents adorent leurs petits-enfants.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la petite-fille",
+      "target": "granddaughter",
+      "example": "La petite-fille est la joie des grands-parents.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le beau-frère",
+      "target": "brother-in-law",
+      "example": "Mon beau-frère est très sympathique.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la belle-sœur",
+      "target": "sister-in-law",
+      "example": "La belle-sœur habite dans le même quartier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la belle-fille",
+      "target": "daughter-in-law",
+      "example": "La belle-fille s'entend bien avec la belle-mère.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le gendre",
+      "target": "son-in-law",
+      "example": "Le gendre aide beaucoup à la maison.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le couple / le/la partenaire",
+      "target": "couple / partner",
+      "example": "Mon partenaire et moi voyageons beaucoup.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le garçon",
+      "target": "boy",
+      "example": "Le garçon de la classe est très intelligent.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fille / la jeune femme",
+      "target": "girl / young woman",
+      "example": "La jeune femme parle trois langues.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la personne",
+      "target": "person",
+      "example": "C'est une personne très aimable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les gens",
+      "target": "people",
+      "example": "Les gens ici sont très ouverts.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'homme",
+      "target": "man",
+      "example": "L'homme à la veste rouge est mon chef.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

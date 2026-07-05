@@ -1,0 +1,249 @@
+{
+  "id": "esen-familie-und-freunde",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Familie und Freunde",
+  "entries": [
+    {
+      "source": "la familia",
+      "target": "family",
+      "example": "Toda la familia se reúne en Navidad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la amistad",
+      "target": "friendship",
+      "example": "La amistad verdadera dura para siempre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el padre",
+      "target": "father",
+      "example": "Mi padre trabaja en una oficina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la madre",
+      "target": "mother",
+      "example": "Mi madre cocina muy bien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "los padres",
+      "target": "parents",
+      "example": "Mis padres viven en el sur.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hijo",
+      "target": "son",
+      "example": "Su hijo mayor tiene veinte años.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la hija",
+      "target": "daughter",
+      "example": "La hija pequeña estudia medicina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hermano",
+      "target": "brother",
+      "example": "Mi hermano vive en Berlín.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la hermana",
+      "target": "sister",
+      "example": "Mi hermana se casó el año pasado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el abuelo",
+      "target": "grandfather",
+      "example": "Mi abuelo me cuenta historias.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la abuela",
+      "target": "grandmother",
+      "example": "La abuela hornea el mejor bizcocho.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tío",
+      "target": "uncle",
+      "example": "Mi tío vive en Argentina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tía",
+      "target": "aunt",
+      "example": "La tía nos trae regalos de viaje.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el primo",
+      "target": "cousin",
+      "example": "Mi primo y yo somos muy amigos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el amigo",
+      "target": "friend",
+      "example": "Mi mejor amigo vive cerca de aquí.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el marido",
+      "target": "husband",
+      "example": "Su marido trabaja en el extranjero.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mujer",
+      "target": "wife",
+      "example": "Su mujer es profesora de inglés.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el novio",
+      "target": "boyfriend",
+      "example": "Su novio le regaló flores.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el nieto",
+      "target": "grandson",
+      "example": "Los abuelos adoran a sus nietos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nieta",
+      "target": "granddaughter",
+      "example": "La nieta es la alegría de los abuelos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cuñado",
+      "target": "brother-in-law",
+      "example": "Mi cuñado es muy simpático.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cuñada",
+      "target": "sister-in-law",
+      "example": "La cuñada vive en el mismo barrio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nuera",
+      "target": "daughter-in-law",
+      "example": "La nuera se lleva bien con la suegra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el yerno",
+      "target": "son-in-law",
+      "example": "El yerno ayuda mucho en casa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pareja",
+      "target": "partner",
+      "example": "Mi pareja y yo viajamos mucho.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el chico",
+      "target": "boy",
+      "example": "El chico de la clase es muy inteligente.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la chica",
+      "target": "girl",
+      "example": "La chica habla tres idiomas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la persona",
+      "target": "person",
+      "example": "Es una persona muy amable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gente",
+      "target": "people",
+      "example": "La gente aquí es muy abierta.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hombre",
+      "target": "man",
+      "example": "El hombre de la chaqueta roja es mi jefe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

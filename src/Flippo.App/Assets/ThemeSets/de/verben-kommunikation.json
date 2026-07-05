@@ -1,0 +1,249 @@
+{
+  "id": "de-verben-kommunikation",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Verben Kommunikation",
+  "entries": [
+    {
+      "source": "sprechen / reden",
+      "target": "to speak",
+      "example": "Sprich bitte etwas langsamer.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zuhören / hören",
+      "target": "to listen",
+      "example": "Hör den Anweisungen gut zu.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sagen",
+      "target": "to say",
+      "example": "Was hast du gesagt? Ich habe dich nicht gehört.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fragen",
+      "target": "to ask",
+      "example": "Frag, wenn du etwas nicht verstehst.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "antworten",
+      "target": "to answer",
+      "example": "Antworte schriftlich auf die Fragen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "erklären",
+      "target": "to explain",
+      "example": "Der Lehrer erklärt die Grammatik sehr gut.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "verstehen",
+      "target": "to understand",
+      "example": "Ich verstehe dieses Wort nicht.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wiederholen",
+      "target": "to repeat",
+      "example": "Kannst du das langsamer wiederholen?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "übersetzen",
+      "target": "to translate",
+      "example": "Übersetze diesen Satz ins Deutsche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schreiben",
+      "target": "to write",
+      "example": "Schreib deinen Namen auf das Formular.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lesen",
+      "target": "to read",
+      "example": "Lies den Text laut vor.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "anrufen / nennen",
+      "target": "to call",
+      "example": "Ich rufe dich heute Nachmittag an.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "antworten / reagieren",
+      "target": "to reply",
+      "example": "Er antwortete auf alle E-Mails.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "grüßen / begrüßen",
+      "target": "to greet",
+      "example": "Grüße deine Kollegen, wenn du ankommst.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich verabschieden",
+      "target": "to say goodbye",
+      "example": "Er verabschiedete sich mit einer Umarmung.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich vorstellen",
+      "target": "to introduce oneself",
+      "example": "Ich stellte mich den neuen Kollegen vor.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "danken / sich bedanken",
+      "target": "to thank",
+      "example": "Ich dankte ihm für seine Hilfe.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich entschuldigen",
+      "target": "to apologise",
+      "example": "Er entschuldigte sich, weil er zu spät kam.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich beschweren",
+      "target": "to complain",
+      "example": "Er beschwerte sich beim Nachbarn über den Lärm.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bitten / bestellen",
+      "target": "to ask / order",
+      "example": "Er bat seinen Kollegen um Hilfe.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "einladen",
+      "target": "to invite",
+      "example": "Wir luden sie am Samstag zum Essen ein.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "raten / empfehlen",
+      "target": "to advise",
+      "example": "Ich rate dir, mehr zu lernen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vorschlagen",
+      "target": "to suggest",
+      "example": "Er schlug eine Lösung für das Problem vor.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "eine Meinung äußern",
+      "target": "to give an opinion",
+      "example": "Was äußerst du für eine Meinung dazu?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "diskutieren / streiten",
+      "target": "to argue",
+      "example": "Sie diskutierten stundenlang ohne Ergebnis.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "überzeugen",
+      "target": "to convince",
+      "example": "Er versuchte, mich von seiner Idee zu überzeugen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lügen",
+      "target": "to lie",
+      "example": "Ich lüge meine Freunde nie an.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "versprechen",
+      "target": "to promise",
+      "example": "Er versprach, pünktlich zu kommen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kommunizieren / sich verständigen",
+      "target": "to communicate",
+      "example": "Er kommuniziert sehr gut auf Englisch.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "unterbrechen",
+      "target": "to interrupt",
+      "example": "Unterbrich nicht, wenn jemand spricht.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

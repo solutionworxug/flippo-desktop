@@ -1,0 +1,249 @@
+{
+  "id": "es-charaktereigenschaften",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Charaktereigenschaften",
+  "entries": [
+    {
+      "source": "admisible",
+      "target": "zulässig",
+      "example": "Su comportamiento no es admisible.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tranquilo",
+      "target": "ruhig",
+      "example": "El niño es muy tranquilo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "honesto",
+      "target": "ehrlich",
+      "example": "Es una persona muy honesta.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "impaciente",
+      "target": "ungeduldig",
+      "example": "Mi hermano es muy impaciente.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tímido",
+      "target": "schüchtern",
+      "example": "De niño era muy tímido.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "abierto",
+      "target": "kontaktfreudig, offen",
+      "example": "Mi amiga es muy abierta y simpática.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "curioso",
+      "target": "neugierig",
+      "example": "Los niños son muy curiosos.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "inteligente",
+      "target": "intelligent",
+      "example": "Es una alumna muy inteligente.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "atractivo",
+      "target": "anziehend",
+      "example": "El actor es muy atractivo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "simpático",
+      "target": "sympathisch",
+      "example": "El profesor es muy simpático.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "antipático",
+      "target": "unsympathisch",
+      "example": "El vecino es bastante antipático.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "amable",
+      "target": "nett",
+      "example": "La recepcionista fue muy amable.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "agradable",
+      "target": "angenehm",
+      "example": "Tuvimos una conversación muy agradable.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "alegre",
+      "target": "fröhlich",
+      "example": "Siempre está alegre y sonriente.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "serio",
+      "target": "ernst",
+      "example": "Mi jefe es muy serio en el trabajo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "divertido",
+      "target": "lustig / witzig",
+      "example": "Mi amigo es muy divertido.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "trabajador",
+      "target": "fleißig",
+      "example": "Es la alumna más trabajadora de la clase.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "perezoso",
+      "target": "faul",
+      "example": "No seas tan perezoso y ayúdame.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "generoso",
+      "target": "großzügig",
+      "example": "Siempre es muy generoso con sus amigos.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "egoísta",
+      "target": "egoistisch",
+      "example": "No seas egoísta — comparte con los demás.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "valiente",
+      "target": "mutig",
+      "example": "El bombero es muy valiente.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "creativo",
+      "target": "kreativ",
+      "example": "Los niños son muy creativos.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "paciente",
+      "target": "geduldig",
+      "example": "Hay que ser paciente con los niños.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "responsable",
+      "target": "verantwortungsbewusst",
+      "example": "Es una persona muy responsable.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "educado",
+      "target": "höflich",
+      "example": "Siempre dice \"gracias\" — es muy educado.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "maleducado",
+      "target": "unhöflich",
+      "example": "Es muy maleducado interrumpir a los demás.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "optimista",
+      "target": "optimistisch",
+      "example": "Siempre ve el lado positivo — es muy optimista.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pesimista",
+      "target": "pessimistisch",
+      "example": "Siempre espera lo peor — es muy pesimista.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "callado",
+      "target": "ruhig / schweigsam",
+      "example": "Es muy callado y habla poco.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hablador",
+      "target": "redselig",
+      "example": "Mi abuela es muy habladora.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "fr-lebensmittel",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Lebensmittel",
+  "entries": [
+    {
+      "source": "l'allergie",
+      "target": "die Allergie",
+      "example": "Je suis allergique au pollen au printemps.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le petit-déjeuner",
+      "target": "das Frühstück",
+      "example": "Je prends un café au lait au petit-déjeuner.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le vinaigre",
+      "target": "der Essig",
+      "example": "Ajoute un peu de vinaigre à la salade.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le poivre",
+      "target": "der Pfeffer",
+      "example": "Tu me passes le poivre ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la viande",
+      "target": "das Fleisch",
+      "example": "Je ne mange pas de viande le lundi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le gâteau",
+      "target": "die Torte",
+      "example": "Nous avons acheté un gâteau d'anniversaire.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le menu",
+      "target": "das Menü",
+      "example": "Qu'y a-t-il au menu du jour ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la glace",
+      "target": "das Eis",
+      "example": "En été je mange beaucoup de glace.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la soif",
+      "target": "der Durst",
+      "example": "Après avoir couru j'ai très soif.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la faim",
+      "target": "der Hunger",
+      "example": "J'ai très faim après l'exercice.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le dessert",
+      "target": "die Nachspeise",
+      "example": "En dessert j'ai pris un flan.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'œuf",
+      "target": "das Ei",
+      "example": "J'ai besoin de trois œufs pour l'omelette.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le riz",
+      "target": "der Reis",
+      "example": "Le riz au lait est mon dessert préféré.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le poulet",
+      "target": "das Hühnchen",
+      "example": "Le poulet rôti est délicieux.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le jambon",
+      "target": "der Schinken",
+      "example": "Le jambon ibérique est très réputé en Espagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le pain",
+      "target": "das Brot",
+      "example": "Achète une baguette de pain à la boulangerie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nourriture",
+      "target": "das Essen",
+      "example": "La nourriture espagnole est très variée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sucre",
+      "target": "der Zucker",
+      "example": "Combien de sucre veux-tu dans le café ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'aliment",
+      "target": "das Lebensmittel",
+      "example": "Le pain est un aliment de base.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'ail",
+      "target": "der Knoblauch",
+      "example": "L'ail est très important dans la cuisine espagnole.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'eau",
+      "target": "das Wasser",
+      "example": "Je bois huit verres d'eau par jour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'huile",
+      "target": "das Öl",
+      "example": "J'utilise de l'huile d'olive pour cuisiner.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le goûter",
+      "target": "die Zwischenmahlzeit",
+      "example": "Les enfants prennent le goûter à cinq heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le dîner",
+      "target": "das Abendessen",
+      "example": "Le dîner est prêt à neuf heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les tapas",
+      "target": "die Tapas",
+      "example": "Nous prenons des tapas au bar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sel",
+      "target": "das Salz",
+      "example": "Cette soupe a besoin de plus de sel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "manger",
+      "target": "essen",
+      "example": "À quelle heure manges-tu d'habitude ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "délicieux",
+      "target": "lecker",
+      "example": "Cette paella est très délicieuse.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rôti",
+      "target": "gebraten/geröstet",
+      "example": "Le poulet rôti sent très bon.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "frit",
+      "target": "frittiert",
+      "example": "Les œufs frits sont faciles à faire.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

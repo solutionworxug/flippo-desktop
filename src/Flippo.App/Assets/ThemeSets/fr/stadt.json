@@ -1,0 +1,249 @@
+{
+  "id": "fr-stadt",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Stadt",
+  "entries": [
+    {
+      "source": "la circulation routière",
+      "target": "der Straßenverkehr",
+      "example": "La circulation routière est dense aujourd'hui.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la poste",
+      "target": "die Post",
+      "example": "Je suis allé à la poste envoyer un colis.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le point de vue",
+      "target": "der Gesichtspunkt / der Standpunkt",
+      "example": "De mon point de vue, tu as raison.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le plan de la ville",
+      "target": "der Stadtplan",
+      "example": "Nous avons consulté le plan de la ville pour ne pas nous perdre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le commissariat",
+      "target": "die Polizeiwache",
+      "example": "Je suis allé au commissariat pour déclarer le vol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la ville",
+      "target": "die Stadt",
+      "example": "Madrid est une ville très animée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le village",
+      "target": "das Dorf",
+      "example": "Nous passons l'été dans un village de la côte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le quartier",
+      "target": "das Viertel",
+      "example": "J'habite dans un quartier très tranquille.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la place",
+      "target": "der Platz",
+      "example": "La grand-place est pleine de touristes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la rue",
+      "target": "die Straße",
+      "example": "Cette rue est piétonne, les voitures ne peuvent pas y entrer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la banque",
+      "target": "die Bank",
+      "example": "Je dois aller à la banque retirer de l'argent.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pharmacie",
+      "target": "die Apotheke",
+      "example": "La pharmacie de garde est ouverte toute la nuit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'hôpital",
+      "target": "das Krankenhaus",
+      "example": "Le nouvel hôpital ouvre l'année prochaine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'église",
+      "target": "die Kirche",
+      "example": "L'église du village date du XIIe siècle.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mairie",
+      "target": "das Rathaus",
+      "example": "La mairie organise les fêtes du village.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le marché",
+      "target": "der Markt",
+      "example": "Le marché du quartier ouvre le samedi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le supermarché",
+      "target": "der Supermarkt",
+      "example": "Le supermarché ferme à dix heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le restaurant",
+      "target": "das Restaurant",
+      "example": "Il y a beaucoup de restaurants dans le centre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bar",
+      "target": "die Bar",
+      "example": "Nous prenons des tapas au bar du coin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le parc",
+      "target": "der Park",
+      "example": "Les enfants jouent dans le parc.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bibliothèque",
+      "target": "die Bibliothek",
+      "example": "La bibliothèque municipale a beaucoup de livres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le musée",
+      "target": "das Museum",
+      "example": "Le musée est ouvert du mardi au dimanche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le théâtre",
+      "target": "das Theater",
+      "example": "Le théâtre national a une programmation variée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cinéma",
+      "target": "das Kino",
+      "example": "Le cinéma du quartier a des prix très bas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gare / la station",
+      "target": "der Bahnhof / die Station",
+      "example": "La gare est très centrale.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'aéroport",
+      "target": "der Flughafen",
+      "example": "L'aéroport est à vingt minutes du centre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le feu",
+      "target": "die Ampel",
+      "example": "Arrête-toi au feu, il est rouge.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le trottoir",
+      "target": "der Bürgersteig",
+      "example": "Marche sur le trottoir, pas sur la route.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le passage piéton",
+      "target": "der Zebrastreifen",
+      "example": "Traverse au passage piéton.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le centre commercial",
+      "target": "das Einkaufszentrum",
+      "example": "Le centre commercial compte cent boutiques.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

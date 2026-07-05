@@ -1,0 +1,249 @@
+{
+  "id": "fren-einkaufen",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Einkaufen",
+  "entries": [
+    {
+      "source": "la taille",
+      "target": "size",
+      "example": "Je ne sais pas quelle taille je fais.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pointure",
+      "target": "shoe size",
+      "example": "Quelle est ta pointure ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "essayer",
+      "target": "to try on",
+      "example": "Je voudrais essayer ce pantalon, s'il vous plaît.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "trop serré",
+      "target": "too tight",
+      "example": "Cette chemise est trop serrée pour moi.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "trop petit",
+      "target": "too small",
+      "example": "Les chaussures sont trop petites pour moi.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la vendeuse",
+      "target": "saleswoman",
+      "example": "La vendeuse a été très aimable et m'a aidé.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le vendeur",
+      "target": "salesman",
+      "example": "Le vendeur m'a montré les nouvelles offres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le centre commercial",
+      "target": "shopping centre",
+      "example": "Nous allons au centre commercial ce samedi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le magasin",
+      "target": "shop / store",
+      "example": "Ce magasin est ouvert jusqu'à dix heures du soir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cabine d'essayage",
+      "target": "fitting room",
+      "example": "Les cabines d'essayage sont au fond à droite.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le ticket de caisse",
+      "target": "receipt",
+      "example": "Garde le ticket de caisse au cas où tu voudrais l'échanger.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la caisse",
+      "target": "checkout",
+      "example": "Tu dois payer les vêtements à la caisse.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "payer",
+      "target": "to pay",
+      "example": "Puis-je payer par carte de crédit ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "payer en espèces",
+      "target": "to pay in cash",
+      "example": "Je préfère payer en espèces aujourd'hui.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carte de crédit",
+      "target": "credit card",
+      "example": "Je n'ai pas d'espèces, je paie par carte de crédit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la remise",
+      "target": "discount",
+      "example": "Cette veste a une remise de vingt pour cent.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les soldes",
+      "target": "sale",
+      "example": "J'achète toujours beaucoup de vêtements pendant les soldes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "coûter",
+      "target": "to cost",
+      "example": "Combien coûte cette robe élégante ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le prix",
+      "target": "price",
+      "example": "Le prix de ces chaussures est très bas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cher",
+      "target": "expensive",
+      "example": "Ce sac de marque est trop cher.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bon marché",
+      "target": "cheap",
+      "example": "Les vêtements de ce marché sont très bon marché.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire du shopping",
+      "target": "to go shopping",
+      "example": "Ma sœur adore faire du shopping le vendredi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sac de courses",
+      "target": "shopping bag",
+      "example": "Je porte un sac de courses en tissu.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chariot",
+      "target": "shopping cart",
+      "example": "Mets les choses dans le chariot.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "échanger",
+      "target": "to exchange",
+      "example": "Je veux échanger ce tee-shirt car il ne me va pas bien.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rendre",
+      "target": "to return",
+      "example": "Peut-on rendre les vêtements si on ne les aime pas ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les vêtements",
+      "target": "clothes",
+      "example": "Je dois acheter des vêtements pour l'été.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la vitrine",
+      "target": "shop window",
+      "example": "J'ai vu une belle robe dans la vitrine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aller bien",
+      "target": "to fit",
+      "example": "Ce pantalon te va très bien.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "trop large",
+      "target": "too loose",
+      "example": "Cette jupe est trop large pour moi.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

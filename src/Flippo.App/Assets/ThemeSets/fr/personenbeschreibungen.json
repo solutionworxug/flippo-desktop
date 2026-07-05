@@ -1,0 +1,249 @@
+{
+  "id": "fr-personenbeschreibungen",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Personenbeschreibungen",
+  "entries": [
+    {
+      "source": "grand",
+      "target": "groß (Körpergröße)",
+      "example": "Mon frère est très grand, il mesure 1,90 m.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "petit",
+      "target": "klein (Körpergröße)",
+      "example": "Il est assez petit mais très agile.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mince",
+      "target": "dünn / schlank",
+      "example": "Il a maigri, il est très mince.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gros",
+      "target": "dick / übergewichtig",
+      "example": "Le chat est gros à force de manger.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "beau",
+      "target": "hübsch / gutaussehend",
+      "example": "Son petit ami est très beau.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "laid",
+      "target": "hässlich",
+      "example": "Il n'est pas laid, il est simplement différent.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "jeune",
+      "target": "jung",
+      "example": "Il paraît très jeune pour son âge.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aîné / âgé",
+      "target": "älter / erwachsen",
+      "example": "Son frère aîné a trente ans.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "âgé",
+      "target": "sehr alt / bejahrt",
+      "example": "La personne âgée marche avec une canne.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "blond",
+      "target": "blond",
+      "example": "Elle a les cheveux blonds et les yeux bleus.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "brun",
+      "target": "dunkelhaarig / brünett",
+      "example": "Il est brun avec les yeux foncés.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "roux",
+      "target": "rothaarig",
+      "example": "Les personnes rousses ont la peau très claire.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "chauve",
+      "target": "kahl / glatzkopfig",
+      "example": "Mon oncle est chauve depuis l'âge de trente ans.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fort",
+      "target": "stark / kräftig",
+      "example": "Il est très fort, il va à la salle de sport tous les jours.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faible",
+      "target": "schwach",
+      "example": "Il se sent faible après la maladie.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sportif",
+      "target": "sportlich",
+      "example": "Il est très sportif, il pratique trois sports.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "joli",
+      "target": "schön / hübsch",
+      "example": "Elle a un très joli sourire.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "élégant",
+      "target": "elegant",
+      "example": "Il va toujours très élégant au bureau.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "simple",
+      "target": "schlicht / einfach",
+      "example": "Il s'habille de façon très simple.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "célèbre",
+      "target": "berühmt",
+      "example": "C'est un acteur très célèbre dans le monde entier.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aisé",
+      "target": "vermögend / wohlhabend",
+      "example": "Il habite dans un quartier très aisé.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pauvre",
+      "target": "arm",
+      "example": "La famille est pauvre mais très unie.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "marié",
+      "target": "verheiratet",
+      "example": "Il est marié depuis dix ans.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "célibataire",
+      "target": "ledig / single",
+      "example": "Il est toujours célibataire bien qu'il ait trente-cinq ans.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "divorcé",
+      "target": "geschieden",
+      "example": "Il a divorcé l'année dernière.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "séparé",
+      "target": "getrennt (lebend)",
+      "example": "Ils sont séparés mais pas divorcés.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "stupide",
+      "target": "dumm",
+      "example": "C'était une décision très stupide.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "d'âge moyen",
+      "target": "mittleren Alters",
+      "example": "C'est une femme d'âge moyen très active.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'apparence / l'aspect",
+      "target": "das Aussehen / der Aspekt",
+      "example": "Il soigne beaucoup son apparence.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carrure / la corpulence",
+      "target": "der Körperbau",
+      "example": "Il a une carrure athlétique.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

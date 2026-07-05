@@ -1,0 +1,249 @@
+{
+  "id": "de-reise-und-urlaub",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Reise und Urlaub",
+  "entries": [
+    {
+      "source": "das Stadtzentrum / der Stadtkern",
+      "target": "city centre",
+      "example": "Das Hotel liegt im Stadtzentrum.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Mietwagen",
+      "target": "rental car",
+      "example": "Wir haben einen Mietwagen gebucht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Reiseunterlagen",
+      "target": "travel documents",
+      "example": "Hast du alle Reiseunterlagen dabei?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Zugreise",
+      "target": "train journey",
+      "example": "Die Zugreise durch die Alpen war toll.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Flughafen",
+      "target": "airport",
+      "example": "Wir müssen früh zum Flughafen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Reservierung",
+      "target": "reservation",
+      "example": "Ich habe die Reservierung online gemacht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mieten",
+      "target": "to rent",
+      "example": "Ich möchte am Flughafen ein Auto mieten.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Autobahn",
+      "target": "motorway",
+      "example": "Die Autobahn nach Berlin ist gesperrt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Bus",
+      "target": "bus",
+      "example": "Der Bus ins Zentrum fährt alle zehn Minuten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Reiseziel",
+      "target": "destination",
+      "example": "Was ist dein liebstes Reiseziel?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Abreise",
+      "target": "departure",
+      "example": "Die Abreise ist für Mittag geplant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "reisen",
+      "target": "to travel",
+      "example": "Im Sommer reise ich besonders gern.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Reise",
+      "target": "trip",
+      "example": "Die Reise dauert vier Stunden.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Fahrkarte / das Ticket",
+      "target": "ticket",
+      "example": "Ich habe die Fahrkarte schon gekauft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Reisepass",
+      "target": "passport",
+      "example": "Vergiss deinen Reisepass nicht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Koffer",
+      "target": "suitcase",
+      "example": "Ich habe den Koffer am Abend vorher gepackt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Flug",
+      "target": "flight",
+      "example": "Der Flug nach Madrid dauert zwei Stunden.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Ankunft",
+      "target": "arrival",
+      "example": "Die Ankunft ist für drei Uhr geplant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Gepäck",
+      "target": "luggage",
+      "example": "Am Flughafen ist mein Gepäck verloren gegangen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Landkarte / der Stadtplan",
+      "target": "map",
+      "example": "Ich habe die Landkarte heruntergeladen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Ausflug",
+      "target": "excursion",
+      "example": "Wir machen einen Ausflug in die Berge.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Reiseführer (Buch/Person)",
+      "target": "travel guide",
+      "example": "Ich habe einen Reiseführer für Barcelona gekauft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Tourist",
+      "target": "tourist",
+      "example": "Im August ist die Stadt voller Touristen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Strand",
+      "target": "beach",
+      "example": "Wir haben eine Woche am Strand verbracht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Campingplatz",
+      "target": "campsite",
+      "example": "Wir haben auf einem Campingplatz am Meer übernachtet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Zug",
+      "target": "train",
+      "example": "Der Zug kommt in drei Stunden an.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Taxi",
+      "target": "taxi",
+      "example": "Wir nahmen ein Taxi vom Flughafen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Koffer packen",
+      "target": "to pack",
+      "example": "Heute Abend muss ich die Koffer packen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Reiseversicherung",
+      "target": "travel insurance",
+      "example": "Ich schließe immer eine Reiseversicherung ab.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Grenze",
+      "target": "border",
+      "example": "Morgens überquerten wir die Grenze.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

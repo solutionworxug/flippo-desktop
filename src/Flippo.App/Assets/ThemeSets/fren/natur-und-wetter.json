@@ -1,0 +1,249 @@
+{
+  "id": "fren-natur-und-wetter",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Natur und Wetter",
+  "entries": [
+    {
+      "source": "le temps",
+      "target": "weather",
+      "example": "Quel temps fait-il aujourd'hui ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le soleil",
+      "target": "sun",
+      "example": "Il y a beaucoup de soleil, prends les lunettes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pluie",
+      "target": "rain",
+      "example": "La pluie ne s'arrête pas depuis hier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le vent",
+      "target": "wind",
+      "example": "Il y a beaucoup de vent aujourd'hui, il fait froid.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la neige",
+      "target": "snow",
+      "example": "À la montagne il y a beaucoup de neige en janvier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le brouillard",
+      "target": "fog",
+      "example": "Ce matin il y avait beaucoup de brouillard sur la route.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'orage / la tempête",
+      "target": "storm",
+      "example": "Un orage approche, prends le parapluie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le tonnerre",
+      "target": "thunder",
+      "example": "Le tonnerre me fait peur.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'éclair",
+      "target": "lightning",
+      "example": "Les éclairs ont illuminé le ciel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nuageux",
+      "target": "cloudy",
+      "example": "Le ciel est très nuageux aujourd'hui.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dégagé",
+      "target": "clear",
+      "example": "Demain le ciel sera dégagé et ensoleillé.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pleuvoir",
+      "target": "to rain",
+      "example": "Il pleut à verse.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "neiger",
+      "target": "to snow",
+      "example": "Il a neigé toute la nuit dans la montagne.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire chaud",
+      "target": "to be hot",
+      "example": "En août il fait très chaud en Espagne.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire froid",
+      "target": "to be cold",
+      "example": "Il fait très froid, il faut se couvrir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la température",
+      "target": "temperature",
+      "example": "La température est descendue à zéro degré.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le degré",
+      "target": "degree",
+      "example": "Aujourd'hui il fait trente degrés à l'ombre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'arbre",
+      "target": "tree",
+      "example": "Les arbres donnent de l'ombre en été.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fleur",
+      "target": "flower",
+      "example": "Les fleurs du jardin sentent très bon.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le fleuve",
+      "target": "river",
+      "example": "L'Èbre est le fleuve le plus long d'Espagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mer",
+      "target": "sea",
+      "example": "J'adore me baigner dans la mer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la montagne",
+      "target": "mountain",
+      "example": "Nous allons à la montagne en hiver pour skier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la forêt",
+      "target": "forest",
+      "example": "Nous nous promenons dans la forêt le dimanche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la plage",
+      "target": "beach",
+      "example": "La plage est pleine de monde en août.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la campagne",
+      "target": "countryside",
+      "example": "J'aime passer le week-end à la campagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nature",
+      "target": "nature",
+      "example": "Il faut prendre soin de la nature.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le ciel",
+      "target": "sky",
+      "example": "Le ciel est plein d'étoiles ce soir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le nuage",
+      "target": "cloud",
+      "example": "Les nuages cachent le soleil.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'arc-en-ciel",
+      "target": "rainbow",
+      "example": "Après la pluie un arc-en-ciel est apparu.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la météo",
+      "target": "weather forecast",
+      "example": "La météo annonce qu'il pleuvra demain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

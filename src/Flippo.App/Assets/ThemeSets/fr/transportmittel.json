@@ -1,0 +1,241 @@
+{
+  "id": "fr-transportmittel",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Transportmittel",
+  "entries": [
+    {
+      "source": "le vélo",
+      "target": "das Fahrrad",
+      "example": "Nous faisons un tour à vélo le dimanche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la croisière",
+      "target": "die Kreuzfahrt",
+      "example": "Nous avons fait une croisière en Méditerranée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le conducteur",
+      "target": "der Fahrer",
+      "example": "Le conducteur du bus a été très aimable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la route",
+      "target": "die Landstraße",
+      "example": "La route était très fréquentée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la rue",
+      "target": "die Straße",
+      "example": "Cette rue est piétonne, les voitures ne peuvent pas y entrer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le passage piéton",
+      "target": "der Zebrastreifen",
+      "example": "Traverse au passage piéton.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le feu",
+      "target": "die Ampel",
+      "example": "Arrête-toi au feu quand il est rouge.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le carrefour",
+      "target": "die Kreuzung",
+      "example": "Tourne à gauche au prochain carrefour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le plan de la ville",
+      "target": "der Stadtplan",
+      "example": "Nous avons consulté le plan de la ville pour ne pas nous perdre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le parking",
+      "target": "der Parkplatz",
+      "example": "Le parking est complet à cette heure.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "réserver sur internet",
+      "target": "im Internet reservieren",
+      "example": "Je préfère réserver les billets sur internet.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la zone piétonne",
+      "target": "die Fußgängerzone",
+      "example": "La zone piétonne est pleine de magasins.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gare",
+      "target": "der Bahnhof",
+      "example": "La gare est dans le centre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le quai",
+      "target": "der Bahnsteig",
+      "example": "Le train part du quai numéro trois.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aller à pied",
+      "target": "zu Fuß gehen",
+      "example": "Je vais à pied au travail tous les matins.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le moyen de transport",
+      "target": "das Verkehrsmittel",
+      "example": "Le métro est mon moyen de transport préféré.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le tramway",
+      "target": "die Straßenbahn",
+      "example": "Le tramway passe devant chez moi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bateau",
+      "target": "das Schiff",
+      "example": "Nous avons traversé le fleuve en bateau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la place",
+      "target": "der Sitzplatz",
+      "example": "J'ai réservé une place près de la fenêtre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la moto",
+      "target": "das Motorrad",
+      "example": "Il se déplace en ville à moto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le métro",
+      "target": "die U-Bahn",
+      "example": "Le métro est plus rapide que le bus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'aéroport",
+      "target": "der Flughafen",
+      "example": "Il faut arriver à l'aéroport deux heures à l'avance.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'autoroute",
+      "target": "die Autobahn",
+      "example": "L'autoroute pour Barcelone est coupée à cause de travaux.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bus",
+      "target": "der Bus",
+      "example": "Le bus pour le centre part toutes les vingt minutes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le billet",
+      "target": "die Fahrkarte",
+      "example": "J'ai acheté le billet d'avion à l'avance.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le vol",
+      "target": "der Flug",
+      "example": "Le vol pour Madrid dure deux heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carte",
+      "target": "die Karte",
+      "example": "J'ai téléchargé la carte de la ville.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le train",
+      "target": "der Zug",
+      "example": "Le train à grande vitesse arrive en trois heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le taxi",
+      "target": "das Taxi",
+      "example": "Nous avons pris un taxi depuis l'aéroport.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

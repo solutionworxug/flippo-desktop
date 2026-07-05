@@ -1,0 +1,257 @@
+{
+  "id": "esen-wohnungseinrichtung",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Wohnungseinrichtung",
+  "entries": [
+    {
+      "source": "el ascensor",
+      "target": "lift / elevator",
+      "example": "El ascensor está averiado — hay que subir a pie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el techo",
+      "target": "ceiling",
+      "example": "El techo del salón tiene una grieta.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la almohada",
+      "target": "pillow",
+      "example": "Necesito una almohada más blanda.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cama",
+      "target": "bed",
+      "example": "La cama es muy cómoda.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sofá",
+      "target": "sofa",
+      "example": "Me senté en el sofá a ver la televisión.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la silla",
+      "target": "chair",
+      "example": "Hay cuatro sillas alrededor de la mesa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mesa",
+      "target": "table",
+      "example": "Cenamos todos juntos en la mesa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el armario",
+      "target": "wardrobe",
+      "example": "La ropa está en el armario.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la lámpara",
+      "target": "lamp",
+      "example": "La lámpara del salón da una luz muy cálida.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la estantería",
+      "target": "shelf / bookcase",
+      "example": "Los libros están ordenados en la estantería.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el espejo",
+      "target": "mirror",
+      "example": "Me miro en el espejo antes de salir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la ventana",
+      "target": "window",
+      "example": "Abre la ventana — necesitamos aire fresco.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la puerta",
+      "target": "door",
+      "example": "Cierra la puerta al salir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la alfombra",
+      "target": "carpet / rug",
+      "example": "La alfombra del salón es muy suave.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la manta",
+      "target": "blanket",
+      "example": "Me tapo con la manta porque tengo frío.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cuadro",
+      "target": "picture",
+      "example": "El cuadro en la pared es de un artista local.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el suelo",
+      "target": "floor",
+      "example": "El suelo de la cocina es de cerámica.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pared",
+      "target": "wall",
+      "example": "Pintamos la pared de blanco.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cocina",
+      "target": "kitchen",
+      "example": "La cocina está recién renovada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el baño",
+      "target": "bathroom",
+      "example": "El baño tiene ducha y bañera.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el dormitorio",
+      "target": "bedroom",
+      "example": "El dormitorio tiene dos ventanas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el salón",
+      "target": "living room",
+      "example": "El salón es el lugar favorito de la familia.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nevera",
+      "target": "fridge",
+      "example": "La nevera está llena de comida.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el microondas",
+      "target": "microwave",
+      "example": "Calenté la sopa en el microondas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el lavavajillas",
+      "target": "dishwasher",
+      "example": "El lavavajillas está roto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la lavadora",
+      "target": "washing machine",
+      "example": "Pongo la lavadora los sábados.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mesilla",
+      "target": "bedside table",
+      "example": "El libro está en la mesilla de noche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el escritorio",
+      "target": "desk",
+      "example": "Trabajo en el escritorio de mi habitación.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la ducha",
+      "target": "shower",
+      "example": "Me ducho cada mañana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sillón",
+      "target": "armchair",
+      "example": "Mi padre lee el periódico en su sillón.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el espacio",
+      "target": "room / space",
+      "example": "El piso es pequeño pero tiene buen espacio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

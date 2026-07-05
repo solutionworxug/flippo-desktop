@@ -1,0 +1,249 @@
+{
+  "id": "esen-textarten",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Textarten",
+  "entries": [
+    {
+      "source": "la palabra",
+      "target": "word",
+      "example": "No entiendo esa palabra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la frase",
+      "target": "sentence",
+      "example": "Escribe una frase con esta palabra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el texto",
+      "target": "text",
+      "example": "Lee el texto y contesta las preguntas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el párrafo",
+      "target": "paragraph",
+      "example": "El párrafo debe tener cinco líneas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el artículo",
+      "target": "article",
+      "example": "Leyó un artículo interesante en el periódico.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la lengua",
+      "target": "language",
+      "example": "Habla cuatro lenguas con fluidez.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el punto",
+      "target": "full stop",
+      "example": "No olvides poner el punto al final de la frase.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la coma",
+      "target": "comma",
+      "example": "Hay que usar la coma antes de \"pero\".",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el signo de exclamación",
+      "target": "exclamation mark",
+      "example": "En español el signo de exclamación va al principio también.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el signo de interrogación",
+      "target": "question mark",
+      "example": "En español el signo de interrogación va al principio también.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el subtítulo",
+      "target": "subtitle",
+      "example": "La película tiene subtítulos en español.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la novela",
+      "target": "novel",
+      "example": "Estoy leyendo una novela histórica.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el drama",
+      "target": "drama",
+      "example": "El drama fue muy emotivo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la comedia",
+      "target": "comedy",
+      "example": "La comedia nos hizo reír mucho.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la autobiografía",
+      "target": "autobiography",
+      "example": "Leí la autobiografía del escritor.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el alfabeto",
+      "target": "alphabet",
+      "example": "El alfabeto español tiene 27 letras.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el acta",
+      "target": "minutes / record",
+      "example": "El secretario redactó el acta de la reunión.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la abreviatura",
+      "target": "abbreviation",
+      "example": "DNI es la abreviatura de Documento Nacional de Identidad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el correo electrónico",
+      "target": "email",
+      "example": "Te envío la información por correo electrónico.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el periódico",
+      "target": "newspaper",
+      "example": "Leo el periódico cada mañana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la revista",
+      "target": "magazine",
+      "example": "Compro una revista de moda.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el diccionario",
+      "target": "dictionary",
+      "example": "Consulta el diccionario si no entiendes la palabra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el poema",
+      "target": "poem",
+      "example": "Aprendimos un poema de memoria.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carta",
+      "target": "letter",
+      "example": "Le escribí una carta a mano.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mensaje",
+      "target": "message",
+      "example": "Te mando un mensaje cuando llegue.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el resumen",
+      "target": "summary",
+      "example": "Haz un resumen del texto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "traducir",
+      "target": "to translate",
+      "example": "¿Puedes traducir esta frase al alemán?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "escribir",
+      "target": "to write",
+      "example": "Escribe tu nombre en el formulario.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "leer",
+      "target": "to read",
+      "example": "Leo un capítulo cada noche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el libro",
+      "target": "book",
+      "example": "Tengo muchos libros en casa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

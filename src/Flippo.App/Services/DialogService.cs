@@ -3,6 +3,7 @@ using Flippo.App.ViewModels;
 using Flippo.App.Views;
 using Flippo.Core.Backup;
 using Flippo.Core.Domain;
+using Flippo.Data.Services;
 
 namespace Flippo.App.Services;
 
@@ -16,6 +17,9 @@ public interface IDialogService
     /// <summary>Datei-Import-Dialog (P9): Spalten-Mapping + Ziel-Set. Rückgabe null = abgebrochen.</summary>
     Task<FileImportRequest?> ShowFileImportAsync(
         string fileName, IReadOnlyList<IReadOnlyList<string>> rows, IReadOnlyList<VocabularySet> existingSets);
+
+    /// <summary>Themenset-Picker (P12). Rückgabe true, wenn mindestens ein Set importiert wurde.</summary>
+    Task<bool> ShowThemeSetPickerAsync(ThemeSetImporter importer, string targetLanguage);
 
     Task ShowMessageAsync(string title, string message);
     Task<bool> ConfirmAsync(string title, string message, string confirmLabel = "OK");
@@ -45,6 +49,18 @@ public sealed class DialogService : IDialogService
 
         var window = new FileImportWindow { DataContext = new FileImportViewModel(fileName, rows, existingSets) };
         return await window.ShowDialog<FileImportRequest?>(owner);
+    }
+
+    public async Task<bool> ShowThemeSetPickerAsync(ThemeSetImporter importer, string targetLanguage)
+    {
+        var owner = _owner();
+        if (owner is null) return false;
+
+        var vm = new ThemeSetPickerViewModel(importer, targetLanguage);
+        await vm.LoadAsync();
+        var window = new ThemeSetPickerWindow { DataContext = vm };
+        await window.ShowDialog(owner);
+        return vm.AnyImported;
     }
 
     public async Task ShowMessageAsync(string title, string message)

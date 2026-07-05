@@ -1,0 +1,249 @@
+{
+  "id": "de-hotel",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Hotel",
+  "entries": [
+    {
+      "source": "die Rezeption",
+      "target": "reception",
+      "example": "Die Rezeption ist rund um die Uhr geöffnet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Rezeptionist",
+      "target": "receptionist",
+      "example": "Der Rezeptionist gab uns den Zimmerschlüssel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Einzelzimmer",
+      "target": "single room",
+      "example": "Ich habe ein Einzelzimmer für zwei Nächte gebucht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Doppelzimmer",
+      "target": "double room",
+      "example": "Haben Sie ein Doppelzimmer mit Meerblick?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Schlüssel",
+      "target": "key",
+      "example": "Hier ist der Schlüssel für Ihr Zimmer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Magnetkarte",
+      "target": "key card",
+      "example": "Mit der Magnetkarte öffnet man die Tür.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Aufzug",
+      "target": "elevator",
+      "example": "Der Aufzug ist am Ende des Flurs.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Stockwerk",
+      "target": "floor",
+      "example": "Mein Zimmer ist im dritten Stockwerk.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Zimmerservice",
+      "target": "room service",
+      "example": "Wir haben das Frühstück beim Zimmerservice bestellt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "inklusive Frühstück",
+      "target": "breakfast included",
+      "example": "Der Preis ist inklusive Frühstück.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Halbpension",
+      "target": "half board",
+      "example": "Wir haben einen Aufenthalt mit Halbpension gebucht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Vollpension",
+      "target": "full board",
+      "example": "Dieses Hotel bietet auch Vollpension an.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Klimaanlage",
+      "target": "air conditioning",
+      "example": "Im Sommer ist die Klimaanlage sehr wichtig.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Heizung",
+      "target": "heating",
+      "example": "Die Heizung funktioniert in meinem Zimmer nicht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die WLAN-Verbindung",
+      "target": "Wi-Fi connection",
+      "example": "Wie lautet das Passwort für die WLAN-Verbindung?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Check-in",
+      "target": "check-in",
+      "example": "Der Check-in beginnt um zwei Uhr nachmittags.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Check-out",
+      "target": "check-out",
+      "example": "Der Check-out muss vor zwölf Uhr erfolgen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Zustellbett",
+      "target": "extra bed",
+      "example": "Können wir ein Zustellbett für das Kind bekommen?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Minibar",
+      "target": "minibar",
+      "example": "In der Minibar gibt es kalte Getränke.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Tresor",
+      "target": "safe",
+      "example": "Ich habe meinen Pass im Tresor verwahrt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Handtücher",
+      "target": "towels",
+      "example": "Könnten Sie mir bitte mehr Handtücher bringen?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Kissen",
+      "target": "pillow",
+      "example": "Ich brauche noch ein Kissen zum Schlafen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Decke",
+      "target": "blanket",
+      "example": "Mir ist kalt, könnten Sie mir eine Decke bringen?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Reinigung / das Putzen",
+      "target": "cleaning",
+      "example": "Die Reinigung des Zimmers erfolgt jeden Morgen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Hotelpage",
+      "target": "bellhop",
+      "example": "Der Hotelpage brachte unsere Koffer aufs Zimmer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Pool",
+      "target": "pool",
+      "example": "Der Pool des Hotels ist beheizt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Fitnessstudio",
+      "target": "gym",
+      "example": "Das Hotel hat ein modernes Fitnessstudio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich beschweren",
+      "target": "to complain",
+      "example": "Der Gast hat sich über den Lärm beschwert.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bestätigen",
+      "target": "to confirm",
+      "example": "Ich möchte meine Reservierung für morgen bestätigen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "stornieren / absagen",
+      "target": "to cancel",
+      "example": "Ich musste die Reservierung leider stornieren.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

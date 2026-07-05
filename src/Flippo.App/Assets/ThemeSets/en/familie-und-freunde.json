@@ -1,0 +1,249 @@
+{
+  "id": "en-familie-und-freunde",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Familie und Freunde",
+  "entries": [
+    {
+      "source": "family",
+      "target": "die Familie",
+      "example": "The whole family gets together at Christmas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "friendship",
+      "target": "die Freundschaft",
+      "example": "True friendship lasts forever.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "father",
+      "target": "der Vater",
+      "example": "My father works in an office.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mother",
+      "target": "die Mutter",
+      "example": "My mother cooks very well.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "parents",
+      "target": "die Eltern",
+      "example": "My parents live in the south.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "son",
+      "target": "der Sohn",
+      "example": "Her older son is twenty years old.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "daughter",
+      "target": "die Tochter",
+      "example": "The younger daughter studies medicine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "brother",
+      "target": "der Bruder",
+      "example": "My brother lives in Berlin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sister",
+      "target": "die Schwester",
+      "example": "My sister got married last year.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "grandfather",
+      "target": "der Großvater",
+      "example": "My grandfather tells me stories.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "grandmother",
+      "target": "die Großmutter",
+      "example": "Grandmother bakes the best cake.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "uncle",
+      "target": "der Onkel",
+      "example": "My uncle lives in Argentina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aunt",
+      "target": "die Tante",
+      "example": "My aunt brings us gifts from her trip.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cousin",
+      "target": "der Cousin",
+      "example": "My cousin and I are very good friends.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "friend",
+      "target": "der Freund",
+      "example": "My best friend lives near here.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "husband",
+      "target": "der Ehemann",
+      "example": "Her husband works abroad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wife",
+      "target": "die Ehefrau",
+      "example": "His wife is an English teacher.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "boyfriend / fiancé",
+      "target": "der feste Freund / Verlobte",
+      "example": "Her boyfriend gave her flowers.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "grandson",
+      "target": "der Enkel",
+      "example": "The grandparents adore their grandchildren.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "granddaughter",
+      "target": "die Enkelin",
+      "example": "The granddaughter is the joy of the grandparents.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "brother-in-law",
+      "target": "der Schwager",
+      "example": "My brother-in-law is very nice.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sister-in-law",
+      "target": "die Schwägerin",
+      "example": "My sister-in-law lives in the same neighborhood.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "daughter-in-law",
+      "target": "die Schwiegertochter",
+      "example": "The daughter-in-law gets along well with the mother-in-law.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "son-in-law",
+      "target": "der Schwiegersohn",
+      "example": "The son-in-law helps a lot at home.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "couple / partner",
+      "target": "das Paar / der/die Partner(in)",
+      "example": "My partner and I travel a lot.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "boy / guy",
+      "target": "der Junge / der Typ",
+      "example": "The boy in the class is very intelligent.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "girl / young woman",
+      "target": "das Mädchen / die junge Frau",
+      "example": "The girl speaks three languages.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "person",
+      "target": "die Person",
+      "example": "She is a very kind person.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "people",
+      "target": "die Leute",
+      "example": "The people here are very open.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "man",
+      "target": "der Mann",
+      "example": "The man in the red jacket is my boss.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

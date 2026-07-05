@@ -1,0 +1,249 @@
+{
+  "id": "fr-kochen-backen",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Kochen Backen",
+  "entries": [
+    {
+      "source": "cuisiner",
+      "target": "kochen",
+      "example": "J'aime cuisiner pour mes amis le week-end.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "faire cuire (au four)",
+      "target": "backen",
+      "example": "Je vais faire cuire une tarte aux pommes aujourd'hui.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "frire",
+      "target": "frittieren",
+      "example": "Il faut frire les pommes de terre dans de l'huile très chaude.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "couper en deux",
+      "target": "halbieren",
+      "example": "Coupe les tomates en deux pour la salade.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "mélanger",
+      "target": "verrühren / mischen",
+      "example": "Il faut bien mélanger les œufs avec le sucre.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "couper",
+      "target": "schneiden",
+      "example": "Fais attention en coupant la viande avec ce couteau.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "éplucher",
+      "target": "schälen",
+      "example": "Tu m'aides à éplucher les pommes de terre ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "remuer",
+      "target": "umrühren",
+      "example": "Remue la soupe pour qu'elle n'attache pas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "assaisonner",
+      "target": "würzen",
+      "example": "Tu dois assaisonner la viande avec du sel et du poivre.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "faire revenir",
+      "target": "anbraten",
+      "example": "D'abord il faut faire revenir l'oignon quelques minutes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "battre",
+      "target": "schlagen (z.B. Eiweiß)",
+      "example": "Bats les blancs d'œufs en neige.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "râper",
+      "target": "reiben",
+      "example": "Je vais râper un peu de fromage pour les pâtes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "peser",
+      "target": "wiegen",
+      "example": "Il est important de peser les ingrédients avec précision pour la pâtisserie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "verser",
+      "target": "gießen / einschenken",
+      "example": "Verse le lait peu à peu dans la pâte.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "la recette",
+      "target": "das Rezept",
+      "example": "Cette recette de gâteau vient de ma grand-mère.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "l'ingrédient",
+      "target": "die Zutat",
+      "example": "Assure-toi d'avoir tous les ingrédients avant de commencer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "le four",
+      "target": "der Ofen / Backofen",
+      "example": "Préchauffe le four à cent quatre-vingts degrés.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "la poêle",
+      "target": "die Pfanne",
+      "example": "Mets un peu d'huile d'olive dans la poêle.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "la casserole",
+      "target": "der Topf",
+      "example": "La casserole est pleine d'eau bouillante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "le saladier / le bol",
+      "target": "die Schüssel",
+      "example": "Mets la farine et la levure dans un grand saladier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "bouillir",
+      "target": "kochen / sieden",
+      "example": "L'eau commence déjà à bouillir, mets les pâtes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "laver",
+      "target": "waschen",
+      "example": "Il faut laver les légumes avant de les cuisiner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "mesurer / peser",
+      "target": "abwiegen",
+      "example": "Pèse cent grammes de beurre.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "la balance de cuisine",
+      "target": "die Waage / Küchenwaage",
+      "example": "Utilise la balance de cuisine pour mesurer la farine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "ajouter",
+      "target": "hinzufügen",
+      "example": "Ajoute une pincée de sel à la sauce.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "égoutter",
+      "target": "abgießen",
+      "example": "Égoutte les spaghettis quand ils sont prêts.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "pétrir",
+      "target": "kneten",
+      "example": "Tu dois pétrir la pâte à pain pendant dix minutes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "faire fondre",
+      "target": "schmelzen",
+      "example": "Il faut faire fondre le chocolat au bain-marie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "préchauffer",
+      "target": "vorheizen",
+      "example": "N'oublie pas de préchauffer le four.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "laisser refroidir",
+      "target": "abkühlen lassen",
+      "example": "Laisse refroidir le gâteau avant de le démouler.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    }
+  ]
+}

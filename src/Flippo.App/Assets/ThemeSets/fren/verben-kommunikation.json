@@ -1,0 +1,249 @@
+{
+  "id": "fren-verben-kommunikation",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Verben Kommunikation",
+  "entries": [
+    {
+      "source": "parler",
+      "target": "to speak / to talk",
+      "example": "Parle plus lentement s'il te plaît.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "écouter",
+      "target": "to listen",
+      "example": "Écoute bien les instructions.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dire",
+      "target": "to say",
+      "example": "Qu'as-tu dit ? Je ne t'ai pas entendu.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "demander",
+      "target": "to ask",
+      "example": "Demande si tu ne comprends pas quelque chose.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "répondre",
+      "target": "to answer",
+      "example": "Réponds aux questions par écrit.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "expliquer",
+      "target": "to explain",
+      "example": "Le professeur explique très bien la grammaire.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "comprendre",
+      "target": "to understand",
+      "example": "Je ne comprends pas ce mot.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "répéter",
+      "target": "to repeat",
+      "example": "Peux-tu répéter plus lentement ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "traduire",
+      "target": "to translate",
+      "example": "Traduis cette phrase en allemand.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "écrire",
+      "target": "to write",
+      "example": "Écris ton nom sur le formulaire.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lire",
+      "target": "to read",
+      "example": "Lis le texte à voix haute.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "appeler",
+      "target": "to call / to name",
+      "example": "Je t'appelle cet après-midi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "répondre",
+      "target": "to answer / to reply",
+      "example": "Il a répondu à tous les courriels.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "saluer",
+      "target": "to greet",
+      "example": "Salue tes collègues en arrivant.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire ses adieux / dire au revoir",
+      "target": "to say goodbye",
+      "example": "Il a dit au revoir avec une accolade.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se présenter",
+      "target": "to introduce oneself",
+      "example": "Je me suis présenté aux nouveaux collègues.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "remercier",
+      "target": "to thank",
+      "example": "Je l'ai remercié pour son aide.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "s'excuser",
+      "target": "to apologize",
+      "example": "Il s'est excusé d'être arrivé en retard.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se plaindre",
+      "target": "to complain",
+      "example": "Il s'est plaint du bruit auprès du voisin.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "demander / commander",
+      "target": "to ask / to order",
+      "example": "Il a demandé de l'aide à son collègue.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "inviter",
+      "target": "to invite",
+      "example": "Nous les avons invités à dîner samedi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "conseiller",
+      "target": "to advise / to recommend",
+      "example": "Je te conseille d'étudier davantage.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "proposer",
+      "target": "to suggest / to propose",
+      "example": "Il a proposé une solution au problème.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "donner son avis",
+      "target": "to give one's opinion",
+      "example": "Que penses-tu de ce sujet ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "discuter / se disputer",
+      "target": "to discuss / to argue",
+      "example": "Ils ont discuté pendant des heures sans trouver d'accord.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "convaincre",
+      "target": "to convince",
+      "example": "Il a essayé de me convaincre de son idée.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mentir",
+      "target": "to lie",
+      "example": "Je ne mens jamais à mes amis.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "promettre",
+      "target": "to promise",
+      "example": "Il a promis qu'il arriverait à l'heure.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "communiquer",
+      "target": "to communicate",
+      "example": "Il communique très bien en anglais.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "interrompre",
+      "target": "to interrupt",
+      "example": "N'interromps pas quand quelqu'un parle.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

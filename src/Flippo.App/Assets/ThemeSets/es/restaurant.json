@@ -1,0 +1,249 @@
+{
+  "id": "es-restaurant",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Restaurant",
+  "entries": [
+    {
+      "source": "el restaurante",
+      "target": "das Restaurant / die Gaststätte",
+      "example": "Reservamos mesa en el restaurante para el viernes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el menú",
+      "target": "das Tagesmenü / die Speisekarte",
+      "example": "¿Me trae el menú del día por favor?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carta",
+      "target": "die Speisekarte",
+      "example": "¿Podemos ver la carta de vinos?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el camarero",
+      "target": "der Kellner",
+      "example": "El camarero fue muy atento.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la camarera",
+      "target": "die Kellnerin",
+      "example": "La camarera nos recomendó el plato del día.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el chef",
+      "target": "der Küchenchef / Chefkoch",
+      "example": "El chef es famoso por su cocina mediterránea.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el plato",
+      "target": "der Teller / das Gericht",
+      "example": "El plato del día es paella valenciana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cuchillo",
+      "target": "das Messer",
+      "example": "El cuchillo de carne está muy afilado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cuchara",
+      "target": "der Löffel",
+      "example": "Necesito una cuchara para la sopa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tenedor",
+      "target": "die Gabel",
+      "example": "Pon el tenedor a la izquierda del plato.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la taza",
+      "target": "die Tasse",
+      "example": "¿Me trae una taza de café?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el platillo",
+      "target": "die Untertasse",
+      "example": "El platillo va debajo de la taza.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la copa",
+      "target": "das (Wein)glas",
+      "example": "¿Una copa de vino blanco?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vaso",
+      "target": "das Glas (Trinkglas)",
+      "example": "Pide un vaso de agua por favor.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la servilleta",
+      "target": "die Serviette",
+      "example": "Pon la servilleta en el regazo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cuenta",
+      "target": "die Rechnung",
+      "example": "¿Nos puede traer la cuenta?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la propina",
+      "target": "das Trinkgeld",
+      "example": "Dejé una buena propina al camarero.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la reserva",
+      "target": "die Reservierung",
+      "example": "Tenemos reserva a nombre de García.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cocinar",
+      "target": "kochen",
+      "example": "El chef cocina con ingredientes frescos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pedir",
+      "target": "bestellen / bitten",
+      "example": "¿Qué vas a pedir de primero?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "recomendar",
+      "target": "empfehlen",
+      "example": "¿Qué nos recomienda de la carta?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cocido",
+      "target": "der Eintopf (spanisch)",
+      "example": "El cocido madrileño es muy contundente.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la caña",
+      "target": "das kleine Fassbier",
+      "example": "Me pone una caña y una tapa por favor.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tapa",
+      "target": "die Tapa / der Snack",
+      "example": "En España sirven tapas gratis con la bebida.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el primer plato",
+      "target": "die Vorspeise / erster Gang",
+      "example": "De primer plato pedí ensalada mixta.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el segundo plato",
+      "target": "der Hauptgang",
+      "example": "De segundo plato tomé merluza a la plancha.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el postre",
+      "target": "die Nachspeise / das Dessert",
+      "example": "De postre tomaré un flan casero.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la propuesta del día",
+      "target": "das Tagesangebot",
+      "example": "La propuesta del día incluye postre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sin gluten",
+      "target": "glutenfrei",
+      "example": "¿Tienen platos sin gluten?",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vegetariano",
+      "target": "vegetarisch",
+      "example": "¿Tienen opciones vegetarianas?",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

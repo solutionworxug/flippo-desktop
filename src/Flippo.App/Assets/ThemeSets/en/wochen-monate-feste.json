@@ -1,0 +1,249 @@
+{
+  "id": "en-wochen-monate-feste",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Wochen Monate Feste",
+  "entries": [
+    {
+      "source": "September",
+      "target": "der September",
+      "example": "Classes start in September.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "August",
+      "target": "der August",
+      "example": "In August it's very hot in Spain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "July",
+      "target": "der Juli",
+      "example": "We go on holiday in July.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "June",
+      "target": "der Juni",
+      "example": "The final exams are in June.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "May",
+      "target": "der Mai",
+      "example": "In May many flowers bloom.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "April",
+      "target": "der April",
+      "example": "April showers bring May flowers.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "March",
+      "target": "der März",
+      "example": "Spring begins in March.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "February",
+      "target": "der Februar",
+      "example": "My birthday is in February.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "January",
+      "target": "der Januar",
+      "example": "January is the coldest month of the year.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "November",
+      "target": "der November",
+      "example": "In November the days are short.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "October",
+      "target": "der Oktober",
+      "example": "In October the leaves fall from the trees.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "December",
+      "target": "der Dezember",
+      "example": "In December we celebrate Christmas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "month",
+      "target": "der Monat",
+      "example": "This month I have a lot of plans.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "public holiday",
+      "target": "der Feiertag",
+      "example": "Monday is a public holiday and I'm not working.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Monday",
+      "target": "der Montag",
+      "example": "On Monday I go back to work.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Tuesday",
+      "target": "der Dienstag",
+      "example": "On Tuesdays I have a Spanish class.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Wednesday",
+      "target": "der Mittwoch",
+      "example": "On Wednesday we have dinner together.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Thursday",
+      "target": "der Donnerstag",
+      "example": "On Thursdays I go to the gym.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Friday",
+      "target": "der Freitag",
+      "example": "On Friday night we go out dancing.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Saturday",
+      "target": "der Samstag",
+      "example": "On Saturday we go to the market.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Sunday",
+      "target": "der Sonntag",
+      "example": "On Sunday we have a late breakfast with the family.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "birthday",
+      "target": "der Geburtstag",
+      "example": "Tomorrow is my mother's birthday.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "christening",
+      "target": "die Taufe",
+      "example": "We went to the baby's christening.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wedding",
+      "target": "die Hochzeit",
+      "example": "The wedding took place in a very old church.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Easter",
+      "target": "Ostern",
+      "example": "At Easter we eat Easter cake.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "anniversary",
+      "target": "das Jubiläum",
+      "example": "Today we celebrate our wedding anniversary.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "name day",
+      "target": "der Namenstag",
+      "example": "The name day is celebrated like a birthday.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Christmas",
+      "target": "Weihnachten",
+      "example": "At Christmas the whole family gets together.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "annual",
+      "target": "jährlich",
+      "example": "The medical check-up is annual.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "party",
+      "target": "das Fest / die Party",
+      "example": "We're organising a party for his birthday.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

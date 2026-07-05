@@ -1,0 +1,249 @@
+{
+  "id": "fren-kochen-backen",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Kochen Backen",
+  "entries": [
+    {
+      "source": "cuisiner",
+      "target": "to cook",
+      "example": "J'aime cuisiner pour mes amis le week-end.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire cuire (au four)",
+      "target": "to bake",
+      "example": "Je vais faire cuire une tarte aux pommes aujourd'hui.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "frire",
+      "target": "to fry",
+      "example": "Il faut frire les pommes de terre dans de l'huile très chaude.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "couper en deux",
+      "target": "to halve",
+      "example": "Coupe les tomates en deux pour la salade.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mélanger",
+      "target": "to mix",
+      "example": "Il faut bien mélanger les œufs avec le sucre.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "couper",
+      "target": "to cut",
+      "example": "Fais attention en coupant la viande avec ce couteau.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "éplucher",
+      "target": "to peel",
+      "example": "Tu m'aides à éplucher les pommes de terre ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "remuer",
+      "target": "to stir",
+      "example": "Remue la soupe pour qu'elle n'attache pas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "assaisonner",
+      "target": "to season",
+      "example": "Tu dois assaisonner la viande avec du sel et du poivre.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire revenir",
+      "target": "to sauté",
+      "example": "D'abord il faut faire revenir l'oignon quelques minutes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "battre",
+      "target": "to beat / to whisk",
+      "example": "Bats les blancs d'œufs en neige.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "râper",
+      "target": "to grate",
+      "example": "Je vais râper un peu de fromage pour les pâtes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "peser",
+      "target": "to weigh",
+      "example": "Il est important de peser les ingrédients avec précision pour la pâtisserie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "verser",
+      "target": "to pour",
+      "example": "Verse le lait peu à peu dans la pâte.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la recette",
+      "target": "recipe",
+      "example": "Cette recette de gâteau vient de ma grand-mère.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'ingrédient",
+      "target": "ingredient",
+      "example": "Assure-toi d'avoir tous les ingrédients avant de commencer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le four",
+      "target": "oven",
+      "example": "Préchauffe le four à cent quatre-vingts degrés.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la poêle",
+      "target": "frying pan",
+      "example": "Mets un peu d'huile d'olive dans la poêle.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la casserole",
+      "target": "pot",
+      "example": "La casserole est pleine d'eau bouillante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le saladier / le bol",
+      "target": "bowl",
+      "example": "Mets la farine et la levure dans un grand saladier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bouillir",
+      "target": "to boil",
+      "example": "L'eau commence déjà à bouillir, mets les pâtes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "laver",
+      "target": "to wash",
+      "example": "Il faut laver les légumes avant de les cuisiner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mesurer / peser",
+      "target": "to weigh out",
+      "example": "Pèse cent grammes de beurre.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la balance de cuisine",
+      "target": "kitchen scale",
+      "example": "Utilise la balance de cuisine pour mesurer la farine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ajouter",
+      "target": "to add",
+      "example": "Ajoute une pincée de sel à la sauce.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "égoutter",
+      "target": "to drain",
+      "example": "Égoutte les spaghettis quand ils sont prêts.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pétrir",
+      "target": "to knead",
+      "example": "Tu dois pétrir la pâte à pain pendant dix minutes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire fondre",
+      "target": "to melt",
+      "example": "Il faut faire fondre le chocolat au bain-marie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "préchauffer",
+      "target": "to preheat",
+      "example": "N'oublie pas de préchauffer le four.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "laisser refroidir",
+      "target": "to let cool",
+      "example": "Laisse refroidir le gâteau avant de le démouler.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

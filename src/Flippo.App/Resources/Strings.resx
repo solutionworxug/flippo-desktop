@@ -272,4 +272,63 @@ Learn session
   <data name="Dash_LastSessionFormat" xml:space="preserve"><value>{0} · {1} · {2}/{3} correct</value></data>
   <data name="Dash_QuickActions" xml:space="preserve"><value>Quick actions</value></data>
   <data name="Dash_ActionLearn" xml:space="preserve"><value>Learn all due</value></data>
+  <data name="Sets_ImportThemeSet" xml:space="preserve"><value>Theme sets</value></data>
+  <data name="Menu_ImportThemeSet" xml:space="preserve"><value>Install theme set…</value></data>
+  <data name="ThemeSet_PickerTitle" xml:space="preserve"><value>Theme sets</value></data>
+  <data name="ThemeSet_Heading" xml:space="preserve"><value>Install a theme set</value></data>
+  <data name="ThemeSet_AllLanguages" xml:space="preserve"><value>All languages</value></data>
+  <data name="ThemeSet_CardCount" xml:space="preserve"><value>{0} cards</value></data>
+  <data name="ThemeSet_Import" xml:space="preserve"><value>Import</value></data>
+  <data name="ThemeSet_Imported" xml:space="preserve"><value>Imported ✓</value></data>
+  <data name="ThemeSet_Close" xml:space="preserve"><value>Close</value></data>
+  <data name="ThemeSet_Empty" xml:space="preserve"><value>No theme sets available.</value></data>
+  <data name="ThemeSetTitle_adjektive" xml:space="preserve"><value>Adjectives</value></data>
+  <data name="ThemeSetTitle_adverbien" xml:space="preserve"><value>Adverbs</value></data>
+  <data name="ThemeSetTitle_arbeit_und_studium" xml:space="preserve"><value>Work and Study</value></data>
+  <data name="ThemeSetTitle_assessoirs" xml:space="preserve"><value>Accessories</value></data>
+  <data name="ThemeSetTitle_charaktereigenschaften" xml:space="preserve"><value>Character Traits</value></data>
+  <data name="ThemeSetTitle_einkauf" xml:space="preserve"><value>Shopping</value></data>
+  <data name="ThemeSetTitle_emotionen_und_gefuhle" xml:space="preserve"><value>Emotions and Feelings</value></data>
+  <data name="ThemeSetTitle_essen" xml:space="preserve"><value>Food</value></data>
+  <data name="ThemeSetTitle_familie_und_freunde" xml:space="preserve"><value>Family and Friends</value></data>
+  <data name="ThemeSetTitle_farben" xml:space="preserve"><value>Colors</value></data>
+  <data name="ThemeSetTitle_frageworter" xml:space="preserve"><value>Question Words</value></data>
+  <data name="ThemeSetTitle_getranke" xml:space="preserve"><value>Drinks</value></data>
+  <data name="ThemeSetTitle_haus_und_wohnen" xml:space="preserve"><value>House and Living</value></data>
+  <data name="ThemeSetTitle_kleidung" xml:space="preserve"><value>Clothing</value></data>
+  <data name="ThemeSetTitle_korper" xml:space="preserve"><value>Body</value></data>
+  <data name="ThemeSetTitle_korperpflege_und_gesundheit" xml:space="preserve"><value>Personal Care and Health</value></data>
+  <data name="ThemeSetTitle_musik_und_kultur" xml:space="preserve"><value>Music and Culture</value></data>
+  <data name="ThemeSetTitle_natur_und_wetter" xml:space="preserve"><value>Nature and Weather</value></data>
+  <data name="ThemeSetTitle_obst_und_gemuse" xml:space="preserve"><value>Fruits and Vegetables</value></data>
+  <data name="ThemeSetTitle_personenbechreibungen" xml:space="preserve"><value>Describing People</value></data>
+  <data name="ThemeSetTitle_praposition" xml:space="preserve"><value>Prepositions</value></data>
+  <data name="ThemeSetTitle_restaurant" xml:space="preserve"><value>Restaurant</value></data>
+  <data name="ThemeSetTitle_schule_und_lernen" xml:space="preserve"><value>School and Learning</value></data>
+  <data name="ThemeSetTitle_sport_und_freizeit" xml:space="preserve"><value>Sports and Leisure</value></data>
+  <data name="ThemeSetTitle_stadt_und_gebaude" xml:space="preserve"><value>City and Buildings</value></data>
+  <data name="ThemeSetTitle_telefon_und_internet" xml:space="preserve"><value>Phone and Internet</value></data>
+  <data name="ThemeSetTitle_textarten" xml:space="preserve"><value>Text Types</value></data>
+  <data name="ThemeSetTitle_tierwelt" xml:space="preserve"><value>Animals</value></data>
+  <data name="ThemeSetTitle_verben_alltag" xml:space="preserve"><value>Verbs · Everyday</value></data>
+  <data name="ThemeSetTitle_verben_bewegung" xml:space="preserve"><value>Verbs · Movement</value></data>
+  <data name="ThemeSetTitle_verben_kommunikation" xml:space="preserve"><value>Verbs · Communication</value></data>
+  <data name="ThemeSetTitle_verkehr_und_transport" xml:space="preserve"><value>Traffic and Transport</value></data>
+  <data name="ThemeSetTitle_wochen_monate_feste" xml:space="preserve"><value>Weeks, Months, Holidays</value></data>
+  <data name="ThemeSetTitle_wohnungseinrichtung" xml:space="preserve"><value>Home Furnishing</value></data>
+  <data name="ThemeSetTitle_zahlen" xml:space="preserve"><value>Numbers</value></data>
+  <data name="ThemeSetTitle_zeiten" xml:space="preserve"><value>Tenses</value></data>
+  <data name="ThemeSetTitle_alltag_routine" xml:space="preserve"><value>Everyday &amp; Routine</value></data>
+  <data name="ThemeSetTitle_arztbesuch" xml:space="preserve"><value>Doctor's Visit</value></data>
+  <data name="ThemeSetTitle_einkaufen" xml:space="preserve"><value>Shopping</value></data>
+  <data name="ThemeSetTitle_emotionen" xml:space="preserve"><value>Emotions</value></data>
+  <data name="ThemeSetTitle_hotel" xml:space="preserve"><value>Hotel</value></data>
+  <data name="ThemeSetTitle_kochen_backen" xml:space="preserve"><value>Cooking &amp; Baking</value></data>
+  <data name="ThemeSetTitle_lebensmittel" xml:space="preserve"><value>Groceries</value></data>
+  <data name="ThemeSetTitle_personenbeschreibungen" xml:space="preserve"><value>Describing People</value></data>
+  <data name="ThemeSetTitle_reise_und_urlaub" xml:space="preserve"><value>Travel and Holiday</value></data>
+  <data name="ThemeSetTitle_schule" xml:space="preserve"><value>School</value></data>
+  <data name="ThemeSetTitle_stadt" xml:space="preserve"><value>City</value></data>
+  <data name="ThemeSetTitle_transportmittel" xml:space="preserve"><value>Means of Transport</value></data>
+  <data name="ThemeSetTitle_verkehr" xml:space="preserve"><value>Traffic</value></data>
 </root>

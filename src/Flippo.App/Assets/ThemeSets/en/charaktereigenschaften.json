@@ -1,0 +1,249 @@
+{
+  "id": "en-charaktereigenschaften",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Charaktereigenschaften",
+  "entries": [
+    {
+      "source": "admissible",
+      "target": "zulässig",
+      "example": "His behavior is not admissible.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "calm",
+      "target": "ruhig",
+      "example": "The child is very calm.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "honest",
+      "target": "ehrlich",
+      "example": "She is a very honest person.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "impatient",
+      "target": "ungeduldig",
+      "example": "My brother is very impatient.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "shy",
+      "target": "schüchtern",
+      "example": "I was very shy as a child.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "brave",
+      "target": "mutig",
+      "example": "The firefighter was very brave.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "friendly",
+      "target": "freundlich",
+      "example": "The waitress is friendly.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "helpful",
+      "target": "hilfsbereit",
+      "example": "My neighbor is very helpful.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "patient",
+      "target": "geduldig",
+      "example": "A good teacher is patient.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hard-working",
+      "target": "fleißig",
+      "example": "She is a hard-working student.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lazy",
+      "target": "faul",
+      "example": "He is too lazy to clean his room.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "funny",
+      "target": "lustig",
+      "example": "Your friend is very funny.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "serious",
+      "target": "ernst",
+      "example": "He looks serious today.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nice",
+      "target": "nett",
+      "example": "The people here are very nice.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pleasant / likeable",
+      "target": "sympathisch",
+      "example": "Our new colleague is very likeable.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "unfriendly",
+      "target": "unfreundlich",
+      "example": "The man at the counter was unfriendly.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "polite",
+      "target": "höflich",
+      "example": "Please be polite to guests.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rude",
+      "target": "unhöflich",
+      "example": "That answer was rude.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "intelligent",
+      "target": "intelligent",
+      "example": "She is very intelligent.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "stupid",
+      "target": "dumm",
+      "example": "That was a stupid mistake.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "creative",
+      "target": "kreativ",
+      "example": "He has many creative ideas.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "reliable",
+      "target": "zuverlässig",
+      "example": "She is a reliable colleague.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "unreliable",
+      "target": "unzuverlässig",
+      "example": "The bus is often unreliable.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "confident",
+      "target": "selbstbewusst",
+      "example": "He is confident during interviews.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "modest",
+      "target": "bescheiden",
+      "example": "Despite his success, he is modest.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "curious",
+      "target": "neugierig",
+      "example": "The child is curious and asks many questions.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "open",
+      "target": "offen",
+      "example": "She is open to new ideas.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "reserved",
+      "target": "verschlossen",
+      "example": "He is rather reserved with strangers.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "generous",
+      "target": "großzügig",
+      "example": "My aunt is very generous.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "stingy",
+      "target": "geizig",
+      "example": "He is too stingy to leave a tip.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

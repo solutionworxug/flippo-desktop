@@ -1,0 +1,249 @@
+{
+  "id": "en-getranke",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Getränke",
+  "entries": [
+    {
+      "source": "water",
+      "target": "das Wasser",
+      "example": "I drink eight glasses of water a day.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "milk",
+      "target": "die Milch",
+      "example": "Coffee with milk is a typical breakfast drink.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "juice",
+      "target": "der Saft",
+      "example": "I squeeze oranges to make fresh juice.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "coffee",
+      "target": "der Kaffee",
+      "example": "I drink coffee with milk in the morning.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tea",
+      "target": "der Tee",
+      "example": "In the afternoon I drink a cup of tea.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "beer",
+      "target": "das Bier",
+      "example": "We order beer at the bar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wine",
+      "target": "der Wein",
+      "example": "Red wine goes well with meat.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sangria",
+      "target": "die Sangria",
+      "example": "Sangria is a typical Spanish drink.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "soft drink / lemonade",
+      "target": "das Erfrischungsgetränk / die Limonade",
+      "example": "The children order a soft drink.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cola",
+      "target": "die Cola",
+      "example": "Can I have cola with lemon?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "orangeade",
+      "target": "die Orangenlimonade",
+      "example": "The orangeade is very cold.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lemonade",
+      "target": "die Limonade",
+      "example": "I make homemade lemonade with fresh lemons.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cocktail",
+      "target": "der Cocktail",
+      "example": "He ordered a non-alcoholic cocktail.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sparkling wine / champagne",
+      "target": "der Sekt / Champagner",
+      "example": "We toast with champagne on New Year's Eve.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "milkshake / smoothie",
+      "target": "der Milchshake / Smoothie",
+      "example": "I ordered a strawberry milkshake.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "herbal tea",
+      "target": "der Kräutertee",
+      "example": "I drink chamomile tea for my stomach.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hot cocoa / hot chocolate",
+      "target": "der heiße Kakao / die heiße Schokolade",
+      "example": "In winter I drink hot chocolate.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "orange juice",
+      "target": "der Orangensaft",
+      "example": "Fresh orange juice is delicious.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sparkling water",
+      "target": "das Sprudelwasser",
+      "example": "I prefer sparkling water to tap water.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "still water",
+      "target": "das stille Wasser",
+      "example": "Sparkling or still water?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "white wine",
+      "target": "der Weißwein",
+      "example": "White wine goes well with fish.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "red wine",
+      "target": "der Rotwein",
+      "example": "Would you like a glass of red wine?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cava",
+      "target": "der Sekt (spanisch)",
+      "example": "Cava is Spanish sparkling wine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "glass / cup",
+      "target": "das Glas (Wein) / die Tasse",
+      "example": "I had a glass of wine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to drink",
+      "target": "trinken",
+      "example": "What do you want to drink?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to have",
+      "target": "nehmen / trinken / essen",
+      "example": "I have coffee with milk.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to be thirsty",
+      "target": "Durst haben",
+      "example": "I am very thirsty after running.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "drink",
+      "target": "das Getränk",
+      "example": "What drink would you like with the meal?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ice",
+      "target": "das Eis (Eiswürfel)",
+      "example": "Do you want your soft drink with ice?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "counter",
+      "target": "die Theke / der Tresen",
+      "example": "We have breakfast at the bar counter.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

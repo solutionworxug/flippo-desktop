@@ -1,0 +1,249 @@
+{
+  "id": "en-arztbesuch",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Arztbesuch",
+  "entries": [
+    {
+      "source": "doctor",
+      "target": "der Arzt",
+      "example": "The doctor prescribed cough syrup for me.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nurse",
+      "target": "die Krankenschwester",
+      "example": "The nurse took my blood pressure.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "appointment",
+      "target": "der Termin",
+      "example": "I have an appointment with the dentist at ten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "waiting room",
+      "target": "das Wartezimmer",
+      "example": "There are many people in waiting room.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "prescription",
+      "target": "das Rezept",
+      "example": "The doctor wrote a prescription for antibiotics.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "medicine",
+      "target": "das Medikament",
+      "example": "You should take this medicine after meals.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "symptom",
+      "target": "das Symptom",
+      "example": "Tell me your main symptoms.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pain",
+      "target": "der Schmerz",
+      "example": "Where exactly do you feel pain?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fever",
+      "target": "das Fieber",
+      "example": "I have high fever and headache.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cough",
+      "target": "der Husten",
+      "example": "This cough keeps me from sleeping.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cold",
+      "target": "die Erkältung",
+      "example": "I have had a cold since Monday.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "flu",
+      "target": "die Grippe",
+      "example": "Flu can be very tiring.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "headache",
+      "target": "die Kopfschmerzen",
+      "example": "I have a strong headache today.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "stomachache",
+      "target": "die Bauchschmerzen",
+      "example": "She has stomachache after lunch.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dentist",
+      "target": "der Zahnarzt",
+      "example": "I have to go to the dentist tomorrow.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hospital",
+      "target": "das Krankenhaus",
+      "example": "The hospital is near the station.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pharmacy",
+      "target": "die Apotheke",
+      "example": "I buy medicine at pharmacy.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tablet / pill",
+      "target": "die Tablette",
+      "example": "Take one tablet with water.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ointment",
+      "target": "die Salbe",
+      "example": "Apply ointment twice a day.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "injection",
+      "target": "die Spritze",
+      "example": "The nurse gave me injection.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "examination",
+      "target": "die Untersuchung",
+      "example": "The examination only took ten minutes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ill / sick",
+      "target": "krank",
+      "example": "I am sick and cannot go to work.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "healthy",
+      "target": "gesund",
+      "example": "Fruit and vegetables are healthy.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "feel",
+      "target": "sich fühlen",
+      "example": "How do you feel today?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hurt",
+      "target": "wehtun",
+      "example": "My back hurts after sport.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rest",
+      "target": "sich ausruhen",
+      "example": "You should rest at home.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "take",
+      "target": "einnehmen",
+      "example": "You must take medicine twice a day.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "insure",
+      "target": "versichern",
+      "example": "I am insured through my employer.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "health insurance",
+      "target": "die Krankenversicherung",
+      "example": "Health insurance covers part of the costs.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "emergency",
+      "target": "der Notfall",
+      "example": "In emergency, call doctor immediately.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

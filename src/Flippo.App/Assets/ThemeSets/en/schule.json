@@ -1,0 +1,249 @@
+{
+  "id": "en-schule",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Schule",
+  "entries": [
+    {
+      "source": "school",
+      "target": "die Schule",
+      "example": "I go to school every morning.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "classroom",
+      "target": "das Klassenzimmer",
+      "example": "Our classroom is on the first floor.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "teacher",
+      "target": "der Lehrer",
+      "example": "The teacher explains the exercise.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pupil",
+      "target": "der Schüler",
+      "example": "Every pupil has their own exercise book.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "principal",
+      "target": "der Direktor",
+      "example": "The principal welcomes the new pupils.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "class",
+      "target": "die Klasse",
+      "example": "There are thirty children in my class.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "board",
+      "target": "die Tafel",
+      "example": "The teacher writes the word on the board.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "chalk",
+      "target": "die Kreide",
+      "example": "The chalk is almost used up.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "exercise book",
+      "target": "das Heft",
+      "example": "Write the answer in your exercise book.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "textbook",
+      "target": "das Schulbuch",
+      "example": "Open the textbook to page ten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pen",
+      "target": "der Kugelschreiber",
+      "example": "May I use your pen?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pencil",
+      "target": "der Bleistift",
+      "example": "Draw the line with a pencil.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "eraser",
+      "target": "der Radiergummi",
+      "example": "Can I borrow your eraser?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ruler",
+      "target": "das Lineal",
+      "example": "I draw a straight line with the ruler.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pencil sharpener",
+      "target": "der Spitzer",
+      "example": "My pencil sharpener is in my schoolbag.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schoolbag",
+      "target": "die Schultasche",
+      "example": "The schoolbag is very heavy today.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schoolyard",
+      "target": "der Schulhof",
+      "example": "We play in the schoolyard during the break.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lessons",
+      "target": "der Unterricht",
+      "example": "Lessons are cancelled today.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "break",
+      "target": "die Pause",
+      "example": "I eat my snack during the break.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "homework",
+      "target": "die Hausaufgaben",
+      "example": "I do my homework after lunch.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "grade",
+      "target": "die Note",
+      "example": "She got a good grade.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "report card",
+      "target": "das Zeugnis",
+      "example": "The report card comes at the end of the school year.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "exam",
+      "target": "die Prüfung",
+      "example": "We have an exam tomorrow.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "subject",
+      "target": "das Fach",
+      "example": "Which subject do you like best?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "maths",
+      "target": "die Mathematik",
+      "example": "Maths is not my favourite subject.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "history",
+      "target": "die Geschichte",
+      "example": "In history we learn about the Middle Ages.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "timetable",
+      "target": "der Stundenplan",
+      "example": "Check the timetable for tomorrow.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "library",
+      "target": "die Bibliothek",
+      "example": "I borrow books from the library.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "question",
+      "target": "die Frage",
+      "example": "Do you have a question for the teacher?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "answer",
+      "target": "die Antwort",
+      "example": "The correct answer is on the board.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

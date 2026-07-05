@@ -1,0 +1,249 @@
+{
+  "id": "de-adjektive",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Adjektive",
+  "entries": [
+    {
+      "source": "nächster",
+      "target": "next",
+      "example": "Der nächste Bus kommt in fünf Minuten.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "deutlich",
+      "target": "clear",
+      "example": "Bitte sprich etwas deutlicher.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "einziger",
+      "target": "only",
+      "example": "Das ist das einzige Café im Dorf.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kurz",
+      "target": "short",
+      "example": "Der Weg zum Bahnhof ist kurz.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lang",
+      "target": "long",
+      "example": "Der Fluss ist sehr lang.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bereit",
+      "target": "ready",
+      "example": "Bist du bereit zum Gehen?",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dort",
+      "target": "there",
+      "example": "Der Markt ist gleich dort drüben.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sicherlich",
+      "target": "certainly",
+      "example": "Er kommt sicherlich morgen an.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "unbequem",
+      "target": "uncomfortable",
+      "example": "Dieser Stuhl ist sehr unbequem.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wichtig",
+      "target": "important",
+      "example": "Es ist wichtig, viel Wasser zu trinken.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "draußen",
+      "target": "outside",
+      "example": "Die Kinder spielen draußen im Garten.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hart",
+      "target": "hard",
+      "example": "Das Brot ist ganz hart geworden.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lieblings...",
+      "target": "favorite",
+      "example": "Schokolade ist meine Lieblingssüßigkeit.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "müde",
+      "target": "tired",
+      "example": "Nach der Arbeit bin ich sehr müde.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "klein",
+      "target": "small",
+      "example": "Die Wohnung ist klein, aber gemütlich.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gut",
+      "target": "good",
+      "example": "Dieser Kaffee schmeckt richtig gut.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schmutzig",
+      "target": "dirty",
+      "example": "Der Boden ist schmutzig.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sauber",
+      "target": "clean",
+      "example": "Die Küche ist sehr sauber.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "niedrig",
+      "target": "low",
+      "example": "Der Preis ist ziemlich niedrig.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "groß",
+      "target": "tall",
+      "example": "Mein Vater ist sehr groß.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ausgezeichnet",
+      "target": "excellent",
+      "example": "Der Service im Hotel ist ausgezeichnet.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "korrekt",
+      "target": "correct",
+      "example": "Deine Antwort ist korrekt.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "falsch",
+      "target": "wrong",
+      "example": "Diese Information ist falsch.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "perfekt",
+      "target": "perfect",
+      "example": "Das Wetter ist heute perfekt.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schnell",
+      "target": "fast",
+      "example": "Der Zug ist sehr schnell.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "langsam",
+      "target": "slow",
+      "example": "Bitte fahr etwas langsamer.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "besser",
+      "target": "better",
+      "example": "Heute geht es mir besser.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schlecht",
+      "target": "bad",
+      "example": "Mir geht es heute schlecht.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "neu",
+      "target": "new",
+      "example": "Ich habe einen neuen Job.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "alt",
+      "target": "old",
+      "example": "Dieses Gebäude ist sehr alt.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

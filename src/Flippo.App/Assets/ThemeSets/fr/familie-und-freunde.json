@@ -1,0 +1,249 @@
+{
+  "id": "fr-familie-und-freunde",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Familie und Freunde",
+  "entries": [
+    {
+      "source": "la famille",
+      "target": "die Familie",
+      "example": "Toute la famille se réunit à Noël.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'amitié",
+      "target": "die Freundschaft",
+      "example": "La vraie amitié dure pour toujours.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le père",
+      "target": "der Vater",
+      "example": "Mon père travaille dans un bureau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mère",
+      "target": "die Mutter",
+      "example": "Ma mère cuisine très bien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les parents",
+      "target": "die Eltern",
+      "example": "Mes parents vivent dans le sud.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le fils",
+      "target": "der Sohn",
+      "example": "Son fils aîné a vingt ans.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fille",
+      "target": "die Tochter",
+      "example": "La fille cadette étudie la médecine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le frère",
+      "target": "der Bruder",
+      "example": "Mon frère habite à Berlin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la sœur",
+      "target": "die Schwester",
+      "example": "Ma sœur s'est mariée l'année dernière.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le grand-père",
+      "target": "der Großvater",
+      "example": "Mon grand-père me raconte des histoires.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la grand-mère",
+      "target": "die Großmutter",
+      "example": "La grand-mère prépare le meilleur gâteau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'oncle",
+      "target": "der Onkel",
+      "example": "Mon oncle vit en Argentine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tante",
+      "target": "die Tante",
+      "example": "La tante nous rapporte des cadeaux de voyage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cousin",
+      "target": "der Cousin",
+      "example": "Mon cousin et moi sommes de très bons amis.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'ami",
+      "target": "der Freund",
+      "example": "Mon meilleur ami habite près d'ici.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le mari",
+      "target": "der Ehemann",
+      "example": "Son mari travaille à l'étranger.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la femme",
+      "target": "die Ehefrau",
+      "example": "Sa femme est professeure d'anglais.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le petit ami / le fiancé",
+      "target": "der feste Freund / Verlobte",
+      "example": "Son petit ami lui a offert des fleurs.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le petit-fils",
+      "target": "der Enkel",
+      "example": "Les grands-parents adorent leurs petits-enfants.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la petite-fille",
+      "target": "die Enkelin",
+      "example": "La petite-fille est la joie des grands-parents.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le beau-frère",
+      "target": "der Schwager",
+      "example": "Mon beau-frère est très sympathique.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la belle-sœur",
+      "target": "die Schwägerin",
+      "example": "La belle-sœur habite dans le même quartier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la belle-fille",
+      "target": "die Schwiegertochter",
+      "example": "La belle-fille s'entend bien avec la belle-mère.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le gendre",
+      "target": "der Schwiegersohn",
+      "example": "Le gendre aide beaucoup à la maison.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le couple / le/la partenaire",
+      "target": "das Paar / der/die Partner(in)",
+      "example": "Mon partenaire et moi voyageons beaucoup.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le garçon",
+      "target": "der Junge / der Typ",
+      "example": "Le garçon de la classe est très intelligent.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fille / la jeune femme",
+      "target": "das Mädchen / die junge Frau",
+      "example": "La jeune femme parle trois langues.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la personne",
+      "target": "die Person",
+      "example": "C'est une personne très aimable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les gens",
+      "target": "die Leute",
+      "example": "Les gens ici sont très ouverts.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'homme",
+      "target": "der Mann",
+      "example": "L'homme à la veste rouge est mon chef.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

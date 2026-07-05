@@ -1,0 +1,249 @@
+{
+  "id": "de-natur-und-wetter",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Natur und Wetter",
+  "entries": [
+    {
+      "source": "das Wetter",
+      "target": "weather",
+      "example": "Wie ist das Wetter heute?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Sonne",
+      "target": "sun",
+      "example": "Es gibt viel Sonne, nimm deine Sonnenbrille mit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Regen",
+      "target": "rain",
+      "example": "Der Regen hat seit gestern nicht aufgehört.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Wind",
+      "target": "wind",
+      "example": "Heute weht viel Wind, es ist kalt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Schnee",
+      "target": "snow",
+      "example": "In den Bergen liegt im Januar viel Schnee.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Nebel",
+      "target": "fog",
+      "example": "Heute Morgen lag viel Nebel auf der Straße.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Gewitter / der Sturm",
+      "target": "storm",
+      "example": "Ein Gewitter zieht auf, nimm deinen Schirm.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Donner",
+      "target": "thunder",
+      "example": "Der Donner macht mir Angst.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Blitz",
+      "target": "lightning",
+      "example": "Der Blitz erhellte den Himmel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bewölkt",
+      "target": "cloudy",
+      "example": "Der Himmel ist heute sehr bewölkt.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wolkenlos / klar",
+      "target": "clear",
+      "example": "Morgen wird der Himmel wolkenlos und sonnig.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "regnen",
+      "target": "to rain",
+      "example": "Es regnet in Strömen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schneien",
+      "target": "to snow",
+      "example": "Es hat die ganze Nacht in den Bergen geschneit.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "warm / heiß sein",
+      "target": "to be hot",
+      "example": "Im August ist es in Spanien sehr warm.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kalt sein",
+      "target": "to be cold",
+      "example": "Es ist sehr kalt, du musst dich warm anziehen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Temperatur",
+      "target": "temperature",
+      "example": "Die Temperatur fiel auf null Grad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Grad",
+      "target": "degree",
+      "example": "Heute sind es dreißig Grad im Schatten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Baum",
+      "target": "tree",
+      "example": "Bäume spenden im Sommer Schatten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Blume",
+      "target": "flower",
+      "example": "Die Blumen im Garten duften sehr schön.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Fluss",
+      "target": "river",
+      "example": "Der Ebro ist der längste Fluss Spaniens.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Meer",
+      "target": "sea",
+      "example": "Ich schwimme sehr gern im Meer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Berg",
+      "target": "mountain",
+      "example": "Im Winter fahren wir zum Skifahren in die Berge.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Wald",
+      "target": "forest",
+      "example": "Sonntags spazieren wir im Wald.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Strand",
+      "target": "beach",
+      "example": "Im August ist der Strand voller Menschen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Feld / das Land",
+      "target": "countryside",
+      "example": "Ich verbringe das Wochenende gern auf dem Land.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Natur",
+      "target": "nature",
+      "example": "Wir müssen die Natur schützen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Himmel",
+      "target": "sky",
+      "example": "Der Himmel ist heute Nacht voller Sterne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Wolke",
+      "target": "cloud",
+      "example": "Die Wolken verdecken die Sonne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Regenbogen",
+      "target": "rainbow",
+      "example": "Nach dem Regen erschien ein Regenbogen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Wettervorhersage",
+      "target": "weather forecast",
+      "example": "Die Wettervorhersage sagt für morgen Regen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

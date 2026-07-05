@@ -1,0 +1,249 @@
+{
+  "id": "esen-assessoirs",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Assessoirs",
+  "entries": [
+    {
+      "source": "el reloj",
+      "target": "watch",
+      "example": "Se me olvidó el reloj en casa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aro",
+      "target": "earring",
+      "example": "Lleva unos aros de oro muy bonitos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la joya",
+      "target": "jewellery",
+      "example": "Esta joya es un regalo de mi abuela.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pulsera",
+      "target": "bracelet",
+      "example": "Me regaló una pulsera de plata.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el anillo",
+      "target": "ring",
+      "example": "Lleva el anillo de boda en la mano izquierda.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el collar",
+      "target": "necklace",
+      "example": "El collar de perlas es muy elegante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pendiente",
+      "target": "earring",
+      "example": "Perdí un pendiente en la discoteca.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el bolso",
+      "target": "handbag",
+      "example": "Dejé el bolso en el taxi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cartera",
+      "target": "wallet",
+      "example": "No encuentro la cartera — ¿la has visto?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cinturón",
+      "target": "belt",
+      "example": "El cinturón de cuero va bien con ese pantalón.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las gafas de sol",
+      "target": "sunglasses",
+      "example": "No salgo en verano sin las gafas de sol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el paraguas",
+      "target": "umbrella",
+      "example": "Coge el paraguas que va a llover.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pañuelo",
+      "target": "handkerchief / scarf",
+      "example": "Lleva un pañuelo de seda al cuello.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el broche",
+      "target": "brooch",
+      "example": "El broche de su abuela es de oro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el llavero",
+      "target": "keyring",
+      "example": "Tengo muchas llaves en el llavero.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mochila",
+      "target": "backpack",
+      "example": "La mochila es más práctica que el bolso.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el maletín",
+      "target": "briefcase",
+      "example": "Lleva el maletín al trabajo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sombrero",
+      "target": "hat",
+      "example": "El sombrero de paja es perfecto para la playa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bufanda",
+      "target": "scarf",
+      "example": "La bufanda de lana abriga mucho en invierno.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el guante",
+      "target": "glove",
+      "example": "Se me perdió un guante de piel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el monedero",
+      "target": "coin purse",
+      "example": "Paga con el monedero — tengo monedas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mochila de viaje",
+      "target": "travel backpack",
+      "example": "La mochila de viaje es perfecta para el fin de semana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cadena",
+      "target": "chain",
+      "example": "Le regaló una cadena de oro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el imperdible",
+      "target": "safety pin",
+      "example": "Llevo un imperdible para el disfraz.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la insignia",
+      "target": "badge",
+      "example": "Lleva una insignia de su equipo favorito.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el colgante",
+      "target": "pendant",
+      "example": "El colgante en forma de corazón es muy bonito.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el estuche",
+      "target": "case",
+      "example": "El estuche de gafas protege las lentes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gorra",
+      "target": "cap",
+      "example": "Lleva siempre una gorra para el sol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la maleta",
+      "target": "suitcase",
+      "example": "Hice la maleta la noche antes del viaje.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el neceser",
+      "target": "toiletry bag",
+      "example": "No olvides el neceser con el cepillo de dientes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

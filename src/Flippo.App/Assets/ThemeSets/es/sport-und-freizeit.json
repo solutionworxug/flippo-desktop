@@ -1,0 +1,249 @@
+{
+  "id": "es-sport-und-freizeit",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Sport und Freizeit",
+  "entries": [
+    {
+      "source": "deportivo",
+      "target": "sportlich",
+      "example": "Es un chico muy deportivo y activo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bucear",
+      "target": "tauchen",
+      "example": "Me encanta bucear en el mar Mediterráneo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nadar",
+      "target": "schwimmen",
+      "example": "Nado treinta minutos todos los días.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el deporte",
+      "target": "der Sport",
+      "example": "Hacer deporte es bueno para la salud.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el fútbol",
+      "target": "der Fußball",
+      "example": "El fútbol es el deporte más popular en España.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tennis",
+      "target": "das Tennis",
+      "example": "Juega al tenis los sábados.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "correr",
+      "target": "laufen / rennen",
+      "example": "Corro cinco kilómetros cada mañana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el gimnasio",
+      "target": "das Fitnessstudio",
+      "example": "Voy al gimnasio tres veces a la semana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "entrenar",
+      "target": "trainieren",
+      "example": "Entrena dos horas al día.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el partido",
+      "target": "das Spiel (Wettkampf)",
+      "example": "¿Viste el partido del domingo?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el equipo",
+      "target": "die Mannschaft / das Team",
+      "example": "Su equipo favorito ganó la liga.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ganar",
+      "target": "gewinnen",
+      "example": "Ganamos el partido por tres a uno.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "perder",
+      "target": "verlieren",
+      "example": "Perdimos el partido en los últimos minutos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el árbitro",
+      "target": "der Schiedsrichter",
+      "example": "El árbitro pitó penalti.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la piscina",
+      "target": "das Schwimmbad",
+      "example": "En verano vamos a la piscina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bicicleta",
+      "target": "das Fahrrad",
+      "example": "Damos una vuelta en bicicleta los domingos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el senderismo",
+      "target": "das Wandern",
+      "example": "El fin de semana hicimos senderismo en la montaña.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el baloncesto",
+      "target": "der Basketball",
+      "example": "El baloncesto también es muy popular en España.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el voleibol",
+      "target": "der Volleyball",
+      "example": "Jugamos al voleibol en la playa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pelota",
+      "target": "der Ball",
+      "example": "La pelota entró en la portería.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tiempo libre",
+      "target": "die Freizeit",
+      "example": "¿Qué haces en tu tiempo libre?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hobby",
+      "target": "das Hobby",
+      "example": "Mi hobby favorito es la fotografía.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "leer",
+      "target": "lesen",
+      "example": "Leo una hora antes de dormir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cine",
+      "target": "das Kino",
+      "example": "Vamos al cine el viernes por la noche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el teatro",
+      "target": "das Theater",
+      "example": "Fuimos al teatro a ver una comedia.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el concierto",
+      "target": "das Konzert",
+      "example": "Compré entradas para el concierto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fotografía",
+      "target": "die Fotografie",
+      "example": "La fotografía es mi afición desde pequeño.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el videojuego",
+      "target": "das Videospiel",
+      "example": "Juega a los videojuegos por la tarde.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pintar",
+      "target": "malen",
+      "example": "Le gusta mucho pintar acuarelas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bailar",
+      "target": "tanzen",
+      "example": "Salimos a bailar los sábados.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "fren-wochen-monate-feste",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Wochen Monate Feste",
+  "entries": [
+    {
+      "source": "septembre",
+      "target": "September",
+      "example": "Les cours commencent en septembre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "août",
+      "target": "August",
+      "example": "En août il fait très chaud en Espagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "juillet",
+      "target": "July",
+      "example": "Nous partons en vacances en juillet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "juin",
+      "target": "June",
+      "example": "Les examens finaux sont en juin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mai",
+      "target": "May",
+      "example": "En mai beaucoup de fleurs s'épanouissent.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "avril",
+      "target": "April",
+      "example": "Les pluies d'avril apportent les fleurs de mai.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mars",
+      "target": "March",
+      "example": "Le printemps commence en mars.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "février",
+      "target": "February",
+      "example": "Mon anniversaire est en février.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "janvier",
+      "target": "January",
+      "example": "Janvier est le mois le plus froid de l'année.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "novembre",
+      "target": "November",
+      "example": "En novembre les jours sont courts.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "octobre",
+      "target": "October",
+      "example": "En octobre les feuilles des arbres tombent.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "décembre",
+      "target": "December",
+      "example": "En décembre nous célébrons Noël.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le mois",
+      "target": "month",
+      "example": "Ce mois-ci j'ai beaucoup de projets.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le jour férié",
+      "target": "public holiday",
+      "example": "Lundi est férié et je ne travaille pas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lundi",
+      "target": "Monday",
+      "example": "Lundi je retourne au travail.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mardi",
+      "target": "Tuesday",
+      "example": "Le mardi j'ai cours d'espagnol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mercredi",
+      "target": "Wednesday",
+      "example": "Mercredi nous dînons ensemble.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "jeudi",
+      "target": "Thursday",
+      "example": "Le jeudi je vais à la salle de sport.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vendredi",
+      "target": "Friday",
+      "example": "Vendredi soir nous sortons danser.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "samedi",
+      "target": "Saturday",
+      "example": "Samedi nous allons au marché.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dimanche",
+      "target": "Sunday",
+      "example": "Dimanche nous prenons le petit-déjeuner tard en famille.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'anniversaire",
+      "target": "birthday",
+      "example": "Demain c'est l'anniversaire de ma mère.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le baptême",
+      "target": "baptism / christening",
+      "example": "Nous sommes allés au baptême du bébé.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le mariage",
+      "target": "wedding",
+      "example": "Le mariage a eu lieu dans une église très ancienne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Pâques",
+      "target": "Easter",
+      "example": "À Pâques nous mangeons le gâteau de Pâques.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'anniversaire (de mariage)",
+      "target": "anniversary",
+      "example": "Aujourd'hui nous fêtons notre anniversaire de mariage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fête (du saint)",
+      "target": "name day",
+      "example": "La fête du saint se célèbre comme l'anniversaire.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Noël",
+      "target": "Christmas",
+      "example": "À Noël toute la famille se réunit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "annuel",
+      "target": "annual / yearly",
+      "example": "Le bilan médical est annuel.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fête",
+      "target": "party / celebration",
+      "example": "Nous organisons une fête pour son anniversaire.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

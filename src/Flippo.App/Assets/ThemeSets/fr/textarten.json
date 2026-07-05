@@ -1,0 +1,249 @@
+{
+  "id": "fr-textarten",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Textarten",
+  "entries": [
+    {
+      "source": "le mot",
+      "target": "das Wort",
+      "example": "Je ne comprends pas ce mot.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la phrase",
+      "target": "der Satz",
+      "example": "Écris une phrase avec ce mot.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le texte",
+      "target": "der Text",
+      "example": "Lis le texte et réponds aux questions.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le paragraphe",
+      "target": "der Absatz",
+      "example": "Le paragraphe doit avoir cinq lignes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'article",
+      "target": "der Artikel (Text)",
+      "example": "Il a lu un article intéressant dans le journal.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la langue",
+      "target": "die Sprache",
+      "example": "Il parle quatre langues couramment.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le point",
+      "target": "der Punkt (Satzzeichen)",
+      "example": "N'oublie pas de mettre le point à la fin de la phrase.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la virgule",
+      "target": "das Komma",
+      "example": "Il faut utiliser la virgule avant « mais ».",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le point d'exclamation",
+      "target": "das Ausrufezeichen",
+      "example": "Le point d'exclamation marque la surprise.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le point d'interrogation",
+      "target": "das Fragezeichen",
+      "example": "Le point d'interrogation va à la fin de la question.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sous-titre",
+      "target": "der Untertitel",
+      "example": "Le film a des sous-titres en français.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le roman",
+      "target": "der Roman",
+      "example": "Je lis un roman historique.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le drame",
+      "target": "das Drama",
+      "example": "Le drame était très émouvant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la comédie",
+      "target": "die Komödie",
+      "example": "La comédie nous a fait beaucoup rire.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'autobiographie",
+      "target": "die Autobiografie",
+      "example": "J'ai lu l'autobiographie de l'écrivain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'alphabet",
+      "target": "das Alphabet",
+      "example": "L'alphabet français a vingt-six lettres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le compte rendu / le dossier",
+      "target": "das Protokoll / die Akte",
+      "example": "Le secrétaire a rédigé le compte rendu de la réunion.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'abréviation",
+      "target": "die Abkürzung",
+      "example": "DNI est l'abréviation de Documento Nacional de Identidad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le courriel",
+      "target": "die E-Mail",
+      "example": "Je t'envoie l'information par courriel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le journal",
+      "target": "die Zeitung",
+      "example": "Je lis le journal chaque matin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le magazine",
+      "target": "die Zeitschrift / das Magazin",
+      "example": "J'achète un magazine de mode.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le dictionnaire",
+      "target": "das Wörterbuch",
+      "example": "Consulte le dictionnaire si tu ne comprends pas le mot.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le poème",
+      "target": "das Gedicht",
+      "example": "Nous avons appris un poème par cœur.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la lettre",
+      "target": "der Brief",
+      "example": "Je lui ai écrit une lettre à la main.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le message / le SMS",
+      "target": "die Nachricht / die SMS",
+      "example": "Je t'envoie un message quand j'arrive.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le résumé",
+      "target": "die Zusammenfassung",
+      "example": "Fais un résumé du texte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "traduire",
+      "target": "übersetzen",
+      "example": "Peux-tu traduire cette phrase en allemand ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "écrire",
+      "target": "schreiben",
+      "example": "Écris ton nom sur le formulaire.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lire",
+      "target": "lesen",
+      "example": "Je lis un chapitre chaque soir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le livre",
+      "target": "das Buch",
+      "example": "J'ai beaucoup de livres à la maison.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "en-hotel",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Hotel",
+  "entries": [
+    {
+      "source": "reception",
+      "target": "die Rezeption",
+      "example": "Reception is open twenty-four hours a day.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "receptionist",
+      "target": "der Rezeptionist",
+      "example": "The receptionist gave us the room key.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "single room",
+      "target": "das Einzelzimmer",
+      "example": "I booked a single room for two nights.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "double room",
+      "target": "das Doppelzimmer",
+      "example": "Do you have a double room with a sea view?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "key",
+      "target": "der Schlüssel",
+      "example": "Here is the key to your room.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "key card",
+      "target": "die Magnetkarte",
+      "example": "The key card is used to open the door.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "elevator",
+      "target": "der Aufzug",
+      "example": "The elevator is at the end of the hallway.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "floor",
+      "target": "das Stockwerk",
+      "example": "My room is on the third floor.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "room service",
+      "target": "der Zimmerservice",
+      "example": "We ordered breakfast from room service.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "breakfast included",
+      "target": "inklusive Frühstück",
+      "example": "The price of the stay includes breakfast.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "half board",
+      "target": "die Halbpension",
+      "example": "We booked a stay with half board.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "full board",
+      "target": "die Vollpension",
+      "example": "This hotel offers the option of full board.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "air conditioning",
+      "target": "die Klimaanlage",
+      "example": "Air conditioning is necessary in summer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "heating",
+      "target": "die Heizung",
+      "example": "The heating does not work in my room.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Wi-Fi connection",
+      "target": "die WLAN-Verbindung",
+      "example": "What is the password for the Wi-Fi connection?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "check-in",
+      "target": "der Check-in",
+      "example": "Check-in starts at two in the afternoon.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "check-out",
+      "target": "der Check-out",
+      "example": "Check-out must be completed before twelve.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "extra bed",
+      "target": "das Zustellbett",
+      "example": "Can we request an extra bed for the child?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "minibar",
+      "target": "die Minibar",
+      "example": "There are cold drinks in the minibar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "safe",
+      "target": "der Tresor",
+      "example": "I kept my passport in the safe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "towels",
+      "target": "die Handtücher",
+      "example": "Could you bring me more clean towels, please?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pillow",
+      "target": "das Kissen",
+      "example": "I need another pillow to sleep better.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "blanket",
+      "target": "die Decke",
+      "example": "I'm cold. Could you bring me an extra blanket?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cleaning",
+      "target": "die Reinigung / das Putzen",
+      "example": "The room cleaning is done every morning.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bellhop",
+      "target": "der Hotelpage",
+      "example": "The bellhop took our bags to the room.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pool",
+      "target": "der Pool",
+      "example": "The hotel pool is heated.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gym",
+      "target": "das Fitnessstudio",
+      "example": "The hotel has a modern gym.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to complain",
+      "target": "sich beschweren",
+      "example": "The customer complained about the noise from the street.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to confirm",
+      "target": "bestätigen",
+      "example": "I would like to confirm my reservation for tomorrow.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to cancel",
+      "target": "stornieren / absagen",
+      "example": "I had to cancel the reservation because of an unexpected problem.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

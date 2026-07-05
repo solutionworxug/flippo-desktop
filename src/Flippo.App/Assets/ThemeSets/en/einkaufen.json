@@ -1,0 +1,249 @@
+{
+  "id": "en-einkaufen",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Einkaufen",
+  "entries": [
+    {
+      "source": "clothing size",
+      "target": "die Kleidergröße",
+      "example": "I do not know my clothing size.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "shoe size",
+      "target": "die Schuhgröße",
+      "example": "What is your shoe size?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "try on",
+      "target": "anprobieren",
+      "example": "I would like to try on these trousers, please.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "too tight",
+      "target": "zu eng",
+      "example": "This shirt is too tight for me.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "too small",
+      "target": "zu klein",
+      "example": "The shoes are too small for me.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "saleswoman",
+      "target": "die Verkäuferin",
+      "example": "The saleswoman was very friendly and helped me.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "salesman",
+      "target": "der Verkäufer",
+      "example": "The salesman showed me the new offers.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "shopping center",
+      "target": "das Einkaufszentrum",
+      "example": "We are going to shopping center this Saturday.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "shop / store",
+      "target": "das Geschäft / der Laden",
+      "example": "This shop is open until ten at night.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "fitting room",
+      "target": "die Umkleidekabine",
+      "example": "The fitting rooms are at the back on the right.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "receipt",
+      "target": "der Kassenzettel",
+      "example": "Keep receipt in case you want to exchange it.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "checkout",
+      "target": "die Kasse",
+      "example": "You have to pay for the clothes at checkout.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "pay",
+      "target": "zahlen / bezahlen",
+      "example": "Can I pay by credit card?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "pay in cash",
+      "target": "bar bezahlen",
+      "example": "I prefer to pay in cash today.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "credit card",
+      "target": "die Kreditkarte",
+      "example": "I have no cash, so I pay by credit card.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "discount",
+      "target": "der Rabatt",
+      "example": "This jacket has a twenty percent discount.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "sale / clearance sale",
+      "target": "der Ausverkauf / Schlussverkauf",
+      "example": "I always buy a lot of clothes during sale.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "cost",
+      "target": "kosten",
+      "example": "How much does this elegant dress cost?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "price",
+      "target": "der Preis",
+      "example": "The price of these shoes is very low.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "expensive",
+      "target": "teuer",
+      "example": "That designer bag is too expensive.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "cheap / inexpensive",
+      "target": "billig / günstig",
+      "example": "The clothes at this market are very cheap.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "go shopping",
+      "target": "einkaufen gehen / shoppen",
+      "example": "My sister loves to go shopping on Fridays.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "shopping bag",
+      "target": "die Einkaufstasche",
+      "example": "I carry a cloth shopping bag.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "shopping cart",
+      "target": "der Einkaufswagen",
+      "example": "Put the things into shopping cart.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "exchange",
+      "target": "umtauschen",
+      "example": "I want to exchange this T-shirt because it does not fit.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "return",
+      "target": "zurückgeben",
+      "example": "Can I return clothes if I do not like them?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "clothing",
+      "target": "die Kleidung",
+      "example": "I need to buy clothing for summer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "shop window",
+      "target": "das Schaufenster",
+      "example": "I saw a beautiful dress in shop window.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "fit",
+      "target": "passen",
+      "example": "Those trousers fit you very well.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "too loose",
+      "target": "zu weit",
+      "example": "This skirt is too loose for me.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    }
+  ]
+}

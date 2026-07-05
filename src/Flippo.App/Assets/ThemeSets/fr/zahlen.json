@@ -1,0 +1,249 @@
+{
+  "id": "fr-zahlen",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Zahlen",
+  "entries": [
+    {
+      "source": "zéro",
+      "target": "null",
+      "example": "Le score est à zéro.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "un",
+      "target": "eins",
+      "example": "Il n'en reste qu'un.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "deux",
+      "target": "zwei",
+      "example": "J'ai deux frères.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "trois",
+      "target": "drei",
+      "example": "Le train part dans trois minutes.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quatre",
+      "target": "vier",
+      "example": "La table a quatre pieds.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cinq",
+      "target": "fünf",
+      "example": "Cela coûte cinq euros.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "six",
+      "target": "sechs",
+      "example": "Il y a six personnes dans la famille.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sept",
+      "target": "sieben",
+      "example": "La semaine a sept jours.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "huit",
+      "target": "acht",
+      "example": "Le travail commence à huit heures.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "neuf",
+      "target": "neun",
+      "example": "Mon fils a neuf ans.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dix",
+      "target": "zehn",
+      "example": "Il a eu un dix à l'examen.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "onze",
+      "target": "elf",
+      "example": "Le bus arrive à onze heures.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "douze",
+      "target": "zwölf",
+      "example": "L'année a douze mois.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "treize",
+      "target": "dreizehn",
+      "example": "Treize est un nombre qui porte malheur.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quatorze",
+      "target": "vierzehn",
+      "example": "L'enfant a quatorze ans.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quinze",
+      "target": "fünfzehn",
+      "example": "J'attends depuis quinze minutes.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vingt",
+      "target": "zwanzig",
+      "example": "Il a vingt euros dans le portefeuille.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vingt et un",
+      "target": "einundzwanzig",
+      "example": "Il a vingt et un ans.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "trente",
+      "target": "dreißig",
+      "example": "Le voyage dure trente minutes.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quarante",
+      "target": "vierzig",
+      "example": "Il travaille quarante heures par semaine.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cinquante",
+      "target": "fünfzig",
+      "example": "Il y a cinquante élèves dans le cours.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "soixante",
+      "target": "sechzig",
+      "example": "Mon père a soixante ans.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "soixante-dix",
+      "target": "siebzig",
+      "example": "La vitesse maximale est de soixante-dix km/h.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quatre-vingts",
+      "target": "achtzig",
+      "example": "La grand-mère a quatre-vingts ans.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quatre-vingt-dix",
+      "target": "neunzig",
+      "example": "Le vol dure quatre-vingt-dix minutes.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cent",
+      "target": "hundert",
+      "example": "Cent personnes ont assisté au concert.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chiffre",
+      "target": "die Zahl / Ziffer",
+      "example": "Je ne comprends pas le chiffre dans ce document.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "premier",
+      "target": "erste(r/s)",
+      "example": "Je suis arrivé le premier à la réunion.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dernier",
+      "target": "letzte(r/s)",
+      "example": "C'est le dernier train de la nuit.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "multiplier",
+      "target": "multiplizieren",
+      "example": "Combien font six multiplié par huit ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

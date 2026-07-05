@@ -25,4 +25,9 @@
     <ProjectReference Include="..\Flippo.Core\Flippo.Core.csproj" />
     <ProjectReference Include="..\Flippo.Data\Flippo.Data.csproj" />
   </ItemGroup>
+
+  <!-- Gebündelte Inhalte (Themensets, Wörterbücher) als avares://-Ressourcen (P12/P13). -->
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\**" />
+  </ItemGroup>
 </Project>

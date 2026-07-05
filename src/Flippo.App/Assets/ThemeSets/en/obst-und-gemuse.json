@@ -1,0 +1,249 @@
+{
+  "id": "en-obst-und-gemuse",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Obst und Gemüse",
+  "entries": [
+    {
+      "source": "garlic",
+      "target": "der Knoblauch",
+      "example": "Garlic is very important in Spanish cooking.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tangerine",
+      "target": "die Mandarine",
+      "example": "In winter I eat a lot of tangerines.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "potato",
+      "target": "die Kartoffel",
+      "example": "French fries are very popular.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "corn",
+      "target": "der Mais",
+      "example": "Corn is widely used in Mexican cooking.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tomato",
+      "target": "die Tomate",
+      "example": "The salad has tomato and cucumber.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "onion",
+      "target": "die Zwiebel",
+      "example": "Onion adds a lot of flavour to the soup.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "raspberry",
+      "target": "die Himbeere",
+      "example": "Raspberries are very good with cream.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "strawberry",
+      "target": "die Erdbeere",
+      "example": "Strawberries with cream are a typical dessert.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pear",
+      "target": "die Birne",
+      "example": "This pear is ripe and very sweet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cherry",
+      "target": "die Kirsche",
+      "example": "The cherries from this tree are delicious.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lemon",
+      "target": "die Zitrone",
+      "example": "Add the juice of one lemon to the lemonade.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "melon",
+      "target": "die Honigmelone",
+      "example": "Melon with ham is a Spanish appetiser.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "watermelon",
+      "target": "die Wassermelone",
+      "example": "Watermelon is very refreshing in summer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "peach",
+      "target": "der Pfirsich",
+      "example": "The peaches from Aragon are very famous.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "apple",
+      "target": "der Apfel",
+      "example": "An apple a day keeps the doctor away.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "banana",
+      "target": "die Banane",
+      "example": "The banana is rich in potassium.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fruit",
+      "target": "das Obst",
+      "example": "I eat fresh fruit every morning.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "orange",
+      "target": "die Orange",
+      "example": "I squeeze an orange for breakfast.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "grapes",
+      "target": "die Weintrauben",
+      "example": "The New Year's grapes bring good luck.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kiwi",
+      "target": "die Kiwi",
+      "example": "Kiwi contains a lot of vitamin C.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pepper",
+      "target": "die Paprika",
+      "example": "The red pepper is sweet and crunchy.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "carrot",
+      "target": "die Karotte",
+      "example": "Carrots are good for your eyesight.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cucumber",
+      "target": "die Gurke",
+      "example": "Cucumber is very refreshing in a salad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lettuce",
+      "target": "der Kopfsalat",
+      "example": "I bought a lettuce for the salad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "broccoli",
+      "target": "der Brokkoli",
+      "example": "Broccoli is very healthy.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cabbage",
+      "target": "der Kohl",
+      "example": "Cabbage is widely used in stew.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "avocado",
+      "target": "die Avocado",
+      "example": "Avocado is very good with lemon and salt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "asparagus",
+      "target": "der Spargel",
+      "example": "In spring I eat fresh asparagus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cauliflower",
+      "target": "der Blumenkohl",
+      "example": "Cauliflower gratin is delicious.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vegetables",
+      "target": "das Gemüse",
+      "example": "You should eat vegetables every day.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

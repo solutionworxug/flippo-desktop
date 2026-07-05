@@ -1,0 +1,249 @@
+{
+  "id": "de-getranke",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Getränke",
+  "entries": [
+    {
+      "source": "das Wasser",
+      "target": "water",
+      "example": "Ich trinke jeden Tag viel Wasser.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Milch",
+      "target": "milk",
+      "example": "Kaffee mit Milch schmeckt mir gut.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Saft",
+      "target": "juice",
+      "example": "Frisch gepresster Saft ist gesund.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Kaffee",
+      "target": "coffee",
+      "example": "Morgens trinke ich einen Kaffee.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Tee",
+      "target": "tea",
+      "example": "Am Nachmittag trinke ich eine Tasse Tee.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Bier",
+      "target": "beer",
+      "example": "An der Bar bestellen wir ein Bier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Wein",
+      "target": "wine",
+      "example": "Roter Wein passt gut zu Fleisch.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Sangria",
+      "target": "sangria",
+      "example": "Sangria ist ein typisch spanisches Getränk.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Erfrischungsgetränk / die Limonade",
+      "target": "soft drink / lemonade",
+      "example": "Die Kinder bestellen ein Erfrischungsgetränk.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Cola",
+      "target": "cola",
+      "example": "Kann ich eine Cola mit Zitrone haben?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Orangenlimonade",
+      "target": "orangeade",
+      "example": "Die Orangenlimonade ist schön kalt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Limonade",
+      "target": "lemonade",
+      "example": "Ich mache Limonade aus frischen Zitronen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Cocktail",
+      "target": "cocktail",
+      "example": "Er hat einen alkoholfreien Cocktail bestellt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Sekt / Champagner",
+      "target": "sparkling wine / champagne",
+      "example": "An Silvester stoßen wir mit Sekt an.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Milchshake / Smoothie",
+      "target": "milkshake / smoothie",
+      "example": "Ich habe einen Erdbeer-Milchshake bestellt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Kräutertee",
+      "target": "herbal tea",
+      "example": "Bei Bauchweh trinke ich Kräutertee.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der heiße Kakao / die heiße Schokolade",
+      "target": "hot cocoa / hot chocolate",
+      "example": "Im Winter trinke ich gern heißen Kakao.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Orangensaft",
+      "target": "orange juice",
+      "example": "Frischer Orangensaft ist köstlich.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Sprudelwasser",
+      "target": "sparkling water",
+      "example": "Ich mag Sprudelwasser lieber als Leitungswasser.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das stille Wasser",
+      "target": "still water",
+      "example": "Möchtest du stilles Wasser oder Sprudel?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Weißwein",
+      "target": "white wine",
+      "example": "Weißwein passt gut zu Fisch.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Rotwein",
+      "target": "red wine",
+      "example": "Möchtest du ein Glas Rotwein?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Sekt (spanisch)",
+      "target": "cava",
+      "example": "Der Sekt aus Spanien heißt Cava.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Glas (Wein) / die Tasse",
+      "target": "glass / cup",
+      "example": "Ich habe ein Glas Wein getrunken.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "trinken",
+      "target": "to drink",
+      "example": "Was möchtest du trinken?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nehmen / trinken / essen",
+      "target": "to have",
+      "example": "Ich nehme einen Kaffee mit Milch.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Durst haben",
+      "target": "to be thirsty",
+      "example": "Nach dem Laufen habe ich großen Durst.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Getränk",
+      "target": "drink",
+      "example": "Welches Getränk möchtest du zum Essen?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Eis (Eiswürfel)",
+      "target": "ice",
+      "example": "Möchtest du dein Getränk mit Eis?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Theke / der Tresen",
+      "target": "counter",
+      "example": "Wir frühstücken an der Theke.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

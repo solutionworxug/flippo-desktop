@@ -1,0 +1,249 @@
+{
+  "id": "fr-adjektive",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Adjektive",
+  "entries": [
+    {
+      "source": "prochain",
+      "target": "nächster",
+      "example": "Le prochain train part à trois heures.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "clair",
+      "target": "deutlich",
+      "example": "Il parle de façon très claire.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "seul",
+      "target": "einziger",
+      "example": "C'est le seul restaurant ouvert.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "court",
+      "target": "kurz",
+      "example": "Le chemin est très court.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "long",
+      "target": "lang",
+      "example": "Le fleuve est très long.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "prêt",
+      "target": "bereit",
+      "example": "Es-tu prêt à partir ?",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "là-bas",
+      "target": "dort",
+      "example": "Le marché est là-bas.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sûrement",
+      "target": "sicherlich",
+      "example": "Il arrive sûrement demain.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "inconfortable",
+      "target": "unbequem",
+      "example": "Cette chaise est très inconfortable.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "important",
+      "target": "wichtig",
+      "example": "Il est important de boire de l'eau.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dehors",
+      "target": "draußen",
+      "example": "Les enfants jouent dehors.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dur",
+      "target": "hart",
+      "example": "Le pain est très dur.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "préféré",
+      "target": "lieblings...",
+      "example": "Le chocolat est mon dessert préféré.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fatigué",
+      "target": "müde",
+      "example": "Je suis très fatigué après le travail.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "petit",
+      "target": "klein",
+      "example": "L'appartement est petit mais joli.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bon",
+      "target": "gut",
+      "example": "Ce café est très bon.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sale",
+      "target": "schmutzig",
+      "example": "Le sol est très sale.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "propre",
+      "target": "sauber",
+      "example": "La cuisine est très propre.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bas",
+      "target": "niedrig",
+      "example": "Le prix est assez bas.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "grand",
+      "target": "groß",
+      "example": "Mon père est très grand.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "excellent",
+      "target": "ausgezeichnet",
+      "example": "Le service est excellent.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "correct",
+      "target": "korrekt",
+      "example": "Ta réponse est correcte.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faux",
+      "target": "falsch",
+      "example": "Cette information est fausse.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "parfait",
+      "target": "perfekt",
+      "example": "Le temps est parfait aujourd'hui.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rapide",
+      "target": "schnell",
+      "example": "Le train est très rapide.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lentement",
+      "target": "langsam",
+      "example": "Parle plus lentement s'il te plaît.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mieux",
+      "target": "besser",
+      "example": "Aujourd'hui je me sens mieux.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mal",
+      "target": "schlecht",
+      "example": "Je me sens mal aujourd'hui.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nouveau",
+      "target": "neu",
+      "example": "J'ai un nouveau travail.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vieux",
+      "target": "alt",
+      "example": "Ce bâtiment est très vieux.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

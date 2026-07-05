@@ -1,0 +1,249 @@
+{
+  "id": "fren-kleidung",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Kleidung",
+  "entries": [
+    {
+      "source": "le tee-shirt",
+      "target": "t-shirt",
+      "example": "J'ai acheté un tee-shirt avec le logo de l'équipe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la robe",
+      "target": "dress",
+      "example": "La robe de soirée est très élégante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le manteau",
+      "target": "coat",
+      "example": "Prends le manteau parce qu'il fait froid.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le gant",
+      "target": "glove",
+      "example": "J'ai perdu un gant dans le métro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bonnet",
+      "target": "beanie",
+      "example": "En hiver je porte toujours le bonnet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le pull",
+      "target": "sweater",
+      "example": "Ce pull est très chaud.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bermuda",
+      "target": "bermuda shorts",
+      "example": "En été je porte un bermuda à la plage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sac à main",
+      "target": "handbag",
+      "example": "J'ai laissé le sac à main au restaurant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'écharpe",
+      "target": "scarf",
+      "example": "L'écharpe me protège du froid.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la chemise",
+      "target": "shirt",
+      "example": "Il porte une chemise blanche pour l'entretien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chemisier",
+      "target": "blouse",
+      "example": "Le chemisier bleu te va très bien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la ceinture",
+      "target": "belt",
+      "example": "La ceinture en cuir est très élégante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les lunettes",
+      "target": "glasses",
+      "example": "J'ai besoin des lunettes pour lire.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chapeau",
+      "target": "hat",
+      "example": "Il porte toujours un chapeau en été.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les chaussures",
+      "target": "shoes",
+      "example": "Les chaussures de sport sont très confortables.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la veste",
+      "target": "jacket",
+      "example": "Prends une veste au cas où il ferait froid.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la jupe",
+      "target": "skirt",
+      "example": "La jupe rouge est très jolie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le pantalon",
+      "target": "trousers",
+      "example": "Ce pantalon est trop court.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les baskets",
+      "target": "sneakers",
+      "example": "Je porte les baskets pour courir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le costume",
+      "target": "suit",
+      "example": "Il porte un costume et une cravate à la réunion.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cravate",
+      "target": "tie",
+      "example": "Je ne sais pas faire le nœud de cravate.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le maillot de bain",
+      "target": "swimsuit",
+      "example": "N'oublie pas le maillot de bain pour la plage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'imperméable",
+      "target": "raincoat",
+      "example": "Prends l'imperméable car il va pleuvoir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le pyjama",
+      "target": "pyjamas",
+      "example": "J'ai mis le pyjama et je suis allé au lit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les vêtements",
+      "target": "clothes",
+      "example": "Je dois laver les vêtements cet après-midi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "porter",
+      "target": "to wear",
+      "example": "Que portes-tu aujourd'hui ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mettre",
+      "target": "to put on",
+      "example": "Je mets le manteau avant de sortir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "enlever",
+      "target": "to take off",
+      "example": "Enlève tes chaussures en entrant.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les chaussettes",
+      "target": "socks",
+      "example": "J'ai besoin de chaussettes en laine pour le froid.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les chaussures",
+      "target": "shoes",
+      "example": "Ces chaussures me font mal aux pieds.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

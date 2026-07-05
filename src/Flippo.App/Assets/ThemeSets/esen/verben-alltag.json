@@ -1,0 +1,249 @@
+{
+  "id": "esen-verben-alltag",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Verben Alltag",
+  "entries": [
+    {
+      "source": "levantarse",
+      "target": "to get up",
+      "example": "Me levanto a las siete cada mañana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ducharse",
+      "target": "to take a shower",
+      "example": "Me ducho antes de desayunar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vestirse",
+      "target": "to get dressed",
+      "example": "Los niños se visten solos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "desayunar",
+      "target": "to have breakfast",
+      "example": "Desayuno café con leche y tostadas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ir al trabajo",
+      "target": "to go to work",
+      "example": "Voy al trabajo en metro.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "almorzar",
+      "target": "to have lunch",
+      "example": "Almorzamos en la cantina de la empresa.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cenar",
+      "target": "to have dinner",
+      "example": "Cenamos a las nueve en familia.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "acostarse",
+      "target": "to lie down / go to bed",
+      "example": "Me acuesto a las once.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dormir",
+      "target": "to sleep",
+      "example": "Duermo ocho horas cada noche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cocinar",
+      "target": "to cook",
+      "example": "Cocino yo los lunes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "comprar",
+      "target": "to buy",
+      "example": "Compro el pan en la panadería.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "limpiar",
+      "target": "to clean",
+      "example": "Limpio la casa los sábados.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lavar",
+      "target": "to wash",
+      "example": "Lavo la ropa los domingos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "planchar",
+      "target": "to iron",
+      "example": "Odio planchar la ropa.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fregar",
+      "target": "to wash up / scrub",
+      "example": "Friego los platos después de cenar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacer la cama",
+      "target": "to make the bed",
+      "example": "Hago la cama nada más levantarme.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sacar al perro",
+      "target": "to walk the dog",
+      "example": "Saco al perro tres veces al día.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "llamar por teléfono",
+      "target": "to call on the phone",
+      "example": "Llamo a mis padres cada domingo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ver la tele",
+      "target": "to watch TV",
+      "example": "Veo la tele una hora antes de dormir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacer la compra",
+      "target": "to do the grocery shopping",
+      "example": "Hago la compra los viernes por la tarde.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pagar las facturas",
+      "target": "to pay the bills",
+      "example": "Pago las facturas a principios de mes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "recoger a los niños",
+      "target": "to pick up the children",
+      "example": "Recojo a los niños del colegio a las tres.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ducharse por la noche",
+      "target": "to shower in the evening",
+      "example": "Prefiero ducharme por la noche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "descansar",
+      "target": "to rest",
+      "example": "Descanso un poco después de comer.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "salir a pasear",
+      "target": "to go for a walk",
+      "example": "Salimos a pasear después de cenar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacer deporte",
+      "target": "to do sport",
+      "example": "Hago deporte tres veces a la semana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quedar con amigos",
+      "target": "to meet up with friends",
+      "example": "Quedé con mis amigos el sábado.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hablar con la familia",
+      "target": "to talk with the family",
+      "example": "Hablo con mi familia por videollamada.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "revisar el móvil",
+      "target": "to check the phone",
+      "example": "Reviso el móvil nada más despertarme.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "apagar la luz",
+      "target": "to turn off the light",
+      "example": "Apaga la luz al salir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

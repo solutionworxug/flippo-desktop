@@ -1,0 +1,249 @@
+{
+  "id": "esen-obst-und-gemuse",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Obst und Gemüse",
+  "entries": [
+    {
+      "source": "el ajo",
+      "target": "garlic",
+      "example": "El ajo es muy importante en la cocina española.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mandarina",
+      "target": "mandarin",
+      "example": "En invierno como muchas mandarinas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la patata",
+      "target": "potato",
+      "example": "Las patatas fritas son muy populares.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el maíz",
+      "target": "corn",
+      "example": "El maíz se usa mucho en la cocina mexicana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tomate",
+      "target": "tomato",
+      "example": "La ensalada lleva tomate y pepino.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cebolla",
+      "target": "onion",
+      "example": "La cebolla da mucho sabor a la sopa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la frambuesa",
+      "target": "raspberry",
+      "example": "Las frambuesas son muy ricas con nata.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fresa",
+      "target": "strawberry",
+      "example": "Las fresas con nata son un postre típico.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pera",
+      "target": "pear",
+      "example": "Esta pera está madura y muy dulce.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cereza",
+      "target": "cherry",
+      "example": "Las cerezas de este árbol son deliciosas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el limón",
+      "target": "lemon",
+      "example": "Añade el zumo de un limón a la limonada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el melón",
+      "target": "honeydew melon",
+      "example": "El melón con jamón es un aperitivo español.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la sandía",
+      "target": "watermelon",
+      "example": "La sandía refresca mucho en verano.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el melocotón",
+      "target": "peach",
+      "example": "Los melocotones de Aragón son muy famosos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la manzana",
+      "target": "apple",
+      "example": "Una manzana al día mantiene al médico lejos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el plátano",
+      "target": "banana",
+      "example": "El plátano es rico en potasio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fruta",
+      "target": "fruit",
+      "example": "Como fruta fresca cada mañana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la naranja",
+      "target": "orange",
+      "example": "Exprimo una naranja para el desayuno.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las uvas",
+      "target": "grapes",
+      "example": "Las uvas de Nochevieja traen suerte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el kiwi",
+      "target": "kiwi",
+      "example": "El kiwi tiene mucha vitamina C.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pimiento",
+      "target": "pepper",
+      "example": "El pimiento rojo es dulce y crujiente.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la zanahoria",
+      "target": "carrot",
+      "example": "Las zanahorias son buenas para la vista.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pepino",
+      "target": "cucumber",
+      "example": "El pepino refresca mucho en ensalada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la lechuga",
+      "target": "lettuce",
+      "example": "Compré una lechuga para la ensalada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el brócoli",
+      "target": "broccoli",
+      "example": "El brócoli es muy saludable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la col",
+      "target": "cabbage",
+      "example": "La col se usa mucho en el cocido.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aguacate",
+      "target": "avocado",
+      "example": "El aguacate está muy rico con limón y sal.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el espárrago",
+      "target": "asparagus",
+      "example": "En primavera como espárragos frescos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la coliflor",
+      "target": "cauliflower",
+      "example": "La coliflor gratinada es deliciosa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la verdura",
+      "target": "vegetables",
+      "example": "Hay que comer verdura todos los días.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

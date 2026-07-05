@@ -1,0 +1,249 @@
+{
+  "id": "en-personenbeschreibungen",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Personenbeschreibungen",
+  "entries": [
+    {
+      "source": "tall",
+      "target": "groß (Körpergröße)",
+      "example": "My brother is very tall, he's 1.90 m.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "short",
+      "target": "klein (Körpergröße)",
+      "example": "He's quite short but very agile.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "thin / slim",
+      "target": "dünn / schlank",
+      "example": "He has lost weight, he's very thin.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fat / overweight",
+      "target": "dick / übergewichtig",
+      "example": "The cat is fat from eating so much.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "handsome",
+      "target": "hübsch / gutaussehend",
+      "example": "Her boyfriend is very handsome.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ugly",
+      "target": "hässlich",
+      "example": "He's not ugly, he's just different.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "young",
+      "target": "jung",
+      "example": "He looks very young for his age.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "older / adult",
+      "target": "älter / erwachsen",
+      "example": "His older brother is thirty.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "elderly",
+      "target": "sehr alt / bejahrt",
+      "example": "The elderly person walks with a cane.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "blond",
+      "target": "blond",
+      "example": "She has blond hair and blue eyes.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dark-haired",
+      "target": "dunkelhaarig / brünett",
+      "example": "He's dark-haired with dark eyes.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "red-haired",
+      "target": "rothaarig",
+      "example": "Red-haired people have very fair skin.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bald",
+      "target": "kahl / glatzkopfig",
+      "example": "My uncle has been bald since he was thirty.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "strong",
+      "target": "stark / kräftig",
+      "example": "He's very strong, he goes to the gym every day.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "weak",
+      "target": "schwach",
+      "example": "He feels weak after the illness.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "athletic",
+      "target": "sportlich",
+      "example": "He's very athletic, he plays three sports.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pretty",
+      "target": "schön / hübsch",
+      "example": "She has a very pretty smile.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "elegant",
+      "target": "elegant",
+      "example": "He always looks very elegant at the office.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "simple",
+      "target": "schlicht / einfach",
+      "example": "He dresses in a very simple way.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "famous",
+      "target": "berühmt",
+      "example": "He's a very famous actor around the world.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wealthy",
+      "target": "vermögend / wohlhabend",
+      "example": "He lives in a very wealthy neighbourhood.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "poor",
+      "target": "arm",
+      "example": "The family is poor but very close.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "married",
+      "target": "verheiratet",
+      "example": "He has been married for ten years.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "single",
+      "target": "ledig / single",
+      "example": "He's still single even though he's thirty-five.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "divorced",
+      "target": "geschieden",
+      "example": "He got divorced last year.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "separated",
+      "target": "getrennt (lebend)",
+      "example": "They are separated but not divorced.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "stupid",
+      "target": "dumm",
+      "example": "It was a very stupid decision.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "middle-aged",
+      "target": "mittleren Alters",
+      "example": "She's a very active middle-aged woman.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "appearance",
+      "target": "das Aussehen / der Aspekt",
+      "example": "He takes great care of his appearance.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "build",
+      "target": "der Körperbau",
+      "example": "He has an athletic build.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

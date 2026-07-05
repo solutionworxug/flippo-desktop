@@ -1,0 +1,241 @@
+{
+  "id": "esen-transportmittel",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Transportmittel",
+  "entries": [
+    {
+      "source": "la bicicleta",
+      "target": "bicycle",
+      "example": "Damos una vuelta en bicicleta los domingos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el crucero",
+      "target": "cruise",
+      "example": "Hicimos un crucero por el Mediterráneo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el conductor",
+      "target": "driver",
+      "example": "El conductor del autobús fue muy amable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carretera",
+      "target": "road",
+      "example": "La carretera estaba muy transitada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la calle",
+      "target": "street",
+      "example": "Esta calle es peatonal — no pueden entrar coches.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el paso de cebra",
+      "target": "crosswalk / zebra crossing",
+      "example": "Cruza por el paso de cebra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el semáforo",
+      "target": "traffic light",
+      "example": "Para en el semáforo cuando está en rojo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cruce",
+      "target": "intersection / junction",
+      "example": "Gira a la izquierda en el próximo cruce.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el plano de ciudad",
+      "target": "city map",
+      "example": "Consultamos el plano de ciudad para no perdernos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aparcamiento",
+      "target": "parking lot / car park",
+      "example": "El aparcamiento está completo a esta hora.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "reservar en internet",
+      "target": "to book online",
+      "example": "Prefiero reservar en internet los billetes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la zona peatonal",
+      "target": "pedestrian zone",
+      "example": "La zona peatonal está llena de tiendas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la estación",
+      "target": "station",
+      "example": "La estación de tren está en el centro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el andén",
+      "target": "platform",
+      "example": "El tren sale desde el andén número tres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ir a pie",
+      "target": "to go on foot",
+      "example": "Voy a pie al trabajo todas las mañanas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el medio de transporte",
+      "target": "means of transport",
+      "example": "El metro es mi medio de transporte favorito.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tranvía",
+      "target": "tram",
+      "example": "El tranvía pasa por delante de mi casa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el barco",
+      "target": "ship",
+      "example": "Cruzamos el río en barco.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el asiento",
+      "target": "seat",
+      "example": "Reservé un asiento junto a la ventana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la moto",
+      "target": "motorcycle",
+      "example": "Se mueve por la ciudad en moto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el metro",
+      "target": "underground / subway",
+      "example": "El metro es más rápido que el autobús.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aeropuerto",
+      "target": "airport",
+      "example": "Hay que llegar al aeropuerto con dos horas de antelación.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la autovía",
+      "target": "motorway / highway",
+      "example": "La autovía a Barcelona está cortada por obras.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el autobús",
+      "target": "bus",
+      "example": "El autobús al centro sale cada veinte minutos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el billete",
+      "target": "ticket",
+      "example": "Compré el billete de avión con antelación.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vuelo",
+      "target": "flight",
+      "example": "El vuelo a Madrid dura dos horas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mapa",
+      "target": "map",
+      "example": "Descargué el mapa de la ciudad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tren",
+      "target": "train",
+      "example": "El tren de alta velocidad llega en tres horas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el taxi",
+      "target": "taxi",
+      "example": "Cogimos un taxi desde el aeropuerto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "esen-kleidung",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Kleidung",
+  "entries": [
+    {
+      "source": "la camiseta",
+      "target": "T-shirt",
+      "example": "Compré una camiseta con el logo del equipo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vestido",
+      "target": "dress",
+      "example": "El vestido de noche es muy elegante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el abrigo",
+      "target": "coat",
+      "example": "Coge el abrigo porque hace frío.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el guante",
+      "target": "glove",
+      "example": "Perdí un guante en el metro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el gorro",
+      "target": "hat / cap",
+      "example": "En invierno llevo siempre el gorro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el suéter",
+      "target": "sweater",
+      "example": "Este suéter es muy abrigado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las bermudas",
+      "target": "bermuda shorts",
+      "example": "En verano llevo bermudas en la playa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el bolso",
+      "target": "handbag",
+      "example": "Dejé el bolso en el restaurante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bufanda",
+      "target": "scarf",
+      "example": "La bufanda me protege del frío.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la camisa",
+      "target": "shirt",
+      "example": "Lleva una camisa blanca para la entrevista.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la blusa",
+      "target": "blouse",
+      "example": "La blusa azul te queda muy bien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cinturón",
+      "target": "belt",
+      "example": "El cinturón de cuero es muy elegante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las gafas",
+      "target": "glasses",
+      "example": "Necesito las gafas para leer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sombrero",
+      "target": "hat",
+      "example": "Lleva siempre un sombrero en verano.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el calzado",
+      "target": "footwear / shoes",
+      "example": "El calzado deportivo es muy cómodo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la chaqueta",
+      "target": "jacket",
+      "example": "Coge una chaqueta por si hace frío.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la falda",
+      "target": "skirt",
+      "example": "La falda roja es muy bonita.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pantalón",
+      "target": "trousers",
+      "example": "Estos pantalones son demasiado cortos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las zapatillas",
+      "target": "sneakers / slippers",
+      "example": "Llevo las zapatillas deportivas para correr.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el traje",
+      "target": "suit",
+      "example": "Lleva traje y corbata a la reunión.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la corbata",
+      "target": "tie",
+      "example": "No sé hacer el nudo de la corbata.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el bañador",
+      "target": "swimsuit / swimming trunks",
+      "example": "No olvides el bañador para la playa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el impermeable",
+      "target": "raincoat",
+      "example": "Coge el impermeable que va a llover.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pijama",
+      "target": "pajamas",
+      "example": "Me puse el pijama y me fui a la cama.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la ropa",
+      "target": "clothes",
+      "example": "Tengo que lavar la ropa esta tarde.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "llevar",
+      "target": "to wear",
+      "example": "¿Qué llevas puesto hoy?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ponerse",
+      "target": "to put on",
+      "example": "Me pongo el abrigo antes de salir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quitarse",
+      "target": "to take off",
+      "example": "Quítate los zapatos al entrar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "los calcetines",
+      "target": "socks",
+      "example": "Necesito calcetines de lana para el frío.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "los zapatos",
+      "target": "shoes",
+      "example": "Estos zapatos me hacen daño en los pies.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

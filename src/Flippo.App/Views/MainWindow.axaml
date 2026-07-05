@@ -30,6 +30,7 @@
                 <NativeMenuItem.Menu>
                     <NativeMenu>
                         <NativeMenuItem Header="{loc:T Menu_NewSet}" Command="{Binding NewSetCommand}" Gesture="Ctrl+Shift+N"/>
+                        <NativeMenuItem Header="{loc:T Menu_ImportThemeSet}" Command="{Binding ImportThemeSetCommand}"/>
                         <NativeMenuItemSeparator/>
                         <NativeMenuItem Header="{loc:T Menu_ImportFile}" Command="{Binding ImportFileCommand}" Gesture="Ctrl+I"/>
                         <NativeMenuItem Header="{loc:T Menu_ImportBackup}" Command="{Binding ImportBackupCommand}" Gesture="Ctrl+Shift+I"/>

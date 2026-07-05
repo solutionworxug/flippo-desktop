@@ -1,0 +1,249 @@
+{
+  "id": "fr-hotel",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Hotel",
+  "entries": [
+    {
+      "source": "la réception",
+      "target": "die Rezeption",
+      "example": "La réception est ouverte vingt-quatre heures sur vingt-quatre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le réceptionniste",
+      "target": "der Rezeptionist",
+      "example": "Le réceptionniste nous a donné la clé de la chambre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la chambre simple",
+      "target": "das Einzelzimmer",
+      "example": "J'ai réservé une chambre simple pour deux nuits.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la chambre double",
+      "target": "das Doppelzimmer",
+      "example": "Avez-vous une chambre double avec vue sur la mer ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la clé",
+      "target": "der Schlüssel",
+      "example": "Voici la clé de votre chambre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carte magnétique",
+      "target": "die Magnetkarte",
+      "example": "La carte magnétique sert à ouvrir la porte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'ascenseur",
+      "target": "der Aufzug",
+      "example": "L'ascenseur est au fond du couloir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'étage",
+      "target": "das Stockwerk",
+      "example": "Ma chambre est au troisième étage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le service en chambre",
+      "target": "der Zimmerservice",
+      "example": "Nous avons commandé le petit-déjeuner au service en chambre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "petit-déjeuner inclus",
+      "target": "inklusive Frühstück",
+      "example": "Le prix du séjour comprend le petit-déjeuner inclus.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la demi-pension",
+      "target": "die Halbpension",
+      "example": "Nous avons réservé un séjour en demi-pension.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pension complète",
+      "target": "die Vollpension",
+      "example": "Cet hôtel propose l'option pension complète.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la climatisation",
+      "target": "die Klimaanlage",
+      "example": "La climatisation est nécessaire en été.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chauffage",
+      "target": "die Heizung",
+      "example": "Le chauffage ne fonctionne pas dans ma chambre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la connexion Wi-Fi",
+      "target": "die WLAN-Verbindung",
+      "example": "Quel est le mot de passe de la connexion Wi-Fi ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'enregistrement",
+      "target": "der Check-in",
+      "example": "L'enregistrement commence à quatorze heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le départ",
+      "target": "der Check-out",
+      "example": "Le départ doit se faire avant midi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le lit d'appoint",
+      "target": "das Zustellbett",
+      "example": "Pouvons-nous demander un lit d'appoint pour l'enfant ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le minibar",
+      "target": "die Minibar",
+      "example": "Il y a des boissons fraîches dans le minibar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le coffre-fort",
+      "target": "der Tresor",
+      "example": "J'ai rangé mon passeport dans le coffre-fort.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les serviettes",
+      "target": "die Handtücher",
+      "example": "Pouvez-vous m'apporter plus de serviettes propres s'il vous plaît ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'oreiller",
+      "target": "das Kissen",
+      "example": "J'ai besoin d'un autre oreiller pour mieux dormir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la couverture",
+      "target": "die Decke",
+      "example": "J'ai froid, pouvez-vous m'apporter une couverture supplémentaire ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le ménage",
+      "target": "die Reinigung / das Putzen",
+      "example": "Le ménage de la chambre se fait chaque matin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le groom",
+      "target": "der Hotelpage",
+      "example": "Le groom a porté nos valises jusqu'à la chambre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la piscine",
+      "target": "der Pool",
+      "example": "La piscine de l'hôtel est chauffée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la salle de sport",
+      "target": "das Fitnessstudio",
+      "example": "L'hôtel dispose d'une salle de sport moderne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se plaindre",
+      "target": "sich beschweren",
+      "example": "Le client s'est plaint du bruit de la rue.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "confirmer",
+      "target": "bestätigen",
+      "example": "Je voudrais confirmer ma réservation pour demain.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "annuler",
+      "target": "stornieren / absagen",
+      "example": "J'ai dû annuler la réservation à cause d'un imprévu.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

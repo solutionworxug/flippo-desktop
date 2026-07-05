@@ -1,0 +1,249 @@
+{
+  "id": "de-telefon-und-internet",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Telefon und Internet",
+  "entries": [
+    {
+      "source": "das Telefon",
+      "target": "telephone",
+      "example": "Ich rufe dich später über das Telefon an.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Handy",
+      "target": "mobile phone",
+      "example": "Ich habe mein Handy zu Hause vergessen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "anrufen",
+      "target": "to call",
+      "example": "Ich rufe dich an, wenn ich ankomme.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Nachricht / SMS",
+      "target": "message / text",
+      "example": "Ich schicke dir gleich eine Nachricht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die E-Mail",
+      "target": "email",
+      "example": "Schick mir das Dokument per E-Mail.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Internet",
+      "target": "internet",
+      "example": "In diesem Café habe ich kein Internet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Passwort",
+      "target": "password",
+      "example": "Ich habe mein Passwort vergessen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die App",
+      "target": "app",
+      "example": "Ich habe eine App zum Lernen heruntergeladen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Netzwerk / WLAN",
+      "target": "network",
+      "example": "Wie lautet das Passwort für das Netzwerk?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aufladen (Akku)",
+      "target": "to charge",
+      "example": "Ich muss mein Handy aufladen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Akku / die Batterie",
+      "target": "battery",
+      "example": "Der Akku hält leider nicht lange.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Computer",
+      "target": "computer",
+      "example": "Ich arbeite den ganzen Tag am Computer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Notebook / Laptop",
+      "target": "laptop",
+      "example": "Ich nehme das Notebook mit zur Arbeit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Bildschirm",
+      "target": "screen",
+      "example": "Der Bildschirm vom Handy ist kaputt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Tastatur",
+      "target": "keyboard",
+      "example": "Die kabellose Tastatur ist sehr praktisch.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Maus (Computer)",
+      "target": "mouse",
+      "example": "Ich habe die Maus für den Computer verloren.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "herunterladen",
+      "target": "to download",
+      "example": "Ich habe den Film heruntergeladen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hochladen",
+      "target": "to upload",
+      "example": "Ich habe die Fotos in die Cloud hochgeladen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Cloud",
+      "target": "cloud",
+      "example": "Alle Dokumente speichere ich in der Cloud.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die sozialen Netzwerke",
+      "target": "social media",
+      "example": "Ich verbringe zu viel Zeit in den sozialen Netzwerken.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Profil",
+      "target": "profile",
+      "example": "Ich habe mein Profil aktualisiert.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Foto",
+      "target": "photo",
+      "example": "Er hat ein Foto vom Urlaub gepostet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Video",
+      "target": "video",
+      "example": "Ich habe ein lustiges Video gesehen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "suchen",
+      "target": "to search",
+      "example": "Such die Information im Internet.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Webseite",
+      "target": "website",
+      "example": "Die Webseite der Firma ist sehr gut gemacht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Browser",
+      "target": "browser",
+      "example": "Öffne den Browser und such danach.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Virus (Computer)",
+      "target": "virus",
+      "example": "Der Computer hat einen Virus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Drucker",
+      "target": "printer",
+      "example": "Der Drucker funktioniert nicht, er hat keine Tinte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Kopfhörer",
+      "target": "headphones",
+      "example": "Für Videoanrufe benutze ich einen Kopfhörer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Videoanruf",
+      "target": "video call",
+      "example": "Sonntags machen wir einen Videoanruf mit den Großeltern.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

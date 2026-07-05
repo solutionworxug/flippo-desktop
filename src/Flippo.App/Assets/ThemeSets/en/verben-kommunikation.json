@@ -1,0 +1,249 @@
+{
+  "id": "en-verben-kommunikation",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Verben Kommunikation",
+  "entries": [
+    {
+      "source": "to speak",
+      "target": "sprechen / reden",
+      "example": "Speak more slowly, please.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to listen",
+      "target": "zuhören / hören",
+      "example": "Listen carefully to the instructions.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to say",
+      "target": "sagen",
+      "example": "What did you say? I didn't hear you.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to ask",
+      "target": "fragen",
+      "example": "Ask if you don't understand something.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to answer",
+      "target": "antworten",
+      "example": "Answer the questions in writing.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to explain",
+      "target": "erklären",
+      "example": "The teacher explains grammar very well.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to understand",
+      "target": "verstehen",
+      "example": "I don't understand this word.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to repeat",
+      "target": "wiederholen",
+      "example": "Can you repeat more slowly?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to translate",
+      "target": "übersetzen",
+      "example": "Translate this sentence into German.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to write",
+      "target": "schreiben",
+      "example": "Write your name on the form.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to read",
+      "target": "lesen",
+      "example": "Read the text aloud.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to call",
+      "target": "anrufen / nennen",
+      "example": "I'll call you this afternoon.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to reply",
+      "target": "antworten / reagieren",
+      "example": "He replied to all the emails.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to greet",
+      "target": "grüßen / begrüßen",
+      "example": "Greet your colleagues when you arrive.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to say goodbye",
+      "target": "sich verabschieden",
+      "example": "He said goodbye with a hug.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to introduce oneself",
+      "target": "sich vorstellen",
+      "example": "I introduced myself to the new colleagues.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to thank",
+      "target": "danken / sich bedanken",
+      "example": "I thanked him for his help.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to apologise",
+      "target": "sich entschuldigen",
+      "example": "He apologised for arriving late.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to complain",
+      "target": "sich beschweren",
+      "example": "He complained to the neighbour about the noise.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to ask / order",
+      "target": "bitten / bestellen",
+      "example": "He asked his colleague for help.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to invite",
+      "target": "einladen",
+      "example": "We invited them to dinner on Saturday.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to advise",
+      "target": "raten / empfehlen",
+      "example": "I advise you to study more.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to suggest",
+      "target": "vorschlagen",
+      "example": "He suggested a solution to the problem.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to give an opinion",
+      "target": "eine Meinung äußern",
+      "example": "What do you think about this topic?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to argue",
+      "target": "diskutieren / streiten",
+      "example": "They argued for hours without reaching an agreement.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to convince",
+      "target": "überzeugen",
+      "example": "He tried to convince me of his idea.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to lie",
+      "target": "lügen",
+      "example": "I never lie to my friends.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to promise",
+      "target": "versprechen",
+      "example": "He promised he would arrive on time.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to communicate",
+      "target": "kommunizieren / sich verständigen",
+      "example": "He communicates very well in English.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to interrupt",
+      "target": "unterbrechen",
+      "example": "Don't interrupt when someone is speaking.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

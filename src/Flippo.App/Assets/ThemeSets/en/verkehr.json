@@ -1,0 +1,249 @@
+{
+  "id": "en-verkehr",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Verkehr",
+  "entries": [
+    {
+      "source": "car",
+      "target": "das Auto",
+      "example": "I go to work by car.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "metro",
+      "target": "die U-Bahn",
+      "example": "The metro is faster than the bus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bus",
+      "target": "der Bus",
+      "example": "The bus to the centre leaves every twenty minutes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "train",
+      "target": "der Zug",
+      "example": "The high-speed train arrives in two hours.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "taxi",
+      "target": "das Taxi",
+      "example": "We took a taxi because it was raining.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bicycle",
+      "target": "das Fahrrad",
+      "example": "I go to work by bike when the weather is nice.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "plane",
+      "target": "das Flugzeug",
+      "example": "The plane takes off at ten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "motorbike",
+      "target": "das Motorrad",
+      "example": "He gets around the city by motorbike.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "stop",
+      "target": "die Haltestelle",
+      "example": "What's the next stop?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "traffic light",
+      "target": "die Ampel",
+      "example": "Stop at the red traffic light.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "street",
+      "target": "die Straße",
+      "example": "This street is closed for roadworks.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "road",
+      "target": "die Landstraße / Straße",
+      "example": "The road was very busy.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "motorway",
+      "target": "die Autobahn",
+      "example": "We took the motorway to go faster.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to park",
+      "target": "parken",
+      "example": "There's nowhere to park in the centre.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to drive",
+      "target": "fahren / lenken",
+      "example": "Drive carefully in the rain.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "traffic jam",
+      "target": "der Stau",
+      "example": "There are a lot of traffic jams during rush hour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ticket",
+      "target": "das Ticket / die Fahrkarte",
+      "example": "I bought the train ticket online.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "platform",
+      "target": "der Bahnsteig",
+      "example": "The train leaves from platform three.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "station",
+      "target": "der Bahnhof / die Station",
+      "example": "Let's meet at Atocha station.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "airport",
+      "target": "der Flughafen",
+      "example": "You need to be at the airport two hours before.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "port",
+      "target": "der Hafen",
+      "example": "The ferry leaves the port at nine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cruise",
+      "target": "die Kreuzfahrt",
+      "example": "We went on a cruise in the Mediterranean.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "petrol",
+      "target": "das Benzin",
+      "example": "You need to get petrol before leaving.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fine",
+      "target": "das Bußgeld / der Strafzettel",
+      "example": "I got a fine for illegal parking.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "driving licence",
+      "target": "der Führerschein",
+      "example": "I got my driving licence at eighteen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "seatbelt",
+      "target": "der Sicherheitsgurt",
+      "example": "Fasten your seatbelt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "return",
+      "target": "die Rückkehr / die Runde",
+      "example": "The return ticket is cheaper.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "direct",
+      "target": "direkt (ohne Umsteigen)",
+      "example": "I took a direct flight to Madrid.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to change",
+      "target": "umsteigen",
+      "example": "You have to change in Barcelona.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "delayed",
+      "target": "verspätet",
+      "example": "The train arrives twenty minutes late.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

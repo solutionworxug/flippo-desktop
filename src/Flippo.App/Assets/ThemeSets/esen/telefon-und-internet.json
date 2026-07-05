@@ -1,0 +1,249 @@
+{
+  "id": "esen-telefon-und-internet",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Telefon und Internet",
+  "entries": [
+    {
+      "source": "el teléfono",
+      "target": "telephone",
+      "example": "Te llamo al teléfono más tarde.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el móvil",
+      "target": "mobile phone",
+      "example": "Se me olvidó el móvil en casa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "llamar",
+      "target": "to call",
+      "example": "Te llamo cuando llegue al aeropuerto.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mensaje",
+      "target": "message",
+      "example": "Te mando un mensaje cuando salga.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el correo electrónico",
+      "target": "email",
+      "example": "Envíame el documento por correo electrónico.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "internet",
+      "target": "internet",
+      "example": "No tengo conexión a internet en este café.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la contraseña",
+      "target": "password",
+      "example": "He olvidado la contraseña de mi correo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la aplicación",
+      "target": "app",
+      "example": "Descargué una aplicación para aprender español.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la red",
+      "target": "network",
+      "example": "¿Cuál es la contraseña de la red wifi?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cargar",
+      "target": "to charge",
+      "example": "Tengo que cargar el móvil — se queda sin batería.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la batería",
+      "target": "battery",
+      "example": "La batería del móvil dura poco.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el ordenador",
+      "target": "computer",
+      "example": "Trabajo todo el día con el ordenador.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el portátil",
+      "target": "laptop",
+      "example": "Llevo el portátil al trabajo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pantalla",
+      "target": "screen",
+      "example": "La pantalla del móvil se rompió.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el teclado",
+      "target": "keyboard",
+      "example": "El teclado inalámbrico es muy cómodo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el ratón",
+      "target": "mouse",
+      "example": "Se me perdió el ratón del ordenador.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "descargar",
+      "target": "to download",
+      "example": "Descargué la película para verla sin internet.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "subir",
+      "target": "to upload",
+      "example": "Subí las fotos a la nube.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nube",
+      "target": "cloud",
+      "example": "Guardo todos mis documentos en la nube.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las redes sociales",
+      "target": "social networks",
+      "example": "Paso demasiado tiempo en las redes sociales.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el perfil",
+      "target": "profile",
+      "example": "Actualicé mi perfil en la red social.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la foto",
+      "target": "photo",
+      "example": "Subió una foto de sus vacaciones.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vídeo",
+      "target": "video",
+      "example": "Vi un vídeo muy divertido en internet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "buscar",
+      "target": "to search",
+      "example": "Busca la información en internet.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la página web",
+      "target": "website",
+      "example": "La página web de la empresa está muy bien hecha.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el navegador",
+      "target": "browser",
+      "example": "Usa el navegador para buscar información.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el virus",
+      "target": "virus",
+      "example": "El ordenador tiene un virus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la impresora",
+      "target": "printer",
+      "example": "La impresora no funciona — sin tinta.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el auricular",
+      "target": "headphones",
+      "example": "Uso los auriculares para las videollamadas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la videollamada",
+      "target": "video call",
+      "example": "Hacemos una videollamada con los abuelos los domingos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

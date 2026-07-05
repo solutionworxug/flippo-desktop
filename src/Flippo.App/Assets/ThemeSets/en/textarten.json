@@ -1,0 +1,249 @@
+{
+  "id": "en-textarten",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Textarten",
+  "entries": [
+    {
+      "source": "word",
+      "target": "das Wort",
+      "example": "I don't understand this word.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sentence",
+      "target": "der Satz",
+      "example": "Write a sentence with this word.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "text",
+      "target": "der Text",
+      "example": "Read the text and answer the questions.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "paragraph",
+      "target": "der Absatz",
+      "example": "The paragraph should have five lines.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "article",
+      "target": "der Artikel (Text)",
+      "example": "He read an interesting article in the newspaper.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "language",
+      "target": "die Sprache",
+      "example": "He speaks four languages fluently.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "full stop",
+      "target": "der Punkt (Satzzeichen)",
+      "example": "Don't forget to put a full stop at the end of the sentence.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "comma",
+      "target": "das Komma",
+      "example": "You should use a comma before but.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "exclamation mark",
+      "target": "das Ausrufezeichen",
+      "example": "The exclamation mark shows surprise.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "question mark",
+      "target": "das Fragezeichen",
+      "example": "The question mark goes at the end of the question.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "subtitle",
+      "target": "der Untertitel",
+      "example": "The film has subtitles in English.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "novel",
+      "target": "der Roman",
+      "example": "I'm reading a historical novel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "drama",
+      "target": "das Drama",
+      "example": "The drama was very moving.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "comedy",
+      "target": "die Komödie",
+      "example": "The comedy made us laugh a lot.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "autobiography",
+      "target": "die Autobiografie",
+      "example": "I read the writer's autobiography.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "alphabet",
+      "target": "das Alphabet",
+      "example": "The English alphabet has twenty-six letters.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "minutes / file",
+      "target": "das Protokoll / die Akte",
+      "example": "The secretary wrote the minutes of the meeting.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "abbreviation",
+      "target": "die Abkürzung",
+      "example": "DNI is the abbreviation of Documento Nacional de Identidad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "email",
+      "target": "die E-Mail",
+      "example": "I'll send you the information by email.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "newspaper",
+      "target": "die Zeitung",
+      "example": "I read the newspaper every morning.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "magazine",
+      "target": "die Zeitschrift / das Magazin",
+      "example": "I buy a fashion magazine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dictionary",
+      "target": "das Wörterbuch",
+      "example": "Check the dictionary if you don't understand the word.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "poem",
+      "target": "das Gedicht",
+      "example": "We learned a poem by heart.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "letter",
+      "target": "der Brief",
+      "example": "I wrote her a letter by hand.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "message / text",
+      "target": "die Nachricht / die SMS",
+      "example": "I'll send you a message when I arrive.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "summary",
+      "target": "die Zusammenfassung",
+      "example": "Write a summary of the text.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to translate",
+      "target": "übersetzen",
+      "example": "Can you translate this sentence into German?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to write",
+      "target": "schreiben",
+      "example": "Write your name on the form.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to read",
+      "target": "lesen",
+      "example": "I read a chapter every night.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "book",
+      "target": "das Buch",
+      "example": "I have many books at home.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

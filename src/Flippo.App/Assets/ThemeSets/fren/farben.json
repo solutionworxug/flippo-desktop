@@ -1,0 +1,249 @@
+{
+  "id": "fren-farben",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Farben",
+  "entries": [
+    {
+      "source": "la couleur",
+      "target": "color",
+      "example": "Quelle est ta couleur préférée ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rouge",
+      "target": "red",
+      "example": "Le feu est au rouge.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bleu",
+      "target": "blue",
+      "example": "Le ciel est très bleu aujourd'hui.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vert",
+      "target": "green",
+      "example": "L'herbe est verte au printemps.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "jaune",
+      "target": "yellow",
+      "example": "Le taxi est jaune.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "noir",
+      "target": "black",
+      "example": "Elle porte toujours des vêtements noirs.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "blanc",
+      "target": "white",
+      "example": "Les murs de la chambre sont blancs.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "marron",
+      "target": "brown",
+      "example": "L'ours brun a un pelage marron.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gris",
+      "target": "grey",
+      "example": "Le ciel est gris et nuageux.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "orange",
+      "target": "orange",
+      "example": "La carotte est de couleur orange.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lilas",
+      "target": "lilac",
+      "example": "Je lui ai offert un bouquet de fleurs lilas.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rose",
+      "target": "pink",
+      "example": "Les roses roses sont les plus populaires.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "turquoise",
+      "target": "turquoise",
+      "example": "La mer des Caraïbes est de couleur turquoise.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "violet",
+      "target": "purple",
+      "example": "Elle aime les robes de couleur violette.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "beige",
+      "target": "beige",
+      "example": "Les murs du salon sont beiges.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "foncé",
+      "target": "dark",
+      "example": "Le bleu foncé est une couleur très élégante.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "clair",
+      "target": "light",
+      "example": "Je préfère les couleurs claires en été.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "coloré",
+      "target": "colorful",
+      "example": "Le marché est plein de vêtements colorés.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "doré",
+      "target": "golden",
+      "example": "Le trophée est de couleur dorée.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "argenté",
+      "target": "silver",
+      "example": "Les boucles d'oreilles argentées vont avec tout.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "brillant",
+      "target": "shiny",
+      "example": "La robe est en tissu brillant.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mat",
+      "target": "matte",
+      "example": "Je préfère la peinture mate pour les murs.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "clair",
+      "target": "light",
+      "example": "Il a les cheveux châtain clair.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "foncé",
+      "target": "dark",
+      "example": "Il porte un costume gris foncé.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rayé",
+      "target": "striped",
+      "example": "Le tee-shirt rayé fait très marin.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à carreaux",
+      "target": "checked",
+      "example": "La chemise à carreaux est très décontractée.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à pois",
+      "target": "polka-dot",
+      "example": "La robe à pois est très estivale.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "uni",
+      "target": "plain",
+      "example": "Le pull uni va avec tout.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "teindre",
+      "target": "to dye",
+      "example": "Elle se teint les cheveux en blond.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "assortir",
+      "target": "to match",
+      "example": "Cette couleur s'assortit bien avec le bleu.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

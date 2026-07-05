@@ -1,0 +1,249 @@
+{
+  "id": "es-assessoirs",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Assessoirs",
+  "entries": [
+    {
+      "source": "el reloj",
+      "target": "die Uhr",
+      "example": "Se me olvidó el reloj en casa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aro",
+      "target": "der Ohrring",
+      "example": "Lleva unos aros de oro muy bonitos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la joya",
+      "target": "der Schmuck",
+      "example": "Esta joya es un regalo de mi abuela.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pulsera",
+      "target": "das Armband",
+      "example": "Me regaló una pulsera de plata.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el anillo",
+      "target": "der Ring",
+      "example": "Lleva el anillo de boda en la mano izquierda.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el collar",
+      "target": "die Halskette",
+      "example": "El collar de perlas es muy elegante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pendiente",
+      "target": "der Ohrring / Ohrstecker",
+      "example": "Perdí un pendiente en la discoteca.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el bolso",
+      "target": "die Handtasche",
+      "example": "Dejé el bolso en el taxi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cartera",
+      "target": "das Portemonnaie / die Brieftasche",
+      "example": "No encuentro la cartera — ¿la has visto?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cinturón",
+      "target": "der Gürtel",
+      "example": "El cinturón de cuero va bien con ese pantalón.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las gafas de sol",
+      "target": "die Sonnenbrille",
+      "example": "No salgo en verano sin las gafas de sol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el paraguas",
+      "target": "der Regenschirm",
+      "example": "Coge el paraguas que va a llover.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pañuelo",
+      "target": "das Taschentuch / das Halstuch",
+      "example": "Lleva un pañuelo de seda al cuello.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el broche",
+      "target": "die Brosche",
+      "example": "El broche de su abuela es de oro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el llavero",
+      "target": "der Schlüsselanhänger",
+      "example": "Tengo muchas llaves en el llavero.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mochila",
+      "target": "der Rucksack",
+      "example": "La mochila es más práctica que el bolso.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el maletín",
+      "target": "die Aktentasche",
+      "example": "Lleva el maletín al trabajo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sombrero",
+      "target": "der Hut",
+      "example": "El sombrero de paja es perfecto para la playa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bufanda",
+      "target": "der Schal",
+      "example": "La bufanda de lana abriga mucho en invierno.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el guante",
+      "target": "der Handschuh",
+      "example": "Se me perdió un guante de piel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el monedero",
+      "target": "der Münzbeutel / das Portemonnaie",
+      "example": "Paga con el monedero — tengo monedas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mochila de viaje",
+      "target": "der Reiserucksack",
+      "example": "La mochila de viaje es perfecta para el fin de semana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cadena",
+      "target": "die Kette",
+      "example": "Le regaló una cadena de oro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el imperdible",
+      "target": "die Sicherheitsnadel",
+      "example": "Llevo un imperdible para el disfraz.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la insignia",
+      "target": "das Abzeichen / die Anstecknadel",
+      "example": "Lleva una insignia de su equipo favorito.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el colgante",
+      "target": "der Anhänger (Schmuck)",
+      "example": "El colgante en forma de corazón es muy bonito.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el estuche",
+      "target": "das Etui / die Tasche",
+      "example": "El estuche de gafas protege las lentes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gorra",
+      "target": "die Kappe / Schirmmütze",
+      "example": "Lleva siempre una gorra para el sol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la maleta",
+      "target": "der Koffer",
+      "example": "Hice la maleta la noche antes del viaje.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el neceser",
+      "target": "die Kulturtasche",
+      "example": "No olvides el neceser con el cepillo de dientes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

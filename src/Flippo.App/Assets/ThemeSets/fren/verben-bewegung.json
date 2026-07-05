@@ -1,0 +1,249 @@
+{
+  "id": "fren-verben-bewegung",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Verben Bewegung",
+  "entries": [
+    {
+      "source": "aller",
+      "target": "to go",
+      "example": "Je vais au supermarché maintenant.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "venir",
+      "target": "to come",
+      "example": "Tu viens à la fête samedi ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "arriver",
+      "target": "to arrive",
+      "example": "Le train arrive à trois heures.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sortir / partir",
+      "target": "to leave / to go out",
+      "example": "Le bus part dans cinq minutes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "entrer",
+      "target": "to enter",
+      "example": "Entre, la porte est ouverte.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sauter",
+      "target": "to jump",
+      "example": "Les enfants sautent dans le parc.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "courir",
+      "target": "to run",
+      "example": "Je cours tous les jours dans le parc.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "marcher",
+      "target": "to walk",
+      "example": "Nous avons marché une heure dans la ville.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "monter",
+      "target": "to go up / to get on",
+      "example": "Nous montons au troisième étage à pied.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "descendre",
+      "target": "to go down / to get off",
+      "example": "Descends au prochain arrêt.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rentrer",
+      "target": "to come home / to return",
+      "example": "Je rentre à la maison à sept heures.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "retourner",
+      "target": "to go back / to return",
+      "example": "Nous retournons de voyage dimanche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "passer",
+      "target": "to pass / to go by",
+      "example": "Le bus passe toutes les vingt minutes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "traverser",
+      "target": "to cross",
+      "example": "Traverse la rue au passage piéton.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tourner",
+      "target": "to turn",
+      "example": "Tourne à droite au feu.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "continuer",
+      "target": "to continue",
+      "example": "Continue tout droit jusqu'au bout de la rue.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "s'approcher",
+      "target": "to approach",
+      "example": "Il s'est approché pour mieux écouter.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "s'éloigner",
+      "target": "to move away",
+      "example": "Il s'est éloigné sans rien dire.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "s'arrêter",
+      "target": "to stop",
+      "example": "Arrête la voiture ici s'il te plaît.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "s'asseoir",
+      "target": "to sit down",
+      "example": "Assieds-toi, la réunion va commencer.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se lever",
+      "target": "to get up",
+      "example": "Il s'est levé de la chaise pour saluer.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "s'allonger",
+      "target": "to lie down",
+      "example": "Je me suis allongé sur le canapé pour me reposer.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se baisser",
+      "target": "to bend down",
+      "example": "Il s'est baissé pour ramasser le stylo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pousser",
+      "target": "to push",
+      "example": "Pousse la porte, ne tire pas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tirer",
+      "target": "to pull",
+      "example": "Tire sur le cordon pour allumer la lumière.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "apporter / emporter",
+      "target": "to take / to carry away",
+      "example": "Emporte le parapluie, il pourrait pleuvoir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "apporter",
+      "target": "to bring",
+      "example": "Apporte le document pour la réunion.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bouger",
+      "target": "to move",
+      "example": "Bouge, tu bloques la sortie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "s'échapper",
+      "target": "to escape",
+      "example": "Le chat s'est échappé par la fenêtre.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se diriger vers",
+      "target": "to head towards",
+      "example": "Il s'est dirigé rapidement vers la sortie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

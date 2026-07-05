@@ -1,0 +1,249 @@
+{
+  "id": "fr-tierwelt",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Tierwelt",
+  "entries": [
+    {
+      "source": "le papillon",
+      "target": "der Schmetterling",
+      "example": "Le papillon vole au-dessus des fleurs.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'animal",
+      "target": "das Tier",
+      "example": "Le zoo a beaucoup d'animaux exotiques.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chien",
+      "target": "der Hund",
+      "example": "Le chien est le meilleur ami de l'homme.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chat",
+      "target": "die Katze",
+      "example": "Le chat dort toute la journée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'oiseau",
+      "target": "der Vogel",
+      "example": "L'oiseau chante dans l'arbre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le poisson",
+      "target": "der Fisch",
+      "example": "Le poisson nage dans l'aquarium.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cheval",
+      "target": "das Pferd",
+      "example": "Le cheval court très vite.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la vache",
+      "target": "die Kuh",
+      "example": "La vache donne du lait frais chaque jour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cochon",
+      "target": "das Schwein",
+      "example": "Le cochon sert à faire du jambon.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le mouton",
+      "target": "das Schaf",
+      "example": "Les moutons paissent dans le champ.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la poule",
+      "target": "das Huhn",
+      "example": "La poule pond des œufs chaque jour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le lapin",
+      "target": "das Kaninchen",
+      "example": "Les lapins sont très populaires comme animaux de compagnie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la souris",
+      "target": "die Maus",
+      "example": "La souris est entrée dans la cuisine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'éléphant",
+      "target": "der Elefant",
+      "example": "L'éléphant est le plus grand animal terrestre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le lion",
+      "target": "der Löwe",
+      "example": "Le lion est le roi de la jungle.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le tigre",
+      "target": "der Tiger",
+      "example": "Le tigre est un félin très puissant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'ours",
+      "target": "der Bär",
+      "example": "L'ours brun vit dans les Pyrénées.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le loup",
+      "target": "der Wolf",
+      "example": "Le loup hurle la nuit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le serpent",
+      "target": "die Schlange",
+      "example": "Le serpent a la peau écailleuse.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'araignée",
+      "target": "die Spinne",
+      "example": "L'araignée tisse sa toile avec beaucoup d'habileté.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'abeille",
+      "target": "die Biene",
+      "example": "L'abeille produit du miel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bourdon",
+      "target": "die Hummel",
+      "example": "Le bourdon vole de fleur en fleur.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le canard",
+      "target": "die Ente",
+      "example": "Les canards nagent dans le lac.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le perroquet",
+      "target": "der Papagei",
+      "example": "Le perroquet répète tout ce qu'il entend.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tortue",
+      "target": "die Schildkröte",
+      "example": "La tortue marche très lentement.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le dauphin",
+      "target": "der Delfin",
+      "example": "Les dauphins sont très intelligents.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le singe",
+      "target": "der Affe",
+      "example": "Les singes sont très joueurs.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mouche",
+      "target": "die Fliege",
+      "example": "La mouche vole autour du fruit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'âne",
+      "target": "der Esel",
+      "example": "L'âne porte la charge sur le chemin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'animal de compagnie",
+      "target": "das Haustier",
+      "example": "Nous avons un animal de compagnie à la maison, un chat.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

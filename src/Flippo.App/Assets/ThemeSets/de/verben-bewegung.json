@@ -1,0 +1,249 @@
+{
+  "id": "de-verben-bewegung",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Verben Bewegung",
+  "entries": [
+    {
+      "source": "gehen / fahren",
+      "target": "to go",
+      "example": "Ich gehe jetzt zum Supermarkt.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kommen",
+      "target": "to come",
+      "example": "Kommst du am Samstag zur Party?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ankommen",
+      "target": "to arrive",
+      "example": "Der Zug kommt um drei an.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ausgehen / abfahren",
+      "target": "to leave / depart",
+      "example": "Der Bus fährt in fünf Minuten ab.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "eintreten / hineingehen",
+      "target": "to enter",
+      "example": "Komm herein, die Tür ist offen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "springen",
+      "target": "to jump",
+      "example": "Die Kinder springen im Park.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "laufen / rennen",
+      "target": "to run",
+      "example": "Ich laufe jeden Tag im Park.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gehen / laufen (gemächlich)",
+      "target": "to walk",
+      "example": "Wir gingen eine Stunde durch die Stadt.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hinaufgehen / einsteigen",
+      "target": "to go up",
+      "example": "Wir gehen zu Fuß in den dritten Stock hinauf.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "heruntergehen / aussteigen",
+      "target": "to go down",
+      "example": "Steig an der nächsten Haltestelle herunter.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zurückkommen",
+      "target": "to come back",
+      "example": "Ich komme um sieben nach Hause zurück.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zurückkehren",
+      "target": "to return",
+      "example": "Wir kehren am Sonntag von der Reise zurück.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vorbeigehen / passieren",
+      "target": "to pass",
+      "example": "Der Bus geht alle zwanzig Minuten vorbei.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "überqueren",
+      "target": "to cross",
+      "example": "Überquere die Straße am Zebrastreifen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "abbiegen / sich drehen",
+      "target": "to turn",
+      "example": "Bieg an der Ampel rechts ab.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "weitergehen / fortsetzen",
+      "target": "to continue",
+      "example": "Geh bis zum Ende der Straße weiter.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich nähern / näherkommen",
+      "target": "to approach",
+      "example": "Er näherte sich, um besser zu hören.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich entfernen / weggehen",
+      "target": "to move away",
+      "example": "Er entfernte sich, ohne etwas zu sagen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "stehen bleiben / anhalten",
+      "target": "to stop",
+      "example": "Bleib hier bitte mit dem Auto stehen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich setzen / hinsetzen",
+      "target": "to sit down",
+      "example": "Setz dich, die Besprechung beginnt gleich.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aufstehen",
+      "target": "to stand up",
+      "example": "Er stand vom Stuhl auf, um zu grüßen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich hinlegen",
+      "target": "to lie down",
+      "example": "Ich legte mich aufs Sofa, um mich auszuruhen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich bücken",
+      "target": "to bend down",
+      "example": "Er bückte sich, um den Stift aufzuheben.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schieben / drücken",
+      "target": "to push",
+      "example": "Schieb die Tür, zieh nicht.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ziehen / werfen",
+      "target": "to pull",
+      "example": "Zieh an der Schnur, um das Licht einzuschalten.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tragen / mitnehmen",
+      "target": "to carry / take",
+      "example": "Trag den Regenschirm, es könnte regnen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mitbringen / bringen",
+      "target": "to bring",
+      "example": "Bring das Dokument für die Besprechung mit.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich bewegen",
+      "target": "to move",
+      "example": "Beweg dich, du blockierst den Ausgang.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "entkommen / weglaufen",
+      "target": "to escape",
+      "example": "Die Katze entkam durch das Fenster.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich begeben / zusteuern auf",
+      "target": "to head towards",
+      "example": "Er begab sich schnell zum Ausgang.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

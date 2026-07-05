@@ -1,0 +1,249 @@
+{
+  "id": "es-korper",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Körper",
+  "entries": [
+    {
+      "source": "la pierna",
+      "target": "das Bein",
+      "example": "Me duele la pierna después de correr.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cabeza",
+      "target": "der Kopf",
+      "example": "Me duele la cabeza.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pelo",
+      "target": "das Haar",
+      "example": "Tiene el pelo largo y rizado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cuello",
+      "target": "der Hals",
+      "example": "Me duele el cuello de mirar el móvil.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la espalda",
+      "target": "der Rücken",
+      "example": "Tengo dolor de espalda por el trabajo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pie",
+      "target": "der Fuß",
+      "example": "Me duele el pie después de caminar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el dedo",
+      "target": "der Finger",
+      "example": "Me corté el dedo cocinando.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el brazo",
+      "target": "der Arm",
+      "example": "Lleva el brazo en cabestrillo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mano",
+      "target": "die Hand",
+      "example": "Lávate las manos antes de comer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el estómago",
+      "target": "der Magen / der Bauch",
+      "example": "Me duele el estómago después de comer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nariz",
+      "target": "die Nase",
+      "example": "En invierno siempre me sueno la nariz.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el ojo",
+      "target": "das Auge",
+      "example": "Tiene los ojos muy azules.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cuerpo",
+      "target": "der Körper",
+      "example": "El ejercicio es bueno para el cuerpo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sano",
+      "target": "gesund",
+      "example": "Comer verdura es sano.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "enfermo",
+      "target": "krank",
+      "example": "No voy al trabajo porque estoy enfermo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la boca",
+      "target": "der Mund",
+      "example": "Abre la boca y di 'ah'.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "los dientes",
+      "target": "die Zähne",
+      "example": "Hay que lavarse los dientes dos veces al día.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la lengua",
+      "target": "die Zunge",
+      "example": "Me mordí la lengua comiendo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la oreja",
+      "target": "das Ohr (außen)",
+      "example": "Me duele la oreja derecha.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hombro",
+      "target": "die Schulter",
+      "example": "Lleva la mochila en el hombro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pecho",
+      "target": "die Brust",
+      "example": "Me duele el pecho cuando respiro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la rodilla",
+      "target": "das Knie",
+      "example": "Me caí y me golpeé la rodilla.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tobillo",
+      "target": "der Knöchel",
+      "example": "Me torcí el tobillo corriendo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el codo",
+      "target": "der Ellbogen",
+      "example": "Me di un golpe en el codo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la frente",
+      "target": "die Stirn",
+      "example": "Tiene fiebre — le toqué la frente.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mejilla",
+      "target": "die Wange",
+      "example": "Le dio un beso en la mejilla.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el labio",
+      "target": "die Lippe",
+      "example": "Tiene los labios muy finos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la barbilla",
+      "target": "das Kinn",
+      "example": "Se acarició la barbilla pensando.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el corazón",
+      "target": "das Herz",
+      "example": "El corazón late más rápido cuando corres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la sangre",
+      "target": "das Blut",
+      "example": "Me salió sangre del dedo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

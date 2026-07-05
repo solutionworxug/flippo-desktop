@@ -1,0 +1,249 @@
+{
+  "id": "en-frageworter",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Fragewörter",
+  "entries": [
+    {
+      "source": "what?",
+      "target": "was?",
+      "example": "What do you want to eat?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "who?",
+      "target": "wer?",
+      "example": "Who is calling at the door?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "where?",
+      "target": "wo?",
+      "example": "Where is the subway station?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "when?",
+      "target": "wann?",
+      "example": "When does the train arrive?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "how?",
+      "target": "wie?",
+      "example": "What is your friend's name?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "why?",
+      "target": "warum?",
+      "example": "Why are you late?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "how much?",
+      "target": "wie viel?",
+      "example": "How much does this book cost?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "how many?",
+      "target": "wie viele?",
+      "example": "How many students are in the class?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "which?",
+      "target": "welche(r/s)?",
+      "example": "Which is your favorite movie?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "what for?",
+      "target": "wofür / wozu?",
+      "example": "What is this tool used for?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "since when?",
+      "target": "seit wann?",
+      "example": "Since when have you lived in Spain?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "until when?",
+      "target": "bis wann?",
+      "example": "Until when are you staying?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "at what time?",
+      "target": "um wie viel Uhr?",
+      "example": "What time does the meeting start?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "where from?",
+      "target": "woher?",
+      "example": "Where are you from?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "where to?",
+      "target": "wohin?",
+      "example": "Where are you going this summer?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "with whom?",
+      "target": "mit wem?",
+      "example": "With whom did you go to the cinema?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "how long?",
+      "target": "wie lange?",
+      "example": "How long does it take you to get there?",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "because",
+      "target": "weil",
+      "example": "I didn't go because I was sick.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "when",
+      "target": "als / wenn",
+      "example": "I will call you when I arrive.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "as / like",
+      "target": "wie / als",
+      "example": "He speaks like an expert.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "if",
+      "target": "wenn / falls",
+      "example": "If it rains, we won't go out.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "question",
+      "target": "die Frage",
+      "example": "She has a question for the teacher.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "answer",
+      "target": "die Antwort",
+      "example": "The correct answer is B.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "language",
+      "target": "die Sprache",
+      "example": "How many languages do you speak?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "word",
+      "target": "das Wort",
+      "example": "I didn't understand that word.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sentence",
+      "target": "der Satz",
+      "example": "Write a sentence with this word.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to mean",
+      "target": "bedeuten",
+      "example": "What does this word mean?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to ask",
+      "target": "fragen",
+      "example": "Don't be afraid to ask.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to answer",
+      "target": "antworten",
+      "example": "Answer the question.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to repeat",
+      "target": "wiederholen",
+      "example": "Can you repeat that more slowly?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

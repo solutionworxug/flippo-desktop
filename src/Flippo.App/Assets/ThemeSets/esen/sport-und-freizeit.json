@@ -1,0 +1,249 @@
+{
+  "id": "esen-sport-und-freizeit",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Sport und Freizeit",
+  "entries": [
+    {
+      "source": "deportivo",
+      "target": "sporty",
+      "example": "Es un chico muy deportivo y activo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bucear",
+      "target": "to dive",
+      "example": "Me encanta bucear en el mar Mediterráneo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nadar",
+      "target": "to swim",
+      "example": "Nado treinta minutos todos los días.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el deporte",
+      "target": "sport",
+      "example": "Hacer deporte es bueno para la salud.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el fútbol",
+      "target": "football",
+      "example": "El fútbol es el deporte más popular en España.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tennis",
+      "target": "tennis",
+      "example": "Juega al tenis los sábados.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "correr",
+      "target": "to run",
+      "example": "Corro cinco kilómetros cada mañana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el gimnasio",
+      "target": "gym",
+      "example": "Voy al gimnasio tres veces a la semana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "entrenar",
+      "target": "to train",
+      "example": "Entrena dos horas al día.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el partido",
+      "target": "match",
+      "example": "¿Viste el partido del domingo?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el equipo",
+      "target": "team",
+      "example": "Su equipo favorito ganó la liga.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ganar",
+      "target": "to win",
+      "example": "Ganamos el partido por tres a uno.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "perder",
+      "target": "to lose",
+      "example": "Perdimos el partido en los últimos minutos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el árbitro",
+      "target": "referee",
+      "example": "El árbitro pitó penalti.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la piscina",
+      "target": "swimming pool",
+      "example": "En verano vamos a la piscina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bicicleta",
+      "target": "bicycle",
+      "example": "Damos una vuelta en bicicleta los domingos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el senderismo",
+      "target": "hiking",
+      "example": "El fin de semana hicimos senderismo en la montaña.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el baloncesto",
+      "target": "basketball",
+      "example": "El baloncesto también es muy popular en España.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el voleibol",
+      "target": "volleyball",
+      "example": "Jugamos al voleibol en la playa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pelota",
+      "target": "ball",
+      "example": "La pelota entró en la portería.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tiempo libre",
+      "target": "free time",
+      "example": "¿Qué haces en tu tiempo libre?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hobby",
+      "target": "hobby",
+      "example": "Mi hobby favorito es la fotografía.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "leer",
+      "target": "to read",
+      "example": "Leo una hora antes de dormir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cine",
+      "target": "cinema",
+      "example": "Vamos al cine el viernes por la noche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el teatro",
+      "target": "theatre",
+      "example": "Fuimos al teatro a ver una comedia.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el concierto",
+      "target": "concert",
+      "example": "Compré entradas para el concierto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fotografía",
+      "target": "photography",
+      "example": "La fotografía es mi afición desde pequeño.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el videojuego",
+      "target": "video game",
+      "example": "Juega a los videojuegos por la tarde.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pintar",
+      "target": "to paint",
+      "example": "Le gusta mucho pintar acuarelas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bailar",
+      "target": "to dance",
+      "example": "Salimos a bailar los sábados.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

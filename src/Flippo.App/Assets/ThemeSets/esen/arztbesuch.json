@@ -1,0 +1,249 @@
+{
+  "id": "esen-arztbesuch",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Arztbesuch",
+  "entries": [
+    {
+      "source": "el médico",
+      "target": "doctor",
+      "example": "El médico me ha recetado un jarabe para la tos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la enfermera",
+      "target": "nurse",
+      "example": "La enfermera me tomó la presión arterial.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cita",
+      "target": "appointment",
+      "example": "Tengo una cita con el dentista a las diez.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la sala de espera",
+      "target": "waiting room",
+      "example": "Hay mucha gente en la sala de espera.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la receta",
+      "target": "prescription",
+      "example": "El doctor escribió una receta para los antibióticos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el medicamento",
+      "target": "medication",
+      "example": "Debes tomar este medicamento después de las comidas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el síntoma",
+      "target": "symptom",
+      "example": "Dígame cuáles son sus síntomas principales.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el dolor",
+      "target": "pain",
+      "example": "¿Dónde siente exactamente el dolor?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fiebre",
+      "target": "fever",
+      "example": "Tengo mucha fiebre y me duele la cabeza.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tos",
+      "target": "cough",
+      "example": "Esta tos no me deja dormir por la noche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el resfriado",
+      "target": "cold",
+      "example": "He cogido un resfriado por el aire acondicionado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gripe",
+      "target": "flu",
+      "example": "Este invierno mucha gente tiene la gripe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la farmacia",
+      "target": "pharmacy",
+      "example": "Voy a la farmacia a comprar las pastillas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pastilla",
+      "target": "pill",
+      "example": "Tome una pastilla cada ocho horas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el jarabe",
+      "target": "syrup",
+      "example": "El jarabe es muy dulce pero efectivo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la inyección",
+      "target": "injection",
+      "example": "La enfermera me puso una inyección.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el seguro médico",
+      "target": "health insurance",
+      "example": "¿Tiene usted seguro médico privado?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tarjeta sanitaria",
+      "target": "health insurance card",
+      "example": "Por favor, enséñeme su tarjeta sanitaria.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la presión arterial",
+      "target": "blood pressure",
+      "example": "Su presión arterial está un poco alta hoy.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el análisis de sangre",
+      "target": "blood test",
+      "example": "Mañana tengo que hacerme un análisis de sangre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la herida",
+      "target": "wound",
+      "example": "Hay que limpiar la herida con antiséptico.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la alergia",
+      "target": "allergy",
+      "example": "Tengo alergia al polen en primavera.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la consulta",
+      "target": "practice",
+      "example": "La consulta del médico está en el primer piso.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el diagnóstico",
+      "target": "diagnosis",
+      "example": "El médico todavía no tiene un diagnóstico claro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la receta médica",
+      "target": "medical prescription",
+      "example": "Necesito una receta médica para comprar esto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "respirar",
+      "target": "to breathe",
+      "example": "Respire profundamente, por favor.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "toser",
+      "target": "to cough",
+      "example": "Me duele el pecho cuando empiezo a toser.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "recetar",
+      "target": "to prescribe",
+      "example": "¿Qué me va a recetar para el dolor?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "examinar",
+      "target": "to examine",
+      "example": "El doctor me va a examinar la garganta.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pedir cita",
+      "target": "to make an appointment",
+      "example": "Llamé para pedir cita con el especialista.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

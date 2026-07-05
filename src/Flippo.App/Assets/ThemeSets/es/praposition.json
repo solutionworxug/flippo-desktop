@@ -1,0 +1,249 @@
+{
+  "id": "es-praposition",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Präposition",
+  "entries": [
+    {
+      "source": "en",
+      "target": "in / an / auf",
+      "example": "El libro está en la mesa.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "a",
+      "target": "nach / zu / um (Uhrzeit)",
+      "example": "Voy a casa a las tres.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "de",
+      "target": "von / aus / des",
+      "example": "Soy de Alemania.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "con",
+      "target": "mit",
+      "example": "Voy al cine con mi amigo.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "para",
+      "target": "für / um ... zu",
+      "example": "Este regalo es para ti.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "por",
+      "target": "durch / für / pro",
+      "example": "Gracias por tu ayuda.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sin",
+      "target": "ohne",
+      "example": "Café sin azúcar por favor.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sobre",
+      "target": "über / auf",
+      "example": "El cuadro está sobre la chimenea.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hasta",
+      "target": "bis",
+      "example": "Trabajo hasta las seis.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "desde",
+      "target": "seit / von",
+      "example": "Vivo aquí desde hace un año.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "entre",
+      "target": "zwischen",
+      "example": "El banco está entre el cine y la farmacia.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cerca de",
+      "target": "in der Nähe von",
+      "example": "La estación está cerca de aquí.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lejos de",
+      "target": "weit von",
+      "example": "El aeropuerto está lejos del centro.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "delante de",
+      "target": "vor",
+      "example": "El coche está delante de la puerta.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "detrás de",
+      "target": "hinter",
+      "example": "El jardín está detrás de la casa.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "encima de",
+      "target": "auf / oben auf",
+      "example": "Las llaves están encima de la mesa.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "debajo de",
+      "target": "unter",
+      "example": "El gato está debajo de la cama.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "al lado de",
+      "target": "neben",
+      "example": "La farmacia está al lado del supermercado.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dentro de",
+      "target": "innerhalb von / in",
+      "example": "Las llaves están dentro del bolso.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fuera de",
+      "target": "außerhalb von",
+      "example": "Esperamos fuera del edificio.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "antes de",
+      "target": "vor (zeitlich)",
+      "example": "Llámame antes de las diez.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "después de",
+      "target": "nach (zeitlich)",
+      "example": "Te veo después de la reunión.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "durante",
+      "target": "während",
+      "example": "No hables durante la película.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "según",
+      "target": "gemäß / laut",
+      "example": "Según el mapa estamos aquí.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "contra",
+      "target": "gegen",
+      "example": "Estoy contra esa decisión.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacia",
+      "target": "in Richtung / gegen (zeitlich)",
+      "example": "Llegaré hacia las tres.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "al",
+      "target": "zum / zur (a + el)",
+      "example": "Voy al mercado.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "del",
+      "target": "vom / des (de + el)",
+      "example": "Vengo del trabajo.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mientras",
+      "target": "während",
+      "example": "Escucho música mientras cocino.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "excepto",
+      "target": "außer / ausgenommen",
+      "example": "Todos vinieron excepto Ana.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "de-musik-und-kultur",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Musik und Kultur",
+  "entries": [
+    {
+      "source": "die Musik",
+      "target": "music",
+      "example": "Musik hilft mir beim Entspannen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Lied / der Song",
+      "target": "song",
+      "example": "Dieses Lied erinnert mich an den Sommer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Konzert",
+      "target": "concert",
+      "example": "Wir haben Karten für das Konzert gekauft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Sänger",
+      "target": "singer",
+      "example": "Sein Lieblingssänger kommt aus Argentinien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Band / die Gruppe",
+      "target": "band",
+      "example": "Die Band spielt diesen Sommer in Madrid.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tanzen",
+      "target": "to dance",
+      "example": "Sie tanzt sehr gern Flamenco.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Tanz",
+      "target": "dance",
+      "example": "Der Tanz Flamenco ist sehr ausdrucksstark.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Instrument",
+      "target": "instrument",
+      "example": "Er spielt drei Instrumente.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Gitarre",
+      "target": "guitar",
+      "example": "Er lernt gerade Gitarre spielen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Klavier",
+      "target": "piano",
+      "example": "Sie spielt seit ihrem fünften Lebensjahr Klavier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Kino",
+      "target": "cinema",
+      "example": "Am Freitag gehen wir ins Kino.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Film",
+      "target": "film",
+      "example": "Wir haben gestern einen sehr guten Film gesehen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Schauspieler",
+      "target": "actor",
+      "example": "Der Schauspieler hat den Preis gewonnen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Schauspielerin",
+      "target": "actress",
+      "example": "Die Schauspielerin ist in Spanien sehr bekannt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Theater",
+      "target": "theatre",
+      "example": "Das Theater in der Stadt hat das ganze Jahr Vorstellungen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Theaterstück",
+      "target": "play",
+      "example": "Wir haben ein sehr lustiges Theaterstück gesehen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Museum",
+      "target": "museum",
+      "example": "Das Prado-Museum ist eines der besten der Welt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Ausstellung",
+      "target": "exhibition",
+      "example": "Im Museum gibt es eine Dalí-Ausstellung.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Gemälde / Bild",
+      "target": "painting",
+      "example": "Das Gemälde von Velázquez ist beeindruckend.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kunst",
+      "target": "art",
+      "example": "Moderne Kunst mag ich nicht besonders.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Künstler",
+      "target": "artist",
+      "example": "Er ist ein weltweit sehr bekannter Künstler.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lesen",
+      "target": "to read",
+      "example": "Ich lese jeden Monat einen Roman.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Buch",
+      "target": "book",
+      "example": "Dieses Buch hat mir eine Freundin empfohlen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Bibliothek",
+      "target": "library",
+      "example": "Die öffentliche Bibliothek ist bis neun geöffnet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Festival",
+      "target": "festival",
+      "example": "Das Musikfestival dauert drei Tage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Eintrittskarte",
+      "target": "ticket",
+      "example": "Die Eintrittskarten für das Konzert sind ausverkauft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Radio",
+      "target": "radio",
+      "example": "Ich höre beim Kochen Radio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Fernsehen / der Fernseher",
+      "target": "television",
+      "example": "Ich schaue nicht viel Fernsehen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Fotografie",
+      "target": "photography",
+      "example": "Die künstlerische Fotografie ist seine Leidenschaft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "spielen (Instrument)",
+      "target": "to play",
+      "example": "Er spielt Gitarre in einer Band.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

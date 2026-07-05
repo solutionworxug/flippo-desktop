@@ -1,0 +1,249 @@
+{
+  "id": "fren-schule",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Schule",
+  "entries": [
+    {
+      "source": "l'école",
+      "target": "school",
+      "example": "L'école commence à huit heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la salle de classe",
+      "target": "classroom",
+      "example": "Notre salle de classe est au premier étage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le professeur",
+      "target": "teacher",
+      "example": "Le professeur explique l'exercice.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'élève",
+      "target": "pupil / student",
+      "example": "Chaque élève a son propre cahier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le directeur",
+      "target": "principal",
+      "example": "Le directeur accueille les nouveaux élèves.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la classe",
+      "target": "class",
+      "example": "Il y a trente enfants dans ma classe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le tableau",
+      "target": "board",
+      "example": "Le professeur écrit le mot au tableau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la craie",
+      "target": "chalk",
+      "example": "La craie est presque finie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cahier",
+      "target": "exercise book",
+      "example": "Écris la réponse dans ton cahier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le manuel",
+      "target": "textbook",
+      "example": "Ouvrez le manuel à la page dix.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le stylo",
+      "target": "pen",
+      "example": "Puis-je utiliser ton stylo?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le crayon",
+      "target": "pencil",
+      "example": "Trace la ligne avec un crayon.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gomme",
+      "target": "eraser",
+      "example": "Peux-tu me prêter ta gomme?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la règle",
+      "target": "ruler",
+      "example": "Avec la règle je trace une ligne droite.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le taille-crayon",
+      "target": "pencil sharpener",
+      "example": "Mon taille-crayon est dans le cartable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cartable",
+      "target": "schoolbag",
+      "example": "Le cartable est très lourd aujourd'hui.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cour",
+      "target": "schoolyard",
+      "example": "Pendant la récréation nous jouons dans la cour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les cours",
+      "target": "lessons",
+      "example": "Les cours sont annulés aujourd'hui.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la récréation",
+      "target": "break",
+      "example": "Pendant la récréation je mange mon goûter.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les devoirs",
+      "target": "homework",
+      "example": "Je fais mes devoirs après le déjeuner.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la note",
+      "target": "grade",
+      "example": "Elle a eu une bonne note.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bulletin",
+      "target": "report card",
+      "example": "Le bulletin arrive à la fin de l'année scolaire.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'examen",
+      "target": "exam",
+      "example": "Nous avons un examen demain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la matière",
+      "target": "subject",
+      "example": "Quelle matière préfères-tu?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les mathématiques",
+      "target": "mathematics",
+      "example": "Les mathématiques ne sont pas ma matière préférée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'histoire",
+      "target": "history",
+      "example": "En histoire nous étudions le Moyen Âge.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'emploi du temps",
+      "target": "timetable",
+      "example": "Regarde l'emploi du temps pour demain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bibliothèque",
+      "target": "library",
+      "example": "J'emprunte des livres à la bibliothèque.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la question",
+      "target": "question",
+      "example": "As-tu une question pour le professeur?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la réponse",
+      "target": "answer",
+      "example": "La bonne réponse est au tableau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

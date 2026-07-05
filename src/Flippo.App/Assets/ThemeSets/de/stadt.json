@@ -1,0 +1,249 @@
+{
+  "id": "de-stadt",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Stadt",
+  "entries": [
+    {
+      "source": "der Straßenverkehr",
+      "target": "road traffic",
+      "example": "Der Straßenverkehr ist heute sehr dicht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Post",
+      "target": "post office",
+      "example": "Ich gehe zur Post und schicke ein Paket.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Gesichtspunkt / der Standpunkt",
+      "target": "point of view",
+      "example": "Aus meinem Gesichtspunkt hast du recht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Stadtplan",
+      "target": "city map",
+      "example": "Wir schauen auf den Stadtplan.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Polizeiwache",
+      "target": "police station",
+      "example": "Sie ging zur Polizeiwache und meldete den Diebstahl.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Stadt",
+      "target": "city",
+      "example": "Madrid ist eine sehr lebendige Stadt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Dorf",
+      "target": "village",
+      "example": "Den Sommer verbringen wir in einem kleinen Dorf.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Viertel",
+      "target": "neighbourhood",
+      "example": "Ich wohne in einem ruhigen Viertel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Platz",
+      "target": "square",
+      "example": "Der Platz ist voller Touristen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Straße",
+      "target": "street",
+      "example": "In dieser Straße dürfen keine Autos fahren.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Bank",
+      "target": "bank",
+      "example": "Ich muss zur Bank und Geld abheben.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Apotheke",
+      "target": "pharmacy",
+      "example": "Die Apotheke hat heute Nacht geöffnet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Krankenhaus",
+      "target": "hospital",
+      "example": "Das neue Krankenhaus öffnet nächstes Jahr.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kirche",
+      "target": "church",
+      "example": "Die Kirche im Dorf ist sehr alt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Rathaus",
+      "target": "town hall",
+      "example": "Das Rathaus organisiert das Stadtfest.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Markt",
+      "target": "market",
+      "example": "Der Markt öffnet immer am Samstag.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Supermarkt",
+      "target": "supermarket",
+      "example": "Der Supermarkt schließt um zehn Uhr.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Restaurant",
+      "target": "restaurant",
+      "example": "Im Zentrum gibt es viele Restaurants.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Bar",
+      "target": "bar",
+      "example": "Wir trinken etwas in der Bar an der Ecke.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Park",
+      "target": "park",
+      "example": "Die Kinder spielen im Park.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Bibliothek",
+      "target": "library",
+      "example": "Die Bibliothek hat sehr viele Bücher.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Museum",
+      "target": "museum",
+      "example": "Das Museum ist von Dienstag bis Sonntag offen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Theater",
+      "target": "theatre",
+      "example": "Das Theater zeigt heute ein neues Stück.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Kino",
+      "target": "cinema",
+      "example": "Das Kino im Viertel ist sehr günstig.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Bahnhof / die Station",
+      "target": "station",
+      "example": "Der Bahnhof liegt mitten im Zentrum.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Flughafen",
+      "target": "airport",
+      "example": "Der Flughafen ist zwanzig Minuten entfernt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Ampel",
+      "target": "traffic light",
+      "example": "Halt an, die Ampel ist rot.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Bürgersteig",
+      "target": "pavement",
+      "example": "Geh auf dem Bürgersteig, nicht auf der Straße.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Zebrastreifen",
+      "target": "crosswalk",
+      "example": "Überquere die Straße am Zebrastreifen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Einkaufszentrum",
+      "target": "shopping centre",
+      "example": "Das Einkaufszentrum hat hundert Geschäfte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "de-sport-und-freizeit",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Sport und Freizeit",
+  "entries": [
+    {
+      "source": "sportlich",
+      "target": "athletic",
+      "example": "Mein Bruder ist sehr sportlich.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tauchen",
+      "target": "to dive",
+      "example": "Im Sommer gehe ich gern tauchen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schwimmen",
+      "target": "to swim",
+      "example": "Ich schwimme jeden Morgen im See.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Sport",
+      "target": "sport",
+      "example": "Sport ist gut für die Gesundheit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Fußball",
+      "target": "football",
+      "example": "Fußball ist sein liebster Sport.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Tennis",
+      "target": "tennis",
+      "example": "Sie spielt am Samstag Tennis.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "laufen / rennen",
+      "target": "to run",
+      "example": "Ich laufe jeden Tag fünf Kilometer.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Fitnessstudio",
+      "target": "gym",
+      "example": "Dreimal pro Woche gehe ich ins Fitnessstudio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "trainieren",
+      "target": "to train",
+      "example": "Er trainiert zwei Stunden am Tag.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Spiel (Wettkampf)",
+      "target": "match",
+      "example": "Das Spiel war wirklich spannend.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Mannschaft / das Team",
+      "target": "team",
+      "example": "Unsere Mannschaft hat heute gewonnen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gewinnen",
+      "target": "to win",
+      "example": "Wir gewinnen das Spiel bestimmt.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "verlieren",
+      "target": "to lose",
+      "example": "Leider verlieren wir oft am Ende.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Schiedsrichter",
+      "target": "referee",
+      "example": "Der Schiedsrichter zeigte die rote Karte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Schwimmbad",
+      "target": "swimming pool",
+      "example": "Im Sommer gehen wir ins Schwimmbad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Fahrrad",
+      "target": "bicycle",
+      "example": "Ich fahre mit dem Fahrrad zur Arbeit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Wandern",
+      "target": "hiking",
+      "example": "Am Wochenende waren wir wandern.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Basketball",
+      "target": "basketball",
+      "example": "Basketball spielt er in der Schule.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Volleyball",
+      "target": "volleyball",
+      "example": "Am Strand spielen wir Volleyball.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Ball",
+      "target": "ball",
+      "example": "Der Ball rollte ins Tor.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Freizeit",
+      "target": "free time",
+      "example": "Was machst du in deiner Freizeit?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Hobby",
+      "target": "hobby",
+      "example": "Mein liebstes Hobby ist Fotografieren.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lesen",
+      "target": "to read",
+      "example": "Abends lese ich gern ein Buch.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Kino",
+      "target": "cinema",
+      "example": "Am Freitag gehen wir ins Kino.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Theater",
+      "target": "theatre",
+      "example": "Wir besuchen heute Abend das Theater.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Konzert",
+      "target": "concert",
+      "example": "Ich habe Karten für das Konzert.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Fotografie",
+      "target": "photography",
+      "example": "Fotografie ist seit Jahren ihre Leidenschaft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Videospiel",
+      "target": "video game",
+      "example": "Mein Sohn spielt gern ein Videospiel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "malen",
+      "target": "to paint",
+      "example": "Sie malt am liebsten mit Wasserfarben.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tanzen",
+      "target": "to dance",
+      "example": "Am Samstag gehen wir tanzen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

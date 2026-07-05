@@ -1,0 +1,249 @@
+{
+  "id": "esen-arbeit-und-studium",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Arbeit und Studium",
+  "entries": [
+    {
+      "source": "el trabajo",
+      "target": "work / job",
+      "example": "Busco un nuevo trabajo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la oficina",
+      "target": "office",
+      "example": "Trabajo en una oficina en el centro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el jefe",
+      "target": "boss",
+      "example": "Mi jefe es muy exigente.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el empleado",
+      "target": "employee",
+      "example": "La empresa tiene cien empleados.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la empresa",
+      "target": "company",
+      "example": "Trabajo en una empresa internacional.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sueldo",
+      "target": "salary",
+      "example": "El sueldo se paga el último día del mes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el contrato",
+      "target": "contract",
+      "example": "Firmé el contrato de trabajo hoy.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "trabajar",
+      "target": "to work",
+      "example": "Trabajo ocho horas al día.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "estudiar",
+      "target": "to study",
+      "example": "Estudio español todos los días.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la universidad",
+      "target": "university",
+      "example": "Estudié economía en la universidad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el instituto",
+      "target": "high school",
+      "example": "Mi hija va al instituto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el examen",
+      "target": "exam",
+      "example": "Tengo un examen de español mañana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la clase",
+      "target": "class",
+      "example": "La clase empieza a las nueve.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el profesor",
+      "target": "teacher",
+      "example": "El profesor explica muy bien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el alumno",
+      "target": "student",
+      "example": "Los alumnos estudian mucho.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el ordenador",
+      "target": "computer",
+      "example": "Trabajo todo el día con el ordenador.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la reunión",
+      "target": "meeting",
+      "example": "Tengo una reunión a las diez.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el proyecto",
+      "target": "project",
+      "example": "Estamos trabajando en un proyecto nuevo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el descanso",
+      "target": "break",
+      "example": "Hacemos un descanso a las once.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el horario",
+      "target": "schedule",
+      "example": "Mi horario de trabajo es de nueve a seis.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carrera",
+      "target": "degree / career",
+      "example": "Estudió la carrera de medicina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el currículum",
+      "target": "résumé",
+      "example": "Envié el currículum a tres empresas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tarea",
+      "target": "task / homework",
+      "example": "Los alumnos tienen mucha tarea hoy.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el libro",
+      "target": "book",
+      "example": "Necesito el libro de texto para la clase.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mochila",
+      "target": "backpack",
+      "example": "Lleva la mochila cargada de libros.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el compañero",
+      "target": "colleague",
+      "example": "Mis compañeros de trabajo son muy simpáticos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "buscar trabajo",
+      "target": "to look for work",
+      "example": "Lleva meses buscando trabajo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "jubilarse",
+      "target": "to retire",
+      "example": "Mi padre se jubila el año que viene.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el título",
+      "target": "degree",
+      "example": "Tiene el título de ingeniero.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el informe",
+      "target": "report",
+      "example": "Tengo que entregar el informe esta tarde.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

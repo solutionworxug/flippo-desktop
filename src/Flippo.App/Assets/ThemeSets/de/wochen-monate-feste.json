@@ -1,0 +1,249 @@
+{
+  "id": "de-wochen-monate-feste",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Wochen Monate Feste",
+  "entries": [
+    {
+      "source": "der September",
+      "target": "September",
+      "example": "Im September fängt die Schule wieder an.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der August",
+      "target": "August",
+      "example": "Der August ist oft sehr heiß.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Juli",
+      "target": "July",
+      "example": "Im Juli fahren wir in den Urlaub.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Juni",
+      "target": "June",
+      "example": "Die Prüfungen sind im Juni.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Mai",
+      "target": "May",
+      "example": "Im Mai blühen viele Blumen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der April",
+      "target": "April",
+      "example": "Der April ist ein wechselhafter Monat.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der März",
+      "target": "March",
+      "example": "Im März beginnt der Frühling.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Februar",
+      "target": "February",
+      "example": "Mein Geburtstag ist im Februar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Januar",
+      "target": "January",
+      "example": "Der Januar ist der kälteste Monat.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der November",
+      "target": "November",
+      "example": "Im November sind die Tage kurz.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Oktober",
+      "target": "October",
+      "example": "Im Oktober fallen die Blätter.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Dezember",
+      "target": "December",
+      "example": "Im Dezember feiern wir Weihnachten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Monat",
+      "target": "month",
+      "example": "Diesen Monat habe ich viel vor.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Feiertag",
+      "target": "public holiday",
+      "example": "Montag ist ein Feiertag und ich arbeite nicht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Montag",
+      "target": "Monday",
+      "example": "Am Montag gehe ich wieder zur Arbeit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Dienstag",
+      "target": "Tuesday",
+      "example": "Am Dienstag habe ich einen Spanischkurs.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Mittwoch",
+      "target": "Wednesday",
+      "example": "Am Mittwoch essen wir zusammen zu Abend.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Donnerstag",
+      "target": "Thursday",
+      "example": "Am Donnerstag gehe ich ins Fitnessstudio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Freitag",
+      "target": "Friday",
+      "example": "Am Freitagabend gehen wir tanzen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Samstag",
+      "target": "Saturday",
+      "example": "Am Samstag gehen wir auf den Markt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Sonntag",
+      "target": "Sunday",
+      "example": "Am Sonntag frühstücken wir spät.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Geburtstag",
+      "target": "birthday",
+      "example": "Morgen hat meine Mutter Geburtstag.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Taufe",
+      "target": "christening",
+      "example": "Wir waren bei der Taufe des Babys.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Hochzeit",
+      "target": "wedding",
+      "example": "Die Hochzeit fand in einer alten Kirche statt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Ostern",
+      "target": "Easter",
+      "example": "An Ostern essen wir einen Osterkuchen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Jubiläum",
+      "target": "anniversary",
+      "example": "Heute feiern wir unser Jubiläum.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Namenstag",
+      "target": "name day",
+      "example": "Der Namenstag wird wie ein Geburtstag gefeiert.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Weihnachten",
+      "target": "Christmas",
+      "example": "An Weihnachten kommt die ganze Familie zusammen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "jährlich",
+      "target": "annual",
+      "example": "Die Untersuchung ist jährlich.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Fest / die Party",
+      "target": "party",
+      "example": "Wir organisieren ein Fest zu seinem Geburtstag.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "es-musik-und-kultur",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Musik und Kultur",
+  "entries": [
+    {
+      "source": "la música",
+      "target": "die Musik",
+      "example": "La música me ayuda a relajarme.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la canción",
+      "target": "das Lied / der Song",
+      "example": "Esta canción me recuerda al verano.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el concierto",
+      "target": "das Konzert",
+      "example": "Compramos entradas para el concierto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cantante",
+      "target": "der Sänger",
+      "example": "Su cantante favorita es de Argentina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el grupo",
+      "target": "die Band / die Gruppe",
+      "example": "El grupo toca en Madrid este verano.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bailar",
+      "target": "tanzen",
+      "example": "Le encanta bailar flamenco.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el baile",
+      "target": "der Tanz",
+      "example": "El baile flamenco es muy expresivo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el instrumento",
+      "target": "das Instrument",
+      "example": "Toca tres instrumentos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la guitarra",
+      "target": "die Gitarre",
+      "example": "Aprende a tocar la guitarra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el piano",
+      "target": "das Klavier",
+      "example": "Estudió piano desde los cinco años.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cine",
+      "target": "das Kino",
+      "example": "Vamos al cine el viernes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la película",
+      "target": "der Film",
+      "example": "Vimos una película muy buena anoche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el actor",
+      "target": "der Schauspieler",
+      "example": "El actor ganó el premio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la actriz",
+      "target": "die Schauspielerin",
+      "example": "La actriz es muy conocida en España.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el teatro",
+      "target": "das Theater",
+      "example": "El teatro del centro tiene cartelera todo el año.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la obra de teatro",
+      "target": "das Theaterstück",
+      "example": "Vimos una obra de teatro muy divertida.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el museo",
+      "target": "das Museum",
+      "example": "El museo del Prado es uno de los mejores del mundo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la exposición",
+      "target": "die Ausstellung",
+      "example": "Hay una exposición de Dalí en el museo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cuadro",
+      "target": "das Gemälde / Bild",
+      "example": "El cuadro de Velázquez es impresionante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el arte",
+      "target": "die Kunst",
+      "example": "El arte moderno no me gusta mucho.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el artista",
+      "target": "der Künstler",
+      "example": "Es un artista muy conocido en todo el mundo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "leer",
+      "target": "lesen",
+      "example": "Leo una novela cada mes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el libro",
+      "target": "das Buch",
+      "example": "Este libro me lo recomendó una amiga.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la biblioteca",
+      "target": "die Bibliothek",
+      "example": "La biblioteca pública abre hasta las nueve.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el festival",
+      "target": "das Festival",
+      "example": "El festival de música dura tres días.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la entrada",
+      "target": "die Eintrittskarte",
+      "example": "Las entradas para el concierto se agotaron.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la radio",
+      "target": "das Radio",
+      "example": "Escucho la radio mientras cocino.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la televisión",
+      "target": "das Fernsehen / der Fernseher",
+      "example": "No veo mucho la televisión.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fotografía",
+      "target": "die Fotografie",
+      "example": "La fotografía artística es su pasión.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tocar",
+      "target": "spielen (Instrument)",
+      "example": "Toca la guitarra en un grupo de música.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

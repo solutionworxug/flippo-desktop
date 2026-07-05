@@ -1,0 +1,249 @@
+{
+  "id": "en-zeiten",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Zeiten",
+  "entries": [
+    {
+      "source": "winter",
+      "target": "der Winter",
+      "example": "In winter I like to drink hot chocolate.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "autumn",
+      "target": "der Herbst",
+      "example": "In autumn the leaves turn orange.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "spring",
+      "target": "der Frühling",
+      "example": "In spring the trees blossom.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "summer",
+      "target": "der Sommer",
+      "example": "In summer we go to the beach.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "day",
+      "target": "der Tag",
+      "example": "Today has been a very long day.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hour",
+      "target": "die Stunde",
+      "example": "The flight lasts two hours.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "minute",
+      "target": "die Minute",
+      "example": "The train arrives in five minutes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "year",
+      "target": "das Jahr",
+      "example": "This year I want to learn Spanish.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "second",
+      "target": "die Sekunde",
+      "example": "The world record is under ten seconds.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "week",
+      "target": "die Woche",
+      "example": "Next week the holidays begin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "night",
+      "target": "die Nacht",
+      "example": "The night is very starry.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "holidays",
+      "target": "Ferien",
+      "example": "The summer holidays last two months.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "time",
+      "target": "die Zeit",
+      "example": "I don't have time to watch television.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "weekend",
+      "target": "das Wochenende",
+      "example": "This weekend we're going to the countryside.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "afternoon / evening",
+      "target": "der Nachmittag / Abend",
+      "example": "In the afternoon I walk in the park.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "midday",
+      "target": "der Mittag",
+      "example": "At midday I eat at home.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "soon",
+      "target": "bald",
+      "example": "Come soon, the film is starting.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "right away",
+      "target": "sofort",
+      "example": "I'm coming right away, I just need a minute.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "always",
+      "target": "immer",
+      "example": "I always arrive on time at work.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "later",
+      "target": "später",
+      "example": "Call me later.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "now",
+      "target": "jetzt",
+      "example": "I'm busy right now.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "never",
+      "target": "nie",
+      "example": "I never arrive late for an appointment.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tomorrow",
+      "target": "morgen",
+      "example": "Tomorrow I have an important meeting.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "today",
+      "target": "heute",
+      "example": "Today is a very special day.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "yesterday",
+      "target": "gestern",
+      "example": "Yesterday I went to the cinema with my friends.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fortnight",
+      "target": "vierzehn Tage",
+      "example": "I get paid every fortnight.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "early morning",
+      "target": "die frühen Morgenstunden",
+      "example": "He came home in the early morning.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "on time",
+      "target": "rechtzeitig",
+      "example": "I arrived on time for the train.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "late",
+      "target": "spät",
+      "example": "Today I got up late.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "early",
+      "target": "früh",
+      "example": "Tomorrow I'm getting up early.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

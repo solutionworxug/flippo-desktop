@@ -1,0 +1,249 @@
+{
+  "id": "fr-verben-kommunikation",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Verben Kommunikation",
+  "entries": [
+    {
+      "source": "parler",
+      "target": "sprechen / reden",
+      "example": "Parle plus lentement s'il te plaît.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "écouter",
+      "target": "zuhören / hören",
+      "example": "Écoute bien les instructions.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dire",
+      "target": "sagen",
+      "example": "Qu'as-tu dit ? Je ne t'ai pas entendu.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "demander",
+      "target": "fragen",
+      "example": "Demande si tu ne comprends pas quelque chose.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "répondre",
+      "target": "antworten",
+      "example": "Réponds aux questions par écrit.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "expliquer",
+      "target": "erklären",
+      "example": "Le professeur explique très bien la grammaire.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "comprendre",
+      "target": "verstehen",
+      "example": "Je ne comprends pas ce mot.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "répéter",
+      "target": "wiederholen",
+      "example": "Peux-tu répéter plus lentement ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "traduire",
+      "target": "übersetzen",
+      "example": "Traduis cette phrase en allemand.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "écrire",
+      "target": "schreiben",
+      "example": "Écris ton nom sur le formulaire.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lire",
+      "target": "lesen",
+      "example": "Lis le texte à voix haute.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "appeler",
+      "target": "anrufen / nennen",
+      "example": "Je t'appelle cet après-midi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "répondre",
+      "target": "antworten / reagieren",
+      "example": "Il a répondu à tous les courriels.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "saluer",
+      "target": "grüßen / begrüßen",
+      "example": "Salue tes collègues en arrivant.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire ses adieux / dire au revoir",
+      "target": "sich verabschieden",
+      "example": "Il a dit au revoir avec une accolade.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se présenter",
+      "target": "sich vorstellen",
+      "example": "Je me suis présenté aux nouveaux collègues.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "remercier",
+      "target": "danken / sich bedanken",
+      "example": "Je l'ai remercié pour son aide.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "s'excuser",
+      "target": "sich entschuldigen",
+      "example": "Il s'est excusé d'être arrivé en retard.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se plaindre",
+      "target": "sich beschweren",
+      "example": "Il s'est plaint du bruit auprès du voisin.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "demander / commander",
+      "target": "bitten / bestellen",
+      "example": "Il a demandé de l'aide à son collègue.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "inviter",
+      "target": "einladen",
+      "example": "Nous les avons invités à dîner samedi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "conseiller",
+      "target": "raten / empfehlen",
+      "example": "Je te conseille d'étudier davantage.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "proposer",
+      "target": "vorschlagen",
+      "example": "Il a proposé une solution au problème.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "donner son avis",
+      "target": "eine Meinung äußern",
+      "example": "Que penses-tu de ce sujet ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "discuter / se disputer",
+      "target": "diskutieren / streiten",
+      "example": "Ils ont discuté pendant des heures sans trouver d'accord.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "convaincre",
+      "target": "überzeugen",
+      "example": "Il a essayé de me convaincre de son idée.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mentir",
+      "target": "lügen",
+      "example": "Je ne mens jamais à mes amis.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "promettre",
+      "target": "versprechen",
+      "example": "Il a promis qu'il arriverait à l'heure.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "communiquer",
+      "target": "kommunizieren / sich verständigen",
+      "example": "Il communique très bien en anglais.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "interrompre",
+      "target": "unterbrechen",
+      "example": "N'interromps pas quand quelqu'un parle.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

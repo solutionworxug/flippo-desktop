@@ -1,0 +1,249 @@
+{
+  "id": "es-alltag-routine",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Alltag Routine",
+  "entries": [
+    {
+      "source": "levantarse",
+      "target": "aufstehen",
+      "example": "Me levanto todos los días a las siete de la mañana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "despertarse",
+      "target": "aufwachen",
+      "example": "Me despierto temprano, pero me quedo en la cama.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "ducharse",
+      "target": "sich duschen",
+      "example": "Me ducho con agua fría para despertarme bien.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "desayunar",
+      "target": "frühstücken",
+      "example": "¿Qué prefieres desayunar hoy?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "el desayuno",
+      "target": "das Frühstück",
+      "example": "El desayuno es la comida más importante del día.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "lavarse los dientes",
+      "target": "Zähne putzen",
+      "example": "Hay que lavarse los dientes después de cada comida.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "vestirse",
+      "target": "sich anziehen",
+      "example": "Me visto rápidamente porque voy tarde.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "salir de casa",
+      "target": "das Haus verlassen",
+      "example": "Salgo de casa a las ocho para ir a trabajar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "ir al trabajo",
+      "target": "zur Arbeit gehen",
+      "example": "Voy al trabajo en transporte público.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "hacer la compra",
+      "target": "einkaufen (Lebensmittel)",
+      "example": "Los sábados por la mañana hago la compra en el supermercado.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "cocinar",
+      "target": "kochen",
+      "example": "Me gusta cocinar la cena para mi familia.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "el almuerzo / la comida",
+      "target": "das Mittagessen",
+      "example": "Preparo el almuerzo para llevarlo a la oficina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "la cena",
+      "target": "das Abendessen",
+      "example": "La cena está lista, ¡a comer!",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "irse a la cama / acostarse",
+      "target": "ins Bett gehen",
+      "example": "Me acuesto temprano cuando estoy cansado.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "dormir",
+      "target": "schlafen",
+      "example": "Necesito dormir al menos ocho horas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "sacar la basura",
+      "target": "den Abfall wegbringen",
+      "example": "Te toca sacar la basura esta noche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "fregar los platos",
+      "target": "das Geschirr spülen",
+      "example": "Siempre friego los platos después de cenar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "poner la lavadora",
+      "target": "die Waschmaschine einschalten",
+      "example": "Tengo que poner la lavadora porque no tengo ropa limpia.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "ordenar / recoger",
+      "target": "aufräumen",
+      "example": "Tengo que ordenar mi habitación este fin de semana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "limpiar el piso / limpiar la casa",
+      "target": "die Wohnung putzen",
+      "example": "Limpiamos la casa juntos los viernes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "descansar",
+      "target": "ausruhen / sich erholen",
+      "example": "Después del trabajo me gusta descansar en el sofá.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "ver la televisión",
+      "target": "fernsehen",
+      "example": "Vemos la televisión un rato antes de dormir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "el tiempo libre",
+      "target": "die Freizeit",
+      "example": "En mi tiempo libre me gusta leer libros.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "la vida cotidiana / el día a día",
+      "target": "der Alltag",
+      "example": "La rutina del día a día puede ser estresante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "la rutina / el hábito",
+      "target": "die Gewohnheit / die Routine",
+      "example": "Tener una buena rutina por la mañana es importante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "quedarse en casa",
+      "target": "zu Hause bleiben",
+      "example": "Hoy hace mal tiempo, prefiero quedarme en casa.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "quedar con amigos / reunirse con amigos",
+      "target": "Freunde treffen",
+      "example": "He quedado con amigos para tomar un café.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "dar un paseo / pasear",
+      "target": "einen Spaziergang machen",
+      "example": "Damos un paseo por el parque todas las tardes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "darse prisa",
+      "target": "sich beeilen",
+      "example": "¡Date prisa, el tren va a salir!",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "llegar tarde",
+      "target": "zu spät kommen",
+      "example": "Lo siento por llegar tarde, había mucho tráfico.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    }
+  ]
+}

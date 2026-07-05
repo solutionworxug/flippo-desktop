@@ -1,0 +1,249 @@
+{
+  "id": "de-adverbien",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Adverbien",
+  "entries": [
+    {
+      "source": "etwas",
+      "target": "something",
+      "example": "Etwas fehlt in diesem Rezept.",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "da",
+      "target": "there",
+      "example": "Das Taxi parkt da vorne.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ein bisschen",
+      "target": "a little",
+      "example": "Bitte sprich ein bisschen langsamer.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "noch einmal",
+      "target": "again",
+      "example": "Kannst du das noch einmal sagen?",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rechts",
+      "target": "on the right",
+      "example": "An der Ampel gehst du nach rechts.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "links",
+      "target": "on the left",
+      "example": "Die Bank ist auf der linken Seite, links.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "davor / vorher",
+      "target": "before",
+      "example": "Wasch dir vorher die Hände.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "so",
+      "target": "so",
+      "example": "Es ist gar nicht so schwierig.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "einverstanden",
+      "target": "agreed",
+      "example": "Einverstanden, bis morgen!",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "später",
+      "target": "later",
+      "example": "Ich rufe dich später an.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "beinahe",
+      "target": "almost",
+      "example": "Ich hätte beinahe den Zug verpasst.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "auch",
+      "target": "also",
+      "example": "Ich möchte auch mitkommen.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nur / bloß",
+      "target": "only",
+      "example": "Ich brauche nur fünf Minuten.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "okay",
+      "target": "okay",
+      "example": "Okay, dann bis morgen.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "noch",
+      "target": "still",
+      "example": "Ich habe noch nichts gegessen.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "manchmal",
+      "target": "sometimes",
+      "example": "Manchmal gehe ich morgens ins Fitnessstudio.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hinten",
+      "target": "in the back",
+      "example": "Der Garten ist hinten.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "davor / vorne",
+      "target": "in front",
+      "example": "Das Auto steht davor geparkt.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "drinnen",
+      "target": "inside",
+      "example": "Die Kinder spielen drinnen.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "unten",
+      "target": "downstairs",
+      "example": "Die Schlüssel liegen unten auf dem Tisch.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "oben",
+      "target": "upstairs",
+      "example": "Die Wohnung ist oben im dritten Stock.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "es gibt",
+      "target": "there is / there are",
+      "example": "Es gibt ein gutes Restaurant in der Nähe.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "draußen",
+      "target": "outside",
+      "example": "Draußen ist es kalt, nimm deine Jacke mit.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vielleicht",
+      "target": "maybe",
+      "example": "Vielleicht kommen wir zu spät.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "danach / nachher",
+      "target": "afterwards",
+      "example": "Erst esse ich, danach gehe ich aus.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ziemlich / genug",
+      "target": "quite / enough",
+      "example": "Danke, ich habe ziemlich genug gegessen.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "normalerweise",
+      "target": "usually",
+      "example": "Normalerweise frühstücke ich um acht.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sofort",
+      "target": "immediately",
+      "example": "Ich komme sofort, einen Moment.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schon / bereits",
+      "target": "already",
+      "example": "Ich habe die Hausaufgaben schon erledigt.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "noch / immer noch",
+      "target": "still",
+      "example": "Es ist noch niemand angekommen.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

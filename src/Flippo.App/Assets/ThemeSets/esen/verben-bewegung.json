@@ -1,0 +1,249 @@
+{
+  "id": "esen-verben-bewegung",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Verben Bewegung",
+  "entries": [
+    {
+      "source": "ir",
+      "target": "to go",
+      "example": "Voy al supermercado ahora.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "venir",
+      "target": "to come",
+      "example": "¿Vienes a la fiesta el sábado?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "llegar",
+      "target": "to arrive",
+      "example": "El tren llega a las tres.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "salir",
+      "target": "to leave / depart",
+      "example": "El autobús sale en cinco minutos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "entrar",
+      "target": "to enter / go in",
+      "example": "Entra — la puerta está abierta.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "saltar",
+      "target": "to jump",
+      "example": "Los niños saltan en el parque.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "correr",
+      "target": "to run",
+      "example": "Corro todos los días por el parque.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "caminar",
+      "target": "to walk",
+      "example": "Caminamos una hora por la ciudad.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "subir",
+      "target": "to go up / get on",
+      "example": "Subimos al tercer piso a pie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bajar",
+      "target": "to go down / get off",
+      "example": "Baja en la próxima parada.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "volver",
+      "target": "to come back / return",
+      "example": "Vuelvo a casa a las siete.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "regresar",
+      "target": "to return",
+      "example": "Regresamos del viaje el domingo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pasar",
+      "target": "to pass by",
+      "example": "El autobús pasa cada veinte minutos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cruzar",
+      "target": "to cross",
+      "example": "Cruza la calle por el paso de cebra.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "girar",
+      "target": "to turn",
+      "example": "Gira a la derecha en el semáforo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "seguir",
+      "target": "to keep going / continue",
+      "example": "Sigue recto hasta el final de la calle.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "acercarse",
+      "target": "to approach / come closer",
+      "example": "Se acercó para escuchar mejor.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "alejarse",
+      "target": "to move away / go away",
+      "example": "Se alejó sin decir nada.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pararse",
+      "target": "to stop",
+      "example": "Para el coche aquí por favor.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sentarse",
+      "target": "to sit down",
+      "example": "Siéntate — la reunión va a empezar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "levantarse",
+      "target": "to get up / stand up",
+      "example": "Se levantó de la silla para saludar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tumbarse",
+      "target": "to lie down",
+      "example": "Me tumbé en el sofá a descansar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "agacharse",
+      "target": "to crouch / bend down",
+      "example": "Se agachó para recoger el bolígrafo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "empujar",
+      "target": "to push",
+      "example": "Empuja la puerta — no tires.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tirar",
+      "target": "to pull / throw",
+      "example": "Tira del cordón para encender la luz.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "llevar",
+      "target": "to carry / take",
+      "example": "Lleva el paraguas — puede llover.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "traer",
+      "target": "to bring",
+      "example": "Trae el documento para la reunión.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "moverse",
+      "target": "to move",
+      "example": "Muévete — estás bloqueando la salida.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "escaparse",
+      "target": "to escape / run away",
+      "example": "El gato se escapó por la ventana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dirigirse a",
+      "target": "to head towards",
+      "example": "Se dirigió a la salida rápidamente.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

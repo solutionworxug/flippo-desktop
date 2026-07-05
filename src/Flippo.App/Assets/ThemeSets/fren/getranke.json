@@ -1,0 +1,249 @@
+{
+  "id": "fren-getranke",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Getränke",
+  "entries": [
+    {
+      "source": "l'eau",
+      "target": "water",
+      "example": "Je bois huit verres d'eau par jour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le lait",
+      "target": "milk",
+      "example": "Le café au lait est le petit-déjeuner typique espagnol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le jus",
+      "target": "juice",
+      "example": "Je presse des oranges pour faire du jus frais.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le café",
+      "target": "coffee",
+      "example": "Je prends un café au lait le matin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le thé",
+      "target": "tea",
+      "example": "L'après-midi je prends une tasse de thé.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bière",
+      "target": "beer",
+      "example": "Une bière pression au bar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le vin",
+      "target": "wine",
+      "example": "Le vin rouge va bien avec la viande.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la sangria",
+      "target": "sangria",
+      "example": "La sangria est une boisson typique espagnole.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le soda",
+      "target": "soft drink",
+      "example": "Les enfants demandent un soda.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le coca",
+      "target": "cola",
+      "example": "Tu me mets un coca avec du citron ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'orangeade",
+      "target": "orangeade",
+      "example": "L'orangeade est très fraîche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la limonade",
+      "target": "lemonade",
+      "example": "Je prépare de la limonade maison avec des citrons frais.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cocktail",
+      "target": "cocktail",
+      "example": "Il a commandé un cocktail sans alcool.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le champagne",
+      "target": "champagne",
+      "example": "Nous trinquons au champagne au Nouvel An.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le milk-shake",
+      "target": "milkshake",
+      "example": "J'ai pris un milk-shake à la fraise.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'infusion",
+      "target": "herbal tea",
+      "example": "Je prends une infusion de camomille pour l'estomac.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chocolat chaud",
+      "target": "hot chocolate",
+      "example": "En hiver je prends un chocolat chaud.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le jus d'orange",
+      "target": "orange juice",
+      "example": "Le jus d'orange pressé est délicieux.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'eau gazeuse",
+      "target": "sparkling water",
+      "example": "Je préfère l'eau gazeuse à l'eau du robinet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'eau plate",
+      "target": "still water",
+      "example": "Gazeuse ou plate ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le vin blanc",
+      "target": "white wine",
+      "example": "Le vin blanc va bien avec le poisson.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le vin rouge",
+      "target": "red wine",
+      "example": "Tu as envie d'un verre de vin rouge ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cava",
+      "target": "cava",
+      "example": "Le cava est le champagne espagnol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le verre (à vin)",
+      "target": "glass",
+      "example": "J'ai bu un verre de vin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "boire",
+      "target": "to drink",
+      "example": "Que veux-tu boire ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "prendre",
+      "target": "to have",
+      "example": "Je prends un café au lait.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "avoir soif",
+      "target": "to be thirsty",
+      "example": "J'ai très soif après avoir couru.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la boisson",
+      "target": "drink",
+      "example": "Quelle boisson veux-tu avec le repas ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le glaçon",
+      "target": "ice cube",
+      "example": "Tu veux le soda avec des glaçons ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le comptoir",
+      "target": "counter",
+      "example": "Nous prenons le petit-déjeuner au comptoir du bar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

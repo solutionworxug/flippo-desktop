@@ -1,0 +1,249 @@
+{
+  "id": "en-sport-und-freizeit",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Sport und Freizeit",
+  "entries": [
+    {
+      "source": "athletic",
+      "target": "sportlich",
+      "example": "He's a very athletic and active boy.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to dive",
+      "target": "tauchen",
+      "example": "I love diving in the Mediterranean Sea.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to swim",
+      "target": "schwimmen",
+      "example": "I swim thirty minutes every day.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sport",
+      "target": "der Sport",
+      "example": "Doing sport is good for your health.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "football",
+      "target": "der Fußball",
+      "example": "Football is the most popular sport in Spain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tennis",
+      "target": "das Tennis",
+      "example": "He plays tennis on Saturdays.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to run",
+      "target": "laufen / rennen",
+      "example": "I run five kilometres every morning.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gym",
+      "target": "das Fitnessstudio",
+      "example": "I go to the gym three times a week.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to train",
+      "target": "trainieren",
+      "example": "He trains two hours a day.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "match",
+      "target": "das Spiel (Wettkampf)",
+      "example": "Did you see Sunday's match?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "team",
+      "target": "die Mannschaft / das Team",
+      "example": "His favourite team won the championship.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to win",
+      "target": "gewinnen",
+      "example": "We won the match three to one.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to lose",
+      "target": "verlieren",
+      "example": "We lost the match in the last minutes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "referee",
+      "target": "der Schiedsrichter",
+      "example": "The referee blew for a penalty.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "swimming pool",
+      "target": "das Schwimmbad",
+      "example": "In summer we go to the swimming pool.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bicycle",
+      "target": "das Fahrrad",
+      "example": "We go for a bike ride on Sundays.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hiking",
+      "target": "das Wandern",
+      "example": "At the weekend we went hiking in the mountains.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "basketball",
+      "target": "der Basketball",
+      "example": "Basketball is also very popular in Spain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "volleyball",
+      "target": "der Volleyball",
+      "example": "We play volleyball on the beach.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ball",
+      "target": "der Ball",
+      "example": "The ball went into the goal.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "free time",
+      "target": "die Freizeit",
+      "example": "What do you do in your free time?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hobby",
+      "target": "das Hobby",
+      "example": "My favourite hobby is photography.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to read",
+      "target": "lesen",
+      "example": "I read for an hour before sleeping.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cinema",
+      "target": "das Kino",
+      "example": "We're going to the cinema on Friday night.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "theatre",
+      "target": "das Theater",
+      "example": "We went to the theatre to see a comedy.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "concert",
+      "target": "das Konzert",
+      "example": "I bought tickets for the concert.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "photography",
+      "target": "die Fotografie",
+      "example": "Photography has been my passion since childhood.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "video game",
+      "target": "das Videospiel",
+      "example": "He plays video games in the afternoon.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to paint",
+      "target": "malen",
+      "example": "He really likes painting with watercolours.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to dance",
+      "target": "tanzen",
+      "example": "We go out dancing on Saturdays.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

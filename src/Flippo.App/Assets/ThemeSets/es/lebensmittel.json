@@ -1,0 +1,249 @@
+{
+  "id": "es-lebensmittel",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Lebensmittel",
+  "entries": [
+    {
+      "source": "la alergia",
+      "target": "die Allergie",
+      "example": "Tengo alergia al polen en primavera.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el desayuno",
+      "target": "das Frühstück",
+      "example": "Tomo café con leche en el desayuno.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vinagre",
+      "target": "der Essig",
+      "example": "Añade un poco de vinagre a la ensalada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pimienta",
+      "target": "der Pfeffer",
+      "example": "¿Me pasas la pimienta?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carne",
+      "target": "das Fleisch",
+      "example": "No como carne los lunes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tarta",
+      "target": "die Torte",
+      "example": "Compramos una tarta de cumpleaños.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el menú",
+      "target": "das Menü",
+      "example": "¿Qué hay en el menú del día?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el helado",
+      "target": "das Eis",
+      "example": "En verano como mucho helado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la sed",
+      "target": "der Durst",
+      "example": "Después de correr tengo mucha sed.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hambre",
+      "target": "der Hunger",
+      "example": "Tengo mucha hambre después del ejercicio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el postre",
+      "target": "die Nachspeise",
+      "example": "De postre tomé un flan.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el huevo",
+      "target": "das Ei",
+      "example": "Necesito tres huevos para la tortilla.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el arroz",
+      "target": "der Reis",
+      "example": "El arroz con leche es mi postre favorito.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pollo",
+      "target": "das Hühnchen",
+      "example": "El pollo asado está delicioso.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el jamón",
+      "target": "der Schinken",
+      "example": "El jamón ibérico es muy famoso en España.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pan",
+      "target": "das Brot",
+      "example": "Compra una barra de pan en la panadería.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la comida",
+      "target": "das Essen",
+      "example": "La comida española es muy variada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el azúcar",
+      "target": "der Zucker",
+      "example": "¿Cuánto azúcar quieres en el café?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el alimento",
+      "target": "das Lebensmittel",
+      "example": "El pan es un alimento básico.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el ajo",
+      "target": "der Knoblauch",
+      "example": "El ajo es muy importante en la cocina española.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el agua",
+      "target": "das Wasser",
+      "example": "Bebo ocho vasos de agua al día.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aceite",
+      "target": "das Öl",
+      "example": "Uso aceite de oliva para cocinar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la merienda",
+      "target": "die Zwischenmahlzeit",
+      "example": "Los niños toman la merienda a las cinco.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cena",
+      "target": "das Abendessen",
+      "example": "La cena está lista a las nueve.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las tapas",
+      "target": "die Tapas",
+      "example": "Tomamos unas tapas en el bar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la sal",
+      "target": "das Salz",
+      "example": "Esta sopa necesita más sal.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "comer",
+      "target": "essen",
+      "example": "¿A qué hora comes normalmente?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rico",
+      "target": "lecker",
+      "example": "Esta paella está muy rica.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "asado",
+      "target": "gebraten/geröstet",
+      "example": "El pollo asado huele muy bien.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "frito",
+      "target": "frittiert",
+      "example": "Los huevos fritos son fáciles de hacer.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

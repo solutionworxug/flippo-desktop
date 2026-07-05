@@ -1,0 +1,249 @@
+{
+  "id": "fr-adverbien",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Adverbien",
+  "entries": [
+    {
+      "source": "quelque chose",
+      "target": "etwas",
+      "example": "Il manque quelque chose dans cette recette.",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "là",
+      "target": "da",
+      "example": "Le taxi est garé là.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "un peu",
+      "target": "ein bisschen",
+      "example": "Parle un peu plus lentement s'il te plaît.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "encore une fois",
+      "target": "noch einmal",
+      "example": "Peux-tu le répéter encore une fois ?",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à droite",
+      "target": "rechts",
+      "example": "Tourne à droite au feu.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à gauche",
+      "target": "links",
+      "example": "La banque est à gauche.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "avant",
+      "target": "davor / vorher",
+      "example": "Lave-toi les mains avant de manger.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aussi / si",
+      "target": "so",
+      "example": "Ce n'est pas aussi difficile qu'il paraît.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "d'accord",
+      "target": "einverstanden",
+      "example": "D'accord, on se voit demain.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "plus tard",
+      "target": "später",
+      "example": "Je t'appelle plus tard.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "presque",
+      "target": "beinahe",
+      "example": "J'ai presque raté le train.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aussi",
+      "target": "auch",
+      "example": "Moi aussi je veux y aller.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "seulement",
+      "target": "nur / bloß",
+      "example": "J'ai seulement besoin de cinq minutes.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "d'accord",
+      "target": "okay",
+      "example": "D'accord, à demain alors.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "encore",
+      "target": "noch",
+      "example": "Je n'ai pas encore mangé.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "parfois",
+      "target": "manchmal",
+      "example": "Parfois je vais à la salle de sport le matin.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "derrière",
+      "target": "hinten",
+      "example": "Le jardin est derrière la maison.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "devant",
+      "target": "davor / vorne",
+      "example": "La voiture est garée devant.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à l'intérieur",
+      "target": "drinnen",
+      "example": "Les enfants sont à l'intérieur en train de jouer.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "en bas",
+      "target": "unten",
+      "example": "Les clés sont en bas sur la table.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "en haut",
+      "target": "oben",
+      "example": "L'appartement est en haut au troisième étage.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "il y a",
+      "target": "es gibt",
+      "example": "Il y a un bon restaurant près d'ici.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dehors",
+      "target": "draußen",
+      "example": "Il fait froid dehors, prends le manteau.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "peut-être",
+      "target": "vielleicht",
+      "example": "Nous arriverons peut-être en retard.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ensuite / après",
+      "target": "danach / nachher",
+      "example": "D'abord je mange et ensuite je sors.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "assez",
+      "target": "ziemlich / genug",
+      "example": "J'ai déjà assez mangé, merci.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "normalement",
+      "target": "normalerweise",
+      "example": "Normalement je prends le petit-déjeuner à huit heures.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tout de suite",
+      "target": "sofort",
+      "example": "J'arrive tout de suite, juste un instant.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "déjà",
+      "target": "schon / bereits",
+      "example": "J'ai déjà fini les devoirs.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "toujours pas / encore",
+      "target": "noch / immer noch",
+      "example": "Personne n'est encore arrivé.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

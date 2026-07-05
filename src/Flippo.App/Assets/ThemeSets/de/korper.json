@@ -1,0 +1,249 @@
+{
+  "id": "de-korper",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Körper",
+  "entries": [
+    {
+      "source": "das Bein",
+      "target": "leg",
+      "example": "Mein Bein tut nach dem Laufen weh.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Kopf",
+      "target": "head",
+      "example": "Ich habe Kopfschmerzen im Kopf.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Haar",
+      "target": "hair",
+      "example": "Sie hat lange, lockige Haare.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Hals",
+      "target": "neck",
+      "example": "Mein Hals tut vom Handy weh.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Rücken",
+      "target": "back",
+      "example": "Ich habe Rücken vom langen Sitzen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Fuß",
+      "target": "foot",
+      "example": "Mein Fuß schmerzt nach dem Spaziergang.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Finger",
+      "target": "finger",
+      "example": "Ich habe mir in den Finger geschnitten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Arm",
+      "target": "arm",
+      "example": "Sein Arm steckt in einer Schlinge.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Hand",
+      "target": "hand",
+      "example": "Wasch dir vor dem Essen die Hände.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Magen / der Bauch",
+      "target": "stomach",
+      "example": "Mir tut der Magen nach dem Essen weh.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Nase",
+      "target": "nose",
+      "example": "Im Winter putze ich ständig meine Nase.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Auge",
+      "target": "eye",
+      "example": "Sie hat sehr blaue Augen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Körper",
+      "target": "body",
+      "example": "Sport ist gut für den Körper.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gesund",
+      "target": "healthy",
+      "example": "Gemüse zu essen ist gesund.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "krank",
+      "target": "sick",
+      "example": "Ich gehe nicht zur Arbeit, weil ich krank bin.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Mund",
+      "target": "mouth",
+      "example": "Mach den Mund auf und sag ah.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Zähne",
+      "target": "teeth",
+      "example": "Du solltest deine Zähne zweimal täglich putzen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Zunge",
+      "target": "tongue",
+      "example": "Ich habe mir beim Essen auf die Zunge gebissen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Ohr (außen)",
+      "target": "ear",
+      "example": "Mein rechtes Ohr tut weh.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Schulter",
+      "target": "shoulder",
+      "example": "Er trägt den Rucksack auf der Schulter.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Brust",
+      "target": "chest",
+      "example": "Meine Brust schmerzt beim Atmen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Knie",
+      "target": "knee",
+      "example": "Ich bin gefallen und habe mir das Knie gestoßen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Knöchel",
+      "target": "ankle",
+      "example": "Ich habe mir den Knöchel verstaucht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Ellbogen",
+      "target": "elbow",
+      "example": "Ich habe mir den Ellbogen angestoßen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Stirn",
+      "target": "forehead",
+      "example": "Sie hat Fieber, ich habe ihre Stirn berührt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Wange",
+      "target": "cheek",
+      "example": "Er küsste sie auf die Wange.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Lippe",
+      "target": "lip",
+      "example": "Er hat sehr schmale Lippen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Kinn",
+      "target": "chin",
+      "example": "Er strich sich nachdenklich über das Kinn.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Herz",
+      "target": "heart",
+      "example": "Das Herz schlägt beim Laufen schneller.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Blut",
+      "target": "blood",
+      "example": "Blut lief aus meinem Finger.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "de-arztbesuch",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Arztbesuch",
+  "entries": [
+    {
+      "source": "der Arzt",
+      "target": "doctor",
+      "example": "Der Arzt hat mir Hustensaft verschrieben.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Krankenschwester",
+      "target": "nurse",
+      "example": "Die Krankenschwester hat meinen Blutdruck gemessen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Termin",
+      "target": "appointment",
+      "example": "Ich habe um zehn einen Termin beim Zahnarzt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Wartezimmer",
+      "target": "waiting room",
+      "example": "Im Wartezimmer sitzen viele Menschen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Rezept",
+      "target": "prescription",
+      "example": "Der Arzt hat mir ein Rezept für Antibiotika ausgestellt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Medikament",
+      "target": "medicine",
+      "example": "Dieses Medikament sollst du nach dem Essen nehmen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Symptom",
+      "target": "symptom",
+      "example": "Erzählen Sie mir Ihre wichtigsten Symptome.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Schmerz",
+      "target": "pain",
+      "example": "Wo genau spürst du den Schmerz?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Fieber",
+      "target": "fever",
+      "example": "Ich habe hohes Fieber und Kopfschmerzen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Husten",
+      "target": "cough",
+      "example": "Der Husten lässt mich nachts nicht schlafen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Erkältung",
+      "target": "cold",
+      "example": "Seit Montag habe ich eine Erkältung.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Grippe",
+      "target": "flu",
+      "example": "Eine Grippe kann sehr anstrengend sein.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kopfschmerzen",
+      "target": "headache",
+      "example": "Heute habe ich starke Kopfschmerzen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Bauchschmerzen",
+      "target": "stomachache",
+      "example": "Nach dem Mittagessen hat sie Bauchschmerzen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Zahnarzt",
+      "target": "dentist",
+      "example": "Morgen muss ich zum Zahnarzt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Krankenhaus",
+      "target": "hospital",
+      "example": "Das Krankenhaus ist in der Nähe vom Bahnhof.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Apotheke",
+      "target": "pharmacy",
+      "example": "In der Apotheke kaufe ich meine Medikamente.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Tablette",
+      "target": "tablet / pill",
+      "example": "Nimm eine Tablette mit etwas Wasser.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Salbe",
+      "target": "ointment",
+      "example": "Trag die Salbe zweimal täglich auf.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Spritze",
+      "target": "injection",
+      "example": "Die Krankenschwester hat mir eine Spritze gegeben.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Untersuchung",
+      "target": "examination",
+      "example": "Die Untersuchung dauerte nur zehn Minuten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "krank",
+      "target": "ill / sick",
+      "example": "Ich bin krank und kann nicht zur Arbeit.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gesund",
+      "target": "healthy",
+      "example": "Obst und Gemüse sind gesund.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich fühlen",
+      "target": "feel",
+      "example": "Wie fühlst du dich heute?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wehtun",
+      "target": "hurt",
+      "example": "Mein Rücken tut nach dem Sport weh.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sich ausruhen",
+      "target": "rest",
+      "example": "Du solltest dich zu Hause ausruhen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "einnehmen",
+      "target": "take",
+      "example": "Du musst das Medikament zweimal täglich einnehmen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "versichern",
+      "target": "insure",
+      "example": "Ich bin über meinen Arbeitgeber versichert.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Krankenversicherung",
+      "target": "health insurance",
+      "example": "Die Krankenversicherung übernimmt einen Teil der Kosten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Notfall",
+      "target": "emergency",
+      "example": "Im Notfall ruf sofort den Arzt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

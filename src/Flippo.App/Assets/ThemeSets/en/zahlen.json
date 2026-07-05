@@ -1,0 +1,249 @@
+{
+  "id": "en-zahlen",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Zahlen",
+  "entries": [
+    {
+      "source": "zero",
+      "target": "null",
+      "example": "The score is zero.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "one",
+      "target": "eins",
+      "example": "There's only one left.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "two",
+      "target": "zwei",
+      "example": "I have two brothers.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "three",
+      "target": "drei",
+      "example": "The train leaves in three minutes.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "four",
+      "target": "vier",
+      "example": "The table has four legs.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "five",
+      "target": "fünf",
+      "example": "It costs five euros.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "six",
+      "target": "sechs",
+      "example": "There are six people in the family.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "seven",
+      "target": "sieben",
+      "example": "The week has seven days.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "eight",
+      "target": "acht",
+      "example": "Work starts at eight.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nine",
+      "target": "neun",
+      "example": "My son is nine years old.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ten",
+      "target": "zehn",
+      "example": "He got a ten on the exam.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "eleven",
+      "target": "elf",
+      "example": "The bus arrives at eleven.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "twelve",
+      "target": "zwölf",
+      "example": "The year has twelve months.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "thirteen",
+      "target": "dreizehn",
+      "example": "Thirteen is an unlucky number.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fourteen",
+      "target": "vierzehn",
+      "example": "The child is fourteen years old.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fifteen",
+      "target": "fünfzehn",
+      "example": "I've been waiting for fifteen minutes.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "twenty",
+      "target": "zwanzig",
+      "example": "He has twenty euros in his wallet.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "twenty-one",
+      "target": "einundzwanzig",
+      "example": "He is twenty-one years old.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "thirty",
+      "target": "dreißig",
+      "example": "The trip takes thirty minutes.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "forty",
+      "target": "vierzig",
+      "example": "He works forty hours a week.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fifty",
+      "target": "fünfzig",
+      "example": "There are fifty students in the course.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sixty",
+      "target": "sechzig",
+      "example": "My father is sixty years old.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "seventy",
+      "target": "siebzig",
+      "example": "The maximum speed is seventy km/h.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "eighty",
+      "target": "achtzig",
+      "example": "Grandma is eighty years old.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ninety",
+      "target": "neunzig",
+      "example": "The flight takes ninety minutes.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "one hundred",
+      "target": "hundert",
+      "example": "One hundred people attended the concert.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "figure / number",
+      "target": "die Zahl / Ziffer",
+      "example": "I don't understand the figure in this document.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "first",
+      "target": "erste(r/s)",
+      "example": "I arrived first at the meeting.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "last",
+      "target": "letzte(r/s)",
+      "example": "It's the last train of the night.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to multiply",
+      "target": "multiplizieren",
+      "example": "How much is six multiplied by eight?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

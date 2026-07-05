@@ -1,0 +1,249 @@
+{
+  "id": "fren-arztbesuch",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Arztbesuch",
+  "entries": [
+    {
+      "source": "le médecin",
+      "target": "doctor",
+      "example": "Le médecin m'a prescrit un sirop pour la toux.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'infirmière",
+      "target": "nurse",
+      "example": "L'infirmière m'a pris la tension.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le rendez-vous",
+      "target": "appointment",
+      "example": "J'ai un rendez-vous chez le dentiste à dix heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la salle d'attente",
+      "target": "waiting room",
+      "example": "Il y a beaucoup de monde dans la salle d'attente.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'ordonnance",
+      "target": "prescription",
+      "example": "Le docteur a écrit une ordonnance pour les antibiotiques.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le médicament",
+      "target": "medication",
+      "example": "Tu dois prendre ce médicament après les repas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le symptôme",
+      "target": "symptom",
+      "example": "Dites-moi quels sont vos principaux symptômes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la douleur",
+      "target": "pain",
+      "example": "Où ressentez-vous exactement la douleur ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fièvre",
+      "target": "fever",
+      "example": "J'ai beaucoup de fièvre et mal à la tête.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la toux",
+      "target": "cough",
+      "example": "Cette toux m'empêche de dormir la nuit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le rhume",
+      "target": "cold",
+      "example": "J'ai attrapé un rhume à cause de la climatisation.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la grippe",
+      "target": "flu",
+      "example": "Cet hiver beaucoup de gens ont la grippe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pharmacie",
+      "target": "pharmacy",
+      "example": "Je vais à la pharmacie acheter les comprimés.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le comprimé",
+      "target": "tablet",
+      "example": "Prenez un comprimé toutes les huit heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sirop",
+      "target": "syrup / cough syrup",
+      "example": "Le sirop est très sucré mais efficace.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la piqûre",
+      "target": "injection",
+      "example": "L'infirmière m'a fait une piqûre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'assurance maladie",
+      "target": "health insurance",
+      "example": "Avez-vous une assurance maladie privée ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carte d'assurance maladie",
+      "target": "health insurance card",
+      "example": "S'il vous plaît, montrez-moi votre carte d'assurance maladie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tension artérielle",
+      "target": "blood pressure",
+      "example": "Votre tension artérielle est un peu élevée aujourd'hui.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'analyse de sang",
+      "target": "blood test",
+      "example": "Demain je dois faire une analyse de sang.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la blessure",
+      "target": "wound",
+      "example": "Il faut nettoyer la blessure avec un antiseptique.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'allergie",
+      "target": "allergy",
+      "example": "Je suis allergique au pollen au printemps.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cabinet médical",
+      "target": "medical practice",
+      "example": "Le cabinet médical est au premier étage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le diagnostic",
+      "target": "diagnosis",
+      "example": "Le médecin n'a pas encore de diagnostic clair.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'ordonnance médicale",
+      "target": "medical prescription",
+      "example": "J'ai besoin d'une ordonnance médicale pour acheter ceci.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "respirer",
+      "target": "to breathe",
+      "example": "Respirez profondément, s'il vous plaît.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tousser",
+      "target": "to cough",
+      "example": "J'ai mal à la poitrine quand je commence à tousser.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "prescrire",
+      "target": "to prescribe",
+      "example": "Qu'allez-vous me prescrire contre la douleur ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "examiner",
+      "target": "to examine",
+      "example": "Le docteur va m'examiner la gorge.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "prendre rendez-vous",
+      "target": "to make an appointment",
+      "example": "J'ai appelé pour prendre rendez-vous avec le spécialiste.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "esen-wochen-monate-feste",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Wochen Monate Feste",
+  "entries": [
+    {
+      "source": "el septiembre",
+      "target": "September",
+      "example": "Las clases empiezan en septiembre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el agosto",
+      "target": "August",
+      "example": "En agosto hace mucho calor en España.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el julio",
+      "target": "July",
+      "example": "Nos vamos de vacaciones en julio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el junio",
+      "target": "June",
+      "example": "Los exámenes finales son en junio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mayo",
+      "target": "May",
+      "example": "En mayo florecen muchas flores.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el abril",
+      "target": "April",
+      "example": "Las lluvias de abril traen las flores de mayo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el marzo",
+      "target": "March",
+      "example": "La primavera empieza en marzo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el febrero",
+      "target": "February",
+      "example": "Mi cumpleaños es en febrero.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el enero",
+      "target": "January",
+      "example": "Enero es el mes más frío del año.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el noviembre",
+      "target": "November",
+      "example": "En noviembre los días son cortos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el octubre",
+      "target": "October",
+      "example": "En octubre caen las hojas de los árboles.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el diciembre",
+      "target": "December",
+      "example": "En diciembre celebramos la Navidad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mes",
+      "target": "month",
+      "example": "Este mes tengo muchos planes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el festivo",
+      "target": "public holiday",
+      "example": "El lunes es festivo y no trabajo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el lunes",
+      "target": "Monday",
+      "example": "El lunes vuelvo al trabajo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el martes",
+      "target": "Tuesday",
+      "example": "Los martes tengo clase de español.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el miércoles",
+      "target": "Wednesday",
+      "example": "El miércoles quedamos para cenar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el jueves",
+      "target": "Thursday",
+      "example": "Los jueves voy al gimnasio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el viernes",
+      "target": "Friday",
+      "example": "El viernes por la noche salimos a bailar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sábado",
+      "target": "Saturday",
+      "example": "El sábado vamos al mercado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el domingo",
+      "target": "Sunday",
+      "example": "El domingo desayunamos tarde en familia.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cumpleaños",
+      "target": "birthday",
+      "example": "Mañana es el cumpleaños de mi madre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el bautismo",
+      "target": "baptism / christening",
+      "example": "Fuimos al bautismo del bebé.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la boda",
+      "target": "wedding",
+      "example": "La boda fue en una iglesia muy antigua.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la Pascua",
+      "target": "Easter",
+      "example": "En Pascua comemos mona de Pascua.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aniversario",
+      "target": "anniversary",
+      "example": "Hoy celebramos nuestro aniversario de boda.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el día del santo",
+      "target": "name day",
+      "example": "El día del santo se celebra como el cumpleaños.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la Navidad",
+      "target": "Christmas",
+      "example": "En Navidad toda la familia se reúne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "anual",
+      "target": "annual / yearly",
+      "example": "La revisión médica es anual.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fiesta",
+      "target": "party / celebration",
+      "example": "Organizamos una fiesta para su cumpleaños.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

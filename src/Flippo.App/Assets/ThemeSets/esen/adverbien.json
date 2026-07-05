@@ -1,0 +1,249 @@
+{
+  "id": "esen-adverbien",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Adverbien",
+  "entries": [
+    {
+      "source": "algo",
+      "target": "something",
+      "example": "Algo falta en esta receta.",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ahí",
+      "target": "there",
+      "example": "El taxi está aparcado ahí.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "poco",
+      "target": "a little",
+      "example": "Habla un poco más despacio por favor.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "otra vez",
+      "target": "again",
+      "example": "¿Puedes repetirlo otra vez?",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "a la derecha",
+      "target": "right",
+      "example": "Gira a la derecha en el semáforo.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "a la izquierda",
+      "target": "left",
+      "example": "El banco está a la izquierda.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "antes",
+      "target": "before",
+      "example": "Lávate las manos antes de comer.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tan",
+      "target": "so",
+      "example": "No es tan difícil como parece.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "de acuerdo",
+      "target": "agreed",
+      "example": "De acuerdo — nos vemos mañana.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "luego",
+      "target": "later",
+      "example": "Te llamo luego por teléfono.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "casi",
+      "target": "almost",
+      "example": "Casi llego tarde al tren.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "también",
+      "target": "also",
+      "example": "Yo también quiero ir.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sólo",
+      "target": "only",
+      "example": "Sólo necesito cinco minutos.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vale",
+      "target": "okay",
+      "example": "Vale — hasta mañana entonces.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "todavía",
+      "target": "still",
+      "example": "Todavía no he comido.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "a veces",
+      "target": "sometimes",
+      "example": "A veces voy al gimnasio por la mañana.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "detrás",
+      "target": "behind",
+      "example": "El jardín está detrás de la casa.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "delante",
+      "target": "in front",
+      "example": "El coche está aparcado delante.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "adentro",
+      "target": "inside",
+      "example": "Los niños están adentro jugando.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "abajo",
+      "target": "below",
+      "example": "Las llaves están abajo en la mesa.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "arriba",
+      "target": "above",
+      "example": "El apartamento está arriba en el tercer piso.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hay",
+      "target": "there is",
+      "example": "Hay un buen restaurante cerca de aquí.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fuera",
+      "target": "outside",
+      "example": "Hace frío fuera — coge el abrigo.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tal vez",
+      "target": "maybe",
+      "example": "Tal vez lleguemos tarde.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "después",
+      "target": "afterwards",
+      "example": "Primero como y después salgo.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bastante",
+      "target": "quite",
+      "example": "Ya he comido bastante gracias.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "normalmente",
+      "target": "normally",
+      "example": "Normalmente desayuno a las ocho.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "enseguida",
+      "target": "right away",
+      "example": "Vengo enseguida — solo un momento.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ya",
+      "target": "already",
+      "example": "Ya he terminado los deberes.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aún",
+      "target": "still",
+      "example": "Aún no ha llegado nadie.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

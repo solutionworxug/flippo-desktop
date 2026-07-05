@@ -1,0 +1,249 @@
+{
+  "id": "fr-obst-und-gemuse",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Obst und Gemüse",
+  "entries": [
+    {
+      "source": "l'ail",
+      "target": "der Knoblauch",
+      "example": "L'ail est très important dans la cuisine espagnole.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mandarine",
+      "target": "die Mandarine",
+      "example": "En hiver je mange beaucoup de mandarines.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pomme de terre",
+      "target": "die Kartoffel",
+      "example": "Les frites sont très populaires.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le maïs",
+      "target": "der Mais",
+      "example": "Le maïs est très utilisé dans la cuisine mexicaine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tomate",
+      "target": "die Tomate",
+      "example": "La salade contient de la tomate et du concombre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'oignon",
+      "target": "die Zwiebel",
+      "example": "L'oignon donne beaucoup de goût à la soupe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la framboise",
+      "target": "die Himbeere",
+      "example": "Les framboises sont très bonnes avec de la crème.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fraise",
+      "target": "die Erdbeere",
+      "example": "Les fraises à la crème sont un dessert typique.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la poire",
+      "target": "die Birne",
+      "example": "Cette poire est mûre et très sucrée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cerise",
+      "target": "die Kirsche",
+      "example": "Les cerises de cet arbre sont délicieuses.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le citron",
+      "target": "die Zitrone",
+      "example": "Ajoute le jus d'un citron à la limonade.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le melon",
+      "target": "die Honigmelone",
+      "example": "Le melon au jambon est un apéritif espagnol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pastèque",
+      "target": "die Wassermelone",
+      "example": "La pastèque rafraîchit beaucoup en été.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pêche",
+      "target": "der Pfirsich",
+      "example": "Les pêches d'Aragon sont très réputées.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pomme",
+      "target": "der Apfel",
+      "example": "Une pomme par jour éloigne le médecin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la banane",
+      "target": "die Banane",
+      "example": "La banane est riche en potassium.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les fruits",
+      "target": "das Obst",
+      "example": "Je mange des fruits frais chaque matin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'orange",
+      "target": "die Orange",
+      "example": "Je presse une orange pour le petit-déjeuner.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le raisin",
+      "target": "die Weintrauben",
+      "example": "Le raisin du Nouvel An porte chance.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le kiwi",
+      "target": "die Kiwi",
+      "example": "Le kiwi contient beaucoup de vitamine C.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le poivron",
+      "target": "die Paprika",
+      "example": "Le poivron rouge est sucré et croquant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carotte",
+      "target": "die Karotte",
+      "example": "Les carottes sont bonnes pour la vue.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le concombre",
+      "target": "die Gurke",
+      "example": "Le concombre rafraîchit beaucoup en salade.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la laitue",
+      "target": "der Kopfsalat",
+      "example": "J'ai acheté une laitue pour la salade.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le brocoli",
+      "target": "der Brokkoli",
+      "example": "Le brocoli est très sain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chou",
+      "target": "der Kohl",
+      "example": "Le chou est très utilisé dans le pot-au-feu.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'avocat",
+      "target": "die Avocado",
+      "example": "L'avocat est très bon avec du citron et du sel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'asperge",
+      "target": "der Spargel",
+      "example": "Au printemps je mange des asperges fraîches.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chou-fleur",
+      "target": "der Blumenkohl",
+      "example": "Le chou-fleur gratiné est délicieux.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les légumes",
+      "target": "das Gemüse",
+      "example": "Il faut manger des légumes tous les jours.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

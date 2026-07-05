@@ -1,0 +1,249 @@
+{
+  "id": "esen-getranke",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Getränke",
+  "entries": [
+    {
+      "source": "el agua",
+      "target": "water",
+      "example": "Bebo ocho vasos de agua al día.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la leche",
+      "target": "milk",
+      "example": "El café con leche es el desayuno típico español.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el zumo",
+      "target": "juice",
+      "example": "Exprimo naranjas para hacer zumo fresco.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el café",
+      "target": "coffee",
+      "example": "Tomo un café con leche por la mañana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el té",
+      "target": "tea",
+      "example": "Por la tarde tomo una taza de té.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cerveza",
+      "target": "beer",
+      "example": "Una caña de cerveza en el bar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vino",
+      "target": "wine",
+      "example": "El vino tinto va bien con la carne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la sangría",
+      "target": "sangria",
+      "example": "La sangría es una bebida típica española.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el refresco",
+      "target": "soft drink / lemonade",
+      "example": "Los niños piden un refresco.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cola",
+      "target": "cola",
+      "example": "¿Me pones una cola con limón?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la naranjada",
+      "target": "orangeade",
+      "example": "La naranjada está muy fresca.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la limonada",
+      "target": "lemonade",
+      "example": "Preparo limonada casera con limones frescos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cóctel",
+      "target": "cocktail",
+      "example": "Pidió un cóctel sin alcohol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el champán",
+      "target": "sparkling wine / champagne",
+      "example": "Brindamos con champán en Año Nuevo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el batido",
+      "target": "milkshake / smoothie",
+      "example": "Me pedí un batido de fresa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la infusión",
+      "target": "herbal tea",
+      "example": "Tomo una infusión de manzanilla para el estómago.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el chocolate caliente",
+      "target": "hot chocolate",
+      "example": "En invierno tomo chocolate caliente.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el zumo de naranja",
+      "target": "orange juice",
+      "example": "El zumo de naranja natural es delicioso.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el agua con gas",
+      "target": "sparkling water",
+      "example": "Prefiero el agua con gas a la del grifo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el agua sin gas",
+      "target": "still water",
+      "example": "¿Con gas o sin gas?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vino blanco",
+      "target": "white wine",
+      "example": "El vino blanco va bien con el pescado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vino tinto",
+      "target": "red wine",
+      "example": "¿Te apetece una copa de vino tinto?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cava",
+      "target": "cava",
+      "example": "El cava es el champán español.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la copa",
+      "target": "glass",
+      "example": "Me tomé una copa de vino.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "beber",
+      "target": "to drink",
+      "example": "¿Qué quieres beber?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tomar",
+      "target": "to have / to drink",
+      "example": "Tomo un café con leche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tener sed",
+      "target": "to be thirsty",
+      "example": "Tengo mucha sed después de correr.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bebida",
+      "target": "drink",
+      "example": "¿Qué bebida quieres con la comida?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hielo",
+      "target": "ice",
+      "example": "¿Quieres el refresco con hielo?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la barra",
+      "target": "bar / counter",
+      "example": "Desayunamos en la barra del bar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "de-restaurant",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Restaurant",
+  "entries": [
+    {
+      "source": "das Restaurant / die Gaststätte",
+      "target": "restaurant",
+      "example": "Wir haben einen Tisch im Restaurant gebucht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Tagesmenü / die Speisekarte",
+      "target": "menu",
+      "example": "Bringen Sie mir bitte das Tagesmenü?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Speisekarte",
+      "target": "menu / list",
+      "example": "Können wir die Speisekarte sehen?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Kellner",
+      "target": "waiter",
+      "example": "Der Kellner war sehr aufmerksam.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kellnerin",
+      "target": "waitress",
+      "example": "Die Kellnerin empfahl das Tagesgericht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Küchenchef / Chefkoch",
+      "target": "chef",
+      "example": "Der Küchenchef ist für seine Küche berühmt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Teller / das Gericht",
+      "target": "dish",
+      "example": "Das Gericht des Tages ist Paella.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Messer",
+      "target": "knife",
+      "example": "Das Messer ist sehr scharf.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Löffel",
+      "target": "spoon",
+      "example": "Ich brauche einen Löffel für die Suppe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Gabel",
+      "target": "fork",
+      "example": "Leg die Gabel links neben den Teller.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Tasse",
+      "target": "cup",
+      "example": "Bringen Sie mir bitte eine Tasse Kaffee?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Untertasse",
+      "target": "saucer",
+      "example": "Die Untertasse gehört unter die Tasse.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das (Wein)glas",
+      "target": "wine glass",
+      "example": "Möchtest du ein Glas Weißwein?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Glas (Trinkglas)",
+      "target": "glass",
+      "example": "Bestell bitte ein Glas Wasser.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Serviette",
+      "target": "napkin",
+      "example": "Leg die Serviette auf deinen Schoß.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Rechnung",
+      "target": "bill",
+      "example": "Können Sie uns die Rechnung bringen?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Trinkgeld",
+      "target": "tip",
+      "example": "Ich habe dem Kellner ein gutes Trinkgeld gegeben.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Reservierung",
+      "target": "reservation",
+      "example": "Wir haben eine Reservierung auf den Namen García.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kochen",
+      "target": "to cook",
+      "example": "Der Koch kocht mit frischen Zutaten.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bestellen / bitten",
+      "target": "to order",
+      "example": "Was möchtest du als Vorspeise bestellen?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "empfehlen",
+      "target": "to recommend",
+      "example": "Was empfehlen Sie von der Karte?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Eintopf (spanisch)",
+      "target": "stew",
+      "example": "Der Eintopf ist sehr deftig.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das kleine Fassbier",
+      "target": "small draught beer",
+      "example": "Ein kleines Fassbier, bitte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Tapa / der Snack",
+      "target": "tapa",
+      "example": "In Spanien gibt es zum Getränk eine Tapa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Vorspeise / erster Gang",
+      "target": "starter",
+      "example": "Als Vorspeise hatte ich einen Salat.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Hauptgang",
+      "target": "main course",
+      "example": "Als Hauptgang gab es gegrillten Fisch.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Nachspeise / das Dessert",
+      "target": "dessert",
+      "example": "Zur Nachspeise nehme ich einen Pudding.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Tagesangebot",
+      "target": "daily special",
+      "example": "Das Tagesangebot enthält auch ein Dessert.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "glutenfrei",
+      "target": "gluten-free",
+      "example": "Haben Sie glutenfreie Gerichte?",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vegetarisch",
+      "target": "vegetarian",
+      "example": "Haben Sie vegetarische Optionen?",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

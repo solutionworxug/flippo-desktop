@@ -1,0 +1,249 @@
+{
+  "id": "es-kleidung",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Kleidung",
+  "entries": [
+    {
+      "source": "la camiseta",
+      "target": "das T-Shirt",
+      "example": "Compré una camiseta con el logo del equipo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vestido",
+      "target": "das Kleid",
+      "example": "El vestido de noche es muy elegante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el abrigo",
+      "target": "der Mantel",
+      "example": "Coge el abrigo porque hace frío.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el guante",
+      "target": "der Handschuh",
+      "example": "Perdí un guante en el metro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el gorro",
+      "target": "die Mütze",
+      "example": "En invierno llevo siempre el gorro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el suéter",
+      "target": "der Pullover",
+      "example": "Este suéter es muy abrigado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las bermudas",
+      "target": "die Bermudashorts",
+      "example": "En verano llevo bermudas en la playa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el bolso",
+      "target": "die Tasche (Handtasche)",
+      "example": "Dejé el bolso en el restaurante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bufanda",
+      "target": "der Schal",
+      "example": "La bufanda me protege del frío.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la camisa",
+      "target": "das Hemd",
+      "example": "Lleva una camisa blanca para la entrevista.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la blusa",
+      "target": "die Bluse",
+      "example": "La blusa azul te queda muy bien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cinturón",
+      "target": "der Gürtel",
+      "example": "El cinturón de cuero es muy elegante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las gafas",
+      "target": "die Brille",
+      "example": "Necesito las gafas para leer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sombrero",
+      "target": "der Hut",
+      "example": "Lleva siempre un sombrero en verano.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el calzado",
+      "target": "das Schuhwerk / die Schuhe",
+      "example": "El calzado deportivo es muy cómodo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la chaqueta",
+      "target": "die Jacke",
+      "example": "Coge una chaqueta por si hace frío.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la falda",
+      "target": "der Rock",
+      "example": "La falda roja es muy bonita.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pantalón",
+      "target": "die Hose",
+      "example": "Estos pantalones son demasiado cortos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las zapatillas",
+      "target": "die Turnschuhe / Hausschuhe",
+      "example": "Llevo las zapatillas deportivas para correr.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el traje",
+      "target": "der Anzug",
+      "example": "Lleva traje y corbata a la reunión.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la corbata",
+      "target": "die Krawatte",
+      "example": "No sé hacer el nudo de la corbata.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el bañador",
+      "target": "die Badehose / der Badeanzug",
+      "example": "No olvides el bañador para la playa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el impermeable",
+      "target": "der Regenmantel",
+      "example": "Coge el impermeable que va a llover.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pijama",
+      "target": "der Schlafanzug / der Pyjama",
+      "example": "Me puse el pijama y me fui a la cama.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la ropa",
+      "target": "die Kleidung",
+      "example": "Tengo que lavar la ropa esta tarde.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "llevar",
+      "target": "tragen / anhaben",
+      "example": "¿Qué llevas puesto hoy?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ponerse",
+      "target": "anziehen",
+      "example": "Me pongo el abrigo antes de salir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quitarse",
+      "target": "ausziehen",
+      "example": "Quítate los zapatos al entrar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "los calcetines",
+      "target": "die Socken",
+      "example": "Necesito calcetines de lana para el frío.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "los zapatos",
+      "target": "die Schuhe",
+      "example": "Estos zapatos me hacen daño en los pies.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

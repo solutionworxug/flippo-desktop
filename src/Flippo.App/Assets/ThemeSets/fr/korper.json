@@ -1,0 +1,249 @@
+{
+  "id": "fr-korper",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Körper",
+  "entries": [
+    {
+      "source": "la jambe",
+      "target": "das Bein",
+      "example": "J'ai mal à la jambe après avoir couru.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tête",
+      "target": "der Kopf",
+      "example": "J'ai mal à la tête.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les cheveux",
+      "target": "das Haar",
+      "example": "Elle a les cheveux longs et bouclés.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cou",
+      "target": "der Hals",
+      "example": "J'ai mal au cou à force de regarder le portable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le dos",
+      "target": "der Rücken",
+      "example": "J'ai mal au dos à cause du travail.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le pied",
+      "target": "der Fuß",
+      "example": "J'ai mal au pied après avoir marché.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le doigt",
+      "target": "der Finger",
+      "example": "Je me suis coupé le doigt en cuisinant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bras",
+      "target": "der Arm",
+      "example": "Il a le bras en écharpe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la main",
+      "target": "die Hand",
+      "example": "Lave-toi les mains avant de manger.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'estomac / le ventre",
+      "target": "der Magen / der Bauch",
+      "example": "J'ai mal à l'estomac après avoir mangé.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le nez",
+      "target": "die Nase",
+      "example": "En hiver je me mouche le nez tout le temps.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'œil",
+      "target": "das Auge",
+      "example": "Elle a les yeux très bleus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le corps",
+      "target": "der Körper",
+      "example": "L'exercice est bon pour le corps.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sain",
+      "target": "gesund",
+      "example": "Manger des légumes est sain.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "malade",
+      "target": "krank",
+      "example": "Je ne vais pas au travail parce que je suis malade.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bouche",
+      "target": "der Mund",
+      "example": "Ouvre la bouche et dis « ah ».",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les dents",
+      "target": "die Zähne",
+      "example": "Il faut se brosser les dents deux fois par jour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la langue",
+      "target": "die Zunge",
+      "example": "Je me suis mordu la langue en mangeant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'oreille",
+      "target": "das Ohr (außen)",
+      "example": "J'ai mal à l'oreille droite.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'épaule",
+      "target": "die Schulter",
+      "example": "Il porte le sac à dos sur l'épaule.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la poitrine",
+      "target": "die Brust",
+      "example": "J'ai mal à la poitrine quand je respire.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le genou",
+      "target": "das Knie",
+      "example": "Je suis tombé et je me suis cogné le genou.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cheville",
+      "target": "der Knöchel",
+      "example": "Je me suis tordu la cheville en courant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le coude",
+      "target": "der Ellbogen",
+      "example": "Je me suis cogné le coude.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le front",
+      "target": "die Stirn",
+      "example": "Elle a de la fièvre, je lui ai touché le front.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la joue",
+      "target": "die Wange",
+      "example": "Il lui a fait un bisou sur la joue.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la lèvre",
+      "target": "die Lippe",
+      "example": "Il a les lèvres très fines.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le menton",
+      "target": "das Kinn",
+      "example": "Il s'est caressé le menton en réfléchissant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cœur",
+      "target": "das Herz",
+      "example": "Le cœur bat plus vite quand on court.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sang",
+      "target": "das Blut",
+      "example": "Du sang a coulé de mon doigt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

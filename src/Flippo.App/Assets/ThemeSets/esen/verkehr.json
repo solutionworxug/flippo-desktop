@@ -1,0 +1,249 @@
+{
+  "id": "esen-verkehr",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Verkehr",
+  "entries": [
+    {
+      "source": "el coche",
+      "target": "car",
+      "example": "Voy al trabajo en coche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el metro",
+      "target": "underground / subway",
+      "example": "El metro es más rápido que el autobús.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el autobús",
+      "target": "bus",
+      "example": "El autobús al centro sale cada veinte minutos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tren",
+      "target": "train",
+      "example": "El tren de alta velocidad llega en dos horas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el taxi",
+      "target": "taxi",
+      "example": "Cogimos un taxi porque llovía.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bicicleta",
+      "target": "bicycle",
+      "example": "Voy al trabajo en bicicleta cuando hace sol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el avión",
+      "target": "airplane",
+      "example": "El avión despega a las diez.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la moto",
+      "target": "motorbike",
+      "example": "Se mueve por la ciudad en moto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la parada",
+      "target": "stop",
+      "example": "¿Cuál es la próxima parada?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el semáforo",
+      "target": "traffic light",
+      "example": "Para en el semáforo en rojo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la calle",
+      "target": "street",
+      "example": "Esta calle está cortada por obras.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carretera",
+      "target": "road",
+      "example": "La carretera estaba muy transitada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la autovía",
+      "target": "motorway",
+      "example": "Tomamos la autovía para ir más rápido.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aparcar",
+      "target": "to park",
+      "example": "No hay donde aparcar en el centro.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "conducir",
+      "target": "to drive",
+      "example": "Conduce con cuidado en la lluvia.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el atasco",
+      "target": "traffic jam",
+      "example": "Hay mucho atasco en la hora punta.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el billete",
+      "target": "ticket",
+      "example": "Saqué el billete de tren por internet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el andén",
+      "target": "platform",
+      "example": "El tren sale desde el andén número tres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la estación",
+      "target": "station",
+      "example": "Nos vemos en la estación de Atocha.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aeropuerto",
+      "target": "airport",
+      "example": "Hay que estar en el aeropuerto dos horas antes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el puerto",
+      "target": "port / harbour",
+      "example": "El ferry sale del puerto a las nueve.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el crucero",
+      "target": "cruise",
+      "example": "Hicimos un crucero por el Mediterráneo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gasolina",
+      "target": "petrol / gasoline",
+      "example": "Hay que echar gasolina antes de salir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la multa",
+      "target": "fine",
+      "example": "Me pusieron una multa por aparcar mal.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el carné de conducir",
+      "target": "driving licence",
+      "example": "Saqué el carné de conducir a los dieciocho.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cinturón de seguridad",
+      "target": "seatbelt",
+      "example": "Abróchate el cinturón de seguridad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la vuelta",
+      "target": "return / lap",
+      "example": "El billete de vuelta cuesta menos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "directo",
+      "target": "direct",
+      "example": "Cogí un vuelo directo a Madrid.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacer transbordo",
+      "target": "to change / to transfer",
+      "example": "Hay que hacer transbordo en Barcelona.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "retrasado",
+      "target": "delayed",
+      "example": "El tren llega retrasado veinte minutos.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "de-personenbeschreibungen",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Personenbeschreibungen",
+  "entries": [
+    {
+      "source": "groß (Körpergröße)",
+      "target": "tall",
+      "example": "Mein Bruder ist sehr groß.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "klein (Körpergröße)",
+      "target": "short",
+      "example": "Sie ist eher klein gewachsen.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dünn / schlank",
+      "target": "thin / slim",
+      "example": "Er ist groß und sehr schlank.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dick / übergewichtig",
+      "target": "fat / overweight",
+      "example": "Die Katze ist ziemlich dick geworden.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hübsch / gutaussehend",
+      "target": "handsome",
+      "example": "Ihr Freund ist wirklich hübsch.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hässlich",
+      "target": "ugly",
+      "example": "Der Film war einfach hässlich gemacht.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "jung",
+      "target": "young",
+      "example": "Für sein Alter sieht er sehr jung aus.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "älter / erwachsen",
+      "target": "older / adult",
+      "example": "Sein älterer Bruder ist schon erwachsen.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sehr alt / bejahrt",
+      "target": "elderly",
+      "example": "Die bejahrte Dame geht am Stock.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "blond",
+      "target": "blond",
+      "example": "Sie hat blonde Haare und blaue Augen.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dunkelhaarig / brünett",
+      "target": "dark-haired",
+      "example": "Er ist dunkelhaarig mit braunen Augen.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rothaarig",
+      "target": "red-haired",
+      "example": "Rothaarige Menschen haben oft helle Haut.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kahl / glatzkopfig",
+      "target": "bald",
+      "example": "Mein Onkel ist seit Jahren kahl.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "stark / kräftig",
+      "target": "strong",
+      "example": "Er ist sehr stark und trainiert täglich.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schwach",
+      "target": "weak",
+      "example": "Nach der Krankheit fühlt er sich schwach.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sportlich",
+      "target": "athletic",
+      "example": "Sie ist sehr sportlich und spielt Tennis.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schön / hübsch",
+      "target": "pretty",
+      "example": "Sie hat ein wunderschönes Lächeln.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "elegant",
+      "target": "elegant",
+      "example": "Im Büro wirkt er immer sehr elegant.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schlicht / einfach",
+      "target": "simple",
+      "example": "Er kleidet sich gern schlicht und einfach.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "berühmt",
+      "target": "famous",
+      "example": "Der Schauspieler ist weltweit berühmt.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vermögend / wohlhabend",
+      "target": "wealthy",
+      "example": "Sie wohnt in einem wohlhabenden Viertel.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "arm",
+      "target": "poor",
+      "example": "Die Familie ist arm, aber glücklich.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "verheiratet",
+      "target": "married",
+      "example": "Er ist seit zehn Jahren verheiratet.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ledig / single",
+      "target": "single",
+      "example": "Mit fünfunddreißig ist er immer noch ledig.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "geschieden",
+      "target": "divorced",
+      "example": "Seit letztem Jahr ist er geschieden.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "getrennt (lebend)",
+      "target": "separated",
+      "example": "Sie leben getrennt, sind aber nicht geschieden.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dumm",
+      "target": "stupid",
+      "example": "Das war eine wirklich dumme Entscheidung.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mittleren Alters",
+      "target": "middle-aged",
+      "example": "Sie ist eine aktive Frau mittleren Alters.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Aussehen / der Aspekt",
+      "target": "appearance",
+      "example": "Er achtet sehr auf sein Aussehen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Körperbau",
+      "target": "build",
+      "example": "Er hat einen athletischen Körperbau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

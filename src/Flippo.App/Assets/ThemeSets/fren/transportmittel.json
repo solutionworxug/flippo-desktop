@@ -1,0 +1,241 @@
+{
+  "id": "fren-transportmittel",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Transportmittel",
+  "entries": [
+    {
+      "source": "le vélo",
+      "target": "bicycle",
+      "example": "Nous faisons un tour à vélo le dimanche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la croisière",
+      "target": "cruise",
+      "example": "Nous avons fait une croisière en Méditerranée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le conducteur",
+      "target": "driver",
+      "example": "Le conducteur du bus a été très aimable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la route",
+      "target": "country road",
+      "example": "La route était très fréquentée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la rue",
+      "target": "street",
+      "example": "Cette rue est piétonne, les voitures ne peuvent pas y entrer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le passage piéton",
+      "target": "pedestrian crossing",
+      "example": "Traverse au passage piéton.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le feu",
+      "target": "traffic light",
+      "example": "Arrête-toi au feu quand il est rouge.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le carrefour",
+      "target": "crossroads / intersection",
+      "example": "Tourne à gauche au prochain carrefour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le plan de la ville",
+      "target": "city map",
+      "example": "Nous avons consulté le plan de la ville pour ne pas nous perdre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le parking",
+      "target": "parking lot",
+      "example": "Le parking est complet à cette heure.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "réserver sur internet",
+      "target": "to book online",
+      "example": "Je préfère réserver les billets sur internet.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la zone piétonne",
+      "target": "pedestrian zone",
+      "example": "La zone piétonne est pleine de magasins.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gare",
+      "target": "train station",
+      "example": "La gare est dans le centre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le quai",
+      "target": "platform",
+      "example": "Le train part du quai numéro trois.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aller à pied",
+      "target": "to go on foot",
+      "example": "Je vais à pied au travail tous les matins.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le moyen de transport",
+      "target": "means of transport",
+      "example": "Le métro est mon moyen de transport préféré.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le tramway",
+      "target": "tram",
+      "example": "Le tramway passe devant chez moi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bateau",
+      "target": "ship",
+      "example": "Nous avons traversé le fleuve en bateau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la place",
+      "target": "seat",
+      "example": "J'ai réservé une place près de la fenêtre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la moto",
+      "target": "motorcycle",
+      "example": "Il se déplace en ville à moto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le métro",
+      "target": "subway / underground",
+      "example": "Le métro est plus rapide que le bus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'aéroport",
+      "target": "airport",
+      "example": "Il faut arriver à l'aéroport deux heures à l'avance.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'autoroute",
+      "target": "motorway / highway",
+      "example": "L'autoroute pour Barcelone est coupée à cause de travaux.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bus",
+      "target": "bus",
+      "example": "Le bus pour le centre part toutes les vingt minutes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le billet",
+      "target": "ticket",
+      "example": "J'ai acheté le billet d'avion à l'avance.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le vol",
+      "target": "flight",
+      "example": "Le vol pour Madrid dure deux heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carte",
+      "target": "map",
+      "example": "J'ai téléchargé la carte de la ville.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le train",
+      "target": "train",
+      "example": "Le train à grande vitesse arrive en trois heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le taxi",
+      "target": "taxi",
+      "example": "Nous avons pris un taxi depuis l'aéroport.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

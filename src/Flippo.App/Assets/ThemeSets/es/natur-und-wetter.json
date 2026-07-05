@@ -1,0 +1,249 @@
+{
+  "id": "es-natur-und-wetter",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Natur und Wetter",
+  "entries": [
+    {
+      "source": "el tiempo",
+      "target": "das Wetter",
+      "example": "¿Qué tiempo hace hoy?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sol",
+      "target": "die Sonne",
+      "example": "Hace mucho sol — coge las gafas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la lluvia",
+      "target": "der Regen",
+      "example": "La lluvia no para desde ayer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el viento",
+      "target": "der Wind",
+      "example": "Hay mucho viento hoy — hace frío.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nieve",
+      "target": "der Schnee",
+      "example": "En la montaña hay mucha nieve en enero.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la niebla",
+      "target": "der Nebel",
+      "example": "Esta mañana había mucha niebla en la carretera.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tormenta",
+      "target": "das Gewitter / der Sturm",
+      "example": "Se acerca una tormenta — coge el paraguas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el trueno",
+      "target": "der Donner",
+      "example": "Los truenos me asustan.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el relámpago",
+      "target": "der Blitz",
+      "example": "Los relámpagos iluminaron el cielo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nublado",
+      "target": "bewölkt",
+      "example": "El cielo está muy nublado hoy.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "despejado",
+      "target": "wolkenlos / klar",
+      "example": "Mañana estará despejado y soleado.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "llover",
+      "target": "regnen",
+      "example": "Está lloviendo a cántaros.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nevar",
+      "target": "schneien",
+      "example": "Nevó toda la noche en la sierra.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacer calor",
+      "target": "warm / heiß sein",
+      "example": "En agosto hace mucho calor en España.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacer frío",
+      "target": "kalt sein",
+      "example": "Hace mucho frío — hay que abrigarse.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la temperatura",
+      "target": "die Temperatur",
+      "example": "La temperatura bajó a cero grados.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el grado",
+      "target": "der Grad",
+      "example": "Hoy hay treinta grados a la sombra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el árbol",
+      "target": "der Baum",
+      "example": "Los árboles dan sombra en verano.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la flor",
+      "target": "die Blume",
+      "example": "Las flores del jardín huelen muy bien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el río",
+      "target": "der Fluss",
+      "example": "El río Ebro es el más largo de España.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mar",
+      "target": "das Meer",
+      "example": "Me encanta bañarme en el mar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la montaña",
+      "target": "der Berg",
+      "example": "Vamos a la montaña en invierno a esquiar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el bosque",
+      "target": "der Wald",
+      "example": "Damos paseos por el bosque los domingos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la playa",
+      "target": "der Strand",
+      "example": "La playa está llena de gente en agosto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el campo",
+      "target": "das Feld / das Land",
+      "example": "Me gusta pasar el fin de semana en el campo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la naturaleza",
+      "target": "die Natur",
+      "example": "Hay que cuidar la naturaleza.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cielo",
+      "target": "der Himmel",
+      "example": "El cielo está lleno de estrellas esta noche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nube",
+      "target": "die Wolke",
+      "example": "Las nubes tapan el sol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el arcoíris",
+      "target": "der Regenbogen",
+      "example": "Después de la lluvia salió un arcoíris.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pronóstico",
+      "target": "die Wettervorhersage",
+      "example": "El pronóstico dice que lloverá mañana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

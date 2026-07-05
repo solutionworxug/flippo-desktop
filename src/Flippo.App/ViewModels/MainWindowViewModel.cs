@@ -86,6 +86,7 @@ public sealed partial class MainWindowViewModel : ViewModelBase
     // ── Anwendungsmenü (NativeMenu) ──
 
     [RelayCommand] private async Task NewSet() { if (await _actions.NewSetAsync()) ShowSets(); }
+    [RelayCommand] private async Task ImportThemeSet() { if (await _actions.ImportThemeSetAsync()) ShowSets(); }
     [RelayCommand] private async Task ImportFile() { if (await _actions.ImportFileAsync()) ShowSets(); }
     [RelayCommand] private async Task ImportBackup() { if (await _actions.ImportBackupAsync()) ShowSets(); }
     [RelayCommand] private Task ExportBackup() => _actions.ExportBackupAsync();

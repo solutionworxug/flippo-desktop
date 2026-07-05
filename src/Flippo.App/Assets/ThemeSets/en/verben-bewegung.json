@@ -1,0 +1,249 @@
+{
+  "id": "en-verben-bewegung",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Verben Bewegung",
+  "entries": [
+    {
+      "source": "to go",
+      "target": "gehen / fahren",
+      "example": "I'm going to the supermarket now.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to come",
+      "target": "kommen",
+      "example": "Are you coming to the party on Saturday?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to arrive",
+      "target": "ankommen",
+      "example": "The train arrives at three.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to leave / depart",
+      "target": "ausgehen / abfahren",
+      "example": "The bus leaves in five minutes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to enter",
+      "target": "eintreten / hineingehen",
+      "example": "Come in, the door is open.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to jump",
+      "target": "springen",
+      "example": "The children jump in the park.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to run",
+      "target": "laufen / rennen",
+      "example": "I run every day in the park.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to walk",
+      "target": "gehen / laufen (gemächlich)",
+      "example": "We walked for an hour around the city.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to go up",
+      "target": "hinaufgehen / einsteigen",
+      "example": "We go up to the third floor on foot.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to go down",
+      "target": "heruntergehen / aussteigen",
+      "example": "Get off at the next stop.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to come back",
+      "target": "zurückkommen",
+      "example": "I come back home at seven.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to return",
+      "target": "zurückkehren",
+      "example": "We return from the trip on Sunday.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to pass",
+      "target": "vorbeigehen / passieren",
+      "example": "The bus passes every twenty minutes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to cross",
+      "target": "überqueren",
+      "example": "Cross the street at the crosswalk.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to turn",
+      "target": "abbiegen / sich drehen",
+      "example": "Turn right at the traffic light.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to continue",
+      "target": "weitergehen / fortsetzen",
+      "example": "Continue straight to the end of the street.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to approach",
+      "target": "sich nähern / näherkommen",
+      "example": "He approached to listen better.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to move away",
+      "target": "sich entfernen / weggehen",
+      "example": "He moved away without saying anything.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to stop",
+      "target": "stehen bleiben / anhalten",
+      "example": "Stop the car here, please.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to sit down",
+      "target": "sich setzen / hinsetzen",
+      "example": "Sit down, the meeting is about to start.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to stand up",
+      "target": "aufstehen",
+      "example": "He stood up from the chair to say hello.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to lie down",
+      "target": "sich hinlegen",
+      "example": "I lay down on the sofa to rest.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to bend down",
+      "target": "sich bücken",
+      "example": "He bent down to pick up the pen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to push",
+      "target": "schieben / drücken",
+      "example": "Push the door, don't pull.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to pull",
+      "target": "ziehen / werfen",
+      "example": "Pull the cord to turn on the light.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to carry / take",
+      "target": "tragen / mitnehmen",
+      "example": "Take the umbrella, it might rain.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to bring",
+      "target": "mitbringen / bringen",
+      "example": "Bring the document for the meeting.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to move",
+      "target": "sich bewegen",
+      "example": "Move, you're blocking the exit.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to escape",
+      "target": "entkommen / weglaufen",
+      "example": "The cat escaped through the window.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to head towards",
+      "target": "sich begeben / zusteuern auf",
+      "example": "He headed quickly towards the exit.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

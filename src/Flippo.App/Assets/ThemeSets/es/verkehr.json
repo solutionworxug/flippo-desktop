@@ -1,0 +1,249 @@
+{
+  "id": "es-verkehr",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Verkehr",
+  "entries": [
+    {
+      "source": "el coche",
+      "target": "das Auto",
+      "example": "Voy al trabajo en coche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el metro",
+      "target": "die U-Bahn",
+      "example": "El metro es más rápido que el autobús.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el autobús",
+      "target": "der Bus",
+      "example": "El autobús al centro sale cada veinte minutos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tren",
+      "target": "der Zug",
+      "example": "El tren de alta velocidad llega en dos horas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el taxi",
+      "target": "das Taxi",
+      "example": "Cogimos un taxi porque llovía.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bicicleta",
+      "target": "das Fahrrad",
+      "example": "Voy al trabajo en bicicleta cuando hace sol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el avión",
+      "target": "das Flugzeug",
+      "example": "El avión despega a las diez.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la moto",
+      "target": "das Motorrad",
+      "example": "Se mueve por la ciudad en moto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la parada",
+      "target": "die Haltestelle",
+      "example": "¿Cuál es la próxima parada?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el semáforo",
+      "target": "die Ampel",
+      "example": "Para en el semáforo en rojo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la calle",
+      "target": "die Straße",
+      "example": "Esta calle está cortada por obras.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carretera",
+      "target": "die Landstraße / Straße",
+      "example": "La carretera estaba muy transitada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la autovía",
+      "target": "die Autobahn",
+      "example": "Tomamos la autovía para ir más rápido.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aparcar",
+      "target": "parken",
+      "example": "No hay donde aparcar en el centro.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "conducir",
+      "target": "fahren / lenken",
+      "example": "Conduce con cuidado en la lluvia.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el atasco",
+      "target": "der Stau",
+      "example": "Hay mucho atasco en la hora punta.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el billete",
+      "target": "das Ticket / die Fahrkarte",
+      "example": "Saqué el billete de tren por internet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el andén",
+      "target": "der Bahnsteig",
+      "example": "El tren sale desde el andén número tres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la estación",
+      "target": "der Bahnhof / die Station",
+      "example": "Nos vemos en la estación de Atocha.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aeropuerto",
+      "target": "der Flughafen",
+      "example": "Hay que estar en el aeropuerto dos horas antes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el puerto",
+      "target": "der Hafen",
+      "example": "El ferry sale del puerto a las nueve.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el crucero",
+      "target": "die Kreuzfahrt",
+      "example": "Hicimos un crucero por el Mediterráneo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gasolina",
+      "target": "das Benzin",
+      "example": "Hay que echar gasolina antes de salir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la multa",
+      "target": "das Bußgeld / der Strafzettel",
+      "example": "Me pusieron una multa por aparcar mal.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el carné de conducir",
+      "target": "der Führerschein",
+      "example": "Saqué el carné de conducir a los dieciocho.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cinturón de seguridad",
+      "target": "der Sicherheitsgurt",
+      "example": "Abróchate el cinturón de seguridad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la vuelta",
+      "target": "die Rückkehr / die Runde",
+      "example": "El billete de vuelta cuesta menos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "directo",
+      "target": "direkt (ohne Umsteigen)",
+      "example": "Cogí un vuelo directo a Madrid.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacer transbordo",
+      "target": "umsteigen",
+      "example": "Hay que hacer transbordo en Barcelona.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "retrasado",
+      "target": "verspätet",
+      "example": "El tren llega retrasado veinte minutos.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

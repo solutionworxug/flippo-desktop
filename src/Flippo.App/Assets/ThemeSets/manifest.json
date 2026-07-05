@@ -1,0 +1,2165 @@
+{
+  "version": 1,
+  "themesets": [
+    {
+      "id": "en-adjektive",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Adjektive",
+      "entryCount": 30,
+      "path": "themesets/en/adjektive.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-adverbien",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Adverbien",
+      "entryCount": 30,
+      "path": "themesets/en/adverbien.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-alltag-routine",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Alltag Routine",
+      "entryCount": 30,
+      "path": "themesets/en/alltag-routine.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-arbeit-und-studium",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Arbeit und Studium",
+      "entryCount": 30,
+      "path": "themesets/en/arbeit-und-studium.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-arztbesuch",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Arztbesuch",
+      "entryCount": 30,
+      "path": "themesets/en/arztbesuch.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-assessoirs",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Assessoirs",
+      "entryCount": 30,
+      "path": "themesets/en/assessoirs.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-charaktereigenschaften",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Charaktereigenschaften",
+      "entryCount": 30,
+      "path": "themesets/en/charaktereigenschaften.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-einkaufen",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Einkaufen",
+      "entryCount": 30,
+      "path": "themesets/en/einkaufen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-emotionen",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Emotionen",
+      "entryCount": 30,
+      "path": "themesets/en/emotionen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-familie-und-freunde",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Familie und Freunde",
+      "entryCount": 30,
+      "path": "themesets/en/familie-und-freunde.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-farben",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Farben",
+      "entryCount": 30,
+      "path": "themesets/en/farben.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-frageworter",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Fragewörter",
+      "entryCount": 30,
+      "path": "themesets/en/frageworter.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-getranke",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Getränke",
+      "entryCount": 30,
+      "path": "themesets/en/getranke.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-hotel",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Hotel",
+      "entryCount": 30,
+      "path": "themesets/en/hotel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-kleidung",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Kleidung",
+      "entryCount": 30,
+      "path": "themesets/en/kleidung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-kochen-backen",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Kochen Backen",
+      "entryCount": 30,
+      "path": "themesets/en/kochen-backen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-korper",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Körper",
+      "entryCount": 30,
+      "path": "themesets/en/korper.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-lebensmittel",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Lebensmittel",
+      "entryCount": 30,
+      "path": "themesets/en/lebensmittel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-musik-und-kultur",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Musik und Kultur",
+      "entryCount": 30,
+      "path": "themesets/en/musik-und-kultur.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-natur-und-wetter",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Natur und Wetter",
+      "entryCount": 30,
+      "path": "themesets/en/natur-und-wetter.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-obst-und-gemuse",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Obst und Gemüse",
+      "entryCount": 30,
+      "path": "themesets/en/obst-und-gemuse.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-personenbeschreibungen",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Personenbeschreibungen",
+      "entryCount": 30,
+      "path": "themesets/en/personenbeschreibungen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-praposition",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Präposition",
+      "entryCount": 30,
+      "path": "themesets/en/praposition.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-reise-und-urlaub",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Reise und Urlaub",
+      "entryCount": 30,
+      "path": "themesets/en/reise-und-urlaub.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-restaurant",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Restaurant",
+      "entryCount": 30,
+      "path": "themesets/en/restaurant.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-schule",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Schule",
+      "entryCount": 30,
+      "path": "themesets/en/schule.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-sport-und-freizeit",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Sport und Freizeit",
+      "entryCount": 30,
+      "path": "themesets/en/sport-und-freizeit.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-stadt",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Stadt",
+      "entryCount": 30,
+      "path": "themesets/en/stadt.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-telefon-und-internet",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Telefon und Internet",
+      "entryCount": 30,
+      "path": "themesets/en/telefon-und-internet.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-textarten",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Textarten",
+      "entryCount": 30,
+      "path": "themesets/en/textarten.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-tierwelt",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Tierwelt",
+      "entryCount": 30,
+      "path": "themesets/en/tierwelt.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-transportmittel",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Transportmittel",
+      "entryCount": 29,
+      "path": "themesets/en/transportmittel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-verben-alltag",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Verben Alltag",
+      "entryCount": 30,
+      "path": "themesets/en/verben-alltag.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-verben-bewegung",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Verben Bewegung",
+      "entryCount": 30,
+      "path": "themesets/en/verben-bewegung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-verben-kommunikation",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Verben Kommunikation",
+      "entryCount": 30,
+      "path": "themesets/en/verben-kommunikation.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-verkehr",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Verkehr",
+      "entryCount": 30,
+      "path": "themesets/en/verkehr.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-wochen-monate-feste",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Wochen Monate Feste",
+      "entryCount": 30,
+      "path": "themesets/en/wochen-monate-feste.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-wohnungseinrichtung",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Wohnungseinrichtung",
+      "entryCount": 31,
+      "path": "themesets/en/wohnungseinrichtung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-zahlen",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Zahlen",
+      "entryCount": 30,
+      "path": "themesets/en/zahlen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "en-zeiten",
+      "language": "EN",
+      "targetLanguage": "Deutsch",
+      "title": "Zeiten",
+      "entryCount": 30,
+      "path": "themesets/en/zeiten.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-adjektive",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Adjektive",
+      "entryCount": 30,
+      "path": "themesets/es/adjektive.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-adverbien",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Adverbien",
+      "entryCount": 30,
+      "path": "themesets/es/adverbien.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-alltag-routine",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Alltag Routine",
+      "entryCount": 30,
+      "path": "themesets/es/alltag-routine.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-arbeit-und-studium",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Arbeit und Studium",
+      "entryCount": 30,
+      "path": "themesets/es/arbeit-und-studium.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-arztbesuch",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Arztbesuch",
+      "entryCount": 30,
+      "path": "themesets/es/arztbesuch.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-assessoirs",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Assessoirs",
+      "entryCount": 30,
+      "path": "themesets/es/assessoirs.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-charaktereigenschaften",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Charaktereigenschaften",
+      "entryCount": 30,
+      "path": "themesets/es/charaktereigenschaften.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-einkaufen",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Einkaufen",
+      "entryCount": 30,
+      "path": "themesets/es/einkaufen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-emotionen",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Emotionen",
+      "entryCount": 30,
+      "path": "themesets/es/emotionen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-familie-und-freunde",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Familie und Freunde",
+      "entryCount": 30,
+      "path": "themesets/es/familie-und-freunde.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-farben",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Farben",
+      "entryCount": 30,
+      "path": "themesets/es/farben.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-frageworter",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Fragewörter",
+      "entryCount": 30,
+      "path": "themesets/es/frageworter.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-getranke",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Getränke",
+      "entryCount": 30,
+      "path": "themesets/es/getranke.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-hotel",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Hotel",
+      "entryCount": 30,
+      "path": "themesets/es/hotel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-kleidung",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Kleidung",
+      "entryCount": 30,
+      "path": "themesets/es/kleidung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-kochen-backen",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Kochen Backen",
+      "entryCount": 30,
+      "path": "themesets/es/kochen-backen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-korper",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Körper",
+      "entryCount": 30,
+      "path": "themesets/es/korper.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-lebensmittel",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Lebensmittel",
+      "entryCount": 30,
+      "path": "themesets/es/lebensmittel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-musik-und-kultur",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Musik und Kultur",
+      "entryCount": 30,
+      "path": "themesets/es/musik-und-kultur.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-natur-und-wetter",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Natur und Wetter",
+      "entryCount": 30,
+      "path": "themesets/es/natur-und-wetter.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-obst-und-gemuse",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Obst und Gemüse",
+      "entryCount": 30,
+      "path": "themesets/es/obst-und-gemuse.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-personenbeschreibungen",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Personenbeschreibungen",
+      "entryCount": 30,
+      "path": "themesets/es/personenbeschreibungen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-praposition",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Präposition",
+      "entryCount": 30,
+      "path": "themesets/es/praposition.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-reise-und-urlaub",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Reise und Urlaub",
+      "entryCount": 30,
+      "path": "themesets/es/reise-und-urlaub.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-restaurant",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Restaurant",
+      "entryCount": 30,
+      "path": "themesets/es/restaurant.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-schule",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Schule",
+      "entryCount": 30,
+      "path": "themesets/es/schule.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-sport-und-freizeit",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Sport und Freizeit",
+      "entryCount": 30,
+      "path": "themesets/es/sport-und-freizeit.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-stadt",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Stadt",
+      "entryCount": 30,
+      "path": "themesets/es/stadt.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-telefon-und-internet",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Telefon und Internet",
+      "entryCount": 30,
+      "path": "themesets/es/telefon-und-internet.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-textarten",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Textarten",
+      "entryCount": 30,
+      "path": "themesets/es/textarten.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-tierwelt",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Tierwelt",
+      "entryCount": 30,
+      "path": "themesets/es/tierwelt.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-transportmittel",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Transportmittel",
+      "entryCount": 29,
+      "path": "themesets/es/transportmittel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-verben-bewegung",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Verben Bewegung",
+      "entryCount": 30,
+      "path": "themesets/es/verben-bewegung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-verben-kommunikation",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Verben Kommunikation",
+      "entryCount": 30,
+      "path": "themesets/es/verben-kommunikation.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-verben-alltag",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Verben Alltag",
+      "entryCount": 30,
+      "path": "themesets/es/verben-alltag.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-verkehr",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Verkehr",
+      "entryCount": 30,
+      "path": "themesets/es/verkehr.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-wochen-monate-feste",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Wochen Monate Feste",
+      "entryCount": 30,
+      "path": "themesets/es/wochen-monate-feste.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-wohnungseinrichtung",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Wohnungseinrichtung",
+      "entryCount": 31,
+      "path": "themesets/es/wohnungseinrichtung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-zahlen",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Zahlen",
+      "entryCount": 30,
+      "path": "themesets/es/zahlen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "es-zeiten",
+      "language": "ES",
+      "targetLanguage": "Deutsch",
+      "title": "Zeiten",
+      "entryCount": 30,
+      "path": "themesets/es/zeiten.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-adjektive",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Adjektive",
+      "entryCount": 30,
+      "path": "themesets/fr/adjektive.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-adverbien",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Adverbien",
+      "entryCount": 30,
+      "path": "themesets/fr/adverbien.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-alltag-routine",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Alltag Routine",
+      "entryCount": 30,
+      "path": "themesets/fr/alltag-routine.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-arbeit-und-studium",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Arbeit und Studium",
+      "entryCount": 30,
+      "path": "themesets/fr/arbeit-und-studium.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-arztbesuch",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Arztbesuch",
+      "entryCount": 30,
+      "path": "themesets/fr/arztbesuch.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-assessoirs",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Assessoirs",
+      "entryCount": 30,
+      "path": "themesets/fr/assessoirs.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-charaktereigenschaften",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Charaktereigenschaften",
+      "entryCount": 30,
+      "path": "themesets/fr/charaktereigenschaften.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-einkaufen",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Einkaufen",
+      "entryCount": 30,
+      "path": "themesets/fr/einkaufen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-emotionen",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Emotionen",
+      "entryCount": 30,
+      "path": "themesets/fr/emotionen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-familie-und-freunde",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Familie und Freunde",
+      "entryCount": 30,
+      "path": "themesets/fr/familie-und-freunde.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-farben",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Farben",
+      "entryCount": 30,
+      "path": "themesets/fr/farben.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-frageworter",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Fragewörter",
+      "entryCount": 30,
+      "path": "themesets/fr/frageworter.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-getranke",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Getränke",
+      "entryCount": 30,
+      "path": "themesets/fr/getranke.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-hotel",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Hotel",
+      "entryCount": 30,
+      "path": "themesets/fr/hotel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-kleidung",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Kleidung",
+      "entryCount": 30,
+      "path": "themesets/fr/kleidung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-kochen-backen",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Kochen Backen",
+      "entryCount": 30,
+      "path": "themesets/fr/kochen-backen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-korper",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Körper",
+      "entryCount": 30,
+      "path": "themesets/fr/korper.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-lebensmittel",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Lebensmittel",
+      "entryCount": 30,
+      "path": "themesets/fr/lebensmittel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-musik-und-kultur",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Musik und Kultur",
+      "entryCount": 30,
+      "path": "themesets/fr/musik-und-kultur.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-natur-und-wetter",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Natur und Wetter",
+      "entryCount": 30,
+      "path": "themesets/fr/natur-und-wetter.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-obst-und-gemuse",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Obst und Gemüse",
+      "entryCount": 30,
+      "path": "themesets/fr/obst-und-gemuse.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-personenbeschreibungen",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Personenbeschreibungen",
+      "entryCount": 30,
+      "path": "themesets/fr/personenbeschreibungen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-praposition",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Präposition",
+      "entryCount": 30,
+      "path": "themesets/fr/praposition.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-reise-und-urlaub",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Reise und Urlaub",
+      "entryCount": 30,
+      "path": "themesets/fr/reise-und-urlaub.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-restaurant",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Restaurant",
+      "entryCount": 30,
+      "path": "themesets/fr/restaurant.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-schule",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Schule",
+      "entryCount": 30,
+      "path": "themesets/fr/schule.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-sport-und-freizeit",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Sport und Freizeit",
+      "entryCount": 30,
+      "path": "themesets/fr/sport-und-freizeit.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-stadt",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Stadt",
+      "entryCount": 30,
+      "path": "themesets/fr/stadt.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-telefon-und-internet",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Telefon und Internet",
+      "entryCount": 30,
+      "path": "themesets/fr/telefon-und-internet.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-textarten",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Textarten",
+      "entryCount": 30,
+      "path": "themesets/fr/textarten.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-tierwelt",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Tierwelt",
+      "entryCount": 30,
+      "path": "themesets/fr/tierwelt.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-transportmittel",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Transportmittel",
+      "entryCount": 29,
+      "path": "themesets/fr/transportmittel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-verben-alltag",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Verben Alltag",
+      "entryCount": 30,
+      "path": "themesets/fr/verben-alltag.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-verben-bewegung",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Verben Bewegung",
+      "entryCount": 30,
+      "path": "themesets/fr/verben-bewegung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-verben-kommunikation",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Verben Kommunikation",
+      "entryCount": 30,
+      "path": "themesets/fr/verben-kommunikation.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-verkehr",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Verkehr",
+      "entryCount": 30,
+      "path": "themesets/fr/verkehr.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-wochen-monate-feste",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Wochen Monate Feste",
+      "entryCount": 30,
+      "path": "themesets/fr/wochen-monate-feste.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-wohnungseinrichtung",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Wohnungseinrichtung",
+      "entryCount": 31,
+      "path": "themesets/fr/wohnungseinrichtung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-zahlen",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Zahlen",
+      "entryCount": 30,
+      "path": "themesets/fr/zahlen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fr-zeiten",
+      "language": "FR",
+      "targetLanguage": "Deutsch",
+      "title": "Zeiten",
+      "entryCount": 30,
+      "path": "themesets/fr/zeiten.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-adjektive",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Adjektive",
+      "entryCount": 30,
+      "path": "themesets/de/adjektive.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-adverbien",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Adverbien",
+      "entryCount": 30,
+      "path": "themesets/de/adverbien.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-alltag-routine",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Alltag Routine",
+      "entryCount": 30,
+      "path": "themesets/de/alltag-routine.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-arbeit-und-studium",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Arbeit und Studium",
+      "entryCount": 30,
+      "path": "themesets/de/arbeit-und-studium.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-arztbesuch",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Arztbesuch",
+      "entryCount": 30,
+      "path": "themesets/de/arztbesuch.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-assessoirs",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Assessoirs",
+      "entryCount": 30,
+      "path": "themesets/de/assessoirs.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-charaktereigenschaften",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Charaktereigenschaften",
+      "entryCount": 30,
+      "path": "themesets/de/charaktereigenschaften.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-einkaufen",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Einkaufen",
+      "entryCount": 30,
+      "path": "themesets/de/einkaufen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-emotionen",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Emotionen",
+      "entryCount": 30,
+      "path": "themesets/de/emotionen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-familie-und-freunde",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Familie und Freunde",
+      "entryCount": 30,
+      "path": "themesets/de/familie-und-freunde.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-farben",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Farben",
+      "entryCount": 30,
+      "path": "themesets/de/farben.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-frageworter",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Fragewörter",
+      "entryCount": 30,
+      "path": "themesets/de/frageworter.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-getranke",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Getränke",
+      "entryCount": 30,
+      "path": "themesets/de/getranke.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-hotel",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Hotel",
+      "entryCount": 30,
+      "path": "themesets/de/hotel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-kleidung",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Kleidung",
+      "entryCount": 30,
+      "path": "themesets/de/kleidung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-kochen-backen",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Kochen Backen",
+      "entryCount": 30,
+      "path": "themesets/de/kochen-backen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-korper",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Körper",
+      "entryCount": 30,
+      "path": "themesets/de/korper.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-lebensmittel",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Lebensmittel",
+      "entryCount": 30,
+      "path": "themesets/de/lebensmittel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-musik-und-kultur",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Musik und Kultur",
+      "entryCount": 30,
+      "path": "themesets/de/musik-und-kultur.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-natur-und-wetter",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Natur und Wetter",
+      "entryCount": 30,
+      "path": "themesets/de/natur-und-wetter.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-obst-und-gemuse",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Obst und Gemüse",
+      "entryCount": 30,
+      "path": "themesets/de/obst-und-gemuse.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-personenbeschreibungen",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Personenbeschreibungen",
+      "entryCount": 30,
+      "path": "themesets/de/personenbeschreibungen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-praposition",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Präposition",
+      "entryCount": 30,
+      "path": "themesets/de/praposition.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-reise-und-urlaub",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Reise und Urlaub",
+      "entryCount": 30,
+      "path": "themesets/de/reise-und-urlaub.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-restaurant",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Restaurant",
+      "entryCount": 30,
+      "path": "themesets/de/restaurant.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-schule",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Schule",
+      "entryCount": 30,
+      "path": "themesets/de/schule.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-sport-und-freizeit",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Sport und Freizeit",
+      "entryCount": 30,
+      "path": "themesets/de/sport-und-freizeit.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-stadt",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Stadt",
+      "entryCount": 30,
+      "path": "themesets/de/stadt.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-telefon-und-internet",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Telefon und Internet",
+      "entryCount": 30,
+      "path": "themesets/de/telefon-und-internet.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-textarten",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Textarten",
+      "entryCount": 30,
+      "path": "themesets/de/textarten.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-tierwelt",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Tierwelt",
+      "entryCount": 30,
+      "path": "themesets/de/tierwelt.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-transportmittel",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Transportmittel",
+      "entryCount": 29,
+      "path": "themesets/de/transportmittel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-verben-alltag",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Verben Alltag",
+      "entryCount": 30,
+      "path": "themesets/de/verben-alltag.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-verben-bewegung",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Verben Bewegung",
+      "entryCount": 30,
+      "path": "themesets/de/verben-bewegung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-verben-kommunikation",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Verben Kommunikation",
+      "entryCount": 30,
+      "path": "themesets/de/verben-kommunikation.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-verkehr",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Verkehr",
+      "entryCount": 30,
+      "path": "themesets/de/verkehr.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-wochen-monate-feste",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Wochen Monate Feste",
+      "entryCount": 30,
+      "path": "themesets/de/wochen-monate-feste.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-wohnungseinrichtung",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Wohnungseinrichtung",
+      "entryCount": 31,
+      "path": "themesets/de/wohnungseinrichtung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-zahlen",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Zahlen",
+      "entryCount": 30,
+      "path": "themesets/de/zahlen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "de-zeiten",
+      "language": "DE",
+      "targetLanguage": "Englisch",
+      "title": "Zeiten",
+      "entryCount": 30,
+      "path": "themesets/de/zeiten.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-adjektive",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Adjektive",
+      "entryCount": 30,
+      "path": "themesets/esen/adjektive.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-adverbien",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Adverbien",
+      "entryCount": 30,
+      "path": "themesets/esen/adverbien.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-alltag-routine",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Alltag Routine",
+      "entryCount": 30,
+      "path": "themesets/esen/alltag-routine.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-arbeit-und-studium",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Arbeit und Studium",
+      "entryCount": 30,
+      "path": "themesets/esen/arbeit-und-studium.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-arztbesuch",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Arztbesuch",
+      "entryCount": 30,
+      "path": "themesets/esen/arztbesuch.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-assessoirs",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Assessoirs",
+      "entryCount": 30,
+      "path": "themesets/esen/assessoirs.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-charaktereigenschaften",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Charaktereigenschaften",
+      "entryCount": 30,
+      "path": "themesets/esen/charaktereigenschaften.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-einkaufen",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Einkaufen",
+      "entryCount": 30,
+      "path": "themesets/esen/einkaufen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-emotionen",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Emotionen",
+      "entryCount": 30,
+      "path": "themesets/esen/emotionen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-familie-und-freunde",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Familie und Freunde",
+      "entryCount": 30,
+      "path": "themesets/esen/familie-und-freunde.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-farben",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Farben",
+      "entryCount": 30,
+      "path": "themesets/esen/farben.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-frageworter",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Fragewörter",
+      "entryCount": 30,
+      "path": "themesets/esen/frageworter.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-getranke",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Getränke",
+      "entryCount": 30,
+      "path": "themesets/esen/getranke.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-hotel",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Hotel",
+      "entryCount": 30,
+      "path": "themesets/esen/hotel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-kleidung",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Kleidung",
+      "entryCount": 30,
+      "path": "themesets/esen/kleidung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-kochen-backen",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Kochen Backen",
+      "entryCount": 30,
+      "path": "themesets/esen/kochen-backen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-korper",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Körper",
+      "entryCount": 30,
+      "path": "themesets/esen/korper.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-lebensmittel",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Lebensmittel",
+      "entryCount": 30,
+      "path": "themesets/esen/lebensmittel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-musik-und-kultur",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Musik und Kultur",
+      "entryCount": 30,
+      "path": "themesets/esen/musik-und-kultur.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-natur-und-wetter",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Natur und Wetter",
+      "entryCount": 30,
+      "path": "themesets/esen/natur-und-wetter.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-obst-und-gemuse",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Obst und Gemüse",
+      "entryCount": 30,
+      "path": "themesets/esen/obst-und-gemuse.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-personenbeschreibungen",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Personenbeschreibungen",
+      "entryCount": 30,
+      "path": "themesets/esen/personenbeschreibungen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-praposition",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Präposition",
+      "entryCount": 30,
+      "path": "themesets/esen/praposition.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-reise-und-urlaub",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Reise und Urlaub",
+      "entryCount": 30,
+      "path": "themesets/esen/reise-und-urlaub.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-restaurant",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Restaurant",
+      "entryCount": 30,
+      "path": "themesets/esen/restaurant.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-schule",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Schule",
+      "entryCount": 30,
+      "path": "themesets/esen/schule.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-sport-und-freizeit",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Sport und Freizeit",
+      "entryCount": 30,
+      "path": "themesets/esen/sport-und-freizeit.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-stadt",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Stadt",
+      "entryCount": 30,
+      "path": "themesets/esen/stadt.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-telefon-und-internet",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Telefon und Internet",
+      "entryCount": 30,
+      "path": "themesets/esen/telefon-und-internet.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-textarten",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Textarten",
+      "entryCount": 30,
+      "path": "themesets/esen/textarten.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-tierwelt",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Tierwelt",
+      "entryCount": 30,
+      "path": "themesets/esen/tierwelt.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-transportmittel",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Transportmittel",
+      "entryCount": 29,
+      "path": "themesets/esen/transportmittel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-verben-bewegung",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Verben Bewegung",
+      "entryCount": 30,
+      "path": "themesets/esen/verben-bewegung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-verben-kommunikation",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Verben Kommunikation",
+      "entryCount": 30,
+      "path": "themesets/esen/verben-kommunikation.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-verben-alltag",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Verben Alltag",
+      "entryCount": 30,
+      "path": "themesets/esen/verben-alltag.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-verkehr",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Verkehr",
+      "entryCount": 30,
+      "path": "themesets/esen/verkehr.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-wochen-monate-feste",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Wochen Monate Feste",
+      "entryCount": 30,
+      "path": "themesets/esen/wochen-monate-feste.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-wohnungseinrichtung",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Wohnungseinrichtung",
+      "entryCount": 31,
+      "path": "themesets/esen/wohnungseinrichtung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-zahlen",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Zahlen",
+      "entryCount": 30,
+      "path": "themesets/esen/zahlen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "esen-zeiten",
+      "language": "ES",
+      "targetLanguage": "Englisch",
+      "title": "Zeiten",
+      "entryCount": 30,
+      "path": "themesets/esen/zeiten.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-adjektive",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Adjektive",
+      "entryCount": 30,
+      "path": "themesets/fren/adjektive.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-adverbien",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Adverbien",
+      "entryCount": 30,
+      "path": "themesets/fren/adverbien.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-alltag-routine",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Alltag Routine",
+      "entryCount": 30,
+      "path": "themesets/fren/alltag-routine.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-arbeit-und-studium",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Arbeit und Studium",
+      "entryCount": 30,
+      "path": "themesets/fren/arbeit-und-studium.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-arztbesuch",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Arztbesuch",
+      "entryCount": 30,
+      "path": "themesets/fren/arztbesuch.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-assessoirs",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Assessoirs",
+      "entryCount": 30,
+      "path": "themesets/fren/assessoirs.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-charaktereigenschaften",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Charaktereigenschaften",
+      "entryCount": 30,
+      "path": "themesets/fren/charaktereigenschaften.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-einkaufen",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Einkaufen",
+      "entryCount": 30,
+      "path": "themesets/fren/einkaufen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-emotionen",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Emotionen",
+      "entryCount": 30,
+      "path": "themesets/fren/emotionen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-familie-und-freunde",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Familie und Freunde",
+      "entryCount": 30,
+      "path": "themesets/fren/familie-und-freunde.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-farben",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Farben",
+      "entryCount": 30,
+      "path": "themesets/fren/farben.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-frageworter",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Fragewörter",
+      "entryCount": 30,
+      "path": "themesets/fren/frageworter.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-getranke",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Getränke",
+      "entryCount": 30,
+      "path": "themesets/fren/getranke.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-hotel",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Hotel",
+      "entryCount": 30,
+      "path": "themesets/fren/hotel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-kleidung",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Kleidung",
+      "entryCount": 30,
+      "path": "themesets/fren/kleidung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-kochen-backen",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Kochen Backen",
+      "entryCount": 30,
+      "path": "themesets/fren/kochen-backen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-korper",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Körper",
+      "entryCount": 30,
+      "path": "themesets/fren/korper.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-lebensmittel",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Lebensmittel",
+      "entryCount": 30,
+      "path": "themesets/fren/lebensmittel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-musik-und-kultur",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Musik und Kultur",
+      "entryCount": 30,
+      "path": "themesets/fren/musik-und-kultur.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-natur-und-wetter",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Natur und Wetter",
+      "entryCount": 30,
+      "path": "themesets/fren/natur-und-wetter.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-obst-und-gemuse",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Obst und Gemüse",
+      "entryCount": 30,
+      "path": "themesets/fren/obst-und-gemuse.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-personenbeschreibungen",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Personenbeschreibungen",
+      "entryCount": 30,
+      "path": "themesets/fren/personenbeschreibungen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-praposition",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Präposition",
+      "entryCount": 30,
+      "path": "themesets/fren/praposition.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-reise-und-urlaub",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Reise und Urlaub",
+      "entryCount": 30,
+      "path": "themesets/fren/reise-und-urlaub.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-restaurant",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Restaurant",
+      "entryCount": 30,
+      "path": "themesets/fren/restaurant.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-schule",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Schule",
+      "entryCount": 30,
+      "path": "themesets/fren/schule.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-sport-und-freizeit",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Sport und Freizeit",
+      "entryCount": 30,
+      "path": "themesets/fren/sport-und-freizeit.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-stadt",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Stadt",
+      "entryCount": 30,
+      "path": "themesets/fren/stadt.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-telefon-und-internet",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Telefon und Internet",
+      "entryCount": 30,
+      "path": "themesets/fren/telefon-und-internet.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-textarten",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Textarten",
+      "entryCount": 30,
+      "path": "themesets/fren/textarten.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-tierwelt",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Tierwelt",
+      "entryCount": 30,
+      "path": "themesets/fren/tierwelt.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-transportmittel",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Transportmittel",
+      "entryCount": 29,
+      "path": "themesets/fren/transportmittel.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-verben-alltag",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Verben Alltag",
+      "entryCount": 30,
+      "path": "themesets/fren/verben-alltag.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-verben-bewegung",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Verben Bewegung",
+      "entryCount": 30,
+      "path": "themesets/fren/verben-bewegung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-verben-kommunikation",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Verben Kommunikation",
+      "entryCount": 30,
+      "path": "themesets/fren/verben-kommunikation.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-verkehr",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Verkehr",
+      "entryCount": 30,
+      "path": "themesets/fren/verkehr.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-wochen-monate-feste",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Wochen Monate Feste",
+      "entryCount": 30,
+      "path": "themesets/fren/wochen-monate-feste.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-wohnungseinrichtung",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Wohnungseinrichtung",
+      "entryCount": 31,
+      "path": "themesets/fren/wohnungseinrichtung.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-zahlen",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Zahlen",
+      "entryCount": 30,
+      "path": "themesets/fren/zahlen.json",
+      "availableFrom": "2026-01-01"
+    },
+    {
+      "id": "fren-zeiten",
+      "language": "FR",
+      "targetLanguage": "Englisch",
+      "title": "Zeiten",
+      "entryCount": 30,
+      "path": "themesets/fren/zeiten.json",
+      "availableFrom": "2026-01-01"
+    }
+  ]
+}

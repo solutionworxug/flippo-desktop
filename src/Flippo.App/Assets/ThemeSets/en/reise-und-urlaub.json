@@ -1,0 +1,249 @@
+{
+  "id": "en-reise-und-urlaub",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Reise und Urlaub",
+  "entries": [
+    {
+      "source": "city centre",
+      "target": "das Stadtzentrum / der Stadtkern",
+      "example": "The hotel is located in the city centre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rental car",
+      "target": "der Mietwagen",
+      "example": "We booked a rental car to tour the island.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "travel documents",
+      "target": "die Reiseunterlagen",
+      "example": "Check that you have all the travel documents.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "train journey",
+      "target": "die Zugreise",
+      "example": "The train journey through the Alps was spectacular.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "airport",
+      "target": "der Flughafen",
+      "example": "You have to arrive at the airport two hours early.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "reservation",
+      "target": "die Reservierung",
+      "example": "I made a hotel reservation online.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to rent",
+      "target": "mieten",
+      "example": "I want to rent a car at the airport.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "motorway",
+      "target": "die Autobahn",
+      "example": "The motorway to Barcelona is closed for roadworks.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bus",
+      "target": "der Bus",
+      "example": "The bus to the centre leaves every twenty minutes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "destination",
+      "target": "das Reiseziel",
+      "example": "What's your favourite destination in Europe?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "departure",
+      "target": "die Abreise",
+      "example": "Departure is scheduled for noon.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to travel",
+      "target": "reisen",
+      "example": "I love travelling in summer.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "trip",
+      "target": "die Reise",
+      "example": "The train trip takes four hours.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ticket",
+      "target": "die Fahrkarte / das Ticket",
+      "example": "I bought the plane ticket in advance.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "passport",
+      "target": "der Reisepass",
+      "example": "Don't forget your passport to travel abroad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "suitcase",
+      "target": "der Koffer",
+      "example": "I packed the suitcase the night before.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "flight",
+      "target": "der Flug",
+      "example": "The flight to Madrid takes two hours.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "arrival",
+      "target": "die Ankunft",
+      "example": "Arrival is scheduled for three o'clock.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "luggage",
+      "target": "das Gepäck",
+      "example": "I lost my luggage at the airport.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "map",
+      "target": "die Landkarte / der Stadtplan",
+      "example": "I downloaded the city map.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "excursion",
+      "target": "der Ausflug",
+      "example": "We went on an excursion to the mountains.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "travel guide",
+      "target": "der Reiseführer (Buch/Person)",
+      "example": "I bought a travel guide to Barcelona.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tourist",
+      "target": "der Tourist",
+      "example": "The city is full of tourists in August.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "beach",
+      "target": "der Strand",
+      "example": "We spent a week at the beach.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "campsite",
+      "target": "der Campingplatz",
+      "example": "We slept at a campsite near the sea.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "train",
+      "target": "der Zug",
+      "example": "The high-speed train arrives in three hours.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "taxi",
+      "target": "das Taxi",
+      "example": "We took a taxi from the airport.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to pack",
+      "target": "die Koffer packen",
+      "example": "I have to pack tonight.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "travel insurance",
+      "target": "die Reiseversicherung",
+      "example": "I always take out travel insurance.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "border",
+      "target": "die Grenze",
+      "example": "We crossed the French border in the morning.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

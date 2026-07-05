@@ -1,0 +1,249 @@
+{
+  "id": "en-tierwelt",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Tierwelt",
+  "entries": [
+    {
+      "source": "butterfly",
+      "target": "der Schmetterling",
+      "example": "The butterfly flies over the flowers.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "animal",
+      "target": "das Tier",
+      "example": "The zoo has many exotic animals.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dog",
+      "target": "der Hund",
+      "example": "The dog is man's best friend.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cat",
+      "target": "die Katze",
+      "example": "The cat sleeps all day.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bird",
+      "target": "der Vogel",
+      "example": "The bird sings in the tree.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fish",
+      "target": "der Fisch",
+      "example": "The fish swims in the aquarium.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "horse",
+      "target": "das Pferd",
+      "example": "The horse runs very fast.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cow",
+      "target": "die Kuh",
+      "example": "The cow gives fresh milk every day.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pig",
+      "target": "das Schwein",
+      "example": "The pig is used to make ham.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sheep",
+      "target": "das Schaf",
+      "example": "The sheep graze in the field.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hen",
+      "target": "das Huhn",
+      "example": "The hen lays eggs every day.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rabbit",
+      "target": "das Kaninchen",
+      "example": "Rabbits are very popular as pets.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mouse",
+      "target": "die Maus",
+      "example": "The mouse came into the kitchen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "elephant",
+      "target": "der Elefant",
+      "example": "The elephant is the largest land animal.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lion",
+      "target": "der Löwe",
+      "example": "The lion is the king of the jungle.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tiger",
+      "target": "der Tiger",
+      "example": "The tiger is a very powerful big cat.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bear",
+      "target": "der Bär",
+      "example": "The brown bear lives in the Pyrenees.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wolf",
+      "target": "der Wolf",
+      "example": "The wolf howls at night.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "snake",
+      "target": "die Schlange",
+      "example": "The snake has scaly skin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "spider",
+      "target": "die Spinne",
+      "example": "The spider weaves its web very skilfully.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bee",
+      "target": "die Biene",
+      "example": "The bee produces honey.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bumblebee",
+      "target": "die Hummel",
+      "example": "The bumblebee flies from flower to flower.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "duck",
+      "target": "die Ente",
+      "example": "The ducks swim in the lake.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "parrot",
+      "target": "der Papagei",
+      "example": "The parrot repeats everything it hears.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "turtle",
+      "target": "die Schildkröte",
+      "example": "The turtle walks very slowly.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dolphin",
+      "target": "der Delfin",
+      "example": "Dolphins are very intelligent.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "monkey",
+      "target": "der Affe",
+      "example": "Monkeys are very playful.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fly",
+      "target": "die Fliege",
+      "example": "The fly flies around the fruit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "donkey",
+      "target": "der Esel",
+      "example": "The donkey carries the load along the path.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pet",
+      "target": "das Haustier",
+      "example": "We have a pet at home, a cat.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

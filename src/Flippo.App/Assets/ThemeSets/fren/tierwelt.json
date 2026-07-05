@@ -1,0 +1,249 @@
+{
+  "id": "fren-tierwelt",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Tierwelt",
+  "entries": [
+    {
+      "source": "le papillon",
+      "target": "butterfly",
+      "example": "Le papillon vole au-dessus des fleurs.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'animal",
+      "target": "animal",
+      "example": "Le zoo a beaucoup d'animaux exotiques.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chien",
+      "target": "dog",
+      "example": "Le chien est le meilleur ami de l'homme.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chat",
+      "target": "cat",
+      "example": "Le chat dort toute la journée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'oiseau",
+      "target": "bird",
+      "example": "L'oiseau chante dans l'arbre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le poisson",
+      "target": "fish",
+      "example": "Le poisson nage dans l'aquarium.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cheval",
+      "target": "horse",
+      "example": "Le cheval court très vite.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la vache",
+      "target": "cow",
+      "example": "La vache donne du lait frais chaque jour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cochon",
+      "target": "pig",
+      "example": "Le cochon sert à faire du jambon.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le mouton",
+      "target": "sheep",
+      "example": "Les moutons paissent dans le champ.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la poule",
+      "target": "hen",
+      "example": "La poule pond des œufs chaque jour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le lapin",
+      "target": "rabbit",
+      "example": "Les lapins sont très populaires comme animaux de compagnie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la souris",
+      "target": "mouse",
+      "example": "La souris est entrée dans la cuisine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'éléphant",
+      "target": "elephant",
+      "example": "L'éléphant est le plus grand animal terrestre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le lion",
+      "target": "lion",
+      "example": "Le lion est le roi de la jungle.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le tigre",
+      "target": "tiger",
+      "example": "Le tigre est un félin très puissant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'ours",
+      "target": "bear",
+      "example": "L'ours brun vit dans les Pyrénées.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le loup",
+      "target": "wolf",
+      "example": "Le loup hurle la nuit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le serpent",
+      "target": "snake",
+      "example": "Le serpent a la peau écailleuse.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'araignée",
+      "target": "spider",
+      "example": "L'araignée tisse sa toile avec beaucoup d'habileté.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'abeille",
+      "target": "bee",
+      "example": "L'abeille produit du miel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bourdon",
+      "target": "bumblebee",
+      "example": "Le bourdon vole de fleur en fleur.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le canard",
+      "target": "duck",
+      "example": "Les canards nagent dans le lac.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le perroquet",
+      "target": "parrot",
+      "example": "Le perroquet répète tout ce qu'il entend.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tortue",
+      "target": "turtle / tortoise",
+      "example": "La tortue marche très lentement.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le dauphin",
+      "target": "dolphin",
+      "example": "Les dauphins sont très intelligents.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le singe",
+      "target": "monkey",
+      "example": "Les singes sont très joueurs.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mouche",
+      "target": "fly",
+      "example": "La mouche vole autour du fruit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'âne",
+      "target": "donkey",
+      "example": "L'âne porte la charge sur le chemin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'animal de compagnie",
+      "target": "pet",
+      "example": "Nous avons un animal de compagnie à la maison, un chat.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

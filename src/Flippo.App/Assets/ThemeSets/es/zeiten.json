@@ -1,0 +1,249 @@
+{
+  "id": "es-zeiten",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Zeiten",
+  "entries": [
+    {
+      "source": "el invierno",
+      "target": "der Winter",
+      "example": "En invierno me gusta tomar chocolate caliente.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el otoño",
+      "target": "der Herbst",
+      "example": "En otoño las hojas se vuelven naranjas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la primavera",
+      "target": "der Frühling",
+      "example": "En primavera florecen los árboles.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el verano",
+      "target": "der Sommer",
+      "example": "En verano vamos a la playa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el día",
+      "target": "der Tag",
+      "example": "Hoy ha sido un día muy largo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la hora",
+      "target": "die Stunde",
+      "example": "El vuelo dura dos horas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el minuto",
+      "target": "die Minute",
+      "example": "El tren llega en cinco minutos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el año",
+      "target": "das Jahr",
+      "example": "Este año quiero aprender español.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el segundo",
+      "target": "die Sekunde",
+      "example": "El record mundial dura menos de diez segundos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la semana",
+      "target": "die Woche",
+      "example": "La semana que viene empiezan las vacaciones.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la noche",
+      "target": "die Nacht",
+      "example": "La noche está muy estrellada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las vacaciones",
+      "target": "Ferien",
+      "example": "Las vacaciones de verano duran dos meses.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tiempo",
+      "target": "die Zeit",
+      "example": "No tengo tiempo para ver la televisión.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el fin de semana",
+      "target": "das Wochenende",
+      "example": "Este fin de semana vamos al campo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tarde",
+      "target": "der Nachmittag / Abend",
+      "example": "Por la tarde doy un paseo por el parque.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mediodía",
+      "target": "der Mittag",
+      "example": "A mediodía como en casa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pronto",
+      "target": "bald",
+      "example": "Llega pronto porque empieza la película.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "enseguida",
+      "target": "sofort",
+      "example": "Vengo enseguida — solo necesito un minuto.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "siempre",
+      "target": "immer",
+      "example": "Siempre llego puntual al trabajo.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "luego",
+      "target": "später",
+      "example": "Llámame luego por teléfono.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ahora",
+      "target": "jetzt",
+      "example": "Ahora mismo estoy ocupado.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nunca",
+      "target": "nie",
+      "example": "Nunca llego tarde a una cita.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mañana",
+      "target": "morgen",
+      "example": "Mañana tengo una reunión importante.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hoy",
+      "target": "heute",
+      "example": "Hoy es un día muy especial.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ayer",
+      "target": "gestern",
+      "example": "Ayer fui al cine con mis amigos.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la quincena",
+      "target": "vierzehn Tage",
+      "example": "Cobro el sueldo cada quincena.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la madrugada",
+      "target": "die frühen Morgenstunden",
+      "example": "Llegó a casa de madrugada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "a tiempo",
+      "target": "rechtzeitig",
+      "example": "Llegué a tiempo al tren.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tarde",
+      "target": "spät",
+      "example": "Hoy me he levantado tarde.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "temprano",
+      "target": "früh",
+      "example": "Mañana me levanto temprano.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

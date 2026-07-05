@@ -1,0 +1,249 @@
+{
+  "id": "fr-emotionen",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Emotionen",
+  "entries": [
+    {
+      "source": "heureux / content",
+      "target": "fröhlich / glücklich",
+      "example": "Aujourd'hui je suis très heureux parce que mes amis viennent.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "triste",
+      "target": "traurig",
+      "example": "Elle est triste parce qu'elle a perdu son livre préféré.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "en colère / furieux",
+      "target": "wütend / zornig",
+      "example": "Mon père est en colère à cause du désordre.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "effrayé",
+      "target": "ängstlich / besorgt",
+      "example": "Le chien est effrayé par le tonnerre.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "surpris",
+      "target": "überrascht",
+      "example": "Nous sommes surpris par la fête surprise.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "calme / détendu",
+      "target": "gelassen / ruhig",
+      "example": "Après un thé, je me sens plus détendu.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "nerveux",
+      "target": "nervös / aufgeregt",
+      "example": "Il est très nerveux avant l'entretien.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "enthousiaste",
+      "target": "begeistert",
+      "example": "Les enfants sont enthousiastes à propos du voyage.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "inquiet",
+      "target": "besorgt",
+      "example": "Ma mère est inquiète pour ma santé.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "ennuyé",
+      "target": "gelangweilt",
+      "example": "Je m'ennuie parce qu'il n'y a rien à faire ici.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "déçu",
+      "target": "enttäuscht",
+      "example": "Le client est déçu du service.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "fier",
+      "target": "stolz",
+      "example": "Nous sommes très fiers de tes bonnes notes.",
+      "pos": "Adjektiv",
+      "notes": "stolz sein auf = être fier de",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "jaloux",
+      "target": "eifersüchtig",
+      "example": "Il est très jaloux de ses affaires.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "envieux",
+      "target": "neidisch",
+      "example": "Ne sois pas envieux du succès des autres.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "amoureux",
+      "target": "verliebt",
+      "example": "Roman est complètement amoureux de Laura.",
+      "pos": "Adjektiv",
+      "notes": "amoureux de",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "seul",
+      "target": "einsam",
+      "example": "Parfois elle se sent seule dans la grande ville.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "reconnaissant",
+      "target": "dankbar",
+      "example": "Je suis très reconnaissant pour toute ton aide.",
+      "pos": "Adjektiv",
+      "notes": "reconnaissant pour/de",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "satisfait / content",
+      "target": "zufrieden",
+      "example": "Le chef est satisfait de notre travail.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "soulagé",
+      "target": "erleichtert",
+      "example": "Je me sens soulagé après avoir parlé avec elle.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "curieux",
+      "target": "neugierig",
+      "example": "L'enfant est très curieux et pose des questions sur tout.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "timide / gêné",
+      "target": "schüchtern / verlegen",
+      "example": "Elle est gênée à cause de son erreur.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "plein d'espoir",
+      "target": "hoffnungsvoll",
+      "example": "Nous sommes pleins d'espoir face aux nouveaux changements.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "optimiste",
+      "target": "optimistisch",
+      "example": "Malgré les problèmes, il reste optimiste.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "pessimiste",
+      "target": "pessimistisch",
+      "example": "Ne sois pas si pessimiste, tout va bien se passer.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "irrité / agacé",
+      "target": "irritiert / genervt",
+      "example": "Le bruit constant m'agace beaucoup.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "peu sûr de soi",
+      "target": "unsicher",
+      "example": "Il se sent peu sûr de lui quand il parle en public.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "sûr de soi",
+      "target": "selbstbewusst / sicher",
+      "example": "C'est une femme très sûre d'elle.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "épuisé / stressé",
+      "target": "erschöpft / gestresst",
+      "example": "Je suis épuisé après une longue journée de travail.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "euphorique",
+      "target": "euphorisch",
+      "example": "Les supporters sont euphoriques après la victoire.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "mélancolique",
+      "target": "melancholisch",
+      "example": "La musique lente me rend un peu mélancolique.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    }
+  ]
+}

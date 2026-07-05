@@ -1,0 +1,249 @@
+{
+  "id": "fren-sport-und-freizeit",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Sport und Freizeit",
+  "entries": [
+    {
+      "source": "sportif",
+      "target": "sporty",
+      "example": "C'est un garçon très sportif et actif.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "plonger",
+      "target": "to dive",
+      "example": "J'adore plonger dans la mer Méditerranée.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nager",
+      "target": "to swim",
+      "example": "Je nage trente minutes tous les jours.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sport",
+      "target": "sport",
+      "example": "Faire du sport est bon pour la santé.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le football",
+      "target": "football / soccer",
+      "example": "Le football est le sport le plus populaire en Espagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le tennis",
+      "target": "tennis",
+      "example": "Il joue au tennis le samedi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "courir",
+      "target": "to run",
+      "example": "Je cours cinq kilomètres chaque matin.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la salle de sport",
+      "target": "gym",
+      "example": "Je vais à la salle de sport trois fois par semaine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "s'entraîner",
+      "target": "to train",
+      "example": "Il s'entraîne deux heures par jour.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le match",
+      "target": "match",
+      "example": "Tu as vu le match de dimanche ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'équipe",
+      "target": "team",
+      "example": "Son équipe favorite a gagné le championnat.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gagner",
+      "target": "to win",
+      "example": "Nous avons gagné le match trois à un.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "perdre",
+      "target": "to lose",
+      "example": "Nous avons perdu le match dans les dernières minutes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'arbitre",
+      "target": "referee",
+      "example": "L'arbitre a sifflé un penalty.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la piscine",
+      "target": "swimming pool",
+      "example": "En été nous allons à la piscine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le vélo",
+      "target": "bicycle",
+      "example": "Nous faisons un tour à vélo le dimanche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la randonnée",
+      "target": "hiking",
+      "example": "Le week-end nous avons fait une randonnée en montagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le basket",
+      "target": "basketball",
+      "example": "Le basket est aussi très populaire en Espagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le volley",
+      "target": "volleyball",
+      "example": "Nous jouons au volley à la plage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le ballon",
+      "target": "ball",
+      "example": "Le ballon est entré dans le but.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le temps libre",
+      "target": "free time",
+      "example": "Que fais-tu pendant ton temps libre ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le passe-temps",
+      "target": "hobby",
+      "example": "Mon passe-temps préféré est la photographie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lire",
+      "target": "to read",
+      "example": "Je lis une heure avant de dormir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cinéma",
+      "target": "cinema",
+      "example": "Nous allons au cinéma vendredi soir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le théâtre",
+      "target": "theatre",
+      "example": "Nous sommes allés au théâtre voir une comédie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le concert",
+      "target": "concert",
+      "example": "J'ai acheté des billets pour le concert.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la photographie",
+      "target": "photography",
+      "example": "La photographie est ma passion depuis l'enfance.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le jeu vidéo",
+      "target": "video game",
+      "example": "Il joue aux jeux vidéo l'après-midi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "peindre",
+      "target": "to paint",
+      "example": "Il aime beaucoup peindre à l'aquarelle.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "danser",
+      "target": "to dance",
+      "example": "Nous sortons danser le samedi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

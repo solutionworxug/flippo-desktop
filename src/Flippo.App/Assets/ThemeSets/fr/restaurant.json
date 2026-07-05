@@ -1,0 +1,249 @@
+{
+  "id": "fr-restaurant",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Restaurant",
+  "entries": [
+    {
+      "source": "le restaurant",
+      "target": "das Restaurant / die Gaststätte",
+      "example": "Nous avons réservé une table au restaurant pour vendredi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le menu",
+      "target": "das Tagesmenü / die Speisekarte",
+      "example": "Pouvez-vous m'apporter le menu du jour s'il vous plaît ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carte",
+      "target": "die Speisekarte",
+      "example": "Pouvons-nous voir la carte des vins ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le serveur",
+      "target": "der Kellner",
+      "example": "Le serveur a été très attentionné.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la serveuse",
+      "target": "die Kellnerin",
+      "example": "La serveuse nous a recommandé le plat du jour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chef",
+      "target": "der Küchenchef / Chefkoch",
+      "example": "Le chef est célèbre pour sa cuisine méditerranéenne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le plat",
+      "target": "der Teller / das Gericht",
+      "example": "Le plat du jour est une paella valencienne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le couteau",
+      "target": "das Messer",
+      "example": "Le couteau à viande est très aiguisé.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cuillère",
+      "target": "der Löffel",
+      "example": "J'ai besoin d'une cuillère pour la soupe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fourchette",
+      "target": "die Gabel",
+      "example": "Mets la fourchette à gauche de l'assiette.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tasse",
+      "target": "die Tasse",
+      "example": "Pouvez-vous m'apporter une tasse de café ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la soucoupe",
+      "target": "die Untertasse",
+      "example": "La soucoupe va sous la tasse.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le verre (à vin)",
+      "target": "das (Wein)glas",
+      "example": "Un verre de vin blanc ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le verre",
+      "target": "das Glas (Trinkglas)",
+      "example": "Commande un verre d'eau s'il te plaît.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la serviette",
+      "target": "die Serviette",
+      "example": "Mets la serviette sur tes genoux.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'addition",
+      "target": "die Rechnung",
+      "example": "Pouvez-vous nous apporter l'addition ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le pourboire",
+      "target": "das Trinkgeld",
+      "example": "J'ai laissé un bon pourboire au serveur.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la réservation",
+      "target": "die Reservierung",
+      "example": "Nous avons une réservation au nom de García.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cuisiner",
+      "target": "kochen",
+      "example": "Le chef cuisine avec des ingrédients frais.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "commander",
+      "target": "bestellen / bitten",
+      "example": "Que vas-tu commander en entrée ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "recommander",
+      "target": "empfehlen",
+      "example": "Que nous recommandez-vous sur la carte ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le pot-au-feu",
+      "target": "der Eintopf (spanisch)",
+      "example": "Le cocido madrilène est très consistant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le demi",
+      "target": "das kleine Fassbier",
+      "example": "Un demi et une tapa s'il vous plaît.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tapa",
+      "target": "die Tapa / der Snack",
+      "example": "En Espagne on sert des tapas gratuites avec la boisson.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'entrée",
+      "target": "die Vorspeise / erster Gang",
+      "example": "En entrée j'ai pris une salade mixte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le plat principal",
+      "target": "der Hauptgang",
+      "example": "En plat principal j'ai pris du merlu grillé.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le dessert",
+      "target": "die Nachspeise / das Dessert",
+      "example": "En dessert je prendrai un flan maison.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la suggestion du jour",
+      "target": "das Tagesangebot",
+      "example": "La suggestion du jour comprend le dessert.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sans gluten",
+      "target": "glutenfrei",
+      "example": "Avez-vous des plats sans gluten ?",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "végétarien",
+      "target": "vegetarisch",
+      "example": "Avez-vous des options végétariennes ?",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

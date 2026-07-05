@@ -1,0 +1,249 @@
+{
+  "id": "esen-natur-und-wetter",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Natur und Wetter",
+  "entries": [
+    {
+      "source": "el tiempo",
+      "target": "weather",
+      "example": "¿Qué tiempo hace hoy?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sol",
+      "target": "sun",
+      "example": "Hace mucho sol — coge las gafas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la lluvia",
+      "target": "rain",
+      "example": "La lluvia no para desde ayer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el viento",
+      "target": "wind",
+      "example": "Hay mucho viento hoy — hace frío.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nieve",
+      "target": "snow",
+      "example": "En la montaña hay mucha nieve en enero.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la niebla",
+      "target": "fog",
+      "example": "Esta mañana había mucha niebla en la carretera.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tormenta",
+      "target": "storm",
+      "example": "Se acerca una tormenta — coge el paraguas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el trueno",
+      "target": "thunder",
+      "example": "Los truenos me asustan.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el relámpago",
+      "target": "lightning",
+      "example": "Los relámpagos iluminaron el cielo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nublado",
+      "target": "cloudy",
+      "example": "El cielo está muy nublado hoy.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "despejado",
+      "target": "clear",
+      "example": "Mañana estará despejado y soleado.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "llover",
+      "target": "to rain",
+      "example": "Está lloviendo a cántaros.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nevar",
+      "target": "to snow",
+      "example": "Nevó toda la noche en la sierra.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacer calor",
+      "target": "to be warm / hot",
+      "example": "En agosto hace mucho calor en España.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacer frío",
+      "target": "to be cold",
+      "example": "Hace mucho frío — hay que abrigarse.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la temperatura",
+      "target": "temperature",
+      "example": "La temperatura bajó a cero grados.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el grado",
+      "target": "degree",
+      "example": "Hoy hay treinta grados a la sombra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el árbol",
+      "target": "tree",
+      "example": "Los árboles dan sombra en verano.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la flor",
+      "target": "flower",
+      "example": "Las flores del jardín huelen muy bien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el río",
+      "target": "river",
+      "example": "El río Ebro es el más largo de España.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mar",
+      "target": "sea",
+      "example": "Me encanta bañarme en el mar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la montaña",
+      "target": "mountain",
+      "example": "Vamos a la montaña en invierno a esquiar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el bosque",
+      "target": "forest",
+      "example": "Damos paseos por el bosque los domingos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la playa",
+      "target": "beach",
+      "example": "La playa está llena de gente en agosto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el campo",
+      "target": "field / countryside",
+      "example": "Me gusta pasar el fin de semana en el campo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la naturaleza",
+      "target": "nature",
+      "example": "Hay que cuidar la naturaleza.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cielo",
+      "target": "sky",
+      "example": "El cielo está lleno de estrellas esta noche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nube",
+      "target": "cloud",
+      "example": "Las nubes tapan el sol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el arcoíris",
+      "target": "rainbow",
+      "example": "Después de la lluvia salió un arcoíris.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pronóstico",
+      "target": "forecast",
+      "example": "El pronóstico dice que lloverá mañana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

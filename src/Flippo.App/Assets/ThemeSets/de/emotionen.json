@@ -1,0 +1,249 @@
+{
+  "id": "de-emotionen",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Emotionen",
+  "entries": [
+    {
+      "source": "fröhlich / glücklich",
+      "target": "cheerful / happy",
+      "example": "Heute bin ich richtig fröhlich.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "traurig",
+      "target": "sad",
+      "example": "Sie ist traurig, weil ihr Buch weg ist.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wütend / zornig",
+      "target": "angry / furious",
+      "example": "Mein Vater ist wütend über das Chaos.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ängstlich / besorgt",
+      "target": "afraid / worried",
+      "example": "Der Hund ist ängstlich bei Gewitter.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "überrascht",
+      "target": "surprised",
+      "example": "Wir sind über die Party sehr überrascht.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gelassen / ruhig",
+      "target": "calm / relaxed",
+      "example": "Nach dem Tee fühle ich mich gelassen.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nervös / aufgeregt",
+      "target": "nervous / excited",
+      "example": "Vor dem Gespräch ist er sehr nervös.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "begeistert",
+      "target": "enthusiastic",
+      "example": "Die Kinder sind vom Ausflug begeistert.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "besorgt",
+      "target": "worried",
+      "example": "Meine Mutter ist um meine Gesundheit besorgt.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gelangweilt",
+      "target": "bored",
+      "example": "Im langen Vortrag war ich völlig gelangweilt.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "enttäuscht",
+      "target": "disappointed",
+      "example": "Der Kunde ist vom Service enttäuscht.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "stolz",
+      "target": "proud",
+      "example": "Wir sind sehr stolz auf deine Noten.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "eifersüchtig",
+      "target": "jealous",
+      "example": "Er ist auf andere Leute sehr eifersüchtig.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "neidisch",
+      "target": "envious",
+      "example": "Sei nicht so neidisch auf andere.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "verliebt",
+      "target": "in love",
+      "example": "Roman ist total in Laura verliebt.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "einsam",
+      "target": "lonely",
+      "example": "Manchmal fühlt sie sich in der Stadt einsam.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dankbar",
+      "target": "grateful",
+      "example": "Ich bin dir für deine Hilfe sehr dankbar.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zufrieden",
+      "target": "satisfied / content",
+      "example": "Der Chef ist mit unserer Arbeit zufrieden.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "erleichtert",
+      "target": "relieved",
+      "example": "Nach dem Gespräch fühle ich mich erleichtert.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "neugierig",
+      "target": "curious",
+      "example": "Das Kind ist neugierig und fragt alles.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schüchtern / verlegen",
+      "target": "shy / embarrassed",
+      "example": "Sie ist wegen des Fehlers ganz verlegen.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hoffnungsvoll",
+      "target": "hopeful",
+      "example": "Wir sind hoffnungsvoll, was die Zukunft angeht.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "optimistisch",
+      "target": "optimistic",
+      "example": "Trotz der Probleme bleibt er optimistisch.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pessimistisch",
+      "target": "pessimistic",
+      "example": "Sei nicht so pessimistisch, alles wird gut.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "irritiert / genervt",
+      "target": "annoyed / irritated",
+      "example": "Der ständige Lärm macht mich genervt.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "unsicher",
+      "target": "insecure / unsure",
+      "example": "Beim Reden vor Leuten fühlt er sich unsicher.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "selbstbewusst / sicher",
+      "target": "confident / sure",
+      "example": "Sie ist eine sehr selbstbewusste Frau.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "erschöpft / gestresst",
+      "target": "exhausted / stressed",
+      "example": "Nach dem langen Arbeitstag bin ich erschöpft.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "euphorisch",
+      "target": "euphoric",
+      "example": "Die Fans sind nach dem Sieg euphorisch.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "melancholisch",
+      "target": "melancholic",
+      "example": "Langsame Musik macht mich etwas melancholisch.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

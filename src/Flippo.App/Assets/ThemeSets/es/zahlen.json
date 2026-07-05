@@ -1,0 +1,249 @@
+{
+  "id": "es-zahlen",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Zahlen",
+  "entries": [
+    {
+      "source": "cero",
+      "target": "0",
+      "example": "El marcador está a cero.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "uno",
+      "target": "1",
+      "example": "Solo queda uno.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dos",
+      "target": "2",
+      "example": "Tengo dos hermanos.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tres",
+      "target": "3",
+      "example": "El tren sale en tres minutos.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cuatro",
+      "target": "4",
+      "example": "La mesa tiene cuatro patas.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cinco",
+      "target": "5",
+      "example": "Cuesta cinco euros.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "seis",
+      "target": "6",
+      "example": "Hay seis personas en la familia.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "siete",
+      "target": "7",
+      "example": "La semana tiene siete días.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ocho",
+      "target": "8",
+      "example": "El trabajo empieza a las ocho.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nueve",
+      "target": "9",
+      "example": "Mi hijo tiene nueve años.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "diez",
+      "target": "10",
+      "example": "Saca un diez en el examen.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "once",
+      "target": "11",
+      "example": "El autobús llega a las once.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "doce",
+      "target": "12",
+      "example": "El año tiene doce meses.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "trece",
+      "target": "13",
+      "example": "El trece es un número de mala suerte.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "catorce",
+      "target": "14",
+      "example": "El niño tiene catorce años.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quince",
+      "target": "15",
+      "example": "Llevo quince minutos esperando.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "veinte",
+      "target": "20",
+      "example": "Tiene veinte euros en la cartera.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "veintiuno",
+      "target": "21",
+      "example": "Tiene veintiún años.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "treinta",
+      "target": "30",
+      "example": "El viaje dura treinta minutos.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cuarenta",
+      "target": "40",
+      "example": "Trabaja cuarenta horas a la semana.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cincuenta",
+      "target": "50",
+      "example": "Hay cincuenta alumnos en el curso.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sesenta",
+      "target": "60",
+      "example": "Mi padre tiene sesenta años.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "setenta",
+      "target": "70",
+      "example": "La velocidad máxima es setenta km/h.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ochenta",
+      "target": "80",
+      "example": "La abuela tiene ochenta años.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "noventa",
+      "target": "90",
+      "example": "El vuelo dura noventa minutos.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cien",
+      "target": "100",
+      "example": "Cien personas asistieron al concierto.",
+      "pos": "Numerale",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cifra",
+      "target": "die Zahl / Ziffer",
+      "example": "No entiendo la cifra en este documento.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "primero",
+      "target": "erste(r/s)",
+      "example": "Llegué el primero a la reunión.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "último",
+      "target": "letzte(r/s)",
+      "example": "Es el último tren de la noche.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "multiplicar",
+      "target": "multiplizieren",
+      "example": "¿Cuánto es seis multiplicado por ocho?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

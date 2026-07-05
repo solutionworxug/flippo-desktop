@@ -1,0 +1,249 @@
+{
+  "id": "de-kochen-backen",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Kochen Backen",
+  "entries": [
+    {
+      "source": "kochen",
+      "target": "to cook",
+      "example": "Am Wochenende koche ich gern für Freunde.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "backen",
+      "target": "to bake",
+      "example": "Heute backe ich einen Apfelkuchen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "frittieren",
+      "target": "to fry",
+      "example": "Du musst die Kartoffeln in heißem Öl frittieren.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "halbieren",
+      "target": "to cut in half",
+      "example": "Halbiere die Tomaten für den Salat.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "verrühren / mischen",
+      "target": "to mix",
+      "example": "Du musst die Eier gut mit dem Zucker verrühren.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schneiden",
+      "target": "to cut",
+      "example": "Sei vorsichtig, wenn du das Fleisch schneidest.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schälen",
+      "target": "to peel",
+      "example": "Kannst du mir helfen, die Kartoffeln zu schälen?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "umrühren",
+      "target": "to stir",
+      "example": "Rühr die Suppe um, damit sie nicht anbrennt.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "würzen",
+      "target": "to season",
+      "example": "Du solltest das Fleisch mit Salz und Pfeffer würzen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "anbraten",
+      "target": "to brown / to sauté",
+      "example": "Zuerst musst du die Zwiebel kurz anbraten.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schlagen (z.B. Eiweiß)",
+      "target": "to beat",
+      "example": "Schlag das Eiweiß steif.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "reiben",
+      "target": "to grate",
+      "example": "Ich reibe etwas Käse für die Nudeln.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "wiegen",
+      "target": "to weigh",
+      "example": "Beim Backen sollte man die Zutaten genau wiegen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gießen / einschenken",
+      "target": "to pour",
+      "example": "Gieß die Milch nach und nach in den Teig.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Rezept",
+      "target": "recipe",
+      "example": "Dieses Rezept ist von meiner Großmutter.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Zutat",
+      "target": "ingredient",
+      "example": "Hast du alle Zutaten, bevor du anfängst?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Ofen / Backofen",
+      "target": "oven",
+      "example": "Heiz den Ofen auf 180 Grad vor.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Pfanne",
+      "target": "pan",
+      "example": "Gib etwas Olivenöl in die Pfanne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Topf",
+      "target": "pot",
+      "example": "Der Topf ist voll mit kochendem Wasser.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Schüssel",
+      "target": "bowl",
+      "example": "Gib Mehl und Hefe in eine große Schüssel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kochen / sieden",
+      "target": "to boil",
+      "example": "Das Wasser fängt an zu kochen, gib die Nudeln dazu.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "waschen",
+      "target": "to wash",
+      "example": "Man muss das Gemüse vor dem Kochen waschen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "abwiegen",
+      "target": "to measure / to weigh",
+      "example": "Wiege hundert Gramm Butter ab.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Waage / Küchenwaage",
+      "target": "kitchen scale",
+      "example": "Nimm die Küchenwaage, um das Mehl zu messen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hinzufügen",
+      "target": "to add",
+      "example": "Füge eine Prise Salz zur Soße hinzu.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "abgießen",
+      "target": "to drain",
+      "example": "Gieß die Spaghetti ab, wenn sie fertig sind.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kneten",
+      "target": "to knead",
+      "example": "Du musst den Brotteig zehn Minuten kneten.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schmelzen",
+      "target": "to melt",
+      "example": "Du musst die Schokolade im Wasserbad schmelzen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vorheizen",
+      "target": "to preheat",
+      "example": "Vergiss nicht, den Ofen vorzuheizen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "abkühlen lassen",
+      "target": "to let cool",
+      "example": "Lass den Kuchen abkühlen, bevor du ihn aus der Form nimmst.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

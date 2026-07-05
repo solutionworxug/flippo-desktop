@@ -1,0 +1,249 @@
+{
+  "id": "en-emotionen",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Emotionen",
+  "entries": [
+    {
+      "source": "cheerful / happy",
+      "target": "fröhlich / glücklich",
+      "example": "I am very happy today because my friends are coming.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "sad",
+      "target": "traurig",
+      "example": "She is sad because she lost her favorite book.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "angry / furious",
+      "target": "wütend / zornig",
+      "example": "My father is angry about the mess.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "afraid / worried",
+      "target": "ängstlich / besorgt",
+      "example": "The dog is afraid of thunder.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "surprised",
+      "target": "überrascht",
+      "example": "We are surprised by the surprise party.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "calm / relaxed",
+      "target": "gelassen / ruhig",
+      "example": "After tea I feel calmer.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nervous / excited",
+      "target": "nervös / aufgeregt",
+      "example": "He is very nervous before the interview.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "enthusiastic",
+      "target": "begeistert",
+      "example": "The children are enthusiastic about the trip.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "worried",
+      "target": "besorgt",
+      "example": "My mother is worried about my health.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "bored",
+      "target": "gelangweilt",
+      "example": "I am bored because there is nothing to do here.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "disappointed",
+      "target": "enttäuscht",
+      "example": "The customer is disappointed with the service.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "proud",
+      "target": "stolz",
+      "example": "We are very proud of your good grades.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "jealous",
+      "target": "eifersüchtig",
+      "example": "He is very jealous of other people.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "envious",
+      "target": "neidisch",
+      "example": "Do not be envious of other people’s success.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "in love",
+      "target": "verliebt",
+      "example": "Roman is completely in love with Laura.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "lonely",
+      "target": "einsam",
+      "example": "Sometimes she feels lonely in the big city.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "grateful",
+      "target": "dankbar",
+      "example": "I am very grateful for all your help.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "satisfied / content",
+      "target": "zufrieden",
+      "example": "The boss is satisfied with our work.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "relieved",
+      "target": "erleichtert",
+      "example": "I feel relieved after talking to her.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "curious",
+      "target": "neugierig",
+      "example": "The child is curious and asks everything.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "shy / embarrassed",
+      "target": "schüchtern / verlegen",
+      "example": "She is embarrassed about the mistake.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "hopeful",
+      "target": "hoffnungsvoll",
+      "example": "We are hopeful about the new changes.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "optimistic",
+      "target": "optimistisch",
+      "example": "Despite the problems, he remains optimistic.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pessimistic",
+      "target": "pessimistisch",
+      "example": "Do not be so pessimistic; everything will be fine.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "annoyed / irritated",
+      "target": "irritiert / genervt",
+      "example": "The constant noise makes me very annoyed.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "insecure / unsure",
+      "target": "unsicher",
+      "example": "He feels unsure when speaking in public.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "confident / sure",
+      "target": "selbstbewusst / sicher",
+      "example": "She is a very confident woman.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "exhausted / stressed",
+      "target": "erschöpft / gestresst",
+      "example": "I am exhausted after a long workday.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "euphoric",
+      "target": "euphorisch",
+      "example": "The fans are euphoric after the victory.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "melancholic",
+      "target": "melancholisch",
+      "example": "Slow music makes me a little melancholic.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Emotionen"
+    }
+  ]
+}

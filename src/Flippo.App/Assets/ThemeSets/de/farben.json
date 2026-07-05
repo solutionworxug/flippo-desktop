@@ -1,0 +1,249 @@
+{
+  "id": "de-farben",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Farben",
+  "entries": [
+    {
+      "source": "die Farbe",
+      "target": "color",
+      "example": "Welche Farbe magst du am liebsten?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rot",
+      "target": "red",
+      "example": "Die Ampel ist rot.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "blau",
+      "target": "blue",
+      "example": "Der Himmel ist heute sehr blau.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "grün",
+      "target": "green",
+      "example": "Im Frühling ist das Gras grün.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gelb",
+      "target": "yellow",
+      "example": "Das Taxi ist gelb.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schwarz",
+      "target": "black",
+      "example": "Sie trägt immer schwarze Kleidung.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "weiß",
+      "target": "white",
+      "example": "Die Wände des Zimmers sind weiß.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "braun",
+      "target": "brown",
+      "example": "Der Bär hat ein braunes Fell.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "grau",
+      "target": "gray",
+      "example": "Der Himmel ist grau und bewölkt.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "orange",
+      "target": "orange",
+      "example": "Die Karotte ist orange.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lila",
+      "target": "purple",
+      "example": "Ich habe ihr einen Strauß lila Blumen geschenkt.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rosa",
+      "target": "pink",
+      "example": "Rosa Rosen sind am beliebtesten.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "türkis",
+      "target": "turquoise",
+      "example": "Das Karibische Meer ist türkis.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "violett / lila",
+      "target": "purple",
+      "example": "Sie mag violette Kleider.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "beige",
+      "target": "beige",
+      "example": "Die Wohnzimmerwände sind beige.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dunkel",
+      "target": "dark",
+      "example": "Dunkelblau ist eine sehr elegante Farbe.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hell",
+      "target": "light",
+      "example": "Im Sommer bevorzuge ich helle Farben.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "farbenfroh / bunt",
+      "target": "colorful",
+      "example": "Der Markt ist voller farbenfroher Kleidung.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "golden / goldfarben",
+      "target": "golden",
+      "example": "Die Trophäe ist golden.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "silbern / silberfarben",
+      "target": "silver",
+      "example": "Silberne Ohrringe passen zu allem.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "glänzend / leuchtend",
+      "target": "shiny",
+      "example": "Das Kleid ist aus glänzendem Stoff.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "matt",
+      "target": "matte",
+      "example": "Für die Wände bevorzuge ich matte Farbe.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hell / blass",
+      "target": "light",
+      "example": "Nach dem Winter ist ihre Haut ganz blass.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dunkel",
+      "target": "dark",
+      "example": "Er trägt einen dunkelgrauen Anzug.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gestreift",
+      "target": "striped",
+      "example": "Das gestreifte T-Shirt sieht sehr maritim aus.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kariert",
+      "target": "checkered",
+      "example": "Das karierte Hemd ist sehr leger.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gepunktet",
+      "target": "polka-dotted",
+      "example": "Das gepunktete Kleid ist sehr sommerlich.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "einfarbig / glatt",
+      "target": "plain",
+      "example": "Der einfarbige Pullover passt zu allem.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "färben",
+      "target": "to dye",
+      "example": "Sie färbt sich die Haare blond.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kombinieren",
+      "target": "to combine",
+      "example": "Diese Farbe lässt sich gut mit Blau kombinieren.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

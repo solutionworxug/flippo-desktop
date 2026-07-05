@@ -1,0 +1,257 @@
+{
+  "id": "fr-wohnungseinrichtung",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Wohnungseinrichtung",
+  "entries": [
+    {
+      "source": "l'ascenseur",
+      "target": "der Aufzug",
+      "example": "L'ascenseur est en panne, il faut monter à pied.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le plafond",
+      "target": "die Zimmerdecke",
+      "example": "Le plafond du salon a une fissure.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'oreiller",
+      "target": "das Kopfkissen",
+      "example": "J'ai besoin d'un oreiller plus moelleux.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le lit",
+      "target": "das Bett",
+      "example": "Le lit est très confortable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le canapé",
+      "target": "das Sofa",
+      "example": "Je me suis assis sur le canapé pour regarder la télévision.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la chaise",
+      "target": "der Stuhl",
+      "example": "Il y a quatre chaises autour de la table.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la table",
+      "target": "der Tisch",
+      "example": "Nous dînons tous ensemble à table.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'armoire",
+      "target": "der Schrank",
+      "example": "Les vêtements sont dans l'armoire.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la lampe",
+      "target": "die Lampe",
+      "example": "La lampe du salon donne une lumière très chaude.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'étagère",
+      "target": "das Regal",
+      "example": "Les livres sont rangés sur l'étagère.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le miroir",
+      "target": "der Spiegel",
+      "example": "Je me regarde dans le miroir avant de sortir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fenêtre",
+      "target": "das Fenster",
+      "example": "Ouvre la fenêtre, nous avons besoin d'air frais.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la porte",
+      "target": "die Tür",
+      "example": "Ferme la porte en sortant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le tapis",
+      "target": "der Teppich",
+      "example": "Le tapis du salon est très doux.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le plaid",
+      "target": "die Wohndecke",
+      "example": "Je me couvre avec le plaid parce que j'ai froid.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le tableau",
+      "target": "das Bild",
+      "example": "Le tableau au mur est d'un artiste local.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sol",
+      "target": "der Boden",
+      "example": "Le sol de la cuisine est en carrelage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le mur",
+      "target": "die Wand",
+      "example": "Nous avons peint le mur en blanc.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cuisine",
+      "target": "die Küche",
+      "example": "La cuisine vient d'être rénovée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la salle de bains",
+      "target": "das Bad",
+      "example": "La salle de bains a une douche et une baignoire.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la chambre",
+      "target": "das Schlafzimmer",
+      "example": "La chambre a deux fenêtres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le salon",
+      "target": "das Wohnzimmer",
+      "example": "Le salon est l'endroit préféré de la famille.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le réfrigérateur",
+      "target": "der Kühlschrank",
+      "example": "Le réfrigérateur est plein de nourriture.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le micro-ondes",
+      "target": "die Mikrowelle",
+      "example": "J'ai réchauffé la soupe au micro-ondes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le lave-vaisselle",
+      "target": "die Spülmaschine",
+      "example": "Le lave-vaisselle est cassé.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la machine à laver",
+      "target": "die Waschmaschine",
+      "example": "Je fais tourner la machine à laver le samedi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la table de nuit",
+      "target": "der Nachttisch",
+      "example": "Le livre est sur la table de nuit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bureau",
+      "target": "der Schreibtisch",
+      "example": "Je travaille au bureau de ma chambre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la douche",
+      "target": "die Dusche",
+      "example": "Je me douche chaque matin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le fauteuil",
+      "target": "der Sessel",
+      "example": "Mon père lit le journal dans son fauteuil.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'espace / la place",
+      "target": "der Raum / der Platz",
+      "example": "L'appartement est petit mais il a un bon espace.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

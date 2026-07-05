@@ -1,0 +1,249 @@
+{
+  "id": "es-wochen-monate-feste",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Wochen Monate Feste",
+  "entries": [
+    {
+      "source": "el septiembre",
+      "target": "der September",
+      "example": "Las clases empiezan en septiembre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el agosto",
+      "target": "der August",
+      "example": "En agosto hace mucho calor en España.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el julio",
+      "target": "der Juli",
+      "example": "Nos vamos de vacaciones en julio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el junio",
+      "target": "der Juni",
+      "example": "Los exámenes finales son en junio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mayo",
+      "target": "der Mai",
+      "example": "En mayo florecen muchas flores.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el abril",
+      "target": "der April",
+      "example": "Las lluvias de abril traen las flores de mayo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el marzo",
+      "target": "der März",
+      "example": "La primavera empieza en marzo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el febrero",
+      "target": "der Februar",
+      "example": "Mi cumpleaños es en febrero.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el enero",
+      "target": "der Januar",
+      "example": "Enero es el mes más frío del año.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el noviembre",
+      "target": "der November",
+      "example": "En noviembre los días son cortos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el octubre",
+      "target": "der Oktober",
+      "example": "En octubre caen las hojas de los árboles.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el diciembre",
+      "target": "der Dezember",
+      "example": "En diciembre celebramos la Navidad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mes",
+      "target": "der Monat",
+      "example": "Este mes tengo muchos planes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el festivo",
+      "target": "der Feiertag",
+      "example": "El lunes es festivo y no trabajo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el lunes",
+      "target": "der Montag",
+      "example": "El lunes vuelvo al trabajo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el martes",
+      "target": "der Dienstag",
+      "example": "Los martes tengo clase de español.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el miércoles",
+      "target": "der Mittwoch",
+      "example": "El miércoles quedamos para cenar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el jueves",
+      "target": "der Donnerstag",
+      "example": "Los jueves voy al gimnasio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el viernes",
+      "target": "der Freitag",
+      "example": "El viernes por la noche salimos a bailar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sábado",
+      "target": "der Samstag",
+      "example": "El sábado vamos al mercado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el domingo",
+      "target": "der Sonntag",
+      "example": "El domingo desayunamos tarde en familia.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cumpleaños",
+      "target": "der Geburtstag",
+      "example": "Mañana es el cumpleaños de mi madre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el bautismo",
+      "target": "die Taufe",
+      "example": "Fuimos al bautismo del bebé.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la boda",
+      "target": "die Hochzeit",
+      "example": "La boda fue en una iglesia muy antigua.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la Pascua",
+      "target": "Ostern",
+      "example": "En Pascua comemos mona de Pascua.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aniversario",
+      "target": "das Jubiläum",
+      "example": "Hoy celebramos nuestro aniversario de boda.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el día del santo",
+      "target": "der Namenstag",
+      "example": "El día del santo se celebra como el cumpleaños.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la Navidad",
+      "target": "Weihnachten",
+      "example": "En Navidad toda la familia se reúne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "anual",
+      "target": "jährlich",
+      "example": "La revisión médica es anual.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la fiesta",
+      "target": "das Fest / die Party",
+      "example": "Organizamos una fiesta para su cumpleaños.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

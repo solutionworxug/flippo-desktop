@@ -1,0 +1,249 @@
+{
+  "id": "fren-lebensmittel",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Lebensmittel",
+  "entries": [
+    {
+      "source": "l'allergie",
+      "target": "allergy",
+      "example": "Je suis allergique au pollen au printemps.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le petit-déjeuner",
+      "target": "breakfast",
+      "example": "Je prends un café au lait au petit-déjeuner.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le vinaigre",
+      "target": "vinegar",
+      "example": "Ajoute un peu de vinaigre à la salade.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le poivre",
+      "target": "pepper",
+      "example": "Tu me passes le poivre ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la viande",
+      "target": "meat",
+      "example": "Je ne mange pas de viande le lundi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le gâteau",
+      "target": "cake",
+      "example": "Nous avons acheté un gâteau d'anniversaire.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le menu",
+      "target": "menu",
+      "example": "Qu'y a-t-il au menu du jour ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la glace",
+      "target": "ice cream",
+      "example": "En été je mange beaucoup de glace.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la soif",
+      "target": "thirst",
+      "example": "Après avoir couru j'ai très soif.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la faim",
+      "target": "hunger",
+      "example": "J'ai très faim après l'exercice.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le dessert",
+      "target": "dessert",
+      "example": "En dessert j'ai pris un flan.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'œuf",
+      "target": "egg",
+      "example": "J'ai besoin de trois œufs pour l'omelette.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le riz",
+      "target": "rice",
+      "example": "Le riz au lait est mon dessert préféré.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le poulet",
+      "target": "chicken",
+      "example": "Le poulet rôti est délicieux.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le jambon",
+      "target": "ham",
+      "example": "Le jambon ibérique est très réputé en Espagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le pain",
+      "target": "bread",
+      "example": "Achète une baguette de pain à la boulangerie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nourriture",
+      "target": "food",
+      "example": "La nourriture espagnole est très variée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sucre",
+      "target": "sugar",
+      "example": "Combien de sucre veux-tu dans le café ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'aliment",
+      "target": "food item",
+      "example": "Le pain est un aliment de base.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'ail",
+      "target": "garlic",
+      "example": "L'ail est très important dans la cuisine espagnole.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'eau",
+      "target": "water",
+      "example": "Je bois huit verres d'eau par jour.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'huile",
+      "target": "oil",
+      "example": "J'utilise de l'huile d'olive pour cuisiner.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le goûter",
+      "target": "snack",
+      "example": "Les enfants prennent le goûter à cinq heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le dîner",
+      "target": "dinner",
+      "example": "Le dîner est prêt à neuf heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les tapas",
+      "target": "tapas",
+      "example": "Nous prenons des tapas au bar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sel",
+      "target": "salt",
+      "example": "Cette soupe a besoin de plus de sel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "manger",
+      "target": "to eat",
+      "example": "À quelle heure manges-tu d'habitude ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "délicieux",
+      "target": "delicious",
+      "example": "Cette paella est très délicieuse.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rôti",
+      "target": "roasted",
+      "example": "Le poulet rôti sent très bon.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "frit",
+      "target": "fried",
+      "example": "Les œufs frits sont faciles à faire.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

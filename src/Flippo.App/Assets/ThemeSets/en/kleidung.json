@@ -1,0 +1,249 @@
+{
+  "id": "en-kleidung",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Kleidung",
+  "entries": [
+    {
+      "source": "T-shirt",
+      "target": "das T-Shirt",
+      "example": "I bought a T-shirt with the team's logo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dress",
+      "target": "das Kleid",
+      "example": "The evening dress is very elegant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "coat",
+      "target": "der Mantel",
+      "example": "Take your coat because it is cold.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "glove",
+      "target": "der Handschuh",
+      "example": "I lost a glove on the subway.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hat",
+      "target": "die Mütze",
+      "example": "In winter I always wear a hat.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sweater",
+      "target": "der Pullover",
+      "example": "This sweater is very warm.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Bermuda shorts",
+      "target": "die Bermudashorts",
+      "example": "In summer I wear Bermuda shorts at the beach.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bag / handbag",
+      "target": "die Tasche (Handtasche)",
+      "example": "I left my handbag in the restaurant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "scarf",
+      "target": "der Schal",
+      "example": "The scarf protects me from the cold.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "shirt",
+      "target": "das Hemd",
+      "example": "He is wearing a white shirt for the interview.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "blouse",
+      "target": "die Bluse",
+      "example": "The blue blouse suits you very well.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "belt",
+      "target": "der Gürtel",
+      "example": "The leather belt is very elegant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "glasses",
+      "target": "die Brille",
+      "example": "I need glasses for reading.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hat",
+      "target": "der Hut",
+      "example": "He always wears a hat in summer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "footwear / shoes",
+      "target": "das Schuhwerk / die Schuhe",
+      "example": "Sports footwear is very comfortable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "jacket",
+      "target": "die Jacke",
+      "example": "Take a jacket in case it gets cold.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "skirt",
+      "target": "der Rock",
+      "example": "The red skirt is very pretty.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pants",
+      "target": "die Hose",
+      "example": "These pants are too short.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sneakers / slippers",
+      "target": "die Turnschuhe / Hausschuhe",
+      "example": "I wear sneakers for running.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "suit",
+      "target": "der Anzug",
+      "example": "He wears a suit and tie to the meeting.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tie",
+      "target": "die Krawatte",
+      "example": "I don't know how to tie a tie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "swimsuit",
+      "target": "die Badehose / der Badeanzug",
+      "example": "Don't forget your swimsuit for the beach.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "raincoat",
+      "target": "der Regenmantel",
+      "example": "Take your raincoat because it is going to rain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pajamas",
+      "target": "der Schlafanzug / der Pyjama",
+      "example": "I put on my pajamas and went to bed.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "clothes",
+      "target": "die Kleidung",
+      "example": "I have to wash the clothes this afternoon.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to wear",
+      "target": "tragen / anhaben",
+      "example": "What are you wearing today?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to put on",
+      "target": "anziehen",
+      "example": "I put on my coat before going out.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to take off",
+      "target": "ausziehen",
+      "example": "Take off your shoes when you come in.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "socks",
+      "target": "die Socken",
+      "example": "I need wool socks for the cold.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "shoes",
+      "target": "die Schuhe",
+      "example": "These shoes hurt my feet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

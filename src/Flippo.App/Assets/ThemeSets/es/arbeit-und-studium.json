@@ -1,0 +1,249 @@
+{
+  "id": "es-arbeit-und-studium",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Arbeit und Studium",
+  "entries": [
+    {
+      "source": "el trabajo",
+      "target": "die Arbeit / der Job",
+      "example": "Busco un nuevo trabajo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la oficina",
+      "target": "das Büro",
+      "example": "Trabajo en una oficina en el centro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el jefe",
+      "target": "der Chef / Vorgesetzte",
+      "example": "Mi jefe es muy exigente.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el empleado",
+      "target": "der Angestellte",
+      "example": "La empresa tiene cien empleados.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la empresa",
+      "target": "das Unternehmen / die Firma",
+      "example": "Trabajo en una empresa internacional.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sueldo",
+      "target": "das Gehalt",
+      "example": "El sueldo se paga el último día del mes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el contrato",
+      "target": "der Vertrag",
+      "example": "Firmé el contrato de trabajo hoy.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "trabajar",
+      "target": "arbeiten",
+      "example": "Trabajo ocho horas al día.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "estudiar",
+      "target": "lernen / studieren",
+      "example": "Estudio español todos los días.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la universidad",
+      "target": "die Universität",
+      "example": "Estudié economía en la universidad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el instituto",
+      "target": "das Gymnasium / die Schule",
+      "example": "Mi hija va al instituto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el examen",
+      "target": "die Prüfung",
+      "example": "Tengo un examen de español mañana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la clase",
+      "target": "die Klasse / der Unterricht",
+      "example": "La clase empieza a las nueve.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el profesor",
+      "target": "der Lehrer / Professor",
+      "example": "El profesor explica muy bien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el alumno",
+      "target": "der Schüler / Student",
+      "example": "Los alumnos estudian mucho.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el ordenador",
+      "target": "der Computer",
+      "example": "Trabajo todo el día con el ordenador.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la reunión",
+      "target": "das Meeting / die Besprechung",
+      "example": "Tengo una reunión a las diez.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el proyecto",
+      "target": "das Projekt",
+      "example": "Estamos trabajando en un proyecto nuevo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el descanso",
+      "target": "die Pause",
+      "example": "Hacemos un descanso a las once.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el horario",
+      "target": "der Stundenplan / Arbeitszeiten",
+      "example": "Mi horario de trabajo es de nueve a seis.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carrera",
+      "target": "das Studium / die Karriere",
+      "example": "Estudió la carrera de medicina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el currículum",
+      "target": "der Lebenslauf",
+      "example": "Envié el currículum a tres empresas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tarea",
+      "target": "die Aufgabe / Hausaufgaben",
+      "example": "Los alumnos tienen mucha tarea hoy.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el libro",
+      "target": "das Buch",
+      "example": "Necesito el libro de texto para la clase.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mochila",
+      "target": "der Rucksack",
+      "example": "Lleva la mochila cargada de libros.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el compañero",
+      "target": "der Kollege / Mitschüler",
+      "example": "Mis compañeros de trabajo son muy simpáticos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "buscar trabajo",
+      "target": "Arbeit suchen",
+      "example": "Lleva meses buscando trabajo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "jubilarse",
+      "target": "in Rente gehen",
+      "example": "Mi padre se jubila el año que viene.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el título",
+      "target": "der Abschluss / Titel",
+      "example": "Tiene el título de ingeniero.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el informe",
+      "target": "der Bericht",
+      "example": "Tengo que entregar el informe esta tarde.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

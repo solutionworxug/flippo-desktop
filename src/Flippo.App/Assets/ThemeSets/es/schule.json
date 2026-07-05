@@ -1,0 +1,249 @@
+{
+  "id": "es-schule",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Schule",
+  "entries": [
+    {
+      "source": "la escuela",
+      "target": "die Schule",
+      "example": "La escuela empieza a las ocho.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aula",
+      "target": "das Klassenzimmer",
+      "example": "Nuestra aula está en el primer piso.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el profesor",
+      "target": "der Lehrer",
+      "example": "El profesor explica el ejercicio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el alumno",
+      "target": "der Schüler",
+      "example": "Cada alumno tiene su propio cuaderno.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el director",
+      "target": "der Direktor",
+      "example": "El director da la bienvenida a los nuevos alumnos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la clase",
+      "target": "die Klasse",
+      "example": "En mi clase hay treinta niños.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pizarra",
+      "target": "die Tafel",
+      "example": "El profesor escribe la palabra en la pizarra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tiza",
+      "target": "die Kreide",
+      "example": "La tiza está casi gastada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cuaderno",
+      "target": "das Heft",
+      "example": "Escribe la respuesta en tu cuaderno.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el libro de texto",
+      "target": "das Schulbuch",
+      "example": "Abrid el libro de texto por la página diez.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el bolígrafo",
+      "target": "der Kugelschreiber",
+      "example": "¿Puedo usar tu bolígrafo?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el lápiz",
+      "target": "der Bleistift",
+      "example": "Dibuja la línea con un lápiz.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la goma",
+      "target": "der Radiergummi",
+      "example": "¿Me prestas la goma?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la regla",
+      "target": "das Lineal",
+      "example": "Con la regla trazo una línea recta.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el sacapuntas",
+      "target": "der Spitzer",
+      "example": "Mi sacapuntas está en la mochila.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la mochila",
+      "target": "die Schultasche",
+      "example": "La mochila pesa mucho hoy.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el patio",
+      "target": "der Schulhof",
+      "example": "En el recreo jugamos en el patio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las clases",
+      "target": "der Unterricht",
+      "example": "Las clases se cancelan hoy.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el recreo",
+      "target": "die Pause",
+      "example": "En el recreo como mi bocadillo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "los deberes",
+      "target": "die Hausaufgaben",
+      "example": "Hago los deberes después de comer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nota",
+      "target": "die Note",
+      "example": "Ha sacado una buena nota.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el boletín de notas",
+      "target": "das Zeugnis",
+      "example": "El boletín de notas llega al final del curso.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el examen",
+      "target": "die Prüfung",
+      "example": "Mañana tenemos un examen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la asignatura",
+      "target": "das Fach",
+      "example": "¿Qué asignatura te gusta más?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las matemáticas",
+      "target": "die Mathematik",
+      "example": "Las matemáticas no son mi asignatura favorita.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la historia",
+      "target": "die Geschichte",
+      "example": "En historia aprendemos sobre la Edad Media.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el horario",
+      "target": "der Stundenplan",
+      "example": "Mira el horario para mañana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la biblioteca",
+      "target": "die Bibliothek",
+      "example": "En la biblioteca pido libros prestados.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pregunta",
+      "target": "die Frage",
+      "example": "¿Tienes una pregunta para el profesor?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la respuesta",
+      "target": "die Antwort",
+      "example": "La respuesta correcta está en la pizarra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

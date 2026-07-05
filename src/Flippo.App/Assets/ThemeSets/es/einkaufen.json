@@ -1,0 +1,249 @@
+{
+  "id": "es-einkaufen",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Einkaufen",
+  "entries": [
+    {
+      "source": "la talla de ropa",
+      "target": "die Kleidergröße",
+      "example": "No sé qué talla de ropa uso.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la talla de zapato",
+      "target": "die Schuhgröße",
+      "example": "¿Cuál es tu talla de zapato?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "probarse",
+      "target": "anprobieren",
+      "example": "Quiero probarme estos pantalones, por favor.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "demasiado estrecho / demasiado ajustado",
+      "target": "zu eng",
+      "example": "Esta camisa me queda demasiado estrecha.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "demasiado pequeño",
+      "target": "zu klein",
+      "example": "Los zapatos son demasiado pequeños para mí.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la dependienta",
+      "target": "die Verkäuferin",
+      "example": "La dependienta fue muy amable y me ayudó.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "el dependiente",
+      "target": "der Verkäufer",
+      "example": "El dependiente me enseñó las nuevas ofertas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "el centro comercial",
+      "target": "das Einkaufszentrum",
+      "example": "Vamos al centro comercial este sábado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la tienda",
+      "target": "das Geschäft / der Laden",
+      "example": "Esta tienda abre hasta las diez de la noche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "el probador",
+      "target": "die Umkleidekabine",
+      "example": "Los probadores están al fondo a la derecha.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "el tique de compra / el recibo",
+      "target": "der Kassenzettel",
+      "example": "Guarda el tique de compra por si quieres cambiarlo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la caja",
+      "target": "die Kasse",
+      "example": "Tienes que pagar la ropa en la caja.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "pagar",
+      "target": "zahlen / bezahlen",
+      "example": "¿Puedo pagar con tarjeta de crédito?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "pagar en efectivo",
+      "target": "bar bezahlen",
+      "example": "Prefiero pagar en efectivo hoy.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la tarjeta de crédito",
+      "target": "die Kreditkarte",
+      "example": "No tengo dinero en efectivo, pago con tarjeta de crédito.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "el descuento",
+      "target": "der Rabatt",
+      "example": "Esta chaqueta tiene un descuento del veinte por ciento.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "las rebajas",
+      "target": "der Ausverkauf / Schlussverkauf",
+      "example": "Siempre compro mucha ropa durante las rebajas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "costar",
+      "target": "kosten",
+      "example": "¿Cuánto cuesta este vestido elegante?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "el precio",
+      "target": "der Preis",
+      "example": "El precio de estos zapatos es muy bajo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "caro",
+      "target": "teuer",
+      "example": "Ese bolso de marca es demasiado caro.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "barato",
+      "target": "billig / günstig",
+      "example": "La ropa en este mercado es muy barata.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "ir de compras",
+      "target": "einkaufen gehen / shoppen",
+      "example": "A mi hermana le encanta ir de compras los viernes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la bolsa de la compra",
+      "target": "die Einkaufstasche",
+      "example": "Llevo una bolsa de la compra de tela.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "el carrito de la compra",
+      "target": "der Einkaufswagen",
+      "example": "Pon las cosas dentro del carrito de la compra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "cambiar",
+      "target": "umtauschen",
+      "example": "Quiero cambiar esta camiseta porque no me queda bien.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "devolver",
+      "target": "zurückgeben",
+      "example": "¿Se puede devolver la ropa si no me gusta?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "la ropa",
+      "target": "die Kleidung",
+      "example": "Tengo que comprar ropa para el verano.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "el escaparate",
+      "target": "das Schaufenster",
+      "example": "Vi un vestido hermoso en el escaparate.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "quedar bien / sentar bien",
+      "target": "passen",
+      "example": "Esos pantalones te quedan muy bien.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Einkaufen"
+    },
+    {
+      "source": "demasiado ancho / demasiado grande",
+      "target": "zu weit",
+      "example": "Esta falda me queda demasiado ancha.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": "Einkaufen"
+    }
+  ]
+}

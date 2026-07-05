@@ -1,0 +1,249 @@
+{
+  "id": "es-textarten",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Textarten",
+  "entries": [
+    {
+      "source": "la palabra",
+      "target": "das Wort",
+      "example": "No entiendo esa palabra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la frase",
+      "target": "der Satz",
+      "example": "Escribe una frase con esta palabra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el texto",
+      "target": "der Text",
+      "example": "Lee el texto y contesta las preguntas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el párrafo",
+      "target": "der Absatz",
+      "example": "El párrafo debe tener cinco líneas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el artículo",
+      "target": "der Artikel (Text)",
+      "example": "Leyó un artículo interesante en el periódico.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la lengua",
+      "target": "die Sprache",
+      "example": "Habla cuatro lenguas con fluidez.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el punto",
+      "target": "der Punkt (Satzzeichen)",
+      "example": "No olvides poner el punto al final de la frase.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la coma",
+      "target": "das Komma",
+      "example": "Hay que usar la coma antes de \"pero\".",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el signo de exclamación",
+      "target": "das Ausrufezeichen",
+      "example": "En español el signo de exclamación va al principio también.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el signo de interrogación",
+      "target": "das Fragezeichen",
+      "example": "En español el signo de interrogación va al principio también.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el subtítulo",
+      "target": "der Untertitel",
+      "example": "La película tiene subtítulos en español.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la novela",
+      "target": "der Roman",
+      "example": "Estoy leyendo una novela histórica.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el drama",
+      "target": "das Drama",
+      "example": "El drama fue muy emotivo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la comedia",
+      "target": "die Komödie",
+      "example": "La comedia nos hizo reír mucho.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la autobiografía",
+      "target": "die Autobiografie",
+      "example": "Leí la autobiografía del escritor.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el alfabeto",
+      "target": "das Alphabet",
+      "example": "El alfabeto español tiene 27 letras.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el acta",
+      "target": "das Protokoll / die Akte",
+      "example": "El secretario redactó el acta de la reunión.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la abreviatura",
+      "target": "die Abkürzung",
+      "example": "DNI es la abreviatura de Documento Nacional de Identidad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el correo electrónico",
+      "target": "die E-Mail",
+      "example": "Te envío la información por correo electrónico.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el periódico",
+      "target": "die Zeitung",
+      "example": "Leo el periódico cada mañana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la revista",
+      "target": "die Zeitschrift / das Magazin",
+      "example": "Compro una revista de moda.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el diccionario",
+      "target": "das Wörterbuch",
+      "example": "Consulta el diccionario si no entiendes la palabra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el poema",
+      "target": "das Gedicht",
+      "example": "Aprendimos un poema de memoria.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carta",
+      "target": "der Brief",
+      "example": "Le escribí una carta a mano.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mensaje",
+      "target": "die Nachricht / die SMS",
+      "example": "Te mando un mensaje cuando llegue.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el resumen",
+      "target": "die Zusammenfassung",
+      "example": "Haz un resumen del texto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "traducir",
+      "target": "übersetzen",
+      "example": "¿Puedes traducir esta frase al alemán?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "escribir",
+      "target": "schreiben",
+      "example": "Escribe tu nombre en el formulario.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "leer",
+      "target": "lesen",
+      "example": "Leo un capítulo cada noche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el libro",
+      "target": "das Buch",
+      "example": "Tengo muchos libros en casa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

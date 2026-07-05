@@ -1,0 +1,249 @@
+{
+  "id": "esen-kochen-backen",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Kochen Backen",
+  "entries": [
+    {
+      "source": "cocinar",
+      "target": "to cook",
+      "example": "Me gusta cocinar para mis amigos los fines de semana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hornear",
+      "target": "to bake",
+      "example": "Voy a hornear un pastel de manzana hoy.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "freír",
+      "target": "to fry",
+      "example": "Hay que freír las patatas en aceite muy caliente.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cortar por la mitad",
+      "target": "to halve",
+      "example": "Corta por la mitad los tomates para la ensalada.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mezclar",
+      "target": "to mix",
+      "example": "Hay que mezclar bien los huevos con el azúcar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cortar",
+      "target": "to cut",
+      "example": "Ten cuidado al cortar la carne con ese cuchillo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pelar",
+      "target": "to peel",
+      "example": "¿Me ayudas a pelar las patatas?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "remover",
+      "target": "to stir",
+      "example": "Remueve la sopa para que no se pegue.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sazonar / condimentar",
+      "target": "to season",
+      "example": "Debes sazonar la carne con sal y pimienta.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dorar / sofreír",
+      "target": "to brown / to sauté",
+      "example": "Primero hay que sofreír la cebolla un par de minutos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "batir",
+      "target": "to beat / to whisk",
+      "example": "Bate las claras de huevo a punto de nieve.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rallar",
+      "target": "to grate",
+      "example": "Voy a rallar un poco de queso para la pasta.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pesar",
+      "target": "to weigh",
+      "example": "Es importante pesar los ingredientes con precisión al hornear.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "verter / echar",
+      "target": "to pour",
+      "example": "Vierte la leche poco a poco en la masa.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la receta",
+      "target": "recipe",
+      "example": "Esta receta de tarta es de mi abuela.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el ingrediente",
+      "target": "ingredient",
+      "example": "Asegúrate de tener todos los ingredientes antes de empezar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el horno",
+      "target": "oven",
+      "example": "Precalienta el horno a ciento ochenta grados.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la sartén",
+      "target": "frying pan",
+      "example": "Pon un poco de aceite de oliva en la sartén.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la olla",
+      "target": "pot",
+      "example": "La olla está llena de agua hirviendo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el bol / el cuenco",
+      "target": "bowl",
+      "example": "Pon la harina y la levadura en un bol grande.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hervir",
+      "target": "to boil",
+      "example": "El agua ya empieza a hervir, echa la pasta.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lavar",
+      "target": "to wash",
+      "example": "Es necesario lavar las verduras antes de cocinarlas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "medir / pesar",
+      "target": "to weigh out",
+      "example": "Mide cien gramos de mantequilla.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la báscula de cocina",
+      "target": "kitchen scale",
+      "example": "Usa la báscula de cocina para medir la harina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "añadir / agregar",
+      "target": "to add",
+      "example": "Añade una pizca de sal a la salsa.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "escurrir",
+      "target": "to drain",
+      "example": "Escurre los espaguetis cuando estén listos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "amasar",
+      "target": "to knead",
+      "example": "Tienes que amasar la masa del pan durante diez minutos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "derretir",
+      "target": "to melt",
+      "example": "Hay que derretir el chocolate al baño María.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "precalentar",
+      "target": "to preheat",
+      "example": "No olvides precalentar el horno.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dejar enfriar",
+      "target": "to let cool",
+      "example": "Deja enfriar el pastel antes de desmoldarlo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

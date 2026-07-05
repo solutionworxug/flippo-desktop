@@ -1,0 +1,249 @@
+{
+  "id": "de-arbeit-und-studium",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Arbeit und Studium",
+  "entries": [
+    {
+      "source": "die Arbeit / der Job",
+      "target": "work / job",
+      "example": "Ich suche eine neue Arbeit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Büro",
+      "target": "office",
+      "example": "Ich arbeite in einem Büro in der Stadt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Chef / Vorgesetzte",
+      "target": "boss / supervisor",
+      "example": "Mein Chef ist sehr anspruchsvoll.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Angestellte",
+      "target": "employee",
+      "example": "Der Angestellte arbeitet seit zehn Jahren hier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Unternehmen / die Firma",
+      "target": "company",
+      "example": "Ich arbeite für ein internationales Unternehmen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Gehalt",
+      "target": "salary",
+      "example": "Das Gehalt wird am Monatsende gezahlt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Vertrag",
+      "target": "contract",
+      "example": "Ich habe heute den Vertrag unterschrieben.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "arbeiten",
+      "target": "work",
+      "example": "Ich arbeite acht Stunden am Tag.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lernen / studieren",
+      "target": "study",
+      "example": "Ich lerne jeden Tag Englisch.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Universität",
+      "target": "university",
+      "example": "Ich habe an der Universität studiert.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Gymnasium / die Schule",
+      "target": "secondary school / school",
+      "example": "Meine Tochter geht aufs Gymnasium.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Prüfung",
+      "target": "exam",
+      "example": "Morgen habe ich eine Prüfung in Englisch.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Klasse / der Unterricht",
+      "target": "class / lesson",
+      "example": "Die Klasse beginnt um neun Uhr.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Lehrer / Professor",
+      "target": "teacher / professor",
+      "example": "Der Lehrer erklärt alles sehr gut.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Schüler / Student",
+      "target": "student",
+      "example": "Der Schüler lernt jeden Tag fleißig.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Computer",
+      "target": "computer",
+      "example": "Ich arbeite den ganzen Tag am Computer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Meeting / die Besprechung",
+      "target": "meeting",
+      "example": "Um zehn habe ich ein Meeting.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Projekt",
+      "target": "project",
+      "example": "Wir arbeiten an einem neuen Projekt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Pause",
+      "target": "break",
+      "example": "Um elf machen wir eine Pause.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Stundenplan / Arbeitszeiten",
+      "target": "schedule / working hours",
+      "example": "Mein Stundenplan ist sehr voll.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Studium / die Karriere",
+      "target": "studies / career",
+      "example": "Sie hat ein Studium der Medizin abgeschlossen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Lebenslauf",
+      "target": "CV / résumé",
+      "example": "Ich habe meinen Lebenslauf abgeschickt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Aufgabe / Hausaufgaben",
+      "target": "task / homework",
+      "example": "Die Schüler haben heute viele Aufgaben.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Buch",
+      "target": "book",
+      "example": "Ich brauche das Buch für den Unterricht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Rucksack",
+      "target": "backpack",
+      "example": "Er trägt einen Rucksack voller Bücher.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Kollege / Mitschüler",
+      "target": "colleague / classmate",
+      "example": "Meine Kollegen sind sehr nett.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "Arbeit suchen",
+      "target": "look for work",
+      "example": "Er muss seit Monaten Arbeit suchen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "in Rente gehen",
+      "target": "retire",
+      "example": "Mein Vater geht nächstes Jahr in Rente.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Abschluss / Titel",
+      "target": "degree / title",
+      "example": "Sie hat einen Abschluss in Ingenieurwesen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Bericht",
+      "target": "report",
+      "example": "Ich muss den Bericht heute Nachmittag abgeben.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

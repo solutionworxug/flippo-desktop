@@ -1,0 +1,249 @@
+{
+  "id": "en-arbeit-und-studium",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Arbeit und Studium",
+  "entries": [
+    {
+      "source": "work / job",
+      "target": "die Arbeit / der Job",
+      "example": "I am looking for a new job.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "office",
+      "target": "das Büro",
+      "example": "I work in an office downtown.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "boss / supervisor",
+      "target": "der Chef / Vorgesetzte",
+      "example": "My boss is very demanding.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "employee",
+      "target": "der Angestellte",
+      "example": "The company has one hundred employees.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "company",
+      "target": "das Unternehmen / die Firma",
+      "example": "I work for an international company.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "salary",
+      "target": "das Gehalt",
+      "example": "Salary is paid at the end of the month.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "contract",
+      "target": "der Vertrag",
+      "example": "I signed the work contract today.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "work",
+      "target": "arbeiten",
+      "example": "I work eight hours a day.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "study",
+      "target": "lernen / studieren",
+      "example": "I study English every day.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "university",
+      "target": "die Universität",
+      "example": "I studied economics at university.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "secondary school / school",
+      "target": "das Gymnasium / die Schule",
+      "example": "My daughter goes to secondary school.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "exam",
+      "target": "die Prüfung",
+      "example": "I have an English exam tomorrow.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "class / lesson",
+      "target": "die Klasse / der Unterricht",
+      "example": "The class starts at nine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "teacher / professor",
+      "target": "der Lehrer / Professor",
+      "example": "The teacher explains very well.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "student",
+      "target": "der Schüler / Student",
+      "example": "The students study a lot.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "computer",
+      "target": "der Computer",
+      "example": "I work on computer all day.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "meeting",
+      "target": "das Meeting / die Besprechung",
+      "example": "I have a meeting at ten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "project",
+      "target": "das Projekt",
+      "example": "We are working on a new project.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "break",
+      "target": "die Pause",
+      "example": "We take a break at eleven.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schedule / working hours",
+      "target": "der Stundenplan / Arbeitszeiten",
+      "example": "My working hours are from nine to six.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "studies / career",
+      "target": "das Studium / die Karriere",
+      "example": "She studied medicine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "CV / résumé",
+      "target": "der Lebenslauf",
+      "example": "I sent my résumé to three companies.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "task / homework",
+      "target": "die Aufgabe / Hausaufgaben",
+      "example": "The students have a lot of homework today.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "book",
+      "target": "das Buch",
+      "example": "I need the textbook for class.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "backpack",
+      "target": "der Rucksack",
+      "example": "He carries a backpack full of books.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "colleague / classmate",
+      "target": "der Kollege / Mitschüler",
+      "example": "My colleagues are very friendly.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "look for work",
+      "target": "Arbeit suchen",
+      "example": "He has been looking for work for months.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "retire",
+      "target": "in Rente gehen",
+      "example": "My father is retiring next year.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "degree / title",
+      "target": "der Abschluss / Titel",
+      "example": "She has a degree in engineering.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "report",
+      "target": "der Bericht",
+      "example": "I have to hand in the report this afternoon.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

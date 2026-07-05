@@ -96,5 +96,11 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
     }
 
     [RelayCommand]
+    private async Task ImportThemeSet()
+    {
+        if (await _actions.ImportThemeSetAsync()) await LoadAsync();
+    }
+
+    [RelayCommand]
     private Task Export() => _actions.ExportBackupAsync();
 }

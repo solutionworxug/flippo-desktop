@@ -1,0 +1,249 @@
+{
+  "id": "esen-lebensmittel",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Lebensmittel",
+  "entries": [
+    {
+      "source": "la alergia",
+      "target": "allergy",
+      "example": "Tengo alergia al polen en primavera.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el desayuno",
+      "target": "breakfast",
+      "example": "Tomo café con leche en el desayuno.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vinagre",
+      "target": "vinegar",
+      "example": "Añade un poco de vinagre a la ensalada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pimienta",
+      "target": "pepper",
+      "example": "¿Me pasas la pimienta?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carne",
+      "target": "meat",
+      "example": "No como carne los lunes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la tarta",
+      "target": "cake",
+      "example": "Compramos una tarta de cumpleaños.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el menú",
+      "target": "menu",
+      "example": "¿Qué hay en el menú del día?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el helado",
+      "target": "ice cream",
+      "example": "En verano como mucho helado.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la sed",
+      "target": "thirst",
+      "example": "Después de correr tengo mucha sed.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el hambre",
+      "target": "hunger",
+      "example": "Tengo mucha hambre después del ejercicio.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el postre",
+      "target": "dessert",
+      "example": "De postre tomé un flan.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el huevo",
+      "target": "egg",
+      "example": "Necesito tres huevos para la tortilla.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el arroz",
+      "target": "rice",
+      "example": "El arroz con leche es mi postre favorito.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pollo",
+      "target": "chicken",
+      "example": "El pollo asado está delicioso.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el jamón",
+      "target": "ham",
+      "example": "El jamón ibérico es muy famoso en España.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el pan",
+      "target": "bread",
+      "example": "Compra una barra de pan en la panadería.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la comida",
+      "target": "food",
+      "example": "La comida española es muy variada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el azúcar",
+      "target": "sugar",
+      "example": "¿Cuánto azúcar quieres en el café?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el alimento",
+      "target": "food / groceries",
+      "example": "El pan es un alimento básico.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el ajo",
+      "target": "garlic",
+      "example": "El ajo es muy importante en la cocina española.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el agua",
+      "target": "water",
+      "example": "Bebo ocho vasos de agua al día.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aceite",
+      "target": "oil",
+      "example": "Uso aceite de oliva para cocinar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la merienda",
+      "target": "snack",
+      "example": "Los niños toman la merienda a las cinco.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la cena",
+      "target": "dinner",
+      "example": "La cena está lista a las nueve.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "las tapas",
+      "target": "tapas",
+      "example": "Tomamos unas tapas en el bar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la sal",
+      "target": "salt",
+      "example": "Esta sopa necesita más sal.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "comer",
+      "target": "to eat",
+      "example": "¿A qué hora comes normalmente?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rico",
+      "target": "tasty / delicious",
+      "example": "Esta paella está muy rica.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "asado",
+      "target": "roasted",
+      "example": "El pollo asado huele muy bien.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "frito",
+      "target": "fried",
+      "example": "Los huevos fritos son fáciles de hacer.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

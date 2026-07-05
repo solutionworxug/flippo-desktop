@@ -1,0 +1,249 @@
+{
+  "id": "de-verkehr",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Verkehr",
+  "entries": [
+    {
+      "source": "das Auto",
+      "target": "car",
+      "example": "Ich fahre mit dem Auto zur Arbeit.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die U-Bahn",
+      "target": "metro",
+      "example": "Die U-Bahn ist schneller als der Bus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Bus",
+      "target": "bus",
+      "example": "Der Bus ins Zentrum fährt alle zwanzig Minuten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Zug",
+      "target": "train",
+      "example": "Der Zug kommt in zwei Stunden an.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Taxi",
+      "target": "taxi",
+      "example": "Wir nahmen ein Taxi, weil es regnete.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Fahrrad",
+      "target": "bicycle",
+      "example": "Bei schönem Wetter fahre ich mit dem Fahrrad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Flugzeug",
+      "target": "plane",
+      "example": "Das Flugzeug startet um zehn.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Motorrad",
+      "target": "motorbike",
+      "example": "Er fährt mit dem Motorrad durch die Stadt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Haltestelle",
+      "target": "stop",
+      "example": "Was ist die nächste Haltestelle?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Ampel",
+      "target": "traffic light",
+      "example": "Halt an der roten Ampel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Straße",
+      "target": "street",
+      "example": "Diese Straße ist wegen Bauarbeiten gesperrt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Landstraße / Straße",
+      "target": "road",
+      "example": "Die Landstraße war sehr voll.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Autobahn",
+      "target": "motorway",
+      "example": "Wir nahmen die Autobahn, um schneller zu sein.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "parken",
+      "target": "to park",
+      "example": "Im Zentrum gibt es keinen Platz zum Parken.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fahren / lenken",
+      "target": "to drive",
+      "example": "Fahr bei Regen vorsichtig.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Stau",
+      "target": "traffic jam",
+      "example": "In der Stoßzeit gibt es viel Stau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Ticket / die Fahrkarte",
+      "target": "ticket",
+      "example": "Ich habe das Ticket online gekauft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Bahnsteig",
+      "target": "platform",
+      "example": "Der Zug fährt von Bahnsteig drei ab.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Bahnhof / die Station",
+      "target": "station",
+      "example": "Treffen wir uns am Bahnhof.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Flughafen",
+      "target": "airport",
+      "example": "Du musst zwei Stunden vorher am Flughafen sein.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Hafen",
+      "target": "port",
+      "example": "Die Fähre verlässt den Hafen um neun.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kreuzfahrt",
+      "target": "cruise",
+      "example": "Wir machten eine Kreuzfahrt im Mittelmeer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Benzin",
+      "target": "petrol",
+      "example": "Du musst vor der Abfahrt Benzin tanken.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Bußgeld / der Strafzettel",
+      "target": "fine",
+      "example": "Ich habe ein Bußgeld fürs Falschparken bekommen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Führerschein",
+      "target": "driving licence",
+      "example": "Ich habe mit achtzehn meinen Führerschein gemacht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Sicherheitsgurt",
+      "target": "seatbelt",
+      "example": "Leg den Sicherheitsgurt an.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Rückkehr / die Runde",
+      "target": "return",
+      "example": "Das Ticket für die Rückkehr ist günstiger.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "direkt (ohne Umsteigen)",
+      "target": "direct",
+      "example": "Ich nahm einen direkten Flug nach Madrid.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "umsteigen",
+      "target": "to change",
+      "example": "In Barcelona musst du umsteigen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "verspätet",
+      "target": "delayed",
+      "example": "Der Zug ist zwanzig Minuten verspätet.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

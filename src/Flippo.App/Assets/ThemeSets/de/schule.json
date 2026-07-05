@@ -1,0 +1,249 @@
+{
+  "id": "de-schule",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Schule",
+  "entries": [
+    {
+      "source": "die Schule",
+      "target": "school",
+      "example": "Die Schule beginnt um acht Uhr.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Klassenzimmer",
+      "target": "classroom",
+      "example": "Unser Klassenzimmer liegt im ersten Stock.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Lehrer",
+      "target": "teacher",
+      "example": "Der Lehrer erklärt die Aufgabe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Schüler",
+      "target": "pupil",
+      "example": "Jeder Schüler hat ein eigenes Heft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Direktor",
+      "target": "principal",
+      "example": "Der Direktor begrüßt die neuen Schüler.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Klasse",
+      "target": "class",
+      "example": "In meiner Klasse sind dreißig Kinder.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Tafel",
+      "target": "board",
+      "example": "Der Lehrer schreibt das Wort an die Tafel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kreide",
+      "target": "chalk",
+      "example": "Die Kreide ist fast aufgebraucht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Heft",
+      "target": "exercise book",
+      "example": "Schreib die Antwort in dein Heft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Schulbuch",
+      "target": "textbook",
+      "example": "Öffnet das Schulbuch auf Seite zehn.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Kugelschreiber",
+      "target": "pen",
+      "example": "Darf ich deinen Kugelschreiber benutzen?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Bleistift",
+      "target": "pencil",
+      "example": "Zeichne die Linie mit einem Bleistift.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Radiergummi",
+      "target": "eraser",
+      "example": "Kann ich deinen Radiergummi haben?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Lineal",
+      "target": "ruler",
+      "example": "Mit dem Lineal ziehe ich eine gerade Linie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Spitzer",
+      "target": "pencil sharpener",
+      "example": "Mein Spitzer liegt in der Schultasche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Schultasche",
+      "target": "schoolbag",
+      "example": "Die Schultasche ist heute sehr schwer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Schulhof",
+      "target": "schoolyard",
+      "example": "In der Pause spielen wir auf dem Schulhof.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Unterricht",
+      "target": "lessons",
+      "example": "Der Unterricht fällt heute aus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Pause",
+      "target": "break",
+      "example": "In der Pause esse ich mein Pausenbrot.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Hausaufgaben",
+      "target": "homework",
+      "example": "Ich mache meine Hausaufgaben nach dem Essen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Note",
+      "target": "grade",
+      "example": "Sie hat eine gute Note bekommen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Zeugnis",
+      "target": "report card",
+      "example": "Das Zeugnis gibt es am Ende des Schuljahres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Prüfung",
+      "target": "exam",
+      "example": "Morgen schreiben wir eine Prüfung.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Fach",
+      "target": "subject",
+      "example": "Welches Fach magst du am liebsten?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Mathematik",
+      "target": "maths",
+      "example": "Mathematik ist nicht mein Lieblingsfach.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Geschichte",
+      "target": "history",
+      "example": "In Geschichte lernen wir über das Mittelalter.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Stundenplan",
+      "target": "timetable",
+      "example": "Schau auf den Stundenplan, was wir morgen haben.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Bibliothek",
+      "target": "library",
+      "example": "In der Bibliothek leihe ich mir Bücher aus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Frage",
+      "target": "question",
+      "example": "Hast du eine Frage an den Lehrer?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Antwort",
+      "target": "answer",
+      "example": "Die richtige Antwort steht an der Tafel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

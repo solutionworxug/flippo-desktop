@@ -1,0 +1,249 @@
+{
+  "id": "en-praposition",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Präposition",
+  "entries": [
+    {
+      "source": "in / at / on",
+      "target": "in / an / auf",
+      "example": "The book is on the table.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "at / to",
+      "target": "nach / zu / um (Uhrzeit)",
+      "example": "I go home at three.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "from / of",
+      "target": "von / aus / des",
+      "example": "I'm from Germany.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "with",
+      "target": "mit",
+      "example": "I'm going to the cinema with my friend.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "for",
+      "target": "für / um ... zu",
+      "example": "This gift is for you.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "through / for",
+      "target": "durch / für / pro",
+      "example": "Thank you for your help.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "without",
+      "target": "ohne",
+      "example": "A coffee without sugar, please.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "over / above",
+      "target": "über / auf",
+      "example": "The painting is above the fireplace.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "until",
+      "target": "bis",
+      "example": "I work until six.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "since / from",
+      "target": "seit / von",
+      "example": "I've lived here for a year.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "between",
+      "target": "zwischen",
+      "example": "The bank is between the cinema and the pharmacy.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "near",
+      "target": "in der Nähe von",
+      "example": "The station is near here.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "far from",
+      "target": "weit von",
+      "example": "The airport is far from the centre.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "in front of",
+      "target": "vor",
+      "example": "The car is in front of the door.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "behind",
+      "target": "hinter",
+      "example": "The garden is behind the house.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "on",
+      "target": "auf / oben auf",
+      "example": "The keys are on the table.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "under",
+      "target": "unter",
+      "example": "The cat is under the bed.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "next to",
+      "target": "neben",
+      "example": "The pharmacy is next to the supermarket.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "inside",
+      "target": "innerhalb von / in",
+      "example": "The keys are inside the bag.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "outside",
+      "target": "außerhalb von",
+      "example": "We wait outside the building.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "before",
+      "target": "vor (zeitlich)",
+      "example": "Call me before ten.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "after",
+      "target": "nach (zeitlich)",
+      "example": "I'll see you after the meeting.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "during",
+      "target": "während",
+      "example": "Don't talk during the film.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "according to",
+      "target": "gemäß / laut",
+      "example": "According to the map, we're here.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "against",
+      "target": "gegen",
+      "example": "I'm against this decision.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "towards / around",
+      "target": "in Richtung / gegen (zeitlich)",
+      "example": "I'll arrive around three.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to the",
+      "target": "zum / zur (a + el)",
+      "example": "I'm going to the market.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "from the",
+      "target": "vom / des (de + el)",
+      "example": "I'm coming from work.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "while",
+      "target": "während",
+      "example": "I listen to music while I cook.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "except",
+      "target": "außer / ausgenommen",
+      "example": "Everyone came except Ana.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

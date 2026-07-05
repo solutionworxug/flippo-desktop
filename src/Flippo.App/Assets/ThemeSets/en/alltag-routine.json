@@ -1,0 +1,249 @@
+{
+  "id": "en-alltag-routine",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Alltag Routine",
+  "entries": [
+    {
+      "source": "to get up",
+      "target": "aufstehen",
+      "example": "I get up at seven o'clock every morning.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to wake up",
+      "target": "aufwachen",
+      "example": "I wake up early, but I stay in bed.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to shower",
+      "target": "sich duschen",
+      "example": "I shower with cold water to wake up properly.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to have breakfast",
+      "target": "frühstücken",
+      "example": "What do you prefer to have for breakfast today?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "breakfast",
+      "target": "das Frühstück",
+      "example": "Breakfast is the most important meal of the day.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to brush your teeth",
+      "target": "Zähne putzen",
+      "example": "You should brush your teeth after every meal.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to get dressed",
+      "target": "sich anziehen",
+      "example": "I get dressed quickly because I'm late.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to leave the house",
+      "target": "das Haus verlassen",
+      "example": "I leave the house at eight to go to work.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to go to work",
+      "target": "zur Arbeit gehen",
+      "example": "I go to work by public transport.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to do the shopping",
+      "target": "einkaufen (Lebensmittel)",
+      "example": "On Saturday morning I do the shopping at the supermarket.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to cook",
+      "target": "kochen",
+      "example": "I like to cook dinner for my family.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "lunch",
+      "target": "das Mittagessen",
+      "example": "I prepare lunch to take to the office.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "dinner",
+      "target": "das Abendessen",
+      "example": "Dinner is ready, come to the table!",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to go to bed",
+      "target": "ins Bett gehen",
+      "example": "I go to bed early when I'm tired.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to sleep",
+      "target": "schlafen",
+      "example": "I need to sleep at least eight hours.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to take out the rubbish",
+      "target": "den Abfall wegbringen",
+      "example": "It's your turn to take out the rubbish tonight.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to do the dishes",
+      "target": "das Geschirr spülen",
+      "example": "I always do the dishes after dinner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to put on the washing machine",
+      "target": "die Waschmaschine einschalten",
+      "example": "I have to put on the washing machine because I have no clean clothes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to tidy up",
+      "target": "aufräumen",
+      "example": "I have to tidy up my room this weekend.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to clean the flat",
+      "target": "die Wohnung putzen",
+      "example": "We clean the house together on Fridays.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to rest",
+      "target": "ausruhen / sich erholen",
+      "example": "After work I like to rest on the sofa.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to watch television",
+      "target": "fernsehen",
+      "example": "We watch television for a while before sleeping.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "free time",
+      "target": "die Freizeit",
+      "example": "In my free time I like to read books.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "everyday life",
+      "target": "der Alltag",
+      "example": "The routine of everyday life can be stressful.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "habit / routine",
+      "target": "die Gewohnheit / die Routine",
+      "example": "Having a good morning routine is important.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to stay at home",
+      "target": "zu Hause bleiben",
+      "example": "The weather is bad today, I prefer to stay at home.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to meet friends",
+      "target": "Freunde treffen",
+      "example": "I met friends for a coffee.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to go for a walk",
+      "target": "einen Spaziergang machen",
+      "example": "We go for a walk in the park every afternoon.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to hurry",
+      "target": "sich beeilen",
+      "example": "Hurry up, the train is about to leave!",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    },
+    {
+      "source": "to arrive late",
+      "target": "zu spät kommen",
+      "example": "Sorry for arriving late, there was a lot of traffic.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Alltag"
+    }
+  ]
+}

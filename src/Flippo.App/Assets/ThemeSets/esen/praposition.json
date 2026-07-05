@@ -1,0 +1,249 @@
+{
+  "id": "esen-praposition",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Präposition",
+  "entries": [
+    {
+      "source": "en",
+      "target": "in / on / at",
+      "example": "El libro está en la mesa.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "a",
+      "target": "to / at",
+      "example": "Voy a casa a las tres.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "de",
+      "target": "from / of",
+      "example": "Soy de Alemania.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "con",
+      "target": "with",
+      "example": "Voy al cine con mi amigo.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "para",
+      "target": "for / in order to",
+      "example": "Este regalo es para ti.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "por",
+      "target": "through / for / per",
+      "example": "Gracias por tu ayuda.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sin",
+      "target": "without",
+      "example": "Café sin azúcar por favor.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sobre",
+      "target": "on / about",
+      "example": "El cuadro está sobre la chimenea.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hasta",
+      "target": "until",
+      "example": "Trabajo hasta las seis.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "desde",
+      "target": "since / from",
+      "example": "Vivo aquí desde hace un año.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "entre",
+      "target": "between",
+      "example": "El banco está entre el cine y la farmacia.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cerca de",
+      "target": "near",
+      "example": "La estación está cerca de aquí.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lejos de",
+      "target": "far from",
+      "example": "El aeropuerto está lejos del centro.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "delante de",
+      "target": "in front of",
+      "example": "El coche está delante de la puerta.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "detrás de",
+      "target": "behind",
+      "example": "El jardín está detrás de la casa.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "encima de",
+      "target": "on top of",
+      "example": "Las llaves están encima de la mesa.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "debajo de",
+      "target": "under",
+      "example": "El gato está debajo de la cama.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "al lado de",
+      "target": "next to",
+      "example": "La farmacia está al lado del supermercado.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dentro de",
+      "target": "inside",
+      "example": "Las llaves están dentro del bolso.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fuera de",
+      "target": "outside of",
+      "example": "Esperamos fuera del edificio.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "antes de",
+      "target": "before",
+      "example": "Llámame antes de las diez.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "después de",
+      "target": "after",
+      "example": "Te veo después de la reunión.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "durante",
+      "target": "during",
+      "example": "No hables durante la película.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "según",
+      "target": "according to",
+      "example": "Según el mapa estamos aquí.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "contra",
+      "target": "against",
+      "example": "Estoy contra esa decisión.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacia",
+      "target": "toward",
+      "example": "Llegaré hacia las tres.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "al",
+      "target": "to the",
+      "example": "Voy al mercado.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "del",
+      "target": "from the",
+      "example": "Vengo del trabajo.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mientras",
+      "target": "while",
+      "example": "Escucho música mientras cocino.",
+      "pos": "Konjunktion",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "excepto",
+      "target": "except",
+      "example": "Todos vinieron excepto Ana.",
+      "pos": "Präposition",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "fren-verben-alltag",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Verben Alltag",
+  "entries": [
+    {
+      "source": "se lever",
+      "target": "to get up",
+      "example": "Je me lève à sept heures chaque matin.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se doucher",
+      "target": "to take a shower",
+      "example": "Je me douche avant le petit-déjeuner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "s'habiller",
+      "target": "to get dressed",
+      "example": "Les enfants s'habillent seuls.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "prendre le petit-déjeuner",
+      "target": "to have breakfast",
+      "example": "Je prends un café au lait et des tartines au petit-déjeuner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aller au travail",
+      "target": "to go to work",
+      "example": "Je vais au travail en métro.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "déjeuner",
+      "target": "to have lunch",
+      "example": "Nous déjeunons à la cantine de l'entreprise.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dîner",
+      "target": "to have dinner",
+      "example": "Nous dînons à neuf heures en famille.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se coucher",
+      "target": "to lie down / to go to bed",
+      "example": "Je me couche à onze heures.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dormir",
+      "target": "to sleep",
+      "example": "Je dors huit heures chaque nuit.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cuisiner",
+      "target": "to cook",
+      "example": "C'est moi qui cuisine le lundi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "acheter",
+      "target": "to buy",
+      "example": "J'achète le pain à la boulangerie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nettoyer",
+      "target": "to clean",
+      "example": "Je nettoie la maison le samedi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "laver",
+      "target": "to wash",
+      "example": "Je lave le linge le dimanche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "repasser",
+      "target": "to iron",
+      "example": "Je déteste repasser le linge.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire la vaisselle",
+      "target": "to do the dishes",
+      "example": "Je fais la vaisselle après le dîner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire le lit",
+      "target": "to make the bed",
+      "example": "Je fais le lit dès que je me lève.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "promener le chien",
+      "target": "to walk the dog",
+      "example": "Je promène le chien trois fois par jour.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "téléphoner",
+      "target": "to call / to phone",
+      "example": "Je téléphone à mes parents chaque dimanche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "regarder la télé",
+      "target": "to watch TV",
+      "example": "Je regarde la télé une heure avant de dormir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire les courses",
+      "target": "to do the grocery shopping",
+      "example": "Je fais les courses le vendredi après-midi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "payer les factures",
+      "target": "to pay the bills",
+      "example": "Je paie les factures au début du mois.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aller chercher les enfants",
+      "target": "to pick up the children",
+      "example": "Je vais chercher les enfants à l'école à trois heures.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se doucher le soir",
+      "target": "to shower in the evening",
+      "example": "Je préfère me doucher le soir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se reposer",
+      "target": "to rest",
+      "example": "Je me repose un peu après le repas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aller se promener",
+      "target": "to go for a walk",
+      "example": "Nous allons nous promener après le dîner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire du sport",
+      "target": "to do sports",
+      "example": "Je fais du sport trois fois par semaine.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "retrouver des amis",
+      "target": "to meet friends",
+      "example": "J'ai retrouvé mes amis samedi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "parler avec la famille",
+      "target": "to talk with the family",
+      "example": "Je parle avec ma famille en visioconférence.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "consulter le portable",
+      "target": "to check the phone",
+      "example": "Je consulte le portable dès que je me réveille.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "éteindre la lumière",
+      "target": "to turn off the light",
+      "example": "Éteins la lumière en sortant.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

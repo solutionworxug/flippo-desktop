@@ -1,0 +1,249 @@
+{
+  "id": "de-obst-und-gemuse",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Obst und Gemüse",
+  "entries": [
+    {
+      "source": "der Knoblauch",
+      "target": "garlic",
+      "example": "Knoblauch ist wichtig in der spanischen Küche.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Mandarine",
+      "target": "tangerine",
+      "example": "Im Winter esse ich viele Mandarinen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kartoffel",
+      "target": "potato",
+      "example": "Pommes aus Kartoffeln sind sehr beliebt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Mais",
+      "target": "corn",
+      "example": "Mais wird viel in der mexikanischen Küche verwendet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Tomate",
+      "target": "tomato",
+      "example": "Der Salat enthält Tomate und Gurke.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Zwiebel",
+      "target": "onion",
+      "example": "Die Zwiebel gibt der Suppe viel Geschmack.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Himbeere",
+      "target": "raspberry",
+      "example": "Himbeeren schmecken sehr gut mit Sahne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Erdbeere",
+      "target": "strawberry",
+      "example": "Erdbeeren mit Sahne sind ein typischer Nachtisch.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Birne",
+      "target": "pear",
+      "example": "Diese Birne ist reif und sehr süß.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kirsche",
+      "target": "cherry",
+      "example": "Die Kirschen von diesem Baum sind köstlich.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Zitrone",
+      "target": "lemon",
+      "example": "Gib den Saft einer Zitrone in die Limonade.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Honigmelone",
+      "target": "melon",
+      "example": "Honigmelone mit Schinken ist eine spanische Vorspeise.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Wassermelone",
+      "target": "watermelon",
+      "example": "Wassermelone ist im Sommer sehr erfrischend.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Pfirsich",
+      "target": "peach",
+      "example": "Die Pfirsiche aus Aragón sind sehr berühmt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Apfel",
+      "target": "apple",
+      "example": "Ein Apfel am Tag hält den Arzt fern.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Banane",
+      "target": "banana",
+      "example": "Die Banane ist reich an Kalium.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Obst",
+      "target": "fruit",
+      "example": "Ich esse jeden Morgen frisches Obst.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Orange",
+      "target": "orange",
+      "example": "Zum Frühstück presse ich eine Orange aus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Weintrauben",
+      "target": "grapes",
+      "example": "Die Weintrauben an Silvester bringen Glück.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kiwi",
+      "target": "kiwi",
+      "example": "Die Kiwi enthält viel Vitamin C.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Paprika",
+      "target": "pepper",
+      "example": "Die rote Paprika ist süß und knackig.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Karotte",
+      "target": "carrot",
+      "example": "Karotten sind gut für die Augen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Gurke",
+      "target": "cucumber",
+      "example": "Gurke ist sehr erfrischend im Salat.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Kopfsalat",
+      "target": "lettuce",
+      "example": "Ich habe einen Kopfsalat für den Salat gekauft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Brokkoli",
+      "target": "broccoli",
+      "example": "Brokkoli ist sehr gesund.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Kohl",
+      "target": "cabbage",
+      "example": "Kohl wird viel im Eintopf verwendet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Avocado",
+      "target": "avocado",
+      "example": "Avocado schmeckt sehr gut mit Zitrone und Salz.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Spargel",
+      "target": "asparagus",
+      "example": "Im Frühling esse ich frischen Spargel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Blumenkohl",
+      "target": "cauliflower",
+      "example": "Überbackener Blumenkohl ist köstlich.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Gemüse",
+      "target": "vegetables",
+      "example": "Du solltest jeden Tag Gemüse essen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

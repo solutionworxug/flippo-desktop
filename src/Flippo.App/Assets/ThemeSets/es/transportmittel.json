@@ -1,0 +1,241 @@
+{
+  "id": "es-transportmittel",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Transportmittel",
+  "entries": [
+    {
+      "source": "la bicicleta",
+      "target": "das Fahrrad",
+      "example": "Damos una vuelta en bicicleta los domingos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el crucero",
+      "target": "die Kreuzfahrt",
+      "example": "Hicimos un crucero por el Mediterráneo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el conductor",
+      "target": "der Fahrer",
+      "example": "El conductor del autobús fue muy amable.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la carretera",
+      "target": "die Landstraße",
+      "example": "La carretera estaba muy transitada.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la calle",
+      "target": "die Straße",
+      "example": "Esta calle es peatonal — no pueden entrar coches.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el paso de cebra",
+      "target": "der Zebrastreifen",
+      "example": "Cruza por el paso de cebra.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el semáforo",
+      "target": "die Ampel",
+      "example": "Para en el semáforo cuando está en rojo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el cruce",
+      "target": "die Kreuzung",
+      "example": "Gira a la izquierda en el próximo cruce.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el plano de ciudad",
+      "target": "der Stadtplan",
+      "example": "Consultamos el plano de ciudad para no perdernos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aparcamiento",
+      "target": "der Parkplatz",
+      "example": "El aparcamiento está completo a esta hora.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "reservar en internet",
+      "target": "im Internet reservieren",
+      "example": "Prefiero reservar en internet los billetes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la zona peatonal",
+      "target": "die Fußgängerzone",
+      "example": "La zona peatonal está llena de tiendas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la estación",
+      "target": "der Bahnhof",
+      "example": "La estación de tren está en el centro.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el andén",
+      "target": "der Bahnsteig",
+      "example": "El tren sale desde el andén número tres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ir a pie",
+      "target": "zu Fuß gehen",
+      "example": "Voy a pie al trabajo todas las mañanas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el medio de transporte",
+      "target": "das Verkehrsmittel",
+      "example": "El metro es mi medio de transporte favorito.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tranvía",
+      "target": "die Straßenbahn",
+      "example": "El tranvía pasa por delante de mi casa.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el barco",
+      "target": "das Schiff",
+      "example": "Cruzamos el río en barco.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el asiento",
+      "target": "der Sitzplatz",
+      "example": "Reservé un asiento junto a la ventana.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la moto",
+      "target": "das Motorrad",
+      "example": "Se mueve por la ciudad en moto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el metro",
+      "target": "die U-Bahn",
+      "example": "El metro es más rápido que el autobús.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aeropuerto",
+      "target": "der Flughafen",
+      "example": "Hay que llegar al aeropuerto con dos horas de antelación.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la autovía",
+      "target": "die Autobahn",
+      "example": "La autovía a Barcelona está cortada por obras.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el autobús",
+      "target": "der Bus",
+      "example": "El autobús al centro sale cada veinte minutos.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el billete",
+      "target": "die Fahrkarte",
+      "example": "Compré el billete de avión con antelación.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el vuelo",
+      "target": "der Flug",
+      "example": "El vuelo a Madrid dura dos horas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el mapa",
+      "target": "die Karte",
+      "example": "Descargué el mapa de la ciudad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el tren",
+      "target": "der Zug",
+      "example": "El tren de alta velocidad llega en tres horas.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el taxi",
+      "target": "das Taxi",
+      "example": "Cogimos un taxi desde el aeropuerto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

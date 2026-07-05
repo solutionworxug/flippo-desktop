@@ -1,0 +1,249 @@
+{
+  "id": "fren-adverbien",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Adverbien",
+  "entries": [
+    {
+      "source": "quelque chose",
+      "target": "something",
+      "example": "Il manque quelque chose dans cette recette.",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "là",
+      "target": "there",
+      "example": "Le taxi est garé là.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "un peu",
+      "target": "a little",
+      "example": "Parle un peu plus lentement s'il te plaît.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "encore une fois",
+      "target": "once more",
+      "example": "Peux-tu le répéter encore une fois ?",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à droite",
+      "target": "right",
+      "example": "Tourne à droite au feu.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à gauche",
+      "target": "left",
+      "example": "La banque est à gauche.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "avant",
+      "target": "before / beforehand",
+      "example": "Lave-toi les mains avant de manger.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aussi / si",
+      "target": "so",
+      "example": "Ce n'est pas aussi difficile qu'il paraît.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "d'accord",
+      "target": "agreed",
+      "example": "D'accord, on se voit demain.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "plus tard",
+      "target": "later",
+      "example": "Je t'appelle plus tard.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "presque",
+      "target": "almost",
+      "example": "J'ai presque raté le train.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aussi",
+      "target": "also",
+      "example": "Moi aussi je veux y aller.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "seulement",
+      "target": "only",
+      "example": "J'ai seulement besoin de cinq minutes.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "d'accord",
+      "target": "okay",
+      "example": "D'accord, à demain alors.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "encore",
+      "target": "yet / still",
+      "example": "Je n'ai pas encore mangé.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "parfois",
+      "target": "sometimes",
+      "example": "Parfois je vais à la salle de sport le matin.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "derrière",
+      "target": "behind / at the back",
+      "example": "Le jardin est derrière la maison.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "devant",
+      "target": "in front",
+      "example": "La voiture est garée devant.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à l'intérieur",
+      "target": "inside",
+      "example": "Les enfants sont à l'intérieur en train de jouer.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "en bas",
+      "target": "downstairs",
+      "example": "Les clés sont en bas sur la table.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "en haut",
+      "target": "upstairs",
+      "example": "L'appartement est en haut au troisième étage.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "il y a",
+      "target": "there is / there are",
+      "example": "Il y a un bon restaurant près d'ici.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dehors",
+      "target": "outside",
+      "example": "Il fait froid dehors, prends le manteau.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "peut-être",
+      "target": "maybe",
+      "example": "Nous arriverons peut-être en retard.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ensuite / après",
+      "target": "afterward",
+      "example": "D'abord je mange et ensuite je sors.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "assez",
+      "target": "quite / enough",
+      "example": "J'ai déjà assez mangé, merci.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "normalement",
+      "target": "normally",
+      "example": "Normalement je prends le petit-déjeuner à huit heures.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tout de suite",
+      "target": "right away",
+      "example": "J'arrive tout de suite, juste un instant.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "déjà",
+      "target": "already",
+      "example": "J'ai déjà fini les devoirs.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "toujours pas / encore",
+      "target": "still",
+      "example": "Personne n'est encore arrivé.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

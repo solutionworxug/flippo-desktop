@@ -1,0 +1,249 @@
+{
+  "id": "de-einkaufen",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Einkaufen",
+  "entries": [
+    {
+      "source": "die Kleidergröße",
+      "target": "clothing size",
+      "example": "Ich kenne meine Kleidergröße nicht genau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Schuhgröße",
+      "target": "shoe size",
+      "example": "Welche Schuhgröße hast du?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "anprobieren",
+      "target": "try on",
+      "example": "Darf ich diese Hose bitte anprobieren?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zu eng",
+      "target": "too tight",
+      "example": "Dieses Hemd ist mir zu eng.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zu klein",
+      "target": "too small",
+      "example": "Die Schuhe sind mir zu klein.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Verkäuferin",
+      "target": "saleswoman",
+      "example": "Die Verkäuferin hat mir sehr geholfen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Verkäufer",
+      "target": "salesman",
+      "example": "Der Verkäufer zeigte mir die neuen Angebote.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Einkaufszentrum",
+      "target": "shopping center",
+      "example": "Am Samstag gehen wir ins Einkaufszentrum.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Geschäft / der Laden",
+      "target": "shop / store",
+      "example": "Dieses Geschäft ist bis zehn Uhr geöffnet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Umkleidekabine",
+      "target": "fitting room",
+      "example": "Die Umkleidekabine ist hinten rechts.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Kassenzettel",
+      "target": "receipt",
+      "example": "Heb den Kassenzettel für den Umtausch auf.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kasse",
+      "target": "checkout",
+      "example": "An der Kasse musst du die Kleidung bezahlen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zahlen / bezahlen",
+      "target": "pay",
+      "example": "Kann ich mit Kreditkarte zahlen?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bar bezahlen",
+      "target": "pay in cash",
+      "example": "Heute möchte ich lieber bar bezahlen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kreditkarte",
+      "target": "credit card",
+      "example": "Ich habe kein Bargeld und zahle mit Kreditkarte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Rabatt",
+      "target": "discount",
+      "example": "Auf diese Jacke gibt es zwanzig Prozent Rabatt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Ausverkauf / Schlussverkauf",
+      "target": "sale / clearance sale",
+      "example": "Im Ausverkauf kaufe ich immer viel Kleidung.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "kosten",
+      "target": "cost",
+      "example": "Wie viel kostet dieses elegante Kleid?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Preis",
+      "target": "price",
+      "example": "Der Preis dieser Schuhe ist sehr niedrig.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "teuer",
+      "target": "expensive",
+      "example": "Diese Designertasche ist zu teuer.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "billig / günstig",
+      "target": "cheap / inexpensive",
+      "example": "Die Kleidung auf diesem Markt ist sehr billig.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "einkaufen gehen / shoppen",
+      "target": "go shopping",
+      "example": "Meine Schwester geht freitags gern einkaufen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Einkaufstasche",
+      "target": "shopping bag",
+      "example": "Ich trage eine Einkaufstasche aus Stoff.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Einkaufswagen",
+      "target": "shopping cart",
+      "example": "Leg die Sachen in den Einkaufswagen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "umtauschen",
+      "target": "exchange",
+      "example": "Ich möchte dieses T-Shirt umtauschen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zurückgeben",
+      "target": "return",
+      "example": "Kann ich Kleidung zurückgeben, wenn sie nicht gefällt?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kleidung",
+      "target": "clothing",
+      "example": "Ich muss neue Kleidung für den Sommer kaufen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Schaufenster",
+      "target": "shop window",
+      "example": "Im Schaufenster habe ich ein schönes Kleid gesehen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "passen",
+      "target": "fit",
+      "example": "Diese Hose passt dir wirklich gut.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zu weit",
+      "target": "too loose",
+      "example": "Dieser Rock ist mir zu weit.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

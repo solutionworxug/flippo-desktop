@@ -1,0 +1,249 @@
+{
+  "id": "esen-emotionen",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Emotionen",
+  "entries": [
+    {
+      "source": "alegre / feliz",
+      "target": "happy",
+      "example": "Hoy estoy muy feliz porque vienen mis amigos.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "triste",
+      "target": "sad",
+      "example": "Ella está triste porque ha perdido su libro favorito.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "enfadado / furioso",
+      "target": "angry",
+      "example": "Mi padre está enfadado por el desorden.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "asustado / temeroso",
+      "target": "scared",
+      "example": "El perro está asustado por los truenos.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sorprendido",
+      "target": "surprised",
+      "example": "Estamos sorprendidos con la fiesta sorpresa.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tranquilo / calmado",
+      "target": "calm",
+      "example": "Después de un té, me siento más tranquilo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nervioso",
+      "target": "nervous",
+      "example": "Él está muy nervioso antes de la entrevista.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "entusiasmado",
+      "target": "excited",
+      "example": "Los niños están entusiasmados con el viaje.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "preocupado",
+      "target": "worried",
+      "example": "Mi madre está preocupada por mi salud.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aburrido",
+      "target": "bored",
+      "example": "Estoy aburrido porque no hay nada que hacer aquí.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "decepcionado",
+      "target": "disappointed",
+      "example": "El cliente está decepcionado con el servicio.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "orgulloso",
+      "target": "proud",
+      "example": "Estamos muy orgullosos de tus buenas notas.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "celoso",
+      "target": "jealous",
+      "example": "Él es muy celoso con sus cosas.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "envidioso",
+      "target": "envious",
+      "example": "No seas envidioso del éxito de los demás.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "enamorado",
+      "target": "in love",
+      "example": "Román está completamente enamorado de Laura.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "solo",
+      "target": "lonely",
+      "example": "A veces se siente sola en la gran ciudad.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "agradecido",
+      "target": "grateful",
+      "example": "Estoy muy agradecido por toda tu ayuda.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "satisfecho / contento",
+      "target": "satisfied",
+      "example": "El jefe está satisfecho con nuestro trabajo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aliviado",
+      "target": "relieved",
+      "example": "Me siento aliviado después de hablar con ella.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "curioso",
+      "target": "curious",
+      "example": "El niño es muy curioso y lo pregunta todo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tímido / avergonzado",
+      "target": "shy / embarrassed",
+      "example": "Ella está avergonzada por el error.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "esperanzado",
+      "target": "hopeful",
+      "example": "Estamos esperanzados con los nuevos cambios.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "optimista",
+      "target": "optimistic",
+      "example": "A pesar de los problemas, él sigue siendo optimista.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pesimista",
+      "target": "pessimistic",
+      "example": "No seas tan pesimista, todo va a salir bien.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "irritado / molesto",
+      "target": "annoyed",
+      "example": "El ruido constante me tiene muy molesto.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "inseguro",
+      "target": "insecure",
+      "example": "Se siente inseguro al hablar en público.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "seguro de sí mismo",
+      "target": "self-confident",
+      "example": "Ella es una mujer muy segura de sí misma.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "agotado / estresado",
+      "target": "exhausted / stressed",
+      "example": "Estoy agotado después de un largo día de trabajo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "eufórico",
+      "target": "euphoric",
+      "example": "La afición está eufórica tras la victoria.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "melancólico",
+      "target": "melancholic",
+      "example": "La música lenta me pone un poco melancólico.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

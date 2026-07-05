@@ -1,0 +1,249 @@
+{
+  "id": "esen-personenbeschreibungen",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Personenbeschreibungen",
+  "entries": [
+    {
+      "source": "alto",
+      "target": "tall",
+      "example": "Mi hermano es muy alto — mide 1,90 m.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bajo",
+      "target": "short",
+      "example": "Es bastante bajo pero muy ágil.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "delgado",
+      "target": "thin / slim",
+      "example": "Ha adelgazado — está muy delgado.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "gordo",
+      "target": "fat",
+      "example": "El gato está gordo de tanto comer.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "guapo",
+      "target": "handsome / good-looking",
+      "example": "Su novio es muy guapo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "feo",
+      "target": "ugly",
+      "example": "No es feo — simplemente es diferente.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "joven",
+      "target": "young",
+      "example": "Parece muy joven para su edad.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mayor",
+      "target": "older / grown-up",
+      "example": "Su hermano mayor tiene treinta años.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "anciano",
+      "target": "elderly",
+      "example": "El anciano camina con un bastón.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rubio",
+      "target": "blond",
+      "example": "Tiene el pelo rubio y los ojos azules.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "moreno",
+      "target": "dark-haired",
+      "example": "Es moreno de ojos oscuros.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pelirrojo",
+      "target": "red-haired",
+      "example": "Las personas pelirrojas tienen piel muy clara.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "calvo",
+      "target": "bald",
+      "example": "Mi tío es calvo desde los treinta años.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fuerte",
+      "target": "strong",
+      "example": "Es muy fuerte — va al gimnasio cada día.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "débil",
+      "target": "weak",
+      "example": "Se siente débil después de la enfermedad.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "deportista",
+      "target": "sporty",
+      "example": "Es muy deportista — practica tres deportes.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bonito",
+      "target": "pretty",
+      "example": "Tiene una sonrisa muy bonita.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "elegante",
+      "target": "elegant",
+      "example": "Va siempre muy elegante a la oficina.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sencillo",
+      "target": "plain / simple",
+      "example": "Viste de forma muy sencilla.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "famoso",
+      "target": "famous",
+      "example": "Es un actor muy famoso en todo el mundo.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "adinerado",
+      "target": "wealthy",
+      "example": "Vive en un barrio muy adinerado.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pobre",
+      "target": "poor",
+      "example": "La familia es pobre pero muy unida.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "casado",
+      "target": "married",
+      "example": "Está casado desde hace diez años.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "soltero",
+      "target": "single",
+      "example": "Sigue soltero aunque tiene treinta y cinco años.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "divorciado",
+      "target": "divorced",
+      "example": "Se divorció el año pasado.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "separado",
+      "target": "separated",
+      "example": "Están separados pero no divorciados.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "estúpido",
+      "target": "stupid",
+      "example": "Fue una decisión muy estúpida.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "de mediana edad",
+      "target": "middle-aged",
+      "example": "Es una mujer de mediana edad muy activa.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "el aspecto",
+      "target": "appearance",
+      "example": "Cuida mucho su aspecto personal.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la complexión",
+      "target": "build",
+      "example": "Tiene una complexión atlética.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "fren-arbeit-und-studium",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Arbeit und Studium",
+  "entries": [
+    {
+      "source": "le travail",
+      "target": "work / job",
+      "example": "Je cherche un nouveau travail.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bureau",
+      "target": "office",
+      "example": "Je travaille dans un bureau au centre-ville.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chef",
+      "target": "boss",
+      "example": "Mon chef est très exigeant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'employé",
+      "target": "employee",
+      "example": "L'entreprise a cent employés.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'entreprise",
+      "target": "company",
+      "example": "Je travaille dans une entreprise internationale.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le salaire",
+      "target": "salary",
+      "example": "Le salaire est versé le dernier jour du mois.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le contrat",
+      "target": "contract",
+      "example": "J'ai signé le contrat de travail aujourd'hui.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "travailler",
+      "target": "to work",
+      "example": "Je travaille huit heures par jour.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "étudier",
+      "target": "to study",
+      "example": "J'étudie l'espagnol tous les jours.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'université",
+      "target": "university",
+      "example": "J'ai étudié l'économie à l'université.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le lycée",
+      "target": "high school",
+      "example": "Ma fille va au lycée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'examen",
+      "target": "exam",
+      "example": "J'ai un examen d'espagnol demain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cours",
+      "target": "class / lesson",
+      "example": "Le cours commence à neuf heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le professeur",
+      "target": "teacher / professor",
+      "example": "Le professeur explique très bien.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'élève",
+      "target": "student / pupil",
+      "example": "Les élèves étudient beaucoup.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'ordinateur",
+      "target": "computer",
+      "example": "Je travaille toute la journée avec l'ordinateur.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la réunion",
+      "target": "meeting",
+      "example": "J'ai une réunion à dix heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le projet",
+      "target": "project",
+      "example": "Nous travaillons sur un nouveau projet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pause",
+      "target": "break",
+      "example": "Nous faisons une pause à onze heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'horaire",
+      "target": "schedule",
+      "example": "Mon horaire de travail est de neuf à dix-huit heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les études / la carrière",
+      "target": "studies / career",
+      "example": "Il a fait des études de médecine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le CV",
+      "target": "résumé",
+      "example": "J'ai envoyé le CV à trois entreprises.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les devoirs",
+      "target": "homework",
+      "example": "Les élèves ont beaucoup de devoirs aujourd'hui.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le livre",
+      "target": "book",
+      "example": "J'ai besoin du livre scolaire pour le cours.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le sac à dos",
+      "target": "backpack",
+      "example": "Il porte le sac à dos rempli de livres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le collègue",
+      "target": "colleague / classmate",
+      "example": "Mes collègues de travail sont très sympathiques.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "chercher du travail",
+      "target": "to look for work",
+      "example": "Il cherche du travail depuis des mois.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "partir à la retraite",
+      "target": "to retire",
+      "example": "Mon père part à la retraite l'année prochaine.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le diplôme",
+      "target": "degree",
+      "example": "Il a le diplôme d'ingénieur.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le rapport",
+      "target": "report",
+      "example": "Je dois rendre le rapport cet après-midi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

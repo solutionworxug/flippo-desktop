@@ -1,0 +1,249 @@
+{
+  "id": "fren-zeiten",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Zeiten",
+  "entries": [
+    {
+      "source": "l'hiver",
+      "target": "winter",
+      "example": "En hiver j'aime boire du chocolat chaud.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'automne",
+      "target": "autumn / fall",
+      "example": "En automne les feuilles deviennent orange.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le printemps",
+      "target": "spring",
+      "example": "Au printemps les arbres fleurissent.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'été",
+      "target": "summer",
+      "example": "En été nous allons à la plage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le jour",
+      "target": "day",
+      "example": "Aujourd'hui a été une journée très longue.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'heure",
+      "target": "hour",
+      "example": "Le vol dure deux heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la minute",
+      "target": "minute",
+      "example": "Le train arrive dans cinq minutes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'année",
+      "target": "year",
+      "example": "Cette année je veux apprendre l'espagnol.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la seconde",
+      "target": "second",
+      "example": "Le record du monde dure moins de dix secondes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la semaine",
+      "target": "week",
+      "example": "La semaine prochaine commencent les vacances.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la nuit",
+      "target": "night",
+      "example": "La nuit est très étoilée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "les vacances",
+      "target": "holidays / vacation",
+      "example": "Les vacances d'été durent deux mois.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le temps",
+      "target": "time",
+      "example": "Je n'ai pas le temps de regarder la télévision.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le week-end",
+      "target": "weekend",
+      "example": "Ce week-end nous allons à la campagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'après-midi / le soir",
+      "target": "afternoon / evening",
+      "example": "L'après-midi je me promène dans le parc.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "midi",
+      "target": "noon / midday",
+      "example": "À midi je mange à la maison.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bientôt",
+      "target": "soon",
+      "example": "Arrive vite, le film commence.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tout de suite",
+      "target": "right away / immediately",
+      "example": "J'arrive tout de suite, j'ai juste besoin d'une minute.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "toujours",
+      "target": "always",
+      "example": "J'arrive toujours à l'heure au travail.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "plus tard",
+      "target": "later",
+      "example": "Appelle-moi plus tard.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "maintenant",
+      "target": "now",
+      "example": "Je suis occupé en ce moment.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "jamais",
+      "target": "never",
+      "example": "Je n'arrive jamais en retard à un rendez-vous.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "demain",
+      "target": "tomorrow",
+      "example": "Demain j'ai une réunion importante.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aujourd'hui",
+      "target": "today",
+      "example": "Aujourd'hui est un jour très spécial.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hier",
+      "target": "yesterday",
+      "example": "Hier je suis allé au cinéma avec mes amis.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la quinzaine",
+      "target": "fortnight / two weeks",
+      "example": "Je touche mon salaire toutes les quinzaines.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le petit matin",
+      "target": "early morning hours",
+      "example": "Il est rentré à la maison au petit matin.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "à temps",
+      "target": "on time",
+      "example": "Je suis arrivé à temps pour le train.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tard",
+      "target": "late",
+      "example": "Aujourd'hui je me suis levé tard.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tôt",
+      "target": "early",
+      "example": "Demain je me lève tôt.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

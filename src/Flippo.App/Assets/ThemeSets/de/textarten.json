@@ -1,0 +1,249 @@
+{
+  "id": "de-textarten",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Textarten",
+  "entries": [
+    {
+      "source": "das Wort",
+      "target": "word",
+      "example": "Dieses Wort verstehe ich nicht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Satz",
+      "target": "sentence",
+      "example": "Bilde einen Satz mit diesem Wort.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Text",
+      "target": "text",
+      "example": "Lies den Text und beantworte die Fragen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Absatz",
+      "target": "paragraph",
+      "example": "Der Absatz soll fünf Zeilen haben.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Artikel (Text)",
+      "target": "article",
+      "example": "Er hat einen interessanten Artikel gelesen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Sprache",
+      "target": "language",
+      "example": "Sie spricht vier Sprachen fließend.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Punkt (Satzzeichen)",
+      "target": "full stop",
+      "example": "Vergiss den Punkt am Satzende nicht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Komma",
+      "target": "comma",
+      "example": "Vor \"aber\" steht ein Komma.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Ausrufezeichen",
+      "target": "exclamation mark",
+      "example": "Das Ausrufezeichen zeigt Überraschung.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Fragezeichen",
+      "target": "question mark",
+      "example": "Das Fragezeichen steht am Ende der Frage.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Untertitel",
+      "target": "subtitle",
+      "example": "Der Film hat deutsche Untertitel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Roman",
+      "target": "novel",
+      "example": "Ich lese gerade einen spannenden Roman.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Drama",
+      "target": "drama",
+      "example": "Das Drama hat mich sehr berührt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Komödie",
+      "target": "comedy",
+      "example": "Die Komödie hat uns zum Lachen gebracht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Autobiografie",
+      "target": "autobiography",
+      "example": "Ich habe die Autobiografie des Schriftstellers gelesen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Alphabet",
+      "target": "alphabet",
+      "example": "Das Alphabet hat sechsundzwanzig Buchstaben.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Protokoll / die Akte",
+      "target": "minutes / file",
+      "example": "Die Sekretärin schrieb das Protokoll der Sitzung.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Abkürzung",
+      "target": "abbreviation",
+      "example": "Was bedeutet diese Abkürzung?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die E-Mail",
+      "target": "email",
+      "example": "Ich schicke dir die Infos per E-Mail.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Zeitung",
+      "target": "newspaper",
+      "example": "Jeden Morgen lese ich die Zeitung.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Zeitschrift / das Magazin",
+      "target": "magazine",
+      "example": "Ich kaufe mir eine neue Zeitschrift.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Wörterbuch",
+      "target": "dictionary",
+      "example": "Schau im Wörterbuch nach, wenn du das Wort nicht kennst.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Gedicht",
+      "target": "poem",
+      "example": "Wir haben ein Gedicht auswendig gelernt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Brief",
+      "target": "letter",
+      "example": "Ich habe ihr einen Brief geschrieben.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Nachricht / die SMS",
+      "target": "message / text",
+      "example": "Ich schicke dir eine Nachricht, wenn ich ankomme.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Zusammenfassung",
+      "target": "summary",
+      "example": "Schreib eine kurze Zusammenfassung des Textes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "übersetzen",
+      "target": "to translate",
+      "example": "Kannst du diesen Satz übersetzen?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "schreiben",
+      "target": "to write",
+      "example": "Schreib deinen Namen auf das Formular.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lesen",
+      "target": "to read",
+      "example": "Jeden Abend lese ich ein Kapitel.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Buch",
+      "target": "book",
+      "example": "Ich habe viele Bücher zu Hause.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "es-emotionen",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Emotionen",
+  "entries": [
+    {
+      "source": "alegre / feliz",
+      "target": "fröhlich / glücklich",
+      "example": "Hoy estoy muy feliz porque vienen mis amigos.",
+      "pos": "Adjektiv",
+      "notes": "wird meistens mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "triste",
+      "target": "traurig",
+      "example": "Ella está triste porque ha perdido su libro favorito.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "enfadado / furioso",
+      "target": "wütend / zornig",
+      "example": "Mi padre está enfadado por el desorden.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "asustado / temeroso",
+      "target": "ängstlich / besorgt",
+      "example": "El perro está asustado por los truenos.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "sorprendido",
+      "target": "überrascht",
+      "example": "Estamos sorprendidos con la fiesta sorpresa.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "tranquilo / calmado",
+      "target": "gelassen / ruhig",
+      "example": "Después de un té, me siento más tranquilo.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' oder 'sentirse' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "nervioso",
+      "target": "nervös / aufgeregt",
+      "example": "Él está muy nervioso antes de la entrevista.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "entusiasmado",
+      "target": "begeistert",
+      "example": "Los niños están entusiasmados con el viaje.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "preocupado",
+      "target": "besorgt",
+      "example": "Mi madre está preocupada por mi salud.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "aburrido",
+      "target": "gelangweilt",
+      "example": "Estoy aburrido porque no hay nada que hacer aquí.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "decepcionado",
+      "target": "enttäuscht",
+      "example": "El cliente está decepcionado con el servicio.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "orgulloso",
+      "target": "stolz",
+      "example": "Estamos muy orgullosos de tus buenas notas.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet (stolz sein auf)",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "celoso",
+      "target": "eifersüchtig",
+      "example": "Él es muy celoso con sus cosas.",
+      "pos": "Adjektiv",
+      "notes": "kann mit 'ser' (Eigenschaft) oder 'estar' verwendet werden",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "envidioso",
+      "target": "neidisch",
+      "example": "No seas envidioso del éxito de los demás.",
+      "pos": "Adjektiv",
+      "notes": "kann mit 'ser' oder 'estar' verwendet werden",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "enamorado",
+      "target": "verliebt",
+      "example": "Román está completamente enamorado de Laura.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet (enamorado de)",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "solo",
+      "target": "einsam",
+      "example": "A veces se siente sola en la gran ciudad.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' oder 'sentirse' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "agradecido",
+      "target": "dankbar",
+      "example": "Estoy muy agradecido por toda tu ayuda.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet (agradecido por)",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "satisfecho / contento",
+      "target": "zufrieden",
+      "example": "El jefe está satisfecho con nuestro trabajo.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "aliviado",
+      "target": "erleichtert",
+      "example": "Me siento aliviado después de hablar con ella.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' oder 'sentirse' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "curioso",
+      "target": "neugierig",
+      "example": "El niño es muy curioso y lo pregunta todo.",
+      "pos": "Adjektiv",
+      "notes": "wird meistens mit 'ser' (Eigenschaft) verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "tímido / avergonzado",
+      "target": "schüchtern / verlegen",
+      "example": "Ella está avergonzada por el error.",
+      "pos": "Adjektiv",
+      "notes": "avergonzado wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "esperanzado",
+      "target": "hoffnungsvoll",
+      "example": "Estamos esperanzados con los nuevos cambios.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "optimista",
+      "target": "optimistisch",
+      "example": "A pesar de los problemas, él sigue siendo optimista.",
+      "pos": "Adjektiv",
+      "notes": "wird oft mit 'ser' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "pesimista",
+      "target": "pessimistisch",
+      "example": "No seas tan pesimista, todo va a salir bien.",
+      "pos": "Adjektiv",
+      "notes": "wird oft mit 'ser' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "irritado / molesto",
+      "target": "irritiert / genervt",
+      "example": "El ruido constante me tiene muy molesto.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "inseguro",
+      "target": "unsicher",
+      "example": "Se siente inseguro al hablar en público.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'ser' oder 'estar/sentirse' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "seguro de sí mismo",
+      "target": "selbstbewusst / sicher",
+      "example": "Ella es una mujer muy segura de sí misma.",
+      "pos": "Adjektiv",
+      "notes": "wird oft mit 'ser' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "agotado / estresado",
+      "target": "erschöpft / gestresst",
+      "example": "Estoy agotado después de un largo día de trabajo.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "eufórico",
+      "target": "euphorisch",
+      "example": "La afición está eufórica tras la victoria.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' verwendet",
+      "tags": "Emotionen"
+    },
+    {
+      "source": "melancólico",
+      "target": "melancholisch",
+      "example": "La música lenta me pone un poco melancólico.",
+      "pos": "Adjektiv",
+      "notes": "wird mit 'estar' oder 'ponerse' verwendet",
+      "tags": "Emotionen"
+    }
+  ]
+}

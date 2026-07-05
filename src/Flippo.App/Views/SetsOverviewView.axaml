@@ -25,6 +25,7 @@
                     </SplitButton.Flyout>
                 </SplitButton>
                 <Button Content="{loc:T Sets_NewSet}" Command="{Binding NewSetCommand}"/>
+                <Button Content="{loc:T Sets_ImportThemeSet}" Command="{Binding ImportThemeSetCommand}"/>
                 <Button Content="{loc:T Sets_ImportFile}" Command="{Binding ImportFileCommand}"/>
                 <Button Content="{loc:T Sets_ImportBackup}" Command="{Binding ImportCommand}"/>
                 <Button Content="{loc:T Sets_ExportBackup}" Command="{Binding ExportCommand}"/>

@@ -1,0 +1,249 @@
+{
+  "id": "en-adverbien",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Adverbien",
+  "entries": [
+    {
+      "source": "something",
+      "target": "etwas",
+      "example": "Something is missing from this recipe.",
+      "pos": "Pronomen",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "there",
+      "target": "da",
+      "example": "The taxi is parked there.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "a little",
+      "target": "ein bisschen",
+      "example": "Please speak a little more slowly.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "again",
+      "target": "noch einmal",
+      "example": "Can you repeat it again?",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "on the right",
+      "target": "rechts",
+      "example": "Turn right at the traffic light.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "on the left",
+      "target": "links",
+      "example": "The bank is on the left.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "before",
+      "target": "davor / vorher",
+      "example": "Wash your hands before eating.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "so",
+      "target": "so",
+      "example": "It is not so difficult.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "agreed",
+      "target": "einverstanden",
+      "example": "Agreed — see you tomorrow.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "later",
+      "target": "später",
+      "example": "I will call you later.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "almost",
+      "target": "beinahe",
+      "example": "I almost missed the train.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "also",
+      "target": "auch",
+      "example": "I also want to go.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "only",
+      "target": "nur / bloß",
+      "example": "I only need five minutes.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "okay",
+      "target": "okay",
+      "example": "Okay — see you tomorrow then.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "still",
+      "target": "noch",
+      "example": "I still have not eaten.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sometimes",
+      "target": "manchmal",
+      "example": "Sometimes I go to the gym in the morning.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "in the back",
+      "target": "hinten",
+      "example": "The garden is in the back.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "in front",
+      "target": "davor / vorne",
+      "example": "The car is parked in front.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "inside",
+      "target": "drinnen",
+      "example": "The children are playing inside.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "downstairs",
+      "target": "unten",
+      "example": "The keys are downstairs on the table.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "upstairs",
+      "target": "oben",
+      "example": "The apartment is upstairs on the third floor.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "there is / there are",
+      "target": "es gibt",
+      "example": "There is a good restaurant near here.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "outside",
+      "target": "draußen",
+      "example": "It is cold outside; take your coat.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "maybe",
+      "target": "vielleicht",
+      "example": "Maybe we will arrive late.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "afterwards",
+      "target": "danach / nachher",
+      "example": "First I eat, and afterwards I go out.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quite / enough",
+      "target": "ziemlich / genug",
+      "example": "I have eaten enough, thanks.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "usually",
+      "target": "normalerweise",
+      "example": "I usually have breakfast at eight.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "immediately",
+      "target": "sofort",
+      "example": "I will come immediately; just a moment.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "already",
+      "target": "schon / bereits",
+      "example": "I have already finished the homework.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "still",
+      "target": "noch / immer noch",
+      "example": "No one has arrived yet.",
+      "pos": "Adverb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "fr-verkehr",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Deutsch",
+  "title": "Verkehr",
+  "entries": [
+    {
+      "source": "la voiture",
+      "target": "das Auto",
+      "example": "Je vais au travail en voiture.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le métro",
+      "target": "die U-Bahn",
+      "example": "Le métro est plus rapide que le bus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le bus",
+      "target": "der Bus",
+      "example": "Le bus pour le centre part toutes les vingt minutes.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le train",
+      "target": "der Zug",
+      "example": "Le train à grande vitesse arrive en deux heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le taxi",
+      "target": "das Taxi",
+      "example": "Nous avons pris un taxi parce qu'il pleuvait.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le vélo",
+      "target": "das Fahrrad",
+      "example": "Je vais au travail à vélo quand il fait beau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'avion",
+      "target": "das Flugzeug",
+      "example": "L'avion décolle à dix heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la moto",
+      "target": "das Motorrad",
+      "example": "Il se déplace en ville à moto.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'arrêt",
+      "target": "die Haltestelle",
+      "example": "Quel est le prochain arrêt ?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le feu",
+      "target": "die Ampel",
+      "example": "Arrête-toi au feu rouge.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la rue",
+      "target": "die Straße",
+      "example": "Cette rue est coupée à cause de travaux.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la route",
+      "target": "die Landstraße / Straße",
+      "example": "La route était très fréquentée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'autoroute",
+      "target": "die Autobahn",
+      "example": "Nous avons pris l'autoroute pour aller plus vite.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se garer",
+      "target": "parken",
+      "example": "Il n'y a nulle part où se garer dans le centre.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "conduire",
+      "target": "fahren / lenken",
+      "example": "Conduis prudemment sous la pluie.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'embouteillage",
+      "target": "der Stau",
+      "example": "Il y a beaucoup d'embouteillages à l'heure de pointe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le billet",
+      "target": "das Ticket / die Fahrkarte",
+      "example": "J'ai pris le billet de train sur internet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le quai",
+      "target": "der Bahnsteig",
+      "example": "Le train part du quai numéro trois.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la gare / la station",
+      "target": "der Bahnhof / die Station",
+      "example": "On se retrouve à la gare d'Atocha.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'aéroport",
+      "target": "der Flughafen",
+      "example": "Il faut être à l'aéroport deux heures avant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le port",
+      "target": "der Hafen",
+      "example": "Le ferry part du port à neuf heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la croisière",
+      "target": "die Kreuzfahrt",
+      "example": "Nous avons fait une croisière en Méditerranée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'essence",
+      "target": "das Benzin",
+      "example": "Il faut mettre de l'essence avant de partir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'amende",
+      "target": "das Bußgeld / der Strafzettel",
+      "example": "J'ai eu une amende pour stationnement gênant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le permis de conduire",
+      "target": "der Führerschein",
+      "example": "J'ai eu le permis de conduire à dix-huit ans.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la ceinture de sécurité",
+      "target": "der Sicherheitsgurt",
+      "example": "Attache ta ceinture de sécurité.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le retour",
+      "target": "die Rückkehr / die Runde",
+      "example": "Le billet de retour coûte moins cher.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "direct",
+      "target": "direkt (ohne Umsteigen)",
+      "example": "J'ai pris un vol direct pour Madrid.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire une correspondance",
+      "target": "umsteigen",
+      "example": "Il faut faire une correspondance à Barcelone.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "en retard",
+      "target": "verspätet",
+      "example": "Le train arrive avec vingt minutes de retard.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

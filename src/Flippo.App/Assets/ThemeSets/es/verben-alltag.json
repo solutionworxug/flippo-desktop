@@ -1,0 +1,249 @@
+{
+  "id": "es-verben-alltag",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Verben Alltag",
+  "entries": [
+    {
+      "source": "levantarse",
+      "target": "aufstehen",
+      "example": "Me levanto a las siete cada mañana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ducharse",
+      "target": "sich duschen",
+      "example": "Me ducho antes de desayunar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vestirse",
+      "target": "sich anziehen",
+      "example": "Los niños se visten solos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "desayunar",
+      "target": "frühstücken",
+      "example": "Desayuno café con leche y tostadas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ir al trabajo",
+      "target": "zur Arbeit gehen",
+      "example": "Voy al trabajo en metro.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "almorzar",
+      "target": "zu Mittag essen",
+      "example": "Almorzamos en la cantina de la empresa.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cenar",
+      "target": "zu Abend essen",
+      "example": "Cenamos a las nueve en familia.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "acostarse",
+      "target": "sich hinlegen / schlafen gehen",
+      "example": "Me acuesto a las once.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dormir",
+      "target": "schlafen",
+      "example": "Duermo ocho horas cada noche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cocinar",
+      "target": "kochen",
+      "example": "Cocino yo los lunes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "comprar",
+      "target": "kaufen / einkaufen",
+      "example": "Compro el pan en la panadería.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "limpiar",
+      "target": "putzen / reinigen",
+      "example": "Limpio la casa los sábados.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lavar",
+      "target": "waschen",
+      "example": "Lavo la ropa los domingos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "planchar",
+      "target": "bügeln",
+      "example": "Odio planchar la ropa.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fregar",
+      "target": "spülen / schrubben",
+      "example": "Friego los platos después de cenar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacer la cama",
+      "target": "das Bett machen",
+      "example": "Hago la cama nada más levantarme.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sacar al perro",
+      "target": "den Hund ausführen",
+      "example": "Saco al perro tres veces al día.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "llamar por teléfono",
+      "target": "anrufen",
+      "example": "Llamo a mis padres cada domingo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ver la tele",
+      "target": "fernsehen",
+      "example": "Veo la tele una hora antes de dormir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacer la compra",
+      "target": "einkaufen (Lebensmittel)",
+      "example": "Hago la compra los viernes por la tarde.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pagar las facturas",
+      "target": "Rechnungen bezahlen",
+      "example": "Pago las facturas a principios de mes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "recoger a los niños",
+      "target": "die Kinder abholen",
+      "example": "Recojo a los niños del colegio a las tres.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ducharse por la noche",
+      "target": "abends duschen",
+      "example": "Prefiero ducharme por la noche.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "descansar",
+      "target": "sich ausruhen",
+      "example": "Descanso un poco después de comer.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "salir a pasear",
+      "target": "spazieren gehen",
+      "example": "Salimos a pasear después de cenar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hacer deporte",
+      "target": "Sport treiben",
+      "example": "Hago deporte tres veces a la semana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quedar con amigos",
+      "target": "sich mit Freunden treffen",
+      "example": "Quedé con mis amigos el sábado.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hablar con la familia",
+      "target": "mit der Familie reden",
+      "example": "Hablo con mi familia por videollamada.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "revisar el móvil",
+      "target": "das Handy checken",
+      "example": "Reviso el móvil nada más despertarme.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "apagar la luz",
+      "target": "das Licht ausschalten",
+      "example": "Apaga la luz al salir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

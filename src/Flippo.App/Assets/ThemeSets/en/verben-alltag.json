@@ -1,0 +1,249 @@
+{
+  "id": "en-verben-alltag",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Verben Alltag",
+  "entries": [
+    {
+      "source": "to get up",
+      "target": "aufstehen",
+      "example": "I get up at seven every morning.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to shower",
+      "target": "sich duschen",
+      "example": "I shower before breakfast.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to get dressed",
+      "target": "sich anziehen",
+      "example": "The children get dressed by themselves.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to have breakfast",
+      "target": "frühstücken",
+      "example": "I have a latte and toast for breakfast.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to go to work",
+      "target": "zur Arbeit gehen",
+      "example": "I go to work by metro.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to have lunch",
+      "target": "zu Mittag essen",
+      "example": "We have lunch in the company canteen.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to have dinner",
+      "target": "zu Abend essen",
+      "example": "We have dinner at nine with the family.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to go to bed",
+      "target": "sich hinlegen / schlafen gehen",
+      "example": "I go to bed at eleven.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to sleep",
+      "target": "schlafen",
+      "example": "I sleep eight hours every night.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to cook",
+      "target": "kochen",
+      "example": "I cook on Mondays.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to buy",
+      "target": "kaufen / einkaufen",
+      "example": "I buy bread at the bakery.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to clean",
+      "target": "putzen / reinigen",
+      "example": "I clean the house on Saturdays.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to wash",
+      "target": "waschen",
+      "example": "I wash the clothes on Sundays.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to iron",
+      "target": "bügeln",
+      "example": "I hate ironing clothes.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to do the dishes",
+      "target": "spülen / schrubben",
+      "example": "I do the dishes after dinner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to make the bed",
+      "target": "das Bett machen",
+      "example": "I make the bed as soon as I get up.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to walk the dog",
+      "target": "den Hund ausführen",
+      "example": "I walk the dog three times a day.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to phone",
+      "target": "anrufen",
+      "example": "I phone my parents every Sunday.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to watch TV",
+      "target": "fernsehen",
+      "example": "I watch TV for an hour before sleeping.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to do the shopping",
+      "target": "einkaufen (Lebensmittel)",
+      "example": "I do the shopping on Friday afternoon.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to pay the bills",
+      "target": "Rechnungen bezahlen",
+      "example": "I pay the bills at the beginning of the month.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to pick up the children",
+      "target": "die Kinder abholen",
+      "example": "I pick up the children from school at three.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to shower in the evening",
+      "target": "abends duschen",
+      "example": "I prefer to shower in the evening.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to rest",
+      "target": "sich ausruhen",
+      "example": "I rest a little after lunch.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to go for a walk",
+      "target": "spazieren gehen",
+      "example": "We go for a walk after dinner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to do sport",
+      "target": "Sport treiben",
+      "example": "I do sport three times a week.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to meet friends",
+      "target": "sich mit Freunden treffen",
+      "example": "I met my friends on Saturday.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to talk with the family",
+      "target": "mit der Familie reden",
+      "example": "I talk with my family on a video call.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to check the phone",
+      "target": "das Handy checken",
+      "example": "I check my phone as soon as I wake up.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to turn off the light",
+      "target": "das Licht ausschalten",
+      "example": "Turn off the light when you leave.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

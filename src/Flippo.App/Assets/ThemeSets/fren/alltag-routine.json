@@ -1,0 +1,249 @@
+{
+  "id": "fren-alltag-routine",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Alltag Routine",
+  "entries": [
+    {
+      "source": "se lever",
+      "target": "to get up",
+      "example": "Je me lève tous les jours à sept heures du matin.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se réveiller",
+      "target": "to wake up",
+      "example": "Je me réveille tôt, mais je reste au lit.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se doucher",
+      "target": "to take a shower",
+      "example": "Je me douche à l'eau froide pour bien me réveiller.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "prendre le petit-déjeuner",
+      "target": "to have breakfast",
+      "example": "Que préfères-tu prendre au petit-déjeuner aujourd'hui ?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le petit-déjeuner",
+      "target": "breakfast",
+      "example": "Le petit-déjeuner est le repas le plus important de la journée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se brosser les dents",
+      "target": "to brush one's teeth",
+      "example": "Il faut se brosser les dents après chaque repas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "s'habiller",
+      "target": "to get dressed",
+      "example": "Je m'habille vite parce que je suis en retard.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sortir de la maison",
+      "target": "to leave the house",
+      "example": "Je sors de la maison à huit heures pour aller travailler.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aller au travail",
+      "target": "to go to work",
+      "example": "Je vais au travail en transport en commun.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire les courses",
+      "target": "to do the grocery shopping",
+      "example": "Le samedi matin je fais les courses au supermarché.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cuisiner",
+      "target": "to cook",
+      "example": "J'aime cuisiner le dîner pour ma famille.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le déjeuner",
+      "target": "lunch",
+      "example": "Je prépare le déjeuner pour l'emporter au bureau.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le dîner",
+      "target": "dinner",
+      "example": "Le dîner est prêt, à table !",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se coucher",
+      "target": "to go to bed",
+      "example": "Je me couche tôt quand je suis fatigué.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dormir",
+      "target": "to sleep",
+      "example": "J'ai besoin de dormir au moins huit heures.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sortir les poubelles",
+      "target": "to take out the trash",
+      "example": "C'est à toi de sortir les poubelles ce soir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire la vaisselle",
+      "target": "to do the dishes",
+      "example": "Je fais toujours la vaisselle après le dîner.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mettre la machine à laver",
+      "target": "to put on the washing machine",
+      "example": "Je dois mettre la machine à laver car je n'ai plus de linge propre.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ranger",
+      "target": "to tidy up",
+      "example": "Je dois ranger ma chambre ce week-end.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "nettoyer l'appartement",
+      "target": "to clean the apartment",
+      "example": "Nous nettoyons la maison ensemble le vendredi.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se reposer",
+      "target": "to rest",
+      "example": "Après le travail j'aime me reposer sur le canapé.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "regarder la télévision",
+      "target": "to watch television",
+      "example": "Nous regardons la télévision un moment avant de dormir.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le temps libre",
+      "target": "free time",
+      "example": "Pendant mon temps libre j'aime lire des livres.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la vie quotidienne",
+      "target": "everyday life",
+      "example": "La routine de la vie quotidienne peut être stressante.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'habitude / la routine",
+      "target": "habit / routine",
+      "example": "Avoir une bonne routine le matin est important.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rester à la maison",
+      "target": "to stay home",
+      "example": "Il fait mauvais aujourd'hui, je préfère rester à la maison.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "retrouver des amis",
+      "target": "to meet friends",
+      "example": "J'ai retrouvé des amis pour prendre un café.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "faire une promenade",
+      "target": "to take a walk",
+      "example": "Nous faisons une promenade dans le parc tous les après-midis.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "se dépêcher",
+      "target": "to hurry",
+      "example": "Dépêche-toi, le train va partir !",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "arriver en retard",
+      "target": "to arrive late",
+      "example": "Désolé d'arriver en retard, il y avait beaucoup de circulation.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

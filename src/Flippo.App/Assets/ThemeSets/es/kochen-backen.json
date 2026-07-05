@@ -1,0 +1,249 @@
+{
+  "id": "es-kochen-backen",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Deutsch",
+  "title": "Kochen Backen",
+  "entries": [
+    {
+      "source": "cocinar",
+      "target": "kochen",
+      "example": "Me gusta cocinar para mis amigos los fines de semana.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "hornear",
+      "target": "backen",
+      "example": "Voy a hornear un pastel de manzana hoy.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "freír",
+      "target": "frittieren",
+      "example": "Hay que freír las patatas en aceite muy caliente.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "cortar por la mitad",
+      "target": "halbieren",
+      "example": "Corta por la mitad los tomates para la ensalada.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "mezclar",
+      "target": "verrühren / mischen",
+      "example": "Hay que mezclar bien los huevos con el azúcar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "cortar",
+      "target": "schneiden",
+      "example": "Ten cuidado al cortar la carne con ese cuchillo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "pelar",
+      "target": "schälen",
+      "example": "¿Me ayudas a pelar las patatas?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "remover",
+      "target": "umrühren",
+      "example": "Remueve la sopa para que no se pegue.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "sazonar / condimentar",
+      "target": "würzen",
+      "example": "Debes sazonar la carne con sal y pimienta.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "dorar / sofreír",
+      "target": "anbraten",
+      "example": "Primero hay que sofreír la cebolla un par de minutos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "batir",
+      "target": "schlagen (z.B. Eiweiß)",
+      "example": "Bate las claras de huevo a punto de nieve.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "rallar",
+      "target": "reiben",
+      "example": "Voy a rallar un poco de queso para la pasta.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "pesar",
+      "target": "wiegen",
+      "example": "Es importante pesar los ingredientes con precisión al hornear.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "verter / echar",
+      "target": "gießen / einschenken",
+      "example": "Vierte la leche poco a poco en la masa.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "la receta",
+      "target": "das Rezept",
+      "example": "Esta receta de tarta es de mi abuela.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "el ingrediente",
+      "target": "die Zutat",
+      "example": "Asegúrate de tener todos los ingredientes antes de empezar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "el horno",
+      "target": "der Ofen / Backofen",
+      "example": "Precalienta el horno a ciento ochenta grados.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "la sartén",
+      "target": "die Pfanne",
+      "example": "Pon un poco de aceite de oliva en la sartén.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "la olla",
+      "target": "der Topf",
+      "example": "La olla está llena de agua hirviendo.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "el bol / el cuenco",
+      "target": "die Schüssel",
+      "example": "Pon la harina y la levadura en un bol grande.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "hervir",
+      "target": "kochen / sieden",
+      "example": "El agua ya empieza a hervir, echa la pasta.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "lavar",
+      "target": "waschen",
+      "example": "Es necesario lavar las verduras antes de cocinarlas.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "medir / pesar",
+      "target": "abwiegen",
+      "example": "Mide cien gramos de mantequilla.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "la báscula de cocina",
+      "target": "die Waage / Küchenwaage",
+      "example": "Usa la báscula de cocina para medir la harina.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "añadir / agregar",
+      "target": "hinzufügen",
+      "example": "Añade una pizca de sal a la salsa.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "escurrir",
+      "target": "abgießen",
+      "example": "Escurre los espaguetis cuando estén listos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "amasar",
+      "target": "kneten",
+      "example": "Tienes que amasar la masa del pan durante diez minutos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "derretir",
+      "target": "schmelzen",
+      "example": "Hay que derretir el chocolate al baño María.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "precalentar",
+      "target": "vorheizen",
+      "example": "No olvides precalentar el horno.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    },
+    {
+      "source": "dejar enfriar",
+      "target": "abkühlen lassen",
+      "example": "Deja enfriar el pastel antes de desmoldarlo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": "Kochen und Backen"
+    }
+  ]
+}

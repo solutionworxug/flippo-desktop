@@ -1,0 +1,249 @@
+{
+  "id": "de-kleidung",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Kleidung",
+  "entries": [
+    {
+      "source": "das T-Shirt",
+      "target": "T-shirt",
+      "example": "Ich habe ein T-Shirt mit dem Logo gekauft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Kleid",
+      "target": "dress",
+      "example": "Das Abendkleid ist sehr elegant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Mantel",
+      "target": "coat",
+      "example": "Nimm deinen Mantel mit, es ist kalt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Handschuh",
+      "target": "glove",
+      "example": "Ich habe einen Handschuh in der U-Bahn verloren.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Mütze",
+      "target": "hat",
+      "example": "Im Winter trage ich immer eine Mütze.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Pullover",
+      "target": "sweater",
+      "example": "Dieser Pullover ist sehr warm.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Bermudashorts",
+      "target": "Bermuda shorts",
+      "example": "Im Sommer trage ich am Strand Bermudashorts.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Tasche (Handtasche)",
+      "target": "bag / handbag",
+      "example": "Ich habe meine Tasche im Restaurant vergessen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Schal",
+      "target": "scarf",
+      "example": "Der Schal schützt mich vor der Kälte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Hemd",
+      "target": "shirt",
+      "example": "Er trägt ein weißes Hemd zum Vorstellungsgespräch.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Bluse",
+      "target": "blouse",
+      "example": "Die blaue Bluse steht dir sehr gut.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Gürtel",
+      "target": "belt",
+      "example": "Der Ledergürtel ist sehr elegant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Brille",
+      "target": "glasses",
+      "example": "Zum Lesen brauche ich eine Brille.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Hut",
+      "target": "hat",
+      "example": "Im Sommer trägt er immer einen Hut.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Schuhwerk / die Schuhe",
+      "target": "footwear / shoes",
+      "example": "Sportliches Schuhwerk ist sehr bequem.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Jacke",
+      "target": "jacket",
+      "example": "Nimm eine Jacke mit, falls es kalt wird.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Rock",
+      "target": "skirt",
+      "example": "Der rote Rock ist sehr hübsch.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Hose",
+      "target": "pants",
+      "example": "Diese Hose ist zu kurz.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Turnschuhe / Hausschuhe",
+      "target": "sneakers / slippers",
+      "example": "Zum Laufen trage ich Turnschuhe.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Anzug",
+      "target": "suit",
+      "example": "Er trägt einen Anzug und eine Krawatte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Krawatte",
+      "target": "tie",
+      "example": "Ich weiß nicht, wie man eine Krawatte bindet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Badehose / der Badeanzug",
+      "target": "swimsuit",
+      "example": "Vergiss deine Badehose für den Strand nicht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Regenmantel",
+      "target": "raincoat",
+      "example": "Nimm deinen Regenmantel mit, es wird regnen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Schlafanzug / der Pyjama",
+      "target": "pajamas",
+      "example": "Ich zog meinen Schlafanzug an und ging ins Bett.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kleidung",
+      "target": "clothes",
+      "example": "Heute Nachmittag muss ich die Kleidung waschen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tragen / anhaben",
+      "target": "to wear",
+      "example": "Was trägst du heute?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "anziehen",
+      "target": "to put on",
+      "example": "Ich ziehe meinen Mantel an, bevor ich rausgehe.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ausziehen",
+      "target": "to take off",
+      "example": "Zieh deine Schuhe aus, wenn du reinkommst.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Socken",
+      "target": "socks",
+      "example": "Ich brauche warme Socken gegen die Kälte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Schuhe",
+      "target": "shoes",
+      "example": "Diese Schuhe tun mir an den Füßen weh.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

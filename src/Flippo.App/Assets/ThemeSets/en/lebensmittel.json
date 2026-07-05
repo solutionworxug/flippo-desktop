@@ -1,0 +1,249 @@
+{
+  "id": "en-lebensmittel",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Lebensmittel",
+  "entries": [
+    {
+      "source": "allergy",
+      "target": "die Allergie",
+      "example": "I'm allergic to pollen in spring.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "breakfast",
+      "target": "das Frühstück",
+      "example": "I have a latte for breakfast.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "vinegar",
+      "target": "der Essig",
+      "example": "Add a little vinegar to the salad.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pepper",
+      "target": "der Pfeffer",
+      "example": "Can you pass me the pepper?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "meat",
+      "target": "das Fleisch",
+      "example": "I don't eat meat on Mondays.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cake",
+      "target": "die Torte",
+      "example": "We bought a birthday cake.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "menu",
+      "target": "das Menü",
+      "example": "What's on the set menu today?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ice cream",
+      "target": "das Eis",
+      "example": "In summer I eat a lot of ice cream.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "thirst",
+      "target": "der Durst",
+      "example": "After running I'm very thirsty.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "hunger",
+      "target": "der Hunger",
+      "example": "I'm very hungry after exercising.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dessert",
+      "target": "die Nachspeise",
+      "example": "For dessert I had a flan.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "egg",
+      "target": "das Ei",
+      "example": "I need three eggs for the omelette.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "rice",
+      "target": "der Reis",
+      "example": "Rice pudding is my favourite dessert.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "chicken",
+      "target": "das Hühnchen",
+      "example": "Roast chicken is delicious.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ham",
+      "target": "der Schinken",
+      "example": "Iberian ham is very famous in Spain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "bread",
+      "target": "das Brot",
+      "example": "Buy a loaf of bread at the bakery.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "food",
+      "target": "das Essen",
+      "example": "Spanish food is very varied.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "sugar",
+      "target": "der Zucker",
+      "example": "How much sugar do you want in your coffee?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "food / groceries",
+      "target": "das Lebensmittel",
+      "example": "Bread is a staple food.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "garlic",
+      "target": "der Knoblauch",
+      "example": "Garlic is very important in Spanish cooking.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "water",
+      "target": "das Wasser",
+      "example": "I drink eight glasses of water a day.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "oil",
+      "target": "das Öl",
+      "example": "I use olive oil for cooking.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "snack",
+      "target": "die Zwischenmahlzeit",
+      "example": "The children have a snack at five.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dinner",
+      "target": "das Abendessen",
+      "example": "Dinner is ready at nine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "tapas",
+      "target": "die Tapas",
+      "example": "We have tapas at the bar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "salt",
+      "target": "das Salz",
+      "example": "This soup needs more salt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to eat",
+      "target": "essen",
+      "example": "What time do you usually eat?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "delicious",
+      "target": "lecker",
+      "example": "This paella is very delicious.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "roasted",
+      "target": "gebraten/geröstet",
+      "example": "The roast chicken smells great.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "fried",
+      "target": "frittiert",
+      "example": "Fried eggs are easy to make.",
+      "pos": "Adjektiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "fren-musik-und-kultur",
+  "language": "Französisch",
+  "sourceLanguage": "Französisch",
+  "targetLanguage": "Englisch",
+  "title": "Musik und Kultur",
+  "entries": [
+    {
+      "source": "la musique",
+      "target": "music",
+      "example": "La musique m'aide à me détendre.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la chanson",
+      "target": "song",
+      "example": "Cette chanson me rappelle l'été.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le concert",
+      "target": "concert",
+      "example": "Nous avons acheté des billets pour le concert.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le chanteur",
+      "target": "singer",
+      "example": "Sa chanteuse préférée est argentine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le groupe",
+      "target": "band / group",
+      "example": "Le groupe joue à Madrid cet été.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "danser",
+      "target": "to dance",
+      "example": "Elle adore danser le flamenco.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la danse",
+      "target": "dance",
+      "example": "La danse flamenco est très expressive.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'instrument",
+      "target": "instrument",
+      "example": "Il joue de trois instruments.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la guitare",
+      "target": "guitar",
+      "example": "Il apprend à jouer de la guitare.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le piano",
+      "target": "piano",
+      "example": "Elle a étudié le piano dès l'âge de cinq ans.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le cinéma",
+      "target": "cinema",
+      "example": "Nous allons au cinéma vendredi.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le film",
+      "target": "film",
+      "example": "Nous avons vu un très bon film hier soir.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'acteur",
+      "target": "actor",
+      "example": "L'acteur a gagné le prix.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'actrice",
+      "target": "actress",
+      "example": "L'actrice est très connue en Espagne.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le théâtre",
+      "target": "theater",
+      "example": "Le théâtre du centre a une programmation toute l'année.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la pièce de théâtre",
+      "target": "play",
+      "example": "Nous avons vu une pièce de théâtre très drôle.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le musée",
+      "target": "museum",
+      "example": "Le musée du Prado est l'un des meilleurs du monde.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'exposition",
+      "target": "exhibition",
+      "example": "Il y a une exposition de Dalí au musée.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le tableau",
+      "target": "painting",
+      "example": "Le tableau de Velázquez est impressionnant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'art",
+      "target": "art",
+      "example": "L'art moderne ne me plaît pas beaucoup.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "l'artiste",
+      "target": "artist",
+      "example": "C'est un artiste très connu dans le monde entier.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "lire",
+      "target": "to read",
+      "example": "Je lis un roman chaque mois.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le livre",
+      "target": "book",
+      "example": "Ce livre m'a été recommandé par une amie.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la bibliothèque",
+      "target": "library",
+      "example": "La bibliothèque publique est ouverte jusqu'à neuf heures.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le festival",
+      "target": "festival",
+      "example": "Le festival de musique dure trois jours.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "le billet",
+      "target": "ticket",
+      "example": "Les billets pour le concert sont épuisés.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la radio",
+      "target": "radio",
+      "example": "J'écoute la radio en cuisinant.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la télévision",
+      "target": "television",
+      "example": "Je ne regarde pas beaucoup la télévision.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "la photographie",
+      "target": "photography",
+      "example": "La photographie artistique est sa passion.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "jouer (d'un instrument)",
+      "target": "to play",
+      "example": "Il joue de la guitare dans un groupe de musique.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

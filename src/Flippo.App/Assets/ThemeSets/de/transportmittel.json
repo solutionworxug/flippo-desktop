@@ -1,0 +1,241 @@
+{
+  "id": "de-transportmittel",
+  "language": "Deutsch",
+  "sourceLanguage": "Deutsch",
+  "targetLanguage": "Englisch",
+  "title": "Transportmittel",
+  "entries": [
+    {
+      "source": "das Fahrrad",
+      "target": "bicycle",
+      "example": "Ich fahre mit dem Fahrrad zur Schule.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kreuzfahrt",
+      "target": "cruise",
+      "example": "Wir machen eine Kreuzfahrt im Mittelmeer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Fahrer",
+      "target": "driver",
+      "example": "Der Fahrer war sehr freundlich.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Landstraße",
+      "target": "road",
+      "example": "Die Landstraße ist heute sehr voll.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Straße",
+      "target": "street",
+      "example": "Diese Straße ist eine Fußgängerzone.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Zebrastreifen",
+      "target": "crosswalk",
+      "example": "Geh über den Zebrastreifen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Ampel",
+      "target": "traffic light",
+      "example": "Die Ampel ist gerade rot.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Kreuzung",
+      "target": "junction",
+      "example": "Bieg an der nächsten Kreuzung links ab.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Stadtplan",
+      "target": "city map",
+      "example": "Wir schauen auf den Stadtplan.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Parkplatz",
+      "target": "car park",
+      "example": "Der Parkplatz ist um diese Zeit voll.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "im Internet reservieren",
+      "target": "to book online",
+      "example": "Ich möchte die Tickets im Internet reservieren.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Fußgängerzone",
+      "target": "pedestrian zone",
+      "example": "In der Fußgängerzone gibt es viele Geschäfte.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Bahnhof",
+      "target": "station",
+      "example": "Der Bahnhof liegt im Zentrum.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Bahnsteig",
+      "target": "platform",
+      "example": "Der Zug fährt von Bahnsteig drei ab.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "zu Fuß gehen",
+      "target": "to go on foot",
+      "example": "Ich gehe jeden Morgen zu Fuß zur Arbeit.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Verkehrsmittel",
+      "target": "means of transport",
+      "example": "Die U-Bahn ist mein liebstes Verkehrsmittel.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Straßenbahn",
+      "target": "tram",
+      "example": "Die Straßenbahn fährt vor meinem Haus vorbei.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Schiff",
+      "target": "ship",
+      "example": "Wir überquerten den Fluss mit dem Schiff.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Sitzplatz",
+      "target": "seat",
+      "example": "Ich habe einen Sitzplatz am Fenster gebucht.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Motorrad",
+      "target": "motorbike",
+      "example": "Er fährt mit dem Motorrad durch die Stadt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die U-Bahn",
+      "target": "metro",
+      "example": "Die U-Bahn ist schneller als der Bus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Flughafen",
+      "target": "airport",
+      "example": "Wir müssen zwei Stunden früher am Flughafen sein.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Autobahn",
+      "target": "motorway",
+      "example": "Die Autobahn ist wegen Bauarbeiten gesperrt.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Bus",
+      "target": "bus",
+      "example": "Der Bus ins Zentrum fährt alle zwanzig Minuten.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Fahrkarte",
+      "target": "ticket",
+      "example": "Ich habe die Fahrkarte im Voraus gekauft.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Flug",
+      "target": "flight",
+      "example": "Der Flug nach Madrid dauert zwei Stunden.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "die Karte",
+      "target": "map",
+      "example": "Ich habe die Karte der Stadt heruntergeladen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "der Zug",
+      "target": "train",
+      "example": "Der Zug kommt in drei Stunden an.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "das Taxi",
+      "target": "taxi",
+      "example": "Wir nahmen ein Taxi vom Flughafen.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

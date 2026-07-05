@@ -1,0 +1,249 @@
+{
+  "id": "en-telefon-und-internet",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Telefon und Internet",
+  "entries": [
+    {
+      "source": "telephone",
+      "target": "das Telefon",
+      "example": "I'll call you on the telephone later.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mobile phone",
+      "target": "das Handy",
+      "example": "I forgot my mobile phone at home.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to call",
+      "target": "anrufen",
+      "example": "I'll call you when I arrive at the airport.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "message / text",
+      "target": "die Nachricht / SMS",
+      "example": "I'll send you a message when I leave.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "email",
+      "target": "die E-Mail",
+      "example": "Send me the document by email.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "internet",
+      "target": "das Internet",
+      "example": "I have no internet connection in this café.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "password",
+      "target": "das Passwort",
+      "example": "I forgot my email password.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "app",
+      "target": "die App",
+      "example": "I downloaded an app to learn Spanish.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "network",
+      "target": "das Netzwerk / WLAN",
+      "example": "What's the wifi network password?",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to charge",
+      "target": "aufladen (Akku)",
+      "example": "I need to charge my phone, it's almost out of battery.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "battery",
+      "target": "der Akku / die Batterie",
+      "example": "The phone battery doesn't last long.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "computer",
+      "target": "der Computer",
+      "example": "I work with the computer all day.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "laptop",
+      "target": "das Notebook / Laptop",
+      "example": "I take the laptop to work.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "screen",
+      "target": "der Bildschirm",
+      "example": "The phone screen broke.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "keyboard",
+      "target": "die Tastatur",
+      "example": "The wireless keyboard is very practical.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mouse",
+      "target": "die Maus (Computer)",
+      "example": "I lost the computer mouse.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to download",
+      "target": "herunterladen",
+      "example": "I downloaded the film to watch it without internet.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to upload",
+      "target": "hochladen",
+      "example": "I uploaded the photos to the cloud.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cloud",
+      "target": "die Cloud",
+      "example": "I keep all my documents in the cloud.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "social media",
+      "target": "die sozialen Netzwerke",
+      "example": "I spend too much time on social media.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "profile",
+      "target": "das Profil",
+      "example": "I updated my profile on the social network.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "photo",
+      "target": "das Foto",
+      "example": "He posted a photo of his holiday.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "video",
+      "target": "das Video",
+      "example": "I saw a very funny video on the internet.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to search",
+      "target": "suchen",
+      "example": "Search for the information on the internet.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "website",
+      "target": "die Webseite",
+      "example": "The company website is very well made.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "browser",
+      "target": "der Browser",
+      "example": "Use the browser to search for information.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "virus",
+      "target": "der Virus (Computer)",
+      "example": "The computer has a virus.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "printer",
+      "target": "der Drucker",
+      "example": "The printer doesn't work, it's out of ink.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "headphones",
+      "target": "der Kopfhörer",
+      "example": "I use headphones for video calls.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "video call",
+      "target": "der Videoanruf",
+      "example": "We have a video call with the grandparents on Sundays.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

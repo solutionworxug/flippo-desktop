@@ -1,0 +1,249 @@
+{
+  "id": "en-musik-und-kultur",
+  "language": "Englisch",
+  "sourceLanguage": "Englisch",
+  "targetLanguage": "Deutsch",
+  "title": "Musik und Kultur",
+  "entries": [
+    {
+      "source": "music",
+      "target": "die Musik",
+      "example": "Music helps me relax.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "song",
+      "target": "das Lied / der Song",
+      "example": "This song reminds me of summer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "concert",
+      "target": "das Konzert",
+      "example": "We bought tickets for the concert.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "singer",
+      "target": "der Sänger",
+      "example": "His favourite singer is Argentine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "band",
+      "target": "die Band / die Gruppe",
+      "example": "The band is playing in Madrid this summer.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to dance",
+      "target": "tanzen",
+      "example": "She loves to dance flamenco.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "dance",
+      "target": "der Tanz",
+      "example": "Flamenco dance is very expressive.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "instrument",
+      "target": "das Instrument",
+      "example": "He plays three instruments.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "guitar",
+      "target": "die Gitarre",
+      "example": "He is learning to play the guitar.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "piano",
+      "target": "das Klavier",
+      "example": "She studied piano from the age of five.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "cinema",
+      "target": "das Kino",
+      "example": "We are going to the cinema on Friday.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "film",
+      "target": "der Film",
+      "example": "We watched a very good film last night.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "actor",
+      "target": "der Schauspieler",
+      "example": "The actor won the award.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "actress",
+      "target": "die Schauspielerin",
+      "example": "The actress is very well known in Spain.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "theatre",
+      "target": "das Theater",
+      "example": "The theatre downtown has shows all year.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "play",
+      "target": "das Theaterstück",
+      "example": "We saw a very funny play.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "museum",
+      "target": "das Museum",
+      "example": "The Prado Museum is one of the best in the world.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "exhibition",
+      "target": "die Ausstellung",
+      "example": "There is a Dalí exhibition at the museum.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "painting",
+      "target": "das Gemälde / Bild",
+      "example": "The painting by Velázquez is impressive.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "art",
+      "target": "die Kunst",
+      "example": "I don't like modern art much.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "artist",
+      "target": "der Künstler",
+      "example": "He is a very well-known artist around the world.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to read",
+      "target": "lesen",
+      "example": "I read a novel every month.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "book",
+      "target": "das Buch",
+      "example": "This book was recommended to me by a friend.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "library",
+      "target": "die Bibliothek",
+      "example": "The public library is open until nine.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "festival",
+      "target": "das Festival",
+      "example": "The music festival lasts three days.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "ticket",
+      "target": "die Eintrittskarte",
+      "example": "The tickets for the concert are sold out.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "radio",
+      "target": "das Radio",
+      "example": "I listen to the radio while cooking.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "television",
+      "target": "das Fernsehen / der Fernseher",
+      "example": "I don't watch much television.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "photography",
+      "target": "die Fotografie",
+      "example": "Artistic photography is his passion.",
+      "pos": "Substantiv",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "to play",
+      "target": "spielen (Instrument)",
+      "example": "He plays the guitar in a band.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}

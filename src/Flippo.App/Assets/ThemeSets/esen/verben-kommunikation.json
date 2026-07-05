@@ -1,0 +1,249 @@
+{
+  "id": "esen-verben-kommunikation",
+  "language": "Spanisch",
+  "sourceLanguage": "Spanisch",
+  "targetLanguage": "Englisch",
+  "title": "Verben Kommunikation",
+  "entries": [
+    {
+      "source": "hablar",
+      "target": "to speak / talk",
+      "example": "Habla más despacio por favor.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "escuchar",
+      "target": "to listen",
+      "example": "Escucha bien las instrucciones.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "decir",
+      "target": "to say",
+      "example": "¿Qué dijiste? No te escuché.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "preguntar",
+      "target": "to ask",
+      "example": "Pregunta si no entiendes algo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "contestar",
+      "target": "to answer",
+      "example": "Contesta a las preguntas por escrito.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "explicar",
+      "target": "to explain",
+      "example": "El profesor explica muy bien la gramática.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "entender",
+      "target": "to understand",
+      "example": "No entiendo esta palabra.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "repetir",
+      "target": "to repeat",
+      "example": "¿Puedes repetir más despacio?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "traducir",
+      "target": "to translate",
+      "example": "Traduce esta frase al alemán.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "escribir",
+      "target": "to write",
+      "example": "Escribe tu nombre en el formulario.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "leer",
+      "target": "to read",
+      "example": "Lee el texto en voz alta.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "llamar",
+      "target": "to call / name",
+      "example": "Te llamo esta tarde.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "responder",
+      "target": "to respond / reply",
+      "example": "Respondió a todos los correos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "saludar",
+      "target": "to greet",
+      "example": "Saluda a tus compañeros al llegar.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "despedirse",
+      "target": "to say goodbye",
+      "example": "Se despidió con un abrazo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "presentarse",
+      "target": "to introduce oneself",
+      "example": "Me presenté a los nuevos compañeros.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "agradecer",
+      "target": "to thank",
+      "example": "Le agradecí su ayuda.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "disculparse",
+      "target": "to apologize",
+      "example": "Se disculpó por llegar tarde.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "quejarse",
+      "target": "to complain",
+      "example": "Se quejó del ruido al vecino.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "pedir",
+      "target": "to ask for / order",
+      "example": "Pidió ayuda a su compañero.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "invitar",
+      "target": "to invite",
+      "example": "Los invitamos a cenar el sábado.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "aconsejar",
+      "target": "to advise / recommend",
+      "example": "Te aconsejo que estudies más.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "proponer",
+      "target": "to propose / suggest",
+      "example": "Propuso una solución al problema.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "opinar",
+      "target": "to give an opinion",
+      "example": "¿Qué opinas sobre este tema?",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "discutir",
+      "target": "to discuss / argue",
+      "example": "Discutieron durante horas sin llegar a un acuerdo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "convencer",
+      "target": "to convince",
+      "example": "Intentó convencerme de su idea.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "mentir",
+      "target": "to lie",
+      "example": "Nunca miento a mis amigos.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "prometer",
+      "target": "to promise",
+      "example": "Prometió que llegaría a tiempo.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "comunicarse",
+      "target": "to communicate",
+      "example": "Se comunica muy bien en inglés.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    },
+    {
+      "source": "interrumpir",
+      "target": "to interrupt",
+      "example": "No interrumpas cuando alguien habla.",
+      "pos": "Verb",
+      "notes": "",
+      "tags": ""
+    }
+  ]
+}
