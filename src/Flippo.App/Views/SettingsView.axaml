@@ -3,11 +3,110 @@
              xmlns:vm="using:Flippo.App.ViewModels"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="640"
              x:Class="Flippo.App.Views.SettingsView"
              x:DataType="vm:SettingsViewModel">
-    <StackPanel Margin="24" Spacing="12">
-        <TextBlock Text="Einstellungen" FontSize="26" FontWeight="SemiBold"/>
-        <TextBlock Text="{Binding Placeholder}" Opacity="0.7"/>
-    </StackPanel>
+
+    <UserControl.Styles>
+        <Style Selector="TextBlock.label">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Opacity" Value="0.7"/>
+        </Style>
+        <Style Selector="TextBlock.section">
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Margin" Value="0,8,0,4"/>
+        </Style>
+    </UserControl.Styles>
+
+    <Grid RowDefinitions="Auto,*,Auto" Margin="24">
+        <TextBlock Grid.Row="0" Text="Einstellungen" FontSize="26" FontWeight="SemiBold" Margin="0,0,0,12"/>
+
+        <ScrollViewer Grid.Row="1">
+            <StackPanel Spacing="12" MaxWidth="520" HorizontalAlignment="Left">
+
+                <TextBlock Classes="section" Text="Lernen (SRS)"/>
+
+                <StackPanel Spacing="3">
+                    <TextBlock Classes="label" Text="Modus"/>
+                    <ComboBox ItemsSource="{Binding SrsModeOptions}" SelectedItem="{Binding SrsMode}"
+                              HorizontalAlignment="Stretch">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel Spacing="3">
+                    <TextBlock Classes="label" Text="Karteikasten-Intervalle in Tagen (6 Werte, mit Komma)"/>
+                    <TextBox Text="{Binding BoxIntervalsText}"/>
+                </StackPanel>
+
+                <StackPanel Spacing="3">
+                    <TextBlock Classes="label" Text="Abfragerichtung"/>
+                    <ComboBox ItemsSource="{Binding DirectionOptions}" SelectedItem="{Binding LearningDirection}"
+                              HorizontalAlignment="Stretch">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </StackPanel>
+
+                <CheckBox Content="Akzente streng prüfen (café ≠ cafe)" IsChecked="{Binding StrictAccents}"/>
+                <CheckBox Content="Tippfehler-Toleranz" IsChecked="{Binding TypoToleranceEnabled}"/>
+
+                <Grid ColumnDefinitions="*,12,*,12,*">
+                    <StackPanel Grid.Column="0" Spacing="3">
+                        <TextBlock Classes="label" Text="Leech-Schwelle"/>
+                        <NumericUpDown Value="{Binding LeechThreshold}" Minimum="1" Maximum="99" Increment="1" FormatString="0"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="2" Spacing="3">
+                        <TextBlock Classes="label" Text="Karten/Session (0 = alle)"/>
+                        <NumericUpDown Value="{Binding MaxCardsPerSession}" Minimum="0" Maximum="999" Increment="5" FormatString="0"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="4" Spacing="3">
+                        <TextBlock Classes="label" Text="Neue/Session (0 = alle)"/>
+                        <NumericUpDown Value="{Binding MaxNewCardsPerDay}" Minimum="0" Maximum="999" Increment="5" FormatString="0"/>
+                    </StackPanel>
+                </Grid>
+
+                <TextBlock Classes="section" Text="Darstellung"/>
+
+                <Grid ColumnDefinitions="*,12,*,12,*">
+                    <StackPanel Grid.Column="0" Spacing="3">
+                        <TextBlock Classes="label" Text="Design"/>
+                        <ComboBox ItemsSource="{Binding ThemeOptions}" SelectedItem="{Binding UiTheme}" HorizontalAlignment="Stretch">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Grid.Column="2" Spacing="3">
+                        <TextBlock Classes="label" Text="Schriftgröße"/>
+                        <ComboBox ItemsSource="{Binding FontSizeOptions}" SelectedItem="{Binding FontSize}" HorizontalAlignment="Stretch">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Grid.Column="4" Spacing="3">
+                        <TextBlock Classes="label" Text="Sprache"/>
+                        <ComboBox ItemsSource="{Binding LanguageOptions}" SelectedItem="{Binding UiLanguage}" HorizontalAlignment="Stretch">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+                    </StackPanel>
+                </Grid>
+
+                <TextBlock Text="Schriftgröße und Sprache wirken nach einem Neustart, das Design sofort."
+                           Classes="label" TextWrapping="Wrap" Margin="0,4,0,0"/>
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Spacing="12" Margin="0,16,0,0" VerticalAlignment="Center">
+            <Button Content="Speichern" Command="{Binding SaveCommand}" Classes="accent" Padding="24,10"/>
+            <TextBlock Text="✓ Gespeichert" Foreground="#2B8A3E" VerticalAlignment="Center" IsVisible="{Binding IsSaved}"/>
+        </StackPanel>
+    </Grid>
 </UserControl>

@@ -6,6 +6,7 @@ using Flippo.App.Services;
 using Flippo.App.ViewModels;
 using Flippo.App.Views;
 using Flippo.Data;
+using Flippo.Data.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -30,6 +31,7 @@ public partial class App : Application
         Services = collection.BuildServiceProvider();
 
         InitializeDatabase();
+        ThemeService.Apply(Services.GetRequiredService<SettingsService>().Load().UiTheme);
 
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
         {
