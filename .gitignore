@@ -486,3 +486,6 @@ $RECYCLE.BIN/
 *.db-wal
 *.db-shm
 flippo-design.db
+
+# FLIPPO: echtes Android-Backup (persoenliche Daten) nicht einchecken
+tests/Flippo.Tests/Fixtures/android-backup-v2.json
