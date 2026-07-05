@@ -489,3 +489,8 @@ flippo-design.db
 
 # FLIPPO: echtes Android-Backup (persoenliche Daten) nicht einchecken
 tests/Flippo.Tests/Fixtures/android-backup-v2.json
+
+# FLIPPO: 'Backup' ist bei uns ein Code-Namespace, NICHT das VS-Konvertierungs-Artefakt (Zeile 266 Backup*/).
+# Die Ordner-Ignorierung fuer genau diese beiden Code-Ordner aufheben:
+!src/Flippo.Core/Backup/
+!tests/Flippo.Tests/Backup/
