@@ -1,0 +1,125 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:Flippo.App.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+             x:Class="Flippo.App.Views.LearnSessionView"
+             x:DataType="vm:LearnSessionViewModel"
+             Focusable="True">
+
+    <UserControl.KeyBindings>
+        <KeyBinding Gesture="Space" Command="{Binding FlipCommand}"/>
+        <KeyBinding Gesture="D1" Command="{Binding GradeKeyCommand}" CommandParameter="1"/>
+        <KeyBinding Gesture="D2" Command="{Binding GradeKeyCommand}" CommandParameter="2"/>
+        <KeyBinding Gesture="D3" Command="{Binding GradeKeyCommand}" CommandParameter="3"/>
+        <KeyBinding Gesture="D4" Command="{Binding GradeKeyCommand}" CommandParameter="4"/>
+        <KeyBinding Gesture="NumPad1" Command="{Binding GradeKeyCommand}" CommandParameter="1"/>
+        <KeyBinding Gesture="NumPad2" Command="{Binding GradeKeyCommand}" CommandParameter="2"/>
+        <KeyBinding Gesture="NumPad3" Command="{Binding GradeKeyCommand}" CommandParameter="3"/>
+        <KeyBinding Gesture="NumPad4" Command="{Binding GradeKeyCommand}" CommandParameter="4"/>
+        <KeyBinding Gesture="Ctrl+Z" Command="{Binding UndoCommand}"/>
+        <KeyBinding Gesture="Escape" Command="{Binding ExitCommand}"/>
+    </UserControl.KeyBindings>
+
+    <Panel>
+        <!-- Leerzustand: nichts zu lernen -->
+        <StackPanel IsVisible="{Binding IsEmpty}" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="12">
+            <TextBlock Text="Nichts zu lernen" FontSize="20" Opacity="0.7" HorizontalAlignment="Center"/>
+            <TextBlock Text="Für diese Auswahl sind gerade keine Karten fällig." Opacity="0.5" HorizontalAlignment="Center"/>
+            <Button Content="Zurück zu den Karteien" Command="{Binding BackToSetsCommand}" HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- Session -->
+        <Grid IsVisible="{Binding !IsEmpty}" RowDefinitions="Auto,*,Auto" Margin="24">
+
+            <!-- Kopfzeile: Titel · Fortschritt · Zähler · Beenden -->
+            <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,12">
+                <StackPanel Grid.Column="0" Orientation="Horizontal" Spacing="12" VerticalAlignment="Center">
+                    <TextBlock Text="{Binding Title}" FontSize="18" FontWeight="SemiBold"/>
+                    <TextBlock Text="{Binding ProgressText}" FontSize="14" Opacity="0.6" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="14" VerticalAlignment="Center">
+                    <TextBlock Foreground="#2B8A3E" VerticalAlignment="Center">
+                        <Run Text="✓ "/><Run Text="{Binding CorrectCount}"/>
+                    </TextBlock>
+                    <TextBlock Foreground="#C92A2A" VerticalAlignment="Center">
+                        <Run Text="✗ "/><Run Text="{Binding WrongCount}"/>
+                    </TextBlock>
+                    <Button Content="Rückgängig (Strg+Z)" Command="{Binding UndoCommand}" IsEnabled="{Binding CanUndo}"/>
+                    <Button Content="Beenden (Esc)" Command="{Binding ExitCommand}"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Karte -->
+            <Border Grid.Row="1" Margin="0,8" CornerRadius="12" BorderThickness="1" BorderBrush="#22808080"
+                    Background="#0A808080" Padding="32">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="20">
+                    <TextBlock Text="{Binding QuestionText}" FontSize="34" FontWeight="SemiBold"
+                               TextWrapping="Wrap" TextAlignment="Center"/>
+                    <Border IsVisible="{Binding IsAnswerShown}" Height="1" Background="#33808080"
+                            HorizontalAlignment="Stretch" Margin="40,0"/>
+                    <TextBlock Text="{Binding AnswerText}" IsVisible="{Binding IsAnswerShown}"
+                               FontSize="30" Foreground="#1971C2" TextWrapping="Wrap" TextAlignment="Center"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Aktionsleiste -->
+            <Panel Grid.Row="2" MinHeight="76">
+                <!-- Vor dem Aufdecken -->
+                <Button IsVisible="{Binding !IsAnswerShown}" Content="Umdrehen (Leertaste)"
+                        Command="{Binding FlipCommand}" Classes="accent"
+                        HorizontalAlignment="Center" Padding="28,12" FontSize="15"/>
+
+                <!-- Nach dem Aufdecken -->
+                <Panel IsVisible="{Binding IsAnswerShown}">
+                    <!-- Karteikasten: Falsch / Richtig -->
+                    <StackPanel IsVisible="{Binding !IsAdaptive}" Orientation="Horizontal" Spacing="16"
+                                HorizontalAlignment="Center">
+                        <Button Command="{Binding GradeWrongCommand}" Padding="28,12" MinWidth="150"
+                                Background="#C92A2A" Foreground="White">
+                            <StackPanel HorizontalAlignment="Center">
+                                <TextBlock Text="Falsch (1)" FontSize="15" HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button Command="{Binding GradeGoodCommand}" Padding="28,12" MinWidth="150"
+                                Background="#2B8A3E" Foreground="White">
+                            <StackPanel HorizontalAlignment="Center">
+                                <TextBlock Text="Richtig (2)" FontSize="15" HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+
+                    <!-- Adaptiv: Nochmal / Schwer / Gut / Einfach mit Intervall-Vorschau -->
+                    <StackPanel IsVisible="{Binding IsAdaptive}" Orientation="Horizontal" Spacing="12"
+                                HorizontalAlignment="Center">
+                        <Button Command="{Binding GradeWrongCommand}" Padding="18,10" MinWidth="110">
+                            <StackPanel HorizontalAlignment="Center" Spacing="2">
+                                <TextBlock Text="Nochmal (1)" FontSize="14" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding PreviewAgain}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button Command="{Binding GradeHardCommand}" Padding="18,10" MinWidth="110">
+                            <StackPanel HorizontalAlignment="Center" Spacing="2">
+                                <TextBlock Text="Schwer (2)" FontSize="14" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding PreviewHard}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button Command="{Binding GradeGoodCommand}" Padding="18,10" MinWidth="110">
+                            <StackPanel HorizontalAlignment="Center" Spacing="2">
+                                <TextBlock Text="Gut (3)" FontSize="14" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding PreviewGood}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button Command="{Binding GradeEasyCommand}" Padding="18,10" MinWidth="110">
+                            <StackPanel HorizontalAlignment="Center" Spacing="2">
+                                <TextBlock Text="Einfach (4)" FontSize="14" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding PreviewEasy}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </Panel>
+            </Panel>
+        </Grid>
+    </Panel>
+</UserControl>

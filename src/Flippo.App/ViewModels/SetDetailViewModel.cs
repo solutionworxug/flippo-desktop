@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Flippo.App.Services;
 using Flippo.Core.Domain;
+using Flippo.Core.Session;
 using Flippo.Data.Services;
 
 namespace Flippo.App.ViewModels;
@@ -179,6 +180,21 @@ public sealed partial class SetDetailViewModel : ViewModelBase, IActivatable
 
         await _store.DeleteSetAsync(_set.Id);
         _nav.GoBack();
+    }
+
+    /// <summary>Lernen-Split-Button: startet eine Session mit dem gewählten Filter (Fällige/Alle/Neue/Leeches).</summary>
+    [RelayCommand]
+    private void Learn(string? filter)
+    {
+        var sessionFilter = filter switch
+        {
+            "All" => SessionFilter.All,
+            "New" => SessionFilter.New,
+            "Leech" => SessionFilter.Leech,
+            _ => SessionFilter.Due
+        };
+        _nav.NavigateTo<LearnSessionViewModel>(
+            vm => vm.Initialize(_set.Id, _set.Title, sessionFilter, LearningMode.Flashcard));
     }
 
     [RelayCommand] private void Back() => _nav.GoBack();

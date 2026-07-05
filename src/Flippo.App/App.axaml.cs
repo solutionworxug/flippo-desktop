@@ -56,6 +56,8 @@ public partial class App : Application
         services.AddSingleton<MainWindowViewModel>();
         services.AddTransient<SetsOverviewViewModel>();
         services.AddTransient<SetDetailViewModel>();
+        services.AddTransient<LearnSessionViewModel>();
+        services.AddTransient<SessionSummaryViewModel>();
         services.AddTransient<SettingsViewModel>();
     }
 

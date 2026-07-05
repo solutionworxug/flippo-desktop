@@ -26,6 +26,17 @@
                 </TextBlock>
             </StackPanel>
             <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
+                <SplitButton Content="Lernen" Command="{Binding LearnCommand}" CommandParameter="Due"
+                             ToolTip.Tip="Fällige Karten lernen (Dropdown für mehr)">
+                    <SplitButton.Flyout>
+                        <MenuFlyout>
+                            <MenuItem Header="Fällige" Command="{Binding LearnCommand}" CommandParameter="Due"/>
+                            <MenuItem Header="Alle" Command="{Binding LearnCommand}" CommandParameter="All"/>
+                            <MenuItem Header="Neue" Command="{Binding LearnCommand}" CommandParameter="New"/>
+                            <MenuItem Header="Leeches" Command="{Binding LearnCommand}" CommandParameter="Leech"/>
+                        </MenuFlyout>
+                    </SplitButton.Flyout>
+                </SplitButton>
                 <TextBox Width="200" PlaceholderText="Suchen…" Text="{Binding SearchText}"/>
                 <Button Content="Neue Karte" Command="{Binding NewCardCommand}" Classes="accent"
                         ToolTip.Tip="Strg+N"/>

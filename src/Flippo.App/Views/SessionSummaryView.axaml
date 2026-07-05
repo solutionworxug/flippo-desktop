@@ -1,0 +1,40 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:Flippo.App.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+             x:Class="Flippo.App.Views.SessionSummaryView"
+             x:DataType="vm:SessionSummaryViewModel"
+             Focusable="True">
+
+    <UserControl.KeyBindings>
+        <KeyBinding Gesture="Enter" Command="{Binding DoneCommand}"/>
+        <KeyBinding Gesture="R" Command="{Binding RepeatWrongCommand}"/>
+    </UserControl.KeyBindings>
+
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="20" MaxWidth="440">
+        <TextBlock Text="{Binding Title}" FontSize="26" FontWeight="SemiBold" HorizontalAlignment="Center"/>
+        <TextBlock Text="{Binding QuoteText}" FontSize="20" Opacity="0.85" HorizontalAlignment="Center"/>
+
+        <StackPanel Orientation="Horizontal" Spacing="28" HorizontalAlignment="Center"
+                    IsVisible="{Binding !NothingAnswered}">
+            <StackPanel Spacing="2">
+                <TextBlock Text="{Binding CorrectCount}" FontSize="28" FontWeight="SemiBold"
+                           Foreground="#2B8A3E" HorizontalAlignment="Center"/>
+                <TextBlock Text="richtig" FontSize="12" Opacity="0.6" HorizontalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Spacing="2">
+                <TextBlock Text="{Binding WrongCount}" FontSize="28" FontWeight="SemiBold"
+                           Foreground="#C92A2A" HorizontalAlignment="Center"/>
+                <TextBlock Text="falsch" FontSize="12" Opacity="0.6" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Spacing="12" HorizontalAlignment="Center" Margin="0,8,0,0">
+            <Button Content="Falsche wiederholen (R)" IsVisible="{Binding HasWrong}"
+                    Command="{Binding RepeatWrongCommand}" Classes="accent" Padding="20,10"/>
+            <Button Content="Fertig (Enter)" Command="{Binding DoneCommand}" Padding="20,10"/>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

@@ -4,6 +4,7 @@ using CommunityToolkit.Mvvm.Input;
 using Flippo.App.Services;
 using Flippo.Core.Backup;
 using Flippo.Core.Domain;
+using Flippo.Core.Session;
 using Flippo.Data.Services;
 
 namespace Flippo.App.ViewModels;
@@ -65,6 +66,12 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
         if (set is null) return;
         _nav.NavigateTo<SetDetailViewModel>(vm => vm.Initialize(set));
     }
+
+    /// <summary>"Alle fälligen lernen" — Session über alle Karteien mit fälligen Karten.</summary>
+    [RelayCommand]
+    private void LearnAllDue()
+        => _nav.NavigateTo<LearnSessionViewModel>(
+            vm => vm.Initialize(null, "Alle fälligen", SessionFilter.Due, LearningMode.Flashcard));
 
     [RelayCommand]
     private async Task NewSet()
