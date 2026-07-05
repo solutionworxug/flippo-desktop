@@ -13,6 +13,7 @@ public static class DependencyInjection
         services.AddSingleton<VocabularyStore>();
         services.AddSingleton<SessionStore>();
         services.AddSingleton<SettingsService>();
+        services.AddSingleton<BackupService>();
         return services;
     }
 }

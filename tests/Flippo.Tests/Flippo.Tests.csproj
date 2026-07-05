@@ -20,4 +20,9 @@
     <ProjectReference Include="..\..\src\Flippo.Data\Flippo.Data.csproj" />
   </ItemGroup>
 
+  <!-- Backup-Fixtures (z.B. echtes Android-Backup) ins Test-Output kopieren -->
+  <ItemGroup>
+    <None Include="Fixtures\**\*.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>
