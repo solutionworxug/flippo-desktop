@@ -15,7 +15,6 @@ public sealed class UpdateService
 {
     // Öffentliches GitHub-Repo als Update-Feed. GithubSource lädt die Release-Assets direkt;
     // ein öffentliches Repo braucht dafür kein Token.
-    // TODO(P8-Release): finale Repo-URL beim Anlegen des public GitHub-Repos setzen.
     private const string RepoUrl = "https://github.com/solutionworxug/flippo-desktop";
 
     private readonly UpdateManager? _manager;
