@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- KEINE NuGet-Deps ausser BCL (Plan Abschnitt 3) -->
+</Project>

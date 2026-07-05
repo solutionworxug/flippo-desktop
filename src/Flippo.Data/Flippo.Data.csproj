@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Flippo.Core\Flippo.Core.csproj" />
+  </ItemGroup>
+</Project>
