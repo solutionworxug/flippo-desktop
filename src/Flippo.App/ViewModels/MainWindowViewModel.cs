@@ -1,6 +1,7 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Flippo.App.Services;
+using Flippo.Data.Services;
 
 namespace Flippo.App.ViewModels;
 
@@ -15,14 +16,25 @@ public sealed partial class MainWindowViewModel : ViewModelBase
     [ObservableProperty] private ViewModelBase? _currentPage;
     [ObservableProperty] private bool _canGoBack;
 
-    public MainWindowViewModel(NavigationService nav)
+    public MainWindowViewModel(NavigationService nav, SettingsService settings)
     {
         _nav = nav;
+        UiScale = ScaleFor(settings.Load().FontSize);
         _nav.Navigated += OnNavigated;
         _nav.NavigateTo<SetsOverviewViewModel>(clearStack: true);
     }
 
     public string Title => "FLIPPO Desktop";
+
+    /// <summary>UI-Skalierung aus der Schriftgrößen-Einstellung (wirkt nach Neustart, Plan P7).</summary>
+    public double UiScale { get; }
+
+    private static double ScaleFor(string fontSize) => fontSize switch
+    {
+        "Small" => 0.9,
+        "Large" => 1.15,
+        _ => 1.0   // Medium
+    };
 
     private void OnNavigated()
     {

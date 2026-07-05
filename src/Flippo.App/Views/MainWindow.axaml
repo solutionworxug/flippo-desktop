@@ -9,6 +9,10 @@
         Width="1000" Height="680" MinWidth="720" MinHeight="480"
         Title="{Binding Title}">
 
+    <LayoutTransformControl>
+        <LayoutTransformControl.LayoutTransform>
+            <ScaleTransform ScaleX="{Binding UiScale}" ScaleY="{Binding UiScale}"/>
+        </LayoutTransformControl.LayoutTransform>
     <Grid ColumnDefinitions="200,*">
         <!-- Sidebar -->
         <Border Grid.Column="0" Background="{DynamicResource SystemControlBackgroundListLowBrush}" Padding="14">
@@ -38,4 +42,5 @@
         <!-- Seiteninhalt (ViewLocator löst CurrentPage-VM → View auf) -->
         <ContentControl Grid.Column="1" Content="{Binding CurrentPage}"/>
     </Grid>
+    </LayoutTransformControl>
 </Window>
