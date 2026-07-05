@@ -1,6 +1,7 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="using:Flippo.App.ViewModels"
+        xmlns:loc="using:Flippo.App.Localization"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="680"
@@ -18,19 +19,19 @@
         <Border Grid.Column="0" Background="{DynamicResource SystemControlBackgroundListLowBrush}" Padding="14">
             <DockPanel>
                 <TextBlock DockPanel.Dock="Top" Text="FLIPPO" FontSize="24" FontWeight="Bold" Margin="4,2,4,4"/>
-                <TextBlock DockPanel.Dock="Top" Text="Desktop" FontSize="12" Opacity="0.6" Margin="4,0,4,18"/>
+                <TextBlock DockPanel.Dock="Top" Text="{loc:T App_Subtitle}" FontSize="12" Opacity="0.6" Margin="4,0,4,18"/>
 
-                <Button DockPanel.Dock="Top" Content="◀  Zurück"
+                <Button DockPanel.Dock="Top" Content="{loc:T Nav_Back}"
                         Command="{Binding GoBackCommand}"
                         IsVisible="{Binding CanGoBack}"
                         HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"
                         Margin="0,0,0,12"/>
 
-                <Button DockPanel.Dock="Top" Content="Karteien"
+                <Button DockPanel.Dock="Top" Content="{loc:T Nav_Sets}"
                         Command="{Binding ShowSetsCommand}"
                         HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"
                         Margin="0,0,0,6"/>
-                <Button DockPanel.Dock="Top" Content="Einstellungen"
+                <Button DockPanel.Dock="Top" Content="{loc:T Nav_Settings}"
                         Command="{Binding ShowSettingsCommand}"
                         HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"/>
 

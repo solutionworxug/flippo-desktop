@@ -2,6 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
+using Flippo.App.Localization;
 using Flippo.App.Services;
 using Flippo.App.ViewModels;
 using Flippo.App.Views;
@@ -31,7 +32,9 @@ public partial class App : Application
         Services = collection.BuildServiceProvider();
 
         InitializeDatabase();
-        ThemeService.Apply(Services.GetRequiredService<SettingsService>().Load().UiTheme);
+        var appSettings = Services.GetRequiredService<SettingsService>().Load();
+        L.SetLanguage(appSettings.UiLanguage);   // vor dem Laden der Views (Sprache wirkt nach Neustart)
+        ThemeService.Apply(appSettings.UiTheme);
 
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
         {
