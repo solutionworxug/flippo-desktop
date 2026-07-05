@@ -6,7 +6,7 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <LangVersion>latest</LangVersion>
     <!-- Release-Version (P8). Bei jedem Release erhöhen; Velopack liest packVersion aus pack.ps1. -->
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <!-- Avalonia 12.0.5 = neueste stabile zum Projektstart (Plan Abschnitt 2: "neueste stabile beim Start pinnen") -->
     <AvaloniaVersion>12.0.5</AvaloniaVersion>
   </PropertyGroup>
