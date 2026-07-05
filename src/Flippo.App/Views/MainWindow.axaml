@@ -48,6 +48,7 @@
                         <NativeMenuItem Header="{loc:T Nav_Sets}" Command="{Binding ShowSetsCommand}"/>
                         <NativeMenuItem Header="{loc:T Nav_Dictionary}" Command="{Binding ShowDictionariesCommand}"/>
                         <NativeMenuItem Header="{loc:T Nav_Statistics}" Command="{Binding ShowStatisticsCommand}"/>
+                        <NativeMenuItem Header="{loc:T Nav_History}" Command="{Binding ShowHistoryCommand}"/>
                         <NativeMenuItem Header="{loc:T Nav_Settings}" Command="{Binding ShowSettingsCommand}"/>
                         <NativeMenuItemSeparator/>
                         <NativeMenuItem Header="{loc:T Nav_Back}" Command="{Binding GoBackCommand}" Gesture="Alt+Left"/>

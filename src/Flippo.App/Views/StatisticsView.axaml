@@ -12,8 +12,12 @@
     <Grid RowDefinitions="Auto,*" Margin="24">
         <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,20">
             <TextBlock Grid.Column="0" Classes="page-title" Text="{loc:T Stats_Title}" VerticalAlignment="Center"/>
-            <Button Grid.Column="1" Classes="nav" Content="↻" Command="{Binding LoadCommand}"
-                    ToolTip.Tip="{loc:T Sets_Refresh}" Padding="10,6" HorizontalAlignment="Right"/>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8" HorizontalAlignment="Right">
+                <Button Content="{loc:T Nav_History}" Command="{Binding GoHistoryCommand}"
+                        ToolTip.Tip="{loc:T History_Subtitle}"/>
+                <Button Classes="nav" Content="↻" Command="{Binding LoadCommand}"
+                        ToolTip.Tip="{loc:T Sets_Refresh}" Padding="10,6"/>
+            </StackPanel>
         </Grid>
 
         <!-- Leerzustand -->

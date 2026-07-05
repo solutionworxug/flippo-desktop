@@ -73,6 +73,7 @@ public partial class App : Application
         services.AddTransient<UserDictionaryDetailViewModel>();
         services.AddTransient<SetsOverviewViewModel>();
         services.AddTransient<StatisticsViewModel>();
+        services.AddTransient<HistoryViewModel>();
         services.AddTransient<SetDetailViewModel>();
         services.AddTransient<LearnSessionViewModel>();
         services.AddTransient<SessionSummaryViewModel>();

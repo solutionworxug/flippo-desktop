@@ -82,6 +82,7 @@ public sealed partial class MainWindowViewModel : ViewModelBase
     [RelayCommand] private void ShowSets() => _nav.NavigateTo<SetsOverviewViewModel>(clearStack: true);
     [RelayCommand] private void ShowDictionaries() => _nav.NavigateTo<DictionaryListViewModel>(clearStack: true);
     [RelayCommand] private void ShowStatistics() => _nav.NavigateTo<StatisticsViewModel>(clearStack: true);
+    [RelayCommand] private void ShowHistory() => _nav.NavigateTo<HistoryViewModel>(clearStack: true);
     [RelayCommand] private void ShowSettings() => _nav.NavigateTo<SettingsViewModel>(clearStack: true);
 
     // ── Anwendungsmenü (NativeMenu) ──

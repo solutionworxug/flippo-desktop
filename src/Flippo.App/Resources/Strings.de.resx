@@ -121,6 +121,7 @@
   <data name="Nav_Back" xml:space="preserve"><value>◀  Zurück</value></data>
   <data name="Nav_Sets" xml:space="preserve"><value>Karteien</value></data>
   <data name="Nav_Dictionary" xml:space="preserve"><value>Nachschlagen</value></data>
+  <data name="Nav_History" xml:space="preserve"><value>Verlauf</value></data>
   <data name="Nav_Settings" xml:space="preserve"><value>Einstellungen</value></data>
   <data name="Settings_SrsModeBox" xml:space="preserve"><value>Karteikasten (Fächer)</value></data>
   <data name="Settings_SrsModeAdaptive" xml:space="preserve"><value>Adaptiv (SM-2)</value></data>
@@ -356,4 +357,14 @@ Lern-Session
   <data name="Dict_NoSets" xml:space="preserve"><value>Noch keine Karteien — lege zuerst eine Kartei an.</value></data>
   <data name="Dict_AlreadyInSet" xml:space="preserve"><value>„{0}“ ist bereits in der Kartei „{1}“.</value></data>
   <data name="Dict_AddedToSet" xml:space="preserve"><value>„{0}“ zur Kartei „{1}“ hinzugefügt.</value></data>
+  <data name="History_Subtitle" xml:space="preserve"><value>Alle Lern-Sessions — falsche Karten wiederholen oder Kartei erneut lernen.</value></data>
+  <data name="History_QuoteFormat" xml:space="preserve"><value>{0} von {1} richtig · {2} %</value></data>
+  <data name="History_DurationFormat" xml:space="preserve"><value>{0} min</value></data>
+  <data name="History_WrongSessionName" xml:space="preserve"><value>{0} — falsche Karten</value></data>
+  <data name="History_RepeatWrong" xml:space="preserve"><value>Falsche wiederholen</value></data>
+  <data name="History_RepeatWrongTooltip" xml:space="preserve"><value>Session nur mit den falsch beantworteten Karten starten</value></data>
+  <data name="History_Relearn" xml:space="preserve"><value>Kartei erneut lernen</value></data>
+  <data name="History_RelearnTooltip" xml:space="preserve"><value>Alle Karten dieser Kartei noch einmal lernen</value></data>
+  <data name="History_EmptyTitle" xml:space="preserve"><value>Noch keine Sessions</value></data>
+  <data name="History_EmptyHint" xml:space="preserve"><value>Lerne eine Kartei — deine Sessions erscheinen dann hier.</value></data>
 </root>

@@ -121,6 +121,7 @@
   <data name="Nav_Back" xml:space="preserve"><value>◀  Back</value></data>
   <data name="Nav_Sets" xml:space="preserve"><value>Decks</value></data>
   <data name="Nav_Dictionary" xml:space="preserve"><value>Look up</value></data>
+  <data name="Nav_History" xml:space="preserve"><value>History</value></data>
   <data name="Nav_Settings" xml:space="preserve"><value>Settings</value></data>
   <data name="Settings_SrsModeBox" xml:space="preserve"><value>Flashcard box (Leitner)</value></data>
   <data name="Settings_SrsModeAdaptive" xml:space="preserve"><value>Adaptive (SM-2)</value></data>
@@ -356,4 +357,14 @@ Learn session
   <data name="Dict_NoSets" xml:space="preserve"><value>No decks yet — create a deck first.</value></data>
   <data name="Dict_AlreadyInSet" xml:space="preserve"><value>“{0}” is already in the deck “{1}”.</value></data>
   <data name="Dict_AddedToSet" xml:space="preserve"><value>“{0}” added to the deck “{1}”.</value></data>
+  <data name="History_Subtitle" xml:space="preserve"><value>All learning sessions — repeat wrong cards or relearn a deck.</value></data>
+  <data name="History_QuoteFormat" xml:space="preserve"><value>{0} of {1} correct · {2} %</value></data>
+  <data name="History_DurationFormat" xml:space="preserve"><value>{0} min</value></data>
+  <data name="History_WrongSessionName" xml:space="preserve"><value>{0} — wrong cards</value></data>
+  <data name="History_RepeatWrong" xml:space="preserve"><value>Repeat wrong</value></data>
+  <data name="History_RepeatWrongTooltip" xml:space="preserve"><value>Start a session with only the cards you got wrong</value></data>
+  <data name="History_Relearn" xml:space="preserve"><value>Relearn deck</value></data>
+  <data name="History_RelearnTooltip" xml:space="preserve"><value>Learn all cards of this deck again</value></data>
+  <data name="History_EmptyTitle" xml:space="preserve"><value>No sessions yet</value></data>
+  <data name="History_EmptyHint" xml:space="preserve"><value>Learn a deck and your sessions will show up here.</value></data>
 </root>

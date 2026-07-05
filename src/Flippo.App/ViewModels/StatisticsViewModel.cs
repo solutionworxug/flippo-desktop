@@ -27,6 +27,7 @@ public sealed partial class StatisticsViewModel : ViewModelBase, IActivatable
 
     private readonly VocabularyStore _store;
     private readonly SessionStore _sessions;
+    private readonly NavigationService _nav;
 
     [ObservableProperty] private bool _isLoading;
     [ObservableProperty] private bool _isEmpty;
@@ -47,13 +48,16 @@ public sealed partial class StatisticsViewModel : ViewModelBase, IActivatable
     public ObservableCollection<HardCard> HardestCards { get; } = new();
     public ObservableCollection<ModeStatDisplay> ModeStats { get; } = new();
 
-    public StatisticsViewModel(VocabularyStore store, SessionStore sessions)
+    public StatisticsViewModel(VocabularyStore store, SessionStore sessions, NavigationService nav)
     {
         _store = store;
         _sessions = sessions;
+        _nav = nav;
     }
 
     public Task OnActivatedAsync() => LoadAsync();
+
+    [RelayCommand] private void GoHistory() => _nav.NavigateTo<HistoryViewModel>();
 
     [RelayCommand]
     public async Task LoadAsync()
