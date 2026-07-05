@@ -487,10 +487,15 @@ $RECYCLE.BIN/
 *.db-shm
 flippo-design.db
 
-# FLIPPO: echtes Android-Backup (persoenliche Daten) nicht einchecken
-tests/Flippo.Tests/Fixtures/android-backup-v2.json
+# FLIPPO: echte Backup-Fixtures (persoenliche Vokabeldaten) NIE einchecken — schon gar nicht ins
+# oeffentliche Repo. AndroidFixtureTests ueberspringt sich selbst, wenn die Datei fehlt (Clone/CI).
+# Nur die README ist getrackt; jede *.json hier gilt als echtes Backup und bleibt lokal.
+tests/Flippo.Tests/Fixtures/*.json
 
 # FLIPPO: 'Backup' ist bei uns ein Code-Namespace, NICHT das VS-Konvertierungs-Artefakt (Zeile 266 Backup*/).
 # Die Ordner-Ignorierung fuer genau diese beiden Code-Ordner aufheben:
 !src/Flippo.Core/Backup/
 !tests/Flippo.Tests/Backup/
+
+# Velopack-Ausgabe (P8)
+releases/

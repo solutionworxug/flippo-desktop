@@ -163,4 +163,6 @@
   <data name="DetailVm_Delete" xml:space="preserve"><value>Delete</value></data>
   <data name="DetailVm_DeleteSetTitle" xml:space="preserve"><value>Delete set</value></data>
   <data name="DetailVm_DeleteSetMsg" xml:space="preserve"><value>Permanently delete “{0}” and all its cards?</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>An update is ready to install.</value></data>
+  <data name="Update_Restart" xml:space="preserve"><value>Restart now</value></data>
 </root>

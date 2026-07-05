@@ -38,10 +38,12 @@ public partial class App : Application
 
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
         {
-            desktop.MainWindow = new MainWindow
-            {
-                DataContext = Services.GetRequiredService<MainWindowViewModel>()
-            };
+            var shell = Services.GetRequiredService<MainWindowViewModel>();
+            desktop.MainWindow = new MainWindow { DataContext = shell };
+
+            // Update-Check nicht-blockierend im Hintergrund anstoßen (fire-and-forget);
+            // im Dev-Betrieb ist das ein No-Op.
+            _ = shell.CheckForUpdatesAsync();
         }
 
         base.OnFrameworkInitializationCompleted();
@@ -57,6 +59,7 @@ public partial class App : Application
         services.AddSingleton<IFilePickerService, FilePickerService>();
         services.AddSingleton<IDialogService, DialogService>();
 
+        services.AddSingleton<UpdateService>();
         services.AddSingleton<NavigationService>();
         services.AddSingleton<MainWindowViewModel>();
         services.AddTransient<SetsOverviewViewModel>();

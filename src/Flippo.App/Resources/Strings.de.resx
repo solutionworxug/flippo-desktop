@@ -163,4 +163,6 @@
   <data name="DetailVm_Delete" xml:space="preserve"><value>Löschen</value></data>
   <data name="DetailVm_DeleteSetTitle" xml:space="preserve"><value>Kartei löschen</value></data>
   <data name="DetailVm_DeleteSetMsg" xml:space="preserve"><value>„{0}“ mit allen Karten unwiderruflich löschen?</value></data>
+  <data name="Update_Available" xml:space="preserve"><value>Ein Update ist installationsbereit.</value></data>
+  <data name="Update_Restart" xml:space="preserve"><value>Jetzt neu starten</value></data>
 </root>

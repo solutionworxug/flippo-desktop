@@ -1,3 +1,5 @@
+using System.Reflection;
+using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Flippo.App.Services;
@@ -12,22 +14,38 @@ namespace Flippo.App.ViewModels;
 public sealed partial class MainWindowViewModel : ViewModelBase
 {
     private readonly NavigationService _nav;
+    private readonly UpdateService _updates;
 
     [ObservableProperty] private ViewModelBase? _currentPage;
     [ObservableProperty] private bool _canGoBack;
 
+    /// <summary>Wird true, sobald ein Update heruntergeladen und installationsbereit ist (Banner).</summary>
+    [ObservableProperty] private bool _updateReady;
+
     /// <summary>UI-Skalierung aus der Schriftgrößen-Einstellung; live aktualisierbar via <see cref="ApplyFontSize"/>.</summary>
     [ObservableProperty] private double _uiScale = 1.0;
 
-    public MainWindowViewModel(NavigationService nav, SettingsService settings)
+    public MainWindowViewModel(NavigationService nav, SettingsService settings, UpdateService updates)
     {
         _nav = nav;
+        _updates = updates;
         UiScale = ScaleFor(settings.Load().FontSize);
         _nav.Navigated += OnNavigated;
         _nav.NavigateTo<SetsOverviewViewModel>(clearStack: true);
     }
 
     public string Title => "FLIPPO Desktop";
+
+    /// <summary>Angezeigte App-Version im Sidebar-Footer, z.B. "v0.1.0".</summary>
+    public string AppVersion => "v" + (Assembly.GetExecutingAssembly().GetName().Version?.ToString(3) ?? "0.1.0");
+
+    /// <summary>
+    /// Stößt den nicht-blockierenden Update-Check an (fire-and-forget beim App-Start).
+    /// Setzt <see cref="UpdateReady"/>, wenn ein Update bereitliegt.
+    /// </summary>
+    public async Task CheckForUpdatesAsync() => UpdateReady = await _updates.CheckAndDownloadAsync();
+
+    [RelayCommand] private void ApplyUpdate() => _updates.ApplyAndRestart();
 
     /// <summary>Schriftgröße sofort anwenden (aus den Einstellungen beim Speichern).</summary>
     public void ApplyFontSize(string fontSize) => UiScale = ScaleFor(fontSize);
