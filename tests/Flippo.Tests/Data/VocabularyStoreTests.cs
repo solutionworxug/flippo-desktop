@@ -147,6 +147,36 @@ public class VocabularyStoreTests
         Assert.Equal(1, set.NewCards);
     }
 
+    [Fact] // GetAllEntries liefert Karten über Set-Grenzen (Einstieg "Alle lernen" + MC-Fallback-Pool)
+    public async Task GetAllEntries_ReturnsEveryEntryAcrossSets()
+    {
+        using var db = new SqliteTestDatabase();
+        var store = StoreFor(db);
+        var setA = await store.AddSetAsync(new VocabularySet { Title = "A" });
+        var setB = await store.AddSetAsync(new VocabularySet { Title = "B" });
+        await store.AddEntryAsync(new VocabularyEntry { SetId = setA, SourceText = "1", TargetText = "x" });
+        await store.AddEntryAsync(new VocabularyEntry { SetId = setB, SourceText = "2", TargetText = "y" });
+
+        var all = await store.GetAllEntriesAsync();
+
+        Assert.Equal(2, all.Count);
+    }
+
+    [Fact] // GetEntriesByIds liefert nur die angeforderten Karten (für "Falsche wiederholen")
+    public async Task GetEntriesByIds_ReturnsOnlyRequested()
+    {
+        using var db = new SqliteTestDatabase();
+        var store = StoreFor(db);
+        var setId = await store.AddSetAsync(new VocabularySet { Title = "Set" });
+        var id1 = await store.AddEntryAsync(new VocabularyEntry { SetId = setId, SourceText = "1", TargetText = "a" });
+        await store.AddEntryAsync(new VocabularyEntry { SetId = setId, SourceText = "2", TargetText = "b" });
+        var id3 = await store.AddEntryAsync(new VocabularyEntry { SetId = setId, SourceText = "3", TargetText = "c" });
+
+        var subset = await store.GetEntriesByIdsAsync([id1, id3]);
+
+        Assert.Equal([id1, id3], subset.Select(e => e.Id).Order());
+    }
+
     [Fact]
     public async Task SessionStore_AddAndGetAll()
     {

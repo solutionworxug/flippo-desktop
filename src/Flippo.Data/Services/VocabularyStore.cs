@@ -83,6 +83,27 @@ public sealed class VocabularyStore
         return list.Select(e => e.ToDomain()).ToList();
     }
 
+    /// <summary>Alle Karten über Set-Grenzen — Einstieg "Alle lernen" und Fallback-Pool für MC-Distraktoren.</summary>
+    public async Task<IReadOnlyList<VocabularyEntry>> GetAllEntriesAsync(CancellationToken ct = default)
+    {
+        await using var db = await _factory.CreateDbContextAsync(ct);
+        var list = await db.Entries.AsNoTracking()
+            .OrderBy(e => e.Id)
+            .ToListAsync(ct);
+        return list.Select(e => e.ToDomain()).ToList();
+    }
+
+    /// <summary>Karten zu einer ID-Menge — für "Falsche wiederholen" (SessionRecord.WrongEntryIds).</summary>
+    public async Task<IReadOnlyList<VocabularyEntry>> GetEntriesByIdsAsync(IReadOnlyCollection<long> ids, CancellationToken ct = default)
+    {
+        if (ids.Count == 0) return [];
+        await using var db = await _factory.CreateDbContextAsync(ct);
+        var list = await db.Entries.AsNoTracking()
+            .Where(e => ids.Contains(e.Id))
+            .ToListAsync(ct);
+        return list.Select(e => e.ToDomain()).ToList();
+    }
+
     public async Task<VocabularyEntry?> GetEntryAsync(long id, CancellationToken ct = default)
     {
         await using var db = await _factory.CreateDbContextAsync(ct);
