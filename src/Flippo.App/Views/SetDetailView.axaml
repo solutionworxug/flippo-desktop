@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="600"
              x:Class="Flippo.App.Views.SetDetailView"
-             x:DataType="vm:SetDetailViewModel">
+             x:DataType="vm:SetDetailViewModel"
+             Focusable="True">
 
     <UserControl.KeyBindings>
         <KeyBinding Gesture="Ctrl+N" Command="{Binding NewCardCommand}"/>
