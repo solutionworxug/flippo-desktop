@@ -48,7 +48,9 @@
   <data name="Settings_Theme" xml:space="preserve"><value>Design</value></data>
   <data name="Settings_FontSize" xml:space="preserve"><value>Schriftgröße</value></data>
   <data name="Settings_Language" xml:space="preserve"><value>Sprache</value></data>
-  <data name="Settings_RestartHint" xml:space="preserve"><value>Schriftgröße und Sprache wirken nach einem Neustart, das Design sofort.</value></data>
+  <data name="Settings_RestartHint" xml:space="preserve"><value>Die Sprache wirkt nach einem Neustart; Design und Schriftgröße sofort.</value></data>
+  <data name="Settings_RestartNeeded" xml:space="preserve"><value>Sprache geändert — Neustart nötig.</value></data>
+  <data name="Settings_RestartNow" xml:space="preserve"><value>Jetzt neu starten</value></data>
   <data name="Settings_Save" xml:space="preserve"><value>Speichern</value></data>
   <data name="Settings_Saved" xml:space="preserve"><value>✓ Gespeichert</value></data>
   <data name="Summary_Correct" xml:space="preserve"><value>richtig</value></data>

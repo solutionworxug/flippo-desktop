@@ -108,6 +108,8 @@
         <StackPanel Grid.Row="2" Orientation="Horizontal" Spacing="12" Margin="0,16,0,0" VerticalAlignment="Center">
             <Button Content="{loc:T Settings_Save}" Command="{Binding SaveCommand}" Classes="accent" Padding="24,10"/>
             <TextBlock Text="{loc:T Settings_Saved}" Foreground="#2B8A3E" VerticalAlignment="Center" IsVisible="{Binding IsSaved}"/>
+            <TextBlock Text="{loc:T Settings_RestartNeeded}" Foreground="#E67700" VerticalAlignment="Center" IsVisible="{Binding LanguageChanged}"/>
+            <Button Content="{loc:T Settings_RestartNow}" Command="{Binding RestartCommand}" IsVisible="{Binding LanguageChanged}"/>
         </StackPanel>
     </Grid>
 </UserControl>

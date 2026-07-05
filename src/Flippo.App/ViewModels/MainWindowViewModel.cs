@@ -16,6 +16,9 @@ public sealed partial class MainWindowViewModel : ViewModelBase
     [ObservableProperty] private ViewModelBase? _currentPage;
     [ObservableProperty] private bool _canGoBack;
 
+    /// <summary>UI-Skalierung aus der Schriftgrößen-Einstellung; live aktualisierbar via <see cref="ApplyFontSize"/>.</summary>
+    [ObservableProperty] private double _uiScale = 1.0;
+
     public MainWindowViewModel(NavigationService nav, SettingsService settings)
     {
         _nav = nav;
@@ -26,8 +29,8 @@ public sealed partial class MainWindowViewModel : ViewModelBase
 
     public string Title => "FLIPPO Desktop";
 
-    /// <summary>UI-Skalierung aus der Schriftgrößen-Einstellung (wirkt nach Neustart, Plan P7).</summary>
-    public double UiScale { get; }
+    /// <summary>Schriftgröße sofort anwenden (aus den Einstellungen beim Speichern).</summary>
+    public void ApplyFontSize(string fontSize) => UiScale = ScaleFor(fontSize);
 
     private static double ScaleFor(string fontSize) => fontSize switch
     {

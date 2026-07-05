@@ -48,7 +48,9 @@
   <data name="Settings_Theme" xml:space="preserve"><value>Theme</value></data>
   <data name="Settings_FontSize" xml:space="preserve"><value>Font size</value></data>
   <data name="Settings_Language" xml:space="preserve"><value>Language</value></data>
-  <data name="Settings_RestartHint" xml:space="preserve"><value>Font size and language take effect after a restart, the theme immediately.</value></data>
+  <data name="Settings_RestartHint" xml:space="preserve"><value>Language takes effect after a restart; theme and font size apply immediately.</value></data>
+  <data name="Settings_RestartNeeded" xml:space="preserve"><value>Language changed — restart required.</value></data>
+  <data name="Settings_RestartNow" xml:space="preserve"><value>Restart now</value></data>
   <data name="Settings_Save" xml:space="preserve"><value>Save</value></data>
   <data name="Settings_Saved" xml:space="preserve"><value>✓ Saved</value></data>
   <data name="Summary_Correct" xml:space="preserve"><value>correct</value></data>

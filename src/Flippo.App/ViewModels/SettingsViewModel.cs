@@ -1,4 +1,6 @@
-using System.Collections.ObjectModel;
+using System.Diagnostics;
+using Avalonia;
+using Avalonia.Controls.ApplicationLifetimes;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Flippo.App.Localization;
@@ -14,6 +16,7 @@ namespace Flippo.App.ViewModels;
 public sealed partial class SettingsViewModel : ViewModelBase
 {
     private readonly SettingsService _settings;
+    private readonly MainWindowViewModel _shell;
 
     // SRS
     [ObservableProperty] private SettingOption _srsMode;
@@ -31,6 +34,7 @@ public sealed partial class SettingsViewModel : ViewModelBase
     [ObservableProperty] private SettingOption _uiLanguage;
 
     [ObservableProperty] private bool _isSaved;
+    [ObservableProperty] private bool _languageChanged;   // Sprache geändert → Neustart-Hinweis anzeigen
 
     public IReadOnlyList<SettingOption> SrsModeOptions { get; } =
         [new(L.T("Settings_SrsModeBox"), "FLASHCARD_BOX"), new(L.T("Settings_SrsModeAdaptive"), "ADAPTIVE")];
@@ -51,9 +55,10 @@ public sealed partial class SettingsViewModel : ViewModelBase
     public IReadOnlyList<SettingOption> LanguageOptions { get; } =
         [new(L.T("Settings_LanguageDe"), "de"), new(L.T("Settings_LanguageEn"), "en")];
 
-    public SettingsViewModel(SettingsService settings)
+    public SettingsViewModel(SettingsService settings, MainWindowViewModel shell)
     {
         _settings = settings;
+        _shell = shell;
         var s = settings.Load();
 
         _srsMode = Match(SrsModeOptions, s.SrsMode);
@@ -74,6 +79,7 @@ public sealed partial class SettingsViewModel : ViewModelBase
     private void Save()
     {
         var current = _settings.Load();
+        var languageBefore = current.UiLanguage;
         var updated = current with
         {
             SrsMode = SrsMode.Value,
@@ -90,9 +96,21 @@ public sealed partial class SettingsViewModel : ViewModelBase
         };
 
         _settings.Save(updated);
-        ThemeService.Apply(updated.UiTheme);   // Theme sofort anwenden
+        ThemeService.Apply(updated.UiTheme);           // Theme sofort
+        _shell.ApplyFontSize(updated.FontSize);        // Schriftgröße sofort
+        LanguageChanged = updated.UiLanguage != languageBefore;   // Sprache erst nach Neustart
         BoxIntervalsText = string.Join(", ", updated.BoxIntervals);   // normalisiert zurückschreiben
         IsSaved = true;
+    }
+
+    /// <summary>Startet die App neu (für den Sprachwechsel) — neue Instanz starten, aktuelle beenden.</summary>
+    [RelayCommand]
+    private void Restart()
+    {
+        var path = Environment.ProcessPath;
+        if (path is not null)
+            Process.Start(path);
+        (Application.Current?.ApplicationLifetime as IClassicDesktopStyleApplicationLifetime)?.Shutdown();
     }
 
     partial void OnBoxIntervalsTextChanged(string value) => IsSaved = false;
