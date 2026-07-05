@@ -1,0 +1,100 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:Flippo.App.ViewModels"
+             xmlns:loc="using:Flippo.App.Localization"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="820" d:DesignHeight="720"
+             x:Class="Flippo.App.Views.DashboardView"
+             x:DataType="vm:DashboardViewModel">
+
+    <ScrollViewer>
+        <StackPanel Spacing="16" Margin="24">
+
+            <!-- Kopf: Begrüßung + Streak -->
+            <Grid ColumnDefinitions="*,Auto">
+                <TextBlock Grid.Column="0" Classes="page-title" Text="{Binding Greeting}" VerticalAlignment="Center"/>
+                <Border Grid.Column="1" IsVisible="{Binding HasStreak}" VerticalAlignment="Center"
+                        Background="{DynamicResource Brush.Accent.Soft}" CornerRadius="{DynamicResource Radius.Control}" Padding="12,6">
+                    <TextBlock Text="{Binding StreakText}" FontWeight="SemiBold" Foreground="{DynamicResource Brush.Accent}"/>
+                </Border>
+            </Grid>
+
+            <!-- Empty-State: keine Karteien -->
+            <Border Classes="app-card" IsVisible="{Binding !HasSets}">
+                <StackPanel Spacing="10" HorizontalAlignment="Center" Margin="0,20">
+                    <TextBlock Classes="section" Text="{loc:T Dash_EmptyTitle}" HorizontalAlignment="Center"/>
+                    <TextBlock Classes="caption" Text="{loc:T Dash_EmptyHint}" HorizontalAlignment="Center"/>
+                    <Button Content="{loc:T Dash_CreateSet}" Command="{Binding NewSetCommand}" Classes="accent" HorizontalAlignment="Center" Margin="0,4,0,0"/>
+                </StackPanel>
+            </Border>
+
+            <!-- CTA / Alles-erledigt (nur mit Karteien) -->
+            <Panel IsVisible="{Binding HasSets}">
+                <!-- Jetzt lernen -->
+                <Border IsVisible="{Binding HasDue}" Background="{DynamicResource Brush.Accent}"
+                        CornerRadius="{DynamicResource Radius.Card}" Padding="{DynamicResource Inset.Card}">
+                    <Grid ColumnDefinitions="*,Auto">
+                        <StackPanel Grid.Column="0" Spacing="2" VerticalAlignment="Center">
+                            <TextBlock Text="{loc:T Dash_LearnNow}" FontSize="{DynamicResource Font.Title}" FontWeight="Bold" Foreground="White"/>
+                            <TextBlock Text="{Binding DueCountText}" Foreground="White" Opacity="0.9"/>
+                        </StackPanel>
+                        <Button Grid.Column="1" Content="{loc:T Dash_LearnNow}" Command="{Binding LearnAllDueCommand}"
+                                VerticalAlignment="Center" MinWidth="120"/>
+                    </Grid>
+                </Border>
+                <!-- Alles erledigt -->
+                <Border Classes="app-card" IsVisible="{Binding !HasDue}">
+                    <StackPanel Spacing="4">
+                        <TextBlock Classes="section" Text="{loc:T Dash_AllDone}"/>
+                        <TextBlock Classes="caption" Text="{loc:T Dash_AllDoneHint}"/>
+                    </StackPanel>
+                </Border>
+            </Panel>
+
+            <!-- Kennzahl-Kacheln -->
+            <UniformGrid Columns="3" IsVisible="{Binding HasSets}">
+                <Border Classes="app-card" Margin="0,0,8,0">
+                    <StackPanel HorizontalAlignment="Center" Spacing="4">
+                        <TextBlock Classes="metric" Text="{Binding DueToday}" Foreground="{DynamicResource Brush.Warning}" HorizontalAlignment="Center"/>
+                        <TextBlock Classes="metric-label" Text="{loc:T Sets_Due}" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Classes="app-card" Margin="0,0,8,0">
+                    <StackPanel HorizontalAlignment="Center" Spacing="4">
+                        <TextBlock Classes="metric" Text="{Binding NewCards}" Foreground="{DynamicResource Brush.Success}" HorizontalAlignment="Center"/>
+                        <TextBlock Classes="metric-label" Text="{loc:T Sets_New}" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Classes="app-card">
+                    <StackPanel HorizontalAlignment="Center" Spacing="4">
+                        <TextBlock Classes="metric" Text="{Binding LeechCards}" Foreground="{DynamicResource Brush.Danger}" HorizontalAlignment="Center"/>
+                        <TextBlock Classes="metric-label" Text="{loc:T Stats_Leeches}" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+            </UniformGrid>
+
+            <!-- Letzte Session -->
+            <Border Classes="app-card" IsVisible="{Binding HasLastSession}">
+                <StackPanel Spacing="4">
+                    <TextBlock Classes="eyebrow" Text="{loc:T Dash_LastSession}"/>
+                    <TextBlock Classes="body" Text="{Binding LastSessionText}"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Schnellzugriff -->
+            <Border Classes="app-card" IsVisible="{Binding HasSets}">
+                <StackPanel Spacing="10">
+                    <TextBlock Classes="section" Text="{loc:T Dash_QuickActions}"/>
+                    <UniformGrid Columns="2" >
+                        <Button Content="{loc:T Nav_Sets}" Command="{Binding GoSetsCommand}" HorizontalAlignment="Stretch" Margin="0,0,6,6"/>
+                        <Button Content="{loc:T Dash_CreateSet}" Command="{Binding NewSetCommand}" HorizontalAlignment="Stretch" Margin="0,0,0,6"/>
+                        <Button Content="{loc:T Nav_Statistics}" Command="{Binding GoStatisticsCommand}" HorizontalAlignment="Stretch" Margin="0,0,6,0"/>
+                        <Button Content="{loc:T Dash_ActionLearn}" Command="{Binding LearnAllDueCommand}" HorizontalAlignment="Stretch"/>
+                    </UniformGrid>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

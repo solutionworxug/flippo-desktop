@@ -63,6 +63,7 @@ public partial class App : Application
         services.AddSingleton<UpdateService>();
         services.AddSingleton<NavigationService>();
         services.AddSingleton<MainWindowViewModel>();
+        services.AddTransient<DashboardViewModel>();
         services.AddTransient<SetsOverviewViewModel>();
         services.AddTransient<StatisticsViewModel>();
         services.AddTransient<SetDetailViewModel>();

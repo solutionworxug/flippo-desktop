@@ -258,4 +258,18 @@ Lern-Session
   <data name="Ctx_Learn" xml:space="preserve"><value>Lernen</value></data>
   <data name="Ctx_Edit" xml:space="preserve"><value>Bearbeiten</value></data>
   <data name="Ctx_Delete" xml:space="preserve"><value>Löschen</value></data>
+  <data name="Nav_Dashboard" xml:space="preserve"><value>Dashboard</value></data>
+  <data name="Dash_Greeting" xml:space="preserve"><value>Willkommen zurück</value></data>
+  <data name="Dash_StreakFormat" xml:space="preserve"><value>🔥 {0} Tage Serie</value></data>
+  <data name="Dash_LearnNow" xml:space="preserve"><value>Jetzt lernen</value></data>
+  <data name="Dash_DueCountFormat" xml:space="preserve"><value>{0} Karten fällig</value></data>
+  <data name="Dash_AllDone" xml:space="preserve"><value>Alles erledigt für heute!</value></data>
+  <data name="Dash_AllDoneHint" xml:space="preserve"><value>Aktuell sind keine Karten fällig. Komm später wieder.</value></data>
+  <data name="Dash_EmptyTitle" xml:space="preserve"><value>Noch keine Karteien</value></data>
+  <data name="Dash_EmptyHint" xml:space="preserve"><value>Erstelle deine erste Kartei, um loszulegen.</value></data>
+  <data name="Dash_CreateSet" xml:space="preserve"><value>Kartei erstellen</value></data>
+  <data name="Dash_LastSession" xml:space="preserve"><value>Letzte Session</value></data>
+  <data name="Dash_LastSessionFormat" xml:space="preserve"><value>{0} · {1} · {2}/{3} richtig</value></data>
+  <data name="Dash_QuickActions" xml:space="preserve"><value>Schnellzugriff</value></data>
+  <data name="Dash_ActionLearn" xml:space="preserve"><value>Alle fälligen lernen</value></data>
 </root>

@@ -258,4 +258,18 @@ Learn session
   <data name="Ctx_Learn" xml:space="preserve"><value>Learn</value></data>
   <data name="Ctx_Edit" xml:space="preserve"><value>Edit</value></data>
   <data name="Ctx_Delete" xml:space="preserve"><value>Delete</value></data>
+  <data name="Nav_Dashboard" xml:space="preserve"><value>Dashboard</value></data>
+  <data name="Dash_Greeting" xml:space="preserve"><value>Welcome back</value></data>
+  <data name="Dash_StreakFormat" xml:space="preserve"><value>🔥 {0}-day streak</value></data>
+  <data name="Dash_LearnNow" xml:space="preserve"><value>Study now</value></data>
+  <data name="Dash_DueCountFormat" xml:space="preserve"><value>{0} cards due</value></data>
+  <data name="Dash_AllDone" xml:space="preserve"><value>All caught up for today!</value></data>
+  <data name="Dash_AllDoneHint" xml:space="preserve"><value>No cards are due right now. Come back later.</value></data>
+  <data name="Dash_EmptyTitle" xml:space="preserve"><value>No sets yet</value></data>
+  <data name="Dash_EmptyHint" xml:space="preserve"><value>Create your first set to get started.</value></data>
+  <data name="Dash_CreateSet" xml:space="preserve"><value>Create set</value></data>
+  <data name="Dash_LastSession" xml:space="preserve"><value>Last session</value></data>
+  <data name="Dash_LastSessionFormat" xml:space="preserve"><value>{0} · {1} · {2}/{3} correct</value></data>
+  <data name="Dash_QuickActions" xml:space="preserve"><value>Quick actions</value></data>
+  <data name="Dash_ActionLearn" xml:space="preserve"><value>Learn all due</value></data>
 </root>

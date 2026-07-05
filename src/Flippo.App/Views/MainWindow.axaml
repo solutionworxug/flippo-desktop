@@ -43,6 +43,7 @@
             <NativeMenuItem Header="{loc:T Menu_View}">
                 <NativeMenuItem.Menu>
                     <NativeMenu>
+                        <NativeMenuItem Header="{loc:T Nav_Dashboard}" Command="{Binding ShowDashboardCommand}"/>
                         <NativeMenuItem Header="{loc:T Nav_Sets}" Command="{Binding ShowSetsCommand}"/>
                         <NativeMenuItem Header="{loc:T Nav_Statistics}" Command="{Binding ShowStatisticsCommand}"/>
                         <NativeMenuItem Header="{loc:T Nav_Settings}" Command="{Binding ShowSettingsCommand}"/>
@@ -100,6 +101,8 @@
                                 IsVisible="{Binding CanGoBack}"
                                 Margin="0,0,0,12"/>
 
+                        <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Dashboard}"
+                                Command="{Binding ShowDashboardCommand}" Margin="0,0,0,4"/>
                         <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Sets}"
                                 Command="{Binding ShowSetsCommand}" Margin="0,0,0,4"/>
                         <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Statistics}"
