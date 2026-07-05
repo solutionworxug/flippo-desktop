@@ -119,4 +119,46 @@
   <data name="Nav_Back" xml:space="preserve"><value>◀  Zurück</value></data>
   <data name="Nav_Sets" xml:space="preserve"><value>Karteien</value></data>
   <data name="Nav_Settings" xml:space="preserve"><value>Einstellungen</value></data>
+  <data name="Settings_SrsModeBox" xml:space="preserve"><value>Karteikasten (Fächer)</value></data>
+  <data name="Settings_SrsModeAdaptive" xml:space="preserve"><value>Adaptiv (SM-2)</value></data>
+  <data name="Settings_DirectionSourceToTarget" xml:space="preserve"><value>Quelle → Ziel</value></data>
+  <data name="Settings_DirectionTargetToSource" xml:space="preserve"><value>Ziel → Quelle</value></data>
+  <data name="Settings_DirectionMixed" xml:space="preserve"><value>Gemischt</value></data>
+  <data name="Settings_ThemeSystem" xml:space="preserve"><value>System</value></data>
+  <data name="Settings_ThemeLight" xml:space="preserve"><value>Hell</value></data>
+  <data name="Settings_ThemeDark" xml:space="preserve"><value>Dunkel</value></data>
+  <data name="Settings_FontSizeSmall" xml:space="preserve"><value>Klein</value></data>
+  <data name="Settings_FontSizeMedium" xml:space="preserve"><value>Mittel</value></data>
+  <data name="Settings_FontSizeLarge" xml:space="preserve"><value>Groß</value></data>
+  <data name="Settings_LanguageDe" xml:space="preserve"><value>Deutsch</value></data>
+  <data name="Settings_LanguageEn" xml:space="preserve"><value>English</value></data>
+  <data name="CardEditor_HeaderNew" xml:space="preserve"><value>Neue Karte</value></data>
+  <data name="CardEditor_HeaderEdit" xml:space="preserve"><value>Karte bearbeiten</value></data>
+  <data name="SetEditor_HeaderNew" xml:space="preserve"><value>Neue Kartei</value></data>
+  <data name="SetEditor_HeaderEdit" xml:space="preserve"><value>Kartei bearbeiten</value></data>
+  <data name="Learn_FeedbackDontKnow" xml:space="preserve"><value>Weiß nicht — richtig: {0}</value></data>
+  <data name="Learn_FeedbackCorrect" xml:space="preserve"><value>Richtig!</value></data>
+  <data name="Learn_FeedbackAccents" xml:space="preserve"><value>Fast — achte auf die Akzente: {0}</value></data>
+  <data name="Learn_FeedbackTypo" xml:space="preserve"><value>Fast richtig (Tippfehler): {0}</value></data>
+  <data name="Learn_FeedbackWrong" xml:space="preserve"><value>Falsch — richtig: {0}</value></data>
+  <data name="Learn_ExitTitle" xml:space="preserve"><value>Session beenden</value></data>
+  <data name="Learn_ExitMessage" xml:space="preserve"><value>Lern-Session wirklich beenden?</value></data>
+  <data name="Learn_ExitConfirm" xml:space="preserve"><value>Beenden</value></data>
+  <data name="Summary_Title" xml:space="preserve"><value>Session beendet</value></data>
+  <data name="Summary_Quote" xml:space="preserve"><value>{0} von {1} richtig · {2}%</value></data>
+  <data name="Summary_NothingAnswered" xml:space="preserve"><value>Keine Karten beantwortet</value></data>
+  <data name="SetsVm_AllDueName" xml:space="preserve"><value>Alle fälligen</value></data>
+  <data name="SetsVm_ImportPickerTitle" xml:space="preserve"><value>Backup importieren</value></data>
+  <data name="SetsVm_ImportFailedTitle" xml:space="preserve"><value>Import fehlgeschlagen</value></data>
+  <data name="SetsVm_ImportSummary" xml:space="preserve"><value>{0} Karteien, {1} Karten, {2} Sessions importiert.</value></data>
+  <data name="SetsVm_ImportSkipped" xml:space="preserve"><value>{0} Karte(n) mit unbekanntem Set übersprungen.</value></data>
+  <data name="SetsVm_ImportDoneTitle" xml:space="preserve"><value>Import abgeschlossen</value></data>
+  <data name="SetsVm_ExportPickerTitle" xml:space="preserve"><value>Backup exportieren</value></data>
+  <data name="SetsVm_ExportDoneTitle" xml:space="preserve"><value>Export abgeschlossen</value></data>
+  <data name="SetsVm_ExportDoneMsg" xml:space="preserve"><value>Das Backup wurde gespeichert.</value></data>
+  <data name="DetailVm_DeleteCardTitle" xml:space="preserve"><value>Karte löschen</value></data>
+  <data name="DetailVm_DeleteCardMsg" xml:space="preserve"><value>„{0}“ wirklich löschen?</value></data>
+  <data name="DetailVm_Delete" xml:space="preserve"><value>Löschen</value></data>
+  <data name="DetailVm_DeleteSetTitle" xml:space="preserve"><value>Kartei löschen</value></data>
+  <data name="DetailVm_DeleteSetMsg" xml:space="preserve"><value>„{0}“ mit allen Karten unwiderruflich löschen?</value></data>
 </root>

@@ -1,6 +1,7 @@
 using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Flippo.App.Localization;
 using Flippo.App.Services;
 using Flippo.Data.Services;
 
@@ -32,23 +33,23 @@ public sealed partial class SettingsViewModel : ViewModelBase
     [ObservableProperty] private bool _isSaved;
 
     public IReadOnlyList<SettingOption> SrsModeOptions { get; } =
-        [new("Karteikasten (Fächer)", "FLASHCARD_BOX"), new("Adaptiv (SM-2)", "ADAPTIVE")];
+        [new(L.T("Settings_SrsModeBox"), "FLASHCARD_BOX"), new(L.T("Settings_SrsModeAdaptive"), "ADAPTIVE")];
 
     public IReadOnlyList<SettingOption> DirectionOptions { get; } =
     [
-        new("Quelle → Ziel", "SOURCE_TO_TARGET"),
-        new("Ziel → Quelle", "TARGET_TO_SOURCE"),
-        new("Gemischt", "MIXED")
+        new(L.T("Settings_DirectionSourceToTarget"), "SOURCE_TO_TARGET"),
+        new(L.T("Settings_DirectionTargetToSource"), "TARGET_TO_SOURCE"),
+        new(L.T("Settings_DirectionMixed"), "MIXED")
     ];
 
     public IReadOnlyList<SettingOption> ThemeOptions { get; } =
-        [new("System", "System"), new("Hell", "Light"), new("Dunkel", "Dark")];
+        [new(L.T("Settings_ThemeSystem"), "System"), new(L.T("Settings_ThemeLight"), "Light"), new(L.T("Settings_ThemeDark"), "Dark")];
 
     public IReadOnlyList<SettingOption> FontSizeOptions { get; } =
-        [new("Klein", "Small"), new("Mittel", "Medium"), new("Groß", "Large")];
+        [new(L.T("Settings_FontSizeSmall"), "Small"), new(L.T("Settings_FontSizeMedium"), "Medium"), new(L.T("Settings_FontSizeLarge"), "Large")];
 
     public IReadOnlyList<SettingOption> LanguageOptions { get; } =
-        [new("Deutsch", "de"), new("English", "en")];
+        [new(L.T("Settings_LanguageDe"), "de"), new(L.T("Settings_LanguageEn"), "en")];
 
     public SettingsViewModel(SettingsService settings)
     {

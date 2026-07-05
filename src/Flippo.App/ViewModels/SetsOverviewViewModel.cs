@@ -1,6 +1,7 @@
 using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Flippo.App.Localization;
 using Flippo.App.Services;
 using Flippo.Core.Backup;
 using Flippo.Core.Domain;
@@ -71,7 +72,7 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
     [RelayCommand]
     private void LearnAllDue(string? mode)
         => _nav.NavigateTo<LearnSessionViewModel>(
-            vm => vm.Initialize(null, "Alle fälligen", SessionFilter.Due, ParseMode(mode)));
+            vm => vm.Initialize(null, L.T("SetsVm_AllDueName"), SessionFilter.Due, ParseMode(mode)));
 
     private static LearningMode ParseMode(string? s) => s switch
     {
@@ -92,7 +93,7 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
     [RelayCommand]
     private async Task Import()
     {
-        var stream = await _filePicker.OpenReadStreamAsync("Backup importieren");
+        var stream = await _filePicker.OpenReadStreamAsync(L.T("SetsVm_ImportPickerTitle"));
         if (stream is null) return;
 
         BackupParseResult parsed;
@@ -103,7 +104,7 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
         }
         catch (BackupFormatException ex)
         {
-            await _dialogs.ShowMessageAsync("Import fehlgeschlagen", ex.Message);
+            await _dialogs.ShowMessageAsync(L.T("SetsVm_ImportFailedTitle"), ex.Message);
             return;
         }
 
@@ -121,17 +122,17 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
 
         await LoadAsync();
 
-        var message = $"{result.SetsImported} Karteien, {result.EntriesImported} Karten, {result.SessionsImported} Sessions importiert.";
+        var message = string.Format(L.T("SetsVm_ImportSummary"), result.SetsImported, result.EntriesImported, result.SessionsImported);
         if (result.EntriesSkipped > 0)
-            message += $"\n{result.EntriesSkipped} Karte(n) mit unbekanntem Set übersprungen.";
-        await _dialogs.ShowMessageAsync("Import abgeschlossen", message);
+            message += "\n" + string.Format(L.T("SetsVm_ImportSkipped"), result.EntriesSkipped);
+        await _dialogs.ShowMessageAsync(L.T("SetsVm_ImportDoneTitle"), message);
     }
 
     [RelayCommand]
     private async Task Export()
     {
         var suggested = $"flippo-backup-{DateTimeOffset.Now:yyyy-MM-dd}.json";
-        var stream = await _filePicker.SaveWriteStreamAsync("Backup exportieren", suggested);
+        var stream = await _filePicker.SaveWriteStreamAsync(L.T("SetsVm_ExportPickerTitle"), suggested);
         if (stream is null) return;
 
         var now = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
@@ -139,6 +140,6 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
         await using (stream)
             await _backup.ExportAsync(stream, srs, now);
 
-        await _dialogs.ShowMessageAsync("Export abgeschlossen", "Das Backup wurde gespeichert.");
+        await _dialogs.ShowMessageAsync(L.T("SetsVm_ExportDoneTitle"), L.T("SetsVm_ExportDoneMsg"));
     }
 }

@@ -1,4 +1,5 @@
 using CommunityToolkit.Mvvm.ComponentModel;
+using Flippo.App.Localization;
 using Flippo.Core.Domain;
 
 namespace Flippo.App.ViewModels;
@@ -27,7 +28,7 @@ public sealed partial class CardEditorViewModel : ViewModelBase
     [ObservableProperty] private string _mnemonic = "";
 
     public bool IsNew => _backing.Id == 0;
-    public string HeaderText => IsNew ? "Neue Karte" : "Karte bearbeiten";
+    public string HeaderText => IsNew ? L.T("CardEditor_HeaderNew") : L.T("CardEditor_HeaderEdit");
 
     public CardEditorViewModel(VocabularyEntry backing)
     {

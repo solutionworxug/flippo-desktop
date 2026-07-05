@@ -1,6 +1,7 @@
 using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Flippo.App.Localization;
 using Flippo.App.Services;
 using Flippo.Core.Checking;
 using Flippo.Core.Domain;
@@ -248,7 +249,7 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
         if (!IsFreeText || IsAnswerShown) return;
         var card = _cards[_index];
         _pendingResult = ReviewResult.Wrong;
-        FeedbackText = $"Weiß nicht — richtig: {AnswerText}";
+        FeedbackText = string.Format(L.T("Learn_FeedbackDontKnow"), AnswerText);
         FeedbackIsPositive = false;
         IsAnswerShown = true;
         _ = card;
@@ -265,10 +266,10 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
         FeedbackIsPositive = _pendingResult == ReviewResult.Good;
         FeedbackText = outcome.Result switch
         {
-            FreeTextChecker.CheckResult.Correct => "Richtig!",
-            FreeTextChecker.CheckResult.AlmostCorrect => $"Fast — achte auf die Akzente: {outcome.CorrectAnswer}",
-            FreeTextChecker.CheckResult.Typo => $"Fast richtig (Tippfehler): {outcome.CorrectAnswer}",
-            _ => $"Falsch — richtig: {outcome.CorrectAnswer}"
+            FreeTextChecker.CheckResult.Correct => L.T("Learn_FeedbackCorrect"),
+            FreeTextChecker.CheckResult.AlmostCorrect => string.Format(L.T("Learn_FeedbackAccents"), outcome.CorrectAnswer),
+            FreeTextChecker.CheckResult.Typo => string.Format(L.T("Learn_FeedbackTypo"), outcome.CorrectAnswer),
+            _ => string.Format(L.T("Learn_FeedbackWrong"), outcome.CorrectAnswer)
         };
         IsAnswerShown = true;
     }
@@ -300,7 +301,7 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
 
         _pendingResult = chosen.IsCorrect ? ReviewResult.Good : ReviewResult.Wrong;
         FeedbackIsPositive = chosen.IsCorrect;
-        FeedbackText = chosen.IsCorrect ? "Richtig!" : $"Falsch — richtig: {AnswerText}";
+        FeedbackText = chosen.IsCorrect ? L.T("Learn_FeedbackCorrect") : string.Format(L.T("Learn_FeedbackWrong"), AnswerText);
         IsAnswerShown = true;
     }
 
@@ -361,7 +362,7 @@ public sealed partial class LearnSessionViewModel : ViewModelBase, IActivatable
     [RelayCommand]
     private async Task Exit()
     {
-        var confirmed = await _dialogs.ConfirmAsync("Session beenden", "Lern-Session wirklich beenden?", "Beenden");
+        var confirmed = await _dialogs.ConfirmAsync(L.T("Learn_ExitTitle"), L.T("Learn_ExitMessage"), L.T("Learn_ExitConfirm"));
         if (!confirmed) return;
         await FinishAsync();
     }

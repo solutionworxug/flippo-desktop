@@ -1,4 +1,5 @@
 using CommunityToolkit.Mvvm.ComponentModel;
+using Flippo.App.Localization;
 using Flippo.Core.Domain;
 
 namespace Flippo.App.ViewModels;
@@ -24,7 +25,7 @@ public sealed partial class SetEditorViewModel : ViewModelBase
     {
         if (existing is null)
         {
-            HeaderText = "Neue Kartei";
+            HeaderText = L.T("SetEditor_HeaderNew");
         }
         else
         {
@@ -34,7 +35,7 @@ public sealed partial class SetEditorViewModel : ViewModelBase
             Description = existing.Description;
             SourceLanguage = existing.SourceLanguage;
             TargetLanguage = existing.TargetLanguage;
-            HeaderText = "Kartei bearbeiten";
+            HeaderText = L.T("SetEditor_HeaderEdit");
         }
     }
 

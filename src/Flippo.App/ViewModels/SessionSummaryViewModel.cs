@@ -1,5 +1,6 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Flippo.App.Localization;
 using Flippo.App.Services;
 using Flippo.Core.Domain;
 
@@ -14,7 +15,7 @@ public sealed partial class SessionSummaryViewModel : ViewModelBase
     private LearningMode _mode;
     private List<long> _wrongEntryIds = [];
 
-    [ObservableProperty] private string _title = "Session beendet";
+    [ObservableProperty] private string _title = L.T("Summary_Title");
     [ObservableProperty] private int _correctCount;
     [ObservableProperty] private int _wrongCount;
     [ObservableProperty] private string _quoteText = "";
@@ -33,7 +34,7 @@ public sealed partial class SessionSummaryViewModel : ViewModelBase
         WrongCount = wrong;
         var total = correct + wrong;
         var percent = total > 0 ? (int)Math.Round(100.0 * correct / total) : 0;
-        QuoteText = total > 0 ? $"{correct} von {total} richtig · {percent}%" : "Keine Karten beantwortet";
+        QuoteText = total > 0 ? string.Format(L.T("Summary_Quote"), correct, total, percent) : L.T("Summary_NothingAnswered");
         NothingAnswered = total == 0;
         HasWrong = wrong > 0;
     }

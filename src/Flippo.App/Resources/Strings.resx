@@ -119,4 +119,46 @@
   <data name="Nav_Back" xml:space="preserve"><value>◀  Back</value></data>
   <data name="Nav_Sets" xml:space="preserve"><value>Decks</value></data>
   <data name="Nav_Settings" xml:space="preserve"><value>Settings</value></data>
+  <data name="Settings_SrsModeBox" xml:space="preserve"><value>Flashcard box (Leitner)</value></data>
+  <data name="Settings_SrsModeAdaptive" xml:space="preserve"><value>Adaptive (SM-2)</value></data>
+  <data name="Settings_DirectionSourceToTarget" xml:space="preserve"><value>Source → Target</value></data>
+  <data name="Settings_DirectionTargetToSource" xml:space="preserve"><value>Target → Source</value></data>
+  <data name="Settings_DirectionMixed" xml:space="preserve"><value>Mixed</value></data>
+  <data name="Settings_ThemeSystem" xml:space="preserve"><value>System</value></data>
+  <data name="Settings_ThemeLight" xml:space="preserve"><value>Light</value></data>
+  <data name="Settings_ThemeDark" xml:space="preserve"><value>Dark</value></data>
+  <data name="Settings_FontSizeSmall" xml:space="preserve"><value>Small</value></data>
+  <data name="Settings_FontSizeMedium" xml:space="preserve"><value>Medium</value></data>
+  <data name="Settings_FontSizeLarge" xml:space="preserve"><value>Large</value></data>
+  <data name="Settings_LanguageDe" xml:space="preserve"><value>German</value></data>
+  <data name="Settings_LanguageEn" xml:space="preserve"><value>English</value></data>
+  <data name="CardEditor_HeaderNew" xml:space="preserve"><value>New card</value></data>
+  <data name="CardEditor_HeaderEdit" xml:space="preserve"><value>Edit card</value></data>
+  <data name="SetEditor_HeaderNew" xml:space="preserve"><value>New set</value></data>
+  <data name="SetEditor_HeaderEdit" xml:space="preserve"><value>Edit set</value></data>
+  <data name="Learn_FeedbackDontKnow" xml:space="preserve"><value>Don't know — correct: {0}</value></data>
+  <data name="Learn_FeedbackCorrect" xml:space="preserve"><value>Correct!</value></data>
+  <data name="Learn_FeedbackAccents" xml:space="preserve"><value>Almost — watch the accents: {0}</value></data>
+  <data name="Learn_FeedbackTypo" xml:space="preserve"><value>Almost right (typo): {0}</value></data>
+  <data name="Learn_FeedbackWrong" xml:space="preserve"><value>Wrong — correct: {0}</value></data>
+  <data name="Learn_ExitTitle" xml:space="preserve"><value>End session</value></data>
+  <data name="Learn_ExitMessage" xml:space="preserve"><value>Really end the learning session?</value></data>
+  <data name="Learn_ExitConfirm" xml:space="preserve"><value>End</value></data>
+  <data name="Summary_Title" xml:space="preserve"><value>Session finished</value></data>
+  <data name="Summary_Quote" xml:space="preserve"><value>{0} of {1} correct · {2}%</value></data>
+  <data name="Summary_NothingAnswered" xml:space="preserve"><value>No cards answered</value></data>
+  <data name="SetsVm_AllDueName" xml:space="preserve"><value>All due</value></data>
+  <data name="SetsVm_ImportPickerTitle" xml:space="preserve"><value>Import backup</value></data>
+  <data name="SetsVm_ImportFailedTitle" xml:space="preserve"><value>Import failed</value></data>
+  <data name="SetsVm_ImportSummary" xml:space="preserve"><value>{0} sets, {1} cards, {2} sessions imported.</value></data>
+  <data name="SetsVm_ImportSkipped" xml:space="preserve"><value>{0} card(s) skipped (unknown set).</value></data>
+  <data name="SetsVm_ImportDoneTitle" xml:space="preserve"><value>Import complete</value></data>
+  <data name="SetsVm_ExportPickerTitle" xml:space="preserve"><value>Export backup</value></data>
+  <data name="SetsVm_ExportDoneTitle" xml:space="preserve"><value>Export complete</value></data>
+  <data name="SetsVm_ExportDoneMsg" xml:space="preserve"><value>The backup has been saved.</value></data>
+  <data name="DetailVm_DeleteCardTitle" xml:space="preserve"><value>Delete card</value></data>
+  <data name="DetailVm_DeleteCardMsg" xml:space="preserve"><value>Really delete “{0}”?</value></data>
+  <data name="DetailVm_Delete" xml:space="preserve"><value>Delete</value></data>
+  <data name="DetailVm_DeleteSetTitle" xml:space="preserve"><value>Delete set</value></data>
+  <data name="DetailVm_DeleteSetMsg" xml:space="preserve"><value>Permanently delete “{0}” and all its cards?</value></data>
 </root>

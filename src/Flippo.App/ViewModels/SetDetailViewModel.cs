@@ -1,6 +1,7 @@
 using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Flippo.App.Localization;
 using Flippo.App.Services;
 using Flippo.Core.Domain;
 using Flippo.Core.Session;
@@ -116,9 +117,9 @@ public sealed partial class SetDetailViewModel : ViewModelBase, IActivatable
     {
         if (SelectedRow is null) return;
         var confirmed = await _dialogs.ConfirmAsync(
-            "Karte löschen",
-            $"„{SelectedRow.SourceText}“ wirklich löschen?",
-            "Löschen");
+            L.T("DetailVm_DeleteCardTitle"),
+            string.Format(L.T("DetailVm_DeleteCardMsg"), SelectedRow.SourceText),
+            L.T("DetailVm_Delete"));
         if (!confirmed) return;
 
         await _store.DeleteEntryAsync(SelectedRow.Id);
@@ -173,9 +174,9 @@ public sealed partial class SetDetailViewModel : ViewModelBase, IActivatable
     private async Task DeleteSet()
     {
         var confirmed = await _dialogs.ConfirmAsync(
-            "Kartei löschen",
-            $"„{_set.Title}“ mit allen Karten unwiderruflich löschen?",
-            "Löschen");
+            L.T("DetailVm_DeleteSetTitle"),
+            string.Format(L.T("DetailVm_DeleteSetMsg"), _set.Title),
+            L.T("DetailVm_Delete"));
         if (!confirmed) return;
 
         await _store.DeleteSetAsync(_set.Id);
