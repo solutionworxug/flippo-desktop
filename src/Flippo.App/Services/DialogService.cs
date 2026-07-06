@@ -27,6 +27,12 @@ public interface IDialogService
 
     /// <summary>Ziel-Kartei für „Als Karte übernehmen" (P13). Rückgabe null = abgebrochen.</summary>
     Task<VocabularySet?> ShowSetChooserAsync(IReadOnlyList<VocabularySet> sets);
+
+    /// <summary>Eigenes Wörterbuch anlegen/bearbeiten (P13b). Rückgabe null = abgebrochen.</summary>
+    Task<UserDictionary?> ShowDictionaryEditorAsync(UserDictionary? existing);
+
+    /// <summary>Wörterbuch-Eintrag anlegen/bearbeiten (P13b). Rückgabe null = abgebrochen.</summary>
+    Task<UserDictionaryEntry?> ShowDictEntryEditorAsync(long dictionaryId, UserDictionaryEntry? existing);
 }
 
 public sealed class DialogService : IDialogService
@@ -100,5 +106,23 @@ public sealed class DialogService : IDialogService
 
         var window = new SetChooserWindow(sets);
         return await window.ShowDialog<VocabularySet?>(owner);
+    }
+
+    public async Task<UserDictionary?> ShowDictionaryEditorAsync(UserDictionary? existing)
+    {
+        var owner = _owner();
+        if (owner is null) return null;
+
+        var window = new DictionaryEditorWindow { DataContext = new DictionaryEditorViewModel(existing) };
+        return await window.ShowDialog<UserDictionary?>(owner);
+    }
+
+    public async Task<UserDictionaryEntry?> ShowDictEntryEditorAsync(long dictionaryId, UserDictionaryEntry? existing)
+    {
+        var owner = _owner();
+        if (owner is null) return null;
+
+        var window = new DictEntryEditorWindow { DataContext = new DictEntryEditorViewModel(dictionaryId, existing) };
+        return await window.ShowDialog<UserDictionaryEntry?>(owner);
     }
 }

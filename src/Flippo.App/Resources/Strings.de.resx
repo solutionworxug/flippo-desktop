@@ -357,6 +357,18 @@ Lern-Session
   <data name="Dict_NoSets" xml:space="preserve"><value>Noch keine Karteien — lege zuerst eine Kartei an.</value></data>
   <data name="Dict_AlreadyInSet" xml:space="preserve"><value>„{0}“ ist bereits in der Kartei „{1}“.</value></data>
   <data name="Dict_AddedToSet" xml:space="preserve"><value>„{0}“ zur Kartei „{1}“ hinzugefügt.</value></data>
+  <data name="Dict_NewDict" xml:space="preserve"><value>Neues Wörterbuch</value></data>
+  <data name="Dict_NewEntry" xml:space="preserve"><value>Neuer Eintrag</value></data>
+  <data name="DictEditor_HeaderNew" xml:space="preserve"><value>Neues Wörterbuch</value></data>
+  <data name="DictEditor_HeaderEdit" xml:space="preserve"><value>Wörterbuch bearbeiten</value></data>
+  <data name="DictEditor_NameLabel" xml:space="preserve"><value>Name</value></data>
+  <data name="DictEditor_NamePlaceholder" xml:space="preserve"><value>z.B. Meine Vokabeln</value></data>
+  <data name="DictEditor_SourceLabel" xml:space="preserve"><value>Ausgangssprache</value></data>
+  <data name="DictEditor_TargetLabel" xml:space="preserve"><value>Zielsprache</value></data>
+  <data name="DictEntry_HeaderNew" xml:space="preserve"><value>Neuer Eintrag</value></data>
+  <data name="DictEntry_HeaderEdit" xml:space="preserve"><value>Eintrag bearbeiten</value></data>
+  <data name="DictEntry_DeleteTitle" xml:space="preserve"><value>Eintrag löschen</value></data>
+  <data name="DictEntry_DeleteMsg" xml:space="preserve"><value>Eintrag „{0}“ löschen?</value></data>
   <data name="History_Subtitle" xml:space="preserve"><value>Alle Lern-Sessions — falsche Karten wiederholen oder Kartei erneut lernen.</value></data>
   <data name="History_QuoteFormat" xml:space="preserve"><value>{0} von {1} richtig · {2} %</value></data>
   <data name="History_DurationFormat" xml:space="preserve"><value>{0} min</value></data>

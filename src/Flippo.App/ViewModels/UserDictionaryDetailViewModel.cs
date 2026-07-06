@@ -27,6 +27,7 @@ public sealed partial class UserDictionaryDetailViewModel : ViewModelBase
     [ObservableProperty] private string _searchText = "";
     [ObservableProperty] private bool _isEmpty;
     [ObservableProperty] private string _resultCount = "";
+    [ObservableProperty] private UserDictionaryEntry? _selectedEntry;
 
     public ObservableCollection<UserDictionaryEntry> Results { get; } = new();
 
@@ -60,6 +61,38 @@ public sealed partial class UserDictionaryDetailViewModel : ViewModelBase
         foreach (var e in DictionarySearch.Filter(_all, SearchText)) Results.Add(e);
         IsEmpty = Results.Count == 0;
         ResultCount = string.Format(L.T("Dict_ResultCount"), Results.Count, _all.Count);
+    }
+
+    // ---- Eigene Einträge pflegen (P13b) ----
+
+    [RelayCommand]
+    private async Task AddEntry()
+    {
+        var entry = await _dialogs.ShowDictEntryEditorAsync(_dictId, null);
+        if (entry is null) return;
+        await _store.AddEntryAsync(entry);
+        await LoadAsync();
+    }
+
+    [RelayCommand]
+    private async Task EditEntry()
+    {
+        if (SelectedEntry is null) return;
+        var updated = await _dialogs.ShowDictEntryEditorAsync(_dictId, SelectedEntry);
+        if (updated is null) return;
+        await _store.UpdateEntryAsync(updated);
+        await LoadAsync();
+    }
+
+    [RelayCommand]
+    private async Task DeleteEntry()
+    {
+        if (SelectedEntry is null) return;
+        var confirmed = await _dialogs.ConfirmAsync(L.T("DictEntry_DeleteTitle"),
+            string.Format(L.T("DictEntry_DeleteMsg"), SelectedEntry.SourceWord), L.T("Ctx_Delete"));
+        if (!confirmed) return;
+        await _store.DeleteEntryAsync(SelectedEntry.Id);
+        await LoadAsync();
     }
 
     [RelayCommand]

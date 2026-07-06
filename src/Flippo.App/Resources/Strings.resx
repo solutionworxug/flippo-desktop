@@ -357,6 +357,18 @@ Learn session
   <data name="Dict_NoSets" xml:space="preserve"><value>No decks yet — create a deck first.</value></data>
   <data name="Dict_AlreadyInSet" xml:space="preserve"><value>“{0}” is already in the deck “{1}”.</value></data>
   <data name="Dict_AddedToSet" xml:space="preserve"><value>“{0}” added to the deck “{1}”.</value></data>
+  <data name="Dict_NewDict" xml:space="preserve"><value>New dictionary</value></data>
+  <data name="Dict_NewEntry" xml:space="preserve"><value>New entry</value></data>
+  <data name="DictEditor_HeaderNew" xml:space="preserve"><value>New dictionary</value></data>
+  <data name="DictEditor_HeaderEdit" xml:space="preserve"><value>Edit dictionary</value></data>
+  <data name="DictEditor_NameLabel" xml:space="preserve"><value>Name</value></data>
+  <data name="DictEditor_NamePlaceholder" xml:space="preserve"><value>e.g. My vocabulary</value></data>
+  <data name="DictEditor_SourceLabel" xml:space="preserve"><value>Source language</value></data>
+  <data name="DictEditor_TargetLabel" xml:space="preserve"><value>Target language</value></data>
+  <data name="DictEntry_HeaderNew" xml:space="preserve"><value>New entry</value></data>
+  <data name="DictEntry_HeaderEdit" xml:space="preserve"><value>Edit entry</value></data>
+  <data name="DictEntry_DeleteTitle" xml:space="preserve"><value>Delete entry</value></data>
+  <data name="DictEntry_DeleteMsg" xml:space="preserve"><value>Delete the entry “{0}”?</value></data>
   <data name="History_Subtitle" xml:space="preserve"><value>All learning sessions — repeat wrong cards or relearn a deck.</value></data>
   <data name="History_QuoteFormat" xml:space="preserve"><value>{0} of {1} correct · {2} %</value></data>
   <data name="History_DurationFormat" xml:space="preserve"><value>{0} min</value></data>

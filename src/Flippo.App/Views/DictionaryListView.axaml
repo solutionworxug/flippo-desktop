@@ -16,8 +16,10 @@
                 <TextBlock Classes="page-title" Text="{loc:T Nav_Dictionary}"/>
                 <TextBlock Classes="caption" Text="{loc:T Dict_Subtitle}"/>
             </StackPanel>
-            <Button Grid.Column="1" Content="↻" Command="{Binding LoadCommand}" VerticalAlignment="Top"
-                    ToolTip.Tip="{loc:T Sets_Refresh}"/>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8" VerticalAlignment="Top">
+                <Button Content="{loc:T Dict_NewDict}" Command="{Binding NewDictCommand}" Classes="accent"/>
+                <Button Content="↻" Command="{Binding LoadCommand}" ToolTip.Tip="{loc:T Sets_Refresh}"/>
+            </StackPanel>
         </Grid>
 
         <ScrollViewer Grid.Row="1">

@@ -79,6 +79,16 @@ public sealed partial class DictionaryListViewModel : ViewModelBase, IActivatabl
     }
 
     [RelayCommand]
+    private async Task NewDict()
+    {
+        var dict = await _dialogs.ShowDictionaryEditorAsync(null);
+        if (dict is null) return;
+        var id = await _store.AddDictionaryAsync(dict);
+        await LoadAsync();
+        _nav.NavigateTo<UserDictionaryDetailViewModel>(vm => vm.Initialize(id, dict.Name));
+    }
+
+    [RelayCommand]
     private async Task InstallBundled(AvailableDict? a)
     {
         if (a is null) return;
