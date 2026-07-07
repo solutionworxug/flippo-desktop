@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Flippo.Cloud\Flippo.Cloud.csproj" />
     <ProjectReference Include="..\..\src\Flippo.Core\Flippo.Core.csproj" />
     <ProjectReference Include="..\..\src\Flippo.Data\Flippo.Data.csproj" />
     <ProjectReference Include="..\..\src\Flippo.App\Flippo.App.csproj" />

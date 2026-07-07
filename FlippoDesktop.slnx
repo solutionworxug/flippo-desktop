@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/Flippo.App/Flippo.App.csproj" />
+    <Project Path="src/Flippo.Cloud/Flippo.Cloud.csproj" />
     <Project Path="src/Flippo.Core/Flippo.Core.csproj" />
     <Project Path="src/Flippo.Data/Flippo.Data.csproj" />
   </Folder>
