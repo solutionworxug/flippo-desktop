@@ -379,4 +379,21 @@ Lern-Session
   <data name="History_RelearnTooltip" xml:space="preserve"><value>Alle Karten dieser Kartei noch einmal lernen</value></data>
   <data name="History_EmptyTitle" xml:space="preserve"><value>Noch keine Sessions</value></data>
   <data name="History_EmptyHint" xml:space="preserve"><value>Lerne eine Kartei — deine Sessions erscheinen dann hier.</value></data>
+  <data name="Dest_SectionTitle" xml:space="preserve"><value>Backup-Ziele</value></data>
+  <data name="Dest_SectionHint" xml:space="preserve"><value>In einen Ordner sichern (z.B. ein synchronisierter Cloud-Ordner). Cloud-Anbieter folgen später.</value></data>
+  <data name="Dest_AddFolder" xml:space="preserve"><value>Ordner hinzufügen…</value></data>
+  <data name="Dest_Empty" xml:space="preserve"><value>Noch keine Ziele.</value></data>
+  <data name="Dest_Backup" xml:space="preserve"><value>Sichern</value></data>
+  <data name="Dest_Restore" xml:space="preserve"><value>Wiederherstellen</value></data>
+  <data name="Dest_PickFolderTitle" xml:space="preserve"><value>Backup-Ordner wählen</value></data>
+  <data name="Dest_RemoveTitle" xml:space="preserve"><value>Ziel entfernen</value></data>
+  <data name="Dest_RemoveMsg" xml:space="preserve"><value>Ziel „{0}“ entfernen? (Vorhandene Backup-Dateien bleiben erhalten.)</value></data>
+  <data name="Dest_RestoreTitle" xml:space="preserve"><value>Backup wiederherstellen</value></data>
+  <data name="Dest_ChooseBackup" xml:space="preserve"><value>Backup zum Wiederherstellen wählen</value></data>
+  <data name="Dest_NoBackups" xml:space="preserve"><value>Keine Backups an diesem Ziel gefunden.</value></data>
+  <data name="Dest_BackupDoneTitle" xml:space="preserve"><value>Backup gesichert</value></data>
+  <data name="Dest_BackupDoneMsg" xml:space="preserve"><value>„{0}“ nach „{1}“ gesichert.</value></data>
+  <data name="Dest_ErrorTitle" xml:space="preserve"><value>Fehler beim Backup-Ziel</value></data>
+  <data name="Dest_ErrNotConnected" xml:space="preserve"><value>Der Ordner ist nicht erreichbar. Wurde er verschoben oder gelöscht?</value></data>
+  <data name="Dest_ErrTransport" xml:space="preserve"><value>Das Backup konnte nicht übertragen werden. Bitte erneut versuchen.</value></data>
 </root>

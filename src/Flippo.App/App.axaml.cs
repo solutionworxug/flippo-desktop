@@ -6,6 +6,8 @@ using Flippo.App.Localization;
 using Flippo.App.Services;
 using Flippo.App.ViewModels;
 using Flippo.App.Views;
+using Flippo.Cloud.Abstractions;
+using Flippo.Cloud.Destinations;
 using Flippo.Core.Content;
 using Flippo.Data;
 using Flippo.Data.Services;
@@ -63,6 +65,9 @@ public partial class App : Application
         services.AddSingleton<ThemeSetImporter>();
         services.AddSingleton<IBundledDictionarySource, BundledDictionarySource>();
         services.AddSingleton<DictionaryInstaller>();
+        services.AddSingleton<IDestinationConnector, LocalFolderConnector>();
+        services.AddSingleton<DestinationStore>();
+        services.AddSingleton<CloudBackupService>();
         services.AddSingleton<SetActionsService>();
 
         services.AddSingleton<UpdateService>();
@@ -77,6 +82,7 @@ public partial class App : Application
         services.AddTransient<SetDetailViewModel>();
         services.AddTransient<LearnSessionViewModel>();
         services.AddTransient<SessionSummaryViewModel>();
+        services.AddTransient<BackupDestinationsViewModel>();
         services.AddTransient<SettingsViewModel>();
     }
 

@@ -379,4 +379,21 @@ Learn session
   <data name="History_RelearnTooltip" xml:space="preserve"><value>Learn all cards of this deck again</value></data>
   <data name="History_EmptyTitle" xml:space="preserve"><value>No sessions yet</value></data>
   <data name="History_EmptyHint" xml:space="preserve"><value>Learn a deck and your sessions will show up here.</value></data>
+  <data name="Dest_SectionTitle" xml:space="preserve"><value>Backup destinations</value></data>
+  <data name="Dest_SectionHint" xml:space="preserve"><value>Back up to a folder (e.g. a synced cloud drive). Cloud providers follow later.</value></data>
+  <data name="Dest_AddFolder" xml:space="preserve"><value>Add folder…</value></data>
+  <data name="Dest_Empty" xml:space="preserve"><value>No destinations yet.</value></data>
+  <data name="Dest_Backup" xml:space="preserve"><value>Back up</value></data>
+  <data name="Dest_Restore" xml:space="preserve"><value>Restore</value></data>
+  <data name="Dest_PickFolderTitle" xml:space="preserve"><value>Choose backup folder</value></data>
+  <data name="Dest_RemoveTitle" xml:space="preserve"><value>Remove destination</value></data>
+  <data name="Dest_RemoveMsg" xml:space="preserve"><value>Remove the destination “{0}”? (Existing backup files are kept.)</value></data>
+  <data name="Dest_RestoreTitle" xml:space="preserve"><value>Restore backup</value></data>
+  <data name="Dest_ChooseBackup" xml:space="preserve"><value>Choose a backup to restore</value></data>
+  <data name="Dest_NoBackups" xml:space="preserve"><value>No backups found at this destination.</value></data>
+  <data name="Dest_BackupDoneTitle" xml:space="preserve"><value>Backup saved</value></data>
+  <data name="Dest_BackupDoneMsg" xml:space="preserve"><value>“{0}” saved to “{1}”.</value></data>
+  <data name="Dest_ErrorTitle" xml:space="preserve"><value>Backup destination error</value></data>
+  <data name="Dest_ErrNotConnected" xml:space="preserve"><value>The folder is not reachable. Has it been moved or deleted?</value></data>
+  <data name="Dest_ErrTransport" xml:space="preserve"><value>The backup could not be transferred. Please try again.</value></data>
 </root>

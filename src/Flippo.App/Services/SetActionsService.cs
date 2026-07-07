@@ -1,4 +1,5 @@
 using Flippo.App.Localization;
+using Flippo.Cloud.Abstractions;
 using Flippo.Core.Backup;
 using Flippo.Core.Domain;
 using Flippo.Core.Import;
@@ -21,9 +22,12 @@ public sealed class SetActionsService
     private readonly FileImportService _fileImport;
     private readonly ThemeSetImporter _themeSets;
     private readonly SettingsService _settings;
+    private readonly CloudBackupService _cloud;
+    private readonly DestinationStore _destinations;
 
     public SetActionsService(VocabularyStore store, IFilePickerService filePicker, IDialogService dialogs,
-        BackupService backup, FileImportService fileImport, ThemeSetImporter themeSets, SettingsService settings)
+        BackupService backup, FileImportService fileImport, ThemeSetImporter themeSets, SettingsService settings,
+        CloudBackupService cloud, DestinationStore destinations)
     {
         _store = store;
         _filePicker = filePicker;
@@ -32,6 +36,8 @@ public sealed class SetActionsService
         _fileImport = fileImport;
         _themeSets = themeSets;
         _settings = settings;
+        _cloud = cloud;
+        _destinations = destinations;
     }
 
     /// <summary>Themenset-Picker öffnen (Zielsprache aus UI-Sprache). True, wenn etwas importiert wurde.</summary>
@@ -148,6 +154,12 @@ public sealed class SetActionsService
 
         await _dialogs.ShowMessageAsync(L.T("SetsVm_ExportDoneTitle"), L.T("SetsVm_ExportDoneMsg"));
     }
+
+    /// <summary>Sichert ein Backup zum gewählten Ziel (Task 7).</summary>
+    public Task<bool> ExportToDestinationAsync(DestinationConfig config) => throw new NotImplementedException();
+
+    /// <summary>Listet Backups des Ziels, lässt auswählen und stellt wieder her (Task 7).</summary>
+    public Task<bool> RestoreFromDestinationAsync(DestinationConfig config) => throw new NotImplementedException();
 
     /// <summary>.tsv → Tab; sonst per Heuristik der ersten Datenzeile (mehr Tabs als Kommas → Tab).</summary>
     private static char DetectDelimiter(string fileName, string content)

@@ -18,6 +18,8 @@ public sealed partial class SettingsViewModel : ViewModelBase
     private readonly SettingsService _settings;
     private readonly MainWindowViewModel _shell;
 
+    public BackupDestinationsViewModel Destinations { get; }
+
     // SRS
     [ObservableProperty] private SettingOption _srsMode;
     [ObservableProperty] private string _boxIntervalsText = "";
@@ -55,10 +57,11 @@ public sealed partial class SettingsViewModel : ViewModelBase
     public IReadOnlyList<SettingOption> LanguageOptions { get; } =
         [new(L.T("Settings_LanguageDe"), "de"), new(L.T("Settings_LanguageEn"), "en")];
 
-    public SettingsViewModel(SettingsService settings, MainWindowViewModel shell)
+    public SettingsViewModel(SettingsService settings, MainWindowViewModel shell, BackupDestinationsViewModel destinations)
     {
         _settings = settings;
         _shell = shell;
+        Destinations = destinations;
         var s = settings.Load();
 
         _srsMode = Match(SrsModeOptions, s.SrsMode);

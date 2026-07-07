@@ -1,6 +1,7 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:vm="using:Flippo.App.ViewModels"
+             xmlns:cloud="using:Flippo.Cloud.Abstractions"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:loc="using:Flippo.App.Localization"
@@ -102,6 +103,47 @@
 
                 <TextBlock Text="{loc:T Settings_RestartHint}"
                            Classes="label" TextWrapping="Wrap" Margin="0,4,0,0"/>
+
+                <Border Classes="app-card" DataContext="{Binding Destinations}"
+                        x:DataType="vm:BackupDestinationsViewModel" Margin="0,8,0,0">
+                    <StackPanel Spacing="10">
+                        <Grid ColumnDefinitions="*,Auto">
+                            <TextBlock Grid.Column="0" Classes="section" Text="{loc:T Dest_SectionTitle}"/>
+                            <Button Grid.Column="1" Content="{loc:T Dest_AddFolder}" Command="{Binding AddFolderCommand}"/>
+                        </Grid>
+                        <TextBlock Classes="caption" Text="{loc:T Dest_SectionHint}"/>
+
+                        <ItemsControl ItemsSource="{Binding Destinations}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate x:DataType="cloud:DestinationConfig">
+                                    <Border BorderBrush="{DynamicResource Brush.Border.Subtle}" BorderThickness="1"
+                                            CornerRadius="{DynamicResource Radius.Control}" Padding="12" Margin="0,6,0,0">
+                                        <Grid ColumnDefinitions="*,Auto">
+                                            <StackPanel Grid.Column="0" Spacing="2" VerticalAlignment="Center">
+                                                <TextBlock Text="{Binding DisplayName}" FontWeight="SemiBold"/>
+                                                <TextBlock Text="{Binding Kind}" FontSize="12" Opacity="0.6"/>
+                                            </StackPanel>
+                                            <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="6">
+                                                <Button Content="{loc:T Dest_Backup}"
+                                                        Command="{Binding $parent[ItemsControl].((vm:BackupDestinationsViewModel)DataContext).BackupCommand}"
+                                                        CommandParameter="{Binding}"/>
+                                                <Button Content="{loc:T Dest_Restore}"
+                                                        Command="{Binding $parent[ItemsControl].((vm:BackupDestinationsViewModel)DataContext).RestoreCommand}"
+                                                        CommandParameter="{Binding}"/>
+                                                <Button Content="✕" ToolTip.Tip="{loc:T Ctx_Delete}"
+                                                        Command="{Binding $parent[ItemsControl].((vm:BackupDestinationsViewModel)DataContext).RemoveCommand}"
+                                                        CommandParameter="{Binding}"/>
+                                            </StackPanel>
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+
+                        <TextBlock IsVisible="{Binding !HasDestinations}" Classes="caption"
+                                   Text="{loc:T Dest_Empty}" Margin="0,4,0,0"/>
+                    </StackPanel>
+                </Border>
             </StackPanel>
         </ScrollViewer>
 
