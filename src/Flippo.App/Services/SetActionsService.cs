@@ -75,8 +75,14 @@ public sealed class SetActionsService
             return false;
         }
 
+        return await CompleteImportAsync(parsed);
+    }
+
+    /// <summary>Gemeinsamer Abschluss für Datei- und Ziel-Restore: Preview → Import → Settings → Summary.</summary>
+    private async Task<bool> CompleteImportAsync(BackupParseResult parsed)
+    {
         var confirm = await _dialogs.ShowImportPreviewAsync(parsed);
-        if (confirm is null) return false;   // abgebrochen
+        if (confirm is null) return false;
 
         var now = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
         var result = await _backup.ImportAsync(parsed.Content, writeSafetyExport: true, now);
@@ -156,10 +162,63 @@ public sealed class SetActionsService
     }
 
     /// <summary>Sichert ein Backup zum gewählten Ziel (Task 7).</summary>
-    public Task<bool> ExportToDestinationAsync(DestinationConfig config) => throw new NotImplementedException();
+    public async Task<bool> ExportToDestinationAsync(DestinationConfig config)
+    {
+        try
+        {
+            var dest = _destinations.Resolve(config);
+            var srs = SettingsService.ToSrsSettings(_settings.Load());
+            var now = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
+            var info = await _cloud.BackupToDestinationAsync(dest, srs, now);
+            await _dialogs.ShowMessageAsync(L.T("Dest_BackupDoneTitle"),
+                string.Format(L.T("Dest_BackupDoneMsg"), info.FileName, config.DisplayName));
+            return true;
+        }
+        catch (DestinationException ex)
+        {
+            await _dialogs.ShowMessageAsync(L.T("Dest_ErrorTitle"), DestErrorMessage(ex));
+            return false;
+        }
+    }
 
     /// <summary>Listet Backups des Ziels, lässt auswählen und stellt wieder her (Task 7).</summary>
-    public Task<bool> RestoreFromDestinationAsync(DestinationConfig config) => throw new NotImplementedException();
+    public async Task<bool> RestoreFromDestinationAsync(DestinationConfig config)
+    {
+        BackupParseResult parsed;
+        try
+        {
+            var dest = _destinations.Resolve(config);
+            var backups = await _cloud.ListBackupsAsync(dest);
+            if (backups.Count == 0)
+            {
+                await _dialogs.ShowMessageAsync(L.T("Dest_RestoreTitle"), L.T("Dest_NoBackups"));
+                return false;
+            }
+
+            var chosen = await _dialogs.ShowBackupChooserAsync(backups);
+            if (chosen is null) return false;
+
+            parsed = await _cloud.DownloadAndParseAsync(dest, chosen.RemoteId);
+        }
+        catch (DestinationException ex)
+        {
+            await _dialogs.ShowMessageAsync(L.T("Dest_ErrorTitle"), DestErrorMessage(ex));
+            return false;
+        }
+        catch (BackupFormatException ex)
+        {
+            await _dialogs.ShowMessageAsync(L.T("SetsVm_ImportFailedTitle"), ex.Message);
+            return false;
+        }
+
+        return await CompleteImportAsync(parsed);
+    }
+
+    private static string DestErrorMessage(DestinationException ex) => ex.State switch
+    {
+        DestinationState.NotConnected => L.T("Dest_ErrNotConnected"),
+        _ => L.T("Dest_ErrTransport")
+    };
 
     /// <summary>.tsv → Tab; sonst per Heuristik der ersten Datenzeile (mehr Tabs als Kommas → Tab).</summary>
     private static char DetectDelimiter(string fileName, string content)
