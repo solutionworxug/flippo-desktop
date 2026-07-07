@@ -57,4 +57,23 @@ public class LocalFolderDestinationTests
         }
         finally { Directory.Delete(dir, true); }
     }
+
+    [Fact]
+    public async Task List_ReturnsNewestFirst()
+    {
+        var dir = Directory.CreateTempSubdirectory().FullName;
+        try
+        {
+            var dest = new LocalFolderDestination(LocalFolderConnector.BuildConfig(dir, "T"));
+            await dest.UploadAsync("flippo-backup-20260101-000000.json", new MemoryStream([1]));
+            await dest.UploadAsync("flippo-backup-20260102-000000.json", new MemoryStream([2]));
+
+            var result = await dest.ListBackupsAsync();
+
+            Assert.Equal(2, result.Count);
+            Assert.Equal("flippo-backup-20260102-000000.json", result[0].FileName);
+            Assert.Equal("flippo-backup-20260101-000000.json", result[1].FileName);
+        }
+        finally { Directory.Delete(dir, true); }
+    }
 }

@@ -5,7 +5,6 @@ namespace Flippo.Cloud.Destinations;
 /// <summary>Backup-Ziel = ein Ordner im Dateisystem (RemoteId = Dateiname, flach im Ordner).</summary>
 public sealed class LocalFolderDestination : IBackupDestination
 {
-    private const string Prefix = "flippo-backup-";
     private const string SearchPattern = "flippo-backup-*.json";
 
     private readonly string _folder;
@@ -25,12 +24,23 @@ public sealed class LocalFolderDestination : IBackupDestination
     {
         EnsureFolder();
         var list = new List<BackupFileInfo>();
-        foreach (var path in Directory.EnumerateFiles(_folder, SearchPattern))
+        try
         {
-            var fi = new FileInfo(path);
-            list.Add(new BackupFileInfo(fi.Name, fi.Name, fi.LastWriteTimeUtc, fi.Length));
+            foreach (var path in Directory.EnumerateFiles(_folder, SearchPattern))
+            {
+                var fi = new FileInfo(path);
+                list.Add(new BackupFileInfo(fi.Name, fi.Name, fi.LastWriteTimeUtc, fi.Length));
+            }
         }
-        IReadOnlyList<BackupFileInfo> result = list;
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
+        {
+            throw new DestinationException(DestinationState.TransportFailed, ex.Message, ex);
+        }
+        // Zeitstempel steckt im Dateinamen (lexikografisch = chronologisch), daher absteigend
+        // sortieren, damit das neueste Backup zuerst erscheint (gleiche Konvention wie CloudBackupService.PruneAsync).
+        IReadOnlyList<BackupFileInfo> result = list
+            .OrderByDescending(b => b.FileName, StringComparer.Ordinal)
+            .ToList();
         return Task.FromResult(result);
     }
 
@@ -56,7 +66,12 @@ public sealed class LocalFolderDestination : IBackupDestination
         var path = Path.Combine(_folder, remoteId);
         if (!File.Exists(path))
             throw new DestinationException(DestinationState.TransportFailed, $"Backup '{remoteId}' nicht gefunden.");
-        Stream stream = File.OpenRead(path);
+        Stream stream;
+        try { stream = File.OpenRead(path); }
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException)
+        {
+            throw new DestinationException(DestinationState.TransportFailed, ex.Message, ex);
+        }
         return Task.FromResult(stream);
     }
 
