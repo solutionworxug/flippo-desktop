@@ -14,6 +14,7 @@ public static class AppPaths
     public static string DataDirectory { get; } = ResolveDataDirectory();
     public static string DatabaseFile => Path.Combine(DataDirectory, "flippo.db");
     public static string SettingsFile => Path.Combine(DataDirectory, "settings.json");
+    public static string DestinationsFile => Path.Combine(DataDirectory, "destinations.json");
     public static string BackupsDirectory => Path.Combine(DataDirectory, "backups");
 
     public static string ConnectionString => $"Data Source={DatabaseFile}";
