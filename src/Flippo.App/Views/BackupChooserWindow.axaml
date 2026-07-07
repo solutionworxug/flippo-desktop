@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="using:Flippo.App.Localization"
+        xmlns:cloud="using:Flippo.Cloud.Abstractions"
+        x:Class="Flippo.App.Views.BackupChooserWindow"
+        Title="{loc:T Dest_RestoreTitle}"
+        Width="440" Height="460"
+        WindowStartupLocation="CenterOwner"
+        CanResize="False">
+    <Grid Margin="24" RowDefinitions="Auto,*,Auto">
+        <TextBlock Grid.Row="0" Text="{loc:T Dest_ChooseBackup}" FontSize="18" FontWeight="SemiBold" Margin="0,0,0,12"/>
+        <ListBox Grid.Row="1" x:Name="BackupList" DoubleTapped="OnChoose">
+            <ListBox.ItemTemplate>
+                <DataTemplate x:DataType="cloud:BackupFileInfo">
+                    <StackPanel Spacing="2" Margin="4">
+                        <TextBlock Text="{Binding FileName}" FontWeight="SemiBold"/>
+                        <TextBlock FontSize="12" Opacity="0.6">
+                            <Run Text="{Binding CreatedAt, StringFormat={}{0:g}}"/>
+                        </TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8" Margin="0,12,0,0">
+            <Button Content="{loc:T SetEditor_Cancel}" Click="OnCancel" MinWidth="90"/>
+            <Button Content="{loc:T Dest_Restore}" Click="OnChoose" MinWidth="90" Classes="accent"/>
+        </StackPanel>
+    </Grid>
+</Window>

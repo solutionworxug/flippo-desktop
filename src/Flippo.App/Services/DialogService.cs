@@ -1,6 +1,7 @@
 using Avalonia.Controls;
 using Flippo.App.ViewModels;
 using Flippo.App.Views;
+using Flippo.Cloud.Abstractions;
 using Flippo.Core.Backup;
 using Flippo.Core.Domain;
 using Flippo.Data.Services;
@@ -33,6 +34,9 @@ public interface IDialogService
 
     /// <summary>Wörterbuch-Eintrag anlegen/bearbeiten (P13b). Rückgabe null = abgebrochen.</summary>
     Task<UserDictionaryEntry?> ShowDictEntryEditorAsync(long dictionaryId, UserDictionaryEntry? existing);
+
+    /// <summary>Auswahl eines vorhandenen Backups am Ziel (C1). Rückgabe null = abgebrochen.</summary>
+    Task<BackupFileInfo?> ShowBackupChooserAsync(IReadOnlyList<BackupFileInfo> backups);
 }
 
 public sealed class DialogService : IDialogService
@@ -124,5 +128,14 @@ public sealed class DialogService : IDialogService
 
         var window = new DictEntryEditorWindow { DataContext = new DictEntryEditorViewModel(dictionaryId, existing) };
         return await window.ShowDialog<UserDictionaryEntry?>(owner);
+    }
+
+    public async Task<BackupFileInfo?> ShowBackupChooserAsync(IReadOnlyList<BackupFileInfo> backups)
+    {
+        var owner = _owner();
+        if (owner is null) return null;
+
+        var window = new BackupChooserWindow(backups);
+        return await window.ShowDialog<BackupFileInfo?>(owner);
     }
 }

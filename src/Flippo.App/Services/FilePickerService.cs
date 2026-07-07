@@ -15,6 +15,9 @@ public interface IFilePickerService
     Task<PickedFile?> OpenReadFileAsync(string title, string filterName, params string[] patterns);
 
     Task<Stream?> SaveWriteStreamAsync(string title, string suggestedFileName);
+
+    /// <summary>Ordner-Auswahl → lokaler Pfad (C1 Backup-Ziel). null = abgebrochen.</summary>
+    Task<string?> PickFolderAsync(string title);
 }
 
 public sealed class FilePickerService : IFilePickerService
@@ -75,5 +78,19 @@ public sealed class FilePickerService : IFilePickerService
         });
 
         return file is null ? null : await file.OpenWriteAsync();
+    }
+
+    public async Task<string?> PickFolderAsync(string title)
+    {
+        var owner = _owner();
+        if (owner is null) return null;
+
+        var folders = await owner.StorageProvider.OpenFolderPickerAsync(new FolderPickerOpenOptions
+        {
+            Title = title,
+            AllowMultiple = false
+        });
+
+        return folders.Count > 0 ? folders[0].TryGetLocalPath() : null;
     }
 }
