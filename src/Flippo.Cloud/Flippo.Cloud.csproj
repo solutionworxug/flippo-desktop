@@ -4,6 +4,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="../Flippo.Core/Flippo.Core.csproj" />
     <ProjectReference Include="../Flippo.Data/Flippo.Data.csproj" />
   </ItemGroup>
 
