@@ -11,133 +11,167 @@
 
     <UserControl.Styles>
         <Style Selector="TextBlock.label">
-            <Setter Property="FontSize" Value="12"/>
-            <Setter Property="Opacity" Value="0.7"/>
-        </Style>
-        <Style Selector="TextBlock.section">
-            <Setter Property="FontSize" Value="18"/>
-            <Setter Property="FontWeight" Value="SemiBold"/>
-            <Setter Property="Margin" Value="0,8,0,4"/>
+            <Setter Property="FontSize" Value="{DynamicResource Font.Caption}"/>
+            <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Secondary}"/>
         </Style>
     </UserControl.Styles>
 
     <Grid RowDefinitions="Auto,*,Auto" Margin="24">
-        <TextBlock Grid.Row="0" Text="{loc:T Settings_Title}" FontSize="26" FontWeight="SemiBold" Margin="0,0,0,12"/>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Spacing="10" Margin="0,0,0,16" VerticalAlignment="Center">
+            <PathIcon Classes="icon" Data="{DynamicResource Icon.settings}"/>
+            <TextBlock Classes="page-title" Text="{loc:T Settings_Title}"/>
+        </StackPanel>
 
         <ScrollViewer Grid.Row="1">
-            <StackPanel Spacing="12" MaxWidth="520" HorizontalAlignment="Left">
+            <StackPanel Spacing="16" MaxWidth="560" HorizontalAlignment="Left">
 
-                <TextBlock Classes="section" Text="{loc:T Settings_LearningSection}"/>
+                <Border Classes="app-card">
+                    <StackPanel Spacing="12">
+                        <TextBlock Classes="section" Text="{loc:T Settings_LearningSection}"/>
 
-                <StackPanel Spacing="3">
-                    <TextBlock Classes="label" Text="{loc:T Settings_Mode}"/>
-                    <ComboBox ItemsSource="{Binding SrsModeOptions}" SelectedItem="{Binding SrsMode}"
-                              HorizontalAlignment="Stretch">
-                        <ComboBox.ItemTemplate>
-                            <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
-                        </ComboBox.ItemTemplate>
-                    </ComboBox>
-                </StackPanel>
+                        <StackPanel Spacing="3">
+                            <TextBlock Classes="label" Text="{loc:T Settings_Mode}"/>
+                            <ComboBox ItemsSource="{Binding SrsModeOptions}" SelectedItem="{Binding SrsMode}"
+                                      HorizontalAlignment="Stretch">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                        </StackPanel>
 
-                <StackPanel Spacing="3">
-                    <TextBlock Classes="label" Text="{loc:T Settings_BoxIntervals}"/>
-                    <TextBox Text="{Binding BoxIntervalsText}"/>
-                </StackPanel>
+                        <StackPanel Spacing="3">
+                            <TextBlock Classes="label" Text="{loc:T Settings_BoxIntervals}"/>
+                            <TextBox Text="{Binding BoxIntervalsText}"/>
+                        </StackPanel>
 
-                <StackPanel Spacing="3">
-                    <TextBlock Classes="label" Text="{loc:T Settings_Direction}"/>
-                    <ComboBox ItemsSource="{Binding DirectionOptions}" SelectedItem="{Binding LearningDirection}"
-                              HorizontalAlignment="Stretch">
-                        <ComboBox.ItemTemplate>
-                            <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
-                        </ComboBox.ItemTemplate>
-                    </ComboBox>
-                </StackPanel>
+                        <StackPanel Spacing="3">
+                            <TextBlock Classes="label" Text="{loc:T Settings_Direction}"/>
+                            <ComboBox ItemsSource="{Binding DirectionOptions}" SelectedItem="{Binding LearningDirection}"
+                                      HorizontalAlignment="Stretch">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                        </StackPanel>
 
-                <CheckBox Content="{loc:T Settings_StrictAccents}" IsChecked="{Binding StrictAccents}"/>
-                <CheckBox Content="{loc:T Settings_TypoTolerance}" IsChecked="{Binding TypoToleranceEnabled}"/>
+                        <CheckBox Content="{loc:T Settings_StrictAccents}" IsChecked="{Binding StrictAccents}"/>
+                        <CheckBox Content="{loc:T Settings_TypoTolerance}" IsChecked="{Binding TypoToleranceEnabled}"/>
 
-                <Grid ColumnDefinitions="*,12,*,12,*">
-                    <StackPanel Grid.Column="0" Spacing="3">
-                        <TextBlock Classes="label" Text="{loc:T Settings_LeechThreshold}"/>
-                        <NumericUpDown Value="{Binding LeechThreshold}" Minimum="1" Maximum="99" Increment="1" FormatString="0"/>
+                        <Grid ColumnDefinitions="*,12,*,12,*">
+                            <StackPanel Grid.Column="0" Spacing="3">
+                                <TextBlock Classes="label" Text="{loc:T Settings_LeechThreshold}"/>
+                                <NumericUpDown Value="{Binding LeechThreshold}" Minimum="1" Maximum="99" Increment="1" FormatString="0"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="2" Spacing="3">
+                                <TextBlock Classes="label" Text="{loc:T Settings_MaxCardsPerSession}"/>
+                                <NumericUpDown Value="{Binding MaxCardsPerSession}" Minimum="0" Maximum="999" Increment="5" FormatString="0"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="4" Spacing="3">
+                                <TextBlock Classes="label" Text="{loc:T Settings_MaxNewPerSession}"/>
+                                <NumericUpDown Value="{Binding MaxNewCardsPerDay}" Minimum="0" Maximum="999" Increment="5" FormatString="0"/>
+                            </StackPanel>
+                        </Grid>
                     </StackPanel>
-                    <StackPanel Grid.Column="2" Spacing="3">
-                        <TextBlock Classes="label" Text="{loc:T Settings_MaxCardsPerSession}"/>
-                        <NumericUpDown Value="{Binding MaxCardsPerSession}" Minimum="0" Maximum="999" Increment="5" FormatString="0"/>
-                    </StackPanel>
-                    <StackPanel Grid.Column="4" Spacing="3">
-                        <TextBlock Classes="label" Text="{loc:T Settings_MaxNewPerSession}"/>
-                        <NumericUpDown Value="{Binding MaxNewCardsPerDay}" Minimum="0" Maximum="999" Increment="5" FormatString="0"/>
-                    </StackPanel>
-                </Grid>
+                </Border>
 
-                <TextBlock Classes="section" Text="{loc:T Settings_AppearanceSection}"/>
+                <Border Classes="app-card">
+                    <StackPanel Spacing="12">
+                        <TextBlock Classes="section" Text="{loc:T Settings_AppearanceSection}"/>
 
-                <Grid ColumnDefinitions="*,12,*,12,*">
-                    <StackPanel Grid.Column="0" Spacing="3">
-                        <TextBlock Classes="label" Text="{loc:T Settings_Theme}"/>
-                        <ComboBox ItemsSource="{Binding ThemeOptions}" SelectedItem="{Binding UiTheme}" HorizontalAlignment="Stretch">
-                            <ComboBox.ItemTemplate>
-                                <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
-                            </ComboBox.ItemTemplate>
-                        </ComboBox>
-                    </StackPanel>
-                    <StackPanel Grid.Column="2" Spacing="3">
-                        <TextBlock Classes="label" Text="{loc:T Settings_FontSize}"/>
-                        <ComboBox ItemsSource="{Binding FontSizeOptions}" SelectedItem="{Binding FontSize}" HorizontalAlignment="Stretch">
-                            <ComboBox.ItemTemplate>
-                                <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
-                            </ComboBox.ItemTemplate>
-                        </ComboBox>
-                    </StackPanel>
-                    <StackPanel Grid.Column="4" Spacing="3">
-                        <TextBlock Classes="label" Text="{loc:T Settings_Language}"/>
-                        <ComboBox ItemsSource="{Binding LanguageOptions}" SelectedItem="{Binding UiLanguage}" HorizontalAlignment="Stretch">
-                            <ComboBox.ItemTemplate>
-                                <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
-                            </ComboBox.ItemTemplate>
-                        </ComboBox>
-                    </StackPanel>
-                </Grid>
+                        <Grid ColumnDefinitions="*,12,*,12,*">
+                            <StackPanel Grid.Column="0" Spacing="3">
+                                <TextBlock Classes="label" Text="{loc:T Settings_Theme}"/>
+                                <ComboBox ItemsSource="{Binding ThemeOptions}" SelectedItem="{Binding UiTheme}" HorizontalAlignment="Stretch">
+                                    <ComboBox.ItemTemplate>
+                                        <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
+                                    </ComboBox.ItemTemplate>
+                                </ComboBox>
+                            </StackPanel>
+                            <StackPanel Grid.Column="2" Spacing="3">
+                                <TextBlock Classes="label" Text="{loc:T Settings_FontSize}"/>
+                                <ComboBox ItemsSource="{Binding FontSizeOptions}" SelectedItem="{Binding FontSize}" HorizontalAlignment="Stretch">
+                                    <ComboBox.ItemTemplate>
+                                        <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
+                                    </ComboBox.ItemTemplate>
+                                </ComboBox>
+                            </StackPanel>
+                            <StackPanel Grid.Column="4" Spacing="3">
+                                <TextBlock Classes="label" Text="{loc:T Settings_Language}"/>
+                                <ComboBox ItemsSource="{Binding LanguageOptions}" SelectedItem="{Binding UiLanguage}" HorizontalAlignment="Stretch">
+                                    <ComboBox.ItemTemplate>
+                                        <DataTemplate x:DataType="vm:SettingOption"><TextBlock Text="{Binding Display}"/></DataTemplate>
+                                    </ComboBox.ItemTemplate>
+                                </ComboBox>
+                            </StackPanel>
+                        </Grid>
 
-                <TextBlock Text="{loc:T Settings_RestartHint}"
-                           Classes="label" TextWrapping="Wrap" Margin="0,4,0,0"/>
+                        <TextBlock Text="{loc:T Settings_RestartHint}"
+                                   Classes="label" TextWrapping="Wrap" Margin="0,4,0,0"/>
+                    </StackPanel>
+                </Border>
 
                 <Border Classes="app-card" DataContext="{Binding Destinations}"
-                        x:DataType="vm:BackupDestinationsViewModel" Margin="0,8,0,0">
+                        x:DataType="vm:BackupDestinationsViewModel">
                     <StackPanel Spacing="10">
                         <Grid ColumnDefinitions="*,Auto">
-                            <TextBlock Grid.Column="0" Classes="section" Text="{loc:T Dest_SectionTitle}"/>
-                            <Button Grid.Column="1" Content="{loc:T Dest_AddDestination}" Command="{Binding AddDestinationCommand}"/>
+                            <StackPanel Grid.Column="0" Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
+                                <PathIcon Classes="icon" Data="{DynamicResource Icon.cloud}"/>
+                                <TextBlock Classes="section" Text="{loc:T Dest_SectionTitle}"/>
+                            </StackPanel>
+                            <Button Grid.Column="1" Command="{Binding AddDestinationCommand}">
+                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                    <PathIcon Classes="icon" Width="16" Height="16" Data="{DynamicResource Icon.add}"/>
+                                    <TextBlock Text="{loc:T Dest_AddDestination}"/>
+                                </StackPanel>
+                            </Button>
                         </Grid>
                         <TextBlock Classes="caption" Text="{loc:T Dest_SectionHint}"/>
 
                         <ItemsControl ItemsSource="{Binding Destinations}">
                             <ItemsControl.ItemTemplate>
                                 <DataTemplate x:DataType="cloud:DestinationConfig">
-                                    <Border BorderBrush="{DynamicResource Brush.Border.Subtle}" BorderThickness="1"
+                                    <Border Background="{DynamicResource Brush.Surface.Subtle}"
                                             CornerRadius="{DynamicResource Radius.Control}" Padding="12" Margin="0,6,0,0">
                                         <Grid ColumnDefinitions="*,Auto">
-                                            <StackPanel Grid.Column="0" Spacing="2" VerticalAlignment="Center">
-                                                <TextBlock Text="{Binding DisplayName}" FontWeight="SemiBold"/>
-                                                <TextBlock Text="{Binding Kind}" FontSize="12" Opacity="0.6"/>
+                                            <StackPanel Grid.Column="0" Orientation="Horizontal" Spacing="10" VerticalAlignment="Center">
+                                                <PathIcon Width="18" Height="18" Foreground="{DynamicResource Brush.Text.Secondary}"
+                                                          Data="{DynamicResource Icon.cloud}"/>
+                                                <StackPanel Spacing="2">
+                                                    <TextBlock Classes="body" Text="{Binding DisplayName}" FontWeight="SemiBold"/>
+                                                    <TextBlock Classes="caption" Text="{Binding Kind}"/>
+                                                </StackPanel>
                                             </StackPanel>
                                             <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="6">
-                                                <Button Content="{loc:T Dest_Reconnect}"
-                                                        ToolTip.Tip="{loc:T Dest_ReconnectHint}"
+                                                <Button ToolTip.Tip="{loc:T Dest_ReconnectHint}"
                                                         IsVisible="{Binding Kind, Converter={x:Static vm:KindConverters.IsGoogleDrive}}"
                                                         Command="{Binding $parent[ItemsControl].((vm:BackupDestinationsViewModel)DataContext).ReconnectCommand}"
-                                                        CommandParameter="{Binding}"/>
-                                                <Button Content="{loc:T Dest_Backup}"
+                                                        CommandParameter="{Binding}">
+                                                    <StackPanel Orientation="Horizontal" Spacing="6">
+                                                        <PathIcon Classes="icon" Width="16" Height="16" Data="{DynamicResource Icon.refresh}"/>
+                                                        <TextBlock Text="{loc:T Dest_Reconnect}"/>
+                                                    </StackPanel>
+                                                </Button>
+                                                <Button ToolTip.Tip="{loc:T Dest_Backup}"
                                                         Command="{Binding $parent[ItemsControl].((vm:BackupDestinationsViewModel)DataContext).BackupCommand}"
-                                                        CommandParameter="{Binding}"/>
-                                                <Button Content="{loc:T Dest_Restore}"
+                                                        CommandParameter="{Binding}">
+                                                    <StackPanel Orientation="Horizontal" Spacing="6">
+                                                        <PathIcon Classes="icon" Width="16" Height="16" Data="{DynamicResource Icon.upload}"/>
+                                                        <TextBlock Text="{loc:T Dest_Backup}"/>
+                                                    </StackPanel>
+                                                </Button>
+                                                <Button ToolTip.Tip="{loc:T Dest_Restore}"
                                                         Command="{Binding $parent[ItemsControl].((vm:BackupDestinationsViewModel)DataContext).RestoreCommand}"
-                                                        CommandParameter="{Binding}"/>
-                                                <Button Content="✕" ToolTip.Tip="{loc:T Ctx_Delete}"
+                                                        CommandParameter="{Binding}">
+                                                    <StackPanel Orientation="Horizontal" Spacing="6">
+                                                        <PathIcon Classes="icon" Width="16" Height="16" Data="{DynamicResource Icon.download}"/>
+                                                        <TextBlock Text="{loc:T Dest_Restore}"/>
+                                                    </StackPanel>
+                                                </Button>
+                                                <Button ToolTip.Tip="{loc:T Ctx_Delete}"
                                                         Command="{Binding $parent[ItemsControl].((vm:BackupDestinationsViewModel)DataContext).RemoveCommand}"
-                                                        CommandParameter="{Binding}"/>
+                                                        CommandParameter="{Binding}">
+                                                    <PathIcon Classes="icon" Width="16" Height="16" Data="{DynamicResource Icon.delete}"/>
+                                                </Button>
                                             </StackPanel>
                                         </Grid>
                                     </Border>
@@ -154,8 +188,8 @@
 
         <StackPanel Grid.Row="2" Orientation="Horizontal" Spacing="12" Margin="0,16,0,0" VerticalAlignment="Center">
             <Button Content="{loc:T Settings_Save}" Command="{Binding SaveCommand}" Classes="accent" Padding="24,10"/>
-            <TextBlock Text="{loc:T Settings_Saved}" Foreground="#2B8A3E" VerticalAlignment="Center" IsVisible="{Binding IsSaved}"/>
-            <TextBlock Text="{loc:T Settings_RestartNeeded}" Foreground="#E67700" VerticalAlignment="Center" IsVisible="{Binding LanguageChanged}"/>
+            <TextBlock Text="{loc:T Settings_Saved}" Foreground="{DynamicResource Brush.Success}" VerticalAlignment="Center" IsVisible="{Binding IsSaved}"/>
+            <TextBlock Text="{loc:T Settings_RestartNeeded}" Foreground="{DynamicResource Brush.Warning}" VerticalAlignment="Center" IsVisible="{Binding LanguageChanged}"/>
             <Button Content="{loc:T Settings_RestartNow}" Command="{Binding RestartCommand}" IsVisible="{Binding LanguageChanged}"/>
         </StackPanel>
     </Grid>

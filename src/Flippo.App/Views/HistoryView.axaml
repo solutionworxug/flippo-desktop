@@ -16,11 +16,16 @@
         <!-- Kopf -->
         <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,16">
             <StackPanel Grid.Column="0" Spacing="2">
-                <TextBlock Classes="page-title" Text="{loc:T Nav_History}"/>
+                <StackPanel Orientation="Horizontal" Spacing="10" VerticalAlignment="Center">
+                    <PathIcon Classes="icon" Data="{DynamicResource Icon.history}"/>
+                    <TextBlock Classes="page-title" Text="{loc:T Nav_History}"/>
+                </StackPanel>
                 <TextBlock Classes="caption" Text="{loc:T History_Subtitle}"/>
             </StackPanel>
-            <Button Grid.Column="1" Content="↻" Command="{Binding LoadCommand}" VerticalAlignment="Top"
-                    ToolTip.Tip="{loc:T Sets_Refresh}"/>
+            <Button Grid.Column="1" Command="{Binding LoadCommand}" VerticalAlignment="Top"
+                    ToolTip.Tip="{loc:T Sets_Refresh}">
+                <PathIcon Classes="icon" Data="{DynamicResource Icon.refresh}"/>
+            </Button>
         </Grid>
 
         <ScrollViewer Grid.Row="1">
@@ -32,17 +37,21 @@
                                 <Grid ColumnDefinitions="*,Auto,Auto">
                                     <!-- Set + Modus + Datum -->
                                     <StackPanel Grid.Column="0" Spacing="2" VerticalAlignment="Center">
-                                        <TextBlock Text="{Binding SetName}" FontSize="16" FontWeight="SemiBold"/>
-                                        <TextBlock FontSize="12" Opacity="0.6">
+                                        <TextBlock Classes="body" Text="{Binding SetName}" FontWeight="SemiBold" FontSize="16"/>
+                                        <TextBlock Classes="caption">
                                             <Run Text="{Binding ModeDisplay}"/><Run Text="  ·  "/><Run Text="{Binding DateText}"/>
                                         </TextBlock>
                                     </StackPanel>
 
                                     <!-- Quote + Dauer -->
-                                    <StackPanel Grid.Column="1" Spacing="2" VerticalAlignment="Center"
+                                    <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="6" VerticalAlignment="Center"
                                                 Margin="16,0" MinWidth="150">
-                                        <TextBlock Text="{Binding QuoteText}" FontWeight="SemiBold"/>
-                                        <TextBlock Text="{Binding DurationText}" FontSize="12" Opacity="0.6"/>
+                                        <PathIcon Data="{DynamicResource Icon.check}" Width="16" Height="16"
+                                                  Foreground="{DynamicResource Brush.Success}"/>
+                                        <StackPanel Spacing="2">
+                                            <TextBlock Classes="body" Text="{Binding QuoteText}" FontWeight="SemiBold"/>
+                                            <TextBlock Classes="caption" Text="{Binding DurationText}"/>
+                                        </StackPanel>
                                     </StackPanel>
 
                                     <!-- Aktionen -->
@@ -66,8 +75,8 @@
 
                 <!-- Leerzustand -->
                 <StackPanel IsVisible="{Binding IsEmpty}" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="8" Margin="0,60">
-                    <TextBlock Text="{loc:T History_EmptyTitle}" FontSize="18" Opacity="0.7" HorizontalAlignment="Center"/>
-                    <TextBlock Text="{loc:T History_EmptyHint}" Opacity="0.5" HorizontalAlignment="Center"/>
+                    <TextBlock Classes="section" Text="{loc:T History_EmptyTitle}" Opacity="0.7" HorizontalAlignment="Center"/>
+                    <TextBlock Classes="body" Text="{loc:T History_EmptyHint}" Opacity="0.5" HorizontalAlignment="Center"/>
                 </StackPanel>
             </Panel>
         </ScrollViewer>
