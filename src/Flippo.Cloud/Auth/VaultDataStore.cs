@@ -7,7 +7,10 @@ namespace Flippo.Cloud.Auth;
 /// <summary>
 /// <see cref="IDataStore"/>-Adapter, der Googles Token-Ablage in den <see cref="ITokenVault"/>
 /// (DPAPI) umleitet — das Refresh-Token landet verschlüsselt, nicht in Googles Plaintext-FileDataStore.
-/// Ein Vault-Schlüssel je (Prefix, Google-Key): <c>{prefix}:{key}</c>.
+/// Ein Vault-Schlüssel je (Prefix, Google-Key): <c>{prefix}_{key}</c>. Unterstrich statt Doppelpunkt,
+/// da der Schlüssel 1:1 in einen Dateinamen einfließt — ein Doppelpunkt würde auf NTFS als
+/// Alternate-Data-Stream-Trenner interpretiert (verschlüsselter Blob landet in einem versteckten
+/// Stream statt einer normalen Datei; Backup-/AV-/Zip-Tools verlieren ihn dann stillschweigend).
 /// </summary>
 public sealed class VaultDataStore : IDataStore
 {
@@ -46,5 +49,5 @@ public sealed class VaultDataStore : IDataStore
         return Task.CompletedTask;
     }
 
-    private string VaultKey(string key) => $"{_prefix}:{key}";
+    private string VaultKey(string key) => $"{_prefix}_{key}";
 }

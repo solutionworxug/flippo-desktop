@@ -51,5 +51,22 @@ public sealed class WindowsDpapiTokenVault : ITokenVault
         catch (IOException) { /* idempotent — best effort */ }
     }
 
-    private string PathFor(string key) => Path.Combine(_directory, key + ".bin");
+    /// <summary>
+    /// Baut den Dateipfad für einen Vault-Schlüssel. Der Schlüssel wird gegen
+    /// <see cref="Path.GetInvalidFileNameChars"/> sanitisiert (jedes ungültige Zeichen → '_'),
+    /// damit z.B. ein Doppelpunkt im Schlüssel nicht als NTFS-Alternate-Data-Stream-Trenner
+    /// interpretiert wird (siehe <see cref="Auth.VaultDataStore"/>-Doc-Kommentar).
+    /// </summary>
+    private string PathFor(string key) => Path.Combine(_directory, SanitizeFileName(key) + ".bin");
+
+    private static string SanitizeFileName(string key)
+    {
+        var invalid = Path.GetInvalidFileNameChars();
+        var chars = key.ToCharArray();
+        for (var i = 0; i < chars.Length; i++)
+        {
+            if (Array.IndexOf(invalid, chars[i]) >= 0) chars[i] = '_';
+        }
+        return new string(chars);
+    }
 }

@@ -81,4 +81,23 @@ public class WindowsDpapiTokenVaultTests
         }
         finally { Directory.Delete(dir, true); }
     }
+
+    [Fact]
+    public void Store_KeyWithColon_UsesNormalFileNotAlternateDataStream()
+    {
+        if (!OperatingSystem.IsWindows()) return;
+        var vault = NewVault(out var dir);
+        try
+        {
+            const string key = "abc:user";
+            vault.Store(key, "refresh-token-secret");
+            Assert.Equal("refresh-token-secret", vault.Retrieve(key));
+
+            var files = Directory.GetFiles(dir);
+            var binFiles = files.Where(f => f.EndsWith(".bin", StringComparison.Ordinal)).ToArray();
+            Assert.Single(binFiles);
+            Assert.True(new FileInfo(binFiles[0]).Length > 0);
+        }
+        finally { Directory.Delete(dir, true); }
+    }
 }
