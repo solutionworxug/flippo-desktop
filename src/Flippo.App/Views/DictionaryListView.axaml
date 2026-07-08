@@ -18,7 +18,9 @@
             </StackPanel>
             <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8" VerticalAlignment="Top">
                 <Button Content="{loc:T Dict_NewDict}" Command="{Binding NewDictCommand}" Classes="accent"/>
-                <Button Content="↻" Command="{Binding LoadCommand}" ToolTip.Tip="{loc:T Sets_Refresh}"/>
+                <Button Command="{Binding LoadCommand}" ToolTip.Tip="{loc:T Sets_Refresh}">
+                    <PathIcon Classes="icon" Data="{DynamicResource Icon.refresh}"/>
+                </Button>
             </StackPanel>
         </Grid>
 
@@ -31,11 +33,8 @@
                     <ItemsControl ItemsSource="{Binding Installed}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate x:DataType="domain:UserDictionary">
-                                <Button Command="{Binding $parent[ItemsControl].((vm:DictionaryListViewModel)DataContext).OpenDictCommand}"
-                                        CommandParameter="{Binding}"
-                                        HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"
-                                        Padding="16" Margin="0,0,0,8">
-                                    <Button.ContextFlyout>
+                                <Border Classes="app-card" Margin="0,0,0,8">
+                                    <Border.ContextFlyout>
                                         <MenuFlyout>
                                             <MenuItem Header="{loc:T Ctx_Open}"
                                                       Command="{Binding $parent[ItemsControl].((vm:DictionaryListViewModel)DataContext).OpenDictCommand}"
@@ -44,20 +43,25 @@
                                                       Command="{Binding $parent[ItemsControl].((vm:DictionaryListViewModel)DataContext).DeleteDictCommand}"
                                                       CommandParameter="{Binding}"/>
                                         </MenuFlyout>
-                                    </Button.ContextFlyout>
-                                    <Grid ColumnDefinitions="*,Auto">
-                                        <StackPanel Grid.Column="0" Spacing="2">
-                                            <TextBlock Text="{Binding Name}" FontSize="17" FontWeight="SemiBold"/>
-                                            <TextBlock FontSize="12" Opacity="0.6">
-                                                <Run Text="{Binding SourceLanguage}"/><Run Text=" → "/><Run Text="{Binding TargetLanguage}"/>
-                                            </TextBlock>
-                                        </StackPanel>
-                                        <StackPanel Grid.Column="1" Spacing="1" VerticalAlignment="Center">
-                                            <TextBlock Text="{Binding EntryCount}" FontSize="18" FontWeight="SemiBold" HorizontalAlignment="Center"/>
-                                            <TextBlock Text="{loc:T Dict_Entries}" FontSize="10" Opacity="0.6"/>
-                                        </StackPanel>
-                                    </Grid>
-                                </Button>
+                                    </Border.ContextFlyout>
+                                    <Button Command="{Binding $parent[ItemsControl].((vm:DictionaryListViewModel)DataContext).OpenDictCommand}"
+                                            CommandParameter="{Binding}"
+                                            HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"
+                                            Background="Transparent" BorderThickness="0" Padding="0">
+                                        <Grid ColumnDefinitions="*,Auto">
+                                            <StackPanel Grid.Column="0" Spacing="2">
+                                                <TextBlock Classes="section" Text="{Binding Name}"/>
+                                                <TextBlock Classes="caption">
+                                                    <Run Text="{Binding SourceLanguage}"/><Run Text=" → "/><Run Text="{Binding TargetLanguage}"/>
+                                                </TextBlock>
+                                            </StackPanel>
+                                            <StackPanel Grid.Column="1" Spacing="1" VerticalAlignment="Center">
+                                                <TextBlock Text="{Binding EntryCount}" FontSize="18" FontWeight="SemiBold" HorizontalAlignment="Center"/>
+                                                <TextBlock Classes="metric-label" Text="{loc:T Dict_Entries}" HorizontalAlignment="Center"/>
+                                            </StackPanel>
+                                        </Grid>
+                                    </Button>
+                                </Border>
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
@@ -69,11 +73,11 @@
                     <ItemsControl ItemsSource="{Binding Available}">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate x:DataType="vm:AvailableDict">
-                                <Border Classes="app-card" Padding="16" Margin="0,0,0,8">
+                                <Border Classes="app-card" Margin="0,0,0,8">
                                     <Grid ColumnDefinitions="*,Auto">
                                         <StackPanel Grid.Column="0" Spacing="2" VerticalAlignment="Center">
-                                            <TextBlock Text="{Binding DisplayName}" FontSize="16" FontWeight="SemiBold"/>
-                                            <TextBlock FontSize="12" Opacity="0.6">
+                                            <TextBlock Classes="body" Text="{Binding DisplayName}" FontWeight="SemiBold"/>
+                                            <TextBlock Classes="caption">
                                                 <Run Text="{Binding Info.SourceLanguage}"/><Run Text=" → "/><Run Text="{Binding Info.TargetLanguage}"/>
                                             </TextBlock>
                                         </StackPanel>
@@ -89,8 +93,8 @@
 
                 <!-- Leerzustand -->
                 <StackPanel IsVisible="{Binding IsEmpty}" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="8" Margin="0,60">
-                    <TextBlock Text="{loc:T Dict_EmptyTitle}" FontSize="18" Opacity="0.7" HorizontalAlignment="Center"/>
-                    <TextBlock Text="{loc:T Dict_EmptyHint}" Opacity="0.5" HorizontalAlignment="Center"/>
+                    <TextBlock Classes="section" Text="{loc:T Dict_EmptyTitle}" Opacity="0.7" HorizontalAlignment="Center"/>
+                    <TextBlock Classes="body" Text="{loc:T Dict_EmptyHint}" Opacity="0.5" HorizontalAlignment="Center"/>
                 </StackPanel>
 
             </StackPanel>
