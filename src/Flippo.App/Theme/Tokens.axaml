@@ -21,9 +21,11 @@
     <Thickness x:Key="Inset.Page">24</Thickness>
 
     <!-- ── Primitive: Radius ── -->
-    <CornerRadius x:Key="Radius.Control">8</CornerRadius>
-    <CornerRadius x:Key="Radius.Card">12</CornerRadius>
-    <CornerRadius x:Key="Radius.Bar">3</CornerRadius>
+    <CornerRadius x:Key="Radius.Control">12</CornerRadius>
+    <CornerRadius x:Key="Radius.Card">24</CornerRadius>
+    <CornerRadius x:Key="Radius.Hero">32</CornerRadius>
+    <CornerRadius x:Key="Radius.Pill">9999</CornerRadius>
+    <CornerRadius x:Key="Radius.Bar">6</CornerRadius>
 
     <!-- ── Primitive: Font-Familien ── -->
     <FontFamily x:Key="Font.Family.Display">avares://Flippo.App/Assets/Fonts/BricolageGrotesque.ttf#Bricolage Grotesque</FontFamily>
@@ -32,43 +34,47 @@
 
     <!-- ── Primitive: Typografie-Größen ── -->
     <x:Double x:Key="Font.Caption">12</x:Double>
-    <x:Double x:Key="Font.Body">13</x:Double>
-    <x:Double x:Key="Font.BodyLarge">15</x:Double>
-    <x:Double x:Key="Font.Section">15</x:Double>
-    <x:Double x:Key="Font.Title">20</x:Double>
-    <x:Double x:Key="Font.Metric">28</x:Double>
-    <x:Double x:Key="Font.Display">30</x:Double>
+    <x:Double x:Key="Font.Body">14</x:Double>
+    <x:Double x:Key="Font.BodyLarge">17</x:Double>
+    <x:Double x:Key="Font.Section">21</x:Double>
+    <x:Double x:Key="Font.Title">30</x:Double>
+    <x:Double x:Key="Font.Metric">30</x:Double>
+    <x:Double x:Key="Font.Display">44</x:Double>
 
     <!-- ── Semantic: Farben nach Theme-Variante ── -->
     <ResourceDictionary.ThemeDictionaries>
         <ResourceDictionary x:Key="Light">
-            <Color x:Key="Color.Bg.App">#FFF5F6F8</Color>
+            <Color x:Key="Color.Bg.App">#FFFAF9F6</Color>
             <Color x:Key="Color.Surface.Card">#FFFFFFFF</Color>
-            <Color x:Key="Color.Surface.Subtle">#FFEDEFF3</Color>
-            <Color x:Key="Color.Border.Subtle">#FFE1E4EA</Color>
-            <Color x:Key="Color.Text.Primary">#FF1A1D23</Color>
-            <Color x:Key="Color.Text.Secondary">#FF646C79</Color>
-            <Color x:Key="Color.Accent">#FF3B6FB0</Color>
-            <Color x:Key="Color.Accent.Soft">#223B6FB0</Color>
-            <Color x:Key="Color.Success">#FF2F8F5B</Color>
+            <Color x:Key="Color.Surface.Subtle">#FFF4F3F1</Color>
+            <Color x:Key="Color.Border.Subtle">#FFE7E5E1</Color>
+            <Color x:Key="Color.Text.Primary">#FF1A1C1A</Color>
+            <Color x:Key="Color.Text.Secondary">#FF56585C</Color>
+            <Color x:Key="Color.Accent">#FF0040E0</Color>
+            <Color x:Key="Color.Accent.Soft">#1A0040E0</Color>
+            <Color x:Key="Color.Success">#FF006C4D</Color>
             <Color x:Key="Color.Warning">#FFB07A1E</Color>
-            <Color x:Key="Color.Danger">#FFB4453C</Color>
+            <Color x:Key="Color.Danger">#FFBA1A1A</Color>
+            <Color x:Key="Color.Tertiary">#FF993100</Color>
+            <Color x:Key="Color.Tertiary.Soft">#1A993100</Color>
             <!-- Fluent-Akzent (Buttons, Fokus) an den ruhigen Ton angleichen -->
-            <Color x:Key="SystemAccentColor">#FF3B6FB0</Color>
+            <Color x:Key="SystemAccentColor">#FF0040E0</Color>
         </ResourceDictionary>
         <ResourceDictionary x:Key="Dark">
-            <Color x:Key="Color.Bg.App">#FF14161A</Color>
-            <Color x:Key="Color.Surface.Card">#FF1B1E24</Color>
-            <Color x:Key="Color.Surface.Subtle">#FF23272F</Color>
-            <Color x:Key="Color.Border.Subtle">#FF2E333C</Color>
-            <Color x:Key="Color.Text.Primary">#FFF2F4F7</Color>
-            <Color x:Key="Color.Text.Secondary">#FF9AA2AF</Color>
-            <Color x:Key="Color.Accent">#FF6BA0DA</Color>
-            <Color x:Key="Color.Accent.Soft">#336BA0DA</Color>
-            <Color x:Key="Color.Success">#FF57B583</Color>
-            <Color x:Key="Color.Warning">#FFD8A24B</Color>
-            <Color x:Key="Color.Danger">#FFD8756B</Color>
-            <Color x:Key="SystemAccentColor">#FF6BA0DA</Color>
+            <Color x:Key="Color.Bg.App">#FF16150F</Color>
+            <Color x:Key="Color.Surface.Card">#FF211F18</Color>
+            <Color x:Key="Color.Surface.Subtle">#FF2B2920</Color>
+            <Color x:Key="Color.Border.Subtle">#FF3A382E</Color>
+            <Color x:Key="Color.Text.Primary">#FFF3F1EA</Color>
+            <Color x:Key="Color.Text.Secondary">#FFB0ADA2</Color>
+            <Color x:Key="Color.Accent">#FFAAB8FF</Color>
+            <Color x:Key="Color.Accent.Soft">#33AAB8FF</Color>
+            <Color x:Key="Color.Success">#FF6ED9AC</Color>
+            <Color x:Key="Color.Warning">#FFE0B056</Color>
+            <Color x:Key="Color.Danger">#FFF2B8B5</Color>
+            <Color x:Key="Color.Tertiary">#FFFFB59A</Color>
+            <Color x:Key="Color.Tertiary.Soft">#33FFB59A</Color>
+            <Color x:Key="SystemAccentColor">#FFAAB8FF</Color>
         </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 
@@ -84,4 +90,8 @@
     <SolidColorBrush x:Key="Brush.Success" Color="{DynamicResource Color.Success}" />
     <SolidColorBrush x:Key="Brush.Warning" Color="{DynamicResource Color.Warning}" />
     <SolidColorBrush x:Key="Brush.Danger" Color="{DynamicResource Color.Danger}" />
+    <SolidColorBrush x:Key="Brush.Tertiary" Color="{DynamicResource Color.Tertiary}" />
+    <SolidColorBrush x:Key="Brush.Tertiary.Soft" Color="{DynamicResource Color.Tertiary.Soft}" />
+    <BoxShadows x:Key="Shadow.Card">0 4 20 0 #14000000</BoxShadows>
+    <BoxShadows x:Key="Shadow.CardHover">0 10 30 0 #1F000000</BoxShadows>
 </ResourceDictionary>
