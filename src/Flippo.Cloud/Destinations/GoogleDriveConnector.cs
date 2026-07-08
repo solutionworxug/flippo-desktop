@@ -44,7 +44,7 @@ public sealed class GoogleDriveConnector : IInteractiveConnector
         }
         catch (OperationCanceledException)
         {
-            _vault.Delete($"{prefix}:user");   // Teil-Token aufräumen
+            _vault.Delete($"{prefix}_user");   // Teil-Token aufräumen
             return null;                         // Nutzer hat abgebrochen
         }
 

@@ -49,7 +49,7 @@ public sealed class DestinationStore
         var all = GetAll().ToList();
         var target = all.FirstOrDefault(c => c.Id == id);
         if (target is { Kind: BackupDestinationKind.GoogleDrive })
-            _vault?.Delete($"{id:N}:user");   // Refresh-Token mitlöschen (Neu-Verbinden verlangt Login)
+            _vault?.Delete($"{id:N}_user");   // Refresh-Token mitlöschen (Neu-Verbinden verlangt Login)
         Persist(all.Where(c => c.Id != id).ToList());
     }
 
