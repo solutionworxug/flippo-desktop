@@ -17,6 +17,8 @@ public static class AppPaths
     public static string DestinationsFile => Path.Combine(DataDirectory, "destinations.json");
     public static string BackupsDirectory => Path.Combine(DataDirectory, "backups");
     public static string TokensDirectory => Path.Combine(DataDirectory, "tokens");
+    public static string InstalledPacksFile => Path.Combine(DataDirectory, "installed-packs.json");
+    public static string CatalogCacheFile => Path.Combine(DataDirectory, "catalog-cache.json");
 
     public static string ConnectionString => $"Data Source={DatabaseFile}";
 

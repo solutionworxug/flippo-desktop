@@ -10,7 +10,8 @@ public sealed record ThemeSetImportResult(long SetId, string Title, int EntryCou
 /// <summary>
 /// Port von ThemeSetRepository.importAsSet: ein Themenset wird als normale Kartei mit Karten importiert.
 /// Duplikat-Check über den Anzeigetitel; kein Update-/Merge-Pfad (wie Android). Kein Drip, kein Free-Limit
-/// (Desktop ist kostenlos), keine Wörterbuch-Kopplung. Nutzt den vorhandenen P9-Mapper.
+/// (Desktop ist kostenlos), keine Wörterbuch-Kopplung. Nutzt den vorhandenen P9-Mapper. Der Datei-Teil ist
+/// als <see cref="ImportFileAsync"/> extrahiert, damit der C2-Online-Katalog dieselbe Import-Mechanik nutzt.
 /// </summary>
 public sealed class ThemeSetImporter
 {
@@ -34,17 +35,29 @@ public sealed class ThemeSetImporter
     }
 
     /// <summary>
-    /// Importiert ein Themenset unter <paramref name="displayTitle"/>. Rückgabe <c>null</c> = bereits
-    /// importiert (Titel existiert) oder Datei nicht ladbar/leer.
+    /// Importiert ein gebündeltes Themenset unter <paramref name="displayTitle"/>. Rückgabe <c>null</c> =
+    /// bereits importiert (Titel existiert) oder Datei nicht ladbar/leer. Lädt die Datei und delegiert an
+    /// <see cref="ImportFileAsync"/> (verhaltensgleich zur vorherigen Inline-Logik).
     /// </summary>
     public async Task<ThemeSetImportResult?> ImportAsync(ThemeSetManifestEntry entry, string displayTitle, long nowMs)
     {
+        var file = await _source.LoadFileAsync(entry.Path);
+        if (file is null) return null;
+        return await ImportFileAsync(file, displayTitle, nowMs);
+    }
+
+    /// <summary>
+    /// Importiert ein bereits geladenes <see cref="ThemeSetFile"/> unter <paramref name="displayTitle"/> als
+    /// normale Kartei. Rückgabe <c>null</c> = bereits importiert (Titel existiert) oder Datei leer. Titel-Dedupe
+    /// gegen bestehende Karteien inklusive. Gemeinsamer Pfad für gebündelte Sets und Online-Packs (C2).
+    /// </summary>
+    public async Task<ThemeSetImportResult?> ImportFileAsync(ThemeSetFile file, string displayTitle, long nowMs)
+    {
+        if (file.Entries.Count == 0) return null;
+
         var sets = await _store.GetSetsWithCountsAsync(nowMs);
         if (sets.Any(s => string.Equals(s.Title, displayTitle, StringComparison.OrdinalIgnoreCase)))
             return null;   // bereits importiert
-
-        var file = await _source.LoadFileAsync(entry.Path);
-        if (file is null || file.Entries.Count == 0) return null;
 
         long setId = await _store.AddSetAsync(new VocabularySet
         {
