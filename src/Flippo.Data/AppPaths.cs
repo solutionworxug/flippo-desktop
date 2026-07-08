@@ -16,6 +16,7 @@ public static class AppPaths
     public static string SettingsFile => Path.Combine(DataDirectory, "settings.json");
     public static string DestinationsFile => Path.Combine(DataDirectory, "destinations.json");
     public static string BackupsDirectory => Path.Combine(DataDirectory, "backups");
+    public static string TokensDirectory => Path.Combine(DataDirectory, "tokens");
 
     public static string ConnectionString => $"Data Source={DatabaseFile}";
 
@@ -45,5 +46,6 @@ public static class AppPaths
     {
         Directory.CreateDirectory(DataDirectory);
         Directory.CreateDirectory(BackupsDirectory);
+        Directory.CreateDirectory(TokensDirectory);
     }
 }
