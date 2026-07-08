@@ -47,7 +47,7 @@
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="6" VerticalAlignment="Center"
                                                 Margin="16,0" MinWidth="150">
                                         <PathIcon Data="{DynamicResource Icon.check}" Width="16" Height="16"
-                                                  Foreground="{DynamicResource Brush.Success}"/>
+                                                  Foreground="{DynamicResource Brush.Text.Secondary}"/>
                                         <StackPanel Spacing="2">
                                             <TextBlock Classes="body" Text="{Binding QuoteText}" FontWeight="SemiBold"/>
                                             <TextBlock Classes="caption" Text="{Binding DurationText}"/>
