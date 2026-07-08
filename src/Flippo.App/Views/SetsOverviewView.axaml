@@ -90,7 +90,7 @@
                                             Command="{Binding $parent[ItemsControl].((vm:SetsOverviewViewModel)DataContext).OpenSetCommand}"
                                             CommandParameter="{Binding}"
                                             ToolTip.Tip="{loc:T Ctx_Open}">
-                                        <PathIcon Classes="icon" Data="{DynamicResource Icon.edit}"/>
+                                        <PathIcon Classes="icon" Data="{DynamicResource Icon.chevron}"/>
                                     </Button>
                                 </Grid>
                             </Border>
