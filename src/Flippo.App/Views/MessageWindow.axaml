@@ -6,11 +6,14 @@
         mc:Ignorable="d"
         x:Class="Flippo.App.Views.MessageWindow"
         Width="420" SizeToContent="Height"
+        Background="{DynamicResource Brush.Bg.App}"
         WindowStartupLocation="CenterOwner"
         CanResize="False">
-    <StackPanel Margin="24" Spacing="16">
-        <TextBlock x:Name="TitleText" FontSize="18" FontWeight="SemiBold"/>
-        <TextBlock x:Name="MessageText" TextWrapping="Wrap" Opacity="0.85"/>
-        <Button Content="{loc:T Message_OK}" Click="OnOk" HorizontalAlignment="Right" MinWidth="90" Classes="accent"/>
-    </StackPanel>
+    <Border Classes="app-card" Margin="16">
+        <StackPanel Spacing="16">
+            <TextBlock x:Name="TitleText" Classes="section"/>
+            <TextBlock x:Name="MessageText" Classes="body" TextWrapping="Wrap"/>
+            <Button Content="{loc:T Message_OK}" Click="OnOk" HorizontalAlignment="Right" MinWidth="90" Classes="accent" CornerRadius="{DynamicResource Radius.Control}"/>
+        </StackPanel>
+    </Border>
 </Window>

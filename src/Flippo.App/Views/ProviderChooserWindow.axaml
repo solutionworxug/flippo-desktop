@@ -4,14 +4,29 @@
         x:Class="Flippo.App.Views.ProviderChooserWindow"
         Title="{loc:T Dest_AddTitle}"
         Width="380" SizeToContent="Height"
+        Background="{DynamicResource Brush.Bg.App}"
         WindowStartupLocation="CenterOwner"
         CanResize="False">
-    <StackPanel Margin="24" Spacing="12">
-        <TextBlock Text="{loc:T Dest_ChooseProvider}" FontSize="16" FontWeight="SemiBold"/>
-        <Button HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Padding="14,12"
-                Click="OnFolder" Content="{loc:T Dest_ProviderFolder}"/>
-        <Button HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Padding="14,12"
-                Click="OnGoogleDrive" Content="{loc:T Dest_ProviderGoogleDrive}"/>
-        <Button HorizontalAlignment="Right" Content="{loc:T SetEditor_Cancel}" Click="OnCancel" MinWidth="90"/>
-    </StackPanel>
+    <Border Classes="app-card" Margin="16">
+        <StackPanel Spacing="12">
+            <TextBlock Classes="section" Text="{loc:T Dest_ChooseProvider}"/>
+            <Button HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Padding="14,12"
+                    CornerRadius="{DynamicResource Radius.Control}"
+                    Click="OnFolder">
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <PathIcon Classes="icon" Data="{DynamicResource Icon.folder-add}"/>
+                    <TextBlock Classes="body" Text="{loc:T Dest_ProviderFolder}" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            <Button HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Padding="14,12"
+                    CornerRadius="{DynamicResource Radius.Control}"
+                    Click="OnGoogleDrive">
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <PathIcon Classes="icon" Data="{DynamicResource Icon.cloud}"/>
+                    <TextBlock Classes="body" Text="{loc:T Dest_ProviderGoogleDrive}" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            <Button HorizontalAlignment="Right" Content="{loc:T SetEditor_Cancel}" Click="OnCancel" MinWidth="90" CornerRadius="{DynamicResource Radius.Control}"/>
+        </StackPanel>
+    </Border>
 </Window>

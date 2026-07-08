@@ -18,7 +18,7 @@
                   Margin="0,12,0,12" HorizontalAlignment="Left" MinWidth="200"/>
 
         <Button DockPanel.Dock="Bottom" Content="{loc:T ThemeSet_Close}" Click="OnClose"
-                HorizontalAlignment="Right" Margin="0,12,0,0" MinWidth="90"/>
+                HorizontalAlignment="Right" Margin="0,12,0,0" MinWidth="90" CornerRadius="{DynamicResource Radius.Control}"/>
 
         <TextBlock DockPanel.Dock="Bottom" IsVisible="{Binding CatalogUnreachable}" Classes="caption"
                    Text="{loc:T Catalog_Unreachable}" Margin="2,8,0,0"/>

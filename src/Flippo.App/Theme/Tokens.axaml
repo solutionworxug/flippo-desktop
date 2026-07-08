@@ -55,7 +55,9 @@
             <Color x:Key="Color.OnAccent">#FFFFFFFF</Color>
             <Color x:Key="Color.Success">#FF006C4D</Color>
             <Color x:Key="Color.Warning">#FFB07A1E</Color>
+            <Color x:Key="Color.Warning.Soft">#1AB07A1E</Color>
             <Color x:Key="Color.Danger">#FFBA1A1A</Color>
+            <Color x:Key="Color.Danger.Soft">#1ABA1A1A</Color>
             <Color x:Key="Color.Tertiary">#FF993100</Color>
             <Color x:Key="Color.Tertiary.Soft">#1A993100</Color>
             <!-- Fluent-Akzent (Buttons, Fokus) an den ruhigen Ton angleichen -->
@@ -73,7 +75,9 @@
             <Color x:Key="Color.OnAccent">#FF16150F</Color>
             <Color x:Key="Color.Success">#FF6ED9AC</Color>
             <Color x:Key="Color.Warning">#FFE0B056</Color>
+            <Color x:Key="Color.Warning.Soft">#33E0B056</Color>
             <Color x:Key="Color.Danger">#FFF2B8B5</Color>
+            <Color x:Key="Color.Danger.Soft">#33F2B8B5</Color>
             <Color x:Key="Color.Tertiary">#FFFFB59A</Color>
             <Color x:Key="Color.Tertiary.Soft">#33FFB59A</Color>
             <Color x:Key="SystemAccentColor">#FFAAB8FF</Color>
@@ -92,7 +96,9 @@
     <SolidColorBrush x:Key="Brush.OnAccent" Color="{DynamicResource Color.OnAccent}" />
     <SolidColorBrush x:Key="Brush.Success" Color="{DynamicResource Color.Success}" />
     <SolidColorBrush x:Key="Brush.Warning" Color="{DynamicResource Color.Warning}" />
+    <SolidColorBrush x:Key="Brush.Warning.Soft" Color="{DynamicResource Color.Warning.Soft}" />
     <SolidColorBrush x:Key="Brush.Danger" Color="{DynamicResource Color.Danger}" />
+    <SolidColorBrush x:Key="Brush.Danger.Soft" Color="{DynamicResource Color.Danger.Soft}" />
     <SolidColorBrush x:Key="Brush.Tertiary" Color="{DynamicResource Color.Tertiary}" />
     <SolidColorBrush x:Key="Brush.Tertiary.Soft" Color="{DynamicResource Color.Tertiary.Soft}" />
     <BoxShadows x:Key="Shadow.Card">0 4 20 0 #14000000</BoxShadows>

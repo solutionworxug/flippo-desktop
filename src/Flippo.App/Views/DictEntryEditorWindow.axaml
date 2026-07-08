@@ -9,40 +9,43 @@
         x:DataType="vm:DictEntryEditorViewModel"
         Title="{loc:T DictEntry_HeaderNew}"
         Width="440" SizeToContent="Height"
+        Background="{DynamicResource Brush.Bg.App}"
         WindowStartupLocation="CenterOwner"
         CanResize="False">
-    <StackPanel Margin="24" Spacing="12">
-        <TextBlock Text="{Binding HeaderText}" FontSize="20" FontWeight="SemiBold"/>
+    <Border Classes="app-card" Margin="16">
+        <StackPanel Spacing="12">
+            <TextBlock Classes="section" Text="{Binding HeaderText}"/>
 
-        <Grid ColumnDefinitions="*,12,*">
-            <StackPanel Grid.Column="0" Spacing="4">
-                <TextBlock Text="{loc:T Dict_ColSource}" FontSize="12" Opacity="0.7"/>
-                <TextBox Text="{Binding SourceWord}"/>
+            <Grid ColumnDefinitions="*,12,*">
+                <StackPanel Grid.Column="0" Spacing="4">
+                    <TextBlock Classes="caption" Text="{loc:T Dict_ColSource}"/>
+                    <TextBox Text="{Binding SourceWord}" CornerRadius="{DynamicResource Radius.Control}"/>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Spacing="4">
+                    <TextBlock Classes="caption" Text="{loc:T Dict_ColTarget}"/>
+                    <TextBox Text="{Binding TargetWord}" CornerRadius="{DynamicResource Radius.Control}"/>
+                </StackPanel>
+            </Grid>
+            <Grid ColumnDefinitions="*,12,*">
+                <StackPanel Grid.Column="0" Spacing="4">
+                    <TextBlock Classes="caption" Text="{loc:T Dict_ColPos}"/>
+                    <TextBox Text="{Binding PartOfSpeech}" CornerRadius="{DynamicResource Radius.Control}"/>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Spacing="4">
+                    <TextBlock Classes="caption" Text="{loc:T Detail_FieldGender}"/>
+                    <TextBox Text="{Binding Gender}" CornerRadius="{DynamicResource Radius.Control}"/>
+                </StackPanel>
+            </Grid>
+            <StackPanel Spacing="4">
+                <TextBlock Classes="caption" Text="{loc:T Dict_ColExample}"/>
+                <TextBox Text="{Binding ExampleSentence}" CornerRadius="{DynamicResource Radius.Control}"/>
             </StackPanel>
-            <StackPanel Grid.Column="2" Spacing="4">
-                <TextBlock Text="{loc:T Dict_ColTarget}" FontSize="12" Opacity="0.7"/>
-                <TextBox Text="{Binding TargetWord}"/>
-            </StackPanel>
-        </Grid>
-        <Grid ColumnDefinitions="*,12,*">
-            <StackPanel Grid.Column="0" Spacing="4">
-                <TextBlock Text="{loc:T Dict_ColPos}" FontSize="12" Opacity="0.7"/>
-                <TextBox Text="{Binding PartOfSpeech}"/>
-            </StackPanel>
-            <StackPanel Grid.Column="2" Spacing="4">
-                <TextBlock Text="{loc:T Detail_FieldGender}" FontSize="12" Opacity="0.7"/>
-                <TextBox Text="{Binding Gender}"/>
-            </StackPanel>
-        </Grid>
-        <StackPanel Spacing="4">
-            <TextBlock Text="{loc:T Dict_ColExample}" FontSize="12" Opacity="0.7"/>
-            <TextBox Text="{Binding ExampleSentence}"/>
-        </StackPanel>
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8" Margin="0,8,0,0">
-            <Button Content="{loc:T SetEditor_Cancel}" Click="OnCancel" MinWidth="90"/>
-            <Button Content="{loc:T SetEditor_Save}" Click="OnSave" MinWidth="90" Classes="accent"
-                    IsEnabled="{Binding CanSave}"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8" Margin="0,8,0,0">
+                <Button Content="{loc:T SetEditor_Cancel}" Click="OnCancel" MinWidth="90" CornerRadius="{DynamicResource Radius.Control}"/>
+                <Button Content="{loc:T SetEditor_Save}" Click="OnSave" MinWidth="90" Classes="accent" CornerRadius="{DynamicResource Radius.Control}"
+                        IsEnabled="{Binding CanSave}"/>
+            </StackPanel>
         </StackPanel>
-    </StackPanel>
+    </Border>
 </Window>

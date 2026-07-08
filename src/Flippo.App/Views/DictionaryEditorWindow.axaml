@@ -9,30 +9,33 @@
         x:DataType="vm:DictionaryEditorViewModel"
         Title="{loc:T Nav_Dictionary}"
         Width="440" SizeToContent="Height"
+        Background="{DynamicResource Brush.Bg.App}"
         WindowStartupLocation="CenterOwner"
         CanResize="False">
-    <StackPanel Margin="24" Spacing="12">
-        <TextBlock Text="{Binding HeaderText}" FontSize="20" FontWeight="SemiBold"/>
+    <Border Classes="app-card" Margin="16">
+        <StackPanel Spacing="12">
+            <TextBlock Classes="section" Text="{Binding HeaderText}"/>
 
-        <StackPanel Spacing="4">
-            <TextBlock Text="{loc:T DictEditor_NameLabel}" FontSize="12" Opacity="0.7"/>
-            <TextBox Text="{Binding Name}" PlaceholderText="{loc:T DictEditor_NamePlaceholder}"/>
-        </StackPanel>
-        <Grid ColumnDefinitions="*,12,*">
-            <StackPanel Grid.Column="0" Spacing="4">
-                <TextBlock Text="{loc:T DictEditor_SourceLabel}" FontSize="12" Opacity="0.7"/>
-                <TextBox Text="{Binding SourceLanguage}"/>
+            <StackPanel Spacing="4">
+                <TextBlock Classes="caption" Text="{loc:T DictEditor_NameLabel}"/>
+                <TextBox Text="{Binding Name}" PlaceholderText="{loc:T DictEditor_NamePlaceholder}" CornerRadius="{DynamicResource Radius.Control}"/>
             </StackPanel>
-            <StackPanel Grid.Column="2" Spacing="4">
-                <TextBlock Text="{loc:T DictEditor_TargetLabel}" FontSize="12" Opacity="0.7"/>
-                <TextBox Text="{Binding TargetLanguage}"/>
-            </StackPanel>
-        </Grid>
+            <Grid ColumnDefinitions="*,12,*">
+                <StackPanel Grid.Column="0" Spacing="4">
+                    <TextBlock Classes="caption" Text="{loc:T DictEditor_SourceLabel}"/>
+                    <TextBox Text="{Binding SourceLanguage}" CornerRadius="{DynamicResource Radius.Control}"/>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Spacing="4">
+                    <TextBlock Classes="caption" Text="{loc:T DictEditor_TargetLabel}"/>
+                    <TextBox Text="{Binding TargetLanguage}" CornerRadius="{DynamicResource Radius.Control}"/>
+                </StackPanel>
+            </Grid>
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8" Margin="0,8,0,0">
-            <Button Content="{loc:T SetEditor_Cancel}" Click="OnCancel" MinWidth="90"/>
-            <Button Content="{loc:T SetEditor_Save}" Click="OnSave" MinWidth="90" Classes="accent"
-                    IsEnabled="{Binding CanSave}"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8" Margin="0,8,0,0">
+                <Button Content="{loc:T SetEditor_Cancel}" Click="OnCancel" MinWidth="90" CornerRadius="{DynamicResource Radius.Control}"/>
+                <Button Content="{loc:T SetEditor_Save}" Click="OnSave" MinWidth="90" Classes="accent" CornerRadius="{DynamicResource Radius.Control}"
+                        IsEnabled="{Binding CanSave}"/>
+            </StackPanel>
         </StackPanel>
-    </StackPanel>
+    </Border>
 </Window>

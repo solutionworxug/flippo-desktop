@@ -9,35 +9,37 @@
         x:DataType="vm:ImportPreviewViewModel"
         Title="Backup importieren"
         Width="460" SizeToContent="Height"
+        Background="{DynamicResource Brush.Bg.App}"
         WindowStartupLocation="CenterOwner"
         CanResize="False">
 
-    <StackPanel Margin="24" Spacing="16">
-        <TextBlock Text="{loc:T Import_Heading}" FontSize="20" FontWeight="SemiBold"/>
+    <Border Classes="app-card" Margin="16">
+        <StackPanel Spacing="16">
+            <TextBlock Classes="section" Text="{loc:T Import_Heading}"/>
 
-        <Border Background="#33E67700" CornerRadius="6" Padding="12">
-            <StackPanel Spacing="4">
-                <TextBlock Text="{loc:T Import_ReplacesAllWarning}" FontWeight="SemiBold"/>
-                <TextBlock Text="{Binding Summary}" Opacity="0.85"/>
-                <TextBlock Text="{loc:T Import_AutoBackupHint}"
-                           FontSize="12" Opacity="0.7" TextWrapping="Wrap"/>
+            <Border Background="{DynamicResource Brush.Warning.Soft}" CornerRadius="{DynamicResource Radius.Control}" Padding="12">
+                <StackPanel Spacing="4">
+                    <TextBlock Classes="body" FontWeight="SemiBold" Text="{loc:T Import_ReplacesAllWarning}"/>
+                    <TextBlock Classes="body" Text="{Binding Summary}"/>
+                    <TextBlock Classes="caption" Text="{loc:T Import_AutoBackupHint}" TextWrapping="Wrap"/>
+                </StackPanel>
+            </Border>
+
+            <CheckBox Content="{loc:T Import_ApplySettings}"
+                      IsChecked="{Binding ApplySettings}"
+                      IsVisible="{Binding HasSettings}"/>
+
+            <Border IsVisible="{Binding HasWarnings}" Background="{DynamicResource Brush.Danger.Soft}" CornerRadius="{DynamicResource Radius.Control}" Padding="12">
+                <StackPanel Spacing="4">
+                    <TextBlock Classes="body" FontWeight="SemiBold" Text="{loc:T Import_WarningsHeader}"/>
+                    <TextBlock Classes="caption" Text="{Binding WarningsText}" TextWrapping="Wrap"/>
+                </StackPanel>
+            </Border>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8">
+                <Button Content="{loc:T Import_Cancel}" Click="OnCancel" MinWidth="90" CornerRadius="{DynamicResource Radius.Control}"/>
+                <Button Content="{loc:T Import_Import}" Click="OnConfirm" MinWidth="90" Classes="accent" CornerRadius="{DynamicResource Radius.Control}"/>
             </StackPanel>
-        </Border>
-
-        <CheckBox Content="{loc:T Import_ApplySettings}"
-                  IsChecked="{Binding ApplySettings}"
-                  IsVisible="{Binding HasSettings}"/>
-
-        <Border IsVisible="{Binding HasWarnings}" Background="#33D32F2F" CornerRadius="6" Padding="12">
-            <StackPanel Spacing="4">
-                <TextBlock Text="{loc:T Import_WarningsHeader}" FontWeight="SemiBold"/>
-                <TextBlock Text="{Binding WarningsText}" TextWrapping="Wrap" FontSize="12"/>
-            </StackPanel>
-        </Border>
-
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8">
-            <Button Content="{loc:T Import_Cancel}" Click="OnCancel" MinWidth="90"/>
-            <Button Content="{loc:T Import_Import}" Click="OnConfirm" MinWidth="90" Classes="accent"/>
         </StackPanel>
-    </StackPanel>
+    </Border>
 </Window>

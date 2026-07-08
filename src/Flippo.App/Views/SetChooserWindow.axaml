@@ -8,28 +8,31 @@
         x:Class="Flippo.App.Views.SetChooserWindow"
         Title="{loc:T Dict_AddToSet}"
         Width="420" Height="480"
+        Background="{DynamicResource Brush.Bg.App}"
         WindowStartupLocation="CenterOwner"
         CanResize="False">
-    <Grid Margin="24" RowDefinitions="Auto,*,Auto">
-        <TextBlock Grid.Row="0" Text="{loc:T Dict_ChooseSet}" FontSize="18" FontWeight="SemiBold" Margin="0,0,0,12"/>
+    <Border Classes="app-card" Margin="16">
+        <Grid RowDefinitions="Auto,*,Auto">
+            <TextBlock Grid.Row="0" Classes="section" Text="{loc:T Dict_ChooseSet}" Margin="0,0,0,12"/>
 
-        <ListBox Grid.Row="1" x:Name="SetsList" DoubleTapped="OnChoose">
-            <ListBox.ItemTemplate>
-                <DataTemplate x:DataType="domain:VocabularySet">
-                    <StackPanel Spacing="2" Margin="4">
-                        <TextBlock Text="{Binding Title}" FontWeight="SemiBold"/>
-                        <TextBlock FontSize="12" Opacity="0.6">
-                            <Run Text="{Binding SourceLanguage}"/><Run Text=" → "/><Run Text="{Binding TargetLanguage}"/>
-                            <Run Text="  ·  "/><Run Text="{Binding TotalCards}"/><Run Text=" "/><Run Text="{loc:T Sets_Total}"/>
-                        </TextBlock>
-                    </StackPanel>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
+            <ListBox Grid.Row="1" x:Name="SetsList" DoubleTapped="OnChoose">
+                <ListBox.ItemTemplate>
+                    <DataTemplate x:DataType="domain:VocabularySet">
+                        <StackPanel Spacing="2" Margin="4">
+                            <TextBlock Classes="body" FontWeight="SemiBold" Text="{Binding Title}"/>
+                            <TextBlock Classes="caption">
+                                <Run Text="{Binding SourceLanguage}"/><Run Text=" → "/><Run Text="{Binding TargetLanguage}"/>
+                                <Run Text="  ·  "/><Run Text="{Binding TotalCards}"/><Run Text=" "/><Run Text="{loc:T Sets_Total}"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
 
-        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8" Margin="0,12,0,0">
-            <Button Content="{loc:T SetEditor_Cancel}" Click="OnCancel" MinWidth="90"/>
-            <Button Content="{loc:T Dict_AddToSet}" Click="OnChoose" MinWidth="90" Classes="accent"/>
-        </StackPanel>
-    </Grid>
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8" Margin="0,12,0,0">
+                <Button Content="{loc:T SetEditor_Cancel}" Click="OnCancel" MinWidth="90" CornerRadius="{DynamicResource Radius.Control}"/>
+                <Button Content="{loc:T Dict_AddToSet}" Click="OnChoose" MinWidth="90" Classes="accent" CornerRadius="{DynamicResource Radius.Control}"/>
+            </StackPanel>
+        </Grid>
+    </Border>
 </Window>

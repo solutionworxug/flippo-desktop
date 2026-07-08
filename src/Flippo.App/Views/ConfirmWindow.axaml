@@ -6,14 +6,17 @@
         mc:Ignorable="d"
         x:Class="Flippo.App.Views.ConfirmWindow"
         Width="420" SizeToContent="Height"
+        Background="{DynamicResource Brush.Bg.App}"
         WindowStartupLocation="CenterOwner"
         CanResize="False">
-    <StackPanel Margin="24" Spacing="16">
-        <TextBlock x:Name="TitleText" FontSize="18" FontWeight="SemiBold"/>
-        <TextBlock x:Name="MessageText" TextWrapping="Wrap" Opacity="0.85"/>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8">
-            <Button Content="{loc:T Confirm_Cancel}" Click="OnCancel" MinWidth="90"/>
-            <Button x:Name="ConfirmButton" Content="{loc:T Confirm_OK}" Click="OnConfirm" MinWidth="90" Classes="accent"/>
+    <Border Classes="app-card" Margin="16">
+        <StackPanel Spacing="16">
+            <TextBlock x:Name="TitleText" Classes="section"/>
+            <TextBlock x:Name="MessageText" Classes="body" TextWrapping="Wrap"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8">
+                <Button Content="{loc:T Confirm_Cancel}" Click="OnCancel" MinWidth="90" CornerRadius="{DynamicResource Radius.Control}"/>
+                <Button x:Name="ConfirmButton" Content="{loc:T Confirm_OK}" Click="OnConfirm" MinWidth="90" Classes="accent" CornerRadius="{DynamicResource Radius.Control}"/>
+            </StackPanel>
         </StackPanel>
-    </StackPanel>
+    </Border>
 </Window>

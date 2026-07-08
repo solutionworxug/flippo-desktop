@@ -10,93 +10,97 @@
         x:DataType="vm:FileImportViewModel"
         Title="{loc:T FileImport_Title}"
         Width="520" Height="620"
+        Background="{DynamicResource Brush.Bg.App}"
         WindowStartupLocation="CenterOwner"
         CanResize="False">
 
-    <DockPanel Margin="24">
-        <TextBlock DockPanel.Dock="Top" Text="{loc:T FileImport_Heading}" FontSize="20" FontWeight="SemiBold"/>
-        <TextBlock DockPanel.Dock="Top" Text="{Binding FileSummary}" Opacity="0.7" Margin="0,4,0,16"/>
+    <Border Classes="app-card" Margin="16">
+        <DockPanel>
+            <TextBlock DockPanel.Dock="Top" Classes="section" Text="{loc:T FileImport_Heading}"/>
+            <TextBlock DockPanel.Dock="Top" Classes="caption" Text="{Binding FileSummary}" Margin="0,4,0,16"/>
 
-        <!-- Buttons unten -->
-        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8" Margin="0,16,0,0">
-            <Button Content="{loc:T FileImport_Cancel}" Click="OnCancel" MinWidth="90"/>
-            <Button Content="{loc:T FileImport_Import}" Click="OnConfirm" MinWidth="90" Classes="accent"/>
-        </StackPanel>
-
-        <ScrollViewer>
-            <StackPanel Spacing="16">
-
-                <!-- Ziel-Set -->
-                <StackPanel Spacing="6">
-                    <RadioButton GroupName="target" IsChecked="{Binding TargetIsNew}">
-                        <StackPanel Orientation="Horizontal" Spacing="10">
-                            <TextBlock Text="{loc:T FileImport_TargetNew}" VerticalAlignment="Center" Width="130"/>
-                            <TextBox Text="{Binding NewSetName}" Width="240" IsEnabled="{Binding TargetIsNew}"/>
-                        </StackPanel>
-                    </RadioButton>
-                    <RadioButton GroupName="target" IsChecked="{Binding !TargetIsNew}" IsEnabled="{Binding HasExistingSets}">
-                        <StackPanel Orientation="Horizontal" Spacing="10">
-                            <TextBlock Text="{loc:T FileImport_TargetExisting}" VerticalAlignment="Center" Width="130"/>
-                            <ComboBox ItemsSource="{Binding ExistingSets}" SelectedItem="{Binding SelectedExistingSet}"
-                                      IsEnabled="{Binding !TargetIsNew}" Width="240">
-                                <ComboBox.ItemTemplate>
-                                    <DataTemplate x:DataType="domain:VocabularySet">
-                                        <TextBlock Text="{Binding Title}"/>
-                                    </DataTemplate>
-                                </ComboBox.ItemTemplate>
-                            </ComboBox>
-                        </StackPanel>
-                    </RadioButton>
-                </StackPanel>
-
-                <!-- Spalten-Zuordnung -->
-                <StackPanel Spacing="6">
-                    <TextBlock Text="{loc:T FileImport_Mapping}" FontWeight="SemiBold"/>
-                    <Grid ColumnDefinitions="130,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto" RowSpacing="6">
-                        <TextBlock Grid.Row="0" Grid.Column="0" Text="{loc:T FileImport_ColSource}" VerticalAlignment="Center"/>
-                        <ComboBox Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch"
-                                  ItemsSource="{Binding RequiredColumns}" SelectedItem="{Binding SourceColumn}"/>
-
-                        <TextBlock Grid.Row="1" Grid.Column="0" Text="{loc:T FileImport_ColTarget}" VerticalAlignment="Center"/>
-                        <ComboBox Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch"
-                                  ItemsSource="{Binding RequiredColumns}" SelectedItem="{Binding TargetColumn}"/>
-
-                        <TextBlock Grid.Row="2" Grid.Column="0" Text="{loc:T FileImport_ColExample}" VerticalAlignment="Center"/>
-                        <ComboBox Grid.Row="2" Grid.Column="1" HorizontalAlignment="Stretch"
-                                  ItemsSource="{Binding OptionalColumns}" SelectedItem="{Binding ExampleColumn}"/>
-
-                        <TextBlock Grid.Row="3" Grid.Column="0" Text="{loc:T FileImport_ColNotes}" VerticalAlignment="Center"/>
-                        <ComboBox Grid.Row="3" Grid.Column="1" HorizontalAlignment="Stretch"
-                                  ItemsSource="{Binding OptionalColumns}" SelectedItem="{Binding NotesColumn}"/>
-
-                        <TextBlock Grid.Row="4" Grid.Column="0" Text="{loc:T FileImport_ColTags}" VerticalAlignment="Center"/>
-                        <ComboBox Grid.Row="4" Grid.Column="1" HorizontalAlignment="Stretch"
-                                  ItemsSource="{Binding OptionalColumns}" SelectedItem="{Binding TagsColumn}"/>
-                    </Grid>
-                </StackPanel>
-
-                <!-- Optionen -->
-                <StackPanel Spacing="4">
-                    <CheckBox Content="{loc:T FileImport_FirstRowHeader}" IsChecked="{Binding FirstRowIsHeader}"/>
-                    <CheckBox Content="{loc:T FileImport_SplitAlternatives}" IsChecked="{Binding SplitAlternatives}"/>
-                </StackPanel>
-
-                <!-- Vorschau -->
-                <StackPanel Spacing="6">
-                    <TextBlock Text="{loc:T FileImport_Preview}" FontWeight="SemiBold"/>
-                    <Border Background="{DynamicResource SystemControlBackgroundListLowBrush}" CornerRadius="6" Padding="12">
-                        <ItemsControl ItemsSource="{Binding PreviewRows}">
-                            <ItemsControl.ItemTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="{Binding}" FontFamily="Consolas,Menlo,monospace" FontSize="12"
-                                               TextTrimming="CharacterEllipsis"/>
-                                </DataTemplate>
-                            </ItemsControl.ItemTemplate>
-                        </ItemsControl>
-                    </Border>
-                </StackPanel>
-
+            <!-- Buttons unten -->
+            <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8" Margin="0,16,0,0">
+                <Button Content="{loc:T FileImport_Cancel}" Click="OnCancel" MinWidth="90" CornerRadius="{DynamicResource Radius.Control}"/>
+                <Button Content="{loc:T FileImport_Import}" Click="OnConfirm" MinWidth="90" Classes="accent" CornerRadius="{DynamicResource Radius.Control}"/>
             </StackPanel>
-        </ScrollViewer>
-    </DockPanel>
+
+            <ScrollViewer>
+                <StackPanel Spacing="16">
+
+                    <!-- Ziel-Set -->
+                    <StackPanel Spacing="6">
+                        <RadioButton GroupName="target" IsChecked="{Binding TargetIsNew}">
+                            <StackPanel Orientation="Horizontal" Spacing="10">
+                                <TextBlock Classes="body" Text="{loc:T FileImport_TargetNew}" VerticalAlignment="Center" Width="130"/>
+                                <TextBox Text="{Binding NewSetName}" Width="240" IsEnabled="{Binding TargetIsNew}" CornerRadius="{DynamicResource Radius.Control}"/>
+                            </StackPanel>
+                        </RadioButton>
+                        <RadioButton GroupName="target" IsChecked="{Binding !TargetIsNew}" IsEnabled="{Binding HasExistingSets}">
+                            <StackPanel Orientation="Horizontal" Spacing="10">
+                                <TextBlock Classes="body" Text="{loc:T FileImport_TargetExisting}" VerticalAlignment="Center" Width="130"/>
+                                <ComboBox ItemsSource="{Binding ExistingSets}" SelectedItem="{Binding SelectedExistingSet}"
+                                          IsEnabled="{Binding !TargetIsNew}" Width="240">
+                                    <ComboBox.ItemTemplate>
+                                        <DataTemplate x:DataType="domain:VocabularySet">
+                                            <TextBlock Text="{Binding Title}"/>
+                                        </DataTemplate>
+                                    </ComboBox.ItemTemplate>
+                                </ComboBox>
+                            </StackPanel>
+                        </RadioButton>
+                    </StackPanel>
+
+                    <!-- Spalten-Zuordnung -->
+                    <StackPanel Spacing="6">
+                        <TextBlock Classes="body" FontWeight="SemiBold" Text="{loc:T FileImport_Mapping}"/>
+                        <Grid ColumnDefinitions="130,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto" RowSpacing="6">
+                            <TextBlock Grid.Row="0" Grid.Column="0" Classes="body" Text="{loc:T FileImport_ColSource}" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch"
+                                      ItemsSource="{Binding RequiredColumns}" SelectedItem="{Binding SourceColumn}"/>
+
+                            <TextBlock Grid.Row="1" Grid.Column="0" Classes="body" Text="{loc:T FileImport_ColTarget}" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch"
+                                      ItemsSource="{Binding RequiredColumns}" SelectedItem="{Binding TargetColumn}"/>
+
+                            <TextBlock Grid.Row="2" Grid.Column="0" Classes="body" Text="{loc:T FileImport_ColExample}" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="2" Grid.Column="1" HorizontalAlignment="Stretch"
+                                      ItemsSource="{Binding OptionalColumns}" SelectedItem="{Binding ExampleColumn}"/>
+
+                            <TextBlock Grid.Row="3" Grid.Column="0" Classes="body" Text="{loc:T FileImport_ColNotes}" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="3" Grid.Column="1" HorizontalAlignment="Stretch"
+                                      ItemsSource="{Binding OptionalColumns}" SelectedItem="{Binding NotesColumn}"/>
+
+                            <TextBlock Grid.Row="4" Grid.Column="0" Classes="body" Text="{loc:T FileImport_ColTags}" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="4" Grid.Column="1" HorizontalAlignment="Stretch"
+                                      ItemsSource="{Binding OptionalColumns}" SelectedItem="{Binding TagsColumn}"/>
+                        </Grid>
+                    </StackPanel>
+
+                    <!-- Optionen -->
+                    <StackPanel Spacing="4">
+                        <CheckBox Content="{loc:T FileImport_FirstRowHeader}" IsChecked="{Binding FirstRowIsHeader}"/>
+                        <CheckBox Content="{loc:T FileImport_SplitAlternatives}" IsChecked="{Binding SplitAlternatives}"/>
+                    </StackPanel>
+
+                    <!-- Vorschau: Monospace-Preview bleibt unverändert, nur der Rahmen wird angeglichen -->
+                    <StackPanel Spacing="6">
+                        <TextBlock Classes="body" FontWeight="SemiBold" Text="{loc:T FileImport_Preview}"/>
+                        <Border Background="{DynamicResource Brush.Surface.Subtle}" CornerRadius="{DynamicResource Radius.Control}" Padding="12">
+                            <ItemsControl ItemsSource="{Binding PreviewRows}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding}" FontFamily="Consolas,Menlo,monospace" FontSize="12"
+                                                   Foreground="{DynamicResource Brush.Text.Primary}"
+                                                   TextTrimming="CharacterEllipsis"/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </Border>
+                    </StackPanel>
+
+                </StackPanel>
+            </ScrollViewer>
+        </DockPanel>
+    </Border>
 </Window>
