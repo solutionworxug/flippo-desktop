@@ -502,3 +502,6 @@ releases/
 
 # Lokale Claude-Code-Einstellungen (nicht ins Repo)
 .claude/
+
+# OAuth-Build-Secret (nur falls die Google-Lib bei Desktop-PKCE ein Secret erzwingt — nie committen)
+src/Flippo.Cloud/Auth/google-client-secret.txt

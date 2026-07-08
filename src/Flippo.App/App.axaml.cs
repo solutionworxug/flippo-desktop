@@ -8,6 +8,7 @@ using Flippo.App.ViewModels;
 using Flippo.App.Views;
 using Flippo.Cloud.Abstractions;
 using Flippo.Cloud.Destinations;
+using Flippo.Cloud.Security;
 using Flippo.Core.Content;
 using Flippo.Data;
 using Flippo.Data.Services;
@@ -66,6 +67,13 @@ public partial class App : Application
         services.AddSingleton<IBundledDictionarySource, BundledDictionarySource>();
         services.AddSingleton<DictionaryInstaller>();
         services.AddSingleton<IDestinationConnector, LocalFolderConnector>();
+        // WindowsDpapiTokenVault ist [SupportedOSPlatform("windows")] — die App läuft in diesem
+        // Slice ausschließlich unter Windows (WinExe/app.manifest/Velopack-Windows-Ziel).
+#pragma warning disable CA1416
+        services.AddSingleton<ITokenVault>(_ => new WindowsDpapiTokenVault());
+#pragma warning restore CA1416
+        services.AddSingleton<IDestinationConnector, GoogleDriveConnector>();
+        services.AddSingleton<GoogleDriveConnector>();
         services.AddSingleton<DestinationStore>();
         services.AddSingleton<CloudBackupService>();
         services.AddSingleton<SetActionsService>();
