@@ -2,9 +2,9 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <!--
       FLIPPO Design-Tokens (Plan P10-Design). Drei Ebenen: Primitive (rohe Werte) → Semantic
-      (Brush.*/Color.* nach Absicht) → Anwendung in Styles.axaml. Ruhig-professionell:
-      kühle Neutraltöne, EIN gedämpfter Akzent, Ränder statt schwerer Schatten (dense productivity).
-      Light/Dark ausschließlich über ThemeDictionaries.
+      (Brush.*/Color.* nach Absicht) → Anwendung in Styles.axaml. Warm-editorial:
+      Indigo-Primärakzent ergänzt um einen warmen Tertiär-Akzent, weiche Schatten statt harter
+      Ränder, großzügige Radien (Card/Hero/Pill). Light/Dark ausschließlich über ThemeDictionaries.
     -->
 
     <!-- ── Primitive: Spacing ── -->

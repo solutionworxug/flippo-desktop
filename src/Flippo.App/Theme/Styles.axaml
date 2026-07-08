@@ -1,22 +1,46 @@
 <Styles xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <!--
-      FLIPPO Style-Klassen auf Basis von Tokens.axaml. Ruhig-professionell: Karten definieren sich
-      über einen dezenten Rand (kaum Schatten), klare Typo-Hierarchie, viel Weißraum.
+      FLIPPO Style-Klassen auf Basis von Tokens.axaml. Warm-editorial: Karten definieren sich über
+      einen weichen Schatten (Shadow.Card) und großzügige Radien statt harter Ränder, Display-Typo
+      in Bricolage Grotesque, ein Indigo-Primärakzent ergänzt um einen warmen Tertiär-Akzent.
       Anwendung via Classes="app-card" / "page-title" / "section" / "metric" usw.
     -->
 
     <!-- Karten-Oberfläche -->
     <Style Selector="Border.app-card">
         <Setter Property="Background" Value="{DynamicResource Brush.Surface.Card}" />
-        <Setter Property="BorderBrush" Value="{DynamicResource Brush.Border.Subtle}" />
-        <Setter Property="BorderThickness" Value="1" />
         <Setter Property="CornerRadius" Value="{DynamicResource Radius.Card}" />
         <Setter Property="Padding" Value="{DynamicResource Inset.Card}" />
+        <Setter Property="BoxShadow" Value="{DynamicResource Shadow.Card}" />
+    </Style>
+
+    <!-- Display-Typo (große Überschriften, Hero-Wert) -->
+    <Style Selector="TextBlock.display">
+        <Setter Property="FontFamily" Value="{DynamicResource Font.Family.Display}" />
+        <Setter Property="FontSize" Value="{DynamicResource Font.Display}" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
+    </Style>
+
+    <!-- Serif-Lesetext (Lese-Stellen) -->
+    <Style Selector="TextBlock.serif">
+        <Setter Property="FontFamily" Value="{DynamicResource Font.Family.Serif}" />
+        <Setter Property="FontSize" Value="{DynamicResource Font.BodyLarge}" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
+        <Setter Property="LineHeight" Value="26" />
+    </Style>
+
+    <!-- Icon-Hilfsklasse für PathIcon in Nav/Buttons -->
+    <Style Selector="PathIcon.icon">
+        <Setter Property="Width" Value="20" />
+        <Setter Property="Height" Value="20" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Secondary}" />
     </Style>
 
     <!-- Seiten-Überschrift (H1) -->
     <Style Selector="TextBlock.page-title">
+        <Setter Property="FontFamily" Value="{DynamicResource Font.Family.Display}" />
         <Setter Property="FontSize" Value="{DynamicResource Font.Title}" />
         <Setter Property="FontWeight" Value="SemiBold" />
         <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
@@ -32,6 +56,7 @@
 
     <!-- Sektions-Überschrift innerhalb einer Karte -->
     <Style Selector="TextBlock.section">
+        <Setter Property="FontFamily" Value="{DynamicResource Font.Family.Display}" />
         <Setter Property="FontSize" Value="{DynamicResource Font.Section}" />
         <Setter Property="FontWeight" Value="SemiBold" />
         <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
@@ -51,6 +76,7 @@
 
     <!-- Große Kennzahl -->
     <Style Selector="TextBlock.metric">
+        <Setter Property="FontFamily" Value="{DynamicResource Font.Family.Display}" />
         <Setter Property="FontSize" Value="{DynamicResource Font.Metric}" />
         <Setter Property="FontWeight" Value="Bold" />
         <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
@@ -58,6 +84,7 @@
 
     <!-- Sehr große Kennzahl (Hero-Wert) -->
     <Style Selector="TextBlock.metric-lg">
+        <Setter Property="FontFamily" Value="{DynamicResource Font.Family.Display}" />
         <Setter Property="FontSize" Value="{DynamicResource Font.Display}" />
         <Setter Property="FontWeight" Value="Bold" />
         <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
@@ -83,5 +110,60 @@
     </Style>
     <Style Selector="Button.nav:pointerover /template/ ContentPresenter">
         <Setter Property="Background" Value="{DynamicResource Brush.Surface.Subtle}" />
+    </Style>
+
+    <!-- Sidebar-Navigationseintrag: aktiver Zustand (Accent-Soft-Fläche + Accent-Text) -->
+    <Style Selector="Button.nav.nav-active /template/ ContentPresenter">
+        <Setter Property="Background" Value="{DynamicResource Brush.Accent.Soft}" />
+    </Style>
+    <Style Selector="Button.nav.nav-active">
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Accent}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+    </Style>
+
+    <!-- Hero-Karte: großer Radius, weicher Schatten (Bento-Layout) -->
+    <Style Selector="Border.hero-card">
+        <Setter Property="CornerRadius" Value="{DynamicResource Radius.Hero}" />
+        <Setter Property="Padding" Value="28" />
+        <Setter Property="Background" Value="{DynamicResource Brush.Surface.Card}" />
+        <Setter Property="BoxShadow" Value="{DynamicResource Shadow.Card}" />
+    </Style>
+
+    <!-- Kompakte Kennzahl-Kachel (wie app-card, weniger Padding) -->
+    <Style Selector="Border.metric-tile">
+        <Setter Property="Background" Value="{DynamicResource Brush.Surface.Card}" />
+        <Setter Property="CornerRadius" Value="{DynamicResource Radius.Card}" />
+        <Setter Property="Padding" Value="18" />
+        <Setter Property="BoxShadow" Value="{DynamicResource Shadow.Card}" />
+    </Style>
+
+    <!-- Streak-Pille: Tertiary-Soft-Fläche, Pill-Radius -->
+    <Style Selector="Border.streak-pill">
+        <Setter Property="CornerRadius" Value="{DynamicResource Radius.Pill}" />
+        <Setter Property="Background" Value="{DynamicResource Brush.Tertiary.Soft}" />
+        <Setter Property="Padding" Value="12,6" />
+    </Style>
+
+    <!-- Quick-Action-Kachel: app-card-artig mit Hover-Lift (Shadow.CardHover) -->
+    <Style Selector="Border.quick-action">
+        <Setter Property="Background" Value="{DynamicResource Brush.Surface.Card}" />
+        <Setter Property="CornerRadius" Value="{DynamicResource Radius.Card}" />
+        <Setter Property="Padding" Value="16" />
+        <Setter Property="BoxShadow" Value="{DynamicResource Shadow.Card}" />
+        <Setter Property="Transitions">
+            <Transitions>
+                <BoxShadowsTransition Property="BoxShadow" Duration="0:0:0.15" />
+            </Transitions>
+        </Setter>
+    </Style>
+    <Style Selector="Border.quick-action:pointerover">
+        <Setter Property="BoxShadow" Value="{DynamicResource Shadow.CardHover}" />
+    </Style>
+
+    <!-- Sidebar-CTA: Accent-Fläche (weißer/heller Text kommt aus dem konsumierenden View) -->
+    <Style Selector="Border.sidebar-cta">
+        <Setter Property="Background" Value="{DynamicResource Brush.Accent}" />
+        <Setter Property="CornerRadius" Value="{DynamicResource Radius.Card}" />
+        <Setter Property="Padding" Value="16" />
     </Style>
 </Styles>
