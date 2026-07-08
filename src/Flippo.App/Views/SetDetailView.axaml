@@ -9,6 +9,27 @@
              x:DataType="vm:SetDetailViewModel"
              Focusable="True">
 
+    <UserControl.Resources>
+        <!-- DataGrid-Theme-Tokens lokal auf Brush.* umgelenkt (Fluent-DataGrid-Keys, siehe Avalonia.Controls.DataGrid/Themes/Fluent.xaml).
+             Brush.Accent.Soft ist bereits eine teiltransparente Fläche, daher die Selection-Opacity-Keys auf 1 gesetzt
+             (sonst würde die Fluent-Default-Opacity zusätzlich abdunkeln/aufhellen). -->
+        <SolidColorBrush x:Key="DataGridColumnHeaderForegroundBrush" Color="{DynamicResource Color.Text.Secondary}"/>
+        <SolidColorBrush x:Key="DataGridColumnHeaderBackgroundBrush" Color="{DynamicResource Color.Surface.Subtle}"/>
+        <SolidColorBrush x:Key="DataGridColumnHeaderHoveredBackgroundBrush" Color="{DynamicResource Color.Surface.Subtle}"/>
+        <SolidColorBrush x:Key="DataGridColumnHeaderPressedBackgroundBrush" Color="{DynamicResource Color.Surface.Subtle}"/>
+        <SolidColorBrush x:Key="DataGridRowHoveredBackgroundColor" Color="{DynamicResource Color.Surface.Subtle}"/>
+        <SolidColorBrush x:Key="DataGridRowSelectedBackgroundBrush" Color="{DynamicResource Color.Accent.Soft}"/>
+        <SolidColorBrush x:Key="DataGridRowSelectedHoveredBackgroundBrush" Color="{DynamicResource Color.Accent.Soft}"/>
+        <SolidColorBrush x:Key="DataGridRowSelectedUnfocusedBackgroundBrush" Color="{DynamicResource Color.Accent.Soft}"/>
+        <SolidColorBrush x:Key="DataGridRowSelectedHoveredUnfocusedBackgroundBrush" Color="{DynamicResource Color.Accent.Soft}"/>
+        <x:Double x:Key="DataGridRowSelectedBackgroundOpacity">1</x:Double>
+        <x:Double x:Key="DataGridRowSelectedHoveredBackgroundOpacity">1</x:Double>
+        <x:Double x:Key="DataGridRowSelectedUnfocusedBackgroundOpacity">1</x:Double>
+        <x:Double x:Key="DataGridRowSelectedHoveredUnfocusedBackgroundOpacity">1</x:Double>
+        <SolidColorBrush x:Key="DataGridGridLinesBrush" Color="{DynamicResource Color.Border.Subtle}"/>
+        <SolidColorBrush x:Key="DataGridCellFocusVisualPrimaryBrush" Color="{DynamicResource Color.Accent}"/>
+    </UserControl.Resources>
+
     <UserControl.KeyBindings>
         <KeyBinding Gesture="Ctrl+N" Command="{Binding NewCardCommand}"/>
         <KeyBinding Gesture="F2" Command="{Binding EditSelectedCommand}"/>
@@ -21,8 +42,8 @@
         <!-- Kopf -->
         <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,16">
             <StackPanel Grid.Column="0" Spacing="2" VerticalAlignment="Center">
-                <TextBlock Text="{Binding Title}" FontSize="26" FontWeight="SemiBold"/>
-                <TextBlock FontSize="12" Opacity="0.6">
+                <TextBlock Classes="page-title" Text="{Binding Title}"/>
+                <TextBlock Classes="caption">
                     <Run Text="{Binding Entries.Count}"/><Run Text="{loc:T Detail_CardsSuffix}"/>
                 </TextBlock>
             </StackPanel>
@@ -57,7 +78,8 @@
                 <TextBox Width="200" PlaceholderText="{loc:T Detail_SearchPlaceholder}" Text="{Binding SearchText}"/>
                 <Button Content="{loc:T Detail_NewCard}" Command="{Binding NewCardCommand}" Classes="accent"
                         ToolTip.Tip="{loc:T Detail_NewCardTooltip}"/>
-                <Button Content="⋯" ToolTip.Tip="{loc:T Detail_SetActions}">
+                <Button ToolTip.Tip="{loc:T Detail_SetActions}">
+                    <PathIcon Classes="icon" Data="{DynamicResource Icon.more}"/>
                     <Button.Flyout>
                         <MenuFlyout>
                             <MenuItem Header="{loc:T Detail_EditSet}" Command="{Binding EditSetCommand}"/>
@@ -70,36 +92,43 @@
 
         <!-- Body: DataGrid + Editor-Panel -->
         <Grid Grid.Row="1" ColumnDefinitions="*,Auto">
-            <DataGrid Grid.Column="0" x:Name="EntryGrid"
-                      ItemsSource="{Binding Entries}"
-                      SelectedItem="{Binding SelectedRow}"
-                      IsReadOnly="True" GridLinesVisibility="Horizontal"
-                      CanUserResizeColumns="True" CanUserSortColumns="True"
-                      KeyDown="OnGridKeyDown" DoubleTapped="OnRowDoubleTapped">
-                <DataGrid.ContextMenu>
-                    <ContextMenu>
-                        <MenuItem Header="{loc:T Ctx_Edit}" Command="{Binding EditSelectedCommand}"/>
-                        <Separator/>
-                        <MenuItem Header="{loc:T Ctx_Delete}" Command="{Binding DeleteSelectedCommand}"/>
-                    </ContextMenu>
-                </DataGrid.ContextMenu>
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="{loc:T Detail_ColSource}" Binding="{Binding SourceText}" Width="*"/>
-                    <DataGridTextColumn Header="{loc:T Detail_ColTarget}" Binding="{Binding TargetText}" Width="*"/>
-                    <DataGridTextColumn Header="{loc:T Detail_ColBox}" Binding="{Binding BoxLevel}" Width="55"/>
-                    <DataGridTextColumn Header="{loc:T Detail_ColDue}" Binding="{Binding DueDisplay}" Width="105"/>
-                    <DataGridCheckBoxColumn Header="{loc:T Detail_ColLeech}" Binding="{Binding IsLeech}" Width="65"/>
-                    <DataGridTextColumn Header="{loc:T Detail_ColTags}" Binding="{Binding TagsDisplay}" Width="160"/>
-                </DataGrid.Columns>
-            </DataGrid>
+            <Border Grid.Column="0" CornerRadius="{DynamicResource Radius.Card}" ClipToBounds="True"
+                    Background="{DynamicResource Brush.Surface.Card}" BoxShadow="{DynamicResource Shadow.Card}">
+                <DataGrid x:Name="EntryGrid"
+                          ItemsSource="{Binding Entries}"
+                          SelectedItem="{Binding SelectedRow}"
+                          IsReadOnly="True" GridLinesVisibility="Horizontal"
+                          CanUserResizeColumns="True" CanUserSortColumns="True"
+                          RowHeight="40" ColumnHeaderHeight="40"
+                          Background="{DynamicResource Brush.Surface.Card}"
+                          Foreground="{DynamicResource Brush.Text.Primary}"
+                          RowBackground="Transparent"
+                          KeyDown="OnGridKeyDown" DoubleTapped="OnRowDoubleTapped">
+                    <DataGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="{loc:T Ctx_Edit}" Command="{Binding EditSelectedCommand}"/>
+                            <Separator/>
+                            <MenuItem Header="{loc:T Ctx_Delete}" Command="{Binding DeleteSelectedCommand}"/>
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="{loc:T Detail_ColSource}" Binding="{Binding SourceText}" Width="*"/>
+                        <DataGridTextColumn Header="{loc:T Detail_ColTarget}" Binding="{Binding TargetText}" Width="*"/>
+                        <DataGridTextColumn Header="{loc:T Detail_ColBox}" Binding="{Binding BoxLevel}" Width="55"/>
+                        <DataGridTextColumn Header="{loc:T Detail_ColDue}" Binding="{Binding DueDisplay}" Width="105"/>
+                        <DataGridCheckBoxColumn Header="{loc:T Detail_ColLeech}" Binding="{Binding IsLeech}" Width="65"/>
+                        <DataGridTextColumn Header="{loc:T Detail_ColTags}" Binding="{Binding TagsDisplay}" Width="160"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Border>
 
             <!-- Andock-Panel rechts (kein Modal) -->
             <Border Grid.Column="1" IsVisible="{Binding IsEditorOpen}"
                     Width="360" Margin="16,0,0,0" Padding="16"
-                    Background="{DynamicResource SystemControlBackgroundListLowBrush}" CornerRadius="8">
+                    Background="{DynamicResource Brush.Surface.Subtle}" CornerRadius="{DynamicResource Radius.Card}">
                 <ScrollViewer>
                     <StackPanel Spacing="10" DataContext="{Binding Editor}" x:DataType="vm:CardEditorViewModel">
-                        <TextBlock Text="{Binding HeaderText}" FontSize="18" FontWeight="SemiBold"/>
+                        <TextBlock Classes="section" Text="{Binding HeaderText}"/>
 
                         <StackPanel Spacing="3">
                             <TextBlock Text="{loc:T Detail_FieldSource}" FontSize="12" Opacity="0.7"/>

@@ -12,9 +12,10 @@
     <Grid RowDefinitions="Auto,*" Margin="24">
         <!-- Kopf + Toolbar -->
         <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,16">
-            <TextBlock Grid.Column="0" Text="{loc:T Sets_Title}" FontSize="26" FontWeight="SemiBold" VerticalAlignment="Center"/>
+            <TextBlock Grid.Column="0" Classes="page-title" Text="{loc:T Sets_Title}" VerticalAlignment="Center"/>
             <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8">
                 <SplitButton Content="{loc:T Sets_LearnAllDue}" Command="{Binding LearnAllDueCommand}"
+                             Classes="accent"
                              ToolTip.Tip="{loc:T Sets_LearnAllDueTooltip}">
                     <SplitButton.Flyout>
                         <MenuFlyout>
@@ -29,7 +30,9 @@
                 <Button Content="{loc:T Sets_ImportFile}" Command="{Binding ImportFileCommand}"/>
                 <Button Content="{loc:T Sets_ImportBackup}" Command="{Binding ImportCommand}"/>
                 <Button Content="{loc:T Sets_ExportBackup}" Command="{Binding ExportCommand}"/>
-                <Button Content="↻" Command="{Binding LoadCommand}" ToolTip.Tip="{loc:T Sets_Refresh}"/>
+                <Button Command="{Binding LoadCommand}" ToolTip.Tip="{loc:T Sets_Refresh}">
+                    <PathIcon Classes="icon" Data="{DynamicResource Icon.refresh}"/>
+                </Button>
             </StackPanel>
         </Grid>
 
@@ -39,11 +42,8 @@
                 <ItemsControl ItemsSource="{Binding Sets}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate x:DataType="domain:VocabularySet">
-                            <Button Command="{Binding $parent[ItemsControl].((vm:SetsOverviewViewModel)DataContext).OpenSetCommand}"
-                                    CommandParameter="{Binding}"
-                                    HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"
-                                    Padding="16" Margin="0,0,0,10">
-                                <Button.ContextFlyout>
+                            <Border Classes="app-card" Margin="0,0,0,10">
+                                <Border.ContextFlyout>
                                     <MenuFlyout>
                                         <MenuItem Header="{loc:T Ctx_Open}"
                                                   Command="{Binding $parent[ItemsControl].((vm:SetsOverviewViewModel)DataContext).OpenSetCommand}"
@@ -52,38 +52,56 @@
                                                   Command="{Binding $parent[ItemsControl].((vm:SetsOverviewViewModel)DataContext).LearnSetCommand}"
                                                   CommandParameter="{Binding}"/>
                                     </MenuFlyout>
-                                </Button.ContextFlyout>
-                                <Grid ColumnDefinitions="*,Auto">
-                                    <StackPanel Grid.Column="0" Spacing="2">
-                                        <TextBlock Text="{Binding Title}" FontSize="17" FontWeight="SemiBold"/>
-                                        <TextBlock FontSize="12" Opacity="0.6">
-                                            <Run Text="{Binding SourceLanguage}"/><Run Text=" → "/><Run Text="{Binding TargetLanguage}"/>
-                                        </TextBlock>
-                                    </StackPanel>
-                                    <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="18" VerticalAlignment="Center">
+                                </Border.ContextFlyout>
+                                <Grid ColumnDefinitions="*,Auto,Auto,Auto">
+                                    <Button Grid.Column="0"
+                                            Command="{Binding $parent[ItemsControl].((vm:SetsOverviewViewModel)DataContext).OpenSetCommand}"
+                                            CommandParameter="{Binding}"
+                                            HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"
+                                            Background="Transparent" BorderThickness="0" Padding="0">
+                                        <StackPanel Spacing="2" VerticalAlignment="Center">
+                                            <TextBlock Classes="section" Text="{Binding Title}"/>
+                                            <TextBlock Classes="caption">
+                                                <Run Text="{Binding SourceLanguage}"/><Run Text=" → "/><Run Text="{Binding TargetLanguage}"/>
+                                            </TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                    <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="18" VerticalAlignment="Center" Margin="18,0">
                                         <StackPanel Spacing="1">
                                             <TextBlock Text="{Binding TotalCards}" FontSize="18" FontWeight="SemiBold" HorizontalAlignment="Center"/>
-                                            <TextBlock Text="{loc:T Sets_Total}" FontSize="10" Opacity="0.6"/>
+                                            <TextBlock Classes="metric-label" Text="{loc:T Sets_Total}" HorizontalAlignment="Center"/>
                                         </StackPanel>
                                         <StackPanel Spacing="1">
-                                            <TextBlock Text="{Binding DueCards}" FontSize="18" FontWeight="SemiBold" Foreground="#E67700" HorizontalAlignment="Center"/>
-                                            <TextBlock Text="{loc:T Sets_Due}" FontSize="10" Opacity="0.6"/>
+                                            <TextBlock Text="{Binding DueCards}" FontSize="18" FontWeight="SemiBold" Foreground="{DynamicResource Brush.Warning}" HorizontalAlignment="Center"/>
+                                            <TextBlock Classes="metric-label" Text="{loc:T Sets_Due}" HorizontalAlignment="Center"/>
                                         </StackPanel>
                                         <StackPanel Spacing="1">
-                                            <TextBlock Text="{Binding NewCards}" FontSize="18" FontWeight="SemiBold" Foreground="#2B8A3E" HorizontalAlignment="Center"/>
-                                            <TextBlock Text="{loc:T Sets_New}" FontSize="10" Opacity="0.6"/>
+                                            <TextBlock Text="{Binding NewCards}" FontSize="18" FontWeight="SemiBold" Foreground="{DynamicResource Brush.Success}" HorizontalAlignment="Center"/>
+                                            <TextBlock Classes="metric-label" Text="{loc:T Sets_New}" HorizontalAlignment="Center"/>
                                         </StackPanel>
                                     </StackPanel>
+                                    <Button Grid.Column="2" VerticalAlignment="Center" Margin="4,0"
+                                            Command="{Binding $parent[ItemsControl].((vm:SetsOverviewViewModel)DataContext).LearnSetCommand}"
+                                            CommandParameter="{Binding}"
+                                            ToolTip.Tip="{loc:T Ctx_Learn}">
+                                        <PathIcon Classes="icon" Data="{DynamicResource Icon.play}"/>
+                                    </Button>
+                                    <Button Grid.Column="3" VerticalAlignment="Center"
+                                            Command="{Binding $parent[ItemsControl].((vm:SetsOverviewViewModel)DataContext).OpenSetCommand}"
+                                            CommandParameter="{Binding}"
+                                            ToolTip.Tip="{loc:T Ctx_Open}">
+                                        <PathIcon Classes="icon" Data="{DynamicResource Icon.edit}"/>
+                                    </Button>
                                 </Grid>
-                            </Button>
+                            </Border>
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>
                 </ItemsControl>
 
                 <!-- Leerzustand -->
                 <StackPanel IsVisible="{Binding IsEmpty}" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="8" Margin="0,60">
-                    <TextBlock Text="{loc:T Sets_EmptyTitle}" FontSize="18" Opacity="0.7" HorizontalAlignment="Center"/>
-                    <TextBlock Text="{loc:T Sets_EmptyHint}" Opacity="0.5" HorizontalAlignment="Center"/>
+                    <TextBlock Classes="section" Text="{loc:T Sets_EmptyTitle}" Opacity="0.7" HorizontalAlignment="Center"/>
+                    <TextBlock Classes="body" Text="{loc:T Sets_EmptyHint}" Opacity="0.5" HorizontalAlignment="Center"/>
                 </StackPanel>
             </Panel>
         </ScrollViewer>
