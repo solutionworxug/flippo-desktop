@@ -1,3 +1,4 @@
+using System.Reflection;
 using Flippo.Cloud.Abstractions;
 using Google.Apis.Auth.OAuth2;
 using Google.Apis.Auth.OAuth2.Flows;
@@ -16,10 +17,25 @@ public sealed class GoogleOAuth
     /// <summary>Öffentliche Desktop-Client-ID (kein Geheimnis — darf committet werden).</summary>
     public const string ClientId = "489948242017-o7jnrs9phnnqpqaa6cbjk15pufvm1kci.apps.googleusercontent.com";
 
-    /// <summary>Bei Desktop-PKCE nicht vertraulich. Falls die Bibliothek ein nicht-leeres Secret
-    /// erzwingt (s. Fallback im Plan-Task), wird dieser Wert zur Build-Zeit aus einer gitignored
-    /// Datei injiziert und bleibt sonst leer.</summary>
-    private const string ClientSecret = "";
+    /// <summary>Eingebettete Ressource für das gitignored Fallback-Secret (Task-5-Fallback-Rezept).
+    /// Logischer Name kommt aus <c>Flippo.Cloud.csproj</c> (<c>LogicalName</c>).</summary>
+    private const string ClientSecretResourceName = "Flippo.Cloud.Auth.google-client-secret.txt";
+
+    /// <summary>Bei Desktop-PKCE eigentlich nicht vertraulich, aber der reale Token-Tausch verlangt
+    /// laut Runtime-E2E ein nicht-leeres <c>client_secret</c> (sonst <c>invalid_request</c>). Wird
+    /// beim ersten Zugriff aus der gitignored Datei <c>Auth/google-client-secret.txt</c> gelesen
+    /// (als <c>EmbeddedResource</c> eingebunden); fehlt sie, bleibt der Wert leer und Drive-Connect
+    /// schlägt kontrolliert fehl (s. <see cref="Destinations.GoogleDriveConnector"/>).</summary>
+    private static readonly string ClientSecret = LoadClientSecret();
+
+    private static string LoadClientSecret()
+    {
+        var assembly = Assembly.GetExecutingAssembly();
+        using var stream = assembly.GetManifestResourceStream(ClientSecretResourceName);
+        if (stream is null) return string.Empty;
+        using var reader = new StreamReader(stream);
+        return reader.ReadToEnd().Trim();
+    }
 
     private static readonly string[] Scopes = { DriveService.Scope.DriveFile };
 

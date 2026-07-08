@@ -12,4 +12,11 @@
     <PackageReference Include="Google.Apis.Auth" Version="1.75.0" />
     <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="10.0.9" />
   </ItemGroup>
+
+  <!-- OAuth-Fallback-Secret (Task 5-Fallback-Rezept, C1 Slice 2): nur eingebettet, wenn die
+       gitignored Datei lokal existiert. Fehlt sie (OSS-Contributor ohne Secret), baut das Projekt
+       trotzdem — GoogleOAuth liest dann nichts und ClientSecret bleibt leer. -->
+  <ItemGroup Condition="Exists('Auth/google-client-secret.txt')">
+    <EmbeddedResource Include="Auth/google-client-secret.txt" LogicalName="Flippo.Cloud.Auth.google-client-secret.txt" />
+  </ItemGroup>
 </Project>

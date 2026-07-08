@@ -1,6 +1,7 @@
 using Flippo.Cloud.Abstractions;
 using Flippo.Cloud.Auth;
 using Google.Apis.Auth.OAuth2;
+using Google.Apis.Auth.OAuth2.Responses;
 using Google.Apis.Drive.v3;
 using Google.Apis.Services;
 
@@ -46,6 +47,13 @@ public sealed class GoogleDriveConnector : IInteractiveConnector
         {
             _vault.Delete($"{prefix}_user");   // Teil-Token aufräumen
             return null;                         // Nutzer hat abgebrochen
+        }
+        catch (Exception ex) when (ex is TokenResponseException or HttpRequestException or IOException)
+        {
+            // Token-Tausch/Netzwerk fehlgeschlagen (z.B. fehlendes client_secret, offline) — wie
+            // abgebrochenes Verbinden behandeln statt die App abstürzen zu lassen.
+            _vault.Delete($"{prefix}_user");
+            return null;
         }
 
         var email = await FetchEmailAsync(cred, ct);
