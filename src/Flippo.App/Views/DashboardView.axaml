@@ -37,12 +37,12 @@
                 <Border Classes="hero-card" IsVisible="{Binding HasDue}" Background="{DynamicResource Brush.Accent}">
                     <Grid ColumnDefinitions="*,Auto">
                         <StackPanel Grid.Column="0" Spacing="4" VerticalAlignment="Center">
-                            <TextBlock Classes="eyebrow" Text="{loc:T Dash_LearnNow}" Foreground="White" Opacity="0.85"/>
-                            <TextBlock Classes="metric-lg" Text="{Binding DueTotal}" Foreground="White"/>
-                            <TextBlock Classes="body" Text="{Binding DueCountText}" Foreground="White" Opacity="0.9"/>
+                            <TextBlock Classes="eyebrow" Text="{loc:T Dash_LearnNow}" Foreground="{DynamicResource Brush.OnAccent}" Opacity="0.85"/>
+                            <TextBlock Classes="metric-lg" Text="{Binding DueTotal}" Foreground="{DynamicResource Brush.OnAccent}"/>
+                            <TextBlock Classes="body" Text="{Binding DueCountText}" Foreground="{DynamicResource Brush.OnAccent}" Opacity="0.9"/>
                         </StackPanel>
                         <Button Grid.Column="1" Command="{Binding LearnAllDueCommand}"
-                                Background="White" Foreground="{DynamicResource Brush.Accent}"
+                                Background="{DynamicResource Brush.OnAccent}" Foreground="{DynamicResource Brush.Accent}"
                                 CornerRadius="{DynamicResource Radius.Control}"
                                 VerticalAlignment="Center" MinWidth="140" Padding="18,12">
                             <StackPanel Orientation="Horizontal" Spacing="8">

@@ -52,6 +52,7 @@
             <Color x:Key="Color.Text.Secondary">#FF56585C</Color>
             <Color x:Key="Color.Accent">#FF0040E0</Color>
             <Color x:Key="Color.Accent.Soft">#1A0040E0</Color>
+            <Color x:Key="Color.OnAccent">#FFFFFFFF</Color>
             <Color x:Key="Color.Success">#FF006C4D</Color>
             <Color x:Key="Color.Warning">#FFB07A1E</Color>
             <Color x:Key="Color.Danger">#FFBA1A1A</Color>
@@ -69,6 +70,7 @@
             <Color x:Key="Color.Text.Secondary">#FFB0ADA2</Color>
             <Color x:Key="Color.Accent">#FFAAB8FF</Color>
             <Color x:Key="Color.Accent.Soft">#33AAB8FF</Color>
+            <Color x:Key="Color.OnAccent">#FF16150F</Color>
             <Color x:Key="Color.Success">#FF6ED9AC</Color>
             <Color x:Key="Color.Warning">#FFE0B056</Color>
             <Color x:Key="Color.Danger">#FFF2B8B5</Color>
@@ -87,6 +89,7 @@
     <SolidColorBrush x:Key="Brush.Text.Secondary" Color="{DynamicResource Color.Text.Secondary}" />
     <SolidColorBrush x:Key="Brush.Accent" Color="{DynamicResource Color.Accent}" />
     <SolidColorBrush x:Key="Brush.Accent.Soft" Color="{DynamicResource Color.Accent.Soft}" />
+    <SolidColorBrush x:Key="Brush.OnAccent" Color="{DynamicResource Color.OnAccent}" />
     <SolidColorBrush x:Key="Brush.Success" Color="{DynamicResource Color.Success}" />
     <SolidColorBrush x:Key="Brush.Warning" Color="{DynamicResource Color.Warning}" />
     <SolidColorBrush x:Key="Brush.Danger" Color="{DynamicResource Color.Danger}" />

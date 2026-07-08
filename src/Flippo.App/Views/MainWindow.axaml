@@ -155,8 +155,8 @@
                             <Button Background="Transparent" Padding="0" HorizontalAlignment="Stretch"
                                     Command="{Binding LearnAllDueCommand}" CommandParameter="Flashcard">
                                 <StackPanel Spacing="6">
-                                    <PathIcon Data="{DynamicResource Icon.play}" Width="22" Height="22" Foreground="White"/>
-                                    <TextBlock Text="{loc:T Nav_LearnNow}" Foreground="White" FontWeight="SemiBold"/>
+                                    <PathIcon Data="{DynamicResource Icon.play}" Width="22" Height="22" Foreground="{DynamicResource Brush.OnAccent}"/>
+                                    <TextBlock Text="{loc:T Nav_LearnNow}" Foreground="{DynamicResource Brush.OnAccent}" FontWeight="SemiBold"/>
                                 </StackPanel>
                             </Button>
                         </Border>
