@@ -20,6 +20,8 @@
         <Button DockPanel.Dock="Bottom" Content="{loc:T ThemeSet_Close}" Click="OnClose"
                 HorizontalAlignment="Right" Margin="0,12,0,0" MinWidth="90"/>
 
+        <TextBlock DockPanel.Dock="Bottom" IsVisible="{Binding CatalogUnreachable}" Classes="caption"
+                   Text="{loc:T Catalog_Unreachable}" Margin="2,8,0,0"/>
         <TextBlock DockPanel.Dock="Bottom" IsVisible="{Binding IsEmpty}" Classes="caption"
                    Text="{loc:T ThemeSet_Empty}" Margin="2,8,0,0"/>
 
@@ -32,11 +34,21 @@
                                 <StackPanel Grid.Column="0" Spacing="2" VerticalAlignment="Center">
                                     <TextBlock Classes="body" FontWeight="SemiBold" Text="{Binding Title}"/>
                                     <TextBlock Classes="caption" Text="{Binding CountText}"/>
+                                    <TextBlock Classes="caption" Text="{Binding DownloadText}"
+                                               Foreground="{DynamicResource Brush.Accent}"
+                                               IsVisible="{Binding IsOnline}"/>
                                 </StackPanel>
-                                <Button Grid.Column="1" Content="{loc:T ThemeSet_Import}" Classes="accent" VerticalAlignment="Center"
+                                <Button Grid.Column="1" VerticalAlignment="Center" Classes="accent"
                                         IsVisible="{Binding !IsImported}"
                                         Command="{Binding $parent[ItemsControl].((vm:ThemeSetPickerViewModel)DataContext).ImportCommand}"
-                                        CommandParameter="{Binding}"/>
+                                        CommandParameter="{Binding}">
+                                    <Button.Content>
+                                        <Panel>
+                                            <TextBlock Text="{loc:T ThemeSet_Import}" IsVisible="{Binding !IsOnline}"/>
+                                            <TextBlock Text="{loc:T Catalog_Download}" IsVisible="{Binding IsOnline}"/>
+                                        </Panel>
+                                    </Button.Content>
+                                </Button>
                                 <TextBlock Grid.Column="1" Classes="caption" Text="{loc:T ThemeSet_Imported}" VerticalAlignment="Center"
                                            Foreground="{DynamicResource Brush.Success}" IsVisible="{Binding IsImported}"/>
                             </Grid>

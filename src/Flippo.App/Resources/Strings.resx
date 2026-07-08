@@ -405,4 +405,11 @@ Learn session
   <data name="Dest_ReconnectHint" xml:space="preserve"><value>Sign in to Google again to refresh access.</value></data>
   <data name="Dest_ErrOffline" xml:space="preserve"><value>Destination not reachable — save locally instead?</value></data>
   <data name="Dest_ErrQuota" xml:space="preserve"><value>Not enough storage in the Google account.</value></data>
+  <data name="Catalog_OnlineTag" xml:space="preserve"><value>Online</value></data>
+  <data name="Catalog_DownloadTag" xml:space="preserve"><value>Download · {0}</value></data>
+  <data name="Catalog_Download" xml:space="preserve"><value>Download</value></data>
+  <data name="Catalog_Unreachable" xml:space="preserve"><value>Catalog unavailable — showing bundled sets only.</value></data>
+  <data name="Catalog_ErrorTitle" xml:space="preserve"><value>Download failed</value></data>
+  <data name="Catalog_ShaMismatch" xml:space="preserve"><value>The downloaded pack is corrupt (checksum mismatch). Import was refused.</value></data>
+  <data name="Catalog_DownloadError" xml:space="preserve"><value>The pack could not be downloaded. Please try again later.</value></data>
 </root>

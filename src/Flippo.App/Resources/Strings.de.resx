@@ -405,4 +405,11 @@ Lern-Session
   <data name="Dest_ReconnectHint" xml:space="preserve"><value>Erneut bei Google anmelden, um den Zugriff zu erneuern.</value></data>
   <data name="Dest_ErrOffline" xml:space="preserve"><value>Ziel nicht erreichbar — stattdessen lokal speichern?</value></data>
   <data name="Dest_ErrQuota" xml:space="preserve"><value>Nicht genug Speicher im Google-Konto.</value></data>
+  <data name="Catalog_OnlineTag" xml:space="preserve"><value>Online</value></data>
+  <data name="Catalog_DownloadTag" xml:space="preserve"><value>Herunterladen · {0}</value></data>
+  <data name="Catalog_Download" xml:space="preserve"><value>Herunterladen</value></data>
+  <data name="Catalog_Unreachable" xml:space="preserve"><value>Katalog nicht erreichbar – es werden nur gebündelte Sets angezeigt.</value></data>
+  <data name="Catalog_ErrorTitle" xml:space="preserve"><value>Download fehlgeschlagen</value></data>
+  <data name="Catalog_ShaMismatch" xml:space="preserve"><value>Das heruntergeladene Pack ist beschädigt (Prüfsummen-Fehler). Der Import wurde verweigert.</value></data>
+  <data name="Catalog_DownloadError" xml:space="preserve"><value>Das Pack konnte nicht heruntergeladen werden. Bitte später erneut versuchen.</value></data>
 </root>

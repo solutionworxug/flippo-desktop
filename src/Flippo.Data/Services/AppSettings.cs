@@ -19,4 +19,8 @@ public sealed record AppSettings
     public string UiTheme { get; init; } = "System";    // System | Light | Dark
     public string FontSize { get; init; } = "Medium";   // Small | Medium | Large
     public string UiLanguage { get; init; } = "de";     // de | en
+
+    // Katalog-Basis-URL (C2). Leer = eingebaute Default-URL (siehe CatalogClient-DI). Kein UI dafür;
+    // macht Fixture-Tests und einen späteren Host-Umzug trivial.
+    public string CatalogBaseUrl { get; init; } = "";
 }

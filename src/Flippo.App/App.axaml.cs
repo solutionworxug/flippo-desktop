@@ -7,6 +7,7 @@ using Flippo.App.Services;
 using Flippo.App.ViewModels;
 using Flippo.App.Views;
 using Flippo.Cloud.Abstractions;
+using Flippo.Cloud.Catalog;
 using Flippo.Cloud.Destinations;
 using Flippo.Cloud.Security;
 using Flippo.Core.Content;
@@ -64,6 +65,15 @@ public partial class App : Application
         services.AddSingleton<IDialogService, DialogService>();
         services.AddSingleton<IThemeSetSource, BundledThemeSetSource>();
         services.AddSingleton<ThemeSetImporter>();
+        services.AddSingleton<InstalledPacksRegistry>();
+        services.AddSingleton(sp =>
+        {
+            // Basis-URL: Override aus Settings (leer = eingebauter Default). Kein UI dafür.
+            const string DefaultCatalogBaseUrl = "https://solutionworxug.github.io/flippo-content/";
+            var configured = sp.GetRequiredService<SettingsService>().Load().CatalogBaseUrl;
+            var baseUrl = string.IsNullOrWhiteSpace(configured) ? DefaultCatalogBaseUrl : configured;
+            return new CatalogClient(baseUrl, AppPaths.CatalogCacheFile);
+        });
         services.AddSingleton<IBundledDictionarySource, BundledDictionarySource>();
         services.AddSingleton<DictionaryInstaller>();
         services.AddSingleton<IDestinationConnector, LocalFolderConnector>();

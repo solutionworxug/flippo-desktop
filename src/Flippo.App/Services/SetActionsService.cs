@@ -1,6 +1,8 @@
 using Flippo.App.Localization;
 using Flippo.Cloud.Abstractions;
+using Flippo.Cloud.Catalog;
 using Flippo.Core.Backup;
+using Flippo.Core.Content;
 using Flippo.Core.Domain;
 using Flippo.Core.Import;
 using Flippo.Data.Services;
@@ -21,12 +23,16 @@ public sealed class SetActionsService
     private readonly BackupService _backup;
     private readonly FileImportService _fileImport;
     private readonly ThemeSetImporter _themeSets;
+    private readonly IThemeSetSource _bundledSource;
+    private readonly CatalogClient _catalog;
+    private readonly InstalledPacksRegistry _installed;
     private readonly SettingsService _settings;
     private readonly CloudBackupService _cloud;
     private readonly DestinationStore _destinations;
 
     public SetActionsService(VocabularyStore store, IFilePickerService filePicker, IDialogService dialogs,
-        BackupService backup, FileImportService fileImport, ThemeSetImporter themeSets, SettingsService settings,
+        BackupService backup, FileImportService fileImport, ThemeSetImporter themeSets, IThemeSetSource bundledSource,
+        CatalogClient catalog, InstalledPacksRegistry installed, SettingsService settings,
         CloudBackupService cloud, DestinationStore destinations)
     {
         _store = store;
@@ -35,6 +41,9 @@ public sealed class SetActionsService
         _backup = backup;
         _fileImport = fileImport;
         _themeSets = themeSets;
+        _bundledSource = bundledSource;
+        _catalog = catalog;
+        _installed = installed;
         _settings = settings;
         _cloud = cloud;
         _destinations = destinations;
@@ -45,7 +54,7 @@ public sealed class SetActionsService
     {
         var uiLang = _settings.Load().UiLanguage;
         var target = uiLang.StartsWith("en", StringComparison.OrdinalIgnoreCase) ? "Englisch" : "Deutsch";
-        return _dialogs.ShowThemeSetPickerAsync(_themeSets, target);
+        return _dialogs.ShowThemeSetPickerAsync(_themeSets, _bundledSource, _catalog, _installed, target);
     }
 
     /// <summary>Set-Editor-Dialog öffnen und neue Kartei anlegen. True, wenn erstellt.</summary>

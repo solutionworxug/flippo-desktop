@@ -2,7 +2,9 @@ using Avalonia.Controls;
 using Flippo.App.ViewModels;
 using Flippo.App.Views;
 using Flippo.Cloud.Abstractions;
+using Flippo.Cloud.Catalog;
 using Flippo.Core.Backup;
+using Flippo.Core.Content;
 using Flippo.Core.Domain;
 using Flippo.Data.Services;
 
@@ -19,8 +21,9 @@ public interface IDialogService
     Task<FileImportRequest?> ShowFileImportAsync(
         string fileName, IReadOnlyList<IReadOnlyList<string>> rows, IReadOnlyList<VocabularySet> existingSets);
 
-    /// <summary>Themenset-Picker (P12). Rückgabe true, wenn mindestens ein Set importiert wurde.</summary>
-    Task<bool> ShowThemeSetPickerAsync(ThemeSetImporter importer, string targetLanguage);
+    /// <summary>Themenset-Picker (P12 + C2-Katalog). Rückgabe true, wenn mindestens ein Set importiert wurde.</summary>
+    Task<bool> ShowThemeSetPickerAsync(ThemeSetImporter importer, IThemeSetSource bundledSource,
+        CatalogClient catalog, InstalledPacksRegistry installed, string targetLanguage);
 
     Task ShowMessageAsync(string title, string message);
     Task<bool> ConfirmAsync(string title, string message, string confirmLabel = "OK");
@@ -67,14 +70,16 @@ public sealed class DialogService : IDialogService
         return await window.ShowDialog<FileImportRequest?>(owner);
     }
 
-    public async Task<bool> ShowThemeSetPickerAsync(ThemeSetImporter importer, string targetLanguage)
+    public async Task<bool> ShowThemeSetPickerAsync(ThemeSetImporter importer, IThemeSetSource bundledSource,
+        CatalogClient catalog, InstalledPacksRegistry installed, string targetLanguage)
     {
         var owner = _owner();
         if (owner is null) return false;
 
-        var vm = new ThemeSetPickerViewModel(importer, targetLanguage);
-        await vm.LoadAsync();
+        var vm = new ThemeSetPickerViewModel(importer, bundledSource, catalog, installed, this, targetLanguage);
+        await vm.LoadAsync();                       // gebündelte Sets sofort
         var window = new ThemeSetPickerWindow { DataContext = vm };
+        _ = vm.LoadCatalogAsync();                  // Katalog async nachladen (nicht blockierend)
         await window.ShowDialog(owner);
         return vm.AnyImported;
     }
