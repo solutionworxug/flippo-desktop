@@ -123,6 +123,7 @@
   <data name="Nav_Dictionary" xml:space="preserve"><value>Nachschlagen</value></data>
   <data name="Nav_History" xml:space="preserve"><value>Verlauf</value></data>
   <data name="Nav_Settings" xml:space="preserve"><value>Einstellungen</value></data>
+  <data name="Nav_LearnNow" xml:space="preserve"><value>Jetzt lernen</value></data>
   <data name="Settings_SrsModeBox" xml:space="preserve"><value>Karteikasten (Fächer)</value></data>
   <data name="Settings_SrsModeAdaptive" xml:space="preserve"><value>Adaptiv (SM-2)</value></data>
   <data name="Settings_DirectionSourceToTarget" xml:space="preserve"><value>Quelle → Ziel</value></data>

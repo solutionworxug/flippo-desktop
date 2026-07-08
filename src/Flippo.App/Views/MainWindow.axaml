@@ -2,6 +2,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="using:Flippo.App.ViewModels"
         xmlns:loc="using:Flippo.App.Localization"
+        xmlns:conv="using:Flippo.App.Converters"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="680"
@@ -95,27 +96,71 @@
                 <Border Grid.Column="0" Background="{DynamicResource Brush.Surface.Card}"
                         BorderBrush="{DynamicResource Brush.Border.Subtle}" BorderThickness="0,0,1,0" Padding="16">
                     <DockPanel>
-                        <TextBlock DockPanel.Dock="Top" Text="FLIPPO" FontSize="{DynamicResource Font.Title}"
-                                   FontWeight="Bold" Foreground="{DynamicResource Brush.Text.Primary}" Margin="4,2,4,2"/>
-                        <TextBlock DockPanel.Dock="Top" Classes="caption" Text="{loc:T App_Subtitle}" Margin="4,0,4,20"/>
+                        <StackPanel DockPanel.Dock="Top" Margin="4,2,4,20" Spacing="2">
+                            <TextBlock Text="FLIPPO" Classes="display" FontSize="26"/>
+                            <TextBlock Classes="eyebrow" Text="{loc:T App_Subtitle}"/>
+                        </StackPanel>
 
                         <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Back}"
                                 Command="{Binding GoBackCommand}"
                                 IsVisible="{Binding CanGoBack}"
                                 Margin="0,0,0,12"/>
 
-                        <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Dashboard}"
-                                Command="{Binding ShowDashboardCommand}" Margin="0,0,0,4"/>
-                        <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Sets}"
-                                Command="{Binding ShowSetsCommand}" Margin="0,0,0,4"/>
-                        <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Dictionary}"
-                                Command="{Binding ShowDictionariesCommand}" Margin="0,0,0,4"/>
-                        <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Statistics}"
-                                Command="{Binding ShowStatisticsCommand}" Margin="0,0,0,4"/>
-                        <Button DockPanel.Dock="Top" Classes="nav" Content="{loc:T Nav_Settings}"
-                                Command="{Binding ShowSettingsCommand}"/>
+                        <Button DockPanel.Dock="Top" Classes="nav" Command="{Binding ShowDashboardCommand}" Margin="0,0,0,4"
+                                Classes.nav-active="{Binding ActiveNav, Converter={x:Static conv:StringEqualsConverter.Instance}, ConverterParameter=Dashboard}">
+                            <StackPanel Orientation="Horizontal" Spacing="12">
+                                <PathIcon Classes="icon" Data="{DynamicResource Icon.dashboard}"/>
+                                <TextBlock Text="{loc:T Nav_Dashboard}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button DockPanel.Dock="Top" Classes="nav" Command="{Binding ShowSetsCommand}" Margin="0,0,0,4"
+                                Classes.nav-active="{Binding ActiveNav, Converter={x:Static conv:StringEqualsConverter.Instance}, ConverterParameter=Sets}">
+                            <StackPanel Orientation="Horizontal" Spacing="12">
+                                <PathIcon Classes="icon" Data="{DynamicResource Icon.decks}"/>
+                                <TextBlock Text="{loc:T Nav_Sets}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button DockPanel.Dock="Top" Classes="nav" Command="{Binding ShowDictionariesCommand}" Margin="0,0,0,4"
+                                Classes.nav-active="{Binding ActiveNav, Converter={x:Static conv:StringEqualsConverter.Instance}, ConverterParameter=Dictionary}">
+                            <StackPanel Orientation="Horizontal" Spacing="12">
+                                <PathIcon Classes="icon" Data="{DynamicResource Icon.dictionary}"/>
+                                <TextBlock Text="{loc:T Nav_Dictionary}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button DockPanel.Dock="Top" Classes="nav" Command="{Binding ShowStatisticsCommand}" Margin="0,0,0,4"
+                                Classes.nav-active="{Binding ActiveNav, Converter={x:Static conv:StringEqualsConverter.Instance}, ConverterParameter=Statistics}">
+                            <StackPanel Orientation="Horizontal" Spacing="12">
+                                <PathIcon Classes="icon" Data="{DynamicResource Icon.statistics}"/>
+                                <TextBlock Text="{loc:T Nav_Statistics}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button DockPanel.Dock="Top" Classes="nav" Command="{Binding ShowHistoryCommand}" Margin="0,0,0,4"
+                                Classes.nav-active="{Binding ActiveNav, Converter={x:Static conv:StringEqualsConverter.Instance}, ConverterParameter=History}">
+                            <StackPanel Orientation="Horizontal" Spacing="12">
+                                <PathIcon Classes="icon" Data="{DynamicResource Icon.history}"/>
+                                <TextBlock Text="{loc:T Nav_History}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button DockPanel.Dock="Top" Classes="nav" Command="{Binding ShowSettingsCommand}"
+                                Classes.nav-active="{Binding ActiveNav, Converter={x:Static conv:StringEqualsConverter.Instance}, ConverterParameter=Settings}">
+                            <StackPanel Orientation="Horizontal" Spacing="12">
+                                <PathIcon Classes="icon" Data="{DynamicResource Icon.settings}"/>
+                                <TextBlock Text="{loc:T Nav_Settings}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
 
                         <TextBlock DockPanel.Dock="Bottom" Classes="caption" Text="{Binding AppVersion}" Opacity="0.7"/>
+
+                        <Border DockPanel.Dock="Bottom" Classes="sidebar-cta" Margin="0,12,0,12">
+                            <Button Background="Transparent" Padding="0" HorizontalAlignment="Stretch"
+                                    Command="{Binding LearnAllDueCommand}" CommandParameter="Flashcard">
+                                <StackPanel Spacing="6">
+                                    <PathIcon Data="{DynamicResource Icon.play}" Width="22" Height="22" Foreground="White"/>
+                                    <TextBlock Text="{loc:T Nav_LearnNow}" Foreground="White" FontWeight="SemiBold"/>
+                                </StackPanel>
+                            </Button>
+                        </Border>
+
                         <Panel/>
                     </DockPanel>
                 </Border>

@@ -36,6 +36,9 @@ public sealed partial class MainWindowViewModel : ViewModelBase
     /// <summary>UI-Skalierung aus der Schriftgrößen-Einstellung; live aktualisierbar via <see cref="ApplyFontSize"/>.</summary>
     [ObservableProperty] private double _uiScale = 1.0;
 
+    /// <summary>Name der aktuell aktiven Sidebar-Seite (z. B. "Dashboard"); steuert die Aktiv-Hervorhebung im Nav.</summary>
+    [ObservableProperty] private string _activeNav = "Dashboard";
+
     public MainWindowViewModel(NavigationService nav, SettingsService settings, UpdateService updates,
         SetActionsService actions, IDialogService dialogs)
     {
@@ -78,12 +81,12 @@ public sealed partial class MainWindowViewModel : ViewModelBase
     }
 
     [RelayCommand] private void GoBack() => _nav.GoBack();
-    [RelayCommand] private void ShowDashboard() => _nav.NavigateTo<DashboardViewModel>(clearStack: true);
-    [RelayCommand] private void ShowSets() => _nav.NavigateTo<SetsOverviewViewModel>(clearStack: true);
-    [RelayCommand] private void ShowDictionaries() => _nav.NavigateTo<DictionaryListViewModel>(clearStack: true);
-    [RelayCommand] private void ShowStatistics() => _nav.NavigateTo<StatisticsViewModel>(clearStack: true);
-    [RelayCommand] private void ShowHistory() => _nav.NavigateTo<HistoryViewModel>(clearStack: true);
-    [RelayCommand] private void ShowSettings() => _nav.NavigateTo<SettingsViewModel>(clearStack: true);
+    [RelayCommand] private void ShowDashboard() { ActiveNav = "Dashboard"; _nav.NavigateTo<DashboardViewModel>(clearStack: true); }
+    [RelayCommand] private void ShowSets() { ActiveNav = "Sets"; _nav.NavigateTo<SetsOverviewViewModel>(clearStack: true); }
+    [RelayCommand] private void ShowDictionaries() { ActiveNav = "Dictionary"; _nav.NavigateTo<DictionaryListViewModel>(clearStack: true); }
+    [RelayCommand] private void ShowStatistics() { ActiveNav = "Statistics"; _nav.NavigateTo<StatisticsViewModel>(clearStack: true); }
+    [RelayCommand] private void ShowHistory() { ActiveNav = "History"; _nav.NavigateTo<HistoryViewModel>(clearStack: true); }
+    [RelayCommand] private void ShowSettings() { ActiveNav = "Settings"; _nav.NavigateTo<SettingsViewModel>(clearStack: true); }
 
     // ── Anwendungsmenü (NativeMenu) ──
 

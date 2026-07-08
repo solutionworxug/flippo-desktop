@@ -123,6 +123,7 @@
   <data name="Nav_Dictionary" xml:space="preserve"><value>Look up</value></data>
   <data name="Nav_History" xml:space="preserve"><value>History</value></data>
   <data name="Nav_Settings" xml:space="preserve"><value>Settings</value></data>
+  <data name="Nav_LearnNow" xml:space="preserve"><value>Study now</value></data>
   <data name="Settings_SrsModeBox" xml:space="preserve"><value>Flashcard box (Leitner)</value></data>
   <data name="Settings_SrsModeAdaptive" xml:space="preserve"><value>Adaptive (SM-2)</value></data>
   <data name="Settings_DirectionSourceToTarget" xml:space="preserve"><value>Source → Target</value></data>
