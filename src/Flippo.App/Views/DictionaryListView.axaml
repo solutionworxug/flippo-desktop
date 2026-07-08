@@ -56,7 +56,7 @@
                                                 </TextBlock>
                                             </StackPanel>
                                             <StackPanel Grid.Column="1" Spacing="1" VerticalAlignment="Center">
-                                                <TextBlock Text="{Binding EntryCount}" FontSize="18" FontWeight="SemiBold" HorizontalAlignment="Center"/>
+                                                <TextBlock Text="{Binding EntryCount}" Classes="metric" HorizontalAlignment="Center"/>
                                                 <TextBlock Classes="metric-label" Text="{loc:T Dict_Entries}" HorizontalAlignment="Center"/>
                                             </StackPanel>
                                         </Grid>

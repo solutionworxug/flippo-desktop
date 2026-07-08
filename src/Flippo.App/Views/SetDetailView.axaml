@@ -131,54 +131,54 @@
                         <TextBlock Classes="section" Text="{Binding HeaderText}"/>
 
                         <StackPanel Spacing="3">
-                            <TextBlock Text="{loc:T Detail_FieldSource}" FontSize="12" Opacity="0.7"/>
+                            <TextBlock Text="{loc:T Detail_FieldSource}" Classes="caption"/>
                             <TextBox x:Name="SourceBox" Text="{Binding SourceText}" TabIndex="0"/>
                         </StackPanel>
                         <StackPanel Spacing="3">
-                            <TextBlock Text="{loc:T Detail_FieldTarget}" FontSize="12" Opacity="0.7"/>
+                            <TextBlock Text="{loc:T Detail_FieldTarget}" Classes="caption"/>
                             <TextBox Text="{Binding TargetText}" TabIndex="1"/>
                         </StackPanel>
                         <StackPanel Spacing="3">
-                            <TextBlock Text="{loc:T Detail_FieldAcceptedAnswers}" FontSize="12" Opacity="0.7"/>
+                            <TextBlock Text="{loc:T Detail_FieldAcceptedAnswers}" Classes="caption"/>
                             <TextBox Text="{Binding AcceptedAnswers}" TabIndex="2"/>
                         </StackPanel>
                         <StackPanel Spacing="3">
-                            <TextBlock Text="{loc:T Detail_FieldExampleSentence}" FontSize="12" Opacity="0.7"/>
+                            <TextBlock Text="{loc:T Detail_FieldExampleSentence}" Classes="caption"/>
                             <TextBox Text="{Binding ExampleSentence}" TabIndex="3"/>
                         </StackPanel>
                         <StackPanel Spacing="3">
-                            <TextBlock Text="{loc:T Detail_FieldNotes}" FontSize="12" Opacity="0.7"/>
+                            <TextBlock Text="{loc:T Detail_FieldNotes}" Classes="caption"/>
                             <TextBox Text="{Binding Notes}" TabIndex="4"/>
                         </StackPanel>
 
                         <Expander Header="{loc:T Detail_More}">
                             <StackPanel Spacing="10" Margin="0,8,0,0">
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="{loc:T Detail_FieldPartOfSpeech}" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldPartOfSpeech}" Classes="caption"/>
                                     <TextBox Text="{Binding PartOfSpeech}"/>
                                 </StackPanel>
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="{loc:T Detail_FieldGender}" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldGender}" Classes="caption"/>
                                     <TextBox Text="{Binding Gender}"/>
                                 </StackPanel>
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="{loc:T Detail_FieldPluralForm}" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldPluralForm}" Classes="caption"/>
                                     <TextBox Text="{Binding PluralForm}"/>
                                 </StackPanel>
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="{loc:T Detail_FieldVerbForms}" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldVerbForms}" Classes="caption"/>
                                     <TextBox Text="{Binding VerbForms}"/>
                                 </StackPanel>
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="{loc:T Detail_FieldPronunciation}" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldPronunciation}" Classes="caption"/>
                                     <TextBox Text="{Binding Pronunciation}"/>
                                 </StackPanel>
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="{loc:T Detail_FieldTags}" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldTags}" Classes="caption"/>
                                     <TextBox Text="{Binding Tags}"/>
                                 </StackPanel>
                                 <StackPanel Spacing="3">
-                                    <TextBlock Text="{loc:T Detail_FieldMnemonic}" FontSize="12" Opacity="0.7"/>
+                                    <TextBlock Text="{loc:T Detail_FieldMnemonic}" Classes="caption"/>
                                     <TextBox Text="{Binding Mnemonic}"/>
                                 </StackPanel>
                             </StackPanel>

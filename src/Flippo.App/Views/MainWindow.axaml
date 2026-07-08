@@ -171,7 +171,7 @@
                     <Border DockPanel.Dock="Top" IsVisible="{Binding UpdateReady}"
                             Background="{DynamicResource Brush.Accent}" Padding="16,10">
                         <StackPanel Orientation="Horizontal" Spacing="14" HorizontalAlignment="Center">
-                            <TextBlock Text="{loc:T Update_Available}" VerticalAlignment="Center" Foreground="White"/>
+                            <TextBlock Text="{loc:T Update_Available}" VerticalAlignment="Center" Foreground="{DynamicResource Brush.OnAccent}"/>
                             <Button Content="{loc:T Update_Restart}" Command="{Binding ApplyUpdateCommand}"/>
                         </StackPanel>
                     </Border>

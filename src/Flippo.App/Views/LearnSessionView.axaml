@@ -116,8 +116,14 @@
                                     </DataTemplate>
                                 </ItemsControl.ItemTemplate>
                             </ItemsControl>
-                            <TextBlock Text="{Binding FeedbackText}" IsVisible="{Binding IsAnswerShown}"
-                                       FontSize="16" FontWeight="SemiBold" HorizontalAlignment="Center"/>
+                            <StackPanel IsVisible="{Binding IsAnswerShown}">
+                                <TextBlock Text="{Binding FeedbackText}" IsVisible="{Binding FeedbackIsPositive}"
+                                           Foreground="{DynamicResource Brush.Success}"
+                                           FontSize="16" FontWeight="SemiBold" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding FeedbackText}" IsVisible="{Binding !FeedbackIsPositive}"
+                                           Foreground="{DynamicResource Brush.Danger}"
+                                           FontSize="16" FontWeight="SemiBold" HorizontalAlignment="Center"/>
+                            </StackPanel>
                         </StackPanel>
                     </StackPanel>
                 </ScrollViewer>
