@@ -21,5 +21,12 @@
         <FluentTheme />
         <StyleInclude Source="avares://Avalonia.Controls.DataGrid/Themes/Fluent.xaml"/>
         <StyleInclude Source="avares://Flippo.App/Theme/Styles.axaml"/>
+        <!-- App-Default-Font = Inter. "Application" hat keine eigene FontFamily-Property (Avalonia
+             AVLN2000); FontFamily ist eine vererbte TextElement-Property, daher hier am
+             Window-Root gesetzt statt am Application-Wurzelelement (Abweichung von Brief Step 3,
+             da dessen Attribut-Ansatz nicht kompiliert, siehe Task-1-Report). -->
+        <Style Selector="Window">
+            <Setter Property="FontFamily" Value="{DynamicResource Font.Family.Ui}"/>
+        </Style>
     </Application.Styles>
 </Application>

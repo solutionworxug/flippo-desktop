@@ -1,0 +1,18 @@
+SIL OPEN FONT LICENSE
+
+Diese Schriftarten stehen unter der SIL Open Font License, Version 1.1
+(https://openfontlicense.org). Die Lizenz erlaubt freie Nutzung, Studium,
+Modifikation und Weiterverbreitung, solange die Schriftnamen nicht verkauft
+werden und abgeleitete Werke unter derselben Lizenz bleiben.
+
+Enthaltene Schriften:
+
+- Bricolage Grotesque (Variable Font)
+  Quelle: https://github.com/google/fonts/tree/main/ofl/bricolagegrotesque
+  Copyright: Ánfora Type / Google Fonts
+
+- Source Serif 4 (Variable Font)
+  Quelle: https://github.com/google/fonts/tree/main/ofl/sourceserif4
+  Copyright: Adobe (Frank Grießhammer) / Google Fonts
+
+Der vollständige Lizenztext ist unter https://openfontlicense.org abrufbar.

@@ -25,6 +25,11 @@
     <CornerRadius x:Key="Radius.Card">12</CornerRadius>
     <CornerRadius x:Key="Radius.Bar">3</CornerRadius>
 
+    <!-- ── Primitive: Font-Familien ── -->
+    <FontFamily x:Key="Font.Family.Display">avares://Flippo.App/Assets/Fonts/BricolageGrotesque.ttf#Bricolage Grotesque</FontFamily>
+    <FontFamily x:Key="Font.Family.Serif">avares://Flippo.App/Assets/Fonts/SourceSerif4.ttf#Source Serif 4</FontFamily>
+    <FontFamily x:Key="Font.Family.Ui">avares://Avalonia.Fonts.Inter/Assets#Inter</FontFamily>
+
     <!-- ── Primitive: Typografie-Größen ── -->
     <x:Double x:Key="Font.Caption">12</x:Double>
     <x:Double x:Key="Font.Body">13</x:Double>
