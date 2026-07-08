@@ -7,7 +7,7 @@ namespace Flippo.Tests.Cloud;
 public class DestinationStoreTests
 {
     private static DestinationStore NewStore(string file) =>
-        new(new IDestinationConnector[] { new LocalFolderConnector() }, file);
+        new(new IDestinationConnector[] { new LocalFolderConnector() }, filePath: file);
 
     [Fact]
     public void Add_Persists_ReloadFromDisk_AndResolves()

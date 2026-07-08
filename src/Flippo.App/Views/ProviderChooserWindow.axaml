@@ -1,0 +1,17 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="using:Flippo.App.Localization"
+        x:Class="Flippo.App.Views.ProviderChooserWindow"
+        Title="{loc:T Dest_AddTitle}"
+        Width="380" SizeToContent="Height"
+        WindowStartupLocation="CenterOwner"
+        CanResize="False">
+    <StackPanel Margin="24" Spacing="12">
+        <TextBlock Text="{loc:T Dest_ChooseProvider}" FontSize="16" FontWeight="SemiBold"/>
+        <Button HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Padding="14,12"
+                Click="OnFolder" Content="{loc:T Dest_ProviderFolder}"/>
+        <Button HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Padding="14,12"
+                Click="OnGoogleDrive" Content="{loc:T Dest_ProviderGoogleDrive}"/>
+        <Button HorizontalAlignment="Right" Content="{loc:T SetEditor_Cancel}" Click="OnCancel" MinWidth="90"/>
+    </StackPanel>
+</Window>

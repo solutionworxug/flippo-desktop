@@ -13,11 +13,13 @@ public sealed class DestinationStore
     private static readonly JsonSerializerOptions JsonOptions = new() { WriteIndented = true };
 
     private readonly Dictionary<BackupDestinationKind, IDestinationConnector> _connectors;
+    private readonly ITokenVault? _vault;
     private readonly string _filePath;
 
-    public DestinationStore(IEnumerable<IDestinationConnector> connectors, string? filePath = null)
+    public DestinationStore(IEnumerable<IDestinationConnector> connectors, ITokenVault? vault = null, string? filePath = null)
     {
         _connectors = connectors.ToDictionary(c => c.Kind);
+        _vault = vault;
         _filePath = filePath ?? AppPaths.DestinationsFile;
     }
 
@@ -44,8 +46,11 @@ public sealed class DestinationStore
 
     public void Remove(Guid id)
     {
-        var all = GetAll().Where(c => c.Id != id).ToList();
-        Persist(all);
+        var all = GetAll().ToList();
+        var target = all.FirstOrDefault(c => c.Id == id);
+        if (target is { Kind: BackupDestinationKind.GoogleDrive })
+            _vault?.Delete($"{id:N}:user");   // Refresh-Token mitlöschen (Neu-Verbinden verlangt Login)
+        Persist(all.Where(c => c.Id != id).ToList());
     }
 
     public IBackupDestination Resolve(DestinationConfig config)

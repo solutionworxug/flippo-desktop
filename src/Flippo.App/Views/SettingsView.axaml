@@ -109,7 +109,7 @@
                     <StackPanel Spacing="10">
                         <Grid ColumnDefinitions="*,Auto">
                             <TextBlock Grid.Column="0" Classes="section" Text="{loc:T Dest_SectionTitle}"/>
-                            <Button Grid.Column="1" Content="{loc:T Dest_AddFolder}" Command="{Binding AddFolderCommand}"/>
+                            <Button Grid.Column="1" Content="{loc:T Dest_AddDestination}" Command="{Binding AddDestinationCommand}"/>
                         </Grid>
                         <TextBlock Classes="caption" Text="{loc:T Dest_SectionHint}"/>
 
@@ -124,6 +124,11 @@
                                                 <TextBlock Text="{Binding Kind}" FontSize="12" Opacity="0.6"/>
                                             </StackPanel>
                                             <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="6">
+                                                <Button Content="{loc:T Dest_Reconnect}"
+                                                        ToolTip.Tip="{loc:T Dest_ReconnectHint}"
+                                                        IsVisible="{Binding Kind, Converter={x:Static vm:KindConverters.IsGoogleDrive}}"
+                                                        Command="{Binding $parent[ItemsControl].((vm:BackupDestinationsViewModel)DataContext).ReconnectCommand}"
+                                                        CommandParameter="{Binding}"/>
                                                 <Button Content="{loc:T Dest_Backup}"
                                                         Command="{Binding $parent[ItemsControl].((vm:BackupDestinationsViewModel)DataContext).BackupCommand}"
                                                         CommandParameter="{Binding}"/>

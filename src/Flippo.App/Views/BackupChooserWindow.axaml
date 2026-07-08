@@ -15,7 +15,7 @@
                     <StackPanel Spacing="2" Margin="4">
                         <TextBlock Text="{Binding FileName}" FontWeight="SemiBold"/>
                         <TextBlock FontSize="12" Opacity="0.6">
-                            <Run Text="{Binding CreatedAt, StringFormat={}{0:g}}"/>
+                            <Run Text="{Binding CreatedAt.LocalDateTime, StringFormat={}{0:g}}"/>
                         </TextBlock>
                     </StackPanel>
                 </DataTemplate>

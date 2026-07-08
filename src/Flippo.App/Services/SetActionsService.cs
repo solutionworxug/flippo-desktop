@@ -217,6 +217,8 @@ public sealed class SetActionsService
     private static string DestErrorMessage(DestinationException ex) => ex.State switch
     {
         DestinationState.NotConnected => L.T("Dest_ErrNotConnected"),
+        DestinationState.Offline => L.T("Dest_ErrOffline"),
+        DestinationState.QuotaExceeded => L.T("Dest_ErrQuota"),
         _ => L.T("Dest_ErrTransport")
     };
 

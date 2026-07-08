@@ -396,4 +396,13 @@ Lern-Session
   <data name="Dest_ErrorTitle" xml:space="preserve"><value>Fehler beim Backup-Ziel</value></data>
   <data name="Dest_ErrNotConnected" xml:space="preserve"><value>Der Ordner ist nicht erreichbar. Wurde er verschoben oder gelöscht?</value></data>
   <data name="Dest_ErrTransport" xml:space="preserve"><value>Das Backup konnte nicht übertragen werden. Bitte erneut versuchen.</value></data>
+  <data name="Dest_AddDestination" xml:space="preserve"><value>Ziel hinzufügen…</value></data>
+  <data name="Dest_AddTitle" xml:space="preserve"><value>Backup-Ziel hinzufügen</value></data>
+  <data name="Dest_ChooseProvider" xml:space="preserve"><value>Wohin sollen Backups?</value></data>
+  <data name="Dest_ProviderFolder" xml:space="preserve"><value>Ordner (lokal oder synchronisiert)</value></data>
+  <data name="Dest_ProviderGoogleDrive" xml:space="preserve"><value>Google Drive</value></data>
+  <data name="Dest_Reconnect" xml:space="preserve"><value>Neu verbinden</value></data>
+  <data name="Dest_ReconnectHint" xml:space="preserve"><value>Erneut bei Google anmelden, um den Zugriff zu erneuern.</value></data>
+  <data name="Dest_ErrOffline" xml:space="preserve"><value>Ziel nicht erreichbar — stattdessen lokal speichern?</value></data>
+  <data name="Dest_ErrQuota" xml:space="preserve"><value>Nicht genug Speicher im Google-Konto.</value></data>
 </root>

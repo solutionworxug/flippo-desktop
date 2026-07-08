@@ -37,6 +37,9 @@ public interface IDialogService
 
     /// <summary>Auswahl eines vorhandenen Backups am Ziel (C1). Rückgabe null = abgebrochen.</summary>
     Task<BackupFileInfo?> ShowBackupChooserAsync(IReadOnlyList<BackupFileInfo> backups);
+
+    /// <summary>Provider-Auswahl für ein neues Backup-Ziel (C1 Slice 2). Rückgabe null = abgebrochen.</summary>
+    Task<BackupDestinationKind?> ShowProviderChooserAsync();
 }
 
 public sealed class DialogService : IDialogService
@@ -137,5 +140,14 @@ public sealed class DialogService : IDialogService
 
         var window = new BackupChooserWindow(backups);
         return await window.ShowDialog<BackupFileInfo?>(owner);
+    }
+
+    public async Task<BackupDestinationKind?> ShowProviderChooserAsync()
+    {
+        var owner = _owner();
+        if (owner is null) return null;
+
+        var window = new ProviderChooserWindow();
+        return await window.ShowDialog<BackupDestinationKind?>(owner);
     }
 }
