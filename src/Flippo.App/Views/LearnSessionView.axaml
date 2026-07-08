@@ -28,20 +28,20 @@
     <UserControl.Styles>
         <!-- Multiple-Choice-Feedback nach der Wahl -->
         <Style Selector="Button.mcopt.revealed.correct">
-            <Setter Property="Background" Value="#2B8A3E"/>
-            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="{DynamicResource Brush.Success}"/>
+            <Setter Property="Foreground" Value="{DynamicResource Brush.OnAccent}"/>
         </Style>
         <Style Selector="Button.mcopt.revealed.chosen:not(.correct)">
-            <Setter Property="Background" Value="#C92A2A"/>
-            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="{DynamicResource Brush.Danger}"/>
+            <Setter Property="Foreground" Value="{DynamicResource Brush.OnAccent}"/>
         </Style>
     </UserControl.Styles>
 
     <Panel>
         <!-- Leerzustand -->
         <StackPanel IsVisible="{Binding IsEmpty}" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="12">
-            <TextBlock Text="{loc:T Learn_EmptyTitle}" FontSize="20" Opacity="0.7" HorizontalAlignment="Center"/>
-            <TextBlock Text="{loc:T Learn_EmptyHint}" Opacity="0.5" HorizontalAlignment="Center"/>
+            <TextBlock Classes="section" Text="{loc:T Learn_EmptyTitle}" Opacity="0.7" HorizontalAlignment="Center"/>
+            <TextBlock Classes="body" Text="{loc:T Learn_EmptyHint}" Opacity="0.6" HorizontalAlignment="Center"/>
             <Button Content="{loc:T Learn_BackToSets}" Command="{Binding BackToSetsCommand}" HorizontalAlignment="Center"/>
         </StackPanel>
 
@@ -51,35 +51,38 @@
             <!-- Kopfzeile -->
             <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,12">
                 <StackPanel Grid.Column="0" Orientation="Horizontal" Spacing="12" VerticalAlignment="Center">
-                    <TextBlock Text="{Binding Title}" FontSize="18" FontWeight="SemiBold"/>
-                    <TextBlock Text="{Binding ProgressText}" FontSize="14" Opacity="0.6" VerticalAlignment="Center"/>
+                    <TextBlock Classes="section" Text="{Binding Title}"/>
+                    <TextBlock Classes="caption" Text="{Binding ProgressText}" VerticalAlignment="Center"/>
                 </StackPanel>
                 <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="14" VerticalAlignment="Center">
-                    <TextBlock Foreground="#2B8A3E" VerticalAlignment="Center">
-                        <Run Text="✓ "/><Run Text="{Binding CorrectCount}"/>
-                    </TextBlock>
-                    <TextBlock Foreground="#C92A2A" VerticalAlignment="Center">
-                        <Run Text="✗ "/><Run Text="{Binding WrongCount}"/>
-                    </TextBlock>
-                    <Button Content="{loc:T Learn_Undo}" Command="{Binding UndoCommand}" IsEnabled="{Binding CanUndo}"/>
+                    <StackPanel Orientation="Horizontal" Spacing="4" VerticalAlignment="Center">
+                        <PathIcon Classes="icon" Data="{DynamicResource Icon.check}" Width="16" Height="16" Foreground="{DynamicResource Brush.Success}"/>
+                        <TextBlock Classes="metric-label" Text="{Binding CorrectCount}" Foreground="{DynamicResource Brush.Success}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Spacing="4" VerticalAlignment="Center">
+                        <PathIcon Classes="icon" Data="{DynamicResource Icon.close}" Width="16" Height="16" Foreground="{DynamicResource Brush.Danger}"/>
+                        <TextBlock Classes="metric-label" Text="{Binding WrongCount}" Foreground="{DynamicResource Brush.Danger}" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <Button Command="{Binding UndoCommand}" IsEnabled="{Binding CanUndo}" ToolTip.Tip="{loc:T Learn_Undo}">
+                        <PathIcon Classes="icon" Data="{DynamicResource Icon.refresh}"/>
+                    </Button>
                     <Button Content="{loc:T Learn_Exit}" Command="{Binding ExitCommand}"/>
                 </StackPanel>
             </Grid>
 
             <!-- Kartenbereich -->
-            <Border Grid.Row="1" Margin="0,8" CornerRadius="12" BorderThickness="1" BorderBrush="#22808080"
-                    Background="#0A808080" Padding="32">
+            <Border Grid.Row="1" Classes="hero-card" Margin="0,8" Padding="32">
                 <ScrollViewer>
                     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Stretch" Spacing="18" MaxWidth="620">
                         <!-- Frage (alle Modi) -->
-                        <TextBlock Text="{Binding QuestionText}" FontSize="32" FontWeight="SemiBold"
+                        <TextBlock Classes="serif" Text="{Binding QuestionText}" FontSize="32" FontWeight="SemiBold"
                                    TextWrapping="Wrap" TextAlignment="Center"/>
 
                         <!-- Flashcard: Antwort nach dem Umdrehen -->
                         <StackPanel IsVisible="{Binding IsFlashcard}" Spacing="18">
-                            <Border IsVisible="{Binding IsAnswerShown}" Height="1" Background="#33808080" Margin="40,0"/>
-                            <TextBlock Text="{Binding AnswerText}" IsVisible="{Binding IsAnswerShown}"
-                                       FontSize="28" Foreground="#1971C2" TextWrapping="Wrap" TextAlignment="Center"/>
+                            <Border IsVisible="{Binding IsAnswerShown}" Height="1" Background="{DynamicResource Brush.Border.Subtle}" Margin="40,0"/>
+                            <TextBlock Classes="serif" Text="{Binding AnswerText}" IsVisible="{Binding IsAnswerShown}"
+                                       FontSize="28" Foreground="{DynamicResource Brush.Accent}" TextWrapping="Wrap" TextAlignment="Center"/>
                         </StackPanel>
 
                         <!-- Freitext: Eingabe + Feedback -->
@@ -89,9 +92,9 @@
                                      IsReadOnly="{Binding IsAnswerShown}"/>
                             <StackPanel IsVisible="{Binding IsAnswerShown}" Spacing="4">
                                 <TextBlock Text="{Binding FeedbackText}" IsVisible="{Binding FeedbackIsPositive}"
-                                           FontSize="16" Foreground="#2B8A3E" TextWrapping="Wrap"/>
+                                           FontSize="16" Foreground="{DynamicResource Brush.Success}" TextWrapping="Wrap"/>
                                 <TextBlock Text="{Binding FeedbackText}" IsVisible="{Binding !FeedbackIsPositive}"
-                                           FontSize="16" Foreground="#C92A2A" TextWrapping="Wrap"/>
+                                           FontSize="16" Foreground="{DynamicResource Brush.Danger}" TextWrapping="Wrap"/>
                             </StackPanel>
                         </StackPanel>
 
@@ -108,6 +111,7 @@
                                                 Command="{Binding $parent[ItemsControl].((vm:LearnSessionViewModel)DataContext).ChooseOptionCommand}"
                                                 CommandParameter="{Binding}"
                                                 HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"
+                                                CornerRadius="{DynamicResource Radius.Control}"
                                                 Padding="16,12" Margin="0,0,0,8" FontSize="15"/>
                                     </DataTemplate>
                                 </ItemsControl.ItemTemplate>
@@ -124,41 +128,53 @@
 
                 <!-- Flashcard -->
                 <Panel IsVisible="{Binding IsFlashcard}">
-                    <Button IsVisible="{Binding !IsAnswerShown}" Content="{loc:T Learn_Flip}"
-                            Command="{Binding FlipCommand}" Classes="accent"
-                            HorizontalAlignment="Center" Padding="28,12" FontSize="15"/>
+                    <Button IsVisible="{Binding !IsAnswerShown}" Command="{Binding FlipCommand}" Classes="accent"
+                            HorizontalAlignment="Center" Padding="28,12">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <PathIcon Data="{DynamicResource Icon.refresh}" Width="18" Height="18" Foreground="{DynamicResource Brush.OnAccent}"/>
+                            <TextBlock Text="{loc:T Learn_Flip}" FontSize="15" Foreground="{DynamicResource Brush.OnAccent}"/>
+                        </StackPanel>
+                    </Button>
                     <Panel IsVisible="{Binding IsAnswerShown}">
                         <StackPanel IsVisible="{Binding !IsAdaptive}" Orientation="Horizontal" Spacing="16" HorizontalAlignment="Center">
-                            <Button Command="{Binding GradeWrongCommand}" Padding="28,12" MinWidth="150" Background="#C92A2A" Foreground="White">
-                                <TextBlock Text="{loc:T Learn_Wrong}" FontSize="15" HorizontalAlignment="Center"/>
+                            <Button Command="{Binding GradeWrongCommand}" Padding="28,12" MinWidth="150"
+                                    Background="{DynamicResource Brush.Danger}" Foreground="{DynamicResource Brush.OnAccent}">
+                                <StackPanel Orientation="Horizontal" Spacing="8" HorizontalAlignment="Center">
+                                    <PathIcon Data="{DynamicResource Icon.close}" Width="16" Height="16" Foreground="{DynamicResource Brush.OnAccent}"/>
+                                    <TextBlock Text="{loc:T Learn_Wrong}" FontSize="15" HorizontalAlignment="Center"/>
+                                </StackPanel>
                             </Button>
-                            <Button Command="{Binding GradeGoodCommand}" Padding="28,12" MinWidth="150" Background="#2B8A3E" Foreground="White">
-                                <TextBlock Text="{loc:T Learn_Right}" FontSize="15" HorizontalAlignment="Center"/>
+                            <Button Command="{Binding GradeGoodCommand}" Padding="28,12" MinWidth="150"
+                                    Background="{DynamicResource Brush.Success}" Foreground="{DynamicResource Brush.OnAccent}">
+                                <StackPanel Orientation="Horizontal" Spacing="8" HorizontalAlignment="Center">
+                                    <PathIcon Data="{DynamicResource Icon.check}" Width="16" Height="16" Foreground="{DynamicResource Brush.OnAccent}"/>
+                                    <TextBlock Text="{loc:T Learn_Right}" FontSize="15" HorizontalAlignment="Center"/>
+                                </StackPanel>
                             </Button>
                         </StackPanel>
                         <StackPanel IsVisible="{Binding IsAdaptive}" Orientation="Horizontal" Spacing="12" HorizontalAlignment="Center">
                             <Button Command="{Binding GradeWrongCommand}" Padding="18,10" MinWidth="110">
                                 <StackPanel HorizontalAlignment="Center" Spacing="2">
                                     <TextBlock Text="{loc:T Learn_Again}" FontSize="14" HorizontalAlignment="Center"/>
-                                    <TextBlock Text="{Binding PreviewAgain}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
+                                    <TextBlock Classes="caption" Text="{Binding PreviewAgain}" HorizontalAlignment="Center"/>
                                 </StackPanel>
                             </Button>
                             <Button Command="{Binding GradeHardCommand}" Padding="18,10" MinWidth="110">
                                 <StackPanel HorizontalAlignment="Center" Spacing="2">
                                     <TextBlock Text="{loc:T Learn_Hard}" FontSize="14" HorizontalAlignment="Center"/>
-                                    <TextBlock Text="{Binding PreviewHard}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
+                                    <TextBlock Classes="caption" Text="{Binding PreviewHard}" HorizontalAlignment="Center"/>
                                 </StackPanel>
                             </Button>
                             <Button Command="{Binding GradeGoodCommand}" Padding="18,10" MinWidth="110">
                                 <StackPanel HorizontalAlignment="Center" Spacing="2">
                                     <TextBlock Text="{loc:T Learn_Good}" FontSize="14" HorizontalAlignment="Center"/>
-                                    <TextBlock Text="{Binding PreviewGood}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
+                                    <TextBlock Classes="caption" Text="{Binding PreviewGood}" HorizontalAlignment="Center"/>
                                 </StackPanel>
                             </Button>
                             <Button Command="{Binding GradeEasyCommand}" Padding="18,10" MinWidth="110">
                                 <StackPanel HorizontalAlignment="Center" Spacing="2">
                                     <TextBlock Text="{loc:T Learn_Easy}" FontSize="14" HorizontalAlignment="Center"/>
-                                    <TextBlock Text="{Binding PreviewEasy}" FontSize="11" Opacity="0.7" HorizontalAlignment="Center"/>
+                                    <TextBlock Classes="caption" Text="{Binding PreviewEasy}" HorizontalAlignment="Center"/>
                                 </StackPanel>
                             </Button>
                         </StackPanel>
@@ -167,18 +183,28 @@
 
                 <!-- Freitext -->
                 <StackPanel IsVisible="{Binding IsFreeText}" HorizontalAlignment="Center" Spacing="4">
-                    <TextBlock IsVisible="{Binding !IsAnswerShown}" Opacity="0.6" HorizontalAlignment="Center"
+                    <TextBlock Classes="caption" IsVisible="{Binding !IsAnswerShown}" HorizontalAlignment="Center"
                                Text="{loc:T Learn_FreeTextHint}"/>
-                    <Button IsVisible="{Binding IsAnswerShown}" Content="{loc:T Learn_Next}" Classes="accent"
-                            Command="{Binding SubmitCommand}" Padding="28,12"/>
+                    <Button IsVisible="{Binding IsAnswerShown}" Classes="accent"
+                            Command="{Binding SubmitCommand}" Padding="28,12">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock Text="{loc:T Learn_Next}" Foreground="{DynamicResource Brush.OnAccent}"/>
+                            <PathIcon Data="{DynamicResource Icon.chevron}" Width="18" Height="18" Foreground="{DynamicResource Brush.OnAccent}"/>
+                        </StackPanel>
+                    </Button>
                 </StackPanel>
 
                 <!-- Multiple Choice -->
                 <StackPanel IsVisible="{Binding IsMultipleChoice}" HorizontalAlignment="Center" Spacing="4">
-                    <TextBlock IsVisible="{Binding !IsAnswerShown}" Opacity="0.6" HorizontalAlignment="Center"
+                    <TextBlock Classes="caption" IsVisible="{Binding !IsAnswerShown}" HorizontalAlignment="Center"
                                Text="{loc:T Learn_McHint}"/>
-                    <Button IsVisible="{Binding IsAnswerShown}" Content="{loc:T Learn_Next}" Classes="accent"
-                            Command="{Binding SubmitCommand}" Padding="28,12"/>
+                    <Button IsVisible="{Binding IsAnswerShown}" Classes="accent"
+                            Command="{Binding SubmitCommand}" Padding="28,12">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock Text="{loc:T Learn_Next}" Foreground="{DynamicResource Brush.OnAccent}"/>
+                            <PathIcon Data="{DynamicResource Icon.chevron}" Width="18" Height="18" Foreground="{DynamicResource Brush.OnAccent}"/>
+                        </StackPanel>
+                    </Button>
                 </StackPanel>
             </Panel>
         </Grid>

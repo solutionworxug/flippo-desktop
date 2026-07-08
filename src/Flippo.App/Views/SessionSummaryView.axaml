@@ -15,27 +15,38 @@
     </UserControl.KeyBindings>
 
     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="20" MaxWidth="440">
-        <TextBlock Text="{Binding Title}" FontSize="26" FontWeight="SemiBold" HorizontalAlignment="Center"/>
-        <TextBlock Text="{Binding QuoteText}" FontSize="20" Opacity="0.85" HorizontalAlignment="Center"/>
+        <TextBlock Classes="page-title" Text="{Binding Title}" HorizontalAlignment="Center"/>
+        <TextBlock Classes="serif" Text="{Binding QuoteText}" FontSize="20" Opacity="0.85" HorizontalAlignment="Center" TextAlignment="Center"/>
 
-        <StackPanel Orientation="Horizontal" Spacing="28" HorizontalAlignment="Center"
+        <StackPanel Orientation="Horizontal" Spacing="16" HorizontalAlignment="Center"
                     IsVisible="{Binding !NothingAnswered}">
-            <StackPanel Spacing="2">
-                <TextBlock Text="{Binding CorrectCount}" FontSize="28" FontWeight="SemiBold"
-                           Foreground="#2B8A3E" HorizontalAlignment="Center"/>
-                <TextBlock Text="{loc:T Summary_Correct}" FontSize="12" Opacity="0.6" HorizontalAlignment="Center"/>
-            </StackPanel>
-            <StackPanel Spacing="2">
-                <TextBlock Text="{Binding WrongCount}" FontSize="28" FontWeight="SemiBold"
-                           Foreground="#C92A2A" HorizontalAlignment="Center"/>
-                <TextBlock Text="{loc:T Summary_Wrong}" FontSize="12" Opacity="0.6" HorizontalAlignment="Center"/>
-            </StackPanel>
+            <Border Classes="metric-tile" MinWidth="120">
+                <StackPanel Spacing="4" HorizontalAlignment="Center">
+                    <TextBlock Classes="metric" Text="{Binding CorrectCount}" Foreground="{DynamicResource Brush.Success}" HorizontalAlignment="Center"/>
+                    <TextBlock Classes="metric-label" Text="{loc:T Summary_Correct}" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+            <Border Classes="metric-tile" MinWidth="120">
+                <StackPanel Spacing="4" HorizontalAlignment="Center">
+                    <TextBlock Classes="metric" Text="{Binding WrongCount}" Foreground="{DynamicResource Brush.Danger}" HorizontalAlignment="Center"/>
+                    <TextBlock Classes="metric-label" Text="{loc:T Summary_Wrong}" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
         </StackPanel>
 
         <StackPanel Orientation="Horizontal" Spacing="12" HorizontalAlignment="Center" Margin="0,8,0,0">
-            <Button Content="{loc:T Summary_RepeatWrong}" IsVisible="{Binding HasWrong}"
-                    Command="{Binding RepeatWrongCommand}" Classes="accent" Padding="20,10"/>
-            <Button Content="{loc:T Summary_Done}" Command="{Binding DoneCommand}" Padding="20,10"/>
+            <Button IsVisible="{Binding HasWrong}" Command="{Binding RepeatWrongCommand}" Classes="accent" Padding="20,10">
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <PathIcon Data="{DynamicResource Icon.refresh}" Width="18" Height="18" Foreground="{DynamicResource Brush.OnAccent}"/>
+                    <TextBlock Text="{loc:T Summary_RepeatWrong}" Foreground="{DynamicResource Brush.OnAccent}"/>
+                </StackPanel>
+            </Button>
+            <Button Command="{Binding DoneCommand}" Padding="20,10">
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <PathIcon Classes="icon" Data="{DynamicResource Icon.check}" Width="18" Height="18"/>
+                    <TextBlock Text="{loc:T Summary_Done}"/>
+                </StackPanel>
+            </Button>
         </StackPanel>
     </StackPanel>
 </UserControl>
