@@ -96,28 +96,31 @@
         <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Secondary}" />
     </Style>
 
-    <!-- Sidebar-Navigationseintrag: flach, linksbündig, dezenter Hover -->
+    <!-- Sidebar-Navigationseintrag: flach, linksbündig, auf dunklem Sidebar-Grund -->
     <Style Selector="Button.nav">
         <Setter Property="HorizontalAlignment" Value="Stretch" />
         <Setter Property="HorizontalContentAlignment" Value="Left" />
         <Setter Property="Padding" Value="10,9" />
         <Setter Property="CornerRadius" Value="{DynamicResource Radius.Control}" />
         <Setter Property="FontSize" Value="{DynamicResource Font.Body}" />
-        <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Sidebar.TextMuted}" />
     </Style>
     <Style Selector="Button.nav /template/ ContentPresenter">
         <Setter Property="Background" Value="Transparent" />
     </Style>
     <Style Selector="Button.nav:pointerover /template/ ContentPresenter">
-        <Setter Property="Background" Value="{DynamicResource Brush.Surface.Subtle}" />
+        <Setter Property="Background" Value="{DynamicResource Brush.Sidebar.Hover}" />
+    </Style>
+    <Style Selector="Button.nav:pointerover">
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Sidebar.Text}" />
     </Style>
 
-    <!-- Sidebar-Navigationseintrag: aktiver Zustand (Accent-Soft-Fläche + Accent-Text) -->
+    <!-- Sidebar-Navigationseintrag: aktiver Zustand (weiße Soft-Fläche + weißer Text) -->
     <Style Selector="Button.nav.nav-active /template/ ContentPresenter">
-        <Setter Property="Background" Value="{DynamicResource Brush.Accent.Soft}" />
+        <Setter Property="Background" Value="{DynamicResource Brush.Sidebar.Active}" />
     </Style>
     <Style Selector="Button.nav.nav-active">
-        <Setter Property="Foreground" Value="{DynamicResource Brush.Accent}" />
+        <Setter Property="Foreground" Value="{DynamicResource Brush.Sidebar.Text}" />
         <Setter Property="FontWeight" Value="SemiBold" />
     </Style>
 
