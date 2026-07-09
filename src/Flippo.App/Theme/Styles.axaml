@@ -23,12 +23,12 @@
         <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
     </Style>
 
-    <!-- Serif-Lesetext (Lese-Stellen) -->
+    <!-- Serif-Lesetext (Lese-Stellen). LineHeight bewusst NICHT fixiert: die Klasse wird mit
+         abweichenden FontSizes kombiniert (Lernkarte 32/28) — eine feste LineHeight clippt dann. -->
     <Style Selector="TextBlock.serif">
         <Setter Property="FontFamily" Value="{DynamicResource Font.Family.Serif}" />
         <Setter Property="FontSize" Value="{DynamicResource Font.BodyLarge}" />
         <Setter Property="Foreground" Value="{DynamicResource Brush.Text.Primary}" />
-        <Setter Property="LineHeight" Value="26" />
     </Style>
 
     <!-- Icon-Hilfsklasse für PathIcon in Nav/Buttons -->
