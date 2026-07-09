@@ -1,0 +1,53 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="using:Flippo.App.Localization"
+        x:Class="Flippo.App.Views.ModeChooserWindow"
+        Title="{loc:T Learn_ModeTitle}"
+        Width="420" SizeToContent="Height"
+        Background="{DynamicResource Brush.Bg.App}"
+        WindowStartupLocation="CenterOwner" CanResize="False">
+    <Border Classes="app-card" Margin="16">
+        <StackPanel Spacing="12">
+            <StackPanel Spacing="2">
+                <TextBlock Classes="section" Text="{loc:T Learn_ModeTitle}"/>
+                <TextBlock Classes="caption" Text="{loc:T Learn_ModeSubtitle}"/>
+            </StackPanel>
+
+            <Button HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Padding="14,12"
+                    CornerRadius="{DynamicResource Radius.Control}" Click="OnFlashcard">
+                <StackPanel Orientation="Horizontal" Spacing="12">
+                    <PathIcon Classes="icon" Data="{DynamicResource Icon.decks}" VerticalAlignment="Center"/>
+                    <StackPanel Spacing="1">
+                        <TextBlock Classes="body" Text="{loc:T Sets_ModeFlashcard}"/>
+                        <TextBlock Classes="caption" Text="{loc:T Learn_ModeFlashcardSub}" TextWrapping="Wrap" MaxWidth="320"/>
+                    </StackPanel>
+                </StackPanel>
+            </Button>
+
+            <Button HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Padding="14,12"
+                    CornerRadius="{DynamicResource Radius.Control}" Click="OnFreeText">
+                <StackPanel Orientation="Horizontal" Spacing="12">
+                    <PathIcon Classes="icon" Data="{DynamicResource Icon.edit}" VerticalAlignment="Center"/>
+                    <StackPanel Spacing="1">
+                        <TextBlock Classes="body" Text="{loc:T Sets_ModeFreeText}"/>
+                        <TextBlock Classes="caption" Text="{loc:T Learn_ModeFreeTextSub}" TextWrapping="Wrap" MaxWidth="320"/>
+                    </StackPanel>
+                </StackPanel>
+            </Button>
+
+            <Button HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Padding="14,12"
+                    CornerRadius="{DynamicResource Radius.Control}" Click="OnMultipleChoice">
+                <StackPanel Orientation="Horizontal" Spacing="12">
+                    <PathIcon Classes="icon" Data="{DynamicResource Icon.check}" VerticalAlignment="Center"/>
+                    <StackPanel Spacing="1">
+                        <TextBlock Classes="body" Text="{loc:T Sets_ModeMultipleChoice}"/>
+                        <TextBlock Classes="caption" Text="{loc:T Learn_ModeMcSub}" TextWrapping="Wrap" MaxWidth="320"/>
+                    </StackPanel>
+                </StackPanel>
+            </Button>
+
+            <Button HorizontalAlignment="Right" Content="{loc:T SetEditor_Cancel}" Click="OnCancel"
+                    MinWidth="90" CornerRadius="{DynamicResource Radius.Control}"/>
+        </StackPanel>
+    </Border>
+</Window>

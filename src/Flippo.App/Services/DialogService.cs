@@ -43,6 +43,9 @@ public interface IDialogService
 
     /// <summary>Provider-Auswahl für ein neues Backup-Ziel (C1 Slice 2). Rückgabe null = abgebrochen.</summary>
     Task<BackupDestinationKind?> ShowProviderChooserAsync();
+
+    /// <summary>Lernmodus-Auswahl vor dem Session-Start (Android-Parität). Rückgabe null = abgebrochen.</summary>
+    Task<LearningMode?> ShowModeChooserAsync();
 }
 
 public sealed class DialogService : IDialogService
@@ -154,5 +157,14 @@ public sealed class DialogService : IDialogService
 
         var window = new ProviderChooserWindow();
         return await window.ShowDialog<BackupDestinationKind?>(owner);
+    }
+
+    public async Task<LearningMode?> ShowModeChooserAsync()
+    {
+        var owner = _owner();
+        if (owner is null) return null;
+
+        var window = new ModeChooserWindow();
+        return await window.ShowDialog<LearningMode?>(owner);
     }
 }

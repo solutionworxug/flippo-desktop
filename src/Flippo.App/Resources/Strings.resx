@@ -38,6 +38,11 @@
   <data name="Learn_FreeTextHint" xml:space="preserve"><value>Enter checks · F1 "Don't know"</value></data>
   <data name="Learn_Next" xml:space="preserve"><value>Next (Enter)</value></data>
   <data name="Learn_McHint" xml:space="preserve"><value>1-4 or click to choose</value></data>
+  <data name="Learn_ModeTitle" xml:space="preserve"><value>Learning mode</value></data>
+  <data name="Learn_ModeSubtitle" xml:space="preserve"><value>How would you like to learn?</value></data>
+  <data name="Learn_ModeFlashcardSub" xml:space="preserve"><value>Look at the front, flip, rate yourself — quick and relaxed.</value></data>
+  <data name="Learn_ModeFreeTextSub" xml:space="preserve"><value>Type the answer yourself — more challenging, perfects your spelling.</value></data>
+  <data name="Learn_ModeMcSub" xml:space="preserve"><value>Pick from 4 options — a good entry point.</value></data>
   <data name="Settings_Title" xml:space="preserve"><value>Settings</value></data>
   <data name="Settings_LearningSection" xml:space="preserve"><value>Learning (SRS)</value></data>
   <data name="Settings_Mode" xml:space="preserve"><value>Mode</value></data>

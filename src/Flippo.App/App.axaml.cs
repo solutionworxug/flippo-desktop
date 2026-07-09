@@ -87,6 +87,7 @@ public partial class App : Application
         services.AddSingleton<DestinationStore>();
         services.AddSingleton<CloudBackupService>();
         services.AddSingleton<SetActionsService>();
+        services.AddSingleton<LearnLauncher>();
 
         services.AddSingleton<UpdateService>();
         services.AddSingleton<NavigationService>();
