@@ -212,10 +212,11 @@
   <data name="Stats_BoxLabel" xml:space="preserve"><value>Fach {0}</value></data>
   <data name="Stats_AvgSessionFormat" xml:space="preserve"><value>ø {0:0.#} Karten · {1}</value></data>
   <data name="Stats_StreakFormat" xml:space="preserve"><value>{0} Tage (Best: {1})</value></data>
-  <data name="Stats_Activity30" xml:space="preserve"><value>Aktivität (30 Tage)</value></data>
   <data name="Stats_Weekday" xml:space="preserve"><value>Wochentag</value></data>
   <data name="Stats_Hourly" xml:space="preserve"><value>Tageszeit</value></data>
   <data name="Stats_Progress" xml:space="preserve"><value>Fortschritt</value></data>
+  <data name="Stats_Activity" xml:space="preserve"><value>Aktivität</value></data>
+  <data name="Stats_LastMonths" xml:space="preserve"><value>Letzte 6 Monate</value></data>
   <data name="Stats_ByMode" xml:space="preserve"><value>Nach Modus</value></data>
   <data name="Stats_HardestCards" xml:space="preserve"><value>Schwerste Karten</value></data>
   <data name="Stats_Empty" xml:space="preserve"><value>Noch keine Lerndaten</value></data>

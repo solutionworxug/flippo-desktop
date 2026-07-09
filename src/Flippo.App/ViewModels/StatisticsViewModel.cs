@@ -20,10 +20,16 @@ public sealed record Bar(string Label, int Value, double Size);
 /// <summary>Modus-Statistik in Anzeige-Form (lokalisierter Modusname + Erfolgs-Prozent).</summary>
 public sealed record ModeStatDisplay(string ModeName, int SessionCount, int TotalCorrect, int TotalWrong, string SuccessText);
 
+/// <summary>Heatmap-Zelle: Intensität 0..1 (0 = kein Lernen), Tooltip „dd.MM.yyyy: n".</summary>
+public sealed record HeatCell(double Intensity, string? Tooltip);
+
+/// <summary>Eine Heatmap-Spalte = Kalenderwoche (Mo–So, 7 Zellen).</summary>
+public sealed record HeatWeek(IReadOnlyList<HeatCell> Days);
+
 /// <summary>
 /// Statistik-Screen (Port von StatisticsViewModel/DetailedStatistics). Lädt alle Karten + Sessions,
 /// berechnet über <see cref="StatisticsCalculator"/> und bereitet die Balken für die handgezeichneten
-/// Charts (Karteikasten, 30-Tage-Aktivität, Wochentag, Tageszeit) auf.
+/// Charts (Karteikasten, Aktivitäts-Heatmap, Wochentag, Tageszeit) auf.
 /// </summary>
 public sealed partial class StatisticsViewModel : ViewModelBase, IActivatable
 {
@@ -52,7 +58,7 @@ public sealed partial class StatisticsViewModel : ViewModelBase, IActivatable
     [ObservableProperty] private bool _hasProgress;
 
     public ObservableCollection<Bar> BoxBars { get; } = new();
-    public ObservableCollection<Bar> ActivityBars { get; } = new();
+    public ObservableCollection<HeatWeek> HeatWeeks { get; } = new();
     public ObservableCollection<Bar> WeekdayBars { get; } = new();
     public ObservableCollection<Bar> HourBars { get; } = new();
     public ObservableCollection<HardCard> HardestCards { get; } = new();
@@ -128,17 +134,25 @@ public sealed partial class StatisticsViewModel : ViewModelBase, IActivatable
         foreach (var b in s.CardsByBox)
             BoxBars.Add(new Bar(string.Format(L.T("Stats_BoxLabel"), b.Box), b.Count, (double)b.Count / maxBox * MaxBarWidth));
 
-        // 30-Tage-Aktivität (vertikal, kontinuierlich alt→neu)
-        ActivityBars.Clear();
+        // Aktivitäts-Heatmap: 26 Wochen-Spalten à 7 Tage (Mo–So), Intensität relativ zum Maximum
+        HeatWeeks.Clear();
         var today = DateOnly.FromDateTime(DateTimeOffset.FromUnixTimeMilliseconds(nowMs).ToLocalTime().DateTime);
-        var byDay = s.ActivityLast30Days.ToDictionary(d => d.Date, d => d.Count);
-        int maxAct = Math.Max(1, byDay.Count == 0 ? 1 : byDay.Values.Max());
-        for (int i = 29; i >= 0; i--)
+        var heatByDay = s.ActivityLast182Days.ToDictionary(d => d.Date, d => d.Count);
+        int maxHeat = Math.Max(1, heatByDay.Count == 0 ? 1 : heatByDay.Values.Max());
+        var heatStart = today.AddDays(-181);
+        heatStart = heatStart.AddDays(-(((int)heatStart.DayOfWeek + 6) % 7));   // auf Montag zurückrunden
+        for (var weekStart = heatStart; weekStart <= today; weekStart = weekStart.AddDays(7))
         {
-            var date = today.AddDays(-i);
-            int count = byDay.TryGetValue(date, out var c) ? c : 0;
-            string label = (i == 29 || i == 15 || i == 0) ? date.ToString("dd.MM") : "";
-            ActivityBars.Add(new Bar(label, count, (double)count / maxAct * MaxBarHeight));
+            var cells = new List<HeatCell>(7);
+            for (int d = 0; d < 7; d++)
+            {
+                var date = weekStart.AddDays(d);
+                if (date > today) { cells.Add(new HeatCell(0, null)); continue; }
+                int count = heatByDay.TryGetValue(date, out var c) ? c : 0;
+                double intensity = count == 0 ? 0 : 0.25 + 0.75 * count / maxHeat;
+                cells.Add(new HeatCell(intensity, $"{date:dd.MM.yyyy}: {count}"));
+            }
+            HeatWeeks.Add(new HeatWeek(cells));
         }
 
         // Wochentag (horizontal, Mo→So), Lernminuten — Namen aus der aktuellen Kultur

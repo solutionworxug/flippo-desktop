@@ -118,28 +118,32 @@
                     </StackPanel>
                 </Border>
 
-                <!-- 30-Tage-Aktivität (vertikale Balken) -->
+                <!-- Aktivitäts-Heatmap (GitHub-Stil, 26 Wochen) -->
                 <Border Classes="app-card">
                     <StackPanel Spacing="10">
-                        <TextBlock Classes="section" Text="{loc:T Stats_Activity30}"/>
-                        <ItemsControl ItemsSource="{Binding ActivityBars}">
-                            <ItemsControl.ItemsPanel>
-                                <ItemsPanelTemplate><StackPanel Orientation="Horizontal" Spacing="3"/></ItemsPanelTemplate>
-                            </ItemsControl.ItemsPanel>
-                            <ItemsControl.ItemTemplate>
-                                <DataTemplate x:DataType="vm:Bar">
-                                    <StackPanel Width="12">
-                                        <Grid Height="120">
-                                            <Border VerticalAlignment="Bottom" Height="120"
-                                                    Background="{DynamicResource Brush.Surface.Subtle}" CornerRadius="{DynamicResource Radius.Bar}"/>
-                                            <Border Height="{Binding Size}" VerticalAlignment="Bottom" ToolTip.Tip="{Binding Value}"
-                                                    Background="{DynamicResource Brush.Tertiary}" CornerRadius="{DynamicResource Radius.Bar}"/>
-                                        </Grid>
-                                        <TextBlock Classes="caption" Text="{Binding Label}" FontSize="9" HorizontalAlignment="Center" Margin="0,4,0,0"/>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </ItemsControl.ItemTemplate>
-                        </ItemsControl>
+                        <TextBlock Classes="section" Text="{loc:T Stats_Activity}"/>
+                        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+                            <ItemsControl ItemsSource="{Binding HeatWeeks}">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate><StackPanel Orientation="Horizontal"/></ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="vm:HeatWeek">
+                                        <ItemsControl ItemsSource="{Binding Days}">
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate x:DataType="vm:HeatCell">
+                                                    <Grid Width="13" Height="13" Margin="1" ToolTip.Tip="{Binding Tooltip}">
+                                                        <Border CornerRadius="3" Background="{DynamicResource Brush.Surface.Subtle}"/>
+                                                        <Border CornerRadius="3" Background="{DynamicResource Brush.Accent}" Opacity="{Binding Intensity}"/>
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </ScrollViewer>
+                        <TextBlock Classes="caption" Text="{loc:T Stats_LastMonths}"/>
                     </StackPanel>
                 </Border>
 
