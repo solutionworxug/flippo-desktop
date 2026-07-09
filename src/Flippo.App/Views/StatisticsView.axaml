@@ -30,6 +30,98 @@
         <ScrollViewer Grid.Row="1" IsVisible="{Binding !IsEmpty}">
             <StackPanel Spacing="16">
 
+                <!-- Stitch-KPIs: Gesamt gelernt / Genauigkeit / Lernzeit -->
+                <UniformGrid Columns="3">
+                    <Border Classes="metric-tile" Margin="0,0,8,0">
+                        <StackPanel Spacing="6">
+                            <TextBlock Classes="eyebrow" Text="{loc:T Stats_TotalLearned}"/>
+                            <TextBlock Classes="metric" Text="{Binding TotalLearnedText}"/>
+                            <Border Height="5" CornerRadius="{DynamicResource Radius.Bar}" Background="{DynamicResource Brush.Success}"/>
+                        </StackPanel>
+                    </Border>
+                    <Border Classes="metric-tile" Margin="0,0,8,0">
+                        <StackPanel Spacing="6">
+                            <TextBlock Classes="eyebrow" Text="{loc:T Stats_SuccessRate}"/>
+                            <TextBlock Classes="metric" Text="{Binding SuccessRateText}"/>
+                            <Border Height="5" CornerRadius="{DynamicResource Radius.Bar}" Background="{DynamicResource Brush.Accent}"/>
+                        </StackPanel>
+                    </Border>
+                    <Border Classes="metric-tile">
+                        <StackPanel Spacing="6">
+                            <TextBlock Classes="eyebrow" Text="{loc:T Stats_LearningTime}"/>
+                            <TextBlock Classes="metric" Text="{Binding LearningTimeText}"/>
+                            <Border Height="5" CornerRadius="{DynamicResource Radius.Bar}" Background="{DynamicResource Brush.Danger}"/>
+                        </StackPanel>
+                    </Border>
+                </UniformGrid>
+
+                <!-- Fortschritt (kumulierte Karten, LiveCharts2) -->
+                <Border Classes="app-card" IsVisible="{Binding HasProgress}">
+                    <StackPanel Spacing="10">
+                        <TextBlock Classes="section" Text="{loc:T Stats_Progress}"/>
+                        <lvc:CartesianChart Height="240"
+                                            Series="{Binding ProgressSeries}"
+                                            XAxes="{Binding ProgressXAxes}"
+                                            YAxes="{Binding ProgressYAxes}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Karteikasten (vertikal, mehrfarbig) + Aktivitäts-Heatmap nebeneinander -->
+                <Grid ColumnDefinitions="Auto,*">
+                    <Border Classes="app-card" Margin="0,0,8,0">
+                        <StackPanel Spacing="10">
+                            <TextBlock Classes="section" Text="{loc:T Stats_Boxes}"/>
+                            <ItemsControl ItemsSource="{Binding BoxBars}" HorizontalAlignment="Center">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate><StackPanel Orientation="Horizontal" Spacing="18"/></ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="vm:BoxBar">
+                                        <StackPanel Width="40" Spacing="6">
+                                            <TextBlock Classes="caption" Text="{Binding Value}" HorizontalAlignment="Center"/>
+                                            <Grid Height="120" VerticalAlignment="Bottom">
+                                                <Border VerticalAlignment="Bottom" Height="{Binding Height}" Width="32"
+                                                        Background="{Binding Fill}" CornerRadius="{DynamicResource Radius.Bar}"
+                                                        ToolTip.Tip="{Binding Value}"/>
+                                            </Grid>
+                                            <TextBlock Classes="caption" Text="{Binding Label}" HorizontalAlignment="Center"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Aktivitäts-Heatmap (GitHub-Stil, 26 Wochen) -->
+                    <Border Classes="app-card" Grid.Column="1">
+                        <StackPanel Spacing="10">
+                            <TextBlock Classes="section" Text="{loc:T Stats_Activity}"/>
+                            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+                                <ItemsControl ItemsSource="{Binding HeatWeeks}">
+                                    <ItemsControl.ItemsPanel>
+                                        <ItemsPanelTemplate><StackPanel Orientation="Horizontal"/></ItemsPanelTemplate>
+                                    </ItemsControl.ItemsPanel>
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate x:DataType="vm:HeatWeek">
+                                            <ItemsControl ItemsSource="{Binding Days}">
+                                                <ItemsControl.ItemTemplate>
+                                                    <DataTemplate x:DataType="vm:HeatCell">
+                                                        <Grid Width="13" Height="13" Margin="1" ToolTip.Tip="{Binding Tooltip}">
+                                                            <Border CornerRadius="3" Background="{DynamicResource Brush.Surface.Subtle}"/>
+                                                            <Border CornerRadius="3" Background="{DynamicResource Brush.Accent}" Opacity="{Binding Intensity}"/>
+                                                        </Grid>
+                                                    </DataTemplate>
+                                                </ItemsControl.ItemTemplate>
+                                            </ItemsControl>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </ScrollViewer>
+                            <TextBlock Classes="caption" Text="{loc:T Stats_LastMonths}"/>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+
                 <!-- Kennzahl-Kacheln -->
                 <UniformGrid Columns="4">
                     <Border Classes="metric-tile" Margin="0,0,8,0">
@@ -84,71 +176,6 @@
                         </StackPanel>
                     </Border>
                 </Grid>
-
-                <!-- Fortschritt (kumulierte Karten, LiveCharts2) -->
-                <Border Classes="app-card" IsVisible="{Binding HasProgress}">
-                    <StackPanel Spacing="10">
-                        <TextBlock Classes="section" Text="{loc:T Stats_Progress}"/>
-                        <lvc:CartesianChart Height="240"
-                                            Series="{Binding ProgressSeries}"
-                                            XAxes="{Binding ProgressXAxes}"
-                                            YAxes="{Binding ProgressYAxes}"/>
-                    </StackPanel>
-                </Border>
-
-                <!-- Karteikasten (vertikal, mehrfarbig) -->
-                <Border Classes="app-card">
-                    <StackPanel Spacing="10">
-                        <TextBlock Classes="section" Text="{loc:T Stats_Boxes}"/>
-                        <ItemsControl ItemsSource="{Binding BoxBars}" HorizontalAlignment="Center">
-                            <ItemsControl.ItemsPanel>
-                                <ItemsPanelTemplate><StackPanel Orientation="Horizontal" Spacing="18"/></ItemsPanelTemplate>
-                            </ItemsControl.ItemsPanel>
-                            <ItemsControl.ItemTemplate>
-                                <DataTemplate x:DataType="vm:BoxBar">
-                                    <StackPanel Width="40" Spacing="6">
-                                        <TextBlock Classes="caption" Text="{Binding Value}" HorizontalAlignment="Center"/>
-                                        <Grid Height="120" VerticalAlignment="Bottom">
-                                            <Border VerticalAlignment="Bottom" Height="{Binding Height}" Width="32"
-                                                    Background="{Binding Fill}" CornerRadius="{DynamicResource Radius.Bar}"
-                                                    ToolTip.Tip="{Binding Value}"/>
-                                        </Grid>
-                                        <TextBlock Classes="caption" Text="{Binding Label}" HorizontalAlignment="Center"/>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </ItemsControl.ItemTemplate>
-                        </ItemsControl>
-                    </StackPanel>
-                </Border>
-
-                <!-- Aktivitäts-Heatmap (GitHub-Stil, 26 Wochen) -->
-                <Border Classes="app-card">
-                    <StackPanel Spacing="10">
-                        <TextBlock Classes="section" Text="{loc:T Stats_Activity}"/>
-                        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
-                            <ItemsControl ItemsSource="{Binding HeatWeeks}">
-                                <ItemsControl.ItemsPanel>
-                                    <ItemsPanelTemplate><StackPanel Orientation="Horizontal"/></ItemsPanelTemplate>
-                                </ItemsControl.ItemsPanel>
-                                <ItemsControl.ItemTemplate>
-                                    <DataTemplate x:DataType="vm:HeatWeek">
-                                        <ItemsControl ItemsSource="{Binding Days}">
-                                            <ItemsControl.ItemTemplate>
-                                                <DataTemplate x:DataType="vm:HeatCell">
-                                                    <Grid Width="13" Height="13" Margin="1" ToolTip.Tip="{Binding Tooltip}">
-                                                        <Border CornerRadius="3" Background="{DynamicResource Brush.Surface.Subtle}"/>
-                                                        <Border CornerRadius="3" Background="{DynamicResource Brush.Accent}" Opacity="{Binding Intensity}"/>
-                                                    </Grid>
-                                                </DataTemplate>
-                                            </ItemsControl.ItemTemplate>
-                                        </ItemsControl>
-                                    </DataTemplate>
-                                </ItemsControl.ItemTemplate>
-                            </ItemsControl>
-                        </ScrollViewer>
-                        <TextBlock Classes="caption" Text="{loc:T Stats_LastMonths}"/>
-                    </StackPanel>
-                </Border>
 
                 <!-- Wochentag + Tageszeit -->
                 <Grid ColumnDefinitions="*,*">

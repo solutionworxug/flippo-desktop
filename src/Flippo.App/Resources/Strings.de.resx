@@ -206,6 +206,8 @@
   <data name="Stats_Title" xml:space="preserve"><value>Statistik</value></data>
   <data name="Stats_Leeches" xml:space="preserve"><value>Leeches</value></data>
   <data name="Stats_SuccessRate" xml:space="preserve"><value>Erfolgsquote</value></data>
+  <data name="Stats_TotalLearned" xml:space="preserve"><value>Gesamt gelernt</value></data>
+  <data name="Stats_LearningTime" xml:space="preserve"><value>Lernzeit</value></data>
   <data name="Stats_ReviewsFormat" xml:space="preserve"><value>{0} richtig · {1} falsch</value></data>
   <data name="Stats_Sessions" xml:space="preserve"><value>Sessions</value></data>
   <data name="Stats_Boxes" xml:space="preserve"><value>Karteikasten</value></data>

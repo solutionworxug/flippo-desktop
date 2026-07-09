@@ -51,6 +51,7 @@ public sealed partial class StatisticsViewModel : ViewModelBase, IActivatable
     [ObservableProperty] private LearningStatistics? _stats;
 
     [ObservableProperty] private string _successRateText = "";
+    [ObservableProperty] private string _totalLearnedText = "";
     [ObservableProperty] private string _reviewsText = "";
     [ObservableProperty] private string _learningTimeText = "";
     [ObservableProperty] private string _avgSessionText = "";
@@ -94,6 +95,7 @@ public sealed partial class StatisticsViewModel : ViewModelBase, IActivatable
             Stats = s;
 
             SuccessRateText = $"{Math.Round(s.OverallSuccessRate * 100)} %";
+            TotalLearnedText = (s.TotalCorrect + s.TotalWrong).ToString("N0", CultureInfo.CurrentUICulture);
             ReviewsText = string.Format(L.T("Stats_ReviewsFormat"), s.TotalCorrect, s.TotalWrong);
             LearningTimeText = FormatMinutes(s.TotalLearningMinutes);
             AvgSessionText = string.Format(L.T("Stats_AvgSessionFormat"),
