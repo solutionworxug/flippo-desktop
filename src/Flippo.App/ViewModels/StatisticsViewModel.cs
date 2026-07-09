@@ -1,5 +1,6 @@
 using System.Collections.ObjectModel;
 using System.Globalization;
+using Avalonia.Media;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Flippo.App.Localization;
@@ -16,6 +17,9 @@ namespace Flippo.App.ViewModels;
 
 /// <summary>Ein Balken (horizontal oder vertikal): Label, Rohwert, gerenderte Pixel-Größe.</summary>
 public sealed record Bar(string Label, int Value, double Size);
+
+/// <summary>Vertikaler Karteikasten-Balken: Label, Wert, Pixel-Höhe, feste Datenfarbe.</summary>
+public sealed record BoxBar(string Label, int Value, double Height, IBrush Fill);
 
 /// <summary>Modus-Statistik in Anzeige-Form (lokalisierter Modusname + Erfolgs-Prozent).</summary>
 public sealed record ModeStatDisplay(string ModeName, int SessionCount, int TotalCorrect, int TotalWrong, string SuccessText);
@@ -57,7 +61,7 @@ public sealed partial class StatisticsViewModel : ViewModelBase, IActivatable
     [ObservableProperty] private Axis[] _progressYAxes = [];
     [ObservableProperty] private bool _hasProgress;
 
-    public ObservableCollection<Bar> BoxBars { get; } = new();
+    public ObservableCollection<BoxBar> BoxBars { get; } = new();
     public ObservableCollection<HeatWeek> HeatWeeks { get; } = new();
     public ObservableCollection<Bar> WeekdayBars { get; } = new();
     public ObservableCollection<Bar> HourBars { get; } = new();
@@ -128,11 +132,16 @@ public sealed partial class StatisticsViewModel : ViewModelBase, IActivatable
         ProgressXAxes = [new DateTimeAxis(TimeSpan.FromDays(1), d => d.ToString("dd.MM")) { LabelsPaint = axisText }];
         ProgressYAxes = [new Axis { MinLimit = 0, LabelsPaint = axisText }];
 
-        // Karteikasten (horizontal)
+        // Karteikasten (vertikal, feste Datenfarben je Fach — Stitch)
         BoxBars.Clear();
+        string[] boxHex = ["#EF4444", "#F97316", "#FACC15", "#38BDF8", "#2563EB", "#16A34A"];
         int maxBox = Math.Max(1, s.CardsByBox.Count == 0 ? 1 : s.CardsByBox.Max(b => b.Count));
         foreach (var b in s.CardsByBox)
-            BoxBars.Add(new Bar(string.Format(L.T("Stats_BoxLabel"), b.Box), b.Count, (double)b.Count / maxBox * MaxBarWidth));
+        {
+            var fill = new SolidColorBrush(Color.Parse(boxHex[(b.Box - 1) % boxHex.Length]));
+            BoxBars.Add(new BoxBar(string.Format(L.T("Stats_BoxLabel"), b.Box), b.Count,
+                Math.Max(6, (double)b.Count / maxBox * MaxBarHeight), fill));
+        }
 
         // Aktivitäts-Heatmap: 26 Wochen-Spalten à 7 Tage (Mo–So), Intensität relativ zum Maximum
         HeatWeeks.Clear();
