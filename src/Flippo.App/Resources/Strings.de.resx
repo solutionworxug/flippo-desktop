@@ -27,10 +27,14 @@
   <data name="Learn_Flip" xml:space="preserve"><value>Umdrehen (Leertaste)</value></data>
   <data name="Learn_Wrong" xml:space="preserve"><value>Falsch (1)</value></data>
   <data name="Learn_Right" xml:space="preserve"><value>Richtig (2)</value></data>
-  <data name="Learn_Again" xml:space="preserve"><value>Nochmal (1)</value></data>
-  <data name="Learn_Hard" xml:space="preserve"><value>Schwer (2)</value></data>
-  <data name="Learn_Good" xml:space="preserve"><value>Gut (3)</value></data>
-  <data name="Learn_Easy" xml:space="preserve"><value>Einfach (4)</value></data>
+  <data name="Learn_Again" xml:space="preserve"><value>Falsch</value></data>
+  <data name="Learn_Hard" xml:space="preserve"><value>Schwer</value></data>
+  <data name="Learn_Good" xml:space="preserve"><value>Gut</value></data>
+  <data name="Learn_Easy" xml:space="preserve"><value>Leicht</value></data>
+  <data name="Learn_AgainHint" xml:space="preserve"><value>Sofort wieder</value></data>
+  <data name="Learn_HardHint" xml:space="preserve"><value>Bald wieder</value></data>
+  <data name="Learn_GoodHint" xml:space="preserve"><value>Normal</value></data>
+  <data name="Learn_EasyHint" xml:space="preserve"><value>Längeres Intervall</value></data>
   <data name="Learn_FreeTextHint" xml:space="preserve"><value>Enter prüft · F1 „Weiß nicht“</value></data>
   <data name="Learn_Next" xml:space="preserve"><value>Weiter (Enter)</value></data>
   <data name="Learn_McHint" xml:space="preserve"><value>1–4 oder Klick zum Wählen</value></data>

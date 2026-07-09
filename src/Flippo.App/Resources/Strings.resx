@@ -27,10 +27,14 @@
   <data name="Learn_Flip" xml:space="preserve"><value>Flip (Space)</value></data>
   <data name="Learn_Wrong" xml:space="preserve"><value>Wrong (1)</value></data>
   <data name="Learn_Right" xml:space="preserve"><value>Right (2)</value></data>
-  <data name="Learn_Again" xml:space="preserve"><value>Again (1)</value></data>
-  <data name="Learn_Hard" xml:space="preserve"><value>Hard (2)</value></data>
-  <data name="Learn_Good" xml:space="preserve"><value>Good (3)</value></data>
-  <data name="Learn_Easy" xml:space="preserve"><value>Easy (4)</value></data>
+  <data name="Learn_Again" xml:space="preserve"><value>Wrong</value></data>
+  <data name="Learn_Hard" xml:space="preserve"><value>Hard</value></data>
+  <data name="Learn_Good" xml:space="preserve"><value>Good</value></data>
+  <data name="Learn_Easy" xml:space="preserve"><value>Easy</value></data>
+  <data name="Learn_AgainHint" xml:space="preserve"><value>Right away</value></data>
+  <data name="Learn_HardHint" xml:space="preserve"><value>Soon again</value></data>
+  <data name="Learn_GoodHint" xml:space="preserve"><value>Normal</value></data>
+  <data name="Learn_EasyHint" xml:space="preserve"><value>Longer interval</value></data>
   <data name="Learn_FreeTextHint" xml:space="preserve"><value>Enter checks · F1 "Don't know"</value></data>
   <data name="Learn_Next" xml:space="preserve"><value>Next (Enter)</value></data>
   <data name="Learn_McHint" xml:space="preserve"><value>1-4 or click to choose</value></data>

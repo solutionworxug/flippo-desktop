@@ -158,32 +158,45 @@
                                 </StackPanel>
                             </Button>
                         </StackPanel>
-                        <StackPanel IsVisible="{Binding IsAdaptive}" Orientation="Horizontal" Spacing="12" HorizontalAlignment="Center">
-                            <Button Command="{Binding GradeWrongCommand}" Padding="18,10" MinWidth="110">
+                        <Grid IsVisible="{Binding IsAdaptive}" ColumnDefinitions="*,*" RowDefinitions="Auto,Auto"
+                              HorizontalAlignment="Center" MaxWidth="440">
+                            <Button Grid.Row="0" Grid.Column="0" Command="{Binding GradeWrongCommand}" Margin="0,0,6,6"
+                                    Background="{DynamicResource Brush.Danger}" HorizontalAlignment="Stretch" Padding="18,10">
                                 <StackPanel HorizontalAlignment="Center" Spacing="2">
-                                    <TextBlock Text="{loc:T Learn_Again}" FontSize="14" HorizontalAlignment="Center"/>
-                                    <TextBlock Classes="caption" Text="{Binding PreviewAgain}" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{loc:T Learn_Again}" FontSize="15" FontWeight="SemiBold"
+                                               Foreground="{DynamicResource Brush.OnAccent}" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{loc:T Learn_AgainHint}" FontSize="12" Opacity="0.85"
+                                               Foreground="{DynamicResource Brush.OnAccent}" HorizontalAlignment="Center"/>
                                 </StackPanel>
                             </Button>
-                            <Button Command="{Binding GradeHardCommand}" Padding="18,10" MinWidth="110">
+                            <Button Grid.Row="0" Grid.Column="1" Command="{Binding GradeHardCommand}" Margin="6,0,0,6"
+                                    Background="{DynamicResource Brush.Warning}" HorizontalAlignment="Stretch" Padding="18,10">
                                 <StackPanel HorizontalAlignment="Center" Spacing="2">
-                                    <TextBlock Text="{loc:T Learn_Hard}" FontSize="14" HorizontalAlignment="Center"/>
-                                    <TextBlock Classes="caption" Text="{Binding PreviewHard}" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{loc:T Learn_Hard}" FontSize="15" FontWeight="SemiBold"
+                                               Foreground="{DynamicResource Brush.OnAccent}" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{loc:T Learn_HardHint}" FontSize="12" Opacity="0.85"
+                                               Foreground="{DynamicResource Brush.OnAccent}" HorizontalAlignment="Center"/>
                                 </StackPanel>
                             </Button>
-                            <Button Command="{Binding GradeGoodCommand}" Padding="18,10" MinWidth="110">
+                            <Button Grid.Row="1" Grid.Column="0" Command="{Binding GradeGoodCommand}" Margin="0,6,6,0"
+                                    Background="{DynamicResource Brush.Accent}" HorizontalAlignment="Stretch" Padding="18,10">
                                 <StackPanel HorizontalAlignment="Center" Spacing="2">
-                                    <TextBlock Text="{loc:T Learn_Good}" FontSize="14" HorizontalAlignment="Center"/>
-                                    <TextBlock Classes="caption" Text="{Binding PreviewGood}" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{loc:T Learn_Good}" FontSize="15" FontWeight="SemiBold"
+                                               Foreground="{DynamicResource Brush.OnAccent}" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{loc:T Learn_GoodHint}" FontSize="12" Opacity="0.85"
+                                               Foreground="{DynamicResource Brush.OnAccent}" HorizontalAlignment="Center"/>
                                 </StackPanel>
                             </Button>
-                            <Button Command="{Binding GradeEasyCommand}" Padding="18,10" MinWidth="110">
+                            <Button Grid.Row="1" Grid.Column="1" Command="{Binding GradeEasyCommand}" Margin="6,6,0,0"
+                                    Background="{DynamicResource Brush.Success}" HorizontalAlignment="Stretch" Padding="18,10">
                                 <StackPanel HorizontalAlignment="Center" Spacing="2">
-                                    <TextBlock Text="{loc:T Learn_Easy}" FontSize="14" HorizontalAlignment="Center"/>
-                                    <TextBlock Classes="caption" Text="{Binding PreviewEasy}" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{loc:T Learn_Easy}" FontSize="15" FontWeight="SemiBold"
+                                               Foreground="{DynamicResource Brush.OnAccent}" HorizontalAlignment="Center"/>
+                                    <TextBlock Text="{loc:T Learn_EasyHint}" FontSize="12" Opacity="0.85"
+                                               Foreground="{DynamicResource Brush.OnAccent}" HorizontalAlignment="Center"/>
                                 </StackPanel>
                             </Button>
-                        </StackPanel>
+                        </Grid>
                     </Panel>
                 </Panel>
 
