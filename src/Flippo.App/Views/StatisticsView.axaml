@@ -3,6 +3,7 @@
              xmlns:vm="using:Flippo.App.ViewModels"
              xmlns:stats="using:Flippo.Core.Statistics"
              xmlns:loc="using:Flippo.App.Localization"
+             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="820" d:DesignHeight="900"
@@ -83,6 +84,17 @@
                         </StackPanel>
                     </Border>
                 </Grid>
+
+                <!-- Fortschritt (kumulierte Karten, LiveCharts2) -->
+                <Border Classes="app-card" IsVisible="{Binding HasProgress}">
+                    <StackPanel Spacing="10">
+                        <TextBlock Classes="section" Text="{loc:T Stats_Progress}"/>
+                        <lvc:CartesianChart Height="240"
+                                            Series="{Binding ProgressSeries}"
+                                            XAxes="{Binding ProgressXAxes}"
+                                            YAxes="{Binding ProgressYAxes}"/>
+                    </StackPanel>
+                </Border>
 
                 <!-- Karteikasten -->
                 <Border Classes="app-card">

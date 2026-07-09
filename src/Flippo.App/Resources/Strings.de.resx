@@ -215,6 +215,7 @@
   <data name="Stats_Activity30" xml:space="preserve"><value>Aktivität (30 Tage)</value></data>
   <data name="Stats_Weekday" xml:space="preserve"><value>Wochentag</value></data>
   <data name="Stats_Hourly" xml:space="preserve"><value>Tageszeit</value></data>
+  <data name="Stats_Progress" xml:space="preserve"><value>Fortschritt</value></data>
   <data name="Stats_ByMode" xml:space="preserve"><value>Nach Modus</value></data>
   <data name="Stats_HardestCards" xml:space="preserve"><value>Schwerste Karten</value></data>
   <data name="Stats_Empty" xml:space="preserve"><value>Noch keine Lerndaten</value></data>

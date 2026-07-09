@@ -6,6 +6,11 @@ using Flippo.App.Localization;
 using Flippo.App.Services;
 using Flippo.Core.Statistics;
 using Flippo.Data.Services;
+using LiveChartsCore;
+using LiveChartsCore.Defaults;
+using LiveChartsCore.SkiaSharpView;
+using LiveChartsCore.SkiaSharpView.Painting;
+using SkiaSharp;
 
 namespace Flippo.App.ViewModels;
 
@@ -40,6 +45,11 @@ public sealed partial class StatisticsViewModel : ViewModelBase, IActivatable
     [ObservableProperty] private string _learningTimeText = "";
     [ObservableProperty] private string _avgSessionText = "";
     [ObservableProperty] private string _streakText = "";
+
+    [ObservableProperty] private ISeries[] _progressSeries = [];
+    [ObservableProperty] private Axis[] _progressXAxes = [];
+    [ObservableProperty] private Axis[] _progressYAxes = [];
+    [ObservableProperty] private bool _hasProgress;
 
     public ObservableCollection<Bar> BoxBars { get; } = new();
     public ObservableCollection<Bar> ActivityBars { get; } = new();
@@ -90,6 +100,28 @@ public sealed partial class StatisticsViewModel : ViewModelBase, IActivatable
 
     private void BuildBars(LearningStatistics s, long nowMs)
     {
+        // Fortschrittskurve (LiveCharts2): kumulierte Karten über die Zeit
+        HasProgress = s.CumulativeLearned.Count >= 2;
+        var accent = new SKColor(0x25, 0x63, 0xEB);
+        var axisText = new SolidColorPaint(new SKColor(0x5B, 0x65, 0x77));
+        ProgressSeries =
+        [
+            new LineSeries<DateTimePoint>
+            {
+                Values = s.CumulativeLearned
+                    .Select(d => new DateTimePoint(d.Date.ToDateTime(TimeOnly.MinValue), d.Count))
+                    .ToArray(),
+                GeometrySize = 7,
+                LineSmoothness = 0.2,
+                Stroke = new SolidColorPaint(accent, 2.5f),
+                GeometryStroke = new SolidColorPaint(accent, 2f),
+                GeometryFill = new SolidColorPaint(SKColors.White),
+                Fill = new SolidColorPaint(accent.WithAlpha(0x22))
+            }
+        ];
+        ProgressXAxes = [new DateTimeAxis(TimeSpan.FromDays(1), d => d.ToString("dd.MM")) { LabelsPaint = axisText }];
+        ProgressYAxes = [new Axis { MinLimit = 0, LabelsPaint = axisText }];
+
         // Karteikasten (horizontal)
         BoxBars.Clear();
         int maxBox = Math.Max(1, s.CardsByBox.Count == 0 ? 1 : s.CardsByBox.Max(b => b.Count));
