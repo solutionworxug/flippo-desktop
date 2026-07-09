@@ -193,4 +193,45 @@ public class StatisticsCalculatorTests
         Assert.Empty(s.CardsByBox);
         Assert.Empty(s.ModeStats);
     }
+
+    [Fact]
+    public void Compute_CumulativeLearned_RunningTotalPerActiveDay()
+    {
+        long now = At(2024, 1, 15);
+        var sessions = new[]
+        {
+            Sess(At(2024, 1, 10), correct: 3, wrong: 1),      // Tag 1: 4
+            Sess(At(2024, 1, 10, 18), correct: 2, wrong: 0),  // Tag 1: +2 → 6
+            Sess(At(2024, 1, 12), correct: 5, wrong: 0)       // Tag 2: kumuliert 11
+        };
+
+        var s = Compute([], sessions, now);
+
+        Assert.Equal(2, s.CumulativeLearned.Count);
+        Assert.Equal(new DayCount(new DateOnly(2024, 1, 10), 6), s.CumulativeLearned[0]);
+        Assert.Equal(new DayCount(new DateOnly(2024, 1, 12), 11), s.CumulativeLearned[1]);
+    }
+
+    [Fact]
+    public void Compute_CumulativeLearned_EmptyWithoutSessions()
+    {
+        var s = Compute([], [], At(2024, 1, 15));
+        Assert.Empty(s.CumulativeLearned);
+    }
+
+    [Fact]
+    public void Compute_ActivityLast182Days_WindowExcludesOlder()
+    {
+        long now = At(2024, 7, 1);
+        var sessions = new[]
+        {
+            Sess(At(2024, 6, 30), correct: 2),   // im Fenster
+            Sess(At(2023, 12, 1), correct: 9)    // älter als 182 Tage → ausgeschlossen
+        };
+
+        var s = Compute([], sessions, now);
+
+        Assert.Single(s.ActivityLast182Days);
+        Assert.Equal(new DayCount(new DateOnly(2024, 6, 30), 2), s.ActivityLast182Days[0]);
+    }
 }

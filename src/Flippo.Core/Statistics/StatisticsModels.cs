@@ -43,6 +43,10 @@ public sealed record LearningStatistics
 
     // Zeitreihen / Charts
     public IReadOnlyList<DayCount> ActivityLast30Days { get; init; } = [];
+    /// <summary>Kumulierte Kartensumme (correct+wrong) je aktivem Lern-Tag, aufsteigend — Fortschrittskurve.</summary>
+    public IReadOnlyList<DayCount> CumulativeLearned { get; init; } = [];
+    /// <summary>Aktivität der letzten 182 Tage (26 Wochen) — Heatmap.</summary>
+    public IReadOnlyList<DayCount> ActivityLast182Days { get; init; } = [];
     public IReadOnlyList<int> WeekdayMinutes { get; init; } = [];   // Index 0=Montag … 6=Sonntag, Lernminuten
     public IReadOnlyList<int> HourlyCards { get; init; } = [];      // Index 0…23, Karten
     public int ThisWeekCards { get; init; }

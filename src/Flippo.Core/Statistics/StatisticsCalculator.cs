@@ -78,6 +78,25 @@ public static class StatisticsCalculator
             .Where(d => d.Date <= today.AddDays(-7) && d.Date > today.AddDays(-14))
             .Sum(d => d.Count);
 
+        // Fortschrittskurve: kumulierte Karten je Lern-Tag (gesamte Historie)
+        var cumulative = new List<DayCount>();
+        int running = 0;
+        foreach (var g in sessions.Where(s => s.StartedAt > 0)
+                     .GroupBy(s => DayOf(s.StartedAt)).OrderBy(g => g.Key))
+        {
+            running += g.Sum(s => s.Total);
+            cumulative.Add(new DayCount(g.Key, running));
+        }
+
+        // Heatmap: Aktivität der letzten 182 Tage (26 Wochen)
+        var since182 = today.AddDays(-182);
+        var activity182 = sessions
+            .Where(s => s.StartedAt > 0 && DayOf(s.StartedAt) > since182)
+            .GroupBy(s => DayOf(s.StartedAt))
+            .Select(g => new DayCount(g.Key, g.Sum(s => s.Total)))
+            .OrderBy(d => d.Date)
+            .ToList();
+
         // Wochentag (Mo=0 … So=6) → Lernminuten
         var weekdayMinutes = new int[7];
         foreach (var s in sessions.Where(s => s.StartedAt > 0))
@@ -115,6 +134,8 @@ public static class StatisticsCalculator
             StreakDays = streakDays,
             BestStreak = bestStreak,
             ActivityLast30Days = activity30,
+            CumulativeLearned = cumulative,
+            ActivityLast182Days = activity182,
             WeekdayMinutes = weekdayMinutes,
             HourlyCards = hourlyCards,
             ThisWeekCards = thisWeekCards,
