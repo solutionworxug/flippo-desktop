@@ -20,6 +20,7 @@ public sealed partial class DashboardViewModel : ViewModelBase, IActivatable
     private readonly SessionStore _sessions;
     private readonly NavigationService _nav;
     private readonly SetActionsService _actions;
+    private readonly LearnLauncher _launcher;
 
     [ObservableProperty] private bool _isLoading;
     [ObservableProperty] private bool _hasSets;
@@ -41,12 +42,13 @@ public sealed partial class DashboardViewModel : ViewModelBase, IActivatable
     [ObservableProperty] private bool _hasLastSession;
     [ObservableProperty] private string _lastSessionText = "";
 
-    public DashboardViewModel(VocabularyStore store, SessionStore sessions, NavigationService nav, SetActionsService actions)
+    public DashboardViewModel(VocabularyStore store, SessionStore sessions, NavigationService nav, SetActionsService actions, LearnLauncher launcher)
     {
         _store = store;
         _sessions = sessions;
         _nav = nav;
         _actions = actions;
+        _launcher = launcher;
     }
 
     public Task OnActivatedAsync() => LoadAsync();
@@ -88,9 +90,8 @@ public sealed partial class DashboardViewModel : ViewModelBase, IActivatable
     }
 
     [RelayCommand]
-    private void LearnAllDue()
-        => _nav.NavigateTo<LearnSessionViewModel>(
-            vm => vm.Initialize(null, L.T("SetsVm_AllDueName"), SessionFilter.Due, LearningMode.Flashcard));
+    private Task LearnAllDue()
+        => _launcher.StartAsync(null, L.T("SetsVm_AllDueName"), SessionFilter.Due);
 
     [RelayCommand] private void GoSets() => _nav.NavigateTo<SetsOverviewViewModel>(clearStack: true);
     [RelayCommand] private void GoStatistics() => _nav.NavigateTo<StatisticsViewModel>(clearStack: true);

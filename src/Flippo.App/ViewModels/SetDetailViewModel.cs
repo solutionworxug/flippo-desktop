@@ -15,6 +15,7 @@ public sealed partial class SetDetailViewModel : ViewModelBase, IActivatable
     private readonly VocabularyStore _store;
     private readonly NavigationService _nav;
     private readonly IDialogService _dialogs;
+    private readonly LearnLauncher _launcher;
 
     private List<VocabularyEntry> _entities = new();
     private VocabularySet _set = new();
@@ -30,11 +31,12 @@ public sealed partial class SetDetailViewModel : ViewModelBase, IActivatable
     /// <summary>Bittet die View, den Fokus zurück auf das Quelle-Feld zu setzen (Schnellanlage-Loop).</summary>
     public event Action? FocusSourceRequested;
 
-    public SetDetailViewModel(VocabularyStore store, NavigationService nav, IDialogService dialogs)
+    public SetDetailViewModel(VocabularyStore store, NavigationService nav, IDialogService dialogs, LearnLauncher launcher)
     {
         _store = store;
         _nav = nav;
         _dialogs = dialogs;
+        _launcher = launcher;
     }
 
     public void Initialize(VocabularySet set)
@@ -183,32 +185,19 @@ public sealed partial class SetDetailViewModel : ViewModelBase, IActivatable
         _nav.GoBack();
     }
 
-    /// <summary>
-    /// Lernen-Split-Button: startet eine Session. Parameter "Filter|Modus" (z.B. "Due|FreeText");
-    /// nur "Filter" oder leer → Karteikarten. Filter: Due/All/New/Leech · Modus: Flashcard/FreeText/MultipleChoice.
-    /// </summary>
+    /// <summary>Lernen-Split-Button: startet eine Session; Parameter = Filter (Due/All/New/Leech). Modus per Dialog.</summary>
     [RelayCommand]
-    private void Learn(string? param)
+    private Task Learn(string? filter)
     {
-        var parts = (param ?? "Due").Split('|');
-        var sessionFilter = parts[0] switch
+        var sessionFilter = filter switch
         {
             "All" => SessionFilter.All,
             "New" => SessionFilter.New,
             "Leech" => SessionFilter.Leech,
             _ => SessionFilter.Due
         };
-        var mode = parts.Length > 1 ? ParseMode(parts[1]) : LearningMode.Flashcard;
-        _nav.NavigateTo<LearnSessionViewModel>(
-            vm => vm.Initialize(_set.Id, _set.Title, sessionFilter, mode));
+        return _launcher.StartAsync(_set.Id, _set.Title, sessionFilter);
     }
-
-    private static LearningMode ParseMode(string s) => s switch
-    {
-        "FreeText" => LearningMode.FreeText,
-        "MultipleChoice" => LearningMode.MultipleChoice,
-        _ => LearningMode.Flashcard
-    };
 
     [RelayCommand] private void Back() => _nav.GoBack();
 }

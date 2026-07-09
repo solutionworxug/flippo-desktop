@@ -14,17 +14,8 @@
         <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Margin="0,0,0,16">
             <TextBlock Grid.Column="0" Classes="page-title" Text="{loc:T Sets_Title}" VerticalAlignment="Center"/>
             <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8">
-                <SplitButton Content="{loc:T Sets_LearnAllDue}" Command="{Binding LearnAllDueCommand}"
-                             Classes="accent"
-                             ToolTip.Tip="{loc:T Sets_LearnAllDueTooltip}">
-                    <SplitButton.Flyout>
-                        <MenuFlyout>
-                            <MenuItem Header="{loc:T Sets_ModeFlashcard}" Command="{Binding LearnAllDueCommand}" CommandParameter="Flashcard"/>
-                            <MenuItem Header="{loc:T Sets_ModeFreeText}" Command="{Binding LearnAllDueCommand}" CommandParameter="FreeText"/>
-                            <MenuItem Header="{loc:T Sets_ModeMultipleChoice}" Command="{Binding LearnAllDueCommand}" CommandParameter="MultipleChoice"/>
-                        </MenuFlyout>
-                    </SplitButton.Flyout>
-                </SplitButton>
+                <Button Content="{loc:T Sets_LearnAllDue}" Command="{Binding LearnAllDueCommand}"
+                        Classes="accent" ToolTip.Tip="{loc:T Sets_LearnAllDueTooltip}"/>
                 <Button Content="{loc:T Sets_NewSet}" Command="{Binding NewSetCommand}"/>
                 <Button Content="{loc:T Sets_ImportThemeSet}" Command="{Binding ImportThemeSetCommand}"/>
                 <Button Content="{loc:T Sets_ImportFile}" Command="{Binding ImportFileCommand}"/>

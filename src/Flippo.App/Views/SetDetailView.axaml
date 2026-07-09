@@ -52,26 +52,10 @@
                              ToolTip.Tip="{loc:T Detail_LearnTooltip}">
                     <SplitButton.Flyout>
                         <MenuFlyout>
-                            <MenuItem Header="{loc:T Detail_Due}">
-                                <MenuItem Header="{loc:T Detail_Flashcards}" Command="{Binding LearnCommand}" CommandParameter="Due|Flashcard"/>
-                                <MenuItem Header="{loc:T Detail_FreeText}" Command="{Binding LearnCommand}" CommandParameter="Due|FreeText"/>
-                                <MenuItem Header="{loc:T Detail_MultipleChoice}" Command="{Binding LearnCommand}" CommandParameter="Due|MultipleChoice"/>
-                            </MenuItem>
-                            <MenuItem Header="{loc:T Detail_All}">
-                                <MenuItem Header="{loc:T Detail_Flashcards}" Command="{Binding LearnCommand}" CommandParameter="All|Flashcard"/>
-                                <MenuItem Header="{loc:T Detail_FreeText}" Command="{Binding LearnCommand}" CommandParameter="All|FreeText"/>
-                                <MenuItem Header="{loc:T Detail_MultipleChoice}" Command="{Binding LearnCommand}" CommandParameter="All|MultipleChoice"/>
-                            </MenuItem>
-                            <MenuItem Header="{loc:T Detail_New}">
-                                <MenuItem Header="{loc:T Detail_Flashcards}" Command="{Binding LearnCommand}" CommandParameter="New|Flashcard"/>
-                                <MenuItem Header="{loc:T Detail_FreeText}" Command="{Binding LearnCommand}" CommandParameter="New|FreeText"/>
-                                <MenuItem Header="{loc:T Detail_MultipleChoice}" Command="{Binding LearnCommand}" CommandParameter="New|MultipleChoice"/>
-                            </MenuItem>
-                            <MenuItem Header="{loc:T Detail_Leeches}">
-                                <MenuItem Header="{loc:T Detail_Flashcards}" Command="{Binding LearnCommand}" CommandParameter="Leech|Flashcard"/>
-                                <MenuItem Header="{loc:T Detail_FreeText}" Command="{Binding LearnCommand}" CommandParameter="Leech|FreeText"/>
-                                <MenuItem Header="{loc:T Detail_MultipleChoice}" Command="{Binding LearnCommand}" CommandParameter="Leech|MultipleChoice"/>
-                            </MenuItem>
+                            <MenuItem Header="{loc:T Detail_Due}"     Command="{Binding LearnCommand}" CommandParameter="Due"/>
+                            <MenuItem Header="{loc:T Detail_All}"     Command="{Binding LearnCommand}" CommandParameter="All"/>
+                            <MenuItem Header="{loc:T Detail_New}"     Command="{Binding LearnCommand}" CommandParameter="New"/>
+                            <MenuItem Header="{loc:T Detail_Leeches}" Command="{Binding LearnCommand}" CommandParameter="Leech"/>
                         </MenuFlyout>
                     </SplitButton.Flyout>
                 </SplitButton>

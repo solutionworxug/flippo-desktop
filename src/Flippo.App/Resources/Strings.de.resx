@@ -6,7 +6,7 @@
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <data name="Sets_Title" xml:space="preserve"><value>Karteien</value></data>
   <data name="Sets_LearnAllDue" xml:space="preserve"><value>Alle fälligen lernen</value></data>
-  <data name="Sets_LearnAllDueTooltip" xml:space="preserve"><value>Fällige als Karteikarten (Dropdown für Modus)</value></data>
+  <data name="Sets_LearnAllDueTooltip" xml:space="preserve"><value>Fällige lernen — Modus wird beim Start gewählt</value></data>
   <data name="Sets_ModeFlashcard" xml:space="preserve"><value>Karteikarten</value></data>
   <data name="Sets_ModeFreeText" xml:space="preserve"><value>Freitext</value></data>
   <data name="Sets_ModeMultipleChoice" xml:space="preserve"><value>Multiple Choice</value></data>
@@ -68,7 +68,7 @@
   <data name="Summary_Done" xml:space="preserve"><value>Fertig (Enter)</value></data>
   <data name="Detail_CardsSuffix" xml:space="preserve"><value> Karten</value></data>
   <data name="Detail_Learn" xml:space="preserve"><value>Lernen</value></data>
-  <data name="Detail_LearnTooltip" xml:space="preserve"><value>Fällige als Karteikarten (Dropdown für Filter + Modus)</value></data>
+  <data name="Detail_LearnTooltip" xml:space="preserve"><value>Fällige lernen — Dropdown für Filter, Modus wird beim Start gewählt</value></data>
   <data name="Detail_Due" xml:space="preserve"><value>Fällige</value></data>
   <data name="Detail_All" xml:space="preserve"><value>Alle</value></data>
   <data name="Detail_New" xml:space="preserve"><value>Neue</value></data>

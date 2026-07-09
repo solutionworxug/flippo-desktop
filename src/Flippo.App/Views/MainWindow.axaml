@@ -20,7 +20,7 @@
         <KeyBinding Gesture="Ctrl+E" Command="{Binding ExportBackupCommand}"/>
         <KeyBinding Gesture="Ctrl+Q" Command="{Binding QuitCommand}"/>
         <KeyBinding Gesture="F5" Command="{Binding RefreshCommand}"/>
-        <KeyBinding Gesture="Ctrl+L" Command="{Binding LearnAllDueCommand}" CommandParameter="Flashcard"/>
+        <KeyBinding Gesture="Ctrl+L" Command="{Binding LearnAllDueCommand}"/>
         <KeyBinding Gesture="Alt+Left" Command="{Binding GoBackCommand}"/>
     </Window.KeyBindings>
 
@@ -58,15 +58,7 @@
                 </NativeMenuItem.Menu>
             </NativeMenuItem>
 
-            <NativeMenuItem Header="{loc:T Menu_Learn}">
-                <NativeMenuItem.Menu>
-                    <NativeMenu>
-                        <NativeMenuItem Header="{loc:T Sets_ModeFlashcard}" Command="{Binding LearnAllDueCommand}" CommandParameter="Flashcard" Gesture="Ctrl+L"/>
-                        <NativeMenuItem Header="{loc:T Sets_ModeFreeText}" Command="{Binding LearnAllDueCommand}" CommandParameter="FreeText"/>
-                        <NativeMenuItem Header="{loc:T Sets_ModeMultipleChoice}" Command="{Binding LearnAllDueCommand}" CommandParameter="MultipleChoice"/>
-                    </NativeMenu>
-                </NativeMenuItem.Menu>
-            </NativeMenuItem>
+            <NativeMenuItem Header="{loc:T Menu_Learn}" Command="{Binding LearnAllDueCommand}" Gesture="Ctrl+L"/>
 
             <NativeMenuItem Header="{loc:T Menu_Help}">
                 <NativeMenuItem.Menu>
@@ -153,7 +145,7 @@
 
                         <Border DockPanel.Dock="Bottom" Classes="sidebar-cta" Margin="0,12,0,12">
                             <Button Background="Transparent" Padding="0" HorizontalAlignment="Stretch"
-                                    Command="{Binding LearnAllDueCommand}" CommandParameter="Flashcard">
+                                    Command="{Binding LearnAllDueCommand}">
                                 <StackPanel Spacing="6">
                                     <PathIcon Data="{DynamicResource Icon.play}" Width="22" Height="22" Foreground="{DynamicResource Brush.OnAccent}"/>
                                     <TextBlock Text="{loc:T Nav_LearnNow}" Foreground="{DynamicResource Brush.OnAccent}" FontWeight="SemiBold"/>

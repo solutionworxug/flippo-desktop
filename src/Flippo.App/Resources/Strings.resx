@@ -6,7 +6,7 @@
   <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
   <data name="Sets_Title" xml:space="preserve"><value>Decks</value></data>
   <data name="Sets_LearnAllDue" xml:space="preserve"><value>Learn all due</value></data>
-  <data name="Sets_LearnAllDueTooltip" xml:space="preserve"><value>Due cards as flashcards (dropdown for mode)</value></data>
+  <data name="Sets_LearnAllDueTooltip" xml:space="preserve"><value>Learn due cards — mode is chosen at start</value></data>
   <data name="Sets_ModeFlashcard" xml:space="preserve"><value>Flashcards</value></data>
   <data name="Sets_ModeFreeText" xml:space="preserve"><value>Free text</value></data>
   <data name="Sets_ModeMultipleChoice" xml:space="preserve"><value>Multiple choice</value></data>
@@ -68,7 +68,7 @@
   <data name="Summary_Done" xml:space="preserve"><value>Done (Enter)</value></data>
   <data name="Detail_CardsSuffix" xml:space="preserve"><value> cards</value></data>
   <data name="Detail_Learn" xml:space="preserve"><value>Learn</value></data>
-  <data name="Detail_LearnTooltip" xml:space="preserve"><value>Due cards as flashcards (dropdown for filter + mode)</value></data>
+  <data name="Detail_LearnTooltip" xml:space="preserve"><value>Learn due cards — dropdown for filter, mode is chosen at start</value></data>
   <data name="Detail_Due" xml:space="preserve"><value>Due</value></data>
   <data name="Detail_All" xml:space="preserve"><value>All</value></data>
   <data name="Detail_New" xml:space="preserve"><value>New</value></data>

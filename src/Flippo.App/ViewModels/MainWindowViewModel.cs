@@ -26,6 +26,7 @@ public sealed partial class MainWindowViewModel : ViewModelBase
     private readonly UpdateService _updates;
     private readonly SetActionsService _actions;
     private readonly IDialogService _dialogs;
+    private readonly LearnLauncher _launcher;
 
     [ObservableProperty] private ViewModelBase? _currentPage;
     [ObservableProperty] private bool _canGoBack;
@@ -40,12 +41,13 @@ public sealed partial class MainWindowViewModel : ViewModelBase
     [ObservableProperty] private string _activeNav = "Dashboard";
 
     public MainWindowViewModel(NavigationService nav, SettingsService settings, UpdateService updates,
-        SetActionsService actions, IDialogService dialogs)
+        SetActionsService actions, IDialogService dialogs, LearnLauncher launcher)
     {
         _nav = nav;
         _updates = updates;
         _actions = actions;
         _dialogs = dialogs;
+        _launcher = launcher;
         UiScale = ScaleFor(settings.Load().FontSize);
         _nav.Navigated += OnNavigated;
         _nav.NavigateTo<DashboardViewModel>(clearStack: true);
@@ -96,18 +98,10 @@ public sealed partial class MainWindowViewModel : ViewModelBase
     [RelayCommand] private async Task ImportBackup() { if (await _actions.ImportBackupAsync()) ShowSets(); }
     [RelayCommand] private Task ExportBackup() => _actions.ExportBackupAsync();
 
-    /// <summary>"Alle fälligen lernen" aus dem Menü; Parameter = Modus (Standard Karteikarten).</summary>
+    /// <summary>"Alle fälligen lernen" aus Menü/Sidebar-CTA; Modus per Dialog.</summary>
     [RelayCommand]
-    private void LearnAllDue(string? mode)
-        => _nav.NavigateTo<LearnSessionViewModel>(
-            vm => vm.Initialize(null, L.T("SetsVm_AllDueName"), SessionFilter.Due, ParseMode(mode)));
-
-    private static LearningMode ParseMode(string? s) => s switch
-    {
-        "FreeText" => LearningMode.FreeText,
-        "MultipleChoice" => LearningMode.MultipleChoice,
-        _ => LearningMode.Flashcard
-    };
+    private Task LearnAllDue()
+        => _launcher.StartAsync(null, L.T("SetsVm_AllDueName"), SessionFilter.Due);
 
     /// <summary>Aktualisiert die aktuelle Seite, indem ihre Aktivierung erneut ausgelöst wird.</summary>
     [RelayCommand]

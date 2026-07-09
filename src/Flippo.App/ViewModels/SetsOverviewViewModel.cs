@@ -15,17 +15,19 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
     private readonly VocabularyStore _store;
     private readonly NavigationService _nav;
     private readonly SetActionsService _actions;
+    private readonly LearnLauncher _launcher;
 
     public ObservableCollection<VocabularySet> Sets { get; } = new();
 
     [ObservableProperty] private bool _isLoading;
     [ObservableProperty] private bool _isEmpty;
 
-    public SetsOverviewViewModel(VocabularyStore store, NavigationService nav, SetActionsService actions)
+    public SetsOverviewViewModel(VocabularyStore store, NavigationService nav, SetActionsService actions, LearnLauncher launcher)
     {
         _store = store;
         _nav = nav;
         _actions = actions;
+        _launcher = launcher;
     }
 
     public Task OnActivatedAsync() => LoadAsync();
@@ -55,27 +57,15 @@ public sealed partial class SetsOverviewViewModel : ViewModelBase, IActivatable
         _nav.NavigateTo<SetDetailViewModel>(vm => vm.Initialize(set));
     }
 
-    /// <summary>"Alle fälligen lernen" — Session über alle Karteien; Parameter = Modus (Standard Karteikarten).</summary>
+    /// <summary>"Alle fälligen lernen" — Session über alle Karteien; Modus per Dialog.</summary>
     [RelayCommand]
-    private void LearnAllDue(string? mode)
-        => _nav.NavigateTo<LearnSessionViewModel>(
-            vm => vm.Initialize(null, L.T("SetsVm_AllDueName"), SessionFilter.Due, ParseMode(mode)));
+    private Task LearnAllDue()
+        => _launcher.StartAsync(null, L.T("SetsVm_AllDueName"), SessionFilter.Due);
 
-    private static LearningMode ParseMode(string? s) => s switch
-    {
-        "FreeText" => LearningMode.FreeText,
-        "MultipleChoice" => LearningMode.MultipleChoice,
-        _ => LearningMode.Flashcard
-    };
-
-    /// <summary>Kontextmenü: fällige Karten dieser Kartei als Karteikarten-Session lernen.</summary>
+    /// <summary>Kontextmenü: fällige Karten dieser Kartei lernen; Modus per Dialog.</summary>
     [RelayCommand]
-    private void LearnSet(VocabularySet? set)
-    {
-        if (set is null) return;
-        _nav.NavigateTo<LearnSessionViewModel>(
-            vm => vm.Initialize(set.Id, set.Title, SessionFilter.Due, LearningMode.Flashcard));
-    }
+    private Task LearnSet(VocabularySet? set)
+        => set is null ? Task.CompletedTask : _launcher.StartAsync(set.Id, set.Title, SessionFilter.Due);
 
     [RelayCommand]
     private async Task NewSet()
