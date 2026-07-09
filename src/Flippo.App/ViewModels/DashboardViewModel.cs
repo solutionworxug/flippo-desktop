@@ -35,6 +35,11 @@ public sealed partial class DashboardViewModel : ViewModelBase, IActivatable
     [ObservableProperty] private int _newCards;
     [ObservableProperty] private int _leechCards;
 
+    // Anteile 0..1 für die Chip-Fortschrittsbalken (relativ zum größten der drei Werte)
+    [ObservableProperty] private double _dueShare;
+    [ObservableProperty] private double _newShare;
+    [ObservableProperty] private double _leechShare;
+
     /// <summary>Alle jetzt lernbaren Karten (fällig inkl. neu) — Zahl im CTA.</summary>
     [ObservableProperty] private int _dueTotal;
     [ObservableProperty] private bool _hasDue;
@@ -73,6 +78,10 @@ public sealed partial class DashboardViewModel : ViewModelBase, IActivatable
             DueToday = stats.DueToday;
             NewCards = stats.NewCards;
             LeechCards = stats.LeechCards;
+            int chipMax = Math.Max(1, Math.Max(DueToday, Math.Max(NewCards, LeechCards)));
+            DueShare = (double)DueToday / chipMax;
+            NewShare = (double)NewCards / chipMax;
+            LeechShare = (double)LeechCards / chipMax;
             DueTotal = stats.DueToday + stats.NewCards;   // fällige + neue = jetzt lernbar
             HasDue = DueTotal > 0;
             StreakText = string.Format(L.T("Dash_StreakFormat"), StreakDays);

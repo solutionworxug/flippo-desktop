@@ -9,18 +9,18 @@
              x:DataType="vm:DashboardViewModel">
 
     <ScrollViewer>
-        <StackPanel Spacing="20" Margin="24">
+        <StackPanel Spacing="20" Margin="24" MaxWidth="760">
 
-            <!-- Kopf: Begrüßung + Streak -->
-            <Grid ColumnDefinitions="*,Auto">
-                <TextBlock Grid.Column="0" Classes="display" Text="{Binding Greeting}" VerticalAlignment="Center"/>
-                <Border Grid.Column="1" Classes="streak-pill" IsVisible="{Binding HasStreak}" VerticalAlignment="Center">
+            <!-- Kopf: zentrierte Begrüßung, Streak-Pille rechts -->
+            <Panel>
+                <TextBlock Classes="display" Text="{Binding Greeting}" HorizontalAlignment="Center"/>
+                <Border Classes="streak-pill" IsVisible="{Binding HasStreak}" HorizontalAlignment="Right" VerticalAlignment="Center">
                     <StackPanel Orientation="Horizontal" Spacing="6">
                         <PathIcon Classes="icon" Data="{DynamicResource Icon.streak}" Width="16" Height="16" Foreground="{DynamicResource Brush.Tertiary}"/>
                         <TextBlock Text="{Binding StreakText}" FontWeight="SemiBold" Foreground="{DynamicResource Brush.Tertiary}"/>
                     </StackPanel>
                 </Border>
-            </Grid>
+            </Panel>
 
             <!-- Empty-State: keine Karteien -->
             <Border Classes="app-card" IsVisible="{Binding !HasSets}">
@@ -33,62 +33,64 @@
 
             <!-- CTA / Alles-erledigt (nur mit Karteien) -->
             <Panel IsVisible="{Binding HasSets}">
-                <!-- Jetzt lernen (Hero) -->
-                <Border Classes="hero-card" IsVisible="{Binding HasDue}" Background="{DynamicResource Brush.Accent}">
-                    <Grid ColumnDefinitions="*,Auto">
-                        <StackPanel Grid.Column="0" Spacing="4" VerticalAlignment="Center">
-                            <TextBlock Classes="eyebrow" Text="{loc:T Dash_LearnNow}" Foreground="{DynamicResource Brush.OnAccent}" Opacity="0.85"/>
-                            <TextBlock Classes="metric-lg" Text="{Binding DueTotal}" Foreground="{DynamicResource Brush.OnAccent}"/>
-                            <TextBlock Classes="body" Text="{Binding DueCountText}" Foreground="{DynamicResource Brush.OnAccent}" Opacity="0.9"/>
-                        </StackPanel>
-                        <Button Grid.Column="1" Command="{Binding LearnAllDueCommand}"
-                                Background="{DynamicResource Brush.OnAccent}" Foreground="{DynamicResource Brush.Accent}"
-                                CornerRadius="{DynamicResource Radius.Control}"
-                                VerticalAlignment="Center" MinWidth="140" Padding="18,12">
-                            <StackPanel Orientation="Horizontal" Spacing="8">
-                                <PathIcon Data="{DynamicResource Icon.play}" Width="18" Height="18" Foreground="{DynamicResource Brush.Accent}"/>
-                                <TextBlock Text="{loc:T Dash_LearnNow}" FontWeight="SemiBold"/>
+                <!-- Jetzt lernen (Hero, zentriert, Stitch-Gradient) -->
+                <Border Classes="hero-card" IsVisible="{Binding HasDue}" Background="{DynamicResource Brush.Hero}"
+                        MaxWidth="420" HorizontalAlignment="Center" Padding="28,24">
+                    <StackPanel Spacing="8" HorizontalAlignment="Center">
+                        <TextBlock Classes="eyebrow" Text="{loc:T Dash_LearnNow}" Foreground="{DynamicResource Brush.OnHero}" Opacity="0.85" HorizontalAlignment="Center"/>
+                        <TextBlock Classes="metric-lg" Text="{Binding DueTotal}" Foreground="{DynamicResource Brush.OnHero}" HorizontalAlignment="Center"/>
+                        <TextBlock Classes="body" Text="{Binding DueCountText}" Foreground="{DynamicResource Brush.OnHero}" Opacity="0.9" HorizontalAlignment="Center"/>
+                        <Button Command="{Binding LearnAllDueCommand}"
+                                Background="{DynamicResource Brush.Hero.Button}" Foreground="{DynamicResource Brush.OnHero}"
+                                CornerRadius="{DynamicResource Radius.Pill}"
+                                HorizontalAlignment="Center" MinWidth="180" Padding="20,10" Margin="0,6,0,0">
+                            <StackPanel Orientation="Horizontal" Spacing="8" HorizontalAlignment="Center">
+                                <TextBlock Text="{loc:T Dash_LearnNow}" FontWeight="SemiBold" Foreground="{DynamicResource Brush.OnHero}"/>
+                                <PathIcon Data="{DynamicResource Icon.play}" Width="16" Height="16" Foreground="{DynamicResource Brush.OnHero}"/>
                             </StackPanel>
                         </Button>
-                    </Grid>
+                    </StackPanel>
                 </Border>
                 <!-- Alles erledigt -->
-                <Border Classes="hero-card" IsVisible="{Binding !HasDue}">
-                    <StackPanel Spacing="6">
-                        <PathIcon Data="{DynamicResource Icon.check}" Width="28" Height="28" Foreground="{DynamicResource Brush.Success}"/>
-                        <TextBlock Classes="section" Text="{loc:T Dash_AllDone}"/>
-                        <TextBlock Classes="caption" Text="{loc:T Dash_AllDoneHint}"/>
+                <Border Classes="hero-card" IsVisible="{Binding !HasDue}" MaxWidth="420" HorizontalAlignment="Center">
+                    <StackPanel Spacing="6" HorizontalAlignment="Center">
+                        <PathIcon Data="{DynamicResource Icon.check}" Width="28" Height="28" Foreground="{DynamicResource Brush.Success}" HorizontalAlignment="Center"/>
+                        <TextBlock Classes="section" Text="{loc:T Dash_AllDone}" HorizontalAlignment="Center"/>
+                        <TextBlock Classes="caption" Text="{loc:T Dash_AllDoneHint}" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
             </Panel>
 
-            <!-- Kennzahl-Kacheln -->
+            <!-- Kennzahl-Chips: Zahl + Label + proportionaler Farbbalken (Stitch) -->
             <Grid ColumnDefinitions="*,*,*" IsVisible="{Binding HasSets}">
                 <Border Grid.Column="0" Classes="metric-tile" Margin="0,0,8,0">
-                    <StackPanel HorizontalAlignment="Center" Spacing="8">
-                        <TextBlock Classes="metric" Text="{Binding DueToday}" Foreground="{DynamicResource Brush.Warning}" HorizontalAlignment="Center"/>
-                        <TextBlock Classes="metric-label" Text="{loc:T Sets_Due}" HorizontalAlignment="Center"/>
-                        <Border Height="4" CornerRadius="{DynamicResource Radius.Bar}" Background="{DynamicResource Brush.Surface.Subtle}" HorizontalAlignment="Stretch">
-                            <Border Height="4" CornerRadius="{DynamicResource Radius.Bar}" Background="{DynamicResource Brush.Warning}" HorizontalAlignment="Left" Width="40"/>
-                        </Border>
+                    <StackPanel Spacing="8">
+                        <StackPanel Orientation="Horizontal" Spacing="6" VerticalAlignment="Center">
+                            <TextBlock Classes="metric" FontSize="{DynamicResource Font.Section}" Text="{Binding DueToday}" Foreground="{DynamicResource Brush.Warning}"/>
+                            <TextBlock Classes="caption" Text="{loc:T Sets_Due}" VerticalAlignment="Center"/>
+                        </StackPanel>
+                        <ProgressBar Minimum="0" Maximum="1" Value="{Binding DueShare}" Height="6" CornerRadius="{DynamicResource Radius.Bar}"
+                                     Foreground="{DynamicResource Brush.Warning}" Background="{DynamicResource Brush.Surface.Subtle}"/>
                     </StackPanel>
                 </Border>
                 <Border Grid.Column="1" Classes="metric-tile" Margin="0,0,8,0">
-                    <StackPanel HorizontalAlignment="Center" Spacing="8">
-                        <TextBlock Classes="metric" Text="{Binding NewCards}" Foreground="{DynamicResource Brush.Success}" HorizontalAlignment="Center"/>
-                        <TextBlock Classes="metric-label" Text="{loc:T Sets_New}" HorizontalAlignment="Center"/>
-                        <Border Height="4" CornerRadius="{DynamicResource Radius.Bar}" Background="{DynamicResource Brush.Surface.Subtle}" HorizontalAlignment="Stretch">
-                            <Border Height="4" CornerRadius="{DynamicResource Radius.Bar}" Background="{DynamicResource Brush.Success}" HorizontalAlignment="Left" Width="40"/>
-                        </Border>
+                    <StackPanel Spacing="8">
+                        <StackPanel Orientation="Horizontal" Spacing="6" VerticalAlignment="Center">
+                            <TextBlock Classes="metric" FontSize="{DynamicResource Font.Section}" Text="{Binding NewCards}" Foreground="{DynamicResource Brush.Success}"/>
+                            <TextBlock Classes="caption" Text="{loc:T Sets_New}" VerticalAlignment="Center"/>
+                        </StackPanel>
+                        <ProgressBar Minimum="0" Maximum="1" Value="{Binding NewShare}" Height="6" CornerRadius="{DynamicResource Radius.Bar}"
+                                     Foreground="{DynamicResource Brush.Success}" Background="{DynamicResource Brush.Surface.Subtle}"/>
                     </StackPanel>
                 </Border>
                 <Border Grid.Column="2" Classes="metric-tile">
-                    <StackPanel HorizontalAlignment="Center" Spacing="8">
-                        <TextBlock Classes="metric" Text="{Binding LeechCards}" Foreground="{DynamicResource Brush.Danger}" HorizontalAlignment="Center"/>
-                        <TextBlock Classes="metric-label" Text="{loc:T Stats_Leeches}" HorizontalAlignment="Center"/>
-                        <Border Height="4" CornerRadius="{DynamicResource Radius.Bar}" Background="{DynamicResource Brush.Surface.Subtle}" HorizontalAlignment="Stretch">
-                            <Border Height="4" CornerRadius="{DynamicResource Radius.Bar}" Background="{DynamicResource Brush.Danger}" HorizontalAlignment="Left" Width="40"/>
-                        </Border>
+                    <StackPanel Spacing="8">
+                        <StackPanel Orientation="Horizontal" Spacing="6" VerticalAlignment="Center">
+                            <TextBlock Classes="metric" FontSize="{DynamicResource Font.Section}" Text="{Binding LeechCards}" Foreground="{DynamicResource Brush.Danger}"/>
+                            <TextBlock Classes="caption" Text="{loc:T Stats_Leeches}" VerticalAlignment="Center"/>
+                        </StackPanel>
+                        <ProgressBar Minimum="0" Maximum="1" Value="{Binding LeechShare}" Height="6" CornerRadius="{DynamicResource Radius.Bar}"
+                                     Foreground="{DynamicResource Brush.Danger}" Background="{DynamicResource Brush.Surface.Subtle}"/>
                     </StackPanel>
                 </Border>
             </Grid>
@@ -101,14 +103,14 @@
                 </StackPanel>
             </Border>
 
-            <!-- Schnellzugriff -->
+            <!-- Schnellzugriff (2×2 wie Stitch) -->
             <StackPanel Spacing="10" IsVisible="{Binding HasSets}">
                 <TextBlock Classes="section" Text="{loc:T Dash_QuickActions}"/>
                 <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto">
                     <Border Grid.Row="0" Grid.Column="0" Classes="quick-action" Margin="0,0,6,6">
                         <Button Command="{Binding GoSetsCommand}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Background="Transparent" BorderThickness="0">
                             <StackPanel Orientation="Horizontal" Spacing="10">
-                                <PathIcon Classes="icon" Data="{DynamicResource Icon.decks}"/>
+                                <PathIcon Classes="icon" Data="{DynamicResource Icon.decks}" Foreground="{DynamicResource Brush.Accent}"/>
                                 <TextBlock Classes="body" Text="{loc:T Nav_Sets}"/>
                             </StackPanel>
                         </Button>
@@ -116,7 +118,7 @@
                     <Border Grid.Row="0" Grid.Column="1" Classes="quick-action" Margin="6,0,0,6">
                         <Button Command="{Binding NewSetCommand}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Background="Transparent" BorderThickness="0">
                             <StackPanel Orientation="Horizontal" Spacing="10">
-                                <PathIcon Classes="icon" Data="{DynamicResource Icon.folder-add}"/>
+                                <PathIcon Classes="icon" Data="{DynamicResource Icon.folder-add}" Foreground="{DynamicResource Brush.Accent}"/>
                                 <TextBlock Classes="body" Text="{loc:T Dash_CreateSet}"/>
                             </StackPanel>
                         </Button>
@@ -124,7 +126,7 @@
                     <Border Grid.Row="1" Grid.Column="0" Classes="quick-action" Margin="0,0,6,0">
                         <Button Command="{Binding GoStatisticsCommand}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Background="Transparent" BorderThickness="0">
                             <StackPanel Orientation="Horizontal" Spacing="10">
-                                <PathIcon Classes="icon" Data="{DynamicResource Icon.statistics}"/>
+                                <PathIcon Classes="icon" Data="{DynamicResource Icon.statistics}" Foreground="{DynamicResource Brush.Accent}"/>
                                 <TextBlock Classes="body" Text="{loc:T Nav_Statistics}"/>
                             </StackPanel>
                         </Button>
@@ -132,7 +134,7 @@
                     <Border Grid.Row="1" Grid.Column="1" Classes="quick-action" Margin="6,0,0,0">
                         <Button Command="{Binding LearnAllDueCommand}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Background="Transparent" BorderThickness="0">
                             <StackPanel Orientation="Horizontal" Spacing="10">
-                                <PathIcon Classes="icon" Data="{DynamicResource Icon.play}"/>
+                                <PathIcon Classes="icon" Data="{DynamicResource Icon.play}" Foreground="{DynamicResource Brush.Accent}"/>
                                 <TextBlock Classes="body" Text="{loc:T Dash_ActionLearn}"/>
                             </StackPanel>
                         </Button>
